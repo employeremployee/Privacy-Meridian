@@ -1,4 +1,291 @@
 {
-  "jurisdiction": {},
-  "categories": []
+  "jurisdiction": {
+    "id": "ccpa",
+    "name": "CCPA/CPRA",
+    "fullName": "California Consumer Privacy Act / California Privacy Rights Act",
+    "citation": "Cal. Civ. Code \u00a7 1798.100 et seq.",
+    "region": "California, United States",
+    "badge": "CA",
+    "effectiveDate": "2020-01-01",
+    "cpraEffectiveDate": "2023-01-01",
+    "sourceUrl": "https://oag.ca.gov/privacy/ccpa",
+    "authority": {
+      "name": "CPPA",
+      "url": "https://cppa.ca.gov"
+    },
+    "sourceUrls": [
+      "https://oag.ca.gov/privacy/ccpa",
+      "https://leginfo.legislature.ca.gov",
+      "https://cppa.ca.gov"
+    ]
+  },
+  "categories": [
+    {
+      "categoryId": "governance",
+      "articles": [
+        {
+          "id": "ccpa-scope",
+          "articleRef": "Overview",
+          "surfaceLabel": "Does California Privacy Law Apply to Your Business?",
+          "plainSummary": "California's privacy laws apply to many businesses that collect information about California residents \u2014 even if the business is not located in California. If your business meets certain size or revenue thresholds, you have legal obligations to those residents regardless of where your company is based.",
+          "professionalLayer": "The CCPA as amended by the CPRA applies to for-profit businesses that collect personal information from California residents and meet one or more of three thresholds: annual gross revenues exceeding $25 million; annual buying, selling, or sharing of personal information of 100,000 or more consumers or households; or deriving 50% or more of annual revenues from selling or sharing consumers' personal information. Unlike GDPR, CCPA/CPRA does not apply to non-profits or government entities. The law applies to personal information of California residents regardless of where the business is located. CPRA introduced the California Privacy Protection Agency as an independent enforcement body separate from the Attorney General.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "CCPA Text \u2014 California AG",
+              "url": "https://oag.ca.gov/privacy/ccpa"
+            },
+            {
+              "label": "CPRA Text \u2014 California Legislative Information",
+              "url": "https://leginfo.legislature.ca.gov"
+            },
+            {
+              "label": "CPPA Regulations",
+              "url": "https://cppa.ca.gov"
+            }
+          ],
+          "tooltipTerms": [
+            "data-subject",
+            "service-provider-contractor-third-party"
+          ],
+          "assessTrigger": "Does your organization meet one or more of the three CCPA/CPRA thresholds \u2014 and have you assessed whether your service providers and contractors have appropriate contractual obligations in place?",
+          "gapRemediation": {
+            "smb": "Many small businesses fall below the CCPA/CPRA thresholds and are not covered. Confirm your revenue and data volume figures against all three thresholds annually as your business grows.",
+            "midMarket": "Mid-market organizations frequently meet the revenue or data volume thresholds without realizing it. A threshold assessment should be part of your annual privacy program review.",
+            "enterprise": "Enterprise organizations subject to CCPA/CPRA require a comprehensive program covering all consumer rights, notice obligations, contractor and service provider agreements, and CPPA regulatory engagement."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": [
+                "gdpr"
+              ],
+              "note": "CCPA/CPRA applies only to for-profit entities meeting thresholds. GDPR applies to any organization processing EU resident data regardless of size or profit status."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "data-subject-rights",
+      "articles": [
+        {
+          "id": "ccpa-right-to-know",
+          "articleRef": "Section 1798.100",
+          "surfaceLabel": "Your Right to Know What Is Collected About You",
+          "plainSummary": "California residents have the right to ask a business what personal information it has collected about them, where it came from, why it was collected, and who it has been shared with or sold to.",
+          "professionalLayer": "The Right to Know under CCPA/CPRA has two components: the right to know the categories and specific pieces of personal information collected, and the right to know the categories of sources, business purposes, and third parties with whom information is shared or sold. Businesses must respond to verifiable consumer requests covering the 12-month period preceding the request. CPRA extended the lookback to include information collected on or after January 1, 2022 without a 12-month limitation where technically feasible. Unlike GDPR's right of access, CCPA explicitly covers household-level data in addition to individual data, creating additional complexity for verification and response.",
+          "responseTimeline": "45 days from receipt of a verifiable consumer request. Extendable by an additional 45 days where reasonably necessary, with notice to the consumer within the initial period.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Section 1798.100 \u2014 California AG",
+              "url": "https://oag.ca.gov/privacy/ccpa"
+            },
+            {
+              "label": "CPPA Regulations",
+              "url": "https://cppa.ca.gov"
+            }
+          ],
+          "tooltipTerms": [
+            "verifiable-consumer-request",
+            "data-subject"
+          ],
+          "assessTrigger": "Does your organization have a process to respond to Right to Know requests covering both categories and specific pieces of personal information \u2014 and can you identify and disclose all third parties with whom information has been shared or sold?",
+          "gapRemediation": {
+            "smb": "A documented intake process and a privacy policy that accurately reflects your data collection and sharing practices are the starting point. The most common gap is a privacy policy that does not match actual data practices. Semi-annual review recommended.",
+            "midMarket": "At this scale the challenge is maintaining accurate records of data sharing relationships \u2014 particularly third-party sharing for advertising purposes. Your data inventory needs to capture not just what you collect but who you share it with and for what purpose.",
+            "enterprise": "Enterprise Right to Know responses require integration between your DSR platform and your data inventory, including advertising technology partners and data brokers. The household data complexity requires verification protocols that balance consumer access with household member privacy."
+          },
+          "comparisonFlags": [
+            {
+              "type": "additional-requirement",
+              "jurisdictions": [
+                "gdpr"
+              ],
+              "note": "CCPA Right to Know covers a 12-month lookback period. GDPR Article 15 has no lookback limitation."
+            }
+          ]
+        },
+        {
+          "id": "ccpa-right-to-delete",
+          "articleRef": "Section 1798.105",
+          "surfaceLabel": "Your Right to Delete Your Information",
+          "plainSummary": "California residents can ask businesses to delete personal information the business has collected about them. The business must also direct its service providers to delete that information.",
+          "professionalLayer": "CCPA/CPRA's Right to Delete parallels GDPR's Right to Erasure but with key structural differences. Businesses must delete personal information upon a verifiable consumer request subject to nine exceptions, including completing a transaction, detecting security incidents, complying with legal obligations, and engaging in research. Critically, businesses must direct service providers and contractors to delete the consumer's information. CPRA added a requirement that businesses notify third parties to whom they sold or shared the information to delete it.",
+          "responseTimeline": "45 days from receipt. Extendable by an additional 45 days where reasonably necessary.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Section 1798.105 \u2014 California AG",
+              "url": "https://oag.ca.gov/privacy/ccpa"
+            },
+            {
+              "label": "CPPA Regulations",
+              "url": "https://cppa.ca.gov"
+            }
+          ],
+          "tooltipTerms": [
+            "service-provider-contractor-third-party",
+            "verifiable-consumer-request"
+          ],
+          "assessTrigger": "Does your deletion process extend to your service providers and contractors \u2014 and following CPRA, do you notify third parties to whom you sold or shared the consumer's information to delete it as well?",
+          "gapRemediation": {
+            "smb": "Ensure your service provider contracts include deletion obligations that mirror your consumer commitments. The most common gap is fulfilling deletion internally without directing service providers.",
+            "midMarket": "Map your service provider and contractor relationships to understand the downstream deletion cascade. Your deletion workflow should automatically trigger service provider notifications.",
+            "enterprise": "Enterprise deletion programs require orchestrated workflows across service providers, contractors, and third parties. Sale and sharing relationships must be documented to enable CPRA-compliant third-party notification."
+          },
+          "comparisonFlags": []
+        },
+        {
+          "id": "ccpa-right-to-correct",
+          "articleRef": "Section 1798.106",
+          "surfaceLabel": "Your Right to Correct Inaccurate Information",
+          "plainSummary": "The CPRA added the right to ask businesses to correct inaccurate personal information they hold about you. This right did not exist under the original CCPA.",
+          "professionalLayer": "CPRA Section 1798.106 introduced the Right to Correct, bringing California closer to GDPR's Article 16 framework. Upon a verifiable consumer request, businesses must use commercially reasonable efforts to correct inaccurate personal information. The standard of commercially reasonable efforts is less prescriptive than GDPR's undue delay standard. Businesses must direct service providers and contractors to correct the information. Unlike GDPR Article 16, CPRA does not have an explicit downstream notification obligation to third parties beyond service providers and contractors.",
+          "responseTimeline": "45 days from receipt. Extendable by an additional 45 days where reasonably necessary.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Section 1798.106 \u2014 California Legislative Information",
+              "url": "https://leginfo.legislature.ca.gov"
+            },
+            {
+              "label": "CPPA Regulations",
+              "url": "https://cppa.ca.gov"
+            }
+          ],
+          "tooltipTerms": [
+            "service-provider-contractor-third-party"
+          ],
+          "assessTrigger": "Does your organization have a correction process that extends to service providers and contractors \u2014 and have you assessed whether your third-party sale or sharing relationships implicate a practical notification obligation?",
+          "gapRemediation": {
+            "smb": "Build correction handling into your existing DSR process alongside deletion. Service provider contracts should include correction obligations.",
+            "midMarket": "Your correction workflow should parallel your deletion workflow in terms of downstream service provider notification.",
+            "enterprise": "Enterprise correction programs should integrate with data quality and master data management systems. The practical notification question for third-party relationships should be resolved in consultation with legal counsel."
+          },
+          "comparisonFlags": [
+            {
+              "type": "additional-requirement",
+              "jurisdictions": [
+                "gdpr"
+              ],
+              "note": "CPRA's commercially reasonable efforts standard is less prescriptive than GDPR's undue delay standard."
+            }
+          ]
+        },
+        {
+          "id": "ccpa-right-to-opt-out",
+          "articleRef": "Section 1798.120",
+          "surfaceLabel": "Your Right to Stop Your Data Being Sold or Shared",
+          "plainSummary": "California residents have the right to tell a business to stop selling or sharing their personal information with other companies. Businesses that sell or share data must display a clear link on their website and must honor the Global Privacy Control signal.",
+          "professionalLayer": "CCPA introduced the Right to Opt-Out of Sale. CPRA extended this to cover sharing for cross-context behavioral advertising even without monetary consideration. Businesses must provide a clear opt-out mechanism, must honor opt-outs within 15 business days, and must not re-engage the consumer in the sale or sharing of their information for 12 months without explicit consent. The Global Privacy Control signal must be honored as a valid opt-out. This requirement has no direct GDPR equivalent \u2014 it is one of the most substantive structural differences between the two frameworks.",
+          "responseTimeline": "Opt-out must be honored within 15 business days. 12-month moratorium on re-engagement without explicit consent.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Section 1798.120 \u2014 California AG",
+              "url": "https://oag.ca.gov/privacy/ccpa"
+            },
+            {
+              "label": "CPPA GPC Guidance",
+              "url": "https://cppa.ca.gov"
+            }
+          ],
+          "tooltipTerms": [
+            "sale-sharing",
+            "gpc",
+            "cross-context-behavioral-advertising"
+          ],
+          "assessTrigger": "Does your organization honor the Global Privacy Control signal as an opt-out \u2014 and have you assessed whether your advertising technology practices constitute sharing under the CPRA definition?",
+          "gapRemediation": {
+            "smb": "If you use advertising pixels, tracking cookies, or data management platforms, assess whether those practices constitute sale or sharing under CPRA. Many small businesses are surprised to discover their standard advertising setup triggers this obligation.",
+            "midMarket": "A consent management platform that honors GPC signals and integrates with your advertising technology stack is the standard implementation at this scale.",
+            "enterprise": "Enterprise opt-out programs require real-time signal processing across complex advertising technology ecosystems. GPC signal compliance must be technically auditable."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": [
+                "gdpr"
+              ],
+              "note": "The Right to Opt-Out of Sale or Sharing has no direct GDPR equivalent. GDPR's Article 21 Right to Object covers adjacent ground but is structurally different."
+            }
+          ]
+        },
+        {
+          "id": "ccpa-right-to-limit-spi",
+          "articleRef": "Section 1798.121",
+          "surfaceLabel": "Your Right to Limit How Your Most Sensitive Data Is Used",
+          "plainSummary": "The CPRA created a new right for California residents to limit how businesses use certain sensitive types of personal information. Businesses can only use this information for specific permitted purposes unless you agree otherwise.",
+          "professionalLayer": "CPRA Section 1798.121 gives consumers the right to direct businesses to limit the use and disclosure of sensitive personal information to uses necessary to perform services or provide goods. Sensitive personal information is a defined category including Social Security numbers, financial account credentials, precise geolocation, racial or ethnic origin, religious beliefs, union membership, contents of communications, genetic data, biometric data, health information, and sexual orientation. Businesses that use sensitive personal information for purposes beyond the permitted uses must provide a Limit the Use of My Sensitive Personal Information link. This right has structural similarities to GDPR's special category protections under Article 9 but operates through an opt-out mechanism rather than a lawful basis requirement.",
+          "responseTimeline": "15 business days to honor a request to limit use of sensitive personal information.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Section 1798.121 \u2014 California Legislative Information",
+              "url": "https://leginfo.legislature.ca.gov"
+            },
+            {
+              "label": "CPPA Regulations",
+              "url": "https://cppa.ca.gov"
+            }
+          ],
+          "tooltipTerms": [
+            "sensitive-data",
+            "opt-in-opt-out"
+          ],
+          "assessTrigger": "Has your organization identified all uses of sensitive personal information and assessed whether those uses require a Limit the Use opt-out mechanism \u2014 and is that mechanism implemented and honored within the required timeframe?",
+          "gapRemediation": {
+            "smb": "Identify whether you collect any CPRA-defined sensitive personal information and whether your use of it goes beyond the permitted purposes. If it does, implement the required link and opt-out mechanism.",
+            "midMarket": "A sensitive data inventory is the starting point. Map all sensitive personal information processing against the permitted use categories.",
+            "enterprise": "Enterprise sensitive data programs require integration between your data classification system, your consent management platform, and your processing workflows."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": [
+                "gdpr"
+              ],
+              "note": "CPRA uses an opt-out mechanism. GDPR Article 9 requires a specific lawful basis before processing can begin \u2014 a fundamentally different architectural approach."
+            }
+          ]
+        },
+        {
+          "id": "ccpa-non-discrimination",
+          "articleRef": "Section 1798.125",
+          "surfaceLabel": "Your Right to Fair Treatment for Exercising Privacy Rights",
+          "plainSummary": "A business cannot treat you worse \u2014 charge you more, provide lower quality service, or deny you access \u2014 simply because you exercised your privacy rights. However, businesses can offer financial incentives for sharing your data if clearly disclosed.",
+          "professionalLayer": "Section 1798.125 prohibits businesses from discriminating against consumers for exercising their CCPA/CPRA rights. Prohibited conduct includes denying goods or services, charging different prices, providing different quality, or suggesting that any of these will occur. However, businesses may offer financial incentives related to the collection or sale of personal information, provided the incentive is not unjust, unreasonable, coercive, or usurious. Businesses offering financial incentives must provide a notice describing the material terms. This right has no precise GDPR equivalent.",
+          "responseTimeline": "Ongoing operational obligation \u2014 no specific response timeline.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Section 1798.125 \u2014 California AG",
+              "url": "https://oag.ca.gov/privacy/ccpa"
+            }
+          ],
+          "tooltipTerms": [],
+          "assessTrigger": "Does your organization have controls to ensure consumers who exercise privacy rights receive equivalent service \u2014 and if you offer financial incentives for data sharing, are those incentives properly disclosed and non-coercive?",
+          "gapRemediation": {
+            "smb": "Ensure your customer service team understands that exercising privacy rights cannot result in different treatment. If you offer loyalty programs tied to data sharing, review the disclosure and fairness of those programs.",
+            "midMarket": "System controls that prevent differential pricing or service based on privacy right exercise should be implemented and tested.",
+            "enterprise": "Enterprise non-discrimination compliance requires controls across pricing, customer service, and loyalty systems. Financial incentive programs at scale attract CPPA scrutiny."
+          },
+          "comparisonFlags": [
+            {
+              "type": "additional-requirement",
+              "jurisdictions": [
+                "gdpr",
+                "lgpd",
+                "pipl"
+              ],
+              "note": "The Right to Non-Discrimination is a CCPA/CPRA-specific right with no direct structural equivalent in the other three v1 jurisdictions."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,3 +1,326 @@
 {
-  "rows": []
+  "rows": [
+    {
+      "id": "dsr-response-timeline",
+      "categoryId": "data-subject-rights",
+      "label": "Response Timeline for Individual Rights Requests",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "1 month (extendable to 3 months)",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "45 days (extendable to 90 days)",
+          "differenceType": "additional-requirement"
+        },
+        "lgpd": {
+          "value": "15 days",
+          "differenceType": "additional-requirement"
+        },
+        "pipl": {
+          "value": "15 working days",
+          "differenceType": "additional-requirement"
+        }
+      }
+    },
+    {
+      "id": "right-to-correct",
+      "categoryId": "data-subject-rights",
+      "label": "Right to Correct Inaccurate Data",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "Article 16 \u2014 without undue delay",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "Section 1798.106 (CPRA only) \u2014 commercially reasonable efforts",
+          "differenceType": "additional-requirement"
+        },
+        "lgpd": {
+          "value": "Article 18, III \u2014 within 15 days",
+          "differenceType": "additional-requirement"
+        },
+        "pipl": {
+          "value": "Article 46 \u2014 within 15 working days after verification",
+          "differenceType": "additional-requirement"
+        }
+      }
+    },
+    {
+      "id": "right-to-portability",
+      "categoryId": "data-subject-rights",
+      "label": "Data Portability",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "Article 20 \u2014 consent or contract basis only. Machine-readable format.",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "Right to Know includes specific pieces. Portability not explicitly required.",
+          "differenceType": "additional-requirement"
+        },
+        "lgpd": {
+          "value": "Article 18, V \u2014 subject to ANPD regulation. Still developing.",
+          "differenceType": "additional-requirement"
+        },
+        "pipl": {
+          "value": "Article 45 \u2014 access plus transfer channel where CAC conditions met.",
+          "differenceType": "additional-requirement"
+        }
+      }
+    },
+    {
+      "id": "automated-decision-making",
+      "categoryId": "data-subject-rights",
+      "label": "Automated Decision-Making Rights",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "Article 22 \u2014 right not to be subject to solely automated decisions with legal effects. Exceptions apply with human review safeguard.",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "No direct equivalent right. Profiling restrictions apply in some contexts.",
+          "differenceType": "additional-requirement"
+        },
+        "lgpd": {
+          "value": "Article 20 \u2014 right to review of automated decisions. Similar to GDPR.",
+          "differenceType": "additional-requirement"
+        },
+        "pipl": {
+          "value": "Article 24 \u2014 opt-out, human review, non-personalized options, and anti-differential pricing provision.",
+          "differenceType": "structural-difference"
+        }
+      }
+    },
+    {
+      "id": "breach-notification-timeline",
+      "categoryId": "breach-notification",
+      "label": "Breach Notification Timeline to Authority",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "72 hours from awareness",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "Without unreasonable delay. No fixed hour threshold.",
+          "differenceType": "additional-requirement"
+        },
+        "lgpd": {
+          "value": "2 business days (preliminary) + 5 business days (supplementary)",
+          "differenceType": "structural-difference"
+        },
+        "pipl": {
+          "value": "Immediately upon discovery. Some sectors specify 24 hours.",
+          "differenceType": "structural-difference"
+        }
+      }
+    },
+    {
+      "id": "breach-individual-notification",
+      "categoryId": "breach-notification",
+      "label": "Breach Notification to Affected Individuals",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "Article 34 \u2014 without undue delay where high risk to individuals",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "Required for breaches of defined sensitive data categories",
+          "differenceType": "additional-requirement"
+        },
+        "lgpd": {
+          "value": "Article 48 \u2014 when relevant harm may occur to data subjects",
+          "differenceType": "additional-requirement"
+        },
+        "pipl": {
+          "value": "Article 57 \u2014 immediately. May be replaced by public announcement if harm avoided.",
+          "differenceType": "additional-requirement"
+        }
+      }
+    },
+    {
+      "id": "data-localization",
+      "categoryId": "international-transfers",
+      "label": "Data Localization Requirements",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "Not required. Cross-border transfers permitted under Chapter V mechanisms.",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "Not required.",
+          "differenceType": null
+        },
+        "lgpd": {
+          "value": "Not required. Cross-border transfers permitted under ANPD-approved mechanisms.",
+          "differenceType": null
+        },
+        "pipl": {
+          "value": "Required for CIIOs and handlers processing above CAC volume thresholds. CAC security assessment required for transfers.",
+          "differenceType": "structural-difference"
+        }
+      }
+    },
+    {
+      "id": "cross-border-transfer-mechanisms",
+      "categoryId": "international-transfers",
+      "label": "Cross-Border Transfer Mechanisms",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "Adequacy decisions, SCCs, BCRs, derogations (Article 46-49)",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "No specific cross-border transfer restrictions. Service provider contracts required.",
+          "differenceType": "additional-requirement"
+        },
+        "lgpd": {
+          "value": "Adequacy recognition, ANPD-approved SCCs, BCRs, specific consent (Articles 33-36)",
+          "differenceType": "additional-requirement"
+        },
+        "pipl": {
+          "value": "CAC security assessment, certification, CAC standard contracts only. No adequacy decision mechanism. GDPR SCCs not recognized.",
+          "differenceType": "structural-difference"
+        }
+      }
+    },
+    {
+      "id": "opt-out-vs-opt-in",
+      "categoryId": "legal-bases",
+      "label": "Consent Model",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "Opt-in. Affirmative consent required before processing where consent is the legal basis.",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "Opt-out model for most processing. Opt-in required for sale/sharing of minors' data.",
+          "differenceType": "structural-difference"
+        },
+        "lgpd": {
+          "value": "Opt-in. Consent must be free, informed, unambiguous, and purpose-specific. Closely aligned with GDPR.",
+          "differenceType": null
+        },
+        "pipl": {
+          "value": "Opt-in. Separate consent required per purpose. Bundled consent not permitted.",
+          "differenceType": "additional-requirement"
+        }
+      }
+    },
+    {
+      "id": "scope-applicability",
+      "categoryId": "governance",
+      "label": "Who the Law Applies To",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "Any organization processing EU resident data regardless of size, location, or profit status.",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "For-profit businesses only, meeting one of three revenue/data volume thresholds.",
+          "differenceType": "structural-difference"
+        },
+        "lgpd": {
+          "value": "Any person or entity, public or private, processing data of individuals in Brazil.",
+          "differenceType": null
+        },
+        "pipl": {
+          "value": "Any handler processing personal information of individuals within China, including extraterritorially.",
+          "differenceType": null
+        }
+      }
+    },
+    {
+      "id": "dpo-requirement",
+      "categoryId": "governance",
+      "label": "Privacy Officer Requirement",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "Mandatory DPO for public authorities, large-scale monitoring, and special category processing.",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "No mandatory privacy officer role. Privacy program obligations exist without a named officer requirement.",
+          "differenceType": "additional-requirement"
+        },
+        "lgpd": {
+          "value": "Encarregado mandatory for controllers. Broader requirement than GDPR DPO threshold.",
+          "differenceType": "additional-requirement"
+        },
+        "pipl": {
+          "value": "Handlers processing above a threshold must designate a person responsible for PIPL compliance.",
+          "differenceType": "additional-requirement"
+        }
+      }
+    },
+    {
+      "id": "sensitive-data-categories",
+      "categoryId": "sensitive-data",
+      "label": "Sensitive Data Categories",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "Article 9: racial/ethnic origin, political opinions, religious beliefs, trade union membership, genetic data, biometric data, health data, sex life/sexual orientation.",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "Broader list including SSNs, financial credentials, precise geolocation, racial/ethnic origin, religious beliefs, union membership, communications contents, genetic data, biometric data, health, sex life.",
+          "differenceType": "additional-requirement"
+        },
+        "lgpd": {
+          "value": "Racial/ethnic origin, religious belief, political opinion, union/religious membership, health/sex data, genetic/biometric data. Similar to GDPR.",
+          "differenceType": null
+        },
+        "pipl": {
+          "value": "Biometric characteristics, religious beliefs, specially designated status, medical health, financial accounts, personal location tracking, personal information of minors under 14.",
+          "differenceType": "additional-requirement"
+        }
+      }
+    },
+    {
+      "id": "right-to-opt-out-sale",
+      "categoryId": "data-subject-rights",
+      "label": "Right to Opt Out of Sale or Sharing",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "No direct equivalent. Article 21 Right to Object covers adjacent ground for legitimate interest processing.",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "Explicit right to opt out of sale and sharing (including cross-context behavioral advertising). GPC signal must be honored.",
+          "differenceType": "structural-difference"
+        },
+        "lgpd": {
+          "value": "No direct equivalent right. Consent withdrawal and deletion rights address some similar scenarios.",
+          "differenceType": null
+        },
+        "pipl": {
+          "value": "No direct equivalent right. Individual consent framework addresses some similar scenarios.",
+          "differenceType": null
+        }
+      }
+    },
+    {
+      "id": "pia-requirement",
+      "categoryId": "privacy-assessments",
+      "label": "Privacy Impact Assessment Requirements",
+      "jurisdictions": {
+        "gdpr": {
+          "value": "Article 35 \u2014 mandatory PIA for high-risk processing. Supervisory authorities publish trigger lists.",
+          "differenceType": null
+        },
+        "ccpa": {
+          "value": "CPPA has authority to require risk assessments under CPRA. Regulations still developing.",
+          "differenceType": "additional-requirement"
+        },
+        "lgpd": {
+          "value": "Article 38 \u2014 ANPD may require reports for risky processing. Trigger criteria still developing.",
+          "differenceType": "additional-requirement"
+        },
+        "pipl": {
+          "value": "Article 55 \u2014 mandatory PIPIA before processing sensitive data, automated decisions, third-party sharing, international transfers, and other high-impact activities. Broader trigger scope than GDPR.",
+          "differenceType": "additional-requirement"
+        }
+      }
+    }
+  ]
 }

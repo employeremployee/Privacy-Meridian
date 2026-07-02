@@ -14,6 +14,11 @@
     "byTopic": "By Topic",
     "byMap": "By Map"
   },
+  "contentBlock": {
+    "timelineLabel": "Response Timeline",
+    "sourceLinksLabel": "Sources",
+    "crossReferencesLabel": "Related Articles"
+  },
   "footer": {
     "sourceAttribution": "Content draws from official regulatory texts and public guidance.",
     "about": "About",

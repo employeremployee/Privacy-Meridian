@@ -1,3 +1,92 @@
 {
-  "categories": []
+  "categories": [
+    {
+      "id": "data-subject-rights",
+      "slug": "data-subject-rights",
+      "label": "Data Rights",
+      "plainLabel": "Your Rights as an Individual",
+      "description": "The rights individuals have over their personal data, including access, correction, deletion, and portability.",
+      "order": 1
+    },
+    {
+      "id": "legal-bases",
+      "slug": "legal-bases",
+      "label": "Legal Bases for Processing",
+      "plainLabel": "Why Companies Are Allowed to Use Your Data",
+      "description": "The valid legal reasons an organization must have before collecting or using personal data.",
+      "order": 2
+    },
+    {
+      "id": "sensitive-data",
+      "slug": "sensitive-data",
+      "label": "Sensitive Data",
+      "plainLabel": "Extra Protection for Your Most Sensitive Information",
+      "description": "Special categories of personal data that receive stronger legal protection.",
+      "order": 3
+    },
+    {
+      "id": "transparency",
+      "slug": "transparency",
+      "label": "Transparency and Notice",
+      "plainLabel": "Your Right to Know How Your Data Is Used",
+      "description": "Requirements for organizations to inform individuals about data collection and use.",
+      "order": 4
+    },
+    {
+      "id": "vendor-management",
+      "slug": "vendor-management",
+      "label": "Vendor and Processor Management",
+      "plainLabel": "Rules for Companies That Handle Data on Your Behalf",
+      "description": "Requirements for contracts and oversight of third parties that process personal data.",
+      "order": 5
+    },
+    {
+      "id": "breach-notification",
+      "slug": "breach-notification",
+      "label": "Breach Notification",
+      "plainLabel": "What Happens When Your Data Is Compromised",
+      "description": "Requirements to notify regulators and individuals when personal data is exposed.",
+      "order": 6
+    },
+    {
+      "id": "international-transfers",
+      "slug": "international-transfers",
+      "label": "International Data Transfers",
+      "plainLabel": "Moving Personal Data Across Borders",
+      "description": "Rules governing when and how personal data can be transferred to other countries.",
+      "order": 7
+    },
+    {
+      "id": "automated-decisions",
+      "slug": "automated-decisions",
+      "label": "Automated Decision-Making",
+      "plainLabel": "Your Rights When Algorithms Make Decisions About You",
+      "description": "Requirements and restrictions on decisions made solely by automated systems.",
+      "order": 8
+    },
+    {
+      "id": "privacy-assessments",
+      "slug": "privacy-assessments",
+      "label": "Privacy Impact Assessments",
+      "plainLabel": "Checking the Privacy Risks Before You Start",
+      "description": "Requirements to assess privacy risks before starting high-risk processing activities.",
+      "order": 9
+    },
+    {
+      "id": "governance",
+      "slug": "governance",
+      "label": "Privacy Governance",
+      "plainLabel": "How Organizations Must Manage Privacy Internally",
+      "description": "Requirements for internal privacy programs, officers, and record-keeping.",
+      "order": 10
+    },
+    {
+      "id": "enforcement",
+      "slug": "enforcement",
+      "label": "Enforcement and Penalties",
+      "plainLabel": "Who Enforces These Rules and What Happens If You Break Them",
+      "description": "The regulatory authorities and penalties that apply for non-compliance.",
+      "order": 11
+    }
+  ]
 }

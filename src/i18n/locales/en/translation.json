@@ -53,6 +53,14 @@
   "languageSelector": {
     "label": "Language"
   },
+  "regulationNav": {
+    "label": "Choose a jurisdiction",
+    "heading": "Choose a Jurisdiction"
+  },
+  "topicNav": {
+    "label": "Choose a topic",
+    "heading": "Choose a Topic"
+  },
   "footer": {
     "sourceAttribution": "Content draws from official regulatory texts and public guidance.",
     "about": "About",

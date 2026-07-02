@@ -8,6 +8,7 @@ import glossaryData from '../data/glossary.json'
 import categoriesData from '../data/framework/categories.json'
 import ContentBlock from '../components/ContentBlock.jsx'
 import JurisdictionBadge from '../components/JurisdictionBadge.jsx'
+import RegulationNav from '../components/RegulationNav.jsx'
 import { getCategoryArticles } from '../utils/contentLookup.js'
 
 const JURISDICTIONS = {
@@ -26,7 +27,11 @@ function RegulationPage() {
   const jurisdictionData = JURISDICTIONS[jurisdictionId]
 
   if (!jurisdictionData) {
-    return <main></main>
+    return (
+      <main className="mx-auto max-w-[1200px] px-4 py-8">
+        <RegulationNav />
+      </main>
+    )
   }
 
   const resolvedCategoryId = categoryId || DEFAULT_CATEGORY_ID

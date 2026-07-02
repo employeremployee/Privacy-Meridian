@@ -7,6 +7,7 @@ import glossaryData from '../data/glossary.json'
 import gridData from '../data/comparison/grid.json'
 import categoriesData from '../data/framework/categories.json'
 import ComparisonGrid from '../components/ComparisonGrid.jsx'
+import TopicNav from '../components/TopicNav.jsx'
 
 const JURISDICTIONS_DATA = {
   gdpr: gdprData,
@@ -17,15 +18,14 @@ const JURISDICTIONS_DATA = {
 
 function TopicPage() {
   const { categoryId } = useParams()
+  const rows = categoryId ? gridData.rows.filter((row) => row.categoryId === categoryId) : []
 
-  if (!categoryId) {
-    return <main></main>
-  }
-
-  const rows = gridData.rows.filter((row) => row.categoryId === categoryId)
-
-  if (rows.length === 0) {
-    return <main></main>
+  if (!categoryId || rows.length === 0) {
+    return (
+      <main className="mx-auto max-w-[1200px] px-4 py-8">
+        <TopicNav />
+      </main>
+    )
   }
 
   const categoryMeta = categoriesData.categories.find((c) => c.id === categoryId)

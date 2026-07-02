@@ -1,10 +1,15 @@
+import { useMode } from '../context/ModeContext.jsx'
 import SurfaceLabel from './SurfaceLabel.jsx'
 import ProfessionalLayer from './ProfessionalLayer.jsx'
 import CrossReference from './CrossReference.jsx'
 import Timeline from './Timeline.jsx'
 import SourceLinks from './SourceLinks.jsx'
+import AssessTrigger from './AssessTrigger.jsx'
+import GapRemediation from './GapRemediation.jsx'
 
 function ContentBlock({ article, jurisdictionId, jurisdictionData, glossaryData }) {
+  const { mode } = useMode()
+
   return (
     <article
       id={article.id}
@@ -27,6 +32,12 @@ function ContentBlock({ article, jurisdictionId, jurisdictionData, glossaryData 
       />
       {article.responseTimeline && <Timeline timeline={article.responseTimeline} />}
       <SourceLinks links={article.sourceLinks} />
+      {mode === 'assess' && (
+        <>
+          <AssessTrigger trigger={article.assessTrigger} />
+          <GapRemediation gapRemediation={article.gapRemediation} />
+        </>
+      )}
     </article>
   )
 }

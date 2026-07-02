@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import ModeToggle from './ModeToggle.jsx'
 
 function Header() {
   const { t } = useTranslation()
@@ -12,22 +13,7 @@ function Header() {
           <p className="text-sm text-white/80">{t('app.tagline')}</p>
         </Link>
 
-        <div role="group" aria-label={t('mode.groupLabel')} className="inline-flex flex-wrap gap-2">
-          <button
-            type="button"
-            disabled
-            className="rounded-md px-3 py-1.5 text-xs font-medium text-white/50"
-          >
-            {t('mode.inform')}
-          </button>
-          <button
-            type="button"
-            disabled
-            className="rounded-md px-3 py-1.5 text-xs font-medium text-white/50"
-          >
-            {t('mode.assess')}
-          </button>
-        </div>
+        <ModeToggle />
       </div>
     </header>
   )

@@ -22,6 +22,17 @@
   "glossary": {
     "learnMore": "Learn more"
   },
+  "assess": {
+    "considerLabel": "Consider"
+  },
+  "gapRemediation": {
+    "heading": "How to Close the Gap"
+  },
+  "tiers": {
+    "smb": "Small Business",
+    "midMarket": "Mid-Market",
+    "enterprise": "Enterprise"
+  },
   "footer": {
     "sourceAttribution": "Content draws from official regulatory texts and public guidance.",
     "about": "About",

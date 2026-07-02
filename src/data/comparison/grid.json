@@ -7,19 +7,23 @@
       "jurisdictions": {
         "gdpr": {
           "value": "1 month (extendable to 3 months)",
-          "differenceType": null
+          "differenceType": null,
+          "articleId": "gdpr-art15"
         },
         "ccpa": {
           "value": "45 days (extendable to 90 days)",
-          "differenceType": "additional-requirement"
+          "differenceType": "additional-requirement",
+          "articleId": "ccpa-right-to-know"
         },
         "lgpd": {
           "value": "15 days",
-          "differenceType": "additional-requirement"
+          "differenceType": "additional-requirement",
+          "articleId": "lgpd-art18-access"
         },
         "pipl": {
           "value": "15 working days",
-          "differenceType": "additional-requirement"
+          "differenceType": "additional-requirement",
+          "articleId": "pipl-art44"
         }
       }
     },
@@ -30,11 +34,13 @@
       "jurisdictions": {
         "gdpr": {
           "value": "Article 16 \u2014 without undue delay",
-          "differenceType": null
+          "differenceType": null,
+          "articleId": "gdpr-art16"
         },
         "ccpa": {
           "value": "Section 1798.106 (CPRA only) \u2014 commercially reasonable efforts",
-          "differenceType": "additional-requirement"
+          "differenceType": "additional-requirement",
+          "articleId": "ccpa-right-to-correct"
         },
         "lgpd": {
           "value": "Article 18, III \u2014 within 15 days",
@@ -53,11 +59,13 @@
       "jurisdictions": {
         "gdpr": {
           "value": "Article 20 \u2014 consent or contract basis only. Machine-readable format.",
-          "differenceType": null
+          "differenceType": null,
+          "articleId": "gdpr-art20"
         },
         "ccpa": {
           "value": "Right to Know includes specific pieces. Portability not explicitly required.",
-          "differenceType": "additional-requirement"
+          "differenceType": "additional-requirement",
+          "articleId": "ccpa-right-to-know"
         },
         "lgpd": {
           "value": "Article 18, V \u2014 subject to ANPD regulation. Still developing.",
@@ -76,7 +84,8 @@
       "jurisdictions": {
         "gdpr": {
           "value": "Article 22 \u2014 right not to be subject to solely automated decisions with legal effects. Exceptions apply with human review safeguard.",
-          "differenceType": null
+          "differenceType": null,
+          "articleId": "gdpr-art22"
         },
         "ccpa": {
           "value": "No direct equivalent right. Profiling restrictions apply in some contexts.",
@@ -88,7 +97,8 @@
         },
         "pipl": {
           "value": "Article 24 \u2014 opt-out, human review, non-personalized options, and anti-differential pricing provision.",
-          "differenceType": "structural-difference"
+          "differenceType": "structural-difference",
+          "articleId": "pipl-art24"
         }
       }
     },

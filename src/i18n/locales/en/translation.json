@@ -33,6 +33,15 @@
     "midMarket": "Mid-Market",
     "enterprise": "Enterprise"
   },
+  "comparisonGrid": {
+    "requirementColumn": "Requirement",
+    "showDifferencesOnly": "Show differences only",
+    "additionalRequirement": "Additional Requirement",
+    "structuralDifference": "Structural Difference"
+  },
+  "modal": {
+    "close": "Close"
+  },
   "footer": {
     "sourceAttribution": "Content draws from official regulatory texts and public guidance.",
     "about": "About",

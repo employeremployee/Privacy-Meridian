@@ -3,6 +3,7 @@ import gdprData from '../data/jurisdictions/gdpr.json'
 import ccpaData from '../data/jurisdictions/ccpa.json'
 import lgpdData from '../data/jurisdictions/lgpd.json'
 import piplData from '../data/jurisdictions/pipl.json'
+import glossaryData from '../data/glossary.json'
 import ContentBlock from '../components/ContentBlock.jsx'
 import { getCategoryArticles } from '../utils/contentLookup.js'
 
@@ -31,6 +32,7 @@ function RegulationPage() {
           article={article}
           jurisdictionId={jurisdictionId}
           jurisdictionData={jurisdictionData}
+          glossaryData={glossaryData}
         />
       ))}
     </main>

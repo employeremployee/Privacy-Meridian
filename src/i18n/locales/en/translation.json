@@ -19,6 +19,9 @@
     "sourceLinksLabel": "Sources",
     "crossReferencesLabel": "Related Articles"
   },
+  "glossary": {
+    "learnMore": "Learn more"
+  },
   "footer": {
     "sourceAttribution": "Content draws from official regulatory texts and public guidance.",
     "about": "About",

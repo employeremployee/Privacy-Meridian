@@ -4,7 +4,7 @@ import CrossReference from './CrossReference.jsx'
 import Timeline from './Timeline.jsx'
 import SourceLinks from './SourceLinks.jsx'
 
-function ContentBlock({ article, jurisdictionId, jurisdictionData }) {
+function ContentBlock({ article, jurisdictionId, jurisdictionData, glossaryData }) {
   return (
     <article
       id={article.id}
@@ -15,7 +15,11 @@ function ContentBlock({ article, jurisdictionId, jurisdictionData }) {
         label={article.surfaceLabel}
         summary={article.plainSummary}
       />
-      <ProfessionalLayer text={article.professionalLayer} />
+      <ProfessionalLayer
+        text={article.professionalLayer}
+        tooltipTerms={article.tooltipTerms}
+        glossaryData={glossaryData}
+      />
       <CrossReference
         references={article.crossReferences}
         jurisdictionId={jurisdictionId}

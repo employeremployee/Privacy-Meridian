@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import ModeToggle from './ModeToggle.jsx'
+import LanguageSelector from './LanguageSelector.jsx'
 
 function Header() {
   const { t } = useTranslation()
@@ -13,7 +14,10 @@ function Header() {
           <p className="text-sm text-white/80">{t('app.tagline')}</p>
         </Link>
 
-        <ModeToggle />
+        <div className="flex flex-wrap items-center gap-3">
+          <ModeToggle />
+          <LanguageSelector />
+        </div>
       </div>
     </header>
   )

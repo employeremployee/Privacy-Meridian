@@ -50,6 +50,9 @@
     "currentlyHighlighting": "Highlighting: {{name}}",
     "nationalImplementationNote": "GDPR applies across the EU. {{country}} may also have additional national implementation."
   },
+  "languageSelector": {
+    "label": "Language"
+  },
   "footer": {
     "sourceAttribution": "Content draws from official regulatory texts and public guidance.",
     "about": "About",

@@ -1,1 +1,22 @@
-{}
+{
+  "app": {
+    "siteName": "Privacy Meridian",
+    "tagline": "Navigate global privacy law."
+  },
+  "mode": {
+    "groupLabel": "Site mode",
+    "inform": "Inform Mode",
+    "assess": "Assess Mode"
+  },
+  "entrySelector": {
+    "label": "Entry point",
+    "byRegulation": "By Regulation",
+    "byTopic": "By Topic",
+    "byMap": "By Map"
+  },
+  "footer": {
+    "sourceAttribution": "Content draws from official regulatory texts and public guidance.",
+    "about": "About",
+    "lastUpdated": "Last updated July 2026"
+  }
+}

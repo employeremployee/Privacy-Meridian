@@ -37,7 +37,8 @@
     "requirementColumn": "Requirement",
     "showDifferencesOnly": "Show differences only",
     "additionalRequirement": "Additional Requirement",
-    "structuralDifference": "Structural Difference"
+    "structuralDifference": "Structural Difference",
+    "showingCount": "Showing {{shown}} of {{total}} requirements"
   },
   "modal": {
     "close": "Close"

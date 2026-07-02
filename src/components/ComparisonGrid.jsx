@@ -26,8 +26,11 @@ function ComparisonGrid({ rows, jurisdictionsData, glossaryData }) {
 
   return (
     <div>
-      <div className="mb-3">
+      <div className="mb-3 flex flex-wrap items-center gap-3">
         <DifferenceToggle checked={showDifferencesOnly} onChange={setShowDifferencesOnly} />
+        <span className="text-sm text-ink" aria-live="polite">
+          {t('comparisonGrid.showingCount', { shown: filteredRows.length, total: rows.length })}
+        </span>
       </div>
 
       <div className="max-h-[600px] overflow-auto rounded-lg border border-rule">

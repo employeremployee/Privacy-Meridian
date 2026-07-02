@@ -43,6 +43,13 @@
   "modal": {
     "close": "Close"
   },
+  "map": {
+    "skipLink": "Skip world map",
+    "instructions": "Tab or hover to highlighted countries to see which privacy law applies. Only four regions are interactive.",
+    "viewJurisdictionLabel": "View {{name}} privacy law",
+    "currentlyHighlighting": "Highlighting: {{name}}",
+    "nationalImplementationNote": "GDPR applies across the EU. {{country}} may also have additional national implementation."
+  },
   "footer": {
     "sourceAttribution": "Content draws from official regulatory texts and public guidance.",
     "about": "About",

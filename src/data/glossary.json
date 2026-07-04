@@ -26,7 +26,7 @@
       "id": "pia-dpia",
       "type": "paired",
       "term": "PIA and DPIA",
-      "definition": "A Privacy Impact Assessment is a process for identifying and reducing privacy risks before starting a new activity that involves personal data. DPIA \u2014 Data Protection Impact Assessment \u2014 is the same process under a different name used specifically in GDPR. Both serve the same purpose: find the risk before it causes harm.",
+      "definition": "A Privacy Impact Assessment is a process for identifying and reducing privacy risks before starting a new activity that involves personal data. DPIA, Data Protection Impact Assessment, is the same process under a different name used specifically in GDPR. Both serve the same purpose: find the risk before it causes harm.",
       "jurisdiction": "PIA: universal. DPIA: GDPR specific. PIPIA: PIPL specific.",
       "source": {
         "label": "IAPP Privacy Glossary",
@@ -48,7 +48,7 @@
       "id": "supervisory-authority-dpa",
       "type": "paired",
       "term": "Supervisory Authority and Data Protection Authority",
-      "definition": "A supervisory authority is the government body responsible for enforcing privacy law in a given country or region. Data Protection Authority \u2014 or DPA \u2014 means the same thing. Different laws use different names for the same role.",
+      "definition": "A supervisory authority is the government body responsible for enforcing privacy law in a given country or region. Data Protection Authority, or DPA, means the same thing. Different laws use different names for the same role.",
       "jurisdiction": "universal",
       "source": {
         "label": "IAPP Privacy Glossary",
@@ -183,7 +183,7 @@
       "definition": "A RoPA is an internal document that records every way an organization uses personal data. It covers what data is collected, why, who sees it, and how long it is kept. Regulators can request it at any time.",
       "jurisdiction": "GDPR specific (Article 30). Equivalent records obligations exist under LGPD and PIPL.",
       "source": {
-        "label": "GDPR Article 30 \u2014 EUR-Lex",
+        "label": "GDPR Article 30: EUR-Lex",
         "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
       }
     },
@@ -238,7 +238,7 @@
       "definition": "Data localization means a law requires certain personal data to be stored inside a specific country and not moved abroad without approval. China's privacy law requires this for organizations above certain size thresholds. This is one of the most significant structural differences between Chinese and European privacy law.",
       "jurisdiction": "PIPL specific (Article 40). No equivalent requirement in GDPR, CCPA/CPRA, or LGPD.",
       "source": {
-        "label": "PIPL Article 40 \u2014 npc.gov.cn",
+        "label": "PIPL Article 40: npc.gov.cn",
         "url": "https://npc.gov.cn"
       }
     },
@@ -258,7 +258,7 @@
       "type": "standalone",
       "term": "Transfer Impact Assessment (TIA)",
       "definition": "A Transfer Impact Assessment is an analysis a company must complete before sending personal data to a country outside the European Union. It evaluates whether that country's laws provide adequate protection. It became required after the Schrems II court decision in 2020.",
-      "jurisdiction": "GDPR specific \u2014 post-Schrems II requirement",
+      "jurisdiction": "GDPR specific: post-Schrems II requirement",
       "source": {
         "label": "EDPB Recommendations 01/2020",
         "url": "https://edpb.europa.eu"
@@ -269,7 +269,7 @@
       "type": "standalone",
       "term": "Schrems II",
       "definition": "Schrems II is a 2020 European court decision that changed the rules for sending personal data from the EU to the United States. It invalidated the previous transfer agreement and required companies to assess whether US law adequately protects EU data. It significantly increased compliance obligations for transatlantic data transfers.",
-      "jurisdiction": "GDPR specific \u2014 EU-US data transfers",
+      "jurisdiction": "GDPR specific: EU-US data transfers",
       "source": {
         "label": "CJEU Case C-311/18",
         "url": "https://curia.europa.eu"
@@ -279,7 +279,7 @@
       "id": "anpd",
       "type": "standalone",
       "term": "ANPD",
-      "definition": "The ANPD \u2014 Autoridade Nacional de Prote\u00e7\u00e3o de Dados \u2014 is Brazil's national data protection authority. It enforces LGPD, issues regulations, and handles complaints from individuals. Its regulatory guidance is still developing in several areas.",
+      "definition": "The ANPD, Autoridade Nacional de Prote\u00e7\u00e3o de Dados, is Brazil's national data protection authority. It enforces LGPD, issues regulations, and handles complaints from individuals. Its regulatory guidance is still developing in several areas.",
       "jurisdiction": "LGPD specific",
       "source": {
         "label": "ANPD",
@@ -290,7 +290,7 @@
       "id": "cac",
       "type": "standalone",
       "term": "CAC",
-      "definition": "The CAC \u2014 Cyberspace Administration of China \u2014 is China's primary authority for enforcing PIPL and regulating internet and data activities. It conducts security assessments for cross-border data transfers and issues binding regulations on personal information protection.",
+      "definition": "The CAC, Cyberspace Administration of China, is China's primary authority for enforcing PIPL and regulating internet and data activities. It conducts security assessments for cross-border data transfers and issues binding regulations on personal information protection.",
       "jurisdiction": "PIPL specific",
       "source": {
         "label": "CAC",
@@ -301,7 +301,7 @@
       "id": "edpb",
       "type": "standalone",
       "term": "EDPB",
-      "definition": "The EDPB \u2014 European Data Protection Board \u2014 coordinates privacy enforcement across EU member states. It issues guidelines, opinions, and binding decisions on GDPR interpretation. It is the primary source of authoritative GDPR guidance.",
+      "definition": "The EDPB, European Data Protection Board, coordinates privacy enforcement across EU member states. It issues guidelines, opinions, and binding decisions on GDPR interpretation. It is the primary source of authoritative GDPR guidance.",
       "jurisdiction": "GDPR specific",
       "source": {
         "label": "EDPB",
@@ -312,10 +312,10 @@
       "id": "right-to-be-forgotten",
       "type": "standalone",
       "term": "Right to be Forgotten",
-      "definition": "The right to be forgotten is the popular name for the right to have your personal information deleted. GDPR formalizes this as the right to erasure under Article 17. It is not absolute \u2014 companies can refuse deletion in specific circumstances.",
+      "definition": "The right to be forgotten is the popular name for the right to have your personal information deleted. GDPR formalizes this as the right to erasure under Article 17. It is not absolute. Companies can refuse deletion in specific circumstances.",
       "jurisdiction": "Common usage term. Legal right exists across all four v1 jurisdictions in varying forms.",
       "source": {
-        "label": "GDPR Article 17 \u2014 EUR-Lex",
+        "label": "GDPR Article 17: EUR-Lex",
         "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
       }
     },

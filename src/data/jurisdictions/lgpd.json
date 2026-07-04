@@ -26,17 +26,17 @@
           "id": "lgpd-scope",
           "articleRef": "Overview",
           "surfaceLabel": "Does Brazil's Privacy Law Apply to Your Organization?",
-          "plainSummary": "Brazil's privacy law applies to any organization that processes personal information about people in Brazil \u2014 regardless of where the organization is located. It also applies if the processing happens in Brazil or if the data was collected in Brazil.",
-          "professionalLayer": "LGPD applies to any natural or legal person, public or private, that carries out processing operations of personal data of individuals located in Brazil, regardless of the nationality or country of headquarters of the organization. Territorial scope also covers processing that takes place in Brazil or processing of data collected in Brazil. Unlike GDPR, LGPD applies to both private and public sector entities. LGPD is broadly GDPR-aligned in structure \u2014 it establishes ten legal bases for processing, a set of data subject rights, requirements for a data protection officer called the Encarregado, data protection impact assessments, breach notification, and international transfer mechanisms. Key structural differences from GDPR include a broader set of legal bases, different treatment of legitimate interests, and a national authority \u2014 the ANPD \u2014 that is still developing its regulatory guidance.",
+          "plainSummary": "Brazil's privacy law applies to any organization that processes personal information about people in Brazil, regardless of where the organization is located. It also applies if the processing happens in Brazil or if the data was collected in Brazil.",
+          "professionalLayer": "LGPD applies to any natural or legal person, public or private, that carries out processing operations of personal data of individuals located in Brazil, regardless of the nationality or country of headquarters of the organization. Territorial scope also covers processing that takes place in Brazil or processing of data collected in Brazil. Unlike GDPR, LGPD applies to both private and public sector entities. LGPD is broadly GDPR-aligned in structure. It establishes ten legal bases for processing, a set of data subject rights, requirements for a data protection officer called the Encarregado, data protection impact assessments, breach notification, and international transfer mechanisms. Key structural differences from GDPR include a broader set of legal bases, different treatment of legitimate interests, and a national authority, the ANPD, that is still developing its regulatory guidance.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "LGPD Full Text \u2014 planalto.gov.br",
+              "label": "LGPD Full Text: planalto.gov.br",
               "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
             },
             {
-              "label": "ANPD \u2014 gov.br/anpd",
+              "label": "ANPD: gov.br/anpd",
               "url": "https://www.gov.br/anpd"
             }
           ],
@@ -44,11 +44,11 @@
             "dpo-encarregado",
             "anpd"
           ],
-          "assessTrigger": "Does your organization process personal data of individuals located in Brazil, process data in Brazil, or collect data in Brazil \u2014 and have you mapped which of LGPD's ten legal bases applies to each processing activity?",
+          "assessTrigger": "Does your organization process personal data of individuals located in Brazil, process data in Brazil, or collect data in Brazil, and have you mapped which of LGPD's ten legal bases applies to each processing activity?",
           "gapRemediation": {
             "smb": "Assess whether LGPD applies based on the territorial scope criteria. If it does, the ten legal bases framework means you cannot rely on the same legal basis structure as GDPR without reviewing each processing activity against LGPD's specific requirements.",
             "midMarket": "Organizations already compliant with GDPR have a strong structural foundation for LGPD but should not assume equivalence. Legal bases, consent standards, DPO requirements, and transfer mechanisms all have LGPD-specific requirements.",
-            "enterprise": "Enterprise LGPD programs require a gap assessment against GDPR compliance to identify LGPD-specific obligations. ANPD regulatory guidance is evolving \u2014 your program should include an ANPD monitoring process similar to EDPB monitoring for GDPR."
+            "enterprise": "Enterprise LGPD programs require a gap assessment against GDPR compliance to identify LGPD-specific obligations. ANPD regulatory guidance is evolving. Your program should include an ANPD monitoring process similar to EDPB monitoring for GDPR."
           },
           "comparisonFlags": []
         }
@@ -61,17 +61,17 @@
           "id": "lgpd-art7",
           "articleRef": "Article 7",
           "surfaceLabel": "Why a Company Is Allowed to Use Your Information in Brazil",
-          "plainSummary": "Like GDPR, Brazil's privacy law requires companies to have a valid legal reason to process your personal information. Brazil's law provides ten possible reasons \u2014 more than GDPR's six \u2014 including some that are unique to Brazil's legal and social context.",
-          "professionalLayer": "Article 7 establishes ten lawful bases for processing personal data under LGPD: consent; compliance with a legal or regulatory obligation; execution of public policies; research by a research body; execution of a contract or pre-contractual procedures; exercise of rights in judicial, administrative, or arbitration proceedings; protection of life or physical safety; health protection by health professionals or entities; legitimate interests of the controller or third parties; and credit protection. LGPD's legitimate interests base is more narrowly applied than GDPR's \u2014 ANPD guidance is still developing. The credit protection basis is unique to LGPD, reflecting Brazil's credit bureau ecosystem.",
+          "plainSummary": "Like GDPR, Brazil's privacy law requires companies to have a valid legal reason to process your personal information. Brazil's law provides ten possible reasons, more than GDPR's six, including some that are unique to Brazil's legal and social context.",
+          "professionalLayer": "Article 7 establishes ten lawful bases for processing personal data under LGPD: consent; compliance with a legal or regulatory obligation; execution of public policies; research by a research body; execution of a contract or pre-contractual procedures; exercise of rights in judicial, administrative, or arbitration proceedings; protection of life or physical safety; health protection by health professionals or entities; legitimate interests of the controller or third parties; and credit protection. LGPD's legitimate interests base is more narrowly applied than GDPR's. ANPD guidance is still developing. The credit protection basis is unique to LGPD, reflecting Brazil's credit bureau ecosystem.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "LGPD Article 7 \u2014 planalto.gov.br",
+              "label": "LGPD Article 7: planalto.gov.br",
               "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
             },
             {
-              "label": "ANPD Guidance \u2014 gov.br/anpd",
+              "label": "ANPD Guidance: gov.br/anpd",
               "url": "https://www.gov.br/anpd"
             }
           ],
@@ -80,10 +80,10 @@
             "legitimate-interests",
             "consent-withdrawal"
           ],
-          "assessTrigger": "Has your organization mapped a specific LGPD legal basis to each processing activity \u2014 and where you rely on legitimate interests, have you documented that assessment given the developing ANPD guidance?",
+          "assessTrigger": "Has your organization mapped a specific LGPD legal basis to each processing activity, and where you rely on legitimate interests, have you documented that assessment given the developing ANPD guidance?",
           "gapRemediation": {
             "smb": "Review each processing activity against LGPD's ten bases. Consent-based processing requires the same quality of consent as GDPR. The credit protection basis is relevant for any organization involved in credit assessment or financial services.",
-            "midMarket": "Your RoPA equivalent under LGPD should document the legal basis for each processing activity. Where you have mapped GDPR legal bases, a parallel LGPD mapping exercise is required \u2014 the bases do not map one-to-one.",
+            "midMarket": "Your RoPA equivalent under LGPD should document the legal basis for each processing activity. Where you have mapped GDPR legal bases, a parallel LGPD mapping exercise is required. The bases do not map one-to-one.",
             "enterprise": "Enterprise legal basis mapping for LGPD should be integrated with your global privacy program. Conservative application of legitimate interests is recommended until clearer ANPD guidance emerges."
           },
           "comparisonFlags": [
@@ -106,12 +106,12 @@
           "articleRef": "Article 18, I & II",
           "surfaceLabel": "Your Right to Know If and What Data Is Held About You",
           "plainSummary": "You have the right to ask any organization whether it holds personal information about you and, if it does, to receive a copy of that information. This right applies to any organization operating under Brazil's privacy law.",
-          "professionalLayer": "Article 18 grants data subjects in Brazil a set of rights that closely parallel GDPR Chapter III rights. The right to confirmation of processing and access to data (Article 18, I and II) mirrors GDPR Article 15. Responses must be provided in simplified or complete form as requested by the data subject. The format requirement \u2014 simplified versus complete \u2014 is an LGPD-specific nuance without direct GDPR equivalent. Organizations must respond within 15 days under LGPD, compared to GDPR's one-month standard \u2014 a shorter operational window that requires efficient DSR processes.",
+          "professionalLayer": "Article 18 grants data subjects in Brazil a set of rights that closely parallel GDPR Chapter III rights. The right to confirmation of processing and access to data (Article 18, I and II) mirrors GDPR Article 15. Responses must be provided in simplified or complete form as requested by the data subject. The format requirement, simplified versus complete, is an LGPD-specific nuance without direct GDPR equivalent. Organizations must respond within 15 days under LGPD, compared to GDPR's one-month standard, a shorter operational window that requires efficient DSR processes.",
           "responseTimeline": "15 days from receipt of request.",
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "LGPD Article 18 \u2014 planalto.gov.br",
+              "label": "LGPD Article 18: planalto.gov.br",
               "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
             },
             {
@@ -122,9 +122,9 @@
           "tooltipTerms": [
             "data-subject"
           ],
-          "assessTrigger": "Does your organization have a process to respond to access requests within 15 days \u2014 and can you provide responses in both simplified and complete format as requested?",
+          "assessTrigger": "Does your organization have a process to respond to access requests within 15 days, and can you provide responses in both simplified and complete format as requested?",
           "gapRemediation": {
-            "smb": "A response template covering both simplified and complete formats is the starting point. The 15-day window is shorter than GDPR \u2014 ensure your intake and fulfillment process can meet it.",
+            "smb": "A response template covering both simplified and complete formats is the starting point. The 15-day window is shorter than GDPR. Ensure your intake and fulfillment process can meet it.",
             "midMarket": "Your DSR process should be tested against LGPD's 15-day SLA specifically. Organizations that built processes for GDPR's one-month window may not meet LGPD's shorter requirement.",
             "enterprise": "Enterprise DSR platforms should be configured for LGPD's 15-day SLA separately from GDPR's one-month SLA. Simplified versus complete format preference should be captured at intake."
           },
@@ -142,23 +142,23 @@
           "id": "lgpd-art18-deletion",
           "articleRef": "Article 18, IV",
           "surfaceLabel": "Your Right to Remove or Restrict Your Data",
-          "plainSummary": "You have the right to ask organizations to make your personal information anonymous, to block it from being used, or to delete it \u2014 particularly where it was processed without a valid legal basis.",
-          "professionalLayer": "Article 18, IV provides three distinct remedies \u2014 anonymization, blocking, and deletion \u2014 where data is unnecessary, excessive, or processed in violation of LGPD. This is structurally similar to but broader than GDPR's right to erasure. Anonymization as a consumer remedy is an LGPD-specific option. Blocking (suspending processing) parallels GDPR's restriction of processing under Article 18. The availability of anonymization as a consumer-facing remedy creates operational complexity since true anonymization is technically demanding and irreversible.",
+          "plainSummary": "You have the right to ask organizations to make your personal information anonymous, to block it from being used, or to delete it, particularly where it was processed without a valid legal basis.",
+          "professionalLayer": "Article 18, IV provides three distinct remedies: anonymization, blocking, and deletion, where data is unnecessary, excessive, or processed in violation of LGPD. This is structurally similar to but broader than GDPR's right to erasure. Anonymization as a consumer remedy is an LGPD-specific option. Blocking (suspending processing) parallels GDPR's restriction of processing under Article 18. The availability of anonymization as a consumer-facing remedy creates operational complexity since true anonymization is technically demanding and irreversible.",
           "responseTimeline": "15 days from receipt of request.",
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "LGPD Article 18, IV \u2014 planalto.gov.br",
+              "label": "LGPD Article 18, IV: planalto.gov.br",
               "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
             }
           ],
           "tooltipTerms": [
             "anonymization-pseudonymization"
           ],
-          "assessTrigger": "Does your organization have processes for all three remedies \u2014 anonymization, blocking, and deletion \u2014 and do you have a technical definition of anonymization that meets LGPD's standard?",
+          "assessTrigger": "Does your organization have processes for all three remedies: anonymization, blocking, and deletion, and do you have a technical definition of anonymization that meets LGPD's standard?",
           "gapRemediation": {
             "smb": "Define what anonymization means technically for your organization. Blocking and deletion processes aligned with your DSR workflow are the practical starting point.",
-            "midMarket": "Your DSR process should include defined responses for each of the three remedies. Technical anonymization capability requires assessment \u2014 true anonymization must be irreversible.",
+            "midMarket": "Your DSR process should include defined responses for each of the three remedies. Technical anonymization capability requires assessment. True anonymization must be irreversible.",
             "enterprise": "Enterprise programs need documented technical standards for anonymization that are defensible to ANPD. Blocking workflows should integrate with your active processing systems."
           },
           "comparisonFlags": [
@@ -167,7 +167,7 @@
               "jurisdictions": [
                 "gdpr"
               ],
-              "note": "LGPD explicitly offers anonymization as a data subject remedy. GDPR focuses on erasure and restriction \u2014 anonymization appears as a data protection technique rather than a consumer right."
+              "note": "LGPD explicitly offers anonymization as a data subject remedy. GDPR focuses on erasure and restriction. Anonymization appears as a data protection technique rather than a consumer right."
             }
           ]
         }
@@ -186,7 +186,7 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "LGPD Article 48 \u2014 planalto.gov.br",
+              "label": "LGPD Article 48: planalto.gov.br",
               "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
             },
             {
@@ -198,7 +198,7 @@
             "breach-notification",
             "anpd"
           ],
-          "assessTrigger": "Does your organization's breach response plan address LGPD's specific notification timelines \u2014 and is your ANPD notification process documented separately from your GDPR supervisory authority notification process?",
+          "assessTrigger": "Does your organization's breach response plan address LGPD's specific notification timelines, and is your ANPD notification process documented separately from your GDPR supervisory authority notification process?",
           "gapRemediation": {
             "smb": "A documented breach response checklist covering LGPD's 2-day preliminary and 5-day supplementary notification windows is the minimum. Do not assume your GDPR process covers LGPD.",
             "midMarket": "Your breach response plan should include jurisdiction-specific notification timelines. LGPD's 2-business-day preliminary notification is tighter than it appears in practice.",
@@ -229,7 +229,7 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "LGPD Articles 33-36 \u2014 planalto.gov.br",
+              "label": "LGPD Articles 33-36: planalto.gov.br",
               "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
             },
             {
@@ -241,7 +241,7 @@
             "sccs",
             "anpd"
           ],
-          "assessTrigger": "Has your organization identified all international data transfers involving Brazilian personal data \u2014 and are you using ANPD-approved transfer mechanisms rather than assuming GDPR SCCs are sufficient?",
+          "assessTrigger": "Has your organization identified all international data transfers involving Brazilian personal data, and are you using ANPD-approved transfer mechanisms rather than assuming GDPR SCCs are sufficient?",
           "gapRemediation": {
             "smb": "Identify every country your Brazilian user data flows to. Confirm each transfer relies on a valid LGPD mechanism. GDPR SCCs are not automatically valid under LGPD.",
             "midMarket": "A transfer mapping exercise for Brazilian data flows should be conducted separately from your GDPR mapping. ANPD-approved SCCs should be implemented for transfers that rely on contractual clauses.",
@@ -253,7 +253,7 @@
               "jurisdictions": [
                 "gdpr"
               ],
-              "note": "LGPD SCCs must use ANPD-approved forms. GDPR SCCs have no automatic recognition under LGPD \u2014 organizations need separate transfer mechanisms for each jurisdiction."
+              "note": "LGPD SCCs must use ANPD-approved forms. GDPR SCCs have no automatic recognition under LGPD. Organizations need separate transfer mechanisms for each jurisdiction."
             }
           ]
         }

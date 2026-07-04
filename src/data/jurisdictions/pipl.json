@@ -25,21 +25,21 @@
           "id": "pipl-scope",
           "articleRef": "Overview",
           "surfaceLabel": "Does China's Privacy Law Apply to Your Organization?",
-          "plainSummary": "China's Personal Information Protection Law applies to organizations that process personal information of people inside China \u2014 including organizations located outside China that provide products or services to people in China, or that analyze the behavior of people in China.",
+          "plainSummary": "China's Personal Information Protection Law applies to organizations that process personal information of people inside China, including organizations located outside China that provide products or services to people in China, or that analyze the behavior of people in China.",
           "professionalLayer": "PIPL applies to processing of personal information of natural persons within the territory of the People's Republic of China. It also applies extraterritorially where the purpose is to provide products or services to individuals within China, the purpose is to analyze or assess the behavior of individuals within China, or other circumstances prescribed by law. Organizations outside China that fall within PIPL's scope must designate a representative or establish a dedicated entity within China responsible for PIPL compliance matters. PIPL operates alongside the Cybersecurity Law and the Data Security Law, creating an interlocking regulatory framework that requires holistic assessment. It is structurally inspired by but substantively distinct from GDPR, with significant differences in data localization requirements, consent standards, and cross-border transfer mechanisms.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPL Official Text \u2014 npc.gov.cn",
+              "label": "PIPL Official Text: npc.gov.cn",
               "url": "https://www.npc.gov.cn"
             },
             {
-              "label": "PIPL English Translation \u2014 digichina.stanford.edu",
+              "label": "PIPL English Translation: digichina.stanford.edu",
               "url": "https://digichina.stanford.edu"
             },
             {
-              "label": "CAC \u2014 cac.gov.cn",
+              "label": "CAC: cac.gov.cn",
               "url": "https://www.cac.gov.cn"
             }
           ],
@@ -47,7 +47,7 @@
             "cac",
             "data-localization"
           ],
-          "assessTrigger": "Does your organization provide products or services to individuals in China, or analyze the behavior of individuals in China \u2014 and if so, have you assessed your obligations under PIPL alongside China's Cybersecurity Law and Data Security Law?",
+          "assessTrigger": "Does your organization provide products or services to individuals in China, or analyze the behavior of individuals in China, and if so, have you assessed your obligations under PIPL alongside China's Cybersecurity Law and Data Security Law?",
           "gapRemediation": {
             "smb": "If your products or services reach individuals in China even incidentally, PIPL may apply. Assess your exposure before assuming you are out of scope. The consent and data localization requirements are operationally significant even at small scale.",
             "midMarket": "Organizations at this scale with any China operations or customer base need a dedicated PIPL assessment. The interaction with CSL and DSL creates obligations beyond PIPL alone. Legal counsel with PRC expertise is strongly recommended.",
@@ -72,17 +72,17 @@
           "id": "pipl-art13",
           "articleRef": "Article 13",
           "surfaceLabel": "Why Organizations Are Allowed to Process Your Information in China",
-          "plainSummary": "Organizations in China must have a valid legal reason to collect and use your personal information. Consent is the primary basis under China's law \u2014 but there are other permitted reasons including contracts, legal obligations, and public health emergencies.",
-          "professionalLayer": "Article 13 establishes six lawful bases for processing under PIPL: individual consent; necessity for conclusion or performance of a contract; necessity for fulfillment of statutory duties or obligations; necessity to respond to a public health emergency or protect life and property in an emergency; processing within a reasonable scope for news reporting or public interest activities; and processing of already publicly disclosed personal information within a reasonable scope. Consent is the primary and most common basis under PIPL. Unlike GDPR where legitimate interests is widely used, PIPL's analog is narrower. Critically, PIPL requires separate consent for each processing purpose \u2014 bundled consent is not permitted. Processing sensitive personal information requires separate explicit consent distinct from general consent.",
+          "plainSummary": "Organizations in China must have a valid legal reason to collect and use your personal information. Consent is the primary basis under China's law, but there are other permitted reasons including contracts, legal obligations, and public health emergencies.",
+          "professionalLayer": "Article 13 establishes six lawful bases for processing under PIPL: individual consent; necessity for conclusion or performance of a contract; necessity for fulfillment of statutory duties or obligations; necessity to respond to a public health emergency or protect life and property in an emergency; processing within a reasonable scope for news reporting or public interest activities; and processing of already publicly disclosed personal information within a reasonable scope. Consent is the primary and most common basis under PIPL. Unlike GDPR where legitimate interests is widely used, PIPL's analog is narrower. Critically, PIPL requires separate consent for each processing purpose. Bundled consent is not permitted. Processing sensitive personal information requires separate explicit consent distinct from general consent.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPL Article 13 \u2014 npc.gov.cn",
+              "label": "PIPL Article 13: npc.gov.cn",
               "url": "https://www.npc.gov.cn"
             },
             {
-              "label": "CAC Consent Guidelines \u2014 cac.gov.cn",
+              "label": "CAC Consent Guidelines: cac.gov.cn",
               "url": "https://www.cac.gov.cn"
             }
           ],
@@ -91,7 +91,7 @@
             "consent-withdrawal",
             "sensitive-data"
           ],
-          "assessTrigger": "Has your organization mapped a PIPL legal basis to each processing activity involving personal information of individuals in China \u2014 and where you rely on consent, is that consent separate by purpose, freely given, and fully informed?",
+          "assessTrigger": "Has your organization mapped a PIPL legal basis to each processing activity involving personal information of individuals in China, and where you rely on consent, is that consent separate by purpose, freely given, and fully informed?",
           "gapRemediation": {
             "smb": "Consent under PIPL is more demanding than GDPR consent in terms of specificity. Bundled consent for multiple purposes is not permitted. Review your consent collection mechanisms for China-specific compliance.",
             "midMarket": "Your legal basis mapping for China requires independent assessment from your GDPR mapping. Consent specificity requirements mean your consent management platform must support purpose-by-purpose consent collection for Chinese users.",
@@ -116,13 +116,13 @@
           "id": "pipl-art44",
           "articleRef": "Article 44",
           "surfaceLabel": "Your Right to Know About and Control How Your Information Is Used",
-          "plainSummary": "Individuals in China have the right to be informed about how their personal information is processed and to make decisions about that processing \u2014 including the right to restrict or refuse processing.",
+          "plainSummary": "Individuals in China have the right to be informed about how their personal information is processed and to make decisions about that processing, including the right to restrict or refuse processing.",
           "professionalLayer": "Article 44 establishes a foundational right to know and right to decide that is broader in framing than GDPR's transparency obligation. The right to decide includes the right to restrict or refuse processing by personal information handlers. This right applies regardless of whether consent is the legal basis for processing. The combination of a right to know and a right to decide creates a framework where individuals have ongoing control over their information beyond the point of initial consent.",
           "responseTimeline": "15 working days from receipt of request.",
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPL Article 44 \u2014 npc.gov.cn",
+              "label": "PIPL Article 44: npc.gov.cn",
               "url": "https://www.npc.gov.cn"
             }
           ],
@@ -132,7 +132,7 @@
           "assessTrigger": "Does your organization provide individuals in China with clear information about all processing activities and a mechanism to restrict or refuse processing beyond their initial consent decisions?",
           "gapRemediation": {
             "smb": "A clear privacy notice covering all processing activities is the foundation. A mechanism for individuals to update their processing preferences is required.",
-            "midMarket": "Your consent management platform should support ongoing preference management beyond initial consent collection \u2014 including restriction and refusal options.",
+            "midMarket": "Your consent management platform should support ongoing preference management beyond initial consent collection, including restriction and refusal options.",
             "enterprise": "Enterprise PIPL compliance requires a preference center that allows granular control over processing activities for Chinese users, integrated with your processing systems."
           },
           "comparisonFlags": []
@@ -141,20 +141,20 @@
           "id": "pipl-art47",
           "articleRef": "Article 47",
           "surfaceLabel": "Your Right to Have Your Information Deleted in China",
-          "plainSummary": "Individuals in China can ask organizations to delete their personal information in specific circumstances \u2014 including when the original purpose has been fulfilled, when consent is withdrawn, or when the information was processed unlawfully.",
-          "professionalLayer": "Article 47 requires deletion of personal information in five circumstances: the processing purpose has been achieved, cannot be achieved, or the personal information is no longer necessary; the consent has been withdrawn; the handling violates laws or the agreement with the individual; the retention period has expired; or other circumstances prescribed by law. Where a personal information handler entrusts a third party with processing and deletion is required, the handler must notify the entrusted party to delete as well. Technical impossibility of immediate deletion \u2014 such as backup systems \u2014 allows for cessation of processing with deletion upon backup system update.",
+          "plainSummary": "Individuals in China can ask organizations to delete their personal information in specific circumstances, including when the original purpose has been fulfilled, when consent is withdrawn, or when the information was processed unlawfully.",
+          "professionalLayer": "Article 47 requires deletion of personal information in five circumstances: the processing purpose has been achieved, cannot be achieved, or the personal information is no longer necessary; the consent has been withdrawn; the handling violates laws or the agreement with the individual; the retention period has expired; or other circumstances prescribed by law. Where a personal information handler entrusts a third party with processing and deletion is required, the handler must notify the entrusted party to delete as well. Technical impossibility of immediate deletion, such as backup systems, allows for cessation of processing with deletion upon backup system update.",
           "responseTimeline": "15 working days from receipt of request.",
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPL Article 47 \u2014 npc.gov.cn",
+              "label": "PIPL Article 47: npc.gov.cn",
               "url": "https://www.npc.gov.cn"
             }
           ],
           "tooltipTerms": [
             "consent-withdrawal"
           ],
-          "assessTrigger": "Does your deletion process include notification to entrusted third-party processors \u2014 and do you have a documented approach for backup system deletion?",
+          "assessTrigger": "Does your deletion process include notification to entrusted third-party processors, and do you have a documented approach for backup system deletion?",
           "gapRemediation": {
             "smb": "Ensure your service contracts with third-party processors include deletion obligations. Document your backup deletion approach.",
             "midMarket": "Your deletion workflow should trigger notifications to entrusted processors. Backup deletion timelines should be documented and defensible.",
@@ -172,7 +172,7 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPL Article 24 \u2014 npc.gov.cn",
+              "label": "PIPL Article 24: npc.gov.cn",
               "url": "https://www.npc.gov.cn"
             }
           ],
@@ -180,7 +180,7 @@
             "profiling",
             "meaningful-human-involvement"
           ],
-          "assessTrigger": "Has your organization identified all automated decision-making systems affecting individuals in China \u2014 and do you have mechanisms for opt-out, human review, and non-personalized options for marketing and information push?",
+          "assessTrigger": "Has your organization identified all automated decision-making systems affecting individuals in China, and do you have mechanisms for opt-out, human review, and non-personalized options for marketing and information push?",
           "gapRemediation": {
             "smb": "Identify any automated decision-making affecting individuals in China and assess Article 24 requirements. Marketing personalization is a specific trigger.",
             "midMarket": "Your marketing and decisioning systems should support non-personalized options for Chinese users. Opt-out and human review mechanisms are required.",
@@ -213,21 +213,21 @@
           "articleRef": "Articles 38-43",
           "surfaceLabel": "Moving Personal Information Outside China",
           "plainSummary": "Sending personal information out of China requires meeting one of several specific legal requirements. The rules are stricter than most other countries and include government security review for larger organizations.",
-          "professionalLayer": "PIPL establishes five mechanisms for cross-border transfer: passing a security assessment organized by the CAC (mandatory for CIIOs and high-volume handlers); obtaining personal information protection certification from a professional institution; signing standard contracts formulated by the CAC; compliance with other conditions in laws or administrative regulations; or other conditions prescribed by the CAC. These mechanisms differ fundamentally from GDPR's transfer framework \u2014 there is no adequacy decision mechanism equivalent, no Binding Corporate Rules mechanism, and the CAC security assessment process is government-administered rather than self-certifying. This is the most substantive structural difference from GDPR in the PIPL framework.",
+          "professionalLayer": "PIPL establishes five mechanisms for cross-border transfer: passing a security assessment organized by the CAC (mandatory for CIIOs and high-volume handlers); obtaining personal information protection certification from a professional institution; signing standard contracts formulated by the CAC; compliance with other conditions in laws or administrative regulations; or other conditions prescribed by the CAC. These mechanisms differ fundamentally from GDPR's transfer framework. There is no adequacy decision mechanism equivalent, no Binding Corporate Rules mechanism, and the CAC security assessment process is government-administered rather than self-certifying. This is the most substantive structural difference from GDPR in the PIPL framework.",
           "responseTimeline": null,
           "crossReferences": [
             {
-              "label": "Article 40 \u2014 Data Localization",
+              "label": "Article 40: Data Localization",
               "articleId": "pipl-art40"
             }
           ],
           "sourceLinks": [
             {
-              "label": "PIPL Articles 38-43 \u2014 npc.gov.cn",
+              "label": "PIPL Articles 38-43: npc.gov.cn",
               "url": "https://www.npc.gov.cn"
             },
             {
-              "label": "CAC Cross-Border Transfer Regulations \u2014 cac.gov.cn",
+              "label": "CAC Cross-Border Transfer Regulations: cac.gov.cn",
               "url": "https://www.cac.gov.cn"
             }
           ],
@@ -236,7 +236,7 @@
             "sccs",
             "data-localization"
           ],
-          "assessTrigger": "Has your organization identified all cross-border transfers of personal information from China \u2014 and for each transfer, confirmed which of PIPL's five transfer mechanisms applies and whether a CAC security assessment is required?",
+          "assessTrigger": "Has your organization identified all cross-border transfers of personal information from China, and for each transfer, confirmed which of PIPL's five transfer mechanisms applies and whether a CAC security assessment is required?",
           "gapRemediation": {
             "smb": "Identify every instance where personal information of individuals in China leaves China. Confirm each transfer uses a valid PIPL mechanism. GDPR SCCs are not valid under PIPL.",
             "midMarket": "A dedicated China transfer mapping exercise is required. CAC standard contract provisions must be used for contractual clause transfers. The CAC security assessment threshold should be assessed with PRC legal counsel.",
@@ -256,13 +256,13 @@
           "id": "pipl-art40",
           "articleRef": "Article 40",
           "surfaceLabel": "Keeping Certain Data Inside China",
-          "plainSummary": "Organizations that meet certain thresholds or handle certain types of data are required to store that data within China \u2014 they cannot move it outside the country without specific government approval.",
-          "professionalLayer": "Article 40 requires critical information infrastructure operators and personal information handlers who process personal information above a volume threshold set by the CAC to store personal information collected and generated within China domestically. Cross-border transfer by these entities requires a CAC security assessment. The data localization requirement is one of the most architecturally significant provisions of PIPL for multinational organizations \u2014 it is a substantive structural requirement with no equivalent in GDPR, CCPA/CPRA, or LGPD. Organizations subject to the localization requirement cannot rely on standard cross-border transfer mechanisms; they must pass a CAC security assessment.",
+          "plainSummary": "Organizations that meet certain thresholds or handle certain types of data are required to store that data within China. They cannot move it outside the country without specific government approval.",
+          "professionalLayer": "Article 40 requires critical information infrastructure operators and personal information handlers who process personal information above a volume threshold set by the CAC to store personal information collected and generated within China domestically. Cross-border transfer by these entities requires a CAC security assessment. The data localization requirement is one of the most architecturally significant provisions of PIPL for multinational organizations. It is a substantive structural requirement with no equivalent in GDPR, CCPA/CPRA, or LGPD. Organizations subject to the localization requirement cannot rely on standard cross-border transfer mechanisms; they must pass a CAC security assessment.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPL Article 40 \u2014 npc.gov.cn",
+              "label": "PIPL Article 40: npc.gov.cn",
               "url": "https://www.npc.gov.cn"
             },
             {
@@ -274,9 +274,9 @@
             "data-localization",
             "cac"
           ],
-          "assessTrigger": "Has your organization assessed whether it meets the CIIO definition or the CAC volume threshold that triggers mandatory data localization \u2014 and if so, does your infrastructure support domestic storage of personal information collected in China?",
+          "assessTrigger": "Has your organization assessed whether it meets the CIIO definition or the CAC volume threshold that triggers mandatory data localization, and if so, does your infrastructure support domestic storage of personal information collected in China?",
           "gapRemediation": {
-            "smb": "Assess whether your China operations trigger the localization threshold. For most small organizations they will not \u2014 but this should be confirmed with PRC legal counsel.",
+            "smb": "Assess whether your China operations trigger the localization threshold. For most small organizations they will not, but this should be confirmed with PRC legal counsel.",
             "midMarket": "A threshold assessment with PRC legal counsel is required for any organization with meaningful China operations. If the threshold applies, infrastructure changes are required before compliance is possible.",
             "enterprise": "Enterprise organizations meeting the data localization threshold require China-domestic infrastructure for personal information storage. This is an architecture decision, not a process decision. Cloud providers offering China-region data residency options should be evaluated."
           },
@@ -302,12 +302,12 @@
           "articleRef": "Article 57",
           "surfaceLabel": "What Happens When Personal Information Is Compromised in China",
           "plainSummary": "When a security incident affects personal information, organizations in China must notify the relevant authorities and affected individuals immediately.",
-          "professionalLayer": "Article 57 requires handlers to immediately notify the relevant authorities and affected individuals upon discovery of a personal information leak, tampering, or loss. PIPL does not specify a fixed hour threshold \u2014 immediate notification is required. CAC and other sector regulators have issued additional guidance specifying timelines, with some sector-specific regulations requiring notification within 24 hours. This is materially shorter than GDPR's 72-hour window and LGPD's 2-5 business day framework. Where a handler can effectively avoid harm through measures, individual notification may be replaced by public announcement.",
+          "professionalLayer": "Article 57 requires handlers to immediately notify the relevant authorities and affected individuals upon discovery of a personal information leak, tampering, or loss. PIPL does not specify a fixed hour threshold. Immediate notification is required. CAC and other sector regulators have issued additional guidance specifying timelines, with some sector-specific regulations requiring notification within 24 hours. This is materially shorter than GDPR's 72-hour window and LGPD's 2-5 business day framework. Where a handler can effectively avoid harm through measures, individual notification may be replaced by public announcement.",
           "responseTimeline": "Immediate notification to authorities upon discovery. Some sector regulations specify 24 hours.",
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPL Article 57 \u2014 npc.gov.cn",
+              "label": "PIPL Article 57: npc.gov.cn",
               "url": "https://www.npc.gov.cn"
             },
             {
@@ -319,7 +319,7 @@
             "breach-notification",
             "cac"
           ],
-          "assessTrigger": "Does your organization's breach response plan address PIPL's immediate notification requirement \u2014 and have you identified the relevant PRC authorities for your industry sector?",
+          "assessTrigger": "Does your organization's breach response plan address PIPL's immediate notification requirement, and have you identified the relevant PRC authorities for your industry sector?",
           "gapRemediation": {
             "smb": "A breach response plan with an immediate escalation path to PRC authorities is required if PIPL applies. Do not assume your GDPR breach process covers PIPL.",
             "midMarket": "Your breach response plan should include PIPL-specific notification workflows with sector-specific authority contacts identified in advance. The immediate notification standard requires pre-drafted notification templates.",

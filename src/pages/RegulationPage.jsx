@@ -46,7 +46,7 @@ function RegulationPage() {
         <JurisdictionBadge badge={badge} />
         <h2 className="text-xl font-bold text-ink">
           {name}
-          {categoryMeta && <span className="font-normal"> — {categoryMeta.label}</span>}
+          {categoryMeta && <span className="font-normal">: {categoryMeta.label}</span>}
         </h2>
       </div>
 

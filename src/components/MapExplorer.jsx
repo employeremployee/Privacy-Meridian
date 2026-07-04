@@ -30,7 +30,7 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
     const jurisdictionId = getJurisdictionForCountryCode(geo.id)
     if (jurisdictionId) return jurisdictionsData[jurisdictionId].jurisdiction.fullName
     const dev = getDevelopingLabel(geo.id)
-    if (dev) return `${dev} — developing`
+    if (dev) return `${dev}, developing`
     return null
   }
 

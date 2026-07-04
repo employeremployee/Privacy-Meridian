@@ -33,21 +33,21 @@
       "label": "Right to Correct Inaccurate Data",
       "jurisdictions": {
         "gdpr": {
-          "value": "Article 16 \u2014 without undue delay",
+          "value": "Article 16: without undue delay",
           "differenceType": null,
           "articleId": "gdpr-art16"
         },
         "ccpa": {
-          "value": "Section 1798.106 (CPRA only) \u2014 commercially reasonable efforts",
+          "value": "Section 1798.106 (CPRA only): commercially reasonable efforts",
           "differenceType": "additional-requirement",
           "articleId": "ccpa-right-to-correct"
         },
         "lgpd": {
-          "value": "Article 18, III \u2014 within 15 days",
+          "value": "Article 18, III: within 15 days",
           "differenceType": "additional-requirement"
         },
         "pipl": {
-          "value": "Article 46 \u2014 within 15 working days after verification",
+          "value": "Article 46: within 15 working days after verification",
           "differenceType": "additional-requirement"
         }
       }
@@ -58,7 +58,7 @@
       "label": "Data Portability",
       "jurisdictions": {
         "gdpr": {
-          "value": "Article 20 \u2014 consent or contract basis only. Machine-readable format.",
+          "value": "Article 20: consent or contract basis only. Machine-readable format.",
           "differenceType": null,
           "articleId": "gdpr-art20"
         },
@@ -68,11 +68,11 @@
           "articleId": "ccpa-right-to-know"
         },
         "lgpd": {
-          "value": "Article 18, V \u2014 subject to ANPD regulation. Still developing.",
+          "value": "Article 18, V: subject to ANPD regulation. Still developing.",
           "differenceType": "additional-requirement"
         },
         "pipl": {
-          "value": "Article 45 \u2014 access plus transfer channel where CAC conditions met.",
+          "value": "Article 45: access plus transfer channel where CAC conditions met.",
           "differenceType": "additional-requirement"
         }
       }
@@ -83,7 +83,7 @@
       "label": "Automated Decision-Making Rights",
       "jurisdictions": {
         "gdpr": {
-          "value": "Article 22 \u2014 right not to be subject to solely automated decisions with legal effects. Exceptions apply with human review safeguard.",
+          "value": "Article 22: right not to be subject to solely automated decisions with legal effects. Exceptions apply with human review safeguard.",
           "differenceType": null,
           "articleId": "gdpr-art22"
         },
@@ -92,11 +92,11 @@
           "differenceType": "additional-requirement"
         },
         "lgpd": {
-          "value": "Article 20 \u2014 right to review of automated decisions. Similar to GDPR.",
+          "value": "Article 20: right to review of automated decisions. Similar to GDPR.",
           "differenceType": "additional-requirement"
         },
         "pipl": {
-          "value": "Article 24 \u2014 opt-out, human review, non-personalized options, and anti-differential pricing provision.",
+          "value": "Article 24: opt-out, human review, non-personalized options, and anti-differential pricing provision.",
           "differenceType": "structural-difference",
           "articleId": "pipl-art24"
         }
@@ -131,7 +131,7 @@
       "label": "Breach Notification to Affected Individuals",
       "jurisdictions": {
         "gdpr": {
-          "value": "Article 34 \u2014 without undue delay where high risk to individuals",
+          "value": "Article 34: without undue delay where high risk to individuals",
           "differenceType": null
         },
         "ccpa": {
@@ -139,11 +139,11 @@
           "differenceType": "additional-requirement"
         },
         "lgpd": {
-          "value": "Article 48 \u2014 when relevant harm may occur to data subjects",
+          "value": "Article 48: when relevant harm may occur to data subjects",
           "differenceType": "additional-requirement"
         },
         "pipl": {
-          "value": "Article 57 \u2014 immediately. May be replaced by public announcement if harm avoided.",
+          "value": "Article 57: immediately. May be replaced by public announcement if harm avoided.",
           "differenceType": "additional-requirement"
         }
       }
@@ -315,7 +315,7 @@
       "label": "Privacy Impact Assessment Requirements",
       "jurisdictions": {
         "gdpr": {
-          "value": "Article 35 \u2014 mandatory PIA for high-risk processing. Supervisory authorities publish trigger lists.",
+          "value": "Article 35: mandatory PIA for high-risk processing. Supervisory authorities publish trigger lists.",
           "differenceType": null
         },
         "ccpa": {
@@ -323,11 +323,11 @@
           "differenceType": "additional-requirement"
         },
         "lgpd": {
-          "value": "Article 38 \u2014 ANPD may require reports for risky processing. Trigger criteria still developing.",
+          "value": "Article 38: ANPD may require reports for risky processing. Trigger criteria still developing.",
           "differenceType": "additional-requirement"
         },
         "pipl": {
-          "value": "Article 55 \u2014 mandatory PIPIA before processing sensitive data, automated decisions, third-party sharing, international transfers, and other high-impact activities. Broader trigger scope than GDPR.",
+          "value": "Article 55: mandatory PIPIA before processing sensitive data, automated decisions, third-party sharing, international transfers, and other high-impact activities. Broader trigger scope than GDPR.",
           "differenceType": "additional-requirement"
         }
       }

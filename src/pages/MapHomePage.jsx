@@ -5,7 +5,7 @@ import ccpaData from '../data/jurisdictions/ccpa.json'
 import lgpdData from '../data/jurisdictions/lgpd.json'
 import piplData from '../data/jurisdictions/pipl.json'
 import glossaryData from '../data/glossary.json'
-import sensitiveData from '../data/comparison/sensitiveData.json'
+import { COMPARISON_TOPICS } from '../data/comparison/comparisonTopics.js'
 import MapExplorer from '../components/MapExplorer.jsx'
 import MapLegend from '../components/MapLegend.jsx'
 import DrilldownReadout from '../components/DrilldownReadout.jsx'
@@ -25,6 +25,10 @@ function MapHomePage() {
   const [view, setView] = useState('explore')
   const [exploreSelection, setExploreSelection] = useState(null)
   const [compareSelection, setCompareSelection] = useState([])
+  const [compareTopicId, setCompareTopicId] = useState(COMPARISON_TOPICS[0].topicId)
+
+  const activeTopic =
+    COMPARISON_TOPICS.find((topic) => topic.topicId === compareTopicId) || COMPARISON_TOPICS[0]
 
   function handleSelect(jurisdictionId) {
     if (view === 'explore') {
@@ -95,9 +99,29 @@ function MapHomePage() {
           )
         ) : (
           <div>
-            <h2 className="mb-4 text-xl font-bold text-ink">{sensitiveData.topicLabel}</h2>
+            <nav aria-label={t('topicPicker.label')} className="mb-4 flex flex-wrap gap-2">
+              {COMPARISON_TOPICS.map((topic) => {
+                const isActive = topic.topicId === compareTopicId
+                return (
+                  <button
+                    key={topic.topicId}
+                    type="button"
+                    aria-pressed={isActive}
+                    onClick={() => setCompareTopicId(topic.topicId)}
+                    className={[
+                      'rounded-md px-3 py-1.5 text-sm font-medium transition-colors',
+                      'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue',
+                      isActive ? 'bg-meridian-blue text-white' : 'bg-surface text-ink hover:bg-rule',
+                    ].join(' ')}
+                  >
+                    {topic.topicLabel}
+                  </button>
+                )
+              })}
+            </nav>
+            <h2 className="mb-4 text-xl font-bold text-ink">{activeTopic.topicLabel}</h2>
             <ComparisonMatrix
-              data={sensitiveData}
+              data={activeTopic}
               selectedIds={compareSelection}
               jurisdictionsData={JURISDICTIONS_DATA}
             />

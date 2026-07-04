@@ -1,0 +1,105 @@
+{
+  "topicId": "individual-rights",
+  "topicLabel": "Individual Rights",
+  "format": "three-state",
+  "rowHeader": "Right",
+  "draft": true,
+  "draftNote": "DRAFT classifications for prototype review. Not yet verified. Jared to confirm each cell before this is trustworthy.",
+  "states": {
+    "yes": "Granted as a distinct enforceable right",
+    "partial": "Granted conditionally, partially, or under a different mechanism",
+    "no": "Not granted as a distinct right"
+  },
+  "rows": [
+    {
+      "id": "access",
+      "label": "Right to access or know",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 15, right of access." },
+        "ccpa": { "state": "yes", "note": "Right to Know, Section 1798.100." },
+        "lgpd": { "state": "yes", "note": "Article 18, I and II." },
+        "pipl": { "state": "yes", "note": "Article 45, right to access and copy." }
+      }
+    },
+    {
+      "id": "deletion",
+      "label": "Right to deletion or erasure",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 17, right to erasure." },
+        "ccpa": { "state": "yes", "note": "Section 1798.105." },
+        "lgpd": { "state": "yes", "note": "Article 18, IV, anonymization, blocking, or deletion." },
+        "pipl": { "state": "yes", "note": "Article 47." }
+      }
+    },
+    {
+      "id": "correction",
+      "label": "Right to correction",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 16, rectification." },
+        "ccpa": { "state": "partial", "note": "Added by CPRA (Section 1798.106); absent from the original CCPA." },
+        "lgpd": { "state": "yes", "note": "Article 18, III." },
+        "pipl": { "state": "yes", "note": "Article 46." }
+      }
+    },
+    {
+      "id": "portability",
+      "label": "Right to data portability",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 20." },
+        "ccpa": { "state": "partial", "note": "Delivered through Right to Know, not a standalone portability right." },
+        "lgpd": { "state": "yes", "note": "Article 18, V, subject to ANPD regulation." },
+        "pipl": { "state": "partial", "note": "Article 45, transfer where CAC conditions are met." }
+      }
+    },
+    {
+      "id": "opt-out-sale",
+      "label": "Right to opt out of sale or sharing",
+      "jurisdictions": {
+        "gdpr": { "state": "partial", "note": "No sale concept; objection to direct marketing is absolute under Article 21." },
+        "ccpa": { "state": "yes", "note": "Section 1798.120, a core CCPA right." },
+        "lgpd": { "state": "no", "note": "No direct equivalent; processing rests on legal bases and consent." },
+        "pipl": { "state": "partial", "note": "Separate consent required for provision to third parties." }
+      }
+    },
+    {
+      "id": "object",
+      "label": "Right to object to processing",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 21." },
+        "ccpa": { "state": "partial", "note": "Limited; opt-out and Limit-the-Use mechanisms rather than a general objection right." },
+        "lgpd": { "state": "yes", "note": "Article 18." },
+        "pipl": { "state": "yes", "note": "Article 44, right to restrict or refuse." }
+      }
+    },
+    {
+      "id": "automated-decisions",
+      "label": "Right against solely automated decisions",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 22." },
+        "ccpa": { "state": "partial", "note": "Automated decision-making rules developing under CPRA rulemaking." },
+        "lgpd": { "state": "yes", "note": "Article 20, right to review." },
+        "pipl": { "state": "yes", "note": "Article 24." }
+      }
+    },
+    {
+      "id": "restrict",
+      "label": "Right to restrict processing",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 18." },
+        "ccpa": { "state": "partial", "note": "Limit the Use of Sensitive Personal Information, Section 1798.121." },
+        "lgpd": { "state": "yes", "note": "Article 18, blocking remedy." },
+        "pipl": { "state": "yes", "note": "Article 44, restriction of processing." }
+      }
+    },
+    {
+      "id": "non-discrimination",
+      "label": "Right to non-discrimination for exercising rights",
+      "jurisdictions": {
+        "gdpr": { "state": "partial", "note": "Protected in principle, not framed as a standalone right." },
+        "ccpa": { "state": "yes", "note": "Section 1798.125, an explicit CCPA right." },
+        "lgpd": { "state": "partial", "note": "Implied through good-faith and non-discrimination principles." },
+        "pipl": { "state": "partial", "note": "Anti-differential-pricing provision in Article 24 for automated decisions." }
+      }
+    }
+  ]
+}

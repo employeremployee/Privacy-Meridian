@@ -28,7 +28,7 @@ function ComparisonMatrix({ data, selectedIds, jurisdictionsData }) {
                 scope="col"
                 className="sticky left-0 z-10 bg-surface p-3 text-left text-sm font-medium text-ink"
               >
-                {t('comparison.requirementColumn')}
+                {data.rowHeader || t('comparison.requirementColumn')}
               </th>
               {selectedIds.map((jid) => {
                 const meta = jurisdictionsData[jid].jurisdiction

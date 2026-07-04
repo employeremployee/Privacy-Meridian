@@ -9,7 +9,23 @@ const STATE = {
 
 function ComparisonCell({ cell }) {
   const { t } = useTranslation()
-  const config = STATE[cell?.state] || STATE.no
+
+  if (!cell) {
+    return <span className="text-sm text-ink">n/a</span>
+  }
+
+  // Value cell: a short text value plus an optional note.
+  if (cell.value !== undefined) {
+    return (
+      <div className="flex flex-col gap-1">
+        <span className="text-sm font-medium text-ink">{cell.value}</span>
+        {cell.note && <span className="text-xs text-ink">{cell.note}</span>}
+      </div>
+    )
+  }
+
+  // Three-state cell.
+  const config = STATE[cell.state] || STATE.no
   const label = t(config.labelKey)
 
   return (
@@ -20,7 +36,7 @@ function ComparisonCell({ cell }) {
         </span>
         <span>{label}</span>
       </span>
-      {cell?.note && <span className="text-xs text-ink">{cell.note}</span>}
+      {cell.note && <span className="text-xs text-ink">{cell.note}</span>}
     </div>
   )
 }

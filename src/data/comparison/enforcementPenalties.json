@@ -1,0 +1,50 @@
+{
+  "topicId": "enforcement-penalties",
+  "topicLabel": "Enforcement and Penalties",
+  "format": "value",
+  "rowHeader": "Measure",
+  "draft": true,
+  "draftNote": "DRAFT values for prototype review. Not yet verified, and monetary figures shift with inflation adjustments and exchange rates. Jared to confirm each cell before this is trustworthy.",
+  "rows": [
+    {
+      "id": "max-fine",
+      "label": "Maximum administrative fine",
+      "jurisdictions": {
+        "gdpr": { "value": "€20M or 4% of global turnover", "note": "Whichever is higher, for the most serious infringements." },
+        "ccpa": { "value": "Up to $7,500 per violation", "note": "Per intentional violation or violation involving a minor; less for others." },
+        "lgpd": { "value": "2% of Brazil revenue, up to R$50M", "note": "Per infringement." },
+        "pipl": { "value": "¥50M or 5% of annual revenue", "note": "For serious violations, plus possible suspension." }
+      }
+    },
+    {
+      "id": "authority",
+      "label": "Enforcement authority",
+      "jurisdictions": {
+        "gdpr": { "value": "National DPAs and the EDPB", "note": "One-stop-shop for cross-border cases." },
+        "ccpa": { "value": "CPPA and the California AG", "note": "The CPPA is a dedicated privacy regulator." },
+        "lgpd": { "value": "ANPD", "note": "Guidance and enforcement are still maturing." },
+        "pipl": { "value": "CAC and sectoral regulators", "note": "The CAC leads, with sector-specific oversight." }
+      }
+    },
+    {
+      "id": "private-action",
+      "label": "Private right of action",
+      "jurisdictions": {
+        "gdpr": { "value": "Yes", "note": "Article 82, compensation for damage." },
+        "ccpa": { "value": "Limited", "note": "Data-breach claims only, with statutory damages." },
+        "lgpd": { "value": "Yes", "note": "Individual and collective actions available." },
+        "pipl": { "value": "Yes", "note": "Article 69, with a reversed burden of proof on handlers." }
+      }
+    },
+    {
+      "id": "tiered",
+      "label": "Tiered penalty structure",
+      "jurisdictions": {
+        "gdpr": { "value": "Yes", "note": "Two tiers under Article 83." },
+        "ccpa": { "value": "Per violation", "note": "Statutory amounts per violation rather than turnover tiers." },
+        "lgpd": { "value": "Yes", "note": "Graduated sanctions from warning to fine to suspension." },
+        "pipl": { "value": "Yes", "note": "Escalates to business suspension and personal liability." }
+      }
+    }
+  ]
+}

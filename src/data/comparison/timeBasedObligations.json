@@ -1,0 +1,50 @@
+{
+  "topicId": "time-based-obligations",
+  "topicLabel": "Time-Based Obligations",
+  "format": "value",
+  "rowHeader": "Obligation",
+  "draft": true,
+  "draftNote": "DRAFT values for prototype review. Not yet verified. Jared to confirm each cell before this is trustworthy.",
+  "rows": [
+    {
+      "id": "dsr-standard",
+      "label": "Respond to an individual rights request",
+      "jurisdictions": {
+        "gdpr": { "value": "1 month", "note": "From receipt of the request." },
+        "ccpa": { "value": "45 days", "note": "From receipt of a verifiable consumer request." },
+        "lgpd": { "value": "15 days", "note": "From receipt; immediate simplified response also available." },
+        "pipl": { "value": "15 working days", "note": "From receipt, after verification." }
+      }
+    },
+    {
+      "id": "dsr-extension",
+      "label": "Maximum with extension",
+      "jurisdictions": {
+        "gdpr": { "value": "Up to 3 months", "note": "Two further months for complex or numerous requests." },
+        "ccpa": { "value": "Up to 90 days", "note": "One 45-day extension where reasonably necessary." },
+        "lgpd": { "value": "No formal extension", "note": "The 15-day window is a firm operational target." },
+        "pipl": { "value": "Reasonable extension", "note": "No fixed statutory maximum specified." }
+      }
+    },
+    {
+      "id": "breach-authority",
+      "label": "Notify the regulator of a breach",
+      "jurisdictions": {
+        "gdpr": { "value": "72 hours", "note": "From awareness, unless unlikely to be a risk." },
+        "ccpa": { "value": "Without unreasonable delay", "note": "No fixed hour threshold." },
+        "lgpd": { "value": "2 business days", "note": "Preliminary notice per ANPD guidance; supplementary within 5." },
+        "pipl": { "value": "Immediately", "note": "No fixed hour threshold; some sectors specify 24 hours." }
+      }
+    },
+    {
+      "id": "breach-individuals",
+      "label": "Notify affected individuals of a breach",
+      "jurisdictions": {
+        "gdpr": { "value": "Without undue delay", "note": "Where the breach is high risk to individuals." },
+        "ccpa": { "value": "Most expedient time possible", "note": "For breaches of defined sensitive categories." },
+        "lgpd": { "value": "Reasonable timeframe", "note": "When relevant harm may occur to data subjects." },
+        "pipl": { "value": "Immediately", "note": "May be replaced by public announcement if harm is avoided." }
+      }
+    }
+  ]
+}

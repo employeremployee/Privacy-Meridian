@@ -1,0 +1,95 @@
+{
+  "topicId": "legal-bases",
+  "topicLabel": "Legal Bases for Processing",
+  "format": "three-state",
+  "rowHeader": "Legal basis",
+  "draft": true,
+  "draftNote": "DRAFT classifications for prototype review. Not yet verified. Jared to confirm each cell before this is trustworthy.",
+  "states": {
+    "yes": "Recognized as a lawful basis",
+    "partial": "Recognized in a narrower or conditional form",
+    "no": "Not a recognized basis in this form"
+  },
+  "rows": [
+    {
+      "id": "consent",
+      "label": "Consent",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 6(1)(a)." },
+        "ccpa": { "state": "partial", "note": "Opt-out model; consent required only for specific cases such as minors and sensitive data." },
+        "lgpd": { "state": "yes", "note": "Article 7, I." },
+        "pipl": { "state": "yes", "note": "Article 13(1); the primary basis under PIPL." }
+      }
+    },
+    {
+      "id": "contract",
+      "label": "Performance of a contract",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 6(1)(b)." },
+        "ccpa": { "state": "no", "note": "CCPA uses an opt-out model, not a legal-basis framework." },
+        "lgpd": { "state": "yes", "note": "Article 7, V." },
+        "pipl": { "state": "yes", "note": "Article 13(2)." }
+      }
+    },
+    {
+      "id": "legal-obligation",
+      "label": "Legal or statutory obligation",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 6(1)(c)." },
+        "ccpa": { "state": "no", "note": "Not framed as a processing basis." },
+        "lgpd": { "state": "yes", "note": "Article 7, II." },
+        "pipl": { "state": "yes", "note": "Article 13(3), statutory duties." }
+      }
+    },
+    {
+      "id": "vital-interests",
+      "label": "Protection of life or vital interests",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 6(1)(d)." },
+        "ccpa": { "state": "no", "note": "Not framed as a processing basis." },
+        "lgpd": { "state": "yes", "note": "Article 7, VII." },
+        "pipl": { "state": "yes", "note": "Article 13(4), emergencies and public health." }
+      }
+    },
+    {
+      "id": "public-interest",
+      "label": "Public interest or public task",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 6(1)(e)." },
+        "ccpa": { "state": "no", "note": "Not framed as a processing basis." },
+        "lgpd": { "state": "yes", "note": "Article 7, III, execution of public policies." },
+        "pipl": { "state": "yes", "note": "Article 13(5), news reporting and public interest." }
+      }
+    },
+    {
+      "id": "legitimate-interests",
+      "label": "Legitimate interests",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 6(1)(f), with a balancing test." },
+        "ccpa": { "state": "no", "note": "No equivalent basis." },
+        "lgpd": { "state": "partial", "note": "Article 7, IX; narrower than GDPR and still developing under ANPD." },
+        "pipl": { "state": "no", "note": "PIPL has no general legitimate-interests basis." }
+      }
+    },
+    {
+      "id": "credit-protection",
+      "label": "Credit protection",
+      "jurisdictions": {
+        "gdpr": { "state": "no", "note": "Not a standalone basis." },
+        "ccpa": { "state": "no", "note": "Not a standalone basis." },
+        "lgpd": { "state": "yes", "note": "Article 7, X; unique to LGPD." },
+        "pipl": { "state": "no", "note": "Not a standalone basis." }
+      }
+    },
+    {
+      "id": "public-data",
+      "label": "Processing already-public information",
+      "jurisdictions": {
+        "gdpr": { "state": "partial", "note": "Manifestly-public exemption applies mainly to special categories." },
+        "ccpa": { "state": "partial", "note": "Publicly available information is excluded from personal information." },
+        "lgpd": { "state": "partial", "note": "Manifestly-public data treated with lighter conditions." },
+        "pipl": { "state": "yes", "note": "Article 13(6), publicly disclosed information within reasonable scope." }
+      }
+    }
+  ]
+}

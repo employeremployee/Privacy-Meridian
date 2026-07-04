@@ -1,0 +1,85 @@
+{
+  "topicId": "international-transfers",
+  "topicLabel": "International Transfers",
+  "format": "three-state",
+  "rowHeader": "Mechanism",
+  "draft": true,
+  "draftNote": "DRAFT classifications for prototype review. Not yet verified. Jared to confirm each cell before this is trustworthy.",
+  "states": {
+    "yes": "Available or required under this law",
+    "partial": "Available in a limited or developing form",
+    "no": "Not part of this law's transfer regime"
+  },
+  "rows": [
+    {
+      "id": "adequacy",
+      "label": "Adequacy decision or recognition",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 45." },
+        "ccpa": { "state": "no", "note": "No specific cross-border transfer restrictions." },
+        "lgpd": { "state": "yes", "note": "ANPD adequacy recognition, still developing." },
+        "pipl": { "state": "no", "note": "PIPL has no adequacy-decision mechanism." }
+      }
+    },
+    {
+      "id": "sccs",
+      "label": "Standard contractual clauses",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 46, EU-approved SCCs." },
+        "ccpa": { "state": "no", "note": "Service-provider contracts, but no SCC transfer regime." },
+        "lgpd": { "state": "partial", "note": "ANPD-approved clauses, still being finalized." },
+        "pipl": { "state": "yes", "note": "CAC standard contract, using the mandated CAC form." }
+      }
+    },
+    {
+      "id": "bcrs",
+      "label": "Binding corporate rules",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 47." },
+        "ccpa": { "state": "no", "note": "Not part of the CCPA framework." },
+        "lgpd": { "state": "partial", "note": "Recognized in principle, guidance developing." },
+        "pipl": { "state": "no", "note": "Not a recognized PIPL mechanism." }
+      }
+    },
+    {
+      "id": "consent-transfer",
+      "label": "Explicit consent for transfer",
+      "jurisdictions": {
+        "gdpr": { "state": "partial", "note": "Article 49 derogation for specific situations." },
+        "ccpa": { "state": "no", "note": "Not a transfer mechanism." },
+        "lgpd": { "state": "yes", "note": "Specific consent for the transfer, Article 33." },
+        "pipl": { "state": "yes", "note": "Separate consent for cross-border transfer, Article 39." }
+      }
+    },
+    {
+      "id": "certification",
+      "label": "Certification mechanism",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Articles 42 and 46." },
+        "ccpa": { "state": "no", "note": "Not part of the CCPA framework." },
+        "lgpd": { "state": "partial", "note": "Contemplated, guidance developing." },
+        "pipl": { "state": "yes", "note": "CAC-recognized professional certification." }
+      }
+    },
+    {
+      "id": "security-assessment",
+      "label": "Government security assessment required",
+      "jurisdictions": {
+        "gdpr": { "state": "no", "note": "No government pre-approval of transfers." },
+        "ccpa": { "state": "no", "note": "No government pre-approval of transfers." },
+        "lgpd": { "state": "no", "note": "No government pre-approval of transfers." },
+        "pipl": { "state": "yes", "note": "CAC security assessment for CIIOs and high-volume handlers." }
+      }
+    },
+    {
+      "id": "localization",
+      "label": "Data localization required",
+      "jurisdictions": {
+        "gdpr": { "state": "no", "note": "Transfers permitted under Chapter V mechanisms." },
+        "ccpa": { "state": "no", "note": "No localization requirement." },
+        "lgpd": { "state": "no", "note": "No localization requirement." },
+        "pipl": { "state": "yes", "note": "Required for CIIOs and handlers above CAC volume thresholds." }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topicId": "scope-applicability",
+  "topicLabel": "Scope and Applicability",
+  "format": "value",
+  "rowHeader": "Aspect",
+  "draft": true,
+  "draftNote": "DRAFT values for prototype review. Not yet verified. Jared to confirm each cell before this is trustworthy.",
+  "rows": [
+    {
+      "id": "who-covered",
+      "label": "Who the law covers",
+      "jurisdictions": {
+        "gdpr": { "value": "Controllers and processors", "note": "Any organization determining or carrying out processing." },
+        "ccpa": { "value": "For-profit businesses", "note": "Only for-profit entities that meet a threshold." },
+        "lgpd": { "value": "Any public or private entity", "note": "Broad application across sectors." },
+        "pipl": { "value": "Personal information handlers", "note": "Any organization or individual determining processing." }
+      }
+    },
+    {
+      "id": "territorial-reach",
+      "label": "Territorial reach",
+      "jurisdictions": {
+        "gdpr": { "value": "EU establishment or EU residents", "note": "Article 3, establishment or targeting/monitoring." },
+        "ccpa": { "value": "California residents' data", "note": "Regardless of where the business is located." },
+        "lgpd": { "value": "Processing in or of people in Brazil", "note": "Article 3, including data collected in Brazil." },
+        "pipl": { "value": "Processing in or targeting China", "note": "Article 3, extraterritorial for offering goods or profiling." }
+      }
+    },
+    {
+      "id": "threshold",
+      "label": "Size or volume threshold",
+      "jurisdictions": {
+        "gdpr": { "value": "None", "note": "Applies to any size, though duties scale with risk." },
+        "ccpa": { "value": "$25M revenue, 100k consumers, or 50% data revenue", "note": "Meet one or more to be covered." },
+        "lgpd": { "value": "None", "note": "Applies regardless of size." },
+        "pipl": { "value": "None to apply", "note": "But high volume triggers extra localization and assessment duties." }
+      }
+    },
+    {
+      "id": "public-sector",
+      "label": "Public sector covered",
+      "jurisdictions": {
+        "gdpr": { "value": "Yes", "note": "Applies to public authorities." },
+        "ccpa": { "value": "No", "note": "For-profit businesses only; excludes government and non-profits." },
+        "lgpd": { "value": "Yes", "note": "Public and private sectors." },
+        "pipl": { "value": "Yes", "note": "State organs covered, with some exceptions." }
+      }
+    },
+    {
+      "id": "extraterritorial",
+      "label": "Extraterritorial reach",
+      "jurisdictions": {
+        "gdpr": { "value": "Yes", "note": "Article 3(2)." },
+        "ccpa": { "value": "Yes", "note": "Any qualifying business handling California residents' data." },
+        "lgpd": { "value": "Yes", "note": "Article 3." },
+        "pipl": { "value": "Yes", "note": "Article 3, with a required domestic representative." }
+      }
+    }
+  ]
+}

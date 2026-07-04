@@ -7,8 +7,12 @@ import SourceLinks from './SourceLinks.jsx'
 import AssessTrigger from './AssessTrigger.jsx'
 import GapRemediation from './GapRemediation.jsx'
 
-function ContentBlock({ article, jurisdictionId, jurisdictionData, glossaryData }) {
-  const { mode } = useMode()
+// `showOrganizations` (v2): explicit control of the org layer per jurisdiction. When undefined,
+// falls back to the legacy global mode context so the old routes keep working.
+function ContentBlock({ article, jurisdictionId, jurisdictionData, glossaryData, showOrganizations }) {
+  const modeCtx = useMode()
+  const resolvedShowOrg =
+    showOrganizations !== undefined ? showOrganizations : modeCtx?.mode === 'assess'
 
   return (
     <article
@@ -32,7 +36,7 @@ function ContentBlock({ article, jurisdictionId, jurisdictionData, glossaryData 
       />
       {article.responseTimeline && <Timeline timeline={article.responseTimeline} />}
       <SourceLinks links={article.sourceLinks} />
-      {mode === 'assess' && (
+      {resolvedShowOrg && (
         <>
           <AssessTrigger trigger={article.assessTrigger} />
           <GapRemediation gapRemediation={article.gapRemediation} />

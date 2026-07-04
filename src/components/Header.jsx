@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import ModeToggle from './ModeToggle.jsx'
 import LanguageSelector from './LanguageSelector.jsx'
 
 function Header() {
@@ -15,7 +14,6 @@ function Header() {
         </Link>
 
         <div className="flex flex-wrap items-center gap-3">
-          <ModeToggle />
           <LanguageSelector />
         </div>
       </div>

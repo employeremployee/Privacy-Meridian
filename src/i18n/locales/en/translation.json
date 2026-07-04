@@ -47,8 +47,39 @@
     "skipLink": "Skip world map",
     "instructions": "Tab or hover to highlighted countries to see which privacy law applies. Only four regions are interactive.",
     "viewJurisdictionLabel": "View {{name}} privacy law",
+    "selectedJurisdictionLabel": "{{name}} — selected. Activate to remove from comparison.",
     "currentlyHighlighting": "Highlighting: {{name}}",
     "nationalImplementationNote": "GDPR applies across the EU. {{country}} may also have additional national implementation."
+  },
+  "home": {
+    "exploreTab": "Explore",
+    "compareTab": "Compare",
+    "viewLabel": "View",
+    "exploreHint": "Pick a country on the map to see its privacy law.",
+    "compareHint": "Pick a topic, then pick countries on the map to compare them side by side.",
+    "draftBadge": "Draft data",
+    "statusIllustrative": "Country status colors are illustrative in this prototype and not yet verified."
+  },
+  "legend": {
+    "heading": "Map key",
+    "enacted": "Comprehensive law in effect",
+    "developing": "Law developing or not yet in force",
+    "none": "No comprehensive law"
+  },
+  "topicPicker": {
+    "label": "Topic"
+  },
+  "comparison": {
+    "requirementColumn": "Category",
+    "yes": "Yes",
+    "partial": "Partial",
+    "no": "No",
+    "pickCountries": "Pick countries on the map to compare.",
+    "draftNotice": "Draft comparison data — under review, not yet verified."
+  },
+  "organizations": {
+    "toggle": "Help for Organizations",
+    "toggleHint": "Show compliance guidance for organizations"
   },
   "languageSelector": {
     "label": "Language"

@@ -1,0 +1,113 @@
+{
+  "topicId": "sensitive-data",
+  "topicLabel": "Sensitive Data",
+  "draft": true,
+  "draftNote": "DRAFT classifications for prototype review. Not yet verified. Jared to confirm each cell before this is trustworthy.",
+  "states": {
+    "yes": "Explicitly protected as a special/sensitive category",
+    "partial": "Protected conditionally, indirectly, or under a different mechanism",
+    "no": "Not treated as a special/sensitive category"
+  },
+  "rows": [
+    {
+      "id": "racial-ethnic",
+      "label": "Racial or ethnic origin",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 9 special category." },
+        "ccpa": { "state": "yes", "note": "Listed as sensitive personal information." },
+        "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
+        "pipl": { "state": "partial", "note": "Not itemized, but caught by the general sensitive-data definition." }
+      }
+    },
+    {
+      "id": "political-opinions",
+      "label": "Political opinions",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 9 special category." },
+        "ccpa": { "state": "no", "note": "Not enumerated as sensitive personal information." },
+        "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
+        "pipl": { "state": "no", "note": "Not enumerated; no explicit political-opinion category." }
+      }
+    },
+    {
+      "id": "religious-philosophical",
+      "label": "Religious or philosophical beliefs",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 9 special category." },
+        "ccpa": { "state": "yes", "note": "Religious or philosophical beliefs listed." },
+        "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
+        "pipl": { "state": "yes", "note": "Religious beliefs itemized in Article 28." }
+      }
+    },
+    {
+      "id": "genetic",
+      "label": "Genetic data",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 9 special category." },
+        "ccpa": { "state": "yes", "note": "Genetic data listed as sensitive." },
+        "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
+        "pipl": { "state": "partial", "note": "Covered via biometric / general sensitive definition, not a standalone item." }
+      }
+    },
+    {
+      "id": "biometric",
+      "label": "Biometric data (for unique identification)",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 9, where used to uniquely identify." },
+        "ccpa": { "state": "yes", "note": "Biometric information listed as sensitive." },
+        "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
+        "pipl": { "state": "yes", "note": "Biometric characteristics itemized in Article 28." }
+      }
+    },
+    {
+      "id": "health",
+      "label": "Health data",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 9 special category." },
+        "ccpa": { "state": "yes", "note": "Health information treated as sensitive." },
+        "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
+        "pipl": { "state": "yes", "note": "Medical health itemized in Article 28." }
+      }
+    },
+    {
+      "id": "sexual-orientation",
+      "label": "Sex life or sexual orientation",
+      "jurisdictions": {
+        "gdpr": { "state": "yes", "note": "Article 9 special category." },
+        "ccpa": { "state": "yes", "note": "Sex life or sexual orientation listed." },
+        "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
+        "pipl": { "state": "partial", "note": "Not itemized, but caught by the general sensitive-data definition." }
+      }
+    },
+    {
+      "id": "financial-account",
+      "label": "Financial account credentials",
+      "jurisdictions": {
+        "gdpr": { "state": "no", "note": "Not a special category; protected as ordinary personal data." },
+        "ccpa": { "state": "yes", "note": "Account log-in and financial account plus access credentials are sensitive." },
+        "lgpd": { "state": "no", "note": "Not a sensitive category under Article 5(II)." },
+        "pipl": { "state": "yes", "note": "Financial accounts itemized in Article 28." }
+      }
+    },
+    {
+      "id": "precise-geolocation",
+      "label": "Precise geolocation",
+      "jurisdictions": {
+        "gdpr": { "state": "no", "note": "Not a special category; protected as ordinary personal data." },
+        "ccpa": { "state": "yes", "note": "Precise geolocation listed as sensitive." },
+        "lgpd": { "state": "no", "note": "Not a sensitive category under Article 5(II)." },
+        "pipl": { "state": "yes", "note": "Individual location tracking itemized in Article 28." }
+      }
+    },
+    {
+      "id": "childrens-data",
+      "label": "Children's data",
+      "jurisdictions": {
+        "gdpr": { "state": "partial", "note": "Not in Article 9, but children receive specific heightened protections." },
+        "ccpa": { "state": "partial", "note": "Opt-in required for sale/sharing of minors' data, handled separately from sensitive PI." },
+        "lgpd": { "state": "partial", "note": "Children's data given special treatment under Article 14, not listed in Article 5(II)." },
+        "pipl": { "state": "yes", "note": "Personal information of minors under 14 is sensitive under Article 28." }
+      }
+    }
+  ]
+}

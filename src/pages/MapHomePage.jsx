@@ -99,7 +99,7 @@ function MapHomePage() {
           )
         ) : (
           <div>
-            <nav aria-label={t('topicPicker.label')} className="mb-4 flex flex-wrap gap-2">
+            <nav aria-label={t('topicPicker.label')} className="mb-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
               {COMPARISON_TOPICS.map((topic) => {
                 const isActive = topic.topicId === compareTopicId
                 return (

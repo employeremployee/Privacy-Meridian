@@ -58,7 +58,10 @@
     "exploreHint": "Pick a country on the map to see its privacy law.",
     "compareHint": "Pick a topic, then pick countries on the map to compare them side by side.",
     "draftBadge": "Draft data",
-    "statusIllustrative": "Country status colors are illustrative in this prototype and not yet verified."
+    "statusIllustrative": "Country status colors are illustrative in this prototype and not yet verified.",
+    "compareLimitNote": "Compare up to {{max}} countries at a time.",
+    "compareSelectedCount": "{{count}} of {{max}} countries selected.",
+    "compareLimitReached": "Limit reached. Remove a country before adding another."
   },
   "legend": {
     "heading": "Map key",

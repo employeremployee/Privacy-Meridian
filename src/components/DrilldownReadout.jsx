@@ -26,6 +26,11 @@ function DrilldownReadout({ jurisdictionData, glossaryData }) {
         <JurisdictionBadge badge={jurisdiction.badge} />
         <h2 className="text-xl font-bold text-ink">{jurisdiction.fullName}</h2>
         <span className="font-mono text-xs text-ink">{jurisdiction.citation}</span>
+        {jurisdiction.draft && (
+          <span className="rounded border border-horizon px-2 py-0.5 text-xs font-medium text-horizon">
+            {t('drilldown.draftNotice')}
+          </span>
+        )}
       </div>
 
       <nav aria-label={t('topicPicker.label')} className="mt-4 flex flex-wrap gap-2">

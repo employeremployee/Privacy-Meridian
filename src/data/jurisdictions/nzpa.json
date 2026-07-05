@@ -1,0 +1,224 @@
+{
+  "jurisdiction": {
+    "id": "nzpa",
+    "name": "Privacy Act 2020",
+    "fullName": "Privacy Act 2020",
+    "citation": "Privacy Act 2020, in force December 1, 2020",
+    "region": "New Zealand",
+    "badge": "NZ",
+    "effectiveDate": "2020-12-01",
+    "sourceUrl": "https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html",
+    "authority": {
+      "name": "OPC",
+      "url": "https://www.privacy.org.nz"
+    },
+    "sourceUrls": [
+      "https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html",
+      "https://www.privacy.org.nz"
+    ],
+    "draft": true
+  },
+  "categories": [
+    {
+      "categoryId": "governance",
+      "articles": [
+        {
+          "id": "nzpa-scope",
+          "articleRef": "Overview",
+          "surfaceLabel": "Does New Zealand's Privacy Law Apply to Your Organization?",
+          "plainSummary": "New Zealand's Privacy Act 2020 applies to nearly every organization in New Zealand and to overseas businesses that operate there, even without a physical presence. It is built on thirteen privacy principles rather than detailed rules.",
+          "professionalLayer": "The Privacy Act 2020 applies to agencies, a term covering almost any person or body, public or private, and extends to overseas agencies carrying on business in New Zealand regardless of physical presence or whether they charge for services. Its core is thirteen Information Privacy Principles governing collection, storage, security, access, correction, accuracy, retention, use, disclosure, unique identifiers, and cross-border disclosure. The Privacy Commissioner investigates complaints, issues compliance notices, and can make binding access directions, but the Act carries modest penalties by international standards, with offences capped at NZ$10,000 and no revenue-based fines. New Zealand holds a long-standing EU adequacy decision.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Privacy Act 2020: legislation.govt.nz",
+              "url": "https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html"
+            },
+            {
+              "label": "OPC: privacy.org.nz",
+              "url": "https://www.privacy.org.nz"
+            }
+          ],
+          "tooltipTerms": ["personal-data", "supervisory-authority-dpa"],
+          "assessTrigger": "Do you carry on business in New Zealand, even without local presence, and does your program map to the thirteen privacy principles rather than assuming GDPR coverage suffices?",
+          "gapRemediation": {
+            "smb": "Work through the thirteen principles as a checklist. The OPC publishes plain-language guidance suited to small agencies.",
+            "midMarket": "Map existing GDPR controls to the IPPs and close principle-specific gaps like unique identifier rules.",
+            "enterprise": "Maintain an IPP-indexed control matrix, since complaints and OPC inquiries are framed principle by principle."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": ["gdpr"],
+              "note": "New Zealand enforces through complaints, compliance notices, and small offences rather than administrative fines."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "legal-bases",
+      "articles": [
+        {
+          "id": "nzpa-ipp1-4",
+          "articleRef": "IPPs 1-4",
+          "surfaceLabel": "When Organizations May Collect Your Information in New Zealand",
+          "plainSummary": "New Zealand law controls collection through principles rather than legal bases. Information must be collected for a lawful purpose the organization genuinely needs, usually directly from you, with fair and open methods.",
+          "professionalLayer": "Rather than enumerating legal bases, the Act regulates collection through principles. IPP1 permits collection only for a lawful purpose connected with the agency's functions and only where necessary. IPP2 requires collection directly from the individual, subject to exceptions. IPP3 requires transparency about purpose, recipients, and rights at collection. IPP4 prohibits unlawful, unfair, or unreasonably intrusive means, with special regard for children. Consent is not the central gatekeeper; necessity for a lawful purpose is, with use and disclosure limits carried by later principles. This principles-based architecture reads closer to fair information practices than to GDPR.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Privacy Act 2020 IPPs: legislation.govt.nz",
+              "url": "https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html"
+            },
+            {
+              "label": "OPC IPP Guidance",
+              "url": "https://www.privacy.org.nz"
+            }
+          ],
+          "tooltipTerms": ["purpose-limitation", "data-minimization", "legal-basis"],
+          "assessTrigger": "Is each collection tied to a lawful purpose you genuinely need, collected directly from the person with the IPP3 transparency statement?",
+          "gapRemediation": {
+            "smb": "Write down the purpose for each collection and share it at the point of collection. That covers the core of IPPs 1-3.",
+            "midMarket": "Review indirect collection against IPP2 exceptions and document them.",
+            "enterprise": "Tie collection inventories to declared purposes and audit necessity, the Act's operative test."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    },
+    {
+      "categoryId": "data-subject-rights",
+      "articles": [
+        {
+          "id": "nzpa-access",
+          "articleRef": "IPP6",
+          "surfaceLabel": "Your Right to See Your Information in New Zealand",
+          "plainSummary": "You can ask any organization to confirm whether it holds personal information about you and to give you access to it. The organization must respond within 20 working days.",
+          "professionalLayer": "IPP6 confers a legal right of access to personal information held by any agency. Agencies must respond as soon as reasonably practicable and no later than 20 working days after receipt, granting access unless a withholding ground applies, such as serious harm, unwarranted disclosure of another's affairs, or legal privilege. The Commissioner can issue binding access directions where agencies wrongly refuse, one of the 2020 Act's key enforcement additions. Charging is generally prohibited for public sector agencies and restricted for private ones.",
+          "responseTimeline": "20 working days from receipt.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Privacy Act 2020 IPP6: legislation.govt.nz",
+              "url": "https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html"
+            },
+            {
+              "label": "OPC Access Guidance",
+              "url": "https://www.privacy.org.nz"
+            }
+          ],
+          "tooltipTerms": ["data-subject"],
+          "assessTrigger": "Can you meet the 20-working-day access deadline, and are refusals tied to specific statutory withholding grounds that would survive an OPC access direction?",
+          "gapRemediation": {
+            "smb": "Log the receipt date and track the 20-working-day clock. Cite a specific withholding ground for any refusal.",
+            "midMarket": "Standardize withholding-ground assessments, since the Commissioner reviews refusals directly.",
+            "enterprise": "Route NZ requests through your DSR tooling with working-day calendars and directions-proof refusal logs."
+          },
+          "comparisonFlags": []
+        },
+        {
+          "id": "nzpa-correction",
+          "articleRef": "IPP7",
+          "surfaceLabel": "Your Right to Correct Your Information in New Zealand",
+          "plainSummary": "You can ask an organization to correct information about you. If it will not make the change, you can require it to attach your statement of the correction you wanted.",
+          "professionalLayer": "IPP7 grants the right to request correction of personal information. Where an agency declines, the individual may provide a statement of the correction sought, which the agency must attach to the information so any future user sees the dispute. Agencies must take reasonable steps to inform other recipients of corrections made. The statement-of-correction mechanism is a distinctive New Zealand feature that preserves the individual's voice even when the record stands, and the 20-working-day response discipline applies.",
+          "responseTimeline": "20 working days from receipt.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Privacy Act 2020 IPP7: legislation.govt.nz",
+              "url": "https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html"
+            }
+          ],
+          "tooltipTerms": [],
+          "assessTrigger": "Can your systems attach a statement of correction to a disputed record and propagate corrections to past recipients?",
+          "gapRemediation": {
+            "smb": "Where you decline a correction, attach the person's statement to the record. A simple note field satisfies this.",
+            "midMarket": "Build statement-attachment into your record systems and notify prior recipients of corrections.",
+            "enterprise": "Support dispute annotations across systems of record with recipient notification workflows."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": ["gdpr"],
+              "note": "New Zealand's statement-of-correction mechanism has no direct GDPR equivalent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "breach-notification",
+      "articles": [
+        {
+          "id": "nzpa-breach",
+          "articleRef": "Part 6",
+          "surfaceLabel": "What Happens When Your Data Is Compromised in New Zealand",
+          "plainSummary": "Organizations must notify the Privacy Commissioner and affected people as soon as practicable after a privacy breach that has caused, or is likely to cause, serious harm. Failing to notify the regulator is an offence.",
+          "professionalLayer": "Part 6 of the 2020 Act introduced mandatory breach notification for notifiable privacy breaches, defined as breaches it is reasonable to believe have caused or are likely to cause serious harm. Assessment factors include the sensitivity of the information, protective actions taken, and who obtained it. Notification to the Commissioner, via the NotifyUs online tool, and to affected individuals must occur as soon as practicable after awareness, with public notice available where individual notification is not reasonably practicable. Failure to notify the Commissioner without reasonable excuse is an offence with a fine up to NZ$10,000.",
+          "responseTimeline": "Commissioner and individuals: as soon as practicable after awareness of a serious-harm breach.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Privacy Act 2020 Part 6: legislation.govt.nz",
+              "url": "https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html"
+            },
+            {
+              "label": "OPC NotifyUs",
+              "url": "https://www.privacy.org.nz"
+            }
+          ],
+          "tooltipTerms": ["breach-notification"],
+          "assessTrigger": "Does your incident process apply the serious-harm test with documented factors and use the OPC's NotifyUs channel promptly?",
+          "gapRemediation": {
+            "smb": "Adopt the OPC's serious-harm assessment factors as your triage checklist and bookmark NotifyUs.",
+            "midMarket": "Record serious-harm assessments even for non-notified breaches to evidence the judgment.",
+            "enterprise": "Encode the NZ serious-harm threshold in your incident workflow alongside fixed-clock regimes."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": ["gdpr"],
+              "note": "New Zealand's trigger is a serious-harm threshold with an as-soon-as-practicable duty rather than a 72-hour clock."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "international-transfers",
+      "articles": [
+        {
+          "id": "nzpa-transfers",
+          "articleRef": "IPP12",
+          "surfaceLabel": "Moving Personal Data Out of New Zealand",
+          "plainSummary": "An organization may disclose your information to a foreign business only if that business is subject to comparable privacy safeguards, agrees to comparable protections by contract, or you expressly authorize the disclosure.",
+          "professionalLayer": "IPP12, new in the 2020 Act, permits disclosure to a foreign person or entity only where the receiver is subject to comparable safeguards to the Act, is in a prescribed country, is subject to binding privacy obligations through contract using mechanisms like the OPC's model clauses, participates in a prescribed binding scheme, or the individual expressly authorizes the disclosure after being informed that protections may not be comparable. Disclosure to an agent for storage or processing, such as a cloud provider acting on the agency's behalf, is treated as the agency's own holding rather than an IPP12 disclosure.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Privacy Act 2020 IPP12: legislation.govt.nz",
+              "url": "https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html"
+            },
+            {
+              "label": "OPC Model Clauses",
+              "url": "https://www.privacy.org.nz"
+            }
+          ],
+          "tooltipTerms": ["sccs"],
+          "assessTrigger": "Do foreign disclosures rest on comparable safeguards, OPC model clauses, or informed express authorization, with the agent exception applied correctly to cloud providers?",
+          "gapRemediation": {
+            "smb": "Use the OPC model clauses with foreign recipients and note which providers are agents rather than recipients.",
+            "midMarket": "Classify each offshore flow as agency-holding or IPP12 disclosure, and paper the latter.",
+            "enterprise": "Maintain an IPP12 register distinguishing agents from third-party recipients with instruments per flow."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    }
+  ]
+}

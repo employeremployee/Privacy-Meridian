@@ -1,0 +1,187 @@
+{
+  "jurisdiction": {
+    "id": "kdpa",
+    "name": "DPA 2019",
+    "fullName": "Data Protection Act, 2019",
+    "citation": "Data Protection Act No. 24 of 2019",
+    "region": "Kenya",
+    "badge": "KE",
+    "effectiveDate": "2019-11-25",
+    "sourceUrl": "http://kenyalaw.org",
+    "authority": {
+      "name": "ODPC",
+      "url": "https://www.odpc.go.ke"
+    },
+    "sourceUrls": [
+      "http://kenyalaw.org",
+      "https://www.odpc.go.ke"
+    ],
+    "draft": true
+  },
+  "categories": [
+    {
+      "categoryId": "governance",
+      "articles": [
+        {
+          "id": "kdpa-scope",
+          "articleRef": "Overview",
+          "surfaceLabel": "Does Kenya's Privacy Law Apply to Your Organization?",
+          "plainSummary": "Kenya's Data Protection Act implements a constitutional right to privacy. It applies to organizations in Kenya and abroad that process personal data of people in Kenya, and many controllers must register with the regulator.",
+          "professionalLayer": "The Act gives effect to Article 31 of Kenya's Constitution and applies to controllers and processors established in Kenya, and to those outside Kenya processing personal data of data subjects located in Kenya. The Office of the Data Protection Commissioner enforces the regime, and implementing regulations from 2021 introduced mandatory registration for controllers and processors above turnover and employee thresholds or in listed sectors. The structure is GDPR-influenced: principles, legal bases, data subject rights, impact assessments for high-risk processing, and breach notification. Administrative penalties reach five million shillings or one percent of annual turnover, whichever is lower, and the ODPC has been an increasingly active enforcer since its first penalties in 2023.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "Data Protection Act 2019: kenyalaw.org",
+              "url": "http://kenyalaw.org"
+            },
+            {
+              "label": "ODPC: odpc.go.ke",
+              "url": "https://www.odpc.go.ke"
+            }
+          ],
+          "tooltipTerms": ["controller-processor", "supervisory-authority-dpa", "pia-dpia"],
+          "assessTrigger": "Do you process personal data of people in Kenya, and if so, do the registration thresholds capture your organization?",
+          "gapRemediation": {
+            "smb": "Check the registration thresholds and listed sectors first. Registration is the compliance step small organizations most often miss.",
+            "midMarket": "Register where required and align your GDPR-style program to Kenyan specifics like ODPC filings.",
+            "enterprise": "Track ODPC enforcement and guidance actively, since the office has moved quickly from setup to penalties."
+          },
+          "comparisonFlags": [
+            {
+              "type": "additional-requirement",
+              "jurisdictions": ["gdpr"],
+              "note": "Kenya requires registration of controllers and processors above thresholds, an obligation GDPR abandoned."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "legal-bases",
+      "articles": [
+        {
+          "id": "kdpa-s30",
+          "articleRef": "Section 30",
+          "surfaceLabel": "Why Organizations Are Allowed to Use Your Data in Kenya",
+          "plainSummary": "Kenyan law permits processing with your consent or where it is necessary for a contract, a legal duty, protecting vital interests, a public task, or legitimate interests, a familiar list to anyone who knows GDPR.",
+          "professionalLayer": "Section 30 permits processing where the data subject consents, or where processing is necessary for contract performance, compliance with a legal obligation, protection of vital interests, performance of a public task, exercise of official authority, or legitimate interests pursued by the controller or a third party, subject to the data subject's overriding rights. The controller bears the burden of proving consent. Sensitive personal data, broadly defined to include health, biometrics, and property details among others, carries additional restrictions under Sections 44 to 47, and further processing must remain compatible with original purposes.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "DPA Section 30: kenyalaw.org",
+              "url": "http://kenyalaw.org"
+            }
+          ],
+          "tooltipTerms": ["legal-basis", "consent-withdrawal", "legitimate-interests", "sensitive-data"],
+          "assessTrigger": "Is each Kenyan processing activity mapped to a Section 30 basis, with provable consent records where consent is relied on?",
+          "gapRemediation": {
+            "smb": "Map activities to the bases and keep consent evidence, since the burden of proof sits with you.",
+            "midMarket": "Reuse GDPR basis mapping but verify sensitive-data categories, which differ from Article 9.",
+            "enterprise": "Integrate Kenya into your global basis register with its distinct sensitive-data list and proof-of-consent standard."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    },
+    {
+      "categoryId": "data-subject-rights",
+      "articles": [
+        {
+          "id": "kdpa-access",
+          "articleRef": "Section 26",
+          "surfaceLabel": "Your Rights Over Your Data in Kenya",
+          "plainSummary": "You have the right to know how your data is used, to access it, to correct false or misleading information, and to have it deleted. Organizations must act on requests promptly under the regulations.",
+          "professionalLayer": "Section 26 sets out the core rights: to be informed of use, to access personal data in custody of a controller or processor, to object to processing, to correction of false or misleading data, and to deletion of false or misleading data. The General Regulations of 2021 operationalize requests, requiring controllers to facilitate and respond to data subject requests within prescribed short timelines and free of charge in the standard case. Rights requests denied must be explained, and complaints lie to the ODPC, which operates an accessible complaints process that has generated much of Kenya's early enforcement.",
+          "responseTimeline": "Prompt response under the General Regulations 2021. Confirm the current prescribed period before relying on it.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "DPA Section 26: kenyalaw.org",
+              "url": "http://kenyalaw.org"
+            },
+            {
+              "label": "ODPC Guidance",
+              "url": "https://www.odpc.go.ke"
+            }
+          ],
+          "tooltipTerms": ["data-subject", "right-to-be-forgotten"],
+          "assessTrigger": "Can you receive, verify, and answer Kenyan rights requests within the regulation timelines, with explanations for any denial?",
+          "gapRemediation": {
+            "smb": "Publish a request route and respond quickly. ODPC complaints are easy to file, so unanswered requests escalate fast.",
+            "midMarket": "Fold Kenyan requests into DSR tooling with the regulation timelines configured.",
+            "enterprise": "Track Kenyan request volumes and ODPC complaint outcomes as an enforcement-exposure metric."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    },
+    {
+      "categoryId": "breach-notification",
+      "articles": [
+        {
+          "id": "kdpa-s43",
+          "articleRef": "Section 43",
+          "surfaceLabel": "What Happens When Your Data Is Compromised in Kenya",
+          "plainSummary": "Where a breach creates a real risk of harm, the organization must notify Kenya's regulator within 72 hours and tell affected people in writing within a reasonably practical time.",
+          "professionalLayer": "Section 43 requires a controller to notify the Data Commissioner without delay and within 72 hours of becoming aware of a breach where personal data has been accessed or acquired by an unauthorized person and there is a real risk of harm to the data subject. Affected data subjects must be informed in writing within a reasonably practical period, unless identity cannot be established. Processors must notify controllers within 48 hours of becoming aware. Notification content covers the nature of the breach, likely consequences, measures taken, and contact points, and delayed notifications require reasons.",
+          "responseTimeline": "Commissioner: within 72 hours where real risk of harm. Processor to controller: within 48 hours. Individuals: within a reasonably practical period, in writing.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "DPA Section 43: kenyalaw.org",
+              "url": "http://kenyalaw.org"
+            },
+            {
+              "label": "ODPC Breach Reporting",
+              "url": "https://www.odpc.go.ke"
+            }
+          ],
+          "tooltipTerms": ["breach-notification", "supervisory-authority-dpa"],
+          "assessTrigger": "Does your incident plan include the Kenyan 72-hour route, the 48-hour processor duty, and written individual notices?",
+          "gapRemediation": {
+            "smb": "Add the ODPC to your breach contacts and note the written-notice requirement for individuals.",
+            "midMarket": "Flow the 48-hour processor clock into vendor contracts touching Kenyan data.",
+            "enterprise": "Encode Kenya's dual clocks in the incident workflow with written-notice templates."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    },
+    {
+      "categoryId": "international-transfers",
+      "articles": [
+        {
+          "id": "kdpa-s48",
+          "articleRef": "Sections 48-49",
+          "surfaceLabel": "Moving Personal Data Out of Kenya",
+          "plainSummary": "Data may leave Kenya only with proof of adequate safeguards at the destination or your consent, and sensitive data transfers face extra conditions. The government can also require certain data to stay in Kenya.",
+          "professionalLayer": "Section 48 permits cross-border transfer only where the controller provides proof of appropriate safeguards for the data, including protection through the destination's laws or binding agreements, or where the data subject consents after being informed of the absence of safeguards. Section 49 adds conditions including necessity for contract performance, legal claims, and vital interests, and empowers restrictions on sensitive data transfers. The Act allows the Cabinet Secretary to prescribe processing that must occur through servers or data centers located in Kenya on strategic-interest grounds, creating a localization lever the regulations have applied to specific categories such as certain government and payments data.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "DPA Sections 48-49: kenyalaw.org",
+              "url": "http://kenyalaw.org"
+            }
+          ],
+          "tooltipTerms": ["sccs", "data-localization", "consent-withdrawal"],
+          "assessTrigger": "Can you evidence safeguards for each transfer out of Kenya, and have you checked whether any of your data falls in prescribed localization categories?",
+          "gapRemediation": {
+            "smb": "Keep proof of safeguards, such as contract clauses, on file per foreign destination.",
+            "midMarket": "Screen data categories against localization prescriptions before choosing hosting regions.",
+            "enterprise": "Track Cabinet Secretary prescriptions as live infrastructure constraints in your Kenya architecture."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": ["gdpr"],
+              "note": "Kenya empowers government-prescribed data localization on strategic-interest grounds."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

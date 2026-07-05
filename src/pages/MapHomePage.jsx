@@ -4,6 +4,16 @@ import gdprData from '../data/jurisdictions/gdpr.json'
 import ccpaData from '../data/jurisdictions/ccpa.json'
 import lgpdData from '../data/jurisdictions/lgpd.json'
 import piplData from '../data/jurisdictions/pipl.json'
+import ukgdprData from '../data/jurisdictions/ukgdpr.json'
+import fadpData from '../data/jurisdictions/fadp.json'
+import pdpaArData from '../data/jurisdictions/pdpa-ar.json'
+import lpdpUyData from '../data/jurisdictions/lpdp-uy.json'
+import pipaKrData from '../data/jurisdictions/pipa-kr.json'
+import appiData from '../data/jurisdictions/appi.json'
+import nzpaData from '../data/jurisdictions/nzpa.json'
+import popiaData from '../data/jurisdictions/popia.json'
+import kdpaData from '../data/jurisdictions/kdpa.json'
+import dpdpData from '../data/jurisdictions/dpdp.json'
 import glossaryData from '../data/glossary.json'
 import { COMPARISON_TOPICS } from '../data/comparison/comparisonTopics.js'
 import MapExplorer from '../components/MapExplorer.jsx'
@@ -16,6 +26,16 @@ const JURISDICTIONS_DATA = {
   ccpa: ccpaData,
   lgpd: lgpdData,
   pipl: piplData,
+  ukgdpr: ukgdprData,
+  fadp: fadpData,
+  'pdpa-ar': pdpaArData,
+  'lpdp-uy': lpdpUyData,
+  'pipa-kr': pipaKrData,
+  appi: appiData,
+  nzpa: nzpaData,
+  popia: popiaData,
+  kdpa: kdpaData,
+  dpdp: dpdpData,
 }
 
 const VIEWS = ['explore', 'compare']

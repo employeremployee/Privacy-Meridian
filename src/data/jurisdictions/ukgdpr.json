@@ -1,0 +1,210 @@
+{
+  "jurisdiction": {
+    "id": "ukgdpr",
+    "name": "UK GDPR",
+    "fullName": "UK General Data Protection Regulation and Data Protection Act 2018",
+    "citation": "UK GDPR; Data Protection Act 2018",
+    "region": "United Kingdom",
+    "badge": "UK",
+    "effectiveDate": "2021-01-01",
+    "sourceUrl": "https://www.legislation.gov.uk/eur/2016/679",
+    "authority": {
+      "name": "ICO",
+      "url": "https://ico.org.uk"
+    },
+    "sourceUrls": [
+      "https://www.legislation.gov.uk/eur/2016/679",
+      "https://ico.org.uk"
+    ],
+    "draft": true
+  },
+  "categories": [
+    {
+      "categoryId": "governance",
+      "articles": [
+        {
+          "id": "ukgdpr-scope",
+          "articleRef": "Overview",
+          "surfaceLabel": "Does UK Privacy Law Apply to Your Organization?",
+          "plainSummary": "The UK kept GDPR after leaving the EU, in a version called the UK GDPR. It applies to organizations that process personal information about people in the United Kingdom, even if the organization is based elsewhere.",
+          "professionalLayer": "The UK GDPR, together with the Data Protection Act 2018, is the retained version of the EU GDPR that took effect at the end of the Brexit transition period. Its structure mirrors the EU regulation: the same six legal bases, the same data subject rights, and the same accountability obligations. Territorial scope covers UK establishments and organizations outside the UK that offer goods or services to, or monitor the behavior of, people in the UK. The regimes have since begun to diverge as UK data reform legislation amends specific provisions, so UK compliance cannot simply be assumed from EU GDPR compliance. The Information Commissioner's Office enforces the law.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "UK GDPR: legislation.gov.uk",
+              "url": "https://www.legislation.gov.uk/eur/2016/679"
+            },
+            {
+              "label": "ICO Guidance: ico.org.uk",
+              "url": "https://ico.org.uk"
+            }
+          ],
+          "tooltipTerms": ["controller-processor", "supervisory-authority-dpa"],
+          "assessTrigger": "Does your organization process personal data of people in the UK, and have you assessed where UK GDPR now diverges from the EU GDPR rather than assuming the two remain identical?",
+          "gapRemediation": {
+            "smb": "If you are EU GDPR compliant, most of your program carries over. Confirm you have identified the ICO as your regulator and reviewed UK-specific guidance.",
+            "midMarket": "Track UK data reform amendments as a distinct workstream. Your records should mark which processing falls under UK GDPR, EU GDPR, or both.",
+            "enterprise": "Enterprise programs need parallel UK and EU compliance tracks with a documented divergence log, since the regimes no longer move together."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    },
+    {
+      "categoryId": "legal-bases",
+      "articles": [
+        {
+          "id": "ukgdpr-art6",
+          "articleRef": "Article 6",
+          "surfaceLabel": "Why Organizations Are Allowed to Use Your Data in the UK",
+          "plainSummary": "UK law requires a valid legal reason before an organization can use your personal information. The six reasons are the same as under the EU's GDPR, including your consent, a contract, or a legitimate business interest balanced against your rights.",
+          "professionalLayer": "Article 6 of the UK GDPR retains the six lawful bases of its EU parent: consent, contract performance, legal obligation, vital interests, public task, and legitimate interests. The ICO publishes detailed guidance on selecting and documenting a basis, including an interactive lawful basis tool. UK data reform has introduced a list of recognized legitimate interests for which the balancing test is simplified, one of the clearer points of divergence from the EU regime. As under EU GDPR, the basis must be settled before processing begins and documented in the record of processing.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "UK GDPR Article 6: legislation.gov.uk",
+              "url": "https://www.legislation.gov.uk/eur/2016/679"
+            },
+            {
+              "label": "ICO Lawful Basis Guidance",
+              "url": "https://ico.org.uk"
+            }
+          ],
+          "tooltipTerms": ["legal-basis", "legitimate-interests", "consent-withdrawal"],
+          "assessTrigger": "Has your organization documented a UK GDPR lawful basis for each processing activity involving UK residents, and checked whether UK reforms change any balancing tests you rely on?",
+          "gapRemediation": {
+            "smb": "Map each activity to one of the six bases and record it. Your EU GDPR mapping is a valid starting point.",
+            "midMarket": "Review legitimate interests assessments against current ICO guidance, which is not always identical to EDPB positions.",
+            "enterprise": "Maintain UK-specific legal basis documentation and monitor reform legislation that adjusts the legitimate interests framework."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    },
+    {
+      "categoryId": "data-subject-rights",
+      "articles": [
+        {
+          "id": "ukgdpr-art15",
+          "articleRef": "Article 15",
+          "surfaceLabel": "Your Right to See Your Data in the UK",
+          "plainSummary": "You have the right to ask any organization whether it holds personal information about you and to receive a copy. This is known as a subject access request, and it is the most exercised privacy right in the UK.",
+          "professionalLayer": "Article 15 of the UK GDPR grants the right of access on the same terms as the EU regulation: confirmation of processing, a copy of the data, and supplementary information covering purposes, categories, recipients, retention, and rights. The ICO treats subject access as a priority enforcement area and publishes detailed employer-focused guidance because employment-related requests dominate UK volumes. The first copy is free. Organizations may charge a reasonable fee or refuse only where requests are manifestly unfounded or excessive, and the ICO interprets those exceptions narrowly.",
+          "responseTimeline": "One calendar month from receipt. Extendable by two further months for complex or numerous requests, with notice within the first month.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "UK GDPR Article 15: legislation.gov.uk",
+              "url": "https://www.legislation.gov.uk/eur/2016/679"
+            },
+            {
+              "label": "ICO Right of Access Guidance",
+              "url": "https://ico.org.uk"
+            }
+          ],
+          "tooltipTerms": ["data-subject", "controller-processor", "retention-period"],
+          "assessTrigger": "Can your organization meet the one-month subject access deadline for UK requests, including searching unstructured sources like email where the ICO expects reasonable effort?",
+          "gapRemediation": {
+            "smb": "A documented intake route and a response checklist cover most needs at this scale. Watch the one-month clock from the day of receipt.",
+            "midMarket": "Subject access requests from employees are the common stress case. Define search scope, exemption handling, and third-party data redaction in advance.",
+            "enterprise": "High request volumes justify a dedicated DSR platform with email and unstructured data search, plus documented exemption decision logs the ICO can audit."
+          },
+          "comparisonFlags": []
+        },
+        {
+          "id": "ukgdpr-art17",
+          "articleRef": "Article 17",
+          "surfaceLabel": "Your Right to Delete Your Data in the UK",
+          "plainSummary": "You can ask an organization to permanently delete your personal information in defined circumstances, such as when it is no longer needed or you withdraw consent. The organization can refuse only for specific legal reasons.",
+          "professionalLayer": "Article 17 of the UK GDPR mirrors the EU right to erasure: deletion is required where data is no longer necessary, consent is withdrawn without another basis, the individual objects without overriding grounds, processing was unlawful, or a legal obligation requires it. Refusal grounds include freedom of expression, legal obligations, and legal claims. The ICO expects organizations to document refusal reasoning and to address backup and archive deletion explicitly rather than treating backups as out of scope.",
+          "responseTimeline": "One calendar month from receipt. Extendable by two further months for complex or numerous requests.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "UK GDPR Article 17: legislation.gov.uk",
+              "url": "https://www.legislation.gov.uk/eur/2016/679"
+            },
+            {
+              "label": "ICO Right to Erasure Guidance",
+              "url": "https://ico.org.uk"
+            }
+          ],
+          "tooltipTerms": ["right-to-be-forgotten", "consent-withdrawal"],
+          "assessTrigger": "Does your erasure process cover all systems holding UK personal data, including backups, and log the grounds for every refusal?",
+          "gapRemediation": {
+            "smb": "A decision checklist covering the erasure grounds and exemptions is sufficient. Record the outcome of each request.",
+            "midMarket": "Deletion must propagate across systems from a single request. Map data locations so erasure is not limited to the primary database.",
+            "enterprise": "Automate deletion workflows with confirmation logging, and maintain a defensible backup erasure schedule."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    },
+    {
+      "categoryId": "breach-notification",
+      "articles": [
+        {
+          "id": "ukgdpr-art33-34",
+          "articleRef": "Articles 33 & 34",
+          "surfaceLabel": "What Happens When Your Data Is Compromised in the UK",
+          "plainSummary": "Organizations must report serious data breaches to the UK regulator within 72 hours of becoming aware. If the breach is likely to cause you serious harm, they must also tell you directly.",
+          "professionalLayer": "The UK GDPR retains the EU breach framework: notification to the ICO within 72 hours of awareness unless the breach is unlikely to result in risk, and notification to affected individuals without undue delay where high risk exists. The ICO provides an online reporting tool and expects a documented internal breach register covering all breaches, including those judged non-notifiable. Late notification requires reasons. Processor-to-controller notification without undue delay is likewise retained.",
+          "responseTimeline": "ICO: 72 hours from awareness. Individuals: without undue delay where high risk exists.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "UK GDPR Articles 33-34: legislation.gov.uk",
+              "url": "https://www.legislation.gov.uk/eur/2016/679"
+            },
+            {
+              "label": "ICO Breach Reporting",
+              "url": "https://ico.org.uk"
+            }
+          ],
+          "tooltipTerms": ["breach-notification", "supervisory-authority-dpa"],
+          "assessTrigger": "Does your breach plan name the ICO reporting route, define awareness, and keep a register of non-notified breaches with reasoning?",
+          "gapRemediation": {
+            "smb": "Keep a one-page breach checklist with the ICO reporting link and a simple internal register.",
+            "midMarket": "Test the plan annually and pre-assign the severity assessment role so the 72-hour clock is not spent deciding who decides.",
+            "enterprise": "Integrate detection tooling with the response workflow and maintain pre-drafted ICO and customer notification templates."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    },
+    {
+      "categoryId": "international-transfers",
+      "articles": [
+        {
+          "id": "ukgdpr-transfers",
+          "articleRef": "Articles 44-49",
+          "surfaceLabel": "Moving Personal Data Out of the UK",
+          "plainSummary": "Sending personal information out of the UK is only allowed with protections in place. The UK runs its own adequacy list and its own transfer contracts, separate from the EU versions.",
+          "professionalLayer": "The UK operates a transfer regime parallel to but distinct from the EU's. Mechanisms include UK adequacy regulations, the International Data Transfer Agreement, and the UK Addendum to the EU Standard Contractual Clauses. Transfer risk assessments are expected when relying on contractual mechanisms. The EU has granted the UK adequacy, so EU-to-UK flows are currently unrestricted, but that decision is subject to renewal and reviews UK divergence. Organizations transferring from both the EU and UK typically need both sets of paperwork.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "ICO International Transfers Guidance",
+              "url": "https://ico.org.uk"
+            },
+            {
+              "label": "UK GDPR Chapter V: legislation.gov.uk",
+              "url": "https://www.legislation.gov.uk/eur/2016/679"
+            }
+          ],
+          "tooltipTerms": ["sccs", "tia", "data-localization"],
+          "assessTrigger": "Have you executed UK-specific transfer mechanisms, such as the IDTA or UK Addendum, rather than relying on EU SCCs alone for transfers out of the UK?",
+          "gapRemediation": {
+            "smb": "If you use EU SCCs with vendors, add the UK Addendum where UK data is in scope. Most vendors offer it as standard.",
+            "midMarket": "Inventory transfers by origin so UK and EU flows each carry the correct instrument, with transfer risk assessments on file.",
+            "enterprise": "Manage UK and EU transfer frameworks as linked but separate programs, and monitor the EU adequacy decision for the UK as a dependency."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    }
+  ]
+}

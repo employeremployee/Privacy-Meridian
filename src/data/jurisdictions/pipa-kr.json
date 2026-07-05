@@ -1,0 +1,220 @@
+{
+  "jurisdiction": {
+    "id": "pipa-kr",
+    "name": "PIPA",
+    "fullName": "Personal Information Protection Act",
+    "citation": "PIPA (2011), substantially amended 2020 and 2023",
+    "region": "South Korea",
+    "badge": "KR",
+    "effectiveDate": "2011-09-30",
+    "sourceUrl": "https://www.law.go.kr",
+    "authority": {
+      "name": "PIPC",
+      "url": "https://www.pipc.go.kr"
+    },
+    "sourceUrls": [
+      "https://www.law.go.kr",
+      "https://www.pipc.go.kr"
+    ],
+    "draft": true
+  },
+  "categories": [
+    {
+      "categoryId": "governance",
+      "articles": [
+        {
+          "id": "pipa-kr-scope",
+          "articleRef": "Overview",
+          "surfaceLabel": "Does South Korea's Privacy Law Apply to Your Organization?",
+          "plainSummary": "South Korea's PIPA is one of the oldest and strictest comprehensive privacy laws, dating to 2011 and heavily modernized since. It applies to nearly every organization handling personal information of people in Korea, public or private.",
+          "professionalLayer": "PIPA applies to personal information controllers across the public and private sectors, with extraterritorial reach over foreign operators processing Korean data subjects' information in connection with offering goods or services into Korea. The 2020 amendments consolidated enforcement under an independent Personal Information Protection Commission and folded the online-sector rules into PIPA; the 2023 amendments overhauled breach notification, cross-border transfers, penalties tied to total revenue, and automated decision rights. Controllers must designate a chief privacy officer, and Korea holds an EU adequacy decision. PIPA's consent granularity and enforcement intensity make it one of the most operationally demanding regimes in Asia.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "PIPA: law.go.kr",
+              "url": "https://www.law.go.kr"
+            },
+            {
+              "label": "PIPC: pipc.go.kr",
+              "url": "https://www.pipc.go.kr"
+            }
+          ],
+          "tooltipTerms": ["controller-processor", "supervisory-authority-dpa"],
+          "assessTrigger": "Do you offer goods or services into Korea, and have you designated a chief privacy officer and assessed PIPA's consent granularity against your collection flows?",
+          "gapRemediation": {
+            "smb": "Confirm scope first. If covered, the separate-consent requirements and CPO designation are the immediate gaps.",
+            "midMarket": "Korean consent granularity usually requires localized consent screens rather than reuse of global ones.",
+            "enterprise": "Treat Korea as a top-tier compliance jurisdiction with local counsel, given revenue-based penalties and an active regulator."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    },
+    {
+      "categoryId": "legal-bases",
+      "articles": [
+        {
+          "id": "pipa-kr-art15",
+          "articleRef": "Article 15",
+          "surfaceLabel": "Why Organizations Are Allowed to Use Your Data in Korea",
+          "plainSummary": "Korean law allows personal information to be collected with your consent or under specific grounds such as a contract or legal duty. Consent requests must be itemized, so Korean consent screens are famously detailed.",
+          "professionalLayer": "Article 15 permits collection and use where the data subject consents, where necessary to perform or conclude a contract, to comply with law, for a public institution's duties, to protect life or safety, or where the controller's justifiable interest clearly overrides the data subject's rights, a basis construed far more narrowly than GDPR legitimate interests. Consent must be obtained separately by purpose, with required disclosures of items collected, purpose, retention period, and the right to refuse. Sensitive information and unique identifiers each require their own separate consent or statutory authorization. The 2023 amendments eased the contract basis, but the regime remains consent-heavy in practice.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "PIPA Article 15: law.go.kr",
+              "url": "https://www.law.go.kr"
+            },
+            {
+              "label": "PIPC Guidance",
+              "url": "https://www.pipc.go.kr"
+            }
+          ],
+          "tooltipTerms": ["legal-basis", "consent-withdrawal", "sensitive-data", "legitimate-interests"],
+          "assessTrigger": "Are your Korean consent flows itemized by purpose with the required disclosures, and separate consents for sensitive data and unique identifiers?",
+          "gapRemediation": {
+            "smb": "Use purpose-itemized consent screens for Korean users. A single bundled consent will not satisfy PIPA.",
+            "midMarket": "Localize consent collection for Korea and document any reliance on the narrow justifiable-interest ground.",
+            "enterprise": "Engineer consent management to support Korea's separate-consent matrix, including unique identifier and sensitive data layers."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": ["gdpr"],
+              "note": "PIPA requires separate itemized consent per purpose, with distinct consents for sensitive data and unique identifiers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "data-subject-rights",
+      "articles": [
+        {
+          "id": "pipa-kr-access",
+          "articleRef": "Article 35",
+          "surfaceLabel": "Your Right to See Your Data in Korea",
+          "plainSummary": "You can demand to see the personal information an organization holds about you, how it is used, and who it has been shared with. The organization must respond within 10 days.",
+          "professionalLayer": "Article 35 grants data subjects the right to request access to their personal information, including the items held, the purposes of use, retention periods, and third-party provision details. Controllers must grant access within 10 days of the request or notify grounds for postponement. Access may be limited or refused only on statutory grounds such as legal prohibition or serious harm to others' interests, with reasons notified. Related rights include suspension of processing, correction, deletion, and, following the 2023 amendments, rights concerning automated decisions.",
+          "responseTimeline": "10 days from the request, or notice of postponement with reasons.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "PIPA Article 35: law.go.kr",
+              "url": "https://www.law.go.kr"
+            }
+          ],
+          "tooltipTerms": ["data-subject", "retention-period"],
+          "assessTrigger": "Can you fulfill Korean access requests within 10 days, including third-party provision details your systems may not surface easily?",
+          "gapRemediation": {
+            "smb": "Track the 10-day deadline explicitly. Korean requests cannot sit in a monthly queue.",
+            "midMarket": "Ensure third-party provision logs are queryable per person, since Korean access responses must include them.",
+            "enterprise": "Automate Korean access packages with provision histories, refusal-grounds logging, and the 10-day SLA audited."
+          },
+          "comparisonFlags": [
+            {
+              "type": "additional-requirement",
+              "jurisdictions": ["gdpr"],
+              "note": "PIPA requires access responses within 10 days. GDPR allows one month."
+            }
+          ]
+        },
+        {
+          "id": "pipa-kr-deletion",
+          "articleRef": "Articles 36-37",
+          "surfaceLabel": "Your Rights to Correct, Delete, or Suspend Use of Your Data in Korea",
+          "plainSummary": "You can demand correction or deletion of your personal information, or tell an organization to stop using it. Organizations must act within 10 days and confirm what they did.",
+          "professionalLayer": "Article 36 requires controllers to correct or delete personal information on request without delay, investigate, take necessary measures within 10 days, and notify the outcome, unless another law designates the data as subject to mandatory retention. Article 37 grants suspension of processing, allowing individuals to halt use of their data, with narrow refusal grounds that must be notified. Upon expiry of retention purposes, PIPA separately mandates proactive destruction of personal information, a stricter default than most laws. Downstream recipients must be informed of corrections and deletions.",
+          "responseTimeline": "10 days to take measures and notify the outcome.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "PIPA Articles 36-37: law.go.kr",
+              "url": "https://www.law.go.kr"
+            }
+          ],
+          "tooltipTerms": ["right-to-be-forgotten", "retention-period"],
+          "assessTrigger": "Can you correct, delete, or suspend processing within 10 days, and does your retention schedule trigger proactive destruction when purposes expire?",
+          "gapRemediation": {
+            "smb": "Honor the 10-day window and destroy data when its purpose ends rather than keeping it by default.",
+            "midMarket": "Automate purpose-expiry destruction. Korean regulators treat lingering data as a violation in itself.",
+            "enterprise": "Integrate destruction scheduling with your inventory, and log suspension requests distinctly from deletions."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    },
+    {
+      "categoryId": "breach-notification",
+      "articles": [
+        {
+          "id": "pipa-kr-breach",
+          "articleRef": "Article 34",
+          "surfaceLabel": "What Happens When Your Data Is Compromised in Korea",
+          "plainSummary": "Organizations must notify affected people about data breaches and report qualifying breaches to the regulator within 72 hours of learning of them.",
+          "professionalLayer": "Article 34 and its 2023 implementing decree require controllers to notify affected data subjects of breaches without delay, covering the items leaked, when and how, mitigation steps, and contact points. Reports to the PIPC or its designated agency are due within 72 hours where thresholds are met, including breaches affecting 1,000 or more people, sensitive information, or unique identifiers, or where outside intrusion caused the breach. Notification may proceed in stages if details are incomplete. Korea previously ran some of the world's tightest breach clocks for online providers, and the unified 72-hour standard preserved that stringency across sectors.",
+          "responseTimeline": "PIPC: within 72 hours for qualifying breaches. Individuals: without delay.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "PIPA Article 34: law.go.kr",
+              "url": "https://www.law.go.kr"
+            },
+            {
+              "label": "PIPC Reporting",
+              "url": "https://www.pipc.go.kr"
+            }
+          ],
+          "tooltipTerms": ["breach-notification", "supervisory-authority-dpa"],
+          "assessTrigger": "Does your incident plan encode the Korean 72-hour report thresholds and the individual-notification content items PIPA prescribes?",
+          "gapRemediation": {
+            "smb": "Keep the PIPC reporting route and threshold list in your breach checklist.",
+            "midMarket": "Pre-draft the Korean individual notice with the mandatory content items to save clock time.",
+            "enterprise": "Encode Korean thresholds in the incident workflow with staged-notification support and bilingual templates."
+          },
+          "comparisonFlags": []
+        }
+      ]
+    },
+    {
+      "categoryId": "international-transfers",
+      "articles": [
+        {
+          "id": "pipa-kr-transfers",
+          "articleRef": "Article 28-8",
+          "surfaceLabel": "Moving Personal Data Out of Korea",
+          "plainSummary": "Sending personal information out of Korea historically required consent. Since 2023 there are more routes, including certification and countries the regulator recognizes as adequate, but the rules remain strict.",
+          "professionalLayer": "The 2023 amendments restructured cross-border provision under Article 28-8. Transfers are permitted with separate consent after prescribed disclosures, where required by law or treaty, where necessary for contract performance with disclosure or notification for outsourcing and storage, under PIPC-recognized certification, or to jurisdictions the PIPC designates as providing equivalent protection. The PIPC may order suspension of transfers that violate the Act. Onward transfer duties and documented safeguards accompany each route, and consent remains the workhorse mechanism in practice.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "PIPA Article 28-8: law.go.kr",
+              "url": "https://www.law.go.kr"
+            },
+            {
+              "label": "PIPC Transfer Guidance",
+              "url": "https://www.pipc.go.kr"
+            }
+          ],
+          "tooltipTerms": ["sccs", "consent-withdrawal", "data-localization"],
+          "assessTrigger": "Does each transfer of Korean data out of the country rest on a documented Article 28-8 route, and could you withstand a PIPC suspension review?",
+          "gapRemediation": {
+            "smb": "Map where Korean user data flows and attach a lawful route to each destination, with consent disclosures where used.",
+            "midMarket": "Evaluate certification or equivalence routes to reduce dependence on consent for routine infrastructure transfers.",
+            "enterprise": "Document the transfer route per flow and monitor PIPC equivalence designations and suspension powers as live risk."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": ["gdpr"],
+              "note": "Korea's transfer regime centers on separate consent with newer certification and equivalence routes, and the PIPC can order transfer suspension."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

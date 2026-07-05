@@ -1,0 +1,192 @@
+{
+  "jurisdiction": {
+    "id": "dpdp",
+    "name": "DPDP Act",
+    "fullName": "Digital Personal Data Protection Act, 2023",
+    "citation": "DPDP Act, 2023, with DPDP Rules, 2025",
+    "region": "India",
+    "badge": "IN",
+    "effectiveDate": "2023-08-11",
+    "sourceUrl": "https://www.meity.gov.in",
+    "authority": {
+      "name": "Data Protection Board of India",
+      "url": "https://www.meity.gov.in"
+    },
+    "sourceUrls": [
+      "https://www.meity.gov.in"
+    ],
+    "draft": true
+  },
+  "categories": [
+    {
+      "categoryId": "governance",
+      "articles": [
+        {
+          "id": "dpdp-scope",
+          "articleRef": "Overview",
+          "surfaceLabel": "Does India's Privacy Law Apply to Your Organization?",
+          "plainSummary": "India's DPDP Act covers digital personal data processed in India, and abroad when goods or services are offered to people in India. Organizations are called data fiduciaries, and individuals are data principals.",
+          "professionalLayer": "The DPDP Act applies to digital personal data processed within India, and outside India where processing relates to offering goods or services to data principals in India. It introduces its own vocabulary: data fiduciaries determine purpose and means, data processors act on their behalf, and data principals are the individuals. The Act was passed in 2023 with implementation phased through the DPDP Rules notified in 2025, which operationalize notice, consent managers, breach reporting, children's verification, and the Data Protection Board's procedures. Significant data fiduciaries, designated by government notification, carry added duties including an India-based DPO, audits, and periodic impact assessments. Penalties are steep, reaching 250 crore rupees for failures of security safeguards. Notably, the Act applies one uniform standard to all personal data, with no separate sensitive-data category.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "DPDP Act and Rules: meity.gov.in",
+              "url": "https://www.meity.gov.in"
+            }
+          ],
+          "tooltipTerms": ["controller-processor", "data-subject"],
+          "assessTrigger": "Do you offer goods or services to people in India, and have you tracked which DPDP Rules obligations are in force for your phase, including possible significant data fiduciary designation?",
+          "gapRemediation": {
+            "smb": "Confirm scope and the phase-in dates that apply to you. Consent notices and grievance channels are the first practical builds.",
+            "midMarket": "Assess significant data fiduciary criteria exposure and plan for the notice and consent manager architecture.",
+            "enterprise": "Stand up a dedicated India program: SDF obligations, India DPO, audits, and Board procedure readiness under the Rules."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": ["gdpr"],
+              "note": "The DPDP Act has no sensitive-data category. One uniform standard applies to all digital personal data."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "legal-bases",
+      "articles": [
+        {
+          "id": "dpdp-consent",
+          "articleRef": "Sections 4-7",
+          "surfaceLabel": "Why Organizations Are Allowed to Use Your Data in India",
+          "plainSummary": "India allows processing on two grounds only: your consent, or a short list of legitimate uses such as data you volunteered, government functions, medical emergencies, and employment purposes.",
+          "professionalLayer": "Section 4 permits processing only for a lawful purpose with the data principal's consent or for certain legitimate uses. Consent must be free, specific, informed, unconditional, and unambiguous, given through clear affirmative action, preceded by an itemized notice, and as easy to withdraw as to give. Consent managers, registered platforms through which principals can give and manage consent, are a distinctive DPDP innovation. The legitimate uses under Section 7 include voluntary provision for a specified purpose, state functions and benefits, legal obligations, medical emergencies, and employment-related purposes. There is no legitimate-interests basis and no contract basis, making India's menu one of the narrowest among major laws. Children under eighteen require verifiable parental consent, with tracking, behavioral monitoring, and targeted advertising directed at children prohibited.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "DPDP Act Sections 4-7: meity.gov.in",
+              "url": "https://www.meity.gov.in"
+            }
+          ],
+          "tooltipTerms": ["legal-basis", "consent-withdrawal", "legitimate-interests"],
+          "assessTrigger": "Does each Indian processing activity rest on itemized consent or a listed legitimate use, given the absence of contract and legitimate-interests bases?",
+          "gapRemediation": {
+            "smb": "Build itemized consent notices with easy withdrawal. Do not assume contract necessity covers processing as it would under GDPR.",
+            "midMarket": "Re-map activities justified elsewhere by contract or legitimate interests onto consent or Section 7 uses.",
+            "enterprise": "Plan for consent manager interoperability and the under-eighteen verification and advertising prohibitions."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": ["gdpr"],
+              "note": "DPDP recognizes only consent and listed legitimate uses. There is no contract or legitimate-interests basis, and children are defined as under eighteen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "data-subject-rights",
+      "articles": [
+        {
+          "id": "dpdp-rights",
+          "articleRef": "Sections 11-14",
+          "surfaceLabel": "Your Rights Over Your Data in India",
+          "plainSummary": "Where processing rests on your consent, you can get a summary of your data and its sharing, demand correction or erasure, use a guaranteed grievance channel, and nominate someone to act for you.",
+          "professionalLayer": "The DPDP rights attach principally to consent-based processing. Section 11 grants access to a summary of personal data processed, processing activities, and the identities of other fiduciaries and processors with whom data was shared. Section 12 grants correction, completion, updating, and erasure, with erasure required unless retention is necessary for the specified purpose or legal compliance. Section 13 guarantees grievance redressal through the fiduciary within timelines set by the Rules, which must be exhausted before approaching the Board. Section 14 allows nomination of another person to exercise rights upon death or incapacity, a feature few other laws include. The Act also imposes duties on data principals themselves, including not filing false complaints.",
+          "responseTimeline": "Grievance responses within the period prescribed by the DPDP Rules for the fiduciary class.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "DPDP Act Sections 11-14: meity.gov.in",
+              "url": "https://www.meity.gov.in"
+            }
+          ],
+          "tooltipTerms": ["data-subject", "right-to-be-forgotten"],
+          "assessTrigger": "Can you produce data summaries with sharing identities, honor erasure, and run the grievance channel within the Rules' timelines?",
+          "gapRemediation": {
+            "smb": "Stand up a working grievance email or portal with tracked response times. It is the gateway right under DPDP.",
+            "midMarket": "Build summary-of-sharing reporting, since Indian access covers who received the data, not just what you hold.",
+            "enterprise": "Integrate nomination handling and grievance SLAs into DSR tooling, with Board-procedure escalation files ready."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": ["gdpr"],
+              "note": "DPDP includes a nomination right for death or incapacity and imposes statutory duties on data principals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "breach-notification",
+      "articles": [
+        {
+          "id": "dpdp-breach",
+          "articleRef": "Section 8(6) and Rules",
+          "surfaceLabel": "What Happens When Your Data Is Compromised in India",
+          "plainSummary": "Every personal data breach must be reported to India's Data Protection Board and to each affected person, regardless of size or risk level. Details go to the Board within 72 hours under the Rules.",
+          "professionalLayer": "Section 8(6) requires a data fiduciary, in the event of a personal data breach, to give intimation to the Board and each affected data principal. The DPDP Rules operationalize this with prompt notification to affected principals describing the breach, consequences, and mitigation, an initial intimation to the Board without delay, and detailed particulars to the Board within 72 hours of awareness, extendable on request. Strikingly, the duty has no risk threshold: all personal data breaches are notifiable, unlike GDPR's risk-based filter. Combined with penalties up to 250 crore rupees for security failures, breach handling is the DPDP regime's sharpest edge.",
+          "responseTimeline": "Affected individuals: without delay. Board: initial intimation promptly, detailed report within 72 hours.",
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "DPDP Act Section 8 and Rules: meity.gov.in",
+              "url": "https://www.meity.gov.in"
+            }
+          ],
+          "tooltipTerms": ["breach-notification"],
+          "assessTrigger": "Is your incident process ready to notify every affected Indian data principal and the Board for any breach, with no risk-threshold triage?",
+          "gapRemediation": {
+            "smb": "Plan for individual notification at any breach size, since India provides no minimal-risk exemption to lean on.",
+            "midMarket": "Build principal-notification tooling that scales, because the duty runs to each affected individual.",
+            "enterprise": "Encode the no-threshold rule and the 72-hour detailed report in the incident workflow, with Board filing templates."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": ["gdpr"],
+              "note": "DPDP requires notifying every breach to the Board and all affected individuals, with no risk threshold. GDPR filters by risk."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "international-transfers",
+      "articles": [
+        {
+          "id": "dpdp-transfers",
+          "articleRef": "Section 16",
+          "surfaceLabel": "Moving Personal Data Out of India",
+          "plainSummary": "India flips the usual model. Transfers are allowed to any country except those the government specifically restricts, though stricter sector rules and localization duties can still apply.",
+          "professionalLayer": "Section 16 permits transfer of personal data outside India except to countries or territories restricted by central government notification, a blacklist architecture inverting the adequacy whitelists of GDPR-family laws. The provision preserves existing sectoral laws that impose stronger limits, notably financial-sector localization mandates such as payments data storage requirements. The Rules add that significant data fiduciaries may face requirements to keep specified data within India based on government committee recommendations, reintroducing targeted localization at the top tier. Transfer compliance in India therefore means watching notifications and sector rules rather than assembling contract clauses.",
+          "responseTimeline": null,
+          "crossReferences": [],
+          "sourceLinks": [
+            {
+              "label": "DPDP Act Section 16: meity.gov.in",
+              "url": "https://www.meity.gov.in"
+            }
+          ],
+          "tooltipTerms": ["data-localization", "sccs"],
+          "assessTrigger": "Are you monitoring the restricted-country notifications and sectoral localization rules that apply to your Indian data flows?",
+          "gapRemediation": {
+            "smb": "Note that no transfer paperwork is generally required, but check sector rules if you touch payments or financial data.",
+            "midMarket": "Assign monitoring for restriction notifications, since the lawful destination list can change by government act.",
+            "enterprise": "If designated significant, plan infrastructure for potential category-specific localization directives."
+          },
+          "comparisonFlags": [
+            {
+              "type": "structural-difference",
+              "jurisdictions": ["gdpr"],
+              "note": "DPDP uses a government blacklist for transfers rather than adequacy findings or standard clauses."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

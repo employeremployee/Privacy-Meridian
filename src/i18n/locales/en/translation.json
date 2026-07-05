@@ -45,7 +45,7 @@
   },
   "map": {
     "skipLink": "Skip world map",
-    "instructions": "Tab or hover to highlighted countries to see which privacy law applies. Only four regions are interactive.",
+    "instructions": "Tab or hover to highlighted countries to see which privacy law applies. Countries in blue open full legal detail.",
     "viewJurisdictionLabel": "View {{name}} privacy law",
     "selectedJurisdictionLabel": "{{name}}, selected. Activate to remove from comparison.",
     "currentlyHighlighting": "Highlighting: {{name}}",
@@ -76,6 +76,9 @@
     "no": "No",
     "pickCountries": "Pick countries on the map to compare.",
     "draftNotice": "Draft comparison data: under review, not yet verified."
+  },
+  "drilldown": {
+    "draftNotice": "Draft content: under review, not yet verified."
   },
   "organizations": {
     "toggle": "Help for Organizations",

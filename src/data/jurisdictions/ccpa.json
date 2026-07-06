@@ -8,14 +8,13 @@
     "badge": "CA",
     "effectiveDate": "2020-01-01",
     "cpraEffectiveDate": "2023-01-01",
-    "sourceUrl": "https://oag.ca.gov/privacy/ccpa",
+    "sourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
     "authority": {
       "name": "CPPA",
       "url": "https://cppa.ca.gov"
     },
     "sourceUrls": [
-      "https://oag.ca.gov/privacy/ccpa",
-      "https://leginfo.legislature.ca.gov",
+      "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5",
       "https://cppa.ca.gov"
     ]
   },
@@ -33,12 +32,8 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "CCPA Text: California AG",
-              "url": "https://oag.ca.gov/privacy/ccpa"
-            },
-            {
-              "label": "CPRA Text: California Legislative Information",
-              "url": "https://leginfo.legislature.ca.gov"
+              "label": "CCPA and CPRA Text: California Legislative Information",
+              "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5"
             },
             {
               "label": "CPPA Regulations",
@@ -80,8 +75,8 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Section 1798.100: California AG",
-              "url": "https://oag.ca.gov/privacy/ccpa"
+              "label": "Section 1798.100: California Legislative Information",
+              "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.100."
             },
             {
               "label": "CPPA Regulations",
@@ -118,8 +113,8 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Section 1798.105: California AG",
-              "url": "https://oag.ca.gov/privacy/ccpa"
+              "label": "Section 1798.105: California Legislative Information",
+              "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.105."
             },
             {
               "label": "CPPA Regulations",
@@ -149,7 +144,7 @@
           "sourceLinks": [
             {
               "label": "Section 1798.106: California Legislative Information",
-              "url": "https://leginfo.legislature.ca.gov"
+              "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.106."
             },
             {
               "label": "CPPA Regulations",
@@ -185,8 +180,8 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Section 1798.120: California AG",
-              "url": "https://oag.ca.gov/privacy/ccpa"
+              "label": "Section 1798.120: California Legislative Information",
+              "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.120."
             },
             {
               "label": "CPPA GPC Guidance",
@@ -225,7 +220,7 @@
           "sourceLinks": [
             {
               "label": "Section 1798.121: California Legislative Information",
-              "url": "https://leginfo.legislature.ca.gov"
+              "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.121."
             },
             {
               "label": "CPPA Regulations",
@@ -262,8 +257,8 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Section 1798.125: California AG",
-              "url": "https://oag.ca.gov/privacy/ccpa"
+              "label": "Section 1798.125: California Legislative Information",
+              "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.125."
             }
           ],
           "tooltipTerms": [],

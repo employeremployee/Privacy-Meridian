@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 
-function GlossaryTooltip({ term }) {
+function GlossaryTooltip({ term, onLearnMore }) {
   const { t } = useTranslation()
 
   return (
@@ -12,6 +12,7 @@ function GlossaryTooltip({ term }) {
           href={term.source.url}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={onLearnMore}
           className="text-xs font-medium text-meridian-blue underline hover:no-underline"
         >
           {t('glossary.learnMore')}

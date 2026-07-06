@@ -13,7 +13,17 @@
         "gdpr": { "value": "Controllers and processors", "note": "Any organization determining or carrying out processing." },
         "ccpa": { "value": "For-profit businesses", "note": "Only for-profit entities that meet a threshold." },
         "lgpd": { "value": "Any public or private entity", "note": "Broad application across sectors." },
-        "pipl": { "value": "Personal information handlers", "note": "Any organization or individual determining processing." }
+        "pipl": { "value": "Personal information handlers", "note": "Any organization or individual determining processing." },
+        "ukgdpr": { "value": "Controllers and processors", "note": "The same controller and processor model as the EU GDPR." },
+        "fadp": { "value": "Private persons and federal bodies", "note": "Private controllers and federal government bodies." },
+        "pdpa-ar": { "value": "Public and private data holders", "note": "Any file, register, or databank holding personal data." },
+        "lpdp-uy": { "value": "Public and private databases", "note": "Data held by public and private entities." },
+        "pipa-kr": { "value": "Personal information controllers", "note": "Any entity processing personal information for its work." },
+        "appi": { "value": "Business operators handling data", "note": "Any business using a personal information database." },
+        "nzpa": { "value": "Agencies, public and private", "note": "A broad definition covering nearly all organizations." },
+        "popia": { "value": "Responsible parties", "note": "Public and private bodies that determine processing." },
+        "kdpa": { "value": "Data controllers and processors", "note": "Mirrors the GDPR controller and processor split." },
+        "dpdp": { "value": "Data fiduciaries", "note": "Any person determining the purpose and means of processing." }
       }
     },
     {
@@ -23,7 +33,17 @@
         "gdpr": { "value": "EU establishment or EU residents", "note": "Article 3, establishment or targeting/monitoring." },
         "ccpa": { "value": "California residents' data", "note": "Regardless of where the business is located." },
         "lgpd": { "value": "Processing in or of people in Brazil", "note": "Article 3, including data collected in Brazil." },
-        "pipl": { "value": "Processing in or targeting China", "note": "Article 3, extraterritorial for offering goods or profiling." }
+        "pipl": { "value": "Processing in or targeting China", "note": "Article 3, extraterritorial for offering goods or profiling." },
+        "ukgdpr": { "value": "UK establishment or UK residents", "note": "Processing in the UK, or targeting or monitoring people there." },
+        "fadp": { "value": "Effects felt in Switzerland", "note": "Applies to conduct that produces effects in Switzerland." },
+        "pdpa-ar": { "value": "Databases operating in Argentina", "note": "Data held or processed within the country." },
+        "lpdp-uy": { "value": "Processing in or from Uruguay", "note": "Includes activity using means located in Uruguay." },
+        "pipa-kr": { "value": "Processing affecting Korean residents", "note": "Reaches overseas handlers where Korean users are affected." },
+        "appi": { "value": "Handling data of people in Japan", "note": "Extraterritorial where goods or services target people in Japan." },
+        "nzpa": { "value": "Agencies acting in or from NZ", "note": "Includes overseas agencies carrying on business in New Zealand." },
+        "popia": { "value": "Processing in South Africa", "note": "Responsible party domiciled in, or using means in, the country." },
+        "kdpa": { "value": "Processing in or of people in Kenya", "note": "Controllers and processors established or acting in Kenya." },
+        "dpdp": { "value": "Processing in India or targeting India", "note": "Extraterritorial where linked to offering goods or services in India." }
       }
     },
     {
@@ -33,7 +53,17 @@
         "gdpr": { "value": "None", "note": "Applies to any size, though duties scale with risk." },
         "ccpa": { "value": "$25M revenue, 100k consumers, or 50% data revenue", "note": "Meet one or more to be covered." },
         "lgpd": { "value": "None", "note": "Applies regardless of size." },
-        "pipl": { "value": "None to apply", "note": "But high volume triggers extra localization and assessment duties." }
+        "pipl": { "value": "None to apply", "note": "But high volume triggers extra localization and assessment duties." },
+        "ukgdpr": { "value": "None", "note": "Applies to any size; duties scale with risk." },
+        "fadp": { "value": "None", "note": "Small businesses get lighter record-keeping duties." },
+        "pdpa-ar": { "value": "None", "note": "Applies regardless of size." },
+        "lpdp-uy": { "value": "None", "note": "Applies regardless of size." },
+        "pipa-kr": { "value": "None", "note": "Applies regardless of size." },
+        "appi": { "value": "None", "note": "The small-business exemption was removed in 2017." },
+        "nzpa": { "value": "None", "note": "Applies to agencies of any size." },
+        "popia": { "value": "None", "note": "Applies regardless of size." },
+        "kdpa": { "value": "None to apply", "note": "But registration duties can depend on turnover and volume." },
+        "dpdp": { "value": "None", "note": "Applies regardless of size, with lighter duties for smaller fiduciaries." }
       }
     },
     {
@@ -43,7 +73,17 @@
         "gdpr": { "value": "Yes", "note": "Applies to public authorities." },
         "ccpa": { "value": "No", "note": "For-profit businesses only; excludes government and non-profits." },
         "lgpd": { "value": "Yes", "note": "Public and private sectors." },
-        "pipl": { "value": "Yes", "note": "State organs covered, with some exceptions." }
+        "pipl": { "value": "Yes", "note": "State organs covered, with some exceptions." },
+        "ukgdpr": { "value": "Yes", "note": "Applies to public authorities." },
+        "fadp": { "value": "Yes", "note": "Federal bodies; cantonal bodies fall under cantonal law." },
+        "pdpa-ar": { "value": "Yes", "note": "Covers public and private databases." },
+        "lpdp-uy": { "value": "Yes", "note": "Public and private sectors." },
+        "pipa-kr": { "value": "Yes", "note": "Public institutions and private entities alike." },
+        "appi": { "value": "Yes", "note": "Public bodies were brought under the APPI by the 2021 amendment." },
+        "nzpa": { "value": "Yes", "note": "Public and private agencies alike." },
+        "popia": { "value": "Yes", "note": "Public and private bodies." },
+        "kdpa": { "value": "Yes", "note": "Public and private controllers." },
+        "dpdp": { "value": "Yes", "note": "Applies to the State, subject to specific exemptions." }
       }
     },
     {
@@ -53,7 +93,17 @@
         "gdpr": { "value": "Yes", "note": "Article 3(2)." },
         "ccpa": { "value": "Yes", "note": "Any qualifying business handling California residents' data." },
         "lgpd": { "value": "Yes", "note": "Article 3." },
-        "pipl": { "value": "Yes", "note": "Article 3, with a required domestic representative." }
+        "pipl": { "value": "Yes", "note": "Article 3, with a required domestic representative." },
+        "ukgdpr": { "value": "Yes", "note": "Mirrors GDPR Article 3(2)." },
+        "fadp": { "value": "Yes", "note": "Effects-based reach; foreign controllers may need a Swiss representative." },
+        "pdpa-ar": { "value": "Limited", "note": "Chiefly territorial, with outward transfer controls." },
+        "lpdp-uy": { "value": "Yes", "note": "Reaches processing that uses means located in Uruguay." },
+        "pipa-kr": { "value": "Yes", "note": "Reaches overseas handlers affecting Korean residents." },
+        "appi": { "value": "Yes", "note": "Reaches foreign operators targeting people in Japan." },
+        "nzpa": { "value": "Yes", "note": "Reaches overseas agencies carrying on business in New Zealand." },
+        "popia": { "value": "Yes", "note": "Where means located in South Africa are used." },
+        "kdpa": { "value": "Yes", "note": "Reaches controllers acting on people in Kenya." },
+        "dpdp": { "value": "Yes", "note": "Reaches processing outside India linked to offering goods or services there." }
       }
     }
   ]

@@ -13,7 +13,17 @@
         "gdpr": { "value": "€20M or 4% of global turnover", "note": "Whichever is higher, for the most serious infringements." },
         "ccpa": { "value": "Up to $7,500 per violation", "note": "Per intentional violation or violation involving a minor; less for others." },
         "lgpd": { "value": "2% of Brazil revenue, up to R$50M", "note": "Per infringement." },
-        "pipl": { "value": "¥50M or 5% of annual revenue", "note": "For serious violations, plus possible suspension." }
+        "pipl": { "value": "¥50M or 5% of annual revenue", "note": "For serious violations, plus possible suspension." },
+        "ukgdpr": { "value": "£17.5M or 4% of global turnover", "note": "Whichever is higher, for the most serious infringements." },
+        "fadp": { "value": "Up to CHF 250,000", "note": "A criminal fine on responsible individuals, not the company." },
+        "pdpa-ar": { "value": "Graduated administrative fines", "note": "Set by the AAIP, with database suspension for serious cases." },
+        "lpdp-uy": { "value": "Fines in indexed units", "note": "Graduated fines measured in indexed units, set by the URCDP." },
+        "pipa-kr": { "value": "Up to 3% of total revenue", "note": "For serious violations, under the 2023 amendment; criminal penalties also apply." },
+        "appi": { "value": "Up to ¥100M", "note": "For corporations that defy a PPC order; individuals face lower fines and imprisonment." },
+        "nzpa": { "value": "Up to NZ$10,000", "note": "A fine for specific offences; no GDPR-scale administrative fines." },
+        "popia": { "value": "Up to R10M or imprisonment", "note": "For serious offences, up to ten years' imprisonment as an alternative." },
+        "kdpa": { "value": "Up to KES 5M or 1% of turnover", "note": "Whichever is lower, for the most serious cases." },
+        "dpdp": { "value": "Up to ₹250 crore", "note": "Per instance, imposed by the Data Protection Board." }
       }
     },
     {
@@ -23,7 +33,17 @@
         "gdpr": { "value": "National DPAs and the EDPB", "note": "One-stop-shop for cross-border cases." },
         "ccpa": { "value": "CPPA and the California AG", "note": "The CPPA is a dedicated privacy regulator." },
         "lgpd": { "value": "ANPD", "note": "Guidance and enforcement are still maturing." },
-        "pipl": { "value": "CAC and sectoral regulators", "note": "The CAC leads, with sector-specific oversight." }
+        "pipl": { "value": "CAC and sectoral regulators", "note": "The CAC leads, with sector-specific oversight." },
+        "ukgdpr": { "value": "The ICO", "note": "The UK's independent data-protection regulator." },
+        "fadp": { "value": "The FDPIC", "note": "The Federal Data Protection and Information Commissioner." },
+        "pdpa-ar": { "value": "The AAIP", "note": "The Agency for Access to Public Information." },
+        "lpdp-uy": { "value": "The URCDP", "note": "The Personal Data Regulation and Control Unit." },
+        "pipa-kr": { "value": "The PIPC", "note": "The Personal Information Protection Commission." },
+        "appi": { "value": "The PPC", "note": "The Personal Information Protection Commission of Japan." },
+        "nzpa": { "value": "The Privacy Commissioner", "note": "Issues compliance notices and enforceable decisions." },
+        "popia": { "value": "The Information Regulator", "note": "Oversees POPIA and access-to-information law." },
+        "kdpa": { "value": "The ODPC", "note": "The Office of the Data Protection Commissioner." },
+        "dpdp": { "value": "The Data Protection Board", "note": "The Data Protection Board of India." }
       }
     },
     {
@@ -33,7 +53,17 @@
         "gdpr": { "value": "Yes", "note": "Article 82, compensation for damage." },
         "ccpa": { "value": "Limited", "note": "Data-breach claims only, with statutory damages." },
         "lgpd": { "value": "Yes", "note": "Individual and collective actions available." },
-        "pipl": { "value": "Yes", "note": "Article 69, with a reversed burden of proof on handlers." }
+        "pipl": { "value": "Yes", "note": "Article 69, with a reversed burden of proof on handlers." },
+        "ukgdpr": { "value": "Yes", "note": "Compensation for damage, mirroring GDPR Article 82." },
+        "fadp": { "value": "Yes", "note": "Civil claims for breach of personality under the Civil Code." },
+        "pdpa-ar": { "value": "Yes", "note": "The habeas data action lets individuals sue directly." },
+        "lpdp-uy": { "value": "Yes", "note": "The habeas data action is available to individuals." },
+        "pipa-kr": { "value": "Yes", "note": "Statutory damages available, with an option for fixed compensation." },
+        "appi": { "value": "Limited", "note": "Claims pursued through general tort law, not a dedicated action." },
+        "nzpa": { "value": "Via tribunal", "note": "Complaints escalate to the Human Rights Review Tribunal for damages." },
+        "popia": { "value": "Yes", "note": "Civil action for damages, Section 99, without needing to prove fault." },
+        "kdpa": { "value": "Yes", "note": "Compensation claims for damage, Section 65." },
+        "dpdp": { "value": "No", "note": "No private right of action; the Board handles complaints and penalties." }
       }
     },
     {
@@ -43,7 +73,17 @@
         "gdpr": { "value": "Yes", "note": "Two tiers under Article 83." },
         "ccpa": { "value": "Per violation", "note": "Statutory amounts per violation rather than turnover tiers." },
         "lgpd": { "value": "Yes", "note": "Graduated sanctions from warning to fine to suspension." },
-        "pipl": { "value": "Yes", "note": "Escalates to business suspension and personal liability." }
+        "pipl": { "value": "Yes", "note": "Escalates to business suspension and personal liability." },
+        "ukgdpr": { "value": "Yes", "note": "Two tiers, mirroring GDPR Article 83." },
+        "fadp": { "value": "Offence-based", "note": "Criminal fines tied to specific breaches rather than turnover tiers." },
+        "pdpa-ar": { "value": "Yes", "note": "Graduated from warning to fine to database closure." },
+        "lpdp-uy": { "value": "Yes", "note": "Graduated from observation to fine to suspension." },
+        "pipa-kr": { "value": "Yes", "note": "Administrative surcharges plus criminal penalties by severity." },
+        "appi": { "value": "Yes", "note": "Escalates from guidance to order to penalty for defying an order." },
+        "nzpa": { "value": "Compliance-first", "note": "Compliance notices and tribunal orders rather than turnover tiers." },
+        "popia": { "value": "Yes", "note": "Enforcement notices, fines, then criminal liability." },
+        "kdpa": { "value": "Yes", "note": "Penalty notices scaled to the nature of the breach." },
+        "dpdp": { "value": "Yes", "note": "Penalties scaled by breach type, up to the statutory maximum." }
       }
     }
   ]

@@ -18,7 +18,17 @@
         "gdpr": { "state": "yes", "note": "Article 15, right of access." },
         "ccpa": { "state": "yes", "note": "Right to Know, Section 1798.100." },
         "lgpd": { "state": "yes", "note": "Article 18, I and II." },
-        "pipl": { "state": "yes", "note": "Article 45, right to access and copy." }
+        "pipl": { "state": "yes", "note": "Article 45, right to access and copy." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 15 and the Data Protection Act 2018." },
+        "fadp": { "state": "yes", "note": "Article 25, right to information." },
+        "pdpa-ar": { "state": "yes", "note": "Article 14, right of access." },
+        "lpdp-uy": { "state": "yes", "note": "Article 14, right of access." },
+        "pipa-kr": { "state": "yes", "note": "Article 35, right to access." },
+        "appi": { "state": "yes", "note": "Article 33, right to disclosure." },
+        "nzpa": { "state": "yes", "note": "IPP 6, access to personal information." },
+        "popia": { "state": "yes", "note": "Section 23, right of access." },
+        "kdpa": { "state": "yes", "note": "Section 26, right of access." },
+        "dpdp": { "state": "yes", "note": "Section 11, right to access information." }
       }
     },
     {
@@ -28,7 +38,17 @@
         "gdpr": { "state": "yes", "note": "Article 17, right to erasure." },
         "ccpa": { "state": "yes", "note": "Section 1798.105." },
         "lgpd": { "state": "yes", "note": "Article 18, IV, anonymization, blocking, or deletion." },
-        "pipl": { "state": "yes", "note": "Article 47." }
+        "pipl": { "state": "yes", "note": "Article 47." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 17, right to erasure." },
+        "fadp": { "state": "partial", "note": "Deletion available where processing is unlawful or the data is inaccurate." },
+        "pdpa-ar": { "state": "yes", "note": "Article 16, right of suppression." },
+        "lpdp-uy": { "state": "yes", "note": "Article 15, right to deletion." },
+        "pipa-kr": { "state": "yes", "note": "Article 36, deletion of personal information." },
+        "appi": { "state": "yes", "note": "Article 35, erasure or cessation of use on specified grounds." },
+        "nzpa": { "state": "no", "note": "No general erasure right; correction is provided instead." },
+        "popia": { "state": "partial", "note": "Deletion where the party is no longer authorized to hold the data, Section 24." },
+        "kdpa": { "state": "yes", "note": "Section 40, right to erasure." },
+        "dpdp": { "state": "yes", "note": "Section 12, right to erasure." }
       }
     },
     {
@@ -38,7 +58,17 @@
         "gdpr": { "state": "yes", "note": "Article 16, rectification." },
         "ccpa": { "state": "partial", "note": "Added by CPRA (Section 1798.106); absent from the original CCPA." },
         "lgpd": { "state": "yes", "note": "Article 18, III." },
-        "pipl": { "state": "yes", "note": "Article 46." }
+        "pipl": { "state": "yes", "note": "Article 46." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 16, rectification." },
+        "fadp": { "state": "yes", "note": "Article 32, rectification of inaccurate data." },
+        "pdpa-ar": { "state": "yes", "note": "Article 16, rectification." },
+        "lpdp-uy": { "state": "yes", "note": "Article 15, rectification." },
+        "pipa-kr": { "state": "yes", "note": "Article 36, correction." },
+        "appi": { "state": "yes", "note": "Article 34, correction, addition, or deletion." },
+        "nzpa": { "state": "yes", "note": "IPP 7, correction." },
+        "popia": { "state": "yes", "note": "Section 24, correction." },
+        "kdpa": { "state": "yes", "note": "Section 40, rectification." },
+        "dpdp": { "state": "yes", "note": "Section 12, correction and updating." }
       }
     },
     {
@@ -48,7 +78,17 @@
         "gdpr": { "state": "yes", "note": "Article 20." },
         "ccpa": { "state": "partial", "note": "Delivered through Right to Know, not a standalone portability right." },
         "lgpd": { "state": "yes", "note": "Article 18, V, subject to ANPD regulation." },
-        "pipl": { "state": "partial", "note": "Article 45, transfer where CAC conditions are met." }
+        "pipl": { "state": "partial", "note": "Article 45, transfer where CAC conditions are met." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 20." },
+        "fadp": { "state": "yes", "note": "Article 28, right to data portability." },
+        "pdpa-ar": { "state": "no", "note": "No standalone portability right under Law 25.326." },
+        "lpdp-uy": { "state": "no", "note": "No standalone portability right." },
+        "pipa-kr": { "state": "partial", "note": "A transmission right is being phased in under the 2023 amendment." },
+        "appi": { "state": "partial", "note": "Disclosure can be requested electronically, but no transfer-to-controller right." },
+        "nzpa": { "state": "no", "note": "No data portability right." },
+        "popia": { "state": "no", "note": "No standalone portability right." },
+        "kdpa": { "state": "yes", "note": "Section 26(d), right to data portability." },
+        "dpdp": { "state": "no", "note": "No data portability right in the Act." }
       }
     },
     {
@@ -58,7 +98,17 @@
         "gdpr": { "state": "partial", "note": "No sale concept; objection to direct marketing is absolute under Article 21." },
         "ccpa": { "state": "yes", "note": "Section 1798.120, a core CCPA right." },
         "lgpd": { "state": "no", "note": "No direct equivalent; processing rests on legal bases and consent." },
-        "pipl": { "state": "partial", "note": "Separate consent required for provision to third parties." }
+        "pipl": { "state": "partial", "note": "Separate consent required for provision to third parties." },
+        "ukgdpr": { "state": "partial", "note": "No sale concept; objection to direct marketing is absolute, Article 21(2)." },
+        "fadp": { "state": "partial", "note": "No sale concept; the person can object to certain processing." },
+        "pdpa-ar": { "state": "partial", "note": "Right to be removed from direct-marketing databases, Article 27." },
+        "lpdp-uy": { "state": "partial", "note": "Right to object in direct-marketing databases." },
+        "pipa-kr": { "state": "partial", "note": "Consent required before providing data to third parties; no sale opt-out as such." },
+        "appi": { "state": "partial", "note": "Opt-out available for third-party provision, Article 27." },
+        "nzpa": { "state": "no", "note": "No sale or opt-out-of-sale concept." },
+        "popia": { "state": "partial", "note": "Right to object to processing for direct marketing, Section 11." },
+        "kdpa": { "state": "partial", "note": "Right to object to processing for direct marketing, Section 26." },
+        "dpdp": { "state": "no", "note": "No sale or opt-out-of-sale concept." }
       }
     },
     {
@@ -68,7 +118,17 @@
         "gdpr": { "state": "yes", "note": "Article 21." },
         "ccpa": { "state": "partial", "note": "Limited; opt-out and Limit-the-Use mechanisms rather than a general objection right." },
         "lgpd": { "state": "yes", "note": "Article 18." },
-        "pipl": { "state": "yes", "note": "Article 44, right to restrict or refuse." }
+        "pipl": { "state": "yes", "note": "Article 44, right to restrict or refuse." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 21." },
+        "fadp": { "state": "yes", "note": "Processing against the person's express wishes requires justification." },
+        "pdpa-ar": { "state": "partial", "note": "Objection tied to specific grounds rather than a general right." },
+        "lpdp-uy": { "state": "partial", "note": "Objection in defined cases rather than a general right." },
+        "pipa-kr": { "state": "yes", "note": "Article 37, right to suspend processing." },
+        "appi": { "state": "yes", "note": "Article 35, right to request cessation of use." },
+        "nzpa": { "state": "no", "note": "No general right to object to processing." },
+        "popia": { "state": "yes", "note": "Section 11(3), right to object." },
+        "kdpa": { "state": "yes", "note": "Section 26(c), right to object." },
+        "dpdp": { "state": "no", "note": "No general objection right; withdrawing consent is the main lever." }
       }
     },
     {
@@ -78,7 +138,17 @@
         "gdpr": { "state": "yes", "note": "Article 22." },
         "ccpa": { "state": "partial", "note": "Automated decision-making rules developing under CPRA rulemaking." },
         "lgpd": { "state": "yes", "note": "Article 20, right to review." },
-        "pipl": { "state": "yes", "note": "Article 24." }
+        "pipl": { "state": "yes", "note": "Article 24." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 22." },
+        "fadp": { "state": "yes", "note": "Article 21, information and human review of automated decisions." },
+        "pdpa-ar": { "state": "no", "note": "No specific automated-decision right under Law 25.326." },
+        "lpdp-uy": { "state": "no", "note": "No specific automated-decision right." },
+        "pipa-kr": { "state": "yes", "note": "Right to refuse or seek explanation of automated decisions, 2023 amendment." },
+        "appi": { "state": "no", "note": "No specific automated-decision right." },
+        "nzpa": { "state": "no", "note": "No specific automated-decision right." },
+        "popia": { "state": "yes", "note": "Section 71, protection against automated decision-making." },
+        "kdpa": { "state": "yes", "note": "Section 35, protection against automated decisions." },
+        "dpdp": { "state": "no", "note": "No specific automated-decision right in the Act." }
       }
     },
     {
@@ -88,7 +158,17 @@
         "gdpr": { "state": "yes", "note": "Article 18." },
         "ccpa": { "state": "partial", "note": "Limit the Use of Sensitive Personal Information, Section 1798.121." },
         "lgpd": { "state": "yes", "note": "Article 18, blocking remedy." },
-        "pipl": { "state": "yes", "note": "Article 44, restriction of processing." }
+        "pipl": { "state": "yes", "note": "Article 44, restriction of processing." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 18." },
+        "fadp": { "state": "partial", "note": "Disputed data can be blocked pending resolution." },
+        "pdpa-ar": { "state": "partial", "note": "Blocking during a dispute over accuracy." },
+        "lpdp-uy": { "state": "partial", "note": "Blocking of contested data." },
+        "pipa-kr": { "state": "yes", "note": "Article 37, suspension of processing." },
+        "appi": { "state": "partial", "note": "Cessation of use available on specified grounds, Article 35." },
+        "nzpa": { "state": "no", "note": "No standalone restriction right." },
+        "popia": { "state": "partial", "note": "Restriction where accuracy is contested or processing is objected to." },
+        "kdpa": { "state": "partial", "note": "Restriction tied to objection and accuracy disputes." },
+        "dpdp": { "state": "no", "note": "No standalone restriction right." }
       }
     },
     {
@@ -98,7 +178,17 @@
         "gdpr": { "state": "partial", "note": "Protected in principle, not framed as a standalone right." },
         "ccpa": { "state": "yes", "note": "Section 1798.125, an explicit CCPA right." },
         "lgpd": { "state": "partial", "note": "Implied through good-faith and non-discrimination principles." },
-        "pipl": { "state": "partial", "note": "Anti-differential-pricing provision in Article 24 for automated decisions." }
+        "pipl": { "state": "partial", "note": "Anti-differential-pricing provision in Article 24 for automated decisions." },
+        "ukgdpr": { "state": "partial", "note": "Protected in principle, not a standalone right." },
+        "fadp": { "state": "partial", "note": "Protected through good-faith and proportionality principles." },
+        "pdpa-ar": { "state": "partial", "note": "General good-faith principle rather than a standalone right." },
+        "lpdp-uy": { "state": "partial", "note": "General good-faith principle." },
+        "pipa-kr": { "state": "partial", "note": "Protected through general principles, not a standalone right." },
+        "appi": { "state": "partial", "note": "Protected through proper-handling duties, not a standalone right." },
+        "nzpa": { "state": "no", "note": "Not framed as a right." },
+        "popia": { "state": "partial", "note": "Protected through lawful-processing conditions." },
+        "kdpa": { "state": "partial", "note": "Protected through fair-processing principles." },
+        "dpdp": { "state": "no", "note": "Not framed as a right." }
       }
     }
   ]

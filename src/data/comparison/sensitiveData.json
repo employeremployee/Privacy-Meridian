@@ -18,7 +18,17 @@
         "gdpr": { "state": "yes", "note": "Article 9 special category." },
         "ccpa": { "state": "yes", "note": "Listed as sensitive personal information." },
         "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
-        "pipl": { "state": "partial", "note": "Not itemized, but caught by the general sensitive-data definition." }
+        "pipl": { "state": "partial", "note": "Not itemized, but caught by the general sensitive-data definition." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 9 special category." },
+        "fadp": { "state": "yes", "note": "Sensitive data, Article 5(c)." },
+        "pdpa-ar": { "state": "yes", "note": "Sensitive data, Article 2." },
+        "lpdp-uy": { "state": "yes", "note": "Sensitive data, Article 4." },
+        "pipa-kr": { "state": "yes", "note": "Race and ethnicity, an enforcement-decree sensitive item." },
+        "appi": { "state": "yes", "note": "Race listed as special care-required information." },
+        "nzpa": { "state": "no", "note": "No special-category regime; the same principles cover all information." },
+        "popia": { "state": "yes", "note": "Special personal information, Section 26." },
+        "kdpa": { "state": "yes", "note": "Sensitive personal data definition." },
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
       }
     },
     {
@@ -28,7 +38,17 @@
         "gdpr": { "state": "yes", "note": "Article 9 special category." },
         "ccpa": { "state": "no", "note": "Not enumerated as sensitive personal information." },
         "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
-        "pipl": { "state": "no", "note": "Not enumerated; no explicit political-opinion category." }
+        "pipl": { "state": "no", "note": "Not enumerated; no explicit political-opinion category." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 9 special category." },
+        "fadp": { "state": "yes", "note": "Political views listed as sensitive, Article 5(c)." },
+        "pdpa-ar": { "state": "yes", "note": "Political opinions, Article 2." },
+        "lpdp-uy": { "state": "yes", "note": "Political preferences, Article 4." },
+        "pipa-kr": { "state": "yes", "note": "Political opinions, Article 23." },
+        "appi": { "state": "partial", "note": "Covered indirectly through creed, not itemized." },
+        "nzpa": { "state": "no", "note": "No special-category regime." },
+        "popia": { "state": "yes", "note": "Political persuasion, Section 26." },
+        "kdpa": { "state": "yes", "note": "Political opinion listed as sensitive." },
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
       }
     },
     {
@@ -38,7 +58,17 @@
         "gdpr": { "state": "yes", "note": "Article 9 special category." },
         "ccpa": { "state": "yes", "note": "Religious or philosophical beliefs listed." },
         "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
-        "pipl": { "state": "yes", "note": "Religious beliefs itemized in Article 28." }
+        "pipl": { "state": "yes", "note": "Religious beliefs itemized in Article 28." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 9 special category." },
+        "fadp": { "state": "yes", "note": "Religious or ideological views, Article 5(c)." },
+        "pdpa-ar": { "state": "yes", "note": "Religious, philosophical, or moral convictions, Article 2." },
+        "lpdp-uy": { "state": "yes", "note": "Religious or moral convictions, Article 4." },
+        "pipa-kr": { "state": "yes", "note": "Ideology and beliefs, Article 23." },
+        "appi": { "state": "yes", "note": "Creed covers religion and belief." },
+        "nzpa": { "state": "no", "note": "No special-category regime." },
+        "popia": { "state": "yes", "note": "Religious or philosophical beliefs, Section 26." },
+        "kdpa": { "state": "yes", "note": "Conscience and belief, sensitive definition." },
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
       }
     },
     {
@@ -48,7 +78,17 @@
         "gdpr": { "state": "yes", "note": "Article 9 special category." },
         "ccpa": { "state": "yes", "note": "Genetic data listed as sensitive." },
         "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
-        "pipl": { "state": "partial", "note": "Covered via biometric / general sensitive definition, not a standalone item." }
+        "pipl": { "state": "partial", "note": "Covered via biometric and general sensitive definition, not a standalone item." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 9 special category." },
+        "fadp": { "state": "yes", "note": "Genetic data listed as sensitive." },
+        "pdpa-ar": { "state": "partial", "note": "Not itemized; treated as health-related in practice." },
+        "lpdp-uy": { "state": "partial", "note": "Not itemized; treated as health-related." },
+        "pipa-kr": { "state": "yes", "note": "Genetic data from testing, enforcement decree." },
+        "appi": { "state": "yes", "note": "Genetic test results included by rule." },
+        "nzpa": { "state": "no", "note": "No special-category regime." },
+        "popia": { "state": "partial", "note": "Not itemized; treated within health information." },
+        "kdpa": { "state": "yes", "note": "Genetic data listed as sensitive." },
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
       }
     },
     {
@@ -58,7 +98,17 @@
         "gdpr": { "state": "yes", "note": "Article 9, where used to uniquely identify." },
         "ccpa": { "state": "yes", "note": "Biometric information listed as sensitive." },
         "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
-        "pipl": { "state": "yes", "note": "Biometric characteristics itemized in Article 28." }
+        "pipl": { "state": "yes", "note": "Biometric characteristics itemized in Article 28." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 9, where used to identify." },
+        "fadp": { "state": "yes", "note": "Biometric data uniquely identifying a person." },
+        "pdpa-ar": { "state": "partial", "note": "Not itemized in the 1998 law; addressed through AAIP guidance." },
+        "lpdp-uy": { "state": "partial", "note": "Addressed through URCDP guidance, not itemized." },
+        "pipa-kr": { "state": "yes", "note": "Biometric data for unique identification, enforcement decree." },
+        "appi": { "state": "partial", "note": "Biometric identifiers are personal identifier codes, not special care-required data." },
+        "nzpa": { "state": "partial", "note": "Addressed through a dedicated biometric privacy code, not the Act itself." },
+        "popia": { "state": "yes", "note": "Biometric information, Section 26." },
+        "kdpa": { "state": "yes", "note": "Biometric data listed as sensitive." },
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
       }
     },
     {
@@ -68,7 +118,17 @@
         "gdpr": { "state": "yes", "note": "Article 9 special category." },
         "ccpa": { "state": "yes", "note": "Health information treated as sensitive." },
         "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
-        "pipl": { "state": "yes", "note": "Medical health itemized in Article 28." }
+        "pipl": { "state": "yes", "note": "Medical health itemized in Article 28." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 9 special category." },
+        "fadp": { "state": "yes", "note": "Health and the intimate sphere." },
+        "pdpa-ar": { "state": "yes", "note": "Health data, Article 2." },
+        "lpdp-uy": { "state": "yes", "note": "Health data, Article 4." },
+        "pipa-kr": { "state": "yes", "note": "Health data, Article 23." },
+        "appi": { "state": "yes", "note": "Medical history is special care-required information." },
+        "nzpa": { "state": "partial", "note": "Governed by a separate Health Information Privacy Code." },
+        "popia": { "state": "yes", "note": "Health data, Section 26." },
+        "kdpa": { "state": "yes", "note": "Health data listed as sensitive." },
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
       }
     },
     {
@@ -78,7 +138,17 @@
         "gdpr": { "state": "yes", "note": "Article 9 special category." },
         "ccpa": { "state": "yes", "note": "Sex life or sexual orientation listed." },
         "lgpd": { "state": "yes", "note": "Article 5(II) sensitive data." },
-        "pipl": { "state": "partial", "note": "Not itemized, but caught by the general sensitive-data definition." }
+        "pipl": { "state": "partial", "note": "Not itemized, but caught by the general sensitive-data definition." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 9 special category." },
+        "fadp": { "state": "yes", "note": "Covered within the intimate sphere." },
+        "pdpa-ar": { "state": "yes", "note": "Sex life, Article 2." },
+        "lpdp-uy": { "state": "yes", "note": "Sexual life, Article 4." },
+        "pipa-kr": { "state": "yes", "note": "Sex life, Article 23." },
+        "appi": { "state": "no", "note": "Not itemized as special care-required information." },
+        "nzpa": { "state": "no", "note": "No special-category regime." },
+        "popia": { "state": "yes", "note": "Sex life, Section 26." },
+        "kdpa": { "state": "yes", "note": "Sex and sexual orientation listed as sensitive." },
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
       }
     },
     {
@@ -88,7 +158,17 @@
         "gdpr": { "state": "no", "note": "Not a special category; protected as ordinary personal data." },
         "ccpa": { "state": "yes", "note": "Account log-in and financial account plus access credentials are sensitive." },
         "lgpd": { "state": "no", "note": "Not a sensitive category under Article 5(II)." },
-        "pipl": { "state": "yes", "note": "Financial accounts itemized in Article 28." }
+        "pipl": { "state": "yes", "note": "Financial accounts itemized in Article 28." },
+        "ukgdpr": { "state": "no", "note": "Ordinary personal data under UK GDPR." },
+        "fadp": { "state": "no", "note": "Ordinary personal data." },
+        "pdpa-ar": { "state": "no", "note": "Not a sensitive category." },
+        "lpdp-uy": { "state": "no", "note": "Not a sensitive category." },
+        "pipa-kr": { "state": "no", "note": "Not a sensitive category; protected as ordinary data." },
+        "appi": { "state": "no", "note": "Not a special category." },
+        "nzpa": { "state": "no", "note": "No special-category regime." },
+        "popia": { "state": "no", "note": "Not a special category." },
+        "kdpa": { "state": "no", "note": "Not a sensitive category; property details are separate." },
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
       }
     },
     {
@@ -98,7 +178,17 @@
         "gdpr": { "state": "no", "note": "Not a special category; protected as ordinary personal data." },
         "ccpa": { "state": "yes", "note": "Precise geolocation listed as sensitive." },
         "lgpd": { "state": "no", "note": "Not a sensitive category under Article 5(II)." },
-        "pipl": { "state": "yes", "note": "Individual location tracking itemized in Article 28." }
+        "pipl": { "state": "yes", "note": "Individual location tracking itemized in Article 28." },
+        "ukgdpr": { "state": "no", "note": "Ordinary personal data under UK GDPR." },
+        "fadp": { "state": "no", "note": "Ordinary personal data." },
+        "pdpa-ar": { "state": "no", "note": "Not a sensitive category." },
+        "lpdp-uy": { "state": "no", "note": "Not a sensitive category." },
+        "pipa-kr": { "state": "partial", "note": "Location governed by the separate Location Information Act." },
+        "appi": { "state": "no", "note": "Not a special category." },
+        "nzpa": { "state": "no", "note": "No special-category regime." },
+        "popia": { "state": "no", "note": "Not a special category." },
+        "kdpa": { "state": "no", "note": "Not a sensitive category." },
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
       }
     },
     {
@@ -108,7 +198,17 @@
         "gdpr": { "state": "partial", "note": "Not in Article 9, but children receive specific heightened protections." },
         "ccpa": { "state": "partial", "note": "Opt-in required for sale/sharing of minors' data, handled separately from sensitive PI." },
         "lgpd": { "state": "partial", "note": "Children's data given special treatment under Article 14, not listed in Article 5(II)." },
-        "pipl": { "state": "yes", "note": "Personal information of minors under 14 is sensitive under Article 28." }
+        "pipl": { "state": "yes", "note": "Personal information of minors under 14 is sensitive under Article 28." },
+        "ukgdpr": { "state": "partial", "note": "Heightened protections, not a special category." },
+        "fadp": { "state": "partial", "note": "General principles apply; no dedicated child category." },
+        "pdpa-ar": { "state": "partial", "note": "Addressed through guidance, not a statutory category." },
+        "lpdp-uy": { "state": "partial", "note": "Best-interest guidance, not a statutory sensitive category." },
+        "pipa-kr": { "state": "partial", "note": "Guardian consent required for children under 14." },
+        "appi": { "state": "partial", "note": "Guidelines expect guardian consent for children under 15, not a special category." },
+        "nzpa": { "state": "no", "note": "No child-specific special category." },
+        "popia": { "state": "yes", "note": "Children's personal information is specially protected, Section 34." },
+        "kdpa": { "state": "yes", "note": "Children's data given special protection, Section 33." },
+        "dpdp": { "state": "yes", "note": "Children's data receives heightened protection, Section 9." }
       }
     }
   ]

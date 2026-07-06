@@ -18,7 +18,17 @@
         "gdpr": { "state": "yes", "note": "Article 6(1)(a)." },
         "ccpa": { "state": "partial", "note": "Opt-out model; consent required only for specific cases such as minors and sensitive data." },
         "lgpd": { "state": "yes", "note": "Article 7, I." },
-        "pipl": { "state": "yes", "note": "Article 13(1); the primary basis under PIPL." }
+        "pipl": { "state": "yes", "note": "Article 13(1); the primary basis under PIPL." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 6(1)(a)." },
+        "fadp": { "state": "yes", "note": "Consent is a key justification, Article 31." },
+        "pdpa-ar": { "state": "yes", "note": "Consent is the general rule, Article 5." },
+        "lpdp-uy": { "state": "yes", "note": "Prior informed consent, Article 9." },
+        "pipa-kr": { "state": "yes", "note": "Article 15(1)(1); a primary basis." },
+        "appi": { "state": "yes", "note": "Consent is the core basis for use and disclosure." },
+        "nzpa": { "state": "partial", "note": "Authorization by the individual is one ground among the principles." },
+        "popia": { "state": "yes", "note": "Consent, Section 11(1)(a)." },
+        "kdpa": { "state": "yes", "note": "Consent, Section 30." },
+        "dpdp": { "state": "yes", "note": "Consent is the primary basis, Section 6." }
       }
     },
     {
@@ -28,7 +38,17 @@
         "gdpr": { "state": "yes", "note": "Article 6(1)(b)." },
         "ccpa": { "state": "no", "note": "CCPA uses an opt-out model, not a legal-basis framework." },
         "lgpd": { "state": "yes", "note": "Article 7, V." },
-        "pipl": { "state": "yes", "note": "Article 13(2)." }
+        "pipl": { "state": "yes", "note": "Article 13(2)." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 6(1)(b)." },
+        "fadp": { "state": "partial", "note": "Not enumerated; contract needs fall under the overriding-interest test." },
+        "pdpa-ar": { "state": "yes", "note": "Processing arising from a contractual relationship, Article 5." },
+        "lpdp-uy": { "state": "yes", "note": "Processing necessary for a contractual relationship." },
+        "pipa-kr": { "state": "yes", "note": "Necessary to perform a contract, Article 15(1)(4)." },
+        "appi": { "state": "partial", "note": "No legal-basis framework; contract needs are handled through purpose limits." },
+        "nzpa": { "state": "partial", "note": "No legal-basis framework; the principles govern collection and use." },
+        "popia": { "state": "yes", "note": "Necessary to perform a contract, Section 11(1)(b)." },
+        "kdpa": { "state": "yes", "note": "Performance of a contract, Section 30." },
+        "dpdp": { "state": "partial", "note": "Covered within enumerated legitimate uses rather than a distinct basis." }
       }
     },
     {
@@ -38,7 +58,17 @@
         "gdpr": { "state": "yes", "note": "Article 6(1)(c)." },
         "ccpa": { "state": "no", "note": "Not framed as a processing basis." },
         "lgpd": { "state": "yes", "note": "Article 7, II." },
-        "pipl": { "state": "yes", "note": "Article 13(3), statutory duties." }
+        "pipl": { "state": "yes", "note": "Article 13(3), statutory duties." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 6(1)(c)." },
+        "fadp": { "state": "yes", "note": "Processing required by law is justified, Article 31." },
+        "pdpa-ar": { "state": "yes", "note": "Processing mandated by law, Article 5." },
+        "lpdp-uy": { "state": "yes", "note": "Processing required by law." },
+        "pipa-kr": { "state": "yes", "note": "Compliance with legal obligations, Article 15(1)(2)." },
+        "appi": { "state": "yes", "note": "Cases based on laws are exempt from the consent requirement." },
+        "nzpa": { "state": "yes", "note": "Collection and use required or authorized by law are permitted." },
+        "popia": { "state": "yes", "note": "Compliance with a legal obligation, Section 11(1)(c)." },
+        "kdpa": { "state": "yes", "note": "Compliance with a legal obligation, Section 30." },
+        "dpdp": { "state": "yes", "note": "Legal-obligation processing is a legitimate use, Section 7." }
       }
     },
     {
@@ -48,7 +78,17 @@
         "gdpr": { "state": "yes", "note": "Article 6(1)(d)." },
         "ccpa": { "state": "no", "note": "Not framed as a processing basis." },
         "lgpd": { "state": "yes", "note": "Article 7, VII." },
-        "pipl": { "state": "yes", "note": "Article 13(4), emergencies and public health." }
+        "pipl": { "state": "yes", "note": "Article 13(4), emergencies and public health." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 6(1)(d)." },
+        "fadp": { "state": "partial", "note": "Handled through the overriding-interest justification." },
+        "pdpa-ar": { "state": "partial", "note": "Recognized in health-emergency contexts." },
+        "lpdp-uy": { "state": "partial", "note": "Recognized in defined life-or-health situations." },
+        "pipa-kr": { "state": "yes", "note": "Urgent interests of life, body, or property, Article 15." },
+        "appi": { "state": "yes", "note": "Protection of a person's life, body, or property is a consent exemption." },
+        "nzpa": { "state": "yes", "note": "A serious threat to life or health permits collection and use." },
+        "popia": { "state": "yes", "note": "Protecting a legitimate interest of the data subject, Section 11(1)(d)." },
+        "kdpa": { "state": "yes", "note": "Protection of vital interests, Section 30." },
+        "dpdp": { "state": "yes", "note": "Medical emergencies and threats to life are legitimate uses, Section 7." }
       }
     },
     {
@@ -58,7 +98,17 @@
         "gdpr": { "state": "yes", "note": "Article 6(1)(e)." },
         "ccpa": { "state": "no", "note": "Not framed as a processing basis." },
         "lgpd": { "state": "yes", "note": "Article 7, III, execution of public policies." },
-        "pipl": { "state": "yes", "note": "Article 13(5), news reporting and public interest." }
+        "pipl": { "state": "yes", "note": "Article 13(5), news reporting and public interest." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 6(1)(e)." },
+        "fadp": { "state": "partial", "note": "Federal bodies rely on a statutory-basis test rather than public interest as such." },
+        "pdpa-ar": { "state": "partial", "note": "State databases process for defined public functions." },
+        "lpdp-uy": { "state": "partial", "note": "Public bodies process for their legal functions." },
+        "pipa-kr": { "state": "yes", "note": "Public-institution duties and public safety, Article 15." },
+        "appi": { "state": "yes", "note": "Public-health and child-welfare cooperation is a consent exemption." },
+        "nzpa": { "state": "partial", "note": "Public-interest grounds appear as specific exceptions." },
+        "popia": { "state": "yes", "note": "Public-law duty of a public body, Section 11(1)(e)." },
+        "kdpa": { "state": "yes", "note": "Public interest or official authority, Section 30." },
+        "dpdp": { "state": "yes", "note": "State functions and public-interest uses are enumerated, Section 7." }
       }
     },
     {
@@ -68,7 +118,17 @@
         "gdpr": { "state": "yes", "note": "Article 6(1)(f), with a balancing test." },
         "ccpa": { "state": "no", "note": "No equivalent basis." },
         "lgpd": { "state": "partial", "note": "Article 7, IX; narrower than GDPR and still developing under ANPD." },
-        "pipl": { "state": "no", "note": "PIPL has no general legitimate-interests basis." }
+        "pipl": { "state": "no", "note": "PIPL has no general legitimate-interests basis." },
+        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 6(1)(f), with a balancing test." },
+        "fadp": { "state": "yes", "note": "Overriding private or public interest is a core justification, Article 31." },
+        "pdpa-ar": { "state": "no", "note": "No general legitimate-interests basis." },
+        "lpdp-uy": { "state": "no", "note": "No general legitimate-interests basis." },
+        "pipa-kr": { "state": "partial", "note": "A limited legitimate-interest basis was added by the 2023 amendment." },
+        "appi": { "state": "no", "note": "No legitimate-interests basis; relies on consent and exemptions." },
+        "nzpa": { "state": "partial", "note": "No named basis; the principles allow reasonable business use." },
+        "popia": { "state": "yes", "note": "Legitimate interests of the responsible party or a third party, Section 11(1)(f)." },
+        "kdpa": { "state": "yes", "note": "Legitimate interests, Section 30." },
+        "dpdp": { "state": "no", "note": "No general legitimate-interests basis; only enumerated legitimate uses." }
       }
     },
     {
@@ -78,7 +138,17 @@
         "gdpr": { "state": "no", "note": "Not a standalone basis." },
         "ccpa": { "state": "no", "note": "Not a standalone basis." },
         "lgpd": { "state": "yes", "note": "Article 7, X; unique to LGPD." },
-        "pipl": { "state": "no", "note": "Not a standalone basis." }
+        "pipl": { "state": "no", "note": "Not a standalone basis." },
+        "ukgdpr": { "state": "no", "note": "Not a standalone basis." },
+        "fadp": { "state": "partial", "note": "Creditworthiness data has specific rules, but not a standalone basis." },
+        "pdpa-ar": { "state": "yes", "note": "Creditworthiness data has a dedicated regime, Article 26." },
+        "lpdp-uy": { "state": "yes", "note": "Credit-reporting data has a dedicated regime, Article 22." },
+        "pipa-kr": { "state": "partial", "note": "Credit information governed by the separate Credit Information Act." },
+        "appi": { "state": "no", "note": "Not a standalone basis." },
+        "nzpa": { "state": "partial", "note": "Credit reporting governed by a separate Credit Reporting Privacy Code." },
+        "popia": { "state": "no", "note": "Not a standalone basis." },
+        "kdpa": { "state": "no", "note": "Not a standalone basis." },
+        "dpdp": { "state": "no", "note": "Not a standalone basis." }
       }
     },
     {
@@ -88,7 +158,17 @@
         "gdpr": { "state": "partial", "note": "Manifestly-public exemption applies mainly to special categories." },
         "ccpa": { "state": "partial", "note": "Publicly available information is excluded from personal information." },
         "lgpd": { "state": "partial", "note": "Manifestly-public data treated with lighter conditions." },
-        "pipl": { "state": "yes", "note": "Article 13(6), publicly disclosed information within reasonable scope." }
+        "pipl": { "state": "yes", "note": "Article 13(6), publicly disclosed information within reasonable scope." },
+        "ukgdpr": { "state": "partial", "note": "Manifestly-public exemption applies mainly to special categories." },
+        "fadp": { "state": "partial", "note": "Data made public by the person carries a presumption of no breach." },
+        "pdpa-ar": { "state": "yes", "note": "Data from unrestricted public sources is exempt from consent, Article 5." },
+        "lpdp-uy": { "state": "yes", "note": "Data from public sources is exempt from consent, Article 9." },
+        "pipa-kr": { "state": "partial", "note": "Publicly available data may be processed within reasonable expectations." },
+        "appi": { "state": "partial", "note": "Publicly disclosed data still follows purpose limits." },
+        "nzpa": { "state": "partial", "note": "Publicly available information is exempt from several principles." },
+        "popia": { "state": "partial", "note": "Data deliberately made public by the person lifts several conditions, Section 27." },
+        "kdpa": { "state": "partial", "note": "Public-source data still subject to fair-processing duties." },
+        "dpdp": { "state": "yes", "note": "Data the person has made publicly available is exempt, Section 3." }
       }
     }
   ]

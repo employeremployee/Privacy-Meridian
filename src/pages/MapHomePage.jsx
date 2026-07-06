@@ -40,6 +40,9 @@ const JURISDICTIONS_DATA = {
 
 const VIEWS = ['explore', 'compare']
 
+// Cap concurrent comparison columns so the matrix stays readable on smaller screens.
+const MAX_COMPARE = 5
+
 function MapHomePage() {
   const { t } = useTranslation()
   const [view, setView] = useState('explore')
@@ -50,15 +53,20 @@ function MapHomePage() {
   const activeTopic =
     COMPARISON_TOPICS.find((topic) => topic.topicId === compareTopicId) || COMPARISON_TOPICS[0]
 
+  const compareLimitReached = compareSelection.length >= MAX_COMPARE
+
   function handleSelect(jurisdictionId) {
     if (view === 'explore') {
       setExploreSelection(jurisdictionId)
     } else {
-      setCompareSelection((prev) =>
-        prev.includes(jurisdictionId)
-          ? prev.filter((id) => id !== jurisdictionId)
-          : [...prev, jurisdictionId],
-      )
+      setCompareSelection((prev) => {
+        if (prev.includes(jurisdictionId)) {
+          return prev.filter((id) => id !== jurisdictionId)
+        }
+        // At the cap, ignore new additions. Deselecting still works above.
+        if (prev.length >= MAX_COMPARE) return prev
+        return [...prev, jurisdictionId]
+      })
     }
   }
 
@@ -92,6 +100,20 @@ function MapHomePage() {
       <p className="mb-3 text-sm text-ink">
         {t(view === 'explore' ? 'home.exploreHint' : 'home.compareHint')}
       </p>
+
+      {view === 'compare' && (
+        <p
+          aria-live="polite"
+          className={[
+            'mb-3 text-sm font-medium',
+            compareLimitReached ? 'text-horizon' : 'text-ink',
+          ].join(' ')}
+        >
+          {compareLimitReached
+            ? t('home.compareLimitReached')
+            : t('home.compareSelectedCount', { count: compareSelection.length, max: MAX_COMPARE })}
+        </p>
+      )}
 
       <MapExplorer
         jurisdictionsData={JURISDICTIONS_DATA}

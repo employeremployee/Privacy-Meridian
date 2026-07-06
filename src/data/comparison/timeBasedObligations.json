@@ -13,7 +13,17 @@
         "gdpr": { "value": "1 month", "note": "From receipt of the request." },
         "ccpa": { "value": "45 days", "note": "From receipt of a verifiable consumer request." },
         "lgpd": { "value": "15 days", "note": "From receipt; immediate simplified response also available." },
-        "pipl": { "value": "15 working days", "note": "From receipt, after verification." }
+        "pipl": { "value": "15 working days", "note": "From receipt, after verification." },
+        "ukgdpr": { "value": "1 month", "note": "From receipt, mirroring the EU GDPR." },
+        "fadp": { "value": "30 days", "note": "Information provided within 30 days as a rule, Article 25." },
+        "pdpa-ar": { "value": "10 days", "note": "Access requests answered within 10 calendar days, Article 14." },
+        "lpdp-uy": { "value": "5 business days", "note": "Access within 5 working days, Article 14." },
+        "pipa-kr": { "value": "10 days", "note": "Access and similar requests within 10 days." },
+        "appi": { "value": "Without delay", "note": "No fixed statutory number of days." },
+        "nzpa": { "value": "20 working days", "note": "Access requests answered within 20 working days, IPP 6." },
+        "popia": { "value": "Reasonable time", "note": "No fixed statutory deadline." },
+        "kdpa": { "value": "7 days", "note": "The General Regulations 2021 timeline for responding to a request." },
+        "dpdp": { "value": "As prescribed", "note": "Response window to be set by rules; not yet fixed in the Act." }
       }
     },
     {
@@ -23,7 +33,17 @@
         "gdpr": { "value": "Up to 3 months", "note": "Two further months for complex or numerous requests." },
         "ccpa": { "value": "Up to 90 days", "note": "One 45-day extension where reasonably necessary." },
         "lgpd": { "value": "No formal extension", "note": "The 15-day window is a firm operational target." },
-        "pipl": { "value": "Reasonable extension", "note": "No fixed statutory maximum specified." }
+        "pipl": { "value": "Reasonable extension", "note": "No fixed statutory maximum specified." },
+        "ukgdpr": { "value": "Up to 3 months", "note": "Two further months for complex requests." },
+        "fadp": { "value": "Reasonable extension", "note": "Where justified by the volume of requests." },
+        "pdpa-ar": { "value": "No formal extension", "note": "The 10-day window is the operative rule." },
+        "lpdp-uy": { "value": "No formal extension", "note": "The 5-day window is the operative rule." },
+        "pipa-kr": { "value": "Extension available", "note": "May be extended once with notice to the individual." },
+        "appi": { "value": "No fixed maximum", "note": "Response expected without undue delay." },
+        "nzpa": { "value": "Extension permitted", "note": "May extend where the request needs consultation or is large." },
+        "popia": { "value": "No fixed maximum", "note": "Reasonableness governs." },
+        "kdpa": { "value": "Extension with notice", "note": "Additional time where the request is complex." },
+        "dpdp": { "value": "As prescribed", "note": "To be set by rules." }
       }
     },
     {
@@ -33,7 +53,17 @@
         "gdpr": { "value": "72 hours", "note": "From awareness, unless unlikely to be a risk." },
         "ccpa": { "value": "Without unreasonable delay", "note": "No fixed hour threshold." },
         "lgpd": { "value": "2 business days", "note": "Preliminary notice per ANPD guidance; supplementary within 5." },
-        "pipl": { "value": "Immediately", "note": "No fixed hour threshold; some sectors specify 24 hours." }
+        "pipl": { "value": "Immediately", "note": "No fixed hour threshold; some sectors specify 24 hours." },
+        "ukgdpr": { "value": "72 hours", "note": "From awareness, unless unlikely to be a risk." },
+        "fadp": { "value": "As soon as possible", "note": "Notify the FDPIC where there is high risk to the person, Article 24." },
+        "pdpa-ar": { "value": "No statutory duty", "note": "The 1998 law has no breach-notification rule; AAIP guidance encourages notice." },
+        "lpdp-uy": { "value": "72 hours", "note": "Notify the URCDP after becoming aware." },
+        "pipa-kr": { "value": "Within 72 hours", "note": "Notify the PIPC of a qualifying breach." },
+        "appi": { "value": "Promptly", "note": "Preliminary report promptly; full report within 30 days." },
+        "nzpa": { "value": "As soon as practicable", "note": "Notify the Commissioner of a notifiable breach." },
+        "popia": { "value": "As soon as reasonably possible", "note": "Notify the Information Regulator after discovery, Section 22." },
+        "kdpa": { "value": "72 hours", "note": "Notify the ODPC within 72 hours of becoming aware, Section 43." },
+        "dpdp": { "value": "Without delay", "note": "Notify the Data Protection Board of India of a breach." }
       }
     },
     {
@@ -43,7 +73,17 @@
         "gdpr": { "value": "Without undue delay", "note": "Where the breach is high risk to individuals." },
         "ccpa": { "value": "Most expedient time possible", "note": "For breaches of defined sensitive categories." },
         "lgpd": { "value": "Reasonable timeframe", "note": "When relevant harm may occur to data subjects." },
-        "pipl": { "value": "Immediately", "note": "May be replaced by public announcement if harm is avoided." }
+        "pipl": { "value": "Immediately", "note": "May be replaced by public announcement if harm is avoided." },
+        "ukgdpr": { "value": "Without undue delay", "note": "Where the breach is high risk to individuals." },
+        "fadp": { "value": "Where needed for protection", "note": "Inform the person where necessary for their protection, Article 24." },
+        "pdpa-ar": { "value": "No statutory duty", "note": "The 1998 law has no individual-notice rule." },
+        "lpdp-uy": { "value": "72 hours", "note": "Affected individuals informed alongside the URCDP." },
+        "pipa-kr": { "value": "Without delay", "note": "Notify affected individuals of a qualifying breach." },
+        "appi": { "value": "Promptly", "note": "Notify affected individuals, or make a public notice instead." },
+        "nzpa": { "value": "As soon as practicable", "note": "Notify affected individuals where the breach is notifiable." },
+        "popia": { "value": "As soon as reasonably possible", "note": "Notify affected data subjects after discovery, Section 22." },
+        "kdpa": { "value": "Without undue delay", "note": "Notify affected individuals where there is a real risk of harm." },
+        "dpdp": { "value": "Without delay", "note": "Notify each affected individual of a breach." }
       }
     }
   ]

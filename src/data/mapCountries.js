@@ -1,12 +1,30 @@
 // Country picker options for the map dropdowns. The map selects a law, not a
-// country, so several countries map to one jurisdiction. GDPR covers the whole
-// EEA, so those countries are grouped under one visible heading to make the
-// merge obvious. Every other law maps to a single country.
+// country, so several countries map to one jurisdiction. Options are grouped by
+// law, so the picker shows one heading per jurisdiction. GDPR covers the whole
+// EEA, so those countries share a single "European Union (GDPR)" heading; every
+// other law heads its own single country.
 //
 // Names live here as data (not in a component), consistent with how jurisdiction
 // JSON already holds fullName. English only in v1.
 
-const GDPR_GROUP = 'European Union (GDPR)'
+// Heading shown above each jurisdiction's countries. Includes the law so the
+// picker tells the user which regime a country falls under.
+const GROUP_LABELS = {
+  gdpr: 'European Union (GDPR)',
+  ccpa: 'United States (CCPA and CPRA)',
+  lgpd: 'Brazil (LGPD)',
+  pipl: 'China (PIPL)',
+  ukgdpr: 'United Kingdom (UK GDPR)',
+  fadp: 'Switzerland (revised FADP)',
+  'pdpa-ar': 'Argentina (PDPA)',
+  'lpdp-uy': 'Uruguay (Law 18.331)',
+  'pipa-kr': 'South Korea (PIPA)',
+  appi: 'Japan (APPI)',
+  nzpa: 'New Zealand (Privacy Act 2020)',
+  popia: 'South Africa (POPIA)',
+  kdpa: 'Kenya (Data Protection Act)',
+  dpdp: 'India (DPDP Act)',
+}
 
 // EEA countries that apply the GDPR, matching the codes in countryStatus.js.
 const GDPR_COUNTRIES = [
@@ -58,10 +76,11 @@ const STANDALONE = [
 ]
 
 // Flat option list. Each option: { name, jurisdictionId, group }.
-// group is the section heading (GDPR group) or null for standalone countries.
+// Sorted by group heading, then country name, so every heading is contiguous
+// and appears exactly once.
 export const COUNTRY_OPTIONS = [
-  ...STANDALONE.map((c) => ({ ...c, group: null })),
-  ...GDPR_COUNTRIES.map((name) => ({ name, jurisdictionId: 'gdpr', group: GDPR_GROUP })),
-].sort((a, b) => a.name.localeCompare(b.name))
+  ...STANDALONE.map((c) => ({ ...c, group: GROUP_LABELS[c.jurisdictionId] })),
+  ...GDPR_COUNTRIES.map((name) => ({ name, jurisdictionId: 'gdpr', group: GROUP_LABELS.gdpr })),
+].sort((a, b) => a.group.localeCompare(b.group) || a.name.localeCompare(b.name))
 
-export { GDPR_GROUP }
+export { GROUP_LABELS }

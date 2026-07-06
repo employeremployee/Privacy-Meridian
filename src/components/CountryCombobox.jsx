@@ -88,7 +88,7 @@ function CountryCombobox({ options, mode = 'single', selectedIds = [], onSelect,
     if (option.group && option.group !== lastGroup) {
       rows.push(
         <li
-          key={`grp-${option.group}`}
+          key={`grp-${index}-${option.group}`}
           role="presentation"
           className="px-3 pb-1 pt-2 text-xs font-semibold uppercase tracking-wide text-ink"
         >
@@ -107,7 +107,7 @@ function CountryCombobox({ options, mode = 'single', selectedIds = [], onSelect,
         role="option"
         aria-selected={selected}
         aria-disabled={disabled || undefined}
-        aria-label={option.group ? `${option.name}, ${option.group}` : option.name}
+        aria-label={option.group.startsWith(option.name) ? option.group : `${option.name}, ${option.group}`}
         onMouseDown={(e) => e.preventDefault()}
         onClick={() => choose(option)}
         className={[

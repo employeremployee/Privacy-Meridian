@@ -71,6 +71,12 @@
   "topicPicker": {
     "label": "Topic"
   },
+  "countryPicker": {
+    "label": "Choose a country",
+    "placeholder": "Type a country name",
+    "noResults": "No country matches that name.",
+    "clearAll": "Clear all selections"
+  },
   "comparison": {
     "requirementColumn": "Category",
     "yes": "Yes",

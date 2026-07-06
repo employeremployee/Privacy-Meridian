@@ -16,10 +16,12 @@ import kdpaData from '../data/jurisdictions/kdpa.json'
 import dpdpData from '../data/jurisdictions/dpdp.json'
 import glossaryData from '../data/glossary.json'
 import { COMPARISON_TOPICS } from '../data/comparison/comparisonTopics.js'
+import { COUNTRY_OPTIONS } from '../data/mapCountries.js'
 import MapExplorer from '../components/MapExplorer.jsx'
 import MapLegend from '../components/MapLegend.jsx'
 import DrilldownReadout from '../components/DrilldownReadout.jsx'
 import ComparisonMatrix from '../components/ComparisonMatrix.jsx'
+import CountryCombobox from '../components/CountryCombobox.jsx'
 
 const JURISDICTIONS_DATA = {
   gdpr: gdprData,
@@ -101,18 +103,52 @@ function MapHomePage() {
         {t(view === 'explore' ? 'home.exploreHint' : 'home.compareHint')}
       </p>
 
-      {view === 'compare' && (
-        <p
-          aria-live="polite"
-          className={[
-            'mb-3 text-sm font-medium',
-            compareLimitReached ? 'text-horizon' : 'text-ink',
-          ].join(' ')}
-        >
-          {compareLimitReached
-            ? t('home.compareLimitReached')
-            : t('home.compareSelectedCount', { count: compareSelection.length, max: MAX_COMPARE })}
-        </p>
+      {view === 'explore' ? (
+        <div className="mb-3">
+          <CountryCombobox
+            options={COUNTRY_OPTIONS}
+            mode="single"
+            selectedIds={exploreSelection ? [exploreSelection] : []}
+            onSelect={(id) => setExploreSelection(id)}
+          />
+        </div>
+      ) : (
+        <div className="mb-3 flex flex-col gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            <CountryCombobox
+              options={COUNTRY_OPTIONS}
+              mode="multi"
+              selectedIds={compareSelection}
+              onSelect={(id) => handleSelect(id)}
+              limitReached={compareLimitReached}
+            />
+            <button
+              type="button"
+              onClick={() => setCompareSelection([])}
+              disabled={compareSelection.length === 0}
+              className={[
+                'rounded-md border px-3 py-2 text-sm font-medium transition-colors',
+                'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue',
+                compareSelection.length === 0
+                  ? 'cursor-not-allowed border-rule text-muted'
+                  : 'border-rule text-ink hover:bg-surface',
+              ].join(' ')}
+            >
+              {t('countryPicker.clearAll')}
+            </button>
+          </div>
+          <p
+            aria-live="polite"
+            className={[
+              'text-sm font-medium',
+              compareLimitReached ? 'text-horizon' : 'text-ink',
+            ].join(' ')}
+          >
+            {compareLimitReached
+              ? t('home.compareLimitReached')
+              : t('home.compareSelectedCount', { count: compareSelection.length, max: MAX_COMPARE })}
+          </p>
+        </div>
       )}
 
       <MapExplorer

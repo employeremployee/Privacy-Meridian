@@ -81,25 +81,11 @@ function CountryCombobox({ options, mode = 'single', selectedIds = [], onSelect,
     }
   }
 
-  // Render options with a group heading whenever the group changes.
-  let lastGroup
-  const rows = []
-  filtered.forEach((option, index) => {
-    if (option.group && option.group !== lastGroup) {
-      rows.push(
-        <li
-          key={`grp-${index}-${option.group}`}
-          role="presentation"
-          className="px-3 pb-1 pt-2 text-xs font-semibold uppercase tracking-wide text-ink"
-        >
-          {option.group}
-        </li>,
-      )
-    }
-    lastGroup = option.group
+  // Plain alphabetical list of country names, no group headings.
+  const rows = filtered.map((option, index) => {
     const selected = isSelected(option)
     const disabled = isDisabled(option)
-    rows.push(
+    return (
       <li
         key={option.name}
         id={`${listboxId}-opt-${index}`}
@@ -107,7 +93,6 @@ function CountryCombobox({ options, mode = 'single', selectedIds = [], onSelect,
         role="option"
         aria-selected={selected}
         aria-disabled={disabled || undefined}
-        aria-label={option.group.startsWith(option.name) ? option.group : `${option.name}, ${option.group}`}
         onMouseDown={(e) => e.preventDefault()}
         onClick={() => choose(option)}
         className={[
@@ -122,7 +107,7 @@ function CountryCombobox({ options, mode = 'single', selectedIds = [], onSelect,
             ✓
           </span>
         )}
-      </li>,
+      </li>
     )
   })
 

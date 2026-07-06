@@ -76,11 +76,11 @@ const STANDALONE = [
 ]
 
 // Flat option list. Each option: { name, jurisdictionId, group }.
-// Sorted by group heading, then country name, so every heading is contiguous
-// and appears exactly once.
+// Sorted alphabetically by country name. The dropdown lists plain country names
+// with no headings. group is kept for accessible labels and possible later use.
 export const COUNTRY_OPTIONS = [
   ...STANDALONE.map((c) => ({ ...c, group: GROUP_LABELS[c.jurisdictionId] })),
   ...GDPR_COUNTRIES.map((name) => ({ name, jurisdictionId: 'gdpr', group: GROUP_LABELS.gdpr })),
-].sort((a, b) => a.group.localeCompare(b.group) || a.name.localeCompare(b.name))
+].sort((a, b) => a.name.localeCompare(b.name))
 
 export { GROUP_LABELS }

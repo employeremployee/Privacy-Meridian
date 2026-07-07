@@ -17,7 +17,8 @@
   "contentBlock": {
     "timelineLabel": "Response Timeline",
     "sourceLinksLabel": "Sources",
-    "crossReferencesLabel": "Related Articles"
+    "crossReferencesLabel": "Related Articles",
+    "personalImpact": "What this means for you"
   },
   "glossary": {
     "learnMore": "Learn more"

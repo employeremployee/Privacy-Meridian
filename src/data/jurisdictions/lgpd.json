@@ -181,8 +181,8 @@
           "articleRef": "Article 48",
           "surfaceLabel": "What Happens When Personal Data Is Compromised in Brazil",
           "plainSummary": "Organizations in Brazil must notify the national data protection authority and affected individuals when a security incident could cause harm to data subjects.",
-          "professionalLayer": "Article 48 requires controllers to notify the ANPD and affected data subjects of security incidents that could cause relevant harm to data subjects. LGPD does not specify a fixed notification timeframe in the legislation. ANPD Resolution CD/ANPD No. 02/2022 established a notification requirement of up to 2 business days for preliminary notification to the ANPD and up to 5 business days for supplementary notification. This is a materially different timeline from GDPR's 72-hour window.",
-          "responseTimeline": "Preliminary notification to ANPD: 2 business days. Supplementary notification: 5 business days.",
+          "professionalLayer": "Article 48 requires controllers to notify the ANPD and affected data subjects of security incidents that could cause relevant harm to data subjects. LGPD does not specify a fixed notification timeframe in the legislation. ANPD Resolution CD/ANPD No. 15/2024 requires notification to the ANPD and affected data subjects within 3 business days of becoming aware of the incident, with supplementary information within 20 business days. This is a materially different timeline from GDPR's 72-hour window.",
+          "responseTimeline": "Notification to the ANPD and affected data subjects: 3 business days from awareness. Supplementary information within 20 business days.",
           "crossReferences": [],
           "sourceLinks": [
             {

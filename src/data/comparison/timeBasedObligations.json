@@ -52,7 +52,7 @@
       "jurisdictions": {
         "gdpr": { "value": "72 hours", "note": "From awareness, unless unlikely to be a risk." },
         "ccpa": { "value": "Without unreasonable delay", "note": "No fixed hour threshold." },
-        "lgpd": { "value": "2 business days", "note": "Preliminary notice per ANPD guidance; supplementary within 5." },
+        "lgpd": { "value": "3 business days", "note": "ANPD Resolution 15/2024, from awareness; supplement within 20 business days." },
         "pipl": { "value": "Immediately", "note": "No fixed hour threshold; some sectors specify 24 hours." },
         "ukgdpr": { "value": "72 hours", "note": "From awareness, unless unlikely to be a risk." },
         "fadp": { "value": "As soon as possible", "note": "Notify the FDPIC where there is high risk to the person, Article 24." },
@@ -72,7 +72,7 @@
       "jurisdictions": {
         "gdpr": { "value": "Without undue delay", "note": "Where the breach is high risk to individuals." },
         "ccpa": { "value": "Most expedient time possible", "note": "For breaches of defined sensitive categories." },
-        "lgpd": { "value": "Reasonable timeframe", "note": "When relevant harm may occur to data subjects." },
+        "lgpd": { "value": "3 business days", "note": "ANPD Resolution 15/2024 also covers notice to affected data subjects." },
         "pipl": { "value": "Immediately", "note": "May be replaced by public announcement if harm is avoided." },
         "ukgdpr": { "value": "Without undue delay", "note": "Where the breach is high risk to individuals." },
         "fadp": { "value": "Where needed for protection", "note": "Inform the person where necessary for their protection, Article 24." },

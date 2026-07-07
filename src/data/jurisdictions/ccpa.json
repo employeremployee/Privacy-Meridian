@@ -42,6 +42,8 @@
             }
           ],
           "tooltipTerms": [
+            "sale-sharing",
+            "personal-data",
             "data-subject",
             "service-provider-contractor-third-party"
           ],
@@ -87,6 +89,7 @@
           ],
           "tooltipTerms": [
             "verifiable-consumer-request",
+            "personal-data",
             "data-subject"
           ],
           "assessTrigger": "Does your organization have a process to respond to Right to Know requests covering both categories and specific pieces of personal information, and can you identify and disclose all third parties with whom information has been shared or sold?",
@@ -125,8 +128,9 @@
             }
           ],
           "tooltipTerms": [
-            "service-provider-contractor-third-party",
-            "verifiable-consumer-request"
+            "verifiable-consumer-request",
+            "personal-data",
+            "service-provider-contractor-third-party"
           ],
           "assessTrigger": "Does your deletion process extend to your service providers and contractors, and following CPRA, do you notify third parties to whom you sold or shared the consumer's information to delete it as well?",
           "gapRemediation": {
@@ -156,6 +160,8 @@
             }
           ],
           "tooltipTerms": [
+            "verifiable-consumer-request",
+            "personal-data",
             "service-provider-contractor-third-party"
           ],
           "assessTrigger": "Does your organization have a correction process that extends to service providers and contractors, and have you assessed whether your third-party sale or sharing relationships implicate a practical notification obligation?",
@@ -194,9 +200,11 @@
             }
           ],
           "tooltipTerms": [
-            "sale-sharing",
+            "cross-context-behavioral-advertising",
             "gpc",
-            "cross-context-behavioral-advertising"
+            "opt-in-opt-out",
+            "consent-withdrawal",
+            "sale-sharing"
           ],
           "assessTrigger": "Does your organization honor the Global Privacy Control signal as an opt-out, and have you assessed whether your advertising technology practices constitute sharing under the CPRA definition?",
           "gapRemediation": {
@@ -235,6 +243,7 @@
           ],
           "tooltipTerms": [
             "sensitive-data",
+            "personal-data",
             "opt-in-opt-out"
           ],
           "assessTrigger": "Has your organization identified all uses of sensitive personal information and assessed whether those uses require a Limit the Use opt-out mechanism, and is that mechanism implemented and honored within the required timeframe?",
@@ -268,7 +277,10 @@
               "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.125."
             }
           ],
-          "tooltipTerms": [],
+          "tooltipTerms": [
+            "personal-data",
+            "sale-sharing"
+          ],
           "assessTrigger": "Does your organization have controls to ensure consumers who exercise privacy rights receive equivalent service, and if you offer financial incentives for data sharing, are those incentives properly disclosed and non-coercive?",
           "gapRemediation": {
             "smb": "Ensure your customer service team understands that exercising privacy rights cannot result in different treatment. If you offer loyalty programs tied to data sharing, review the disclosure and fairness of those programs.",

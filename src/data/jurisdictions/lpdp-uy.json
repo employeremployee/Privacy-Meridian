@@ -42,9 +42,12 @@
             }
           ],
           "tooltipTerms": [
+            "dpo-encarregado",
+            "breach-notification",
             "personal-data",
-            "supervisory-authority-dpa",
-            "dpo-encarregado"
+            "processing",
+            "controller-processor",
+            "supervisory-authority-dpa"
           ],
           "assessTrigger": "Do you process personal data of people in Uruguay from abroad, and have you checked whether the extended scope rules and DPO designation duties reach your organization?",
           "gapRemediation": {
@@ -75,6 +78,7 @@
             }
           ],
           "tooltipTerms": [
+            "processing",
             "consent-withdrawal",
             "sensitive-data",
             "legal-basis"
@@ -116,6 +120,7 @@
             }
           ],
           "tooltipTerms": [
+            "controller-processor",
             "data-subject"
           ],
           "assessTrigger": "Can your organization answer Uruguayan access requests within five business days, far inside the monthly window global workflows assume?",
@@ -150,6 +155,8 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "controller-processor",
             "right-to-be-forgotten"
           ],
           "assessTrigger": "Can you correct or delete Uruguayan records and notify downstream recipients within five business days?",
@@ -181,6 +188,9 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "data-subject",
+            "controller-processor",
             "breach-notification",
             "supervisory-authority-dpa"
           ],
@@ -217,6 +227,8 @@
             }
           ],
           "tooltipTerms": [
+            "data-subject",
+            "consent-withdrawal",
             "sccs"
           ],
           "assessTrigger": "Do your transfers out of Uruguay rest on adequacy, consent, or URCDP-recognized clauses, documented per flow?",

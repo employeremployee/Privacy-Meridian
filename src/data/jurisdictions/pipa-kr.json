@@ -42,7 +42,12 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "breach-notification",
+            "data-subject",
             "controller-processor",
+            "processing",
+            "consent-withdrawal",
             "supervisory-authority-dpa"
           ],
           "assessTrigger": "Do you offer goods or services into Korea, and have you designated a chief privacy officer and assessed PIPA's consent granularity against your collection flows?",
@@ -78,10 +83,13 @@
             }
           ],
           "tooltipTerms": [
-            "legal-basis",
+            "legitimate-interests",
+            "retention-period",
+            "data-subject",
+            "controller-processor",
             "consent-withdrawal",
-            "sensitive-data",
-            "legitimate-interests"
+            "legal-basis",
+            "sensitive-data"
           ],
           "assessTrigger": "Are your Korean consent flows itemized by purpose with the required disclosures, and separate consents for sensitive data and unique identifiers?",
           "gapRemediation": {
@@ -120,8 +128,11 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "retention-period",
             "data-subject",
-            "retention-period"
+            "controller-processor",
+            "processing"
           ],
           "assessTrigger": "Can you fulfill Korean access requests within 10 days, including third-party provision details your systems may not surface easily?",
           "gapRemediation": {
@@ -155,6 +166,9 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "controller-processor",
+            "processing",
             "right-to-be-forgotten",
             "retention-period"
           ],
@@ -191,6 +205,8 @@
             }
           ],
           "tooltipTerms": [
+            "data-subject",
+            "controller-processor",
             "breach-notification",
             "supervisory-authority-dpa"
           ],
@@ -227,8 +243,8 @@
             }
           ],
           "tooltipTerms": [
-            "sccs",
             "consent-withdrawal",
+            "sccs",
             "data-localization"
           ],
           "assessTrigger": "Does each transfer of Korean data out of the country rest on a documented Article 28-8 route, and could you withstand a PIPC suspension review?",

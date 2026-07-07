@@ -43,6 +43,8 @@
           ],
           "tooltipTerms": [
             "personal-data",
+            "data-subject",
+            "processing",
             "supervisory-authority-dpa",
             "dpo-encarregado"
           ],
@@ -83,9 +85,13 @@
             }
           ],
           "tooltipTerms": [
-            "legal-basis",
-            "consent-withdrawal",
             "legitimate-interests",
+            "personal-data",
+            "data-subject",
+            "service-provider-contractor-third-party",
+            "processing",
+            "consent-withdrawal",
+            "legal-basis",
             "sensitive-data"
           ],
           "assessTrigger": "Is each processing activity mapped to a Section 11 ground, with special-information authorizations and objection handling documented?",
@@ -117,6 +123,7 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
             "data-subject"
           ],
           "assessTrigger": "Can you confirm holdings free of charge and produce records within the PAIA-aligned timeframe, using the prescribed request forms?",
@@ -143,6 +150,8 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "data-subject",
             "right-to-be-forgotten",
             "retention-period"
           ],
@@ -175,6 +184,8 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "data-subject",
             "breach-notification",
             "supervisory-authority-dpa"
           ],
@@ -207,8 +218,11 @@
             }
           ],
           "tooltipTerms": [
-            "sccs",
-            "consent-withdrawal"
+            "personal-data",
+            "data-subject",
+            "service-provider-contractor-third-party",
+            "consent-withdrawal",
+            "sccs"
           ],
           "assessTrigger": "Does each cross-border flow rest on a documented Section 72 condition, with recipient agreements meeting the substantially-similar test including onward transfers?",
           "gapRemediation": {

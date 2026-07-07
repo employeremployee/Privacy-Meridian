@@ -82,6 +82,7 @@
             }
           ],
           "tooltipTerms": [
+            "processing",
             "consent-withdrawal",
             "sensitive-data",
             "legal-basis"
@@ -123,6 +124,7 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
             "data-subject"
           ],
           "assessTrigger": "Can your organization turn around Argentine access requests in 10 calendar days, well inside the one-month window your GDPR workflow assumes?",
@@ -157,6 +159,8 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "controller-processor",
             "right-to-be-forgotten"
           ],
           "assessTrigger": "Can you correct or delete Argentine records within five business days, including notifying downstream recipients of the change?",
@@ -231,6 +235,7 @@
             }
           ],
           "tooltipTerms": [
+            "consent-withdrawal",
             "sccs"
           ],
           "assessTrigger": "Do your transfers out of Argentina rely on the AAIP adequacy list or its model clauses, rather than EU paperwork assumed to carry over?",

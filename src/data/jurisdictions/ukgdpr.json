@@ -42,6 +42,7 @@
             }
           ],
           "tooltipTerms": [
+            "data-subject",
             "controller-processor",
             "supervisory-authority-dpa"
           ],
@@ -78,9 +79,10 @@
             }
           ],
           "tooltipTerms": [
-            "legal-basis",
             "legitimate-interests",
-            "consent-withdrawal"
+            "processing",
+            "consent-withdrawal",
+            "legal-basis"
           ],
           "assessTrigger": "Has your organization documented a UK GDPR lawful basis for each processing activity involving UK residents, and checked whether UK reforms change any balancing tests you rely on?",
           "gapRemediation": {
@@ -115,6 +117,7 @@
             }
           ],
           "tooltipTerms": [
+            "processing",
             "data-subject",
             "controller-processor",
             "retention-period"
@@ -147,8 +150,9 @@
             }
           ],
           "tooltipTerms": [
-            "right-to-be-forgotten",
-            "consent-withdrawal"
+            "processing",
+            "consent-withdrawal",
+            "right-to-be-forgotten"
           ],
           "assessTrigger": "Does your erasure process cover all systems holding UK personal data, including backups, and log the grounds for every refusal?",
           "gapRemediation": {
@@ -183,6 +187,7 @@
             }
           ],
           "tooltipTerms": [
+            "controller-processor",
             "breach-notification",
             "supervisory-authority-dpa"
           ],

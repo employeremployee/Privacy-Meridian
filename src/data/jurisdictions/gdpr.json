@@ -45,9 +45,13 @@
             }
           ],
           "tooltipTerms": [
-            "controller-processor",
+            "legitimate-interests",
+            "retention-period",
+            "personal-data",
+            "data-subject",
             "legal-basis",
-            "legitimate-interests"
+            "controller-processor",
+            "processing"
           ],
           "assessTrigger": "Does your organization have a current, accurate privacy notice that covers all Article 13 and 14 required disclosures, and is it reviewed whenever processing purposes or legal bases change?",
           "gapRemediation": {
@@ -77,9 +81,13 @@
             }
           ],
           "tooltipTerms": [
+            "supervisory-authority-dpa",
+            "retention-period",
+            "personal-data",
+            "data-subject",
+            "processing",
             "controller-processor",
-            "ropa",
-            "supervisory-authority-dpa"
+            "ropa"
           ],
           "assessTrigger": "Does your organization's access request process capture all required supplementary information, not just the data itself, but retention periods, recipient categories, and data sources?",
           "gapRemediation": {
@@ -114,6 +122,8 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "data-subject",
             "controller-processor"
           ],
           "assessTrigger": "Does your rectification process include a step to notify third-party recipients of corrections, not just updating the record internally?",
@@ -153,7 +163,10 @@
             }
           ],
           "tooltipTerms": [
+            "data-subject",
             "legal-basis",
+            "processing",
+            "controller-processor",
             "consent-withdrawal",
             "right-to-be-forgotten"
           ],
@@ -190,7 +203,10 @@
             }
           ],
           "tooltipTerms": [
-            "processing"
+            "data-subject",
+            "processing",
+            "controller-processor",
+            "consent-withdrawal"
           ],
           "assessTrigger": "Does your organization have a technical mechanism to flag individual records as restricted and exclude them from active processing workflows, and a process to notify the data subject before restriction is lifted?",
           "gapRemediation": {
@@ -229,6 +245,10 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "data-subject",
+            "processing",
+            "controller-processor",
             "ropa"
           ],
           "assessTrigger": "Can your organization identify every recipient that received a specific individual's personal data, and do you have a process to notify those recipients when that data is corrected, erased, or restricted?",
@@ -261,6 +281,11 @@
           ],
           "tooltipTerms": [
             "machine-readable-format",
+            "legitimate-interests",
+            "personal-data",
+            "data-subject",
+            "controller-processor",
+            "processing",
             "consent-withdrawal",
             "legal-basis"
           ],
@@ -293,6 +318,9 @@
           ],
           "tooltipTerms": [
             "legitimate-interests",
+            "data-subject",
+            "processing",
+            "controller-processor",
             "profiling"
           ],
           "assessTrigger": "Does your organization suppress direct marketing to individuals who have objected, immediately and permanently, and do you have a documented process for handling non-marketing objections that includes a legitimate grounds assessment?",
@@ -323,8 +351,11 @@
             }
           ],
           "tooltipTerms": [
-            "profiling",
             "meaningful-human-involvement",
+            "data-subject",
+            "processing",
+            "controller-processor",
+            "profiling",
             "consent-withdrawal"
           ],
           "assessTrigger": "Has your organization identified all automated decision-making processes that produce legal or similarly significant effects, and for those that rely on an exception, is meaningful human review genuinely built into the process rather than notional?",
@@ -357,8 +388,14 @@
           ],
           "tooltipTerms": [
             "ropa",
-            "dpo-encarregado",
-            "sensitive-data"
+            "supervisory-authority-dpa",
+            "sensitive-data",
+            "retention-period",
+            "personal-data",
+            "data-subject",
+            "controller-processor",
+            "processing",
+            "dpo-encarregado"
           ],
           "assessTrigger": "Does your organization maintain a current, accurate RoPA that maps every processing activity to its legal basis, retention period, and recipient categories, and is it reviewed when processing changes?",
           "gapRemediation": {
@@ -384,9 +421,10 @@
             }
           ],
           "tooltipTerms": [
-            "dpo-encarregado",
             "sensitive-data",
-            "supervisory-authority-dpa"
+            "supervisory-authority-dpa",
+            "controller-processor",
+            "dpo-encarregado"
           ],
           "assessTrigger": "Does your organization meet the mandatory DPO threshold, and if not, have you documented the assessment confirming the threshold does not apply?",
           "gapRemediation": {
@@ -421,8 +459,11 @@
             }
           ],
           "tooltipTerms": [
-            "pia-dpia",
-            "supervisory-authority-dpa"
+            "supervisory-authority-dpa",
+            "data-subject",
+            "processing",
+            "controller-processor",
+            "pia-dpia"
           ],
           "assessTrigger": "Does your organization have a defined trigger list for when a PIA is required, and a process to complete one before high-risk processing begins rather than after?",
           "gapRemediation": {
@@ -461,9 +502,11 @@
             }
           ],
           "tooltipTerms": [
-            "breach-notification",
             "supervisory-authority-dpa",
-            "controller-processor"
+            "personal-data",
+            "data-subject",
+            "controller-processor",
+            "breach-notification"
           ],
           "assessTrigger": "Does your organization have a documented breach response plan that defines awareness, includes a 72-hour notification workflow, and assigns clear ownership for supervisory authority and data subject notification decisions?",
           "gapRemediation": {
@@ -519,6 +562,7 @@
           "tooltipTerms": [
             "sccs",
             "tia",
+            "personal-data",
             "schrems-ii",
             "data-localization"
           ],

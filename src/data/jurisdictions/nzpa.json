@@ -86,6 +86,7 @@
             }
           ],
           "tooltipTerms": [
+            "consent-withdrawal",
             "purpose-limitation",
             "data-minimization",
             "legal-basis"
@@ -123,6 +124,7 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
             "data-subject"
           ],
           "assessTrigger": "Can you meet the 20-working-day access deadline, and are refusals tied to specific statutory withholding grounds that would survive an OPC access direction?",
@@ -148,7 +150,9 @@
               "url": "https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html"
             }
           ],
-          "tooltipTerms": [],
+          "tooltipTerms": [
+            "personal-data"
+          ],
           "assessTrigger": "Can your systems attach a statement of correction to a disputed record and propagate corrections to past recipients?",
           "gapRemediation": {
             "smb": "Where you decline a correction, attach the person's statement to the record. A simple note field satisfies this.",
@@ -233,6 +237,7 @@
             }
           ],
           "tooltipTerms": [
+            "processing",
             "sccs"
           ],
           "assessTrigger": "Do foreign disclosures rest on comparable safeguards, OPC model clauses, or informed express authorization, with the agent exception applied correctly to cloud providers?",

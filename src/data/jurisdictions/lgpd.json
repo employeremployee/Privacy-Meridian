@@ -43,6 +43,11 @@
           ],
           "tooltipTerms": [
             "dpo-encarregado",
+            "legitimate-interests",
+            "breach-notification",
+            "personal-data",
+            "data-subject",
+            "processing",
             "anpd"
           ],
           "assessTrigger": "Does your organization process personal data of individuals located in Brazil, process data in Brazil, or collect data in Brazil, and have you mapped which of LGPD's ten legal bases applies to each processing activity?",
@@ -78,9 +83,13 @@
             }
           ],
           "tooltipTerms": [
-            "legal-basis",
             "legitimate-interests",
-            "consent-withdrawal"
+            "personal-data",
+            "processing",
+            "controller-processor",
+            "consent-withdrawal",
+            "anpd",
+            "legal-basis"
           ],
           "assessTrigger": "Has your organization mapped a specific LGPD legal basis to each processing activity, and where you rely on legitimate interests, have you documented that assessment given the developing ANPD guidance?",
           "gapRemediation": {
@@ -123,7 +132,8 @@
             }
           ],
           "tooltipTerms": [
-            "data-subject"
+            "data-subject",
+            "processing"
           ],
           "assessTrigger": "Does your organization have a process to respond to access requests within 15 days, and can you provide responses in both simplified and complete format as requested?",
           "gapRemediation": {
@@ -157,7 +167,8 @@
             }
           ],
           "tooltipTerms": [
-            "anonymization-pseudonymization"
+            "anonymization-pseudonymization",
+            "processing"
           ],
           "assessTrigger": "Does your organization have processes for all three remedies: anonymization, blocking, and deletion, and do you have a technical definition of anonymization that meets LGPD's standard?",
           "gapRemediation": {
@@ -200,8 +211,10 @@
             }
           ],
           "tooltipTerms": [
-            "breach-notification",
-            "anpd"
+            "data-subject",
+            "controller-processor",
+            "anpd",
+            "breach-notification"
           ],
           "assessTrigger": "Does your organization's breach response plan address LGPD's specific notification timelines, and is your ANPD notification process documented separately from your GDPR supervisory authority notification process?",
           "gapRemediation": {
@@ -245,6 +258,7 @@
           ],
           "tooltipTerms": [
             "sccs",
+            "consent-withdrawal",
             "anpd"
           ],
           "assessTrigger": "Has your organization identified all international data transfers involving Brazilian personal data, and are you using ANPD-approved transfer mechanisms rather than assuming GDPR SCCs are sufficient?",

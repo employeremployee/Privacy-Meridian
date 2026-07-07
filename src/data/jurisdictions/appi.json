@@ -74,10 +74,11 @@
             }
           ],
           "tooltipTerms": [
-            "purpose-limitation",
-            "sensitive-data",
+            "personal-data",
             "consent-withdrawal",
-            "opt-in-opt-out"
+            "opt-in-opt-out",
+            "purpose-limitation",
+            "sensitive-data"
           ],
           "assessTrigger": "Are your utilization purposes specified explicitly and kept current, and is consent captured before exceeding them or providing data to third parties?",
           "gapRemediation": {
@@ -116,6 +117,7 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
             "data-subject"
           ],
           "assessTrigger": "Can you disclose retained personal data and third-party provision records without delay, in digital form when requested?",
@@ -142,6 +144,8 @@
             }
           ],
           "tooltipTerms": [
+            "legitimate-interests",
+            "personal-data",
             "right-to-be-forgotten"
           ],
           "assessTrigger": "Can you investigate and act on correction and cessation demands promptly, including the broadened 2020 grounds like no-longer-needed data?",
@@ -221,8 +225,10 @@
             }
           ],
           "tooltipTerms": [
-            "sccs",
-            "consent-withdrawal"
+            "personal-data",
+            "service-provider-contractor-third-party",
+            "consent-withdrawal",
+            "sccs"
           ],
           "assessTrigger": "Do your transfers from Japan rest on the whitelist, equivalent safeguards with oversight, or informed consent naming the destination country?",
           "gapRemediation": {

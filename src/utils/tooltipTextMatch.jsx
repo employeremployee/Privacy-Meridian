@@ -41,7 +41,9 @@ export function renderProfessionalLayerWithTooltips(text, tooltipTermIds, glossa
     let found = null
 
     for (const candidate of candidates) {
-      const regex = new RegExp(`\\b${escapeRegExp(candidate)}\\b`, 'i')
+      // Tolerate a regular plural on the phrase (controller -> controllers,
+      // data subject -> data subjects) so terms match however the prose is worded.
+      const regex = new RegExp(`\\b${escapeRegExp(candidate)}s?\\b`, 'i')
       const match = regex.exec(text)
       if (match) {
         const start = match.index

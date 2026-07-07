@@ -42,7 +42,11 @@
             }
           ],
           "tooltipTerms": [
+            "breach-notification",
+            "personal-data",
+            "data-subject",
             "controller-processor",
+            "processing",
             "supervisory-authority-dpa",
             "pia-dpia"
           ],
@@ -83,9 +87,14 @@
             }
           ],
           "tooltipTerms": [
-            "legal-basis",
-            "consent-withdrawal",
             "legitimate-interests",
+            "personal-data",
+            "data-subject",
+            "service-provider-contractor-third-party",
+            "processing",
+            "controller-processor",
+            "consent-withdrawal",
+            "legal-basis",
             "sensitive-data"
           ],
           "assessTrigger": "Is each Kenyan processing activity mapped to a Section 30 basis, with provable consent records where consent is relied on?",
@@ -121,7 +130,10 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
             "data-subject",
+            "controller-processor",
+            "processing",
             "right-to-be-forgotten"
           ],
           "assessTrigger": "Can you receive, verify, and answer Kenyan rights requests within the regulation timelines, with explanations for any denial?",
@@ -157,6 +169,9 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "data-subject",
+            "controller-processor",
             "breach-notification",
             "supervisory-authority-dpa"
           ],
@@ -189,9 +204,12 @@
             }
           ],
           "tooltipTerms": [
+            "data-subject",
+            "controller-processor",
+            "processing",
+            "consent-withdrawal",
             "sccs",
-            "data-localization",
-            "consent-withdrawal"
+            "data-localization"
           ],
           "assessTrigger": "Can you evidence safeguards for each transfer out of Kenya, and have you checked whether any of your data falls in prescribed localization categories?",
           "gapRemediation": {

@@ -37,7 +37,10 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "processing",
             "controller-processor",
+            "consent-withdrawal",
             "data-subject"
           ],
           "assessTrigger": "Do you offer goods or services to people in India, and have you tracked which DPDP Rules obligations are in force for your phase, including possible significant data fiduciary designation?",
@@ -77,8 +80,9 @@
             }
           ],
           "tooltipTerms": [
-            "legal-basis",
+            "processing",
             "consent-withdrawal",
+            "legal-basis",
             "legitimate-interests"
           ],
           "assessTrigger": "Does each Indian processing activity rest on itemized consent or a listed legitimate use, given the absence of contract and legitimate-interests bases?",
@@ -118,6 +122,10 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "processing",
+            "controller-processor",
+            "consent-withdrawal",
             "data-subject",
             "right-to-be-forgotten"
           ],
@@ -158,6 +166,7 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
             "breach-notification"
           ],
           "assessTrigger": "Is your incident process ready to notify every affected Indian data principal and the Board for any breach, with no risk-threshold triage?",
@@ -197,6 +206,7 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
             "data-localization",
             "sccs"
           ],

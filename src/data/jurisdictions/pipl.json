@@ -45,8 +45,11 @@
             }
           ],
           "tooltipTerms": [
-            "cac",
-            "data-localization"
+            "personal-data",
+            "data-localization",
+            "processing",
+            "consent-withdrawal",
+            "cac"
           ],
           "assessTrigger": "Does your organization provide products or services to individuals in China, or analyze the behavior of individuals in China, and if so, have you assessed your obligations under PIPL alongside China's Cybersecurity Law and Data Security Law?",
           "gapRemediation": {
@@ -89,9 +92,12 @@
             }
           ],
           "tooltipTerms": [
-            "legal-basis",
+            "sensitive-data",
+            "personal-data",
+            "legitimate-interests",
+            "processing",
             "consent-withdrawal",
-            "sensitive-data"
+            "legal-basis"
           ],
           "assessTrigger": "Has your organization mapped a PIPL legal basis to each processing activity involving personal information of individuals in China, and where you rely on consent, is that consent separate by purpose, freely given, and fully informed?",
           "gapRemediation": {
@@ -130,7 +136,10 @@
             }
           ],
           "tooltipTerms": [
-            "processing"
+            "personal-data",
+            "legal-basis",
+            "processing",
+            "consent-withdrawal"
           ],
           "assessTrigger": "Does your organization provide individuals in China with clear information about all processing activities and a mechanism to restrict or refuse processing beyond their initial consent decisions?",
           "gapRemediation": {
@@ -156,6 +165,10 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
+            "retention-period",
+            "service-provider-contractor-third-party",
+            "processing",
             "consent-withdrawal"
           ],
           "assessTrigger": "Does your deletion process include notification to entrusted third-party processors, and do you have a documented approach for backup system deletion?",
@@ -182,6 +195,7 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
             "profiling",
             "meaningful-human-involvement"
           ],
@@ -238,6 +252,7 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
             "cac",
             "sccs",
             "data-localization"
@@ -278,6 +293,7 @@
             }
           ],
           "tooltipTerms": [
+            "personal-data",
             "data-localization",
             "cac"
           ],
@@ -324,8 +340,9 @@
             }
           ],
           "tooltipTerms": [
-            "breach-notification",
-            "cac"
+            "personal-data",
+            "cac",
+            "breach-notification"
           ],
           "assessTrigger": "Does your organization's breach response plan address PIPL's immediate notification requirement, and have you identified the relevant PRC authorities for your industry sector?",
           "gapRemediation": {

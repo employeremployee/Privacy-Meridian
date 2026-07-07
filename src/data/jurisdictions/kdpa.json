@@ -7,13 +7,13 @@
     "region": "Kenya",
     "badge": "KE",
     "effectiveDate": "2019-11-25",
-    "sourceUrl": "http://kenyalaw.org",
+    "sourceUrl": "https://kenyalaw.org",
     "authority": {
       "name": "ODPC",
       "url": "https://www.odpc.go.ke"
     },
     "sourceUrls": [
-      "http://kenyalaw.org",
+      "https://kenyalaw.org",
       "https://www.odpc.go.ke"
     ],
     "draft": true
@@ -33,7 +33,7 @@
           "sourceLinks": [
             {
               "label": "Data Protection Act 2019: kenyalaw.org",
-              "url": "http://kenyalaw.org"
+              "url": "https://kenyalaw.org"
             },
             {
               "label": "ODPC: odpc.go.ke",
@@ -71,7 +71,7 @@
           "sourceLinks": [
             {
               "label": "DPA Section 30: kenyalaw.org",
-              "url": "http://kenyalaw.org"
+              "url": "https://kenyalaw.org"
             }
           ],
           "tooltipTerms": ["legal-basis", "consent-withdrawal", "legitimate-interests", "sensitive-data"],
@@ -99,7 +99,7 @@
           "sourceLinks": [
             {
               "label": "DPA Section 26: kenyalaw.org",
-              "url": "http://kenyalaw.org"
+              "url": "https://kenyalaw.org"
             },
             {
               "label": "ODPC Guidance",
@@ -131,7 +131,7 @@
           "sourceLinks": [
             {
               "label": "DPA Section 43: kenyalaw.org",
-              "url": "http://kenyalaw.org"
+              "url": "https://kenyalaw.org"
             },
             {
               "label": "ODPC Breach Reporting",
@@ -163,7 +163,7 @@
           "sourceLinks": [
             {
               "label": "DPA Sections 48-49: kenyalaw.org",
-              "url": "http://kenyalaw.org"
+              "url": "https://kenyalaw.org"
             }
           ],
           "tooltipTerms": ["sccs", "data-localization", "consent-withdrawal"],

@@ -9,6 +9,12 @@ import {
 
 const GEO_URL = '/maps/world-110m.json'
 
+// Map canvas size. translateExtent below is bound to this box so panning can
+// never move the map out of view: at full zoom-out it stays fixed, and panning
+// room only opens up once the user has zoomed in.
+const MAP_WIDTH = 800
+const MAP_HEIGHT = 400
+
 // Status -> fill. Enacted = Meridian Blue (strong), Developing = Horizon (distinct), none = Rule (neutral).
 const FILL = {
   enacted: '#0F3460',
@@ -50,11 +56,20 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
       <div className="overflow-hidden rounded-lg border border-rule bg-paper">
         <ComposableMap
           projection="geoMercator"
-          width={800}
-          height={400}
+          width={MAP_WIDTH}
+          height={MAP_HEIGHT}
           style={{ width: '100%', height: 'auto' }}
         >
-          <ZoomableGroup center={[0, 20]} zoom={1} maxZoom={8} minZoom={1}>
+          <ZoomableGroup
+            center={[0, 20]}
+            zoom={1}
+            maxZoom={8}
+            minZoom={1}
+            translateExtent={[
+              [0, 0],
+              [MAP_WIDTH, MAP_HEIGHT],
+            ]}
+          >
             <Geographies geography={GEO_URL}>
               {({ geographies }) =>
                 geographies.map((geo) => {

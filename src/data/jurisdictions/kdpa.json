@@ -32,7 +32,7 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Data Protection Act 2019: kenyalaw.org",
+              "label": "Data Protection Act, 2019: kenyalaw.org",
               "url": "https://kenyalaw.org"
             },
             {
@@ -40,7 +40,11 @@
               "url": "https://www.odpc.go.ke"
             }
           ],
-          "tooltipTerms": ["controller-processor", "supervisory-authority-dpa", "pia-dpia"],
+          "tooltipTerms": [
+            "controller-processor",
+            "supervisory-authority-dpa",
+            "pia-dpia"
+          ],
           "assessTrigger": "Do you process personal data of people in Kenya, and if so, do the registration thresholds capture your organization?",
           "gapRemediation": {
             "smb": "Check the registration thresholds and listed sectors first. Registration is the compliance step small organizations most often miss.",
@@ -50,7 +54,9 @@
           "comparisonFlags": [
             {
               "type": "additional-requirement",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "Kenya requires registration of controllers and processors above thresholds, an obligation GDPR abandoned."
             }
           ]
@@ -70,11 +76,16 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "DPA Section 30: kenyalaw.org",
+              "label": "Data Protection Act, 2019: kenyalaw.org",
               "url": "https://kenyalaw.org"
             }
           ],
-          "tooltipTerms": ["legal-basis", "consent-withdrawal", "legitimate-interests", "sensitive-data"],
+          "tooltipTerms": [
+            "legal-basis",
+            "consent-withdrawal",
+            "legitimate-interests",
+            "sensitive-data"
+          ],
           "assessTrigger": "Is each Kenyan processing activity mapped to a Section 30 basis, with provable consent records where consent is relied on?",
           "gapRemediation": {
             "smb": "Map activities to the bases and keep consent evidence, since the burden of proof sits with you.",
@@ -98,7 +109,7 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "DPA Section 26: kenyalaw.org",
+              "label": "Data Protection Act, 2019: kenyalaw.org",
               "url": "https://kenyalaw.org"
             },
             {
@@ -106,7 +117,10 @@
               "url": "https://www.odpc.go.ke"
             }
           ],
-          "tooltipTerms": ["data-subject", "right-to-be-forgotten"],
+          "tooltipTerms": [
+            "data-subject",
+            "right-to-be-forgotten"
+          ],
           "assessTrigger": "Can you receive, verify, and answer Kenyan rights requests within the regulation timelines, with explanations for any denial?",
           "gapRemediation": {
             "smb": "Publish a request route and respond quickly. ODPC complaints are easy to file, so unanswered requests escalate fast.",
@@ -130,7 +144,7 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "DPA Section 43: kenyalaw.org",
+              "label": "Data Protection Act, 2019: kenyalaw.org",
               "url": "https://kenyalaw.org"
             },
             {
@@ -138,7 +152,10 @@
               "url": "https://www.odpc.go.ke"
             }
           ],
-          "tooltipTerms": ["breach-notification", "supervisory-authority-dpa"],
+          "tooltipTerms": [
+            "breach-notification",
+            "supervisory-authority-dpa"
+          ],
           "assessTrigger": "Does your incident plan include the Kenyan 72-hour route, the 48-hour processor duty, and written individual notices?",
           "gapRemediation": {
             "smb": "Add the ODPC to your breach contacts and note the written-notice requirement for individuals.",
@@ -162,11 +179,15 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "DPA Sections 48-49: kenyalaw.org",
+              "label": "Data Protection Act, 2019: kenyalaw.org",
               "url": "https://kenyalaw.org"
             }
           ],
-          "tooltipTerms": ["sccs", "data-localization", "consent-withdrawal"],
+          "tooltipTerms": [
+            "sccs",
+            "data-localization",
+            "consent-withdrawal"
+          ],
           "assessTrigger": "Can you evidence safeguards for each transfer out of Kenya, and have you checked whether any of your data falls in prescribed localization categories?",
           "gapRemediation": {
             "smb": "Keep proof of safeguards, such as contract clauses, on file per foreign destination.",
@@ -176,7 +197,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "Kenya empowers government-prescribed data localization on strategic-interest grounds."
             }
           ]

@@ -31,11 +31,14 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "DPDP Act and Rules: meity.gov.in",
+              "label": "Digital Personal Data Protection Act, 2023: meity.gov.in",
               "url": "https://www.meity.gov.in"
             }
           ],
-          "tooltipTerms": ["controller-processor", "data-subject"],
+          "tooltipTerms": [
+            "controller-processor",
+            "data-subject"
+          ],
           "assessTrigger": "Do you offer goods or services to people in India, and have you tracked which DPDP Rules obligations are in force for your phase, including possible significant data fiduciary designation?",
           "gapRemediation": {
             "smb": "Confirm scope and the phase-in dates that apply to you. Consent notices and grievance channels are the first practical builds.",
@@ -45,7 +48,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "The DPDP Act has no sensitive-data category. One uniform standard applies to all digital personal data."
             }
           ]
@@ -65,11 +70,15 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "DPDP Act Sections 4-7: meity.gov.in",
+              "label": "Digital Personal Data Protection Act, 2023: meity.gov.in",
               "url": "https://www.meity.gov.in"
             }
           ],
-          "tooltipTerms": ["legal-basis", "consent-withdrawal", "legitimate-interests"],
+          "tooltipTerms": [
+            "legal-basis",
+            "consent-withdrawal",
+            "legitimate-interests"
+          ],
           "assessTrigger": "Does each Indian processing activity rest on itemized consent or a listed legitimate use, given the absence of contract and legitimate-interests bases?",
           "gapRemediation": {
             "smb": "Build itemized consent notices with easy withdrawal. Do not assume contract necessity covers processing as it would under GDPR.",
@@ -79,7 +88,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "DPDP recognizes only consent and listed legitimate uses. There is no contract or legitimate-interests basis, and children are defined as under eighteen."
             }
           ]
@@ -99,11 +110,14 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "DPDP Act Sections 11-14: meity.gov.in",
+              "label": "Digital Personal Data Protection Act, 2023: meity.gov.in",
               "url": "https://www.meity.gov.in"
             }
           ],
-          "tooltipTerms": ["data-subject", "right-to-be-forgotten"],
+          "tooltipTerms": [
+            "data-subject",
+            "right-to-be-forgotten"
+          ],
           "assessTrigger": "Can you produce data summaries with sharing identities, honor erasure, and run the grievance channel within the Rules' timelines?",
           "gapRemediation": {
             "smb": "Stand up a working grievance email or portal with tracked response times. It is the gateway right under DPDP.",
@@ -113,7 +127,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "DPDP includes a nomination right for death or incapacity and imposes statutory duties on data principals."
             }
           ]
@@ -133,11 +149,13 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "DPDP Act Section 8 and Rules: meity.gov.in",
+              "label": "Digital Personal Data Protection Act, 2023: meity.gov.in",
               "url": "https://www.meity.gov.in"
             }
           ],
-          "tooltipTerms": ["breach-notification"],
+          "tooltipTerms": [
+            "breach-notification"
+          ],
           "assessTrigger": "Is your incident process ready to notify every affected Indian data principal and the Board for any breach, with no risk-threshold triage?",
           "gapRemediation": {
             "smb": "Plan for individual notification at any breach size, since India provides no minimal-risk exemption to lean on.",
@@ -147,7 +165,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "DPDP requires notifying every breach to the Board and all affected individuals, with no risk threshold. GDPR filters by risk."
             }
           ]
@@ -167,11 +187,14 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "DPDP Act Section 16: meity.gov.in",
+              "label": "Digital Personal Data Protection Act, 2023: meity.gov.in",
               "url": "https://www.meity.gov.in"
             }
           ],
-          "tooltipTerms": ["data-localization", "sccs"],
+          "tooltipTerms": [
+            "data-localization",
+            "sccs"
+          ],
           "assessTrigger": "Are you monitoring the restricted-country notifications and sectoral localization rules that apply to your Indian data flows?",
           "gapRemediation": {
             "smb": "Note that no transfer paperwork is generally required, but check sector rules if you touch payments or financial data.",
@@ -181,7 +204,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "DPDP uses a government blacklist for transfers rather than adequacy findings or standard clauses."
             }
           ]

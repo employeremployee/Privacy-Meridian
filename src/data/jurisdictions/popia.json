@@ -32,7 +32,7 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "POPIA: inforegulator.org.za",
+              "label": "Protection of Personal Information Act: inforegulator.org.za",
               "url": "https://inforegulator.org.za"
             },
             {
@@ -40,7 +40,11 @@
               "url": "https://www.gov.za"
             }
           ],
-          "tooltipTerms": ["personal-data", "supervisory-authority-dpa", "dpo-encarregado"],
+          "tooltipTerms": [
+            "personal-data",
+            "supervisory-authority-dpa",
+            "dpo-encarregado"
+          ],
           "assessTrigger": "Have you registered an information officer with the Regulator, checked whether any processing needs prior authorization, and accounted for juristic-person data in scope?",
           "gapRemediation": {
             "smb": "Register your information officer, usually the head of the business by default, and work through the eight conditions as a checklist.",
@@ -50,7 +54,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "POPIA protects juristic persons such as companies, not only natural persons."
             }
           ]
@@ -70,11 +76,16 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "POPIA Section 11: inforegulator.org.za",
+              "label": "Protection of Personal Information Act: inforegulator.org.za",
               "url": "https://inforegulator.org.za"
             }
           ],
-          "tooltipTerms": ["legal-basis", "consent-withdrawal", "legitimate-interests", "sensitive-data"],
+          "tooltipTerms": [
+            "legal-basis",
+            "consent-withdrawal",
+            "legitimate-interests",
+            "sensitive-data"
+          ],
           "assessTrigger": "Is each processing activity mapped to a Section 11 ground, with special-information authorizations and objection handling documented?",
           "gapRemediation": {
             "smb": "Map activities to the six grounds, mirroring GDPR work you may have done, and check special-information rules.",
@@ -98,11 +109,13 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "POPIA Section 23: inforegulator.org.za",
+              "label": "Protection of Personal Information Act: inforegulator.org.za",
               "url": "https://inforegulator.org.za"
             }
           ],
-          "tooltipTerms": ["data-subject"],
+          "tooltipTerms": [
+            "data-subject"
+          ],
           "assessTrigger": "Can you confirm holdings free of charge and produce records within the PAIA-aligned timeframe, using the prescribed request forms?",
           "gapRemediation": {
             "smb": "Publish a simple access route and use the standard forms. Free confirmation is the piece most often missed.",
@@ -121,11 +134,14 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "POPIA Section 24: inforegulator.org.za",
+              "label": "Protection of Personal Information Act: inforegulator.org.za",
               "url": "https://inforegulator.org.za"
             }
           ],
-          "tooltipTerms": ["right-to-be-forgotten", "retention-period"],
+          "tooltipTerms": [
+            "right-to-be-forgotten",
+            "retention-period"
+          ],
           "assessTrigger": "Can you correct or destroy records on the Section 24 grounds, annotate unresolved disputes, and notify past recipients?",
           "gapRemediation": {
             "smb": "Act on correction requests promptly and keep a note where you decline with your supporting evidence.",
@@ -149,11 +165,14 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "POPIA Section 22: inforegulator.org.za",
+              "label": "Protection of Personal Information Act: inforegulator.org.za",
               "url": "https://inforegulator.org.za"
             }
           ],
-          "tooltipTerms": ["breach-notification", "supervisory-authority-dpa"],
+          "tooltipTerms": [
+            "breach-notification",
+            "supervisory-authority-dpa"
+          ],
           "assessTrigger": "Does your incident plan cover the Section 22 dual notification with the prescribed content, including identity of the intruder where known?",
           "gapRemediation": {
             "smb": "Add the Regulator's portal to your breach checklist and use the Section 22 content items as your notice template.",
@@ -177,11 +196,14 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "POPIA Section 72: inforegulator.org.za",
+              "label": "Protection of Personal Information Act: inforegulator.org.za",
               "url": "https://inforegulator.org.za"
             }
           ],
-          "tooltipTerms": ["sccs", "consent-withdrawal"],
+          "tooltipTerms": [
+            "sccs",
+            "consent-withdrawal"
+          ],
           "assessTrigger": "Does each cross-border flow rest on a documented Section 72 condition, with recipient agreements meeting the substantially-similar test including onward transfers?",
           "gapRemediation": {
             "smb": "Add POPIA-aligned protection clauses to foreign vendor contracts or rely on consent captured at collection.",

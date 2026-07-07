@@ -32,7 +32,7 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPA: law.go.kr",
+              "label": "Personal Information Protection Act: law.go.kr",
               "url": "https://www.law.go.kr"
             },
             {
@@ -40,7 +40,10 @@
               "url": "https://www.pipc.go.kr"
             }
           ],
-          "tooltipTerms": ["controller-processor", "supervisory-authority-dpa"],
+          "tooltipTerms": [
+            "controller-processor",
+            "supervisory-authority-dpa"
+          ],
           "assessTrigger": "Do you offer goods or services into Korea, and have you designated a chief privacy officer and assessed PIPA's consent granularity against your collection flows?",
           "gapRemediation": {
             "smb": "Confirm scope first. If covered, the separate-consent requirements and CPO designation are the immediate gaps.",
@@ -64,7 +67,7 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPA Article 15: law.go.kr",
+              "label": "Personal Information Protection Act: law.go.kr",
               "url": "https://www.law.go.kr"
             },
             {
@@ -72,7 +75,12 @@
               "url": "https://www.pipc.go.kr"
             }
           ],
-          "tooltipTerms": ["legal-basis", "consent-withdrawal", "sensitive-data", "legitimate-interests"],
+          "tooltipTerms": [
+            "legal-basis",
+            "consent-withdrawal",
+            "sensitive-data",
+            "legitimate-interests"
+          ],
           "assessTrigger": "Are your Korean consent flows itemized by purpose with the required disclosures, and separate consents for sensitive data and unique identifiers?",
           "gapRemediation": {
             "smb": "Use purpose-itemized consent screens for Korean users. A single bundled consent will not satisfy PIPA.",
@@ -82,7 +90,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "PIPA requires separate itemized consent per purpose, with distinct consents for sensitive data and unique identifiers."
             }
           ]
@@ -102,11 +112,14 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPA Article 35: law.go.kr",
+              "label": "Personal Information Protection Act: law.go.kr",
               "url": "https://www.law.go.kr"
             }
           ],
-          "tooltipTerms": ["data-subject", "retention-period"],
+          "tooltipTerms": [
+            "data-subject",
+            "retention-period"
+          ],
           "assessTrigger": "Can you fulfill Korean access requests within 10 days, including third-party provision details your systems may not surface easily?",
           "gapRemediation": {
             "smb": "Track the 10-day deadline explicitly. Korean requests cannot sit in a monthly queue.",
@@ -116,7 +129,9 @@
           "comparisonFlags": [
             {
               "type": "additional-requirement",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "PIPA requires access responses within 10 days. GDPR allows one month."
             }
           ]
@@ -131,11 +146,14 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPA Articles 36-37: law.go.kr",
+              "label": "Personal Information Protection Act: law.go.kr",
               "url": "https://www.law.go.kr"
             }
           ],
-          "tooltipTerms": ["right-to-be-forgotten", "retention-period"],
+          "tooltipTerms": [
+            "right-to-be-forgotten",
+            "retention-period"
+          ],
           "assessTrigger": "Can you correct, delete, or suspend processing within 10 days, and does your retention schedule trigger proactive destruction when purposes expire?",
           "gapRemediation": {
             "smb": "Honor the 10-day window and destroy data when its purpose ends rather than keeping it by default.",
@@ -159,7 +177,7 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPA Article 34: law.go.kr",
+              "label": "Personal Information Protection Act: law.go.kr",
               "url": "https://www.law.go.kr"
             },
             {
@@ -167,7 +185,10 @@
               "url": "https://www.pipc.go.kr"
             }
           ],
-          "tooltipTerms": ["breach-notification", "supervisory-authority-dpa"],
+          "tooltipTerms": [
+            "breach-notification",
+            "supervisory-authority-dpa"
+          ],
           "assessTrigger": "Does your incident plan encode the Korean 72-hour report thresholds and the individual-notification content items PIPA prescribes?",
           "gapRemediation": {
             "smb": "Keep the PIPC reporting route and threshold list in your breach checklist.",
@@ -191,7 +212,7 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "PIPA Article 28-8: law.go.kr",
+              "label": "Personal Information Protection Act: law.go.kr",
               "url": "https://www.law.go.kr"
             },
             {
@@ -199,7 +220,11 @@
               "url": "https://www.pipc.go.kr"
             }
           ],
-          "tooltipTerms": ["sccs", "consent-withdrawal", "data-localization"],
+          "tooltipTerms": [
+            "sccs",
+            "consent-withdrawal",
+            "data-localization"
+          ],
           "assessTrigger": "Does each transfer of Korean data out of the country rest on a documented Article 28-8 route, and could you withstand a PIPC suspension review?",
           "gapRemediation": {
             "smb": "Map where Korean user data flows and attach a lawful route to each destination, with consent disclosures where used.",
@@ -209,7 +234,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "Korea's transfer regime centers on separate consent with newer certification and equivalence routes, and the PIPC can order transfer suspension."
             }
           ]

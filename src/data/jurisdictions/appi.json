@@ -27,6 +27,7 @@
           "articleRef": "Overview",
           "surfaceLabel": "Does Japan's Privacy Law Apply to Your Organization?",
           "plainSummary": "Japan's APPI applies to businesses that handle personal information, including foreign businesses handling information about people in Japan. Japan and the EU recognize each other's protections as adequate.",
+          "personalImpact": "Japan handles data carefully, yet large leaks like the Benesse case have exposed millions of records. Your My Number and account details move through many hands. The APPI covers businesses handling data about people in Japan, including from overseas. It sets duties that match how much your data now travels.",
           "professionalLayer": "The APPI governs personal information handling business operators, applying extraterritorially to foreign operators handling personal information of individuals in Japan in connection with supplying goods or services to them. The Personal Information Protection Commission supervises the regime and can require reports, inspect, and order corrective action, with the 2020 amendments strengthening penalties and making breach reporting mandatory. Japan and the EU adopted mutual adequacy in 2019, the first such arrangement, supplemented on the Japanese side by PPC rules that apply stricter handling to EU-origin data. APPI is built on purpose specification rather than a legal-basis menu, which shapes most of its obligations.",
           "responseTimeline": null,
           "crossReferences": [],
@@ -40,7 +41,10 @@
               "url": "https://www.ppc.go.jp"
             }
           ],
-          "tooltipTerms": ["personal-data", "supervisory-authority-dpa"],
+          "tooltipTerms": [
+            "personal-data",
+            "supervisory-authority-dpa"
+          ],
           "assessTrigger": "Do you supply goods or services to people in Japan, and if you receive EU-origin data under adequacy, do you apply the PPC's supplementary rules to it?",
           "gapRemediation": {
             "smb": "Confirm scope, then focus on purpose specification and third-party provision consent, the two duties most often missed.",
@@ -59,6 +63,7 @@
           "articleRef": "Articles 17-18",
           "surfaceLabel": "Why Organizations Are Allowed to Use Your Data in Japan",
           "plainSummary": "Japan's model differs from Europe's. Organizations must state the purpose for which they use personal information and stay within it. Consent is required mainly for sensitive data and for giving your data to third parties.",
+          "personalImpact": "A business should not quietly repurpose the data you gave it for one thing. The APPI requires it to state a purpose and stay within it. Using your data for something new needs a fresh basis. Silent repurposing is not allowed.",
           "professionalLayer": "APPI does not enumerate legal bases. Operators must specify the utilization purpose as explicitly as possible, use personal information only within the scope necessary to achieve it, and obtain prior consent to exceed that scope. Acquisition must not be deceptive or wrongful, and acquiring special care-required personal information, covering race, creed, social status, medical history, criminal history, and crime-victim status, requires prior consent subject to exceptions. Third-party provision generally requires consent, with an opt-out route available for non-sensitive data upon filing with the PPC. The purpose-specification architecture makes accurate, current purpose statements the backbone of Japanese compliance.",
           "responseTimeline": null,
           "crossReferences": [],
@@ -68,7 +73,12 @@
               "url": "https://www.ppc.go.jp/en/"
             }
           ],
-          "tooltipTerms": ["purpose-limitation", "sensitive-data", "consent-withdrawal", "opt-in-opt-out"],
+          "tooltipTerms": [
+            "purpose-limitation",
+            "sensitive-data",
+            "consent-withdrawal",
+            "opt-in-opt-out"
+          ],
           "assessTrigger": "Are your utilization purposes specified explicitly and kept current, and is consent captured before exceeding them or providing data to third parties?",
           "gapRemediation": {
             "smb": "Write a clear utilization purpose statement and check new uses against it before proceeding.",
@@ -78,7 +88,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "APPI uses purpose specification and scope limits rather than enumerated legal bases, with an opt-out route for third-party provision."
             }
           ]
@@ -93,6 +105,7 @@
           "articleRef": "Article 33",
           "surfaceLabel": "Your Right to See Your Data in Japan",
           "plainSummary": "You can demand that a business disclose the personal data it retains about you, including records of who it has shared your data with. The business must respond without delay.",
+          "personalImpact": "Your details sit in retailer, telecom, and service databases across Japan. What each holds is seldom visible to you. This right lets you request disclosure of the data a business keeps. A hidden record becomes something you can review.",
           "professionalLayer": "Article 33 grants individuals the right to demand disclosure of retained personal data, and since the 2020 amendments the individual may choose digital delivery. Disclosure extends to third-party provision records, letting individuals trace where their data went. The statute requires disclosure without delay rather than within a fixed day count, with narrow refusal grounds including harm to life or property, serious hindrance to business, or legal violation, and refusals must be notified. Related rights cover correction, addition, deletion, and cessation of use where handling violates the Act.",
           "responseTimeline": "Without delay. No fixed statutory day count.",
           "crossReferences": [],
@@ -102,7 +115,9 @@
               "url": "https://www.ppc.go.jp/en/"
             }
           ],
-          "tooltipTerms": ["data-subject"],
+          "tooltipTerms": [
+            "data-subject"
+          ],
           "assessTrigger": "Can you disclose retained personal data and third-party provision records without delay, in digital form when requested?",
           "gapRemediation": {
             "smb": "Keep provision records per person so disclosure requests can include them.",
@@ -116,6 +131,7 @@
           "articleRef": "Articles 34-35",
           "surfaceLabel": "Your Rights to Correct or Stop Use of Your Data in Japan",
           "plainSummary": "You can demand correction of wrong data and demand that a business stop using or delete your data in defined cases, such as misuse or when it no longer needs the data.",
+          "personalImpact": "A wrong record can distort the offers and decisions you receive. Once collected, data can be used in ways you never intended. The APPI lets you correct your data or ask a business to stop using it. You regain a measure of control over it.",
           "professionalLayer": "Article 34 provides correction, addition, or deletion of retained personal data where contents are inaccurate, following necessary investigation. Article 35 provides cessation of use or deletion where data was handled in violation of the Act, and the 2020 amendments broadened this to cases where the operator no longer needs the data, where a reportable breach occurred, or where handling risks harming the individual's rights or legitimate interests. Operators may adopt alternative measures protecting the individual's interests where full cessation is impractical. Results must be notified without delay.",
           "responseTimeline": "Without delay following investigation. No fixed statutory day count.",
           "crossReferences": [],
@@ -125,7 +141,9 @@
               "url": "https://www.ppc.go.jp/en/"
             }
           ],
-          "tooltipTerms": ["right-to-be-forgotten"],
+          "tooltipTerms": [
+            "right-to-be-forgotten"
+          ],
           "assessTrigger": "Can you investigate and act on correction and cessation demands promptly, including the broadened 2020 grounds like no-longer-needed data?",
           "gapRemediation": {
             "smb": "Treat cessation demands seriously even without EU-style erasure framing. The broadened grounds capture routine cases.",
@@ -144,6 +162,7 @@
           "articleRef": "Article 26",
           "surfaceLabel": "What Happens When Your Data Is Compromised in Japan",
           "plainSummary": "Since 2022, businesses must report serious data breaches to Japan's regulator and notify affected people. An initial report is due promptly, with a full report within about 30 days.",
+          "personalImpact": "A breach can expose your My Number and financial details to misuse. A company that stays silent only widens the harm. The APPI requires prompt reporting to the authorities and notice to you. You learn of the risk in time to respond.",
           "professionalLayer": "The 2020 amendments made breach reporting mandatory for defined categories: leaks involving sensitive data, risk of financial damage, intentional or wrongful acts, or more than 1,000 affected individuals. PPC rules require a prompt preliminary report, in practice within about three to five days of awareness, and a final report within 30 days, extended to 60 days for intentional or wrongful-act cases. Affected individuals must be notified promptly, or where individual notice is difficult, substitute public measures taken. Reports go through the PPC's online system.",
           "responseTimeline": "PPC: prompt preliminary report, final report within 30 days, 60 for wrongful-act cases. Individuals: promptly.",
           "crossReferences": [],
@@ -157,7 +176,10 @@
               "url": "https://www.ppc.go.jp"
             }
           ],
-          "tooltipTerms": ["breach-notification", "sensitive-data"],
+          "tooltipTerms": [
+            "breach-notification",
+            "sensitive-data"
+          ],
           "assessTrigger": "Does your incident plan encode Japan's two-stage reporting, preliminary then final within 30 days, and the four reportable categories?",
           "gapRemediation": {
             "smb": "Keep the four reportable categories in your checklist so the preliminary report is not missed while investigating.",
@@ -167,7 +189,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "Japan uses two-stage reporting for defined breach categories rather than a universal 72-hour clock."
             }
           ]
@@ -182,6 +206,7 @@
           "articleRef": "Article 28",
           "surfaceLabel": "Moving Personal Data Out of Japan",
           "plainSummary": "Giving personal data to someone outside Japan generally requires your consent after being told about the destination country, unless the recipient is in a country Japan lists as equivalent or has strong safeguards.",
+          "personalImpact": "Recent cases showed Japanese users' data being accessed from abroad. Once overseas, it may follow weaker rules. The APPI requires consent or equivalent safeguards before a transfer. Your protections travel with your data.",
           "professionalLayer": "Article 28 requires prior consent to provide personal data to a third party in a foreign country, with the 2020 amendments requiring that the individual first receive information about the destination country's data protection system and the recipient's measures. Consent is unnecessary where the recipient is in a country designated by PPC rules as maintaining equivalent standards, currently the EEA states and the UK, or where the recipient maintains equivalent safeguards through contract or intra-group rules, in which case ongoing oversight and information duties apply. The informed-consent disclosure requirement makes destination-country transparency an operational task, not a formality.",
           "responseTimeline": null,
           "crossReferences": [],
@@ -195,7 +220,10 @@
               "url": "https://www.ppc.go.jp"
             }
           ],
-          "tooltipTerms": ["sccs", "consent-withdrawal"],
+          "tooltipTerms": [
+            "sccs",
+            "consent-withdrawal"
+          ],
           "assessTrigger": "Do your transfers from Japan rest on the whitelist, equivalent safeguards with oversight, or informed consent naming the destination country?",
           "gapRemediation": {
             "smb": "List destination countries in your consent language, or keep flows within whitelist countries and safeguarded vendors.",

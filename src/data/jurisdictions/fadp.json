@@ -27,6 +27,7 @@
           "articleRef": "Overview",
           "surfaceLabel": "Does Switzerland's Privacy Law Apply to Your Organization?",
           "plainSummary": "Switzerland's revised privacy law took effect in September 2023. It applies to processing that has an effect in Switzerland, even when the organization is based abroad, and it covers private companies and federal bodies.",
+          "personalImpact": "Switzerland has long treated privacy as part of personal dignity, not just paperwork. Yet your data still flows to banks, insurers, and online services daily. The revised FADP covers any organization whose handling of data affects people in Switzerland. It sets modern rules built on that strong privacy tradition.",
           "professionalLayer": "The revised FADP modernized Swiss data protection to maintain alignment with European standards while keeping a distinctly Swiss structure. It applies to circumstances that have an effect in Switzerland, even if initiated abroad, giving it extraterritorial reach. Foreign controllers meeting certain thresholds must designate a Swiss representative. Unlike GDPR, the FADP protects only natural persons, applies without a general prohibition model, and enforces primarily through criminal fines on responsible individuals rather than administrative fines on companies. The Federal Data Protection and Information Commissioner supervises compliance and can investigate and issue binding orders.",
           "responseTimeline": null,
           "crossReferences": [],
@@ -40,7 +41,10 @@
               "url": "https://www.edoeb.admin.ch"
             }
           ],
-          "tooltipTerms": ["controller-processor", "supervisory-authority-dpa"],
+          "tooltipTerms": [
+            "controller-processor",
+            "supervisory-authority-dpa"
+          ],
           "assessTrigger": "Does your processing have effects in Switzerland, and if so, have you assessed FADP obligations separately from GDPR rather than assuming equivalence?",
           "gapRemediation": {
             "smb": "GDPR compliance covers much of the FADP, but confirm Swiss specifics: the representative requirement, Swiss breach duties, and criminal liability of individuals.",
@@ -50,7 +54,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "FADP fines are criminal penalties on responsible individuals, up to CHF 250,000, rather than administrative fines on companies."
             }
           ]
@@ -65,6 +71,7 @@
           "articleRef": "Articles 30-31",
           "surfaceLabel": "When Swiss Law Allows Your Data to Be Used",
           "plainSummary": "Swiss law works differently from GDPR. Private organizations may generally process personal data without a specific legal basis, as long as they follow the processing principles and do not unlawfully harm the person's privacy.",
+          "personalImpact": "A company cannot treat your data as freely usable simply because it holds it. Under Swiss law, processing must respect your personality and stay within a justifiable purpose. Consent, a contract, or an overriding interest can justify it. Handling that oversteps those limits is unlawful.",
           "professionalLayer": "The FADP does not adopt GDPR's prohibition-with-legal-bases model. Private-sector processing is permitted by default if it complies with the processing principles: lawfulness, good faith, proportionality, purpose limitation, accuracy, and security. Processing that breaches the principles or is done against the data subject's express wish constitutes a personality violation requiring justification by consent, an overriding private or public interest, or law. Consent must be informed and voluntary, and must be explicit for sensitive data or high-risk profiling. Federal bodies, by contrast, need a statutory basis. This inversion of the GDPR model is the FADP's most distinctive feature.",
           "responseTimeline": null,
           "crossReferences": [],
@@ -74,7 +81,12 @@
               "url": "https://www.fedlex.admin.ch/eli/cc/2022/491/en"
             }
           ],
-          "tooltipTerms": ["legal-basis", "consent-withdrawal", "profiling", "purpose-limitation"],
+          "tooltipTerms": [
+            "legal-basis",
+            "consent-withdrawal",
+            "profiling",
+            "purpose-limitation"
+          ],
           "assessTrigger": "Do you understand which of your Swiss processing activities need justification, such as sensitive data or high-risk profiling, versus those permitted under the general principles?",
           "gapRemediation": {
             "smb": "Follow the processing principles and obtain explicit consent for sensitive data. You do not need to map every activity to a legal basis as under GDPR.",
@@ -84,7 +96,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "FADP permits private processing by default under principles. GDPR prohibits processing unless a legal basis applies."
             }
           ]
@@ -99,6 +113,7 @@
           "articleRef": "Article 25",
           "surfaceLabel": "Your Right to See Your Data in Switzerland",
           "plainSummary": "You can ask any organization whether it processes personal data about you and receive a copy, generally free of charge. The organization normally has 30 days to respond.",
+          "personalImpact": "Insurers and creditworthiness agencies quietly build a picture that shapes your rates and approvals. Much of it stays out of your sight. This right lets you request everything an organization holds about you. What was hidden becomes something you can review.",
           "professionalLayer": "Article 25 grants data subjects the right to obtain the information needed to assert their rights and to confirm transparent processing. The mandatory minimum includes the controller's identity, the data processed, purposes, retention, origin, recipients, and, where applicable, the existence of automated individual decisions and their logic. Information must generally be provided within 30 days, free of charge, subject to narrow exceptions. Refusal, restriction, or delay is permitted only on legal grounds such as overriding third-party interests, and misuse of the right, such as access requests for non-privacy litigation purposes, has been curtailed by Swiss courts.",
           "responseTimeline": "30 days from receipt as the standard deadline.",
           "crossReferences": [],
@@ -112,7 +127,10 @@
               "url": "https://www.edoeb.admin.ch"
             }
           ],
-          "tooltipTerms": ["data-subject", "retention-period"],
+          "tooltipTerms": [
+            "data-subject",
+            "retention-period"
+          ],
           "assessTrigger": "Can you fulfill Swiss access requests within 30 days, including the FADP's mandatory minimum information set?",
           "gapRemediation": {
             "smb": "A response template covering the Article 25 minimum items is sufficient. Track the 30-day deadline.",
@@ -131,6 +149,7 @@
           "articleRef": "Article 24",
           "surfaceLabel": "What Happens When Your Data Is Compromised in Switzerland",
           "plainSummary": "Organizations must report data breaches that are likely to create high risk for affected people to the Swiss regulator as quickly as possible. There is no fixed 72-hour deadline like in the EU.",
+          "personalImpact": "A breach can expose your financial and health details, areas Switzerland guards closely. Silence from a company only deepens the harm. Swiss law requires prompt notice to the FDPIC when the risk to you is high. You learn of the danger in time to respond.",
           "professionalLayer": "Article 24 requires controllers to notify the FDPIC as soon as possible of breaches likely to lead to a high risk to the data subject's personality or fundamental rights. This is a higher notification threshold and a softer deadline than GDPR's 72-hour rule for any risk-bearing breach. Data subjects must be informed where necessary for their protection or where the FDPIC requests it. Processors must report breaches to controllers as soon as possible. Notifications to the FDPIC are made through its online portal, and the notification itself cannot be used against the notifier in criminal proceedings without consent.",
           "responseTimeline": "FDPIC: as soon as possible where high risk exists. Individuals: where necessary for their protection.",
           "crossReferences": [],
@@ -144,7 +163,10 @@
               "url": "https://www.edoeb.admin.ch"
             }
           ],
-          "tooltipTerms": ["breach-notification", "supervisory-authority-dpa"],
+          "tooltipTerms": [
+            "breach-notification",
+            "supervisory-authority-dpa"
+          ],
           "assessTrigger": "Does your breach process apply the Swiss high-risk threshold and FDPIC portal route, distinct from your EU 72-hour workflow?",
           "gapRemediation": {
             "smb": "Add the FDPIC portal to your breach checklist and note the high-risk threshold.",
@@ -154,7 +176,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "FADP requires notification as soon as possible only for high-risk breaches. GDPR requires 72-hour notification for any risk-bearing breach."
             }
           ]
@@ -169,6 +193,7 @@
           "articleRef": "Articles 16-18",
           "surfaceLabel": "Moving Personal Data Out of Switzerland",
           "plainSummary": "Personal data may leave Switzerland freely only to countries the Swiss government lists as adequate. For other destinations, organizations need safeguards such as approved contract clauses.",
+          "personalImpact": "Your data often leaves Switzerland for servers elsewhere. Abroad, it may fall under weaker protection. Swiss law allows the transfer only where adequate safeguards remain in place. Your protections stay with your data across the border.",
           "professionalLayer": "Cross-border disclosure is permitted where the Federal Council has listed the destination state as providing adequate protection, a list published in an annex to the ordinance. Absent adequacy, transfers require safeguards including standard data protection clauses accepted by the FDPIC, where the EU SCCs adapted for Switzerland are common practice, binding corporate rules, or specific derogations such as explicit consent or contract performance. A Swiss-US Data Privacy Framework provides a certification route for US transfers. The overall architecture parallels GDPR Chapter V with Swiss-specific paperwork.",
           "responseTimeline": null,
           "crossReferences": [],
@@ -182,7 +207,10 @@
               "url": "https://www.edoeb.admin.ch"
             }
           ],
-          "tooltipTerms": ["sccs", "data-localization"],
+          "tooltipTerms": [
+            "sccs",
+            "data-localization"
+          ],
           "assessTrigger": "Do your transfers out of Switzerland rely on the Federal Council adequacy list or Swiss-adapted clauses, rather than EU paperwork alone?",
           "gapRemediation": {
             "smb": "Where you use EU SCCs, add the Swiss adaptation language most vendors provide.",

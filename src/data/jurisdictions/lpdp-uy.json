@@ -27,6 +27,7 @@
           "articleRef": "Overview",
           "surfaceLabel": "Does Uruguay's Privacy Law Apply to Your Organization?",
           "plainSummary": "Uruguay treats data protection as a fundamental human right. Its 2008 law applies to personal data recorded in any medium and has been extended to reach organizations abroad that process data about people in Uruguay.",
+          "personalImpact": "Uruguay built one of Latin America's strongest privacy regimes, recognized as adequate by the EU. Still, your data flows to banks, credit bureaus, and online services. This law covers organizations handling personal data in Uruguay. It gives people real control over that information.",
           "professionalLayer": "Law 18,331 declares data protection an inherent human right and applies broadly to personal data recorded in any medium, across the public and private sectors. Later reforms extended territorial scope to foreign processors targeting or processing data of persons in Uruguay, and added accountability duties including data protection officers for certain entities, impact assessments, and breach notification through implementing decrees. Uruguay holds an EU adequacy decision granted in 2012 and was the first non-European state to ratify Convention 108. The URCDP, the national regulatory and control unit, supervises and enforces the regime.",
           "responseTimeline": null,
           "crossReferences": [],
@@ -40,7 +41,11 @@
               "url": "https://www.gub.uy/unidad-reguladora-control-datos-personales"
             }
           ],
-          "tooltipTerms": ["personal-data", "supervisory-authority-dpa", "dpo-encarregado"],
+          "tooltipTerms": [
+            "personal-data",
+            "supervisory-authority-dpa",
+            "dpo-encarregado"
+          ],
           "assessTrigger": "Do you process personal data of people in Uruguay from abroad, and have you checked whether the extended scope rules and DPO designation duties reach your organization?",
           "gapRemediation": {
             "smb": "If Uruguayan customers are incidental, confirm scope first. If covered, the consent and short-deadline duties matter most.",
@@ -59,6 +64,7 @@
           "articleRef": "Article 9",
           "surfaceLabel": "Why Organizations Are Allowed to Use Your Data in Uruguay",
           "plainSummary": "Uruguayan law requires your prior, informed consent before your personal data is processed, with a list of exceptions such as public-source data and contractual necessity.",
+          "personalImpact": "A company cannot use your data simply because it collected it. Uruguayan law requires your prior, informed consent, or another lawful basis. That consent must be clear and freely given. Uses without a valid basis are not allowed.",
           "professionalLayer": "Article 9 requires prior informed consent, documented in a manner that can be evidenced, as the general condition of lawful processing. Exceptions include data from public sources, data collected for state functions, basic identifying data sets, processing arising from a contractual, scientific, or professional relationship, and other statutory grounds. Sensitive data demands express written consent and processing is limited to circumstances of general interest authorized by law or health purposes under professional secrecy. The design is consent-first in the Convention 108 tradition rather than a GDPR-style menu of bases.",
           "responseTimeline": null,
           "crossReferences": [],
@@ -68,7 +74,11 @@
               "url": "https://www.impo.com.uy/bases/leyes/18331-2008"
             }
           ],
-          "tooltipTerms": ["consent-withdrawal", "sensitive-data", "legal-basis"],
+          "tooltipTerms": [
+            "consent-withdrawal",
+            "sensitive-data",
+            "legal-basis"
+          ],
           "assessTrigger": "Does each Uruguayan processing activity rest on evidenced prior consent or a listed exception, with express written consent for sensitive data?",
           "gapRemediation": {
             "smb": "Capture consent at collection in a form you can later evidence. Verbal or implied consent will not carry weight.",
@@ -78,7 +88,9 @@
           "comparisonFlags": [
             {
               "type": "structural-difference",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "Uruguay is consent-first with listed exceptions. GDPR offers six co-equal legal bases including legitimate interests."
             }
           ]
@@ -93,6 +105,7 @@
           "articleRef": "Article 14",
           "surfaceLabel": "Your Right to See Your Data in Uruguay",
           "plainSummary": "You can ask any database holder whether it has information about you and receive a copy. The organization must respond within five business days.",
+          "personalImpact": "Credit reporting can shape whether you get a loan, a plan, or a lease. The data behind it often stays hidden. This right lets you ask what an organization holds about you and receive a copy. What was out of view becomes something you can check.",
           "professionalLayer": "Article 14 grants any person, upon proof of identity, the right to obtain from a database controller the information held about them, in clear plain language, within five business days of the request. The right is free at reasonable intervals, generally six months, unless a legitimate interest justifies earlier repetition. Failure to respond within the deadline, or an insufficient response, opens the habeas data action before the courts. The five-business-day deadline is among the shortest access windows in any comprehensive law.",
           "responseTimeline": "5 business days from the request.",
           "crossReferences": [],
@@ -102,7 +115,9 @@
               "url": "https://www.impo.com.uy/bases/leyes/18331-2008"
             }
           ],
-          "tooltipTerms": ["data-subject"],
+          "tooltipTerms": [
+            "data-subject"
+          ],
           "assessTrigger": "Can your organization answer Uruguayan access requests within five business days, far inside the monthly window global workflows assume?",
           "gapRemediation": {
             "smb": "Route Uruguayan requests for immediate handling. The five-day clock cannot wait in a queue.",
@@ -112,7 +127,9 @@
           "comparisonFlags": [
             {
               "type": "additional-requirement",
-              "jurisdictions": ["gdpr"],
+              "jurisdictions": [
+                "gdpr"
+              ],
               "note": "Uruguay requires access responses in 5 business days. GDPR allows one month."
             }
           ]
@@ -122,6 +139,7 @@
           "articleRef": "Article 15",
           "surfaceLabel": "Your Right to Correct or Delete Your Data in Uruguay",
           "plainSummary": "You can demand correction, updating, or deletion of your personal data. The organization must carry it out, or explain its refusal, within five business days.",
+          "personalImpact": "A mistaken entry in a credit or commercial database can quietly cost you. It may block financing you should qualify for. This law lets you correct or delete inaccurate data. Decisions about you then rest on accurate records.",
           "professionalLayer": "Article 15 obliges the controller to rectify, update, include, or suppress personal data upon request, performing the operation within five business days and informing the requester. Refusals must be founded and communicated within the same period. Where data has been transferred to third parties, the controller must notify them of the correction or suppression within the same timeframe so downstream records change too. The habeas data action backs the right where deadlines lapse or refusals lack basis.",
           "responseTimeline": "5 business days to perform the operation or communicate a founded refusal.",
           "crossReferences": [],
@@ -131,7 +149,9 @@
               "url": "https://www.impo.com.uy/bases/leyes/18331-2008"
             }
           ],
-          "tooltipTerms": ["right-to-be-forgotten"],
+          "tooltipTerms": [
+            "right-to-be-forgotten"
+          ],
           "assessTrigger": "Can you correct or delete Uruguayan records and notify downstream recipients within five business days?",
           "gapRemediation": {
             "smb": "Keep a simple recipient log per data set so the onward notification duty is achievable.",
@@ -150,6 +170,7 @@
           "articleRef": "Decree 64/020",
           "surfaceLabel": "What Happens When Your Data Is Compromised in Uruguay",
           "plainSummary": "Organizations must tell the Uruguayan regulator about data security breaches within 72 hours of learning of them, and inform affected people once the impact is known.",
+          "personalImpact": "A leak can expose your cedula number and financial details to fraud. A company that stays silent only widens the damage. Uruguayan rules require notice to the URCDP when your data is at risk. You learn in time to protect yourself.",
           "professionalLayer": "Uruguay added a mandatory breach regime through its accountability reforms and Decree 64/020. Upon becoming aware of a security incident affecting personal data, the controller must notify the URCDP within a maximum of 72 hours, adopt containment and mitigation measures, and inform affected data subjects in clear language once impacts are determined. After resolution, a report on the incident and measures taken is expected. The structure resembles GDPR's dual-notification model with the 72-hour clock applied to the regulator.",
           "responseTimeline": "URCDP: within 72 hours of awareness. Individuals: once impacts are determined.",
           "crossReferences": [],
@@ -159,7 +180,10 @@
               "url": "https://www.gub.uy/unidad-reguladora-control-datos-personales"
             }
           ],
-          "tooltipTerms": ["breach-notification", "supervisory-authority-dpa"],
+          "tooltipTerms": [
+            "breach-notification",
+            "supervisory-authority-dpa"
+          ],
           "assessTrigger": "Does your incident plan include the URCDP 72-hour route and a post-incident report step for Uruguayan data?",
           "gapRemediation": {
             "smb": "Add the URCDP contact route to your breach checklist alongside your other regulators.",
@@ -178,6 +202,7 @@
           "articleRef": "Article 23",
           "surfaceLabel": "Moving Personal Data Out of Uruguay",
           "plainSummary": "Transfers to countries without adequate protection are prohibited unless an exception applies, such as consent or contract clauses that guarantee protection.",
+          "personalImpact": "Your data may travel to servers in other countries. Protection abroad is not always as strong. This law permits the transfer only with adequate safeguards or your consent. Your rights follow the data across the border.",
           "professionalLayer": "Article 23 prohibits transfers to countries or international organizations that do not provide adequate levels of protection under international or regional law standards. Exceptions include international judicial cooperation, health emergencies, banking and stock transfers, treaty-based transfers, and the data subject's consent. The URCDP recognizes contractual clauses and has adopted standard clause models by resolution, and adequacy assessments broadly track the European map. Uruguay's own EU adequacy status keeps inbound EU flows unrestricted and anchors its adequacy-first architecture.",
           "responseTimeline": null,
           "crossReferences": [],
@@ -191,7 +216,9 @@
               "url": "https://www.gub.uy/unidad-reguladora-control-datos-personales"
             }
           ],
-          "tooltipTerms": ["sccs"],
+          "tooltipTerms": [
+            "sccs"
+          ],
           "assessTrigger": "Do your transfers out of Uruguay rest on adequacy, consent, or URCDP-recognized clauses, documented per flow?",
           "gapRemediation": {
             "smb": "Check vendor destinations against adequacy expectations and add URCDP-recognized clauses where needed.",

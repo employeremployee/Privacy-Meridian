@@ -46,9 +46,7 @@
             "personal-data",
             "data-subject",
             "controller-processor",
-            "processing",
-            "supervisory-authority-dpa",
-            "pia-dpia"
+            "processing"
           ],
           "assessTrigger": "Do you process personal data of people in Kenya, and if so, do the registration thresholds capture your organization?",
           "gapRemediation": {
@@ -90,12 +88,9 @@
             "legitimate-interests",
             "personal-data",
             "data-subject",
-            "service-provider-contractor-third-party",
             "processing",
             "controller-processor",
-            "consent-withdrawal",
-            "legal-basis",
-            "sensitive-data"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Is each Kenyan processing activity mapped to a Section 30 basis, with provable consent records where consent is relied on?",
           "gapRemediation": {
@@ -133,8 +128,7 @@
             "personal-data",
             "data-subject",
             "controller-processor",
-            "processing",
-            "right-to-be-forgotten"
+            "processing"
           ],
           "assessTrigger": "Can you receive, verify, and answer Kenyan rights requests within the regulation timelines, with explanations for any denial?",
           "gapRemediation": {
@@ -171,9 +165,7 @@
           "tooltipTerms": [
             "personal-data",
             "data-subject",
-            "controller-processor",
-            "breach-notification",
-            "supervisory-authority-dpa"
+            "controller-processor"
           ],
           "assessTrigger": "Does your incident plan include the Kenyan 72-hour route, the 48-hour processor duty, and written individual notices?",
           "gapRemediation": {
@@ -207,9 +199,7 @@
             "data-subject",
             "controller-processor",
             "processing",
-            "consent-withdrawal",
-            "sccs",
-            "data-localization"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Can you evidence safeguards for each transfer out of Kenya, and have you checked whether any of your data falls in prescribed localization categories?",
           "gapRemediation": {

@@ -41,10 +41,7 @@
               "url": "https://www.privacy.org.nz"
             }
           ],
-          "tooltipTerms": [
-            "personal-data",
-            "supervisory-authority-dpa"
-          ],
+          "tooltipTerms": [],
           "assessTrigger": "Do you carry on business in New Zealand, even without local presence, and does your program map to the thirteen privacy principles rather than assuming GDPR coverage suffices?",
           "gapRemediation": {
             "smb": "Work through the thirteen principles as a checklist. The OPC publishes plain-language guidance suited to small agencies.",
@@ -86,10 +83,7 @@
             }
           ],
           "tooltipTerms": [
-            "consent-withdrawal",
-            "purpose-limitation",
-            "data-minimization",
-            "legal-basis"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Is each collection tied to a lawful purpose you genuinely need, collected directly from the person with the IPP3 transparency statement?",
           "gapRemediation": {
@@ -124,8 +118,7 @@
             }
           ],
           "tooltipTerms": [
-            "personal-data",
-            "data-subject"
+            "personal-data"
           ],
           "assessTrigger": "Can you meet the 20-working-day access deadline, and are refusals tied to specific statutory withholding grounds that would survive an OPC access direction?",
           "gapRemediation": {
@@ -237,8 +230,7 @@
             }
           ],
           "tooltipTerms": [
-            "processing",
-            "sccs"
+            "processing"
           ],
           "assessTrigger": "Do foreign disclosures rest on comparable safeguards, OPC model clauses, or informed express authorization, with the agent exception applied correctly to cloud providers?",
           "gapRemediation": {

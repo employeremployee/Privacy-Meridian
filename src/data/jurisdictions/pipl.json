@@ -48,8 +48,7 @@
             "personal-data",
             "data-localization",
             "processing",
-            "consent-withdrawal",
-            "cac"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Does your organization provide products or services to individuals in China, or analyze the behavior of individuals in China, and if so, have you assessed your obligations under PIPL alongside China's Cybersecurity Law and Data Security Law?",
           "gapRemediation": {
@@ -96,8 +95,7 @@
             "personal-data",
             "legitimate-interests",
             "processing",
-            "consent-withdrawal",
-            "legal-basis"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Has your organization mapped a PIPL legal basis to each processing activity involving personal information of individuals in China, and where you rely on consent, is that consent separate by purpose, freely given, and fully informed?",
           "gapRemediation": {
@@ -167,7 +165,6 @@
           "tooltipTerms": [
             "personal-data",
             "retention-period",
-            "service-provider-contractor-third-party",
             "processing",
             "consent-withdrawal"
           ],
@@ -195,9 +192,7 @@
             }
           ],
           "tooltipTerms": [
-            "personal-data",
-            "profiling",
-            "meaningful-human-involvement"
+            "personal-data"
           ],
           "assessTrigger": "Has your organization identified all automated decision-making systems affecting individuals in China, and do you have mechanisms for opt-out, human review, and non-personalized options for marketing and information push?",
           "gapRemediation": {
@@ -253,9 +248,7 @@
           ],
           "tooltipTerms": [
             "personal-data",
-            "cac",
-            "sccs",
-            "data-localization"
+            "cac"
           ],
           "assessTrigger": "Has your organization identified all cross-border transfers of personal information from China, and for each transfer, confirmed which of PIPL's five transfer mechanisms applies and whether a CAC security assessment is required?",
           "gapRemediation": {
@@ -341,8 +334,7 @@
           ],
           "tooltipTerms": [
             "personal-data",
-            "cac",
-            "breach-notification"
+            "cac"
           ],
           "assessTrigger": "Does your organization's breach response plan address PIPL's immediate notification requirement, and have you identified the relevant PRC authorities for your industry sector?",
           "gapRemediation": {

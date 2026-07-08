@@ -47,8 +47,7 @@
             "data-subject",
             "controller-processor",
             "processing",
-            "consent-withdrawal",
-            "supervisory-authority-dpa"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Do you offer goods or services into Korea, and have you designated a chief privacy officer and assessed PIPA's consent granularity against your collection flows?",
           "gapRemediation": {
@@ -87,9 +86,7 @@
             "retention-period",
             "data-subject",
             "controller-processor",
-            "consent-withdrawal",
-            "legal-basis",
-            "sensitive-data"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Are your Korean consent flows itemized by purpose with the required disclosures, and separate consents for sensitive data and unique identifiers?",
           "gapRemediation": {
@@ -168,9 +165,7 @@
           "tooltipTerms": [
             "personal-data",
             "controller-processor",
-            "processing",
-            "right-to-be-forgotten",
-            "retention-period"
+            "processing"
           ],
           "assessTrigger": "Can you correct, delete, or suspend processing within 10 days, and does your retention schedule trigger proactive destruction when purposes expire?",
           "gapRemediation": {
@@ -206,9 +201,7 @@
           ],
           "tooltipTerms": [
             "data-subject",
-            "controller-processor",
-            "breach-notification",
-            "supervisory-authority-dpa"
+            "controller-processor"
           ],
           "assessTrigger": "Does your incident plan encode the Korean 72-hour report thresholds and the individual-notification content items PIPA prescribes?",
           "gapRemediation": {
@@ -243,9 +236,7 @@
             }
           ],
           "tooltipTerms": [
-            "consent-withdrawal",
-            "sccs",
-            "data-localization"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Does each transfer of Korean data out of the country rest on a documented Article 28-8 route, and could you withstand a PIPC suspension review?",
           "gapRemediation": {

@@ -44,9 +44,7 @@
           "tooltipTerms": [
             "personal-data",
             "data-subject",
-            "processing",
-            "supervisory-authority-dpa",
-            "dpo-encarregado"
+            "processing"
           ],
           "assessTrigger": "Have you registered an information officer with the Regulator, checked whether any processing needs prior authorization, and accounted for juristic-person data in scope?",
           "gapRemediation": {
@@ -88,11 +86,8 @@
             "legitimate-interests",
             "personal-data",
             "data-subject",
-            "service-provider-contractor-third-party",
             "processing",
-            "consent-withdrawal",
-            "legal-basis",
-            "sensitive-data"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Is each processing activity mapped to a Section 11 ground, with special-information authorizations and objection handling documented?",
           "gapRemediation": {
@@ -151,9 +146,7 @@
           ],
           "tooltipTerms": [
             "personal-data",
-            "data-subject",
-            "right-to-be-forgotten",
-            "retention-period"
+            "data-subject"
           ],
           "assessTrigger": "Can you correct or destroy records on the Section 24 grounds, annotate unresolved disputes, and notify past recipients?",
           "gapRemediation": {
@@ -185,9 +178,7 @@
           ],
           "tooltipTerms": [
             "personal-data",
-            "data-subject",
-            "breach-notification",
-            "supervisory-authority-dpa"
+            "data-subject"
           ],
           "assessTrigger": "Does your incident plan cover the Section 22 dual notification with the prescribed content, including identity of the intruder where known?",
           "gapRemediation": {
@@ -220,9 +211,7 @@
           "tooltipTerms": [
             "personal-data",
             "data-subject",
-            "service-provider-contractor-third-party",
-            "consent-withdrawal",
-            "sccs"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Does each cross-border flow rest on a documented Section 72 condition, with recipient agreements meeting the substantially-similar test including onward transfers?",
           "gapRemediation": {

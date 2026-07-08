@@ -43,9 +43,7 @@
           ],
           "tooltipTerms": [
             "sale-sharing",
-            "personal-data",
-            "data-subject",
-            "service-provider-contractor-third-party"
+            "personal-data"
           ],
           "assessTrigger": "Does your organization meet one or more of the three CCPA/CPRA thresholds, and have you assessed whether your service providers and contractors have appropriate contractual obligations in place?",
           "gapRemediation": {
@@ -89,8 +87,7 @@
           ],
           "tooltipTerms": [
             "verifiable-consumer-request",
-            "personal-data",
-            "data-subject"
+            "personal-data"
           ],
           "assessTrigger": "Does your organization have a process to respond to Right to Know requests covering both categories and specific pieces of personal information, and can you identify and disclose all third parties with whom information has been shared or sold?",
           "gapRemediation": {

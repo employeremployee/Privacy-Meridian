@@ -88,8 +88,7 @@
             "processing",
             "controller-processor",
             "consent-withdrawal",
-            "anpd",
-            "legal-basis"
+            "anpd"
           ],
           "assessTrigger": "Has your organization mapped a specific LGPD legal basis to each processing activity, and where you rely on legitimate interests, have you documented that assessment given the developing ANPD guidance?",
           "gapRemediation": {
@@ -213,8 +212,7 @@
           "tooltipTerms": [
             "data-subject",
             "controller-processor",
-            "anpd",
-            "breach-notification"
+            "anpd"
           ],
           "assessTrigger": "Does your organization's breach response plan address LGPD's specific notification timelines, and is your ANPD notification process documented separately from your GDPR supervisory authority notification process?",
           "gapRemediation": {
@@ -257,7 +255,6 @@
             }
           ],
           "tooltipTerms": [
-            "sccs",
             "consent-withdrawal",
             "anpd"
           ],

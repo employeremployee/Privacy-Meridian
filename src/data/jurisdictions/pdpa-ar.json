@@ -42,8 +42,7 @@
             }
           ],
           "tooltipTerms": [
-            "personal-data",
-            "supervisory-authority-dpa"
+            "personal-data"
           ],
           "assessTrigger": "Do you maintain databases containing personal data of people in Argentina, and are those databases registered with the AAIP as the law requires?",
           "gapRemediation": {
@@ -83,9 +82,7 @@
           ],
           "tooltipTerms": [
             "processing",
-            "consent-withdrawal",
-            "sensitive-data",
-            "legal-basis"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Does your Argentine processing rest on express informed consent or a statutory exception, given the law has no legitimate-interests basis to fall back on?",
           "gapRemediation": {
@@ -124,8 +121,7 @@
             }
           ],
           "tooltipTerms": [
-            "personal-data",
-            "data-subject"
+            "personal-data"
           ],
           "assessTrigger": "Can your organization turn around Argentine access requests in 10 calendar days, well inside the one-month window your GDPR workflow assumes?",
           "gapRemediation": {
@@ -160,8 +156,7 @@
           ],
           "tooltipTerms": [
             "personal-data",
-            "controller-processor",
-            "right-to-be-forgotten"
+            "controller-processor"
           ],
           "assessTrigger": "Can you correct or delete Argentine records within five business days, including notifying downstream recipients of the change?",
           "gapRemediation": {
@@ -235,8 +230,7 @@
             }
           ],
           "tooltipTerms": [
-            "consent-withdrawal",
-            "sccs"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Do your transfers out of Argentina rely on the AAIP adequacy list or its model clauses, rather than EU paperwork assumed to carry over?",
           "gapRemediation": {

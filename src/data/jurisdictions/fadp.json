@@ -42,8 +42,7 @@
             }
           ],
           "tooltipTerms": [
-            "controller-processor",
-            "supervisory-authority-dpa"
+            "controller-processor"
           ],
           "assessTrigger": "Does your processing have effects in Switzerland, and if so, have you assessed FADP obligations separately from GDPR rather than assuming equivalence?",
           "gapRemediation": {
@@ -86,8 +85,7 @@
             "data-subject",
             "processing",
             "profiling",
-            "consent-withdrawal",
-            "legal-basis"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Do you understand which of your Swiss processing activities need justification, such as sensitive data or high-risk profiling, versus those permitted under the general principles?",
           "gapRemediation": {
@@ -132,8 +130,7 @@
           "tooltipTerms": [
             "data-subject",
             "processing",
-            "controller-processor",
-            "retention-period"
+            "controller-processor"
           ],
           "assessTrigger": "Can you fulfill Swiss access requests within 30 days, including the FADP's mandatory minimum information set?",
           "gapRemediation": {
@@ -170,9 +167,7 @@
           "tooltipTerms": [
             "data-subject",
             "controller-processor",
-            "consent-withdrawal",
-            "breach-notification",
-            "supervisory-authority-dpa"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Does your breach process apply the Swiss high-risk threshold and FDPIC portal route, distinct from your EU 72-hour workflow?",
           "gapRemediation": {
@@ -215,9 +210,7 @@
             }
           ],
           "tooltipTerms": [
-            "consent-withdrawal",
-            "sccs",
-            "data-localization"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Do your transfers out of Switzerland rely on the Federal Council adequacy list or Swiss-adapted clauses, rather than EU paperwork alone?",
           "gapRemediation": {

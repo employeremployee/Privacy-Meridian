@@ -46,8 +46,7 @@
             "breach-notification",
             "personal-data",
             "processing",
-            "controller-processor",
-            "supervisory-authority-dpa"
+            "controller-processor"
           ],
           "assessTrigger": "Do you process personal data of people in Uruguay from abroad, and have you checked whether the extended scope rules and DPO designation duties reach your organization?",
           "gapRemediation": {
@@ -79,9 +78,7 @@
           ],
           "tooltipTerms": [
             "processing",
-            "consent-withdrawal",
-            "sensitive-data",
-            "legal-basis"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Does each Uruguayan processing activity rest on evidenced prior consent or a listed exception, with express written consent for sensitive data?",
           "gapRemediation": {
@@ -120,8 +117,7 @@
             }
           ],
           "tooltipTerms": [
-            "controller-processor",
-            "data-subject"
+            "controller-processor"
           ],
           "assessTrigger": "Can your organization answer Uruguayan access requests within five business days, far inside the monthly window global workflows assume?",
           "gapRemediation": {
@@ -156,8 +152,7 @@
           ],
           "tooltipTerms": [
             "personal-data",
-            "controller-processor",
-            "right-to-be-forgotten"
+            "controller-processor"
           ],
           "assessTrigger": "Can you correct or delete Uruguayan records and notify downstream recipients within five business days?",
           "gapRemediation": {
@@ -190,9 +185,7 @@
           "tooltipTerms": [
             "personal-data",
             "data-subject",
-            "controller-processor",
-            "breach-notification",
-            "supervisory-authority-dpa"
+            "controller-processor"
           ],
           "assessTrigger": "Does your incident plan include the URCDP 72-hour route and a post-incident report step for Uruguayan data?",
           "gapRemediation": {
@@ -228,8 +221,7 @@
           ],
           "tooltipTerms": [
             "data-subject",
-            "consent-withdrawal",
-            "sccs"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Do your transfers out of Uruguay rest on adequacy, consent, or URCDP-recognized clauses, documented per flow?",
           "gapRemediation": {

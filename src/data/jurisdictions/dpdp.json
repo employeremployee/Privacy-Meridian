@@ -40,8 +40,7 @@
             "personal-data",
             "processing",
             "controller-processor",
-            "consent-withdrawal",
-            "data-subject"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Do you offer goods or services to people in India, and have you tracked which DPDP Rules obligations are in force for your phase, including possible significant data fiduciary designation?",
           "gapRemediation": {
@@ -81,9 +80,7 @@
           ],
           "tooltipTerms": [
             "processing",
-            "consent-withdrawal",
-            "legal-basis",
-            "legitimate-interests"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Does each Indian processing activity rest on itemized consent or a listed legitimate use, given the absence of contract and legitimate-interests bases?",
           "gapRemediation": {
@@ -125,9 +122,7 @@
             "personal-data",
             "processing",
             "controller-processor",
-            "consent-withdrawal",
-            "data-subject",
-            "right-to-be-forgotten"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Can you produce data summaries with sharing identities, honor erasure, and run the grievance channel within the Rules' timelines?",
           "gapRemediation": {
@@ -166,8 +161,7 @@
             }
           ],
           "tooltipTerms": [
-            "personal-data",
-            "breach-notification"
+            "personal-data"
           ],
           "assessTrigger": "Is your incident process ready to notify every affected Indian data principal and the Board for any breach, with no risk-threshold triage?",
           "gapRemediation": {
@@ -206,9 +200,7 @@
             }
           ],
           "tooltipTerms": [
-            "personal-data",
-            "data-localization",
-            "sccs"
+            "personal-data"
           ],
           "assessTrigger": "Are you monitoring the restricted-country notifications and sectoral localization rules that apply to your Indian data flows?",
           "gapRemediation": {

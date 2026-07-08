@@ -85,9 +85,7 @@
             "retention-period",
             "personal-data",
             "data-subject",
-            "processing",
-            "controller-processor",
-            "ropa"
+            "processing"
           ],
           "assessTrigger": "Does your organization's access request process capture all required supplementary information, not just the data itself, but retention periods, recipient categories, and data sources?",
           "gapRemediation": {
@@ -167,8 +165,7 @@
             "legal-basis",
             "processing",
             "controller-processor",
-            "consent-withdrawal",
-            "right-to-be-forgotten"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Does your organization have documented grounds for both fulfilling and refusing erasure requests, and is the decision-making process for refusals logged and defensible to a supervisory authority?",
           "gapRemediation": {
@@ -248,8 +245,7 @@
             "personal-data",
             "data-subject",
             "processing",
-            "controller-processor",
-            "ropa"
+            "controller-processor"
           ],
           "assessTrigger": "Can your organization identify every recipient that received a specific individual's personal data, and do you have a process to notify those recipients when that data is corrected, erased, or restricted?",
           "gapRemediation": {
@@ -286,8 +282,7 @@
             "data-subject",
             "controller-processor",
             "processing",
-            "consent-withdrawal",
-            "legal-basis"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Does your organization have the technical capability to export personal data in a structured, machine-readable format, and have you defined what data falls within the scope of portability versus what is excluded as derived data?",
           "gapRemediation": {
@@ -394,8 +389,7 @@
             "personal-data",
             "data-subject",
             "controller-processor",
-            "processing",
-            "dpo-encarregado"
+            "processing"
           ],
           "assessTrigger": "Does your organization maintain a current, accurate RoPA that maps every processing activity to its legal basis, retention period, and recipient categories, and is it reviewed when processing changes?",
           "gapRemediation": {
@@ -423,8 +417,7 @@
           "tooltipTerms": [
             "sensitive-data",
             "supervisory-authority-dpa",
-            "controller-processor",
-            "dpo-encarregado"
+            "controller-processor"
           ],
           "assessTrigger": "Does your organization meet the mandatory DPO threshold, and if not, have you documented the assessment confirming the threshold does not apply?",
           "gapRemediation": {
@@ -505,8 +498,7 @@
             "supervisory-authority-dpa",
             "personal-data",
             "data-subject",
-            "controller-processor",
-            "breach-notification"
+            "controller-processor"
           ],
           "assessTrigger": "Does your organization have a documented breach response plan that defines awareness, includes a 72-hour notification workflow, and assigns clear ownership for supervisory authority and data subject notification decisions?",
           "gapRemediation": {
@@ -563,8 +555,7 @@
             "sccs",
             "tia",
             "personal-data",
-            "schrems-ii",
-            "data-localization"
+            "schrems-ii"
           ],
           "assessTrigger": "Has your organization mapped every international data transfer and confirmed that each relies on a valid transfer mechanism, including completing a Transfer Impact Assessment where SCCs are used?",
           "gapRemediation": {

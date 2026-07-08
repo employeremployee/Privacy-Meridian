@@ -42,9 +42,7 @@
             }
           ],
           "tooltipTerms": [
-            "data-subject",
-            "controller-processor",
-            "supervisory-authority-dpa"
+            "data-subject"
           ],
           "assessTrigger": "Does your organization process personal data of people in the UK, and have you assessed where UK GDPR now diverges from the EU GDPR rather than assuming the two remain identical?",
           "gapRemediation": {
@@ -81,8 +79,7 @@
           "tooltipTerms": [
             "legitimate-interests",
             "processing",
-            "consent-withdrawal",
-            "legal-basis"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Has your organization documented a UK GDPR lawful basis for each processing activity involving UK residents, and checked whether UK reforms change any balancing tests you rely on?",
           "gapRemediation": {
@@ -117,10 +114,7 @@
             }
           ],
           "tooltipTerms": [
-            "processing",
-            "data-subject",
-            "controller-processor",
-            "retention-period"
+            "processing"
           ],
           "assessTrigger": "Can your organization meet the one-month subject access deadline for UK requests, including searching unstructured sources like email where the ICO expects reasonable effort?",
           "gapRemediation": {
@@ -151,8 +145,7 @@
           ],
           "tooltipTerms": [
             "processing",
-            "consent-withdrawal",
-            "right-to-be-forgotten"
+            "consent-withdrawal"
           ],
           "assessTrigger": "Does your erasure process cover all systems holding UK personal data, including backups, and log the grounds for every refusal?",
           "gapRemediation": {
@@ -187,9 +180,7 @@
             }
           ],
           "tooltipTerms": [
-            "controller-processor",
-            "breach-notification",
-            "supervisory-authority-dpa"
+            "controller-processor"
           ],
           "assessTrigger": "Does your breach plan name the ICO reporting route, define awareness, and keep a register of non-notified breaches with reasoning?",
           "gapRemediation": {
@@ -223,11 +214,7 @@
               "url": "https://www.legislation.gov.uk/eur/2016/679"
             }
           ],
-          "tooltipTerms": [
-            "sccs",
-            "tia",
-            "data-localization"
-          ],
+          "tooltipTerms": [],
           "assessTrigger": "Have you executed UK-specific transfer mechanisms, such as the IDTA or UK Addendum, rather than relying on EU SCCs alone for transfers out of the UK?",
           "gapRemediation": {
             "smb": "If you use EU SCCs with vendors, add the UK Addendum where UK data is in scope. Most vendors offer it as standard.",

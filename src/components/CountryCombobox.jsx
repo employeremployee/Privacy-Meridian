@@ -8,10 +8,13 @@ import { useTranslation } from 'react-i18next'
 // Props:
 //   options            [{ name, jurisdictionId, group }]
 //   mode               'single' | 'multi'
-//   selectedIds        jurisdiction ids currently selected
-//   onSelect(id)       toggle a jurisdiction id
+//   selectedIds        jurisdiction ids currently selected (drives disabled/limit)
+//   checkedNames       multi only: Set of country names to show checked. Lets one
+//                      country represent its law without checking every country
+//                      that shares it (e.g. France, not the whole EEA under GDPR).
+//   onSelect(id, name) select a jurisdiction, with the chosen country name
 //   limitReached       multi only: true when no more can be added
-function CountryCombobox({ options, mode = 'single', selectedIds = [], onSelect, limitReached = false }) {
+function CountryCombobox({ options, mode = 'single', selectedIds = [], checkedNames, onSelect, limitReached = false }) {
   const { t } = useTranslation()
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState(false)
@@ -26,13 +29,21 @@ function CountryCombobox({ options, mode = 'single', selectedIds = [], onSelect,
     return options.filter((o) => o.name.toLowerCase().includes(q))
   }, [options, query])
 
-  function isSelected(option) {
+  function isJurisdictionSelected(option) {
     return selectedIds.includes(option.jurisdictionId)
   }
 
-  // In multi mode at the limit, options for not-yet-selected laws cannot be added.
+  // Only the country chosen to represent its law is checked. For single-country
+  // laws that is the country itself; for the shared GDPR law it is the one the
+  // user picked, so choosing France does not tick every other EEA country.
+  function isChecked(option) {
+    return checkedNames ? checkedNames.has(option.name) : false
+  }
+
+  // At the limit, countries whose law is not already in the comparison cannot be
+  // added. Countries of an already-selected law stay clickable (swap or remove).
   function isDisabled(option) {
-    return mode === 'multi' && limitReached && !isSelected(option)
+    return mode === 'multi' && limitReached && !isJurisdictionSelected(option)
   }
 
   // Close when focus leaves the whole component.
@@ -56,7 +67,7 @@ function CountryCombobox({ options, mode = 'single', selectedIds = [], onSelect,
 
   function choose(option) {
     if (!option || isDisabled(option)) return
-    onSelect(option.jurisdictionId)
+    onSelect(option.jurisdictionId, option.name)
     if (mode === 'single') {
       setQuery('')
       setOpen(false)
@@ -83,7 +94,7 @@ function CountryCombobox({ options, mode = 'single', selectedIds = [], onSelect,
 
   // Plain alphabetical list of country names, no group headings.
   const rows = filtered.map((option, index) => {
-    const selected = isSelected(option)
+    const checked = mode === 'multi' ? isChecked(option) : isJurisdictionSelected(option)
     const disabled = isDisabled(option)
     return (
       <li
@@ -91,7 +102,7 @@ function CountryCombobox({ options, mode = 'single', selectedIds = [], onSelect,
         id={`${listboxId}-opt-${index}`}
         data-index={index}
         role="option"
-        aria-selected={selected}
+        aria-selected={checked}
         aria-disabled={disabled || undefined}
         onMouseDown={(e) => e.preventDefault()}
         onClick={() => choose(option)}
@@ -102,7 +113,7 @@ function CountryCombobox({ options, mode = 'single', selectedIds = [], onSelect,
         ].join(' ')}
       >
         <span>{option.name}</span>
-        {mode === 'multi' && selected && (
+        {mode === 'multi' && checked && (
           <span aria-hidden="true" className="font-bold text-meridian-blue">
             ✓
           </span>

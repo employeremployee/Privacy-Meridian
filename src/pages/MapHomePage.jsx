@@ -45,11 +45,28 @@ const VIEWS = ['explore', 'compare']
 // Cap concurrent comparison columns so the matrix stays readable on smaller screens.
 const MAX_COMPARE = 5
 
+// Laws represented by more than one country on the map (today, only GDPR across
+// the EEA). For these, one picked country represents the whole law so the picker
+// does not tick every country that shares it.
+const MULTI_COUNTRY_JURISDICTIONS = new Set(
+  Object.entries(
+    COUNTRY_OPTIONS.reduce((acc, o) => {
+      acc[o.jurisdictionId] = (acc[o.jurisdictionId] || 0) + 1
+      return acc
+    }, {}),
+  )
+    .filter(([, count]) => count > 1)
+    .map(([id]) => id),
+)
+
 function MapHomePage() {
   const { t } = useTranslation()
   const [view, setView] = useState('explore')
   const [exploreSelection, setExploreSelection] = useState(null)
   const [compareSelection, setCompareSelection] = useState([])
+  // Which country represents each selected law, so the picker checks only that
+  // country (e.g. France) rather than every country sharing the law.
+  const [compareReps, setCompareReps] = useState({})
   const [compareTopicId, setCompareTopicId] = useState(COMPARISON_TOPICS[0].topicId)
 
   const activeTopic =
@@ -57,19 +74,51 @@ function MapHomePage() {
 
   const compareLimitReached = compareSelection.length >= MAX_COMPARE
 
-  function handleSelect(jurisdictionId) {
+  // Country names to show checked in the multi-select picker.
+  const checkedNames = new Set(
+    COUNTRY_OPTIONS.filter(
+      (o) =>
+        compareSelection.includes(o.jurisdictionId) &&
+        (!MULTI_COUNTRY_JURISDICTIONS.has(o.jurisdictionId) || compareReps[o.jurisdictionId] === o.name),
+    ).map((o) => o.name),
+  )
+
+  function clearCompare() {
+    setCompareSelection([])
+    setCompareReps({})
+  }
+
+  function handleSelect(jurisdictionId, countryName) {
     if (view === 'explore') {
       setExploreSelection(jurisdictionId)
-    } else {
-      setCompareSelection((prev) => {
-        if (prev.includes(jurisdictionId)) {
-          return prev.filter((id) => id !== jurisdictionId)
-        }
-        // At the cap, ignore new additions. Deselecting still works above.
-        if (prev.length >= MAX_COMPARE) return prev
-        return [...prev, jurisdictionId]
-      })
+      return
     }
+
+    const alreadySelected = compareSelection.includes(jurisdictionId)
+    if (alreadySelected) {
+      // For a shared law, picking a different country swaps the representative
+      // and keeps the single column, instead of removing the law.
+      if (
+        MULTI_COUNTRY_JURISDICTIONS.has(jurisdictionId) &&
+        countryName &&
+        compareReps[jurisdictionId] !== countryName
+      ) {
+        setCompareReps((prev) => ({ ...prev, [jurisdictionId]: countryName }))
+        return
+      }
+      setCompareSelection((prev) => prev.filter((id) => id !== jurisdictionId))
+      setCompareReps((prev) => {
+        const next = { ...prev }
+        delete next[jurisdictionId]
+        return next
+      })
+      return
+    }
+
+    // At the cap, ignore new laws.
+    if (compareSelection.length >= MAX_COMPARE) return
+    setCompareSelection((prev) => [...prev, jurisdictionId])
+    setCompareReps((prev) => ({ ...prev, [jurisdictionId]: countryName || null }))
   }
 
   const selectedIds = view === 'explore' ? (exploreSelection ? [exploreSelection] : []) : compareSelection
@@ -119,12 +168,13 @@ function MapHomePage() {
               options={COUNTRY_OPTIONS}
               mode="multi"
               selectedIds={compareSelection}
-              onSelect={(id) => handleSelect(id)}
+              checkedNames={checkedNames}
+              onSelect={handleSelect}
               limitReached={compareLimitReached}
             />
             <button
               type="button"
-              onClick={() => setCompareSelection([])}
+              onClick={clearCompare}
               disabled={compareSelection.length === 0}
               className={[
                 'rounded-md border px-3 py-2 text-sm font-medium transition-colors',

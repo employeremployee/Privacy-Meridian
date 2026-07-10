@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-07-10T12:15:10.822Z",
+  "generatedAt": "2026-07-10T19:09:40.772Z",
   "items": [
+    {
+      "id": "3b30652011fa",
+      "title": "License plate cameras may be next target after Supreme Court reins in location tracking",
+      "url": "https://therecord.media/license-plate-cameras-may-be-next-target-after-supreme-court-reins-in-location-tracking",
+      "source": "The Record",
+      "publishedAt": "2026-07-10T16:50:00.000Z",
+      "category": "legal-regulatory",
+      "region": "unspecified",
+      "lang": "en"
+    },
+    {
+      "id": "d57255196a21",
+      "title": "Accrue targets African businesses with stablecoin-powered cross-border banking platform",
+      "url": "https://techcabal.com/2026/07/10/accrue-launches-accrue-business/",
+      "source": "TechCabal",
+      "publishedAt": "2026-07-10T14:33:16.000Z",
+      "category": "legal-regulatory",
+      "region": "cross-border",
+      "lang": "en"
+    },
+    {
+      "id": "64df32ae9284",
+      "title": "LIDL Reports a Data Breach Affecting Some Customers",
+      "url": "https://niebezpiecznik.pl/post/lidl-informuje-o-wycieku-danych-czesci-klientow/",
+      "source": "Niebezpiecznik",
+      "publishedAt": "2026-07-10T14:12:37.000Z",
+      "category": "breaches",
+      "region": "europe",
+      "lang": "pl",
+      "originalTitle": "LIDL informuje o wycieku danych części klientów"
+    },
+    {
+      "id": "1953ef7a7847",
+      "title": "New Federal Police Act: The Bundestag has ushered in the era of automated surveillance",
+      "url": "https://netzpolitik.org/2026/neues-bundespolizeigesetz-der-bundestag-hat-das-zeitalter-der-automatisierten-ueberwachung-eingelaeutet/",
+      "source": "netzpolitik.org",
+      "publishedAt": "2026-07-10T13:47:41.000Z",
+      "category": "policy-perspectives",
+      "region": "europe",
+      "lang": "de",
+      "originalTitle": "Neues Bundespolizeigesetz: Der Bundestag hat das Zeitalter der automatisierten Überwachung eingeläutet"
+    },
+    {
+      "id": "fdd917b8efa0",
+      "title": "Invitation to Information Session Sent to Wrong Recipients; Names of All Expected Attendees Included - Osaka City",
+      "url": "https://www.security-next.com/187074",
+      "source": "Security NEXT",
+      "publishedAt": "2026-07-10T13:39:30.000Z",
+      "category": "breaches",
+      "region": "asia-pacific",
+      "lang": "ja",
+      "originalTitle": "説明会の案内状を誤送信、全参加予定者の氏名 - 大阪市"
+    },
+    {
+      "id": "8d6354a30a5d",
+      "title": "Data Brokers & Beyond: Navigating New Jersey’s Data Broker & “Data Collector” Registration Law",
+      "url": "https://fpf.org/blog/data-brokers-beyond-navigating-new-jerseys-data-broker-data-collector-registration-law/",
+      "source": "Future of Privacy Forum",
+      "publishedAt": "2026-07-10T12:45:00.000Z",
+      "category": "policy-perspectives",
+      "region": "unspecified",
+      "lang": "en"
+    },
     {
       "id": "95b0522074d7",
       "title": "Watch the webinar: New Health and Research Online Service—What’s Changing for Your Authorization Requests",
@@ -44,6 +107,17 @@
       "lang": "en"
     },
     {
+      "id": "677a1e81c734",
+      "title": "Regulators: Accelerate the transition to greater digital autonomy",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/toezichthouders-versnel-de-overgang-naar-meer-digitale-autonomie",
+      "source": "Autoriteit Persoonsgegevens",
+      "publishedAt": "2026-07-10T07:39:12.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "nl",
+      "originalTitle": "Toezichthouders: versnel de overgang naar meer digitale autonomie"
+    },
+    {
       "id": "8caf52128d10",
       "title": "U.S. Insurance Company Assurance America Suffers Data Breach Affecting Approximately 7 Million People",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=207543",
@@ -55,49 +129,6 @@
       "originalTitle": "미국 보험사 어슈어런스아메리카, 약 700만 명 개인정보 유출"
     },
     {
-      "id": "3b76157eae0d",
-      "title": "Ahead of the first reading in the Bundestag: More than 167,000 signatures against the surveillance package",
-      "url": "https://netzpolitik.org/2026/zur-ersten-lesung-im-bundestag-mehr-als-167-000-unterschriften-gegen-das-ueberwachungspaket/",
-      "source": "netzpolitik.org",
-      "publishedAt": "2026-07-09T15:59:41.000Z",
-      "category": "policy-perspectives",
-      "region": "europe",
-      "lang": "de",
-      "originalTitle": "Zur ersten Lesung im Bundestag: Mehr als 167.000 Unterschriften gegen das Überwachungspaket"
-    },
-    {
-      "id": "74ba1c4e72d7",
-      "title": "FPF Hosts Frontiers Workshop on Privacy, AI, and Emerging Infrastructure",
-      "url": "https://fpf.org/blog/fpf-hosts-frontiers-workshop-on-privacy-ai-and-emerging-infrastructure/",
-      "source": "Future of Privacy Forum",
-      "publishedAt": "2026-07-09T13:46:00.000Z",
-      "category": "policy-perspectives",
-      "region": "unspecified",
-      "lang": "en"
-    },
-    {
-      "id": "16e316284cbd",
-      "title": "Orix Life Insurance Accidentally Sends File Containing Customer Personal Information to an Agent - Orix Life Insurance",
-      "url": "https://www.security-next.com/187065",
-      "source": "Security NEXT",
-      "publishedAt": "2026-07-09T13:37:43.000Z",
-      "category": "breaches",
-      "region": "asia-pacific",
-      "lang": "ja",
-      "originalTitle": "代理店に顧客の個人情報含むファイルを誤送信 - オリックス生命"
-    },
-    {
-      "id": "52945e95eaaf",
-      "title": "[UPDATE] Chat Control — Politicians Want to Read Our Private Messages Again",
-      "url": "https://niebezpiecznik.pl/post/chat-control-politycy-znow-chca-czytac-nasze-prywatne-wiadomosci/",
-      "source": "Niebezpiecznik",
-      "publishedAt": "2026-07-09T11:00:37.000Z",
-      "category": "breaches",
-      "region": "europe",
-      "lang": "pl",
-      "originalTitle": "[AKTUALIZACJA] Chat Control &#8211; politycy znów chcą czytać nasze prywatne wiadomości"
-    },
-    {
       "id": "3c63ce40a6a0",
       "title": "US / EU: US Supreme Court overturns Humphrey’s Executor: Implications for independent agencies and US–EU data transfers",
       "url": "https://privacymatters.dlapiper.com/2026/07/us-eu-us-supreme-court-overturns-humphreys-executor-implications-for-independent-agencies-and-us-eu-data-transfers/",
@@ -105,16 +136,6 @@
       "publishedAt": "2026-07-09T10:49:17.000Z",
       "category": "legal-regulatory",
       "region": "cross-border",
-      "lang": "en"
-    },
-    {
-      "id": "96cd25be2ce2",
-      "title": "Greek victims file lawsuit against Intellexa over Predator spyware",
-      "url": "https://therecord.media/greek-victims-file-lawsuit-against-intellexa-spyware",
-      "source": "The Record",
-      "publishedAt": "2026-07-08T20:20:00.000Z",
-      "category": "legal-regulatory",
-      "region": "unspecified",
       "lang": "en"
     },
     {
@@ -143,7 +164,7 @@
       "title": "EDPB Opens Public Consultation on New Personal Data Breach Notification Template",
       "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/edpb-opens-public-consultation-on-new-personal-data-breach-notification-template",
       "source": "Hunton Privacy",
-      "publishedAt": "2026-07-08T13:00:02.000Z",
+      "publishedAt": "2026-07-08T13:00:03.000Z",
       "category": "breaches",
       "region": "europe",
       "lang": "en"
@@ -232,7 +253,7 @@
     },
     {
       "id": "a81209d0dd40",
-      "title": "A ban on social media for children under 15? Without a long-term strategy, that's not enough",
+      "title": "A ban on social media until age 15? Without a long-term strategy, that's not enough",
       "url": "https://panoptykon.org/zakaz-mediow-spolecznosciowych-do-15-roku-zycia-bez-dlugofalowej-strategii-za-malo",
       "source": "Panoptykon",
       "publishedAt": "2026-04-29T07:47:34.000Z",
@@ -242,15 +263,57 @@
       "originalTitle": "Zakaz mediów społecznościowych do 15. roku życia? Bez długofalowej strategii to za mało"
     },
     {
-      "id": "794f0b4250b2",
-      "title": "Smart Glasses: Meta Apparently Plans Even More Invasive Surveillance Glasses",
-      "url": "https://netzpolitik.org/2026/smart-glasses-meta-plant-offenbar-noch-invasivere-ueberwachungsbrille/",
+      "id": "4748b54d4075",
+      "title": "Backpack Containing Personal Storage Media with Junior High School Student Information Lost - Edogawa Ward",
+      "url": "https://www.security-next.com/186977",
+      "source": "Security NEXT",
+      "publishedAt": "2026-07-10T12:48:19.000Z",
+      "category": "breaches",
+      "region": "asia-pacific",
+      "lang": "ja",
+      "originalTitle": "中学校の生徒情報含む私物メディアを鞄ごと紛失 - 江戸川区"
+    },
+    {
+      "id": "96d561137291",
+      "title": "Dutch police trace Odido telco cyberattack to suspected local accomplice",
+      "url": "https://therecord.media/dutch-police-suspect-dutch-accomplice-in-odido-cyberattack",
+      "source": "The Record",
+      "publishedAt": "2026-07-09T23:00:00.000Z",
+      "category": "breaches",
+      "region": "unspecified",
+      "lang": "en"
+    },
+    {
+      "id": "3b76157eae0d",
+      "title": "Ahead of the first reading in the Bundestag: More than 167,000 signatures against the surveillance package",
+      "url": "https://netzpolitik.org/2026/zur-ersten-lesung-im-bundestag-mehr-als-167-000-unterschriften-gegen-das-ueberwachungspaket/",
       "source": "netzpolitik.org",
-      "publishedAt": "2026-07-09T15:21:54.000Z",
+      "publishedAt": "2026-07-09T15:59:41.000Z",
       "category": "policy-perspectives",
       "region": "europe",
       "lang": "de",
-      "originalTitle": "Smart Glasses: Meta plant offenbar noch invasivere Überwachungsbrille"
+      "originalTitle": "Zur ersten Lesung im Bundestag: Mehr als 167.000 Unterschriften gegen das Überwachungspaket"
+    },
+    {
+      "id": "74ba1c4e72d7",
+      "title": "FPF Hosts Frontiers Workshop on Privacy, AI, and Emerging Infrastructure",
+      "url": "https://fpf.org/blog/fpf-hosts-frontiers-workshop-on-privacy-ai-and-emerging-infrastructure/",
+      "source": "Future of Privacy Forum",
+      "publishedAt": "2026-07-09T13:46:00.000Z",
+      "category": "policy-perspectives",
+      "region": "unspecified",
+      "lang": "en"
+    },
+    {
+      "id": "0fa0042282b9",
+      "title": "AI Transparency Requirements Take Effect August 2: AP Recommends Signing the Code of Practice",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/transparantie-eisen-ai-gelden-vanaf-2-augustus-ap-adviseert-praktijkcode-te-ondertekenen",
+      "source": "Autoriteit Persoonsgegevens",
+      "publishedAt": "2026-07-09T12:41:58.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "nl",
+      "originalTitle": "Transparantie-eisen AI gelden vanaf 2 augustus: AP adviseert praktijkcode te ondertekenen"
     },
     {
       "id": "ab637e0bf642",
@@ -274,15 +337,15 @@
       "lang": "en"
     },
     {
-      "id": "964cbfb255ae",
-      "title": "How Does Windows Track Users Through the Global Device ID (GDID)? A Look at the FBI Operation and a Teenage Criminal's Blunder",
-      "url": "https://niebezpiecznik.pl/post/windows-inwigilacja-prywatnosc-uzytkownikow-global-device-id-gdid/",
+      "id": "52945e95eaaf",
+      "title": "[UPDATE] Chat Control — Politicians Want to Read Our Private Messages Again",
+      "url": "https://niebezpiecznik.pl/post/chat-control-politycy-znow-chca-czytac-nasze-prywatne-wiadomosci/",
       "source": "Niebezpiecznik",
-      "publishedAt": "2026-07-09T09:27:39.000Z",
+      "publishedAt": "2026-07-09T11:00:37.000Z",
       "category": "breaches",
       "region": "europe",
       "lang": "pl",
-      "originalTitle": "Jak Windows śledzi użytkowników przez Global Device ID (GDID)? Czyli o operacji FBI i wpadce nastoletniego przestępcy"
+      "originalTitle": "[AKTUALIZACJA] Chat Control &#8211; politycy znów chcą czytać nasze prywatne wiadomości"
     },
     {
       "id": "36073a1f27a3",
@@ -293,28 +356,6 @@
       "category": "breaches",
       "region": "unspecified",
       "lang": "en"
-    },
-    {
-      "id": "f89568f1e83a",
-      "title": "Employees are leaking data to a third-party AI. Let's take a look at the risks involved",
-      "url": "https://habr.com/ru/articles/1057128/?utm_campaign=1057128&utm_source=habrahabr&utm_medium=rss",
-      "source": "Habr Security",
-      "publishedAt": "2026-07-08T14:23:53.000Z",
-      "category": "breaches",
-      "region": "europe",
-      "lang": "ru",
-      "originalTitle": "Сотрудники сливают данные в чужой ИИ. Разбираемся чем это грозит"
-    },
-    {
-      "id": "45276cd7df23",
-      "title": "Vulnerability Found in \"HP DeskJet 2800 Series\" Printers—Risk of Confidential Information Leakage",
-      "url": "https://www.security-next.com/186984",
-      "source": "Security NEXT",
-      "publishedAt": "2026-07-08T04:35:31.000Z",
-      "category": "breaches",
-      "region": "asia-pacific",
-      "lang": "ja",
-      "originalTitle": "プリンタ「HP DeskJet 2800シリーズ」に脆弱性 - 機密情報漏洩のおそれ"
     },
     {
       "id": "c02934fb9dc4",
@@ -332,7 +373,7 @@
       "title": "U.S. Supreme Court FTC Ruling Prompts Fresh Scrutiny of EU-U.S. Data Privacy Framework",
       "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/u-s-supreme-court-ftc-ruling-prompts-fresh-scrutiny-of-eu-u-s-data-privacy-framework",
       "source": "Hunton Privacy",
-      "publishedAt": "2026-07-02T13:00:04.000Z",
+      "publishedAt": "2026-07-02T13:00:05.000Z",
       "category": "legal-regulatory",
       "region": "cross-border",
       "lang": "en"
@@ -368,16 +409,6 @@
       "lang": "en"
     },
     {
-      "id": "8e6d8e050bd7",
-      "title": "FPF’s 2026 DC Privacy Forum: Leading Voices in AI, Privacy and Emerging Technology",
-      "url": "https://fpf.org/blog/fpfs-2026-dc-privacy-forum-leading-voices-in-ai-privacy-and-emerging-technology/",
-      "source": "Future of Privacy Forum",
-      "publishedAt": "2026-06-24T16:31:03.000Z",
-      "category": "legal-regulatory",
-      "region": "unspecified",
-      "lang": "en"
-    },
-    {
       "id": "2ffccb13454b",
       "title": "EDPB and AMLA to develop Joint Guidelines on partnerships for information sharing",
       "url": "https://www.edpb.europa.eu/news/edpb-and-amla-to-develop-joint-guidelines-on-partnerships-for-information-sharing_en",
@@ -408,15 +439,26 @@
       "lang": "en"
     },
     {
-      "id": "4b21d7fb3f57",
-      "title": "EU Parliament: Voluntary chat monitoring gets approved thanks to a procedural loophole",
-      "url": "https://netzpolitik.org/2026/eu-parlament-freiwillige-chatkontrolle-geht-mit-verfahrenstrick-durch/",
+      "id": "ad9de9efd6d8",
+      "title": "Page with Volunteer Information Now Available - Chitose JAL International Marathon",
+      "url": "https://www.security-next.com/186914",
+      "source": "Security NEXT",
+      "publishedAt": "2026-07-10T11:39:01.000Z",
+      "category": "breaches",
+      "region": "asia-pacific",
+      "lang": "ja",
+      "originalTitle": "ボランティア情報含むページが閲覧可能に - 千歳JAL国際マラソン"
+    },
+    {
+      "id": "794f0b4250b2",
+      "title": "Smart Glasses: Meta Apparently Plans Even More Invasive Surveillance Glasses",
+      "url": "https://netzpolitik.org/2026/smart-glasses-meta-plant-offenbar-noch-invasivere-ueberwachungsbrille/",
       "source": "netzpolitik.org",
-      "publishedAt": "2026-07-09T12:55:30.000Z",
+      "publishedAt": "2026-07-09T15:21:54.000Z",
       "category": "policy-perspectives",
       "region": "europe",
       "lang": "de",
-      "originalTitle": "EU-Parlament: Freiwillige Chatkontrolle geht mit Verfahrenstrick durch"
+      "originalTitle": "Smart Glasses: Meta plant offenbar noch invasivere Überwachungsbrille"
     },
     {
       "id": "e75f99da976a",
@@ -428,6 +470,28 @@
       "region": "europe",
       "lang": "fr",
       "originalTitle": "Le CEPD met en lumière l’anonymisation et le moissonnage pour l’IA générative et adopte la version finale des lignes directrices sur la chaîne de blocs"
+    },
+    {
+      "id": "964cbfb255ae",
+      "title": "How Does Windows Track Users Through the Global Device ID (GDID)? A Look at the FBI Operation and a Teenage Criminal's Blunder",
+      "url": "https://niebezpiecznik.pl/post/windows-inwigilacja-prywatnosc-uzytkownikow-global-device-id-gdid/",
+      "source": "Niebezpiecznik",
+      "publishedAt": "2026-07-09T09:27:39.000Z",
+      "category": "breaches",
+      "region": "europe",
+      "lang": "pl",
+      "originalTitle": "Jak Windows śledzi użytkowników przez Global Device ID (GDID)? Czyli o operacji FBI i wpadce nastoletniego przestępcy"
+    },
+    {
+      "id": "dc23de553377",
+      "title": "AI Increases the Risks of Cyberattacks",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ai-vergroot-gevaren-van-cyberaanvallen",
+      "source": "Autoriteit Persoonsgegevens",
+      "publishedAt": "2026-07-08T15:30:00.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "nl",
+      "originalTitle": "AI vergroot gevaren van cyberaanvallen"
     },
     {
       "id": "70e74570a9e4",
@@ -450,17 +514,6 @@
       "lang": "en"
     },
     {
-      "id": "894f85bb4189",
-      "title": "Data Breach Affecting Guests at Many Polish Hotels",
-      "url": "https://niebezpiecznik.pl/post/wyciek-danych-gosci-wielu-polskich-hoteli/",
-      "source": "Niebezpiecznik",
-      "publishedAt": "2026-07-03T09:18:08.000Z",
-      "category": "breaches",
-      "region": "europe",
-      "lang": "pl",
-      "originalTitle": "Wyciek danych gości wielu polskich hoteli"
-    },
-    {
       "id": "fd93e821bfac",
       "title": "New Jersey Legislature Passes Grocery Surveillance Pricing Ban",
       "url": "https://epic.org/new-jersey-legislature-passes-grocery-surveillance-pricing-ban/",
@@ -481,6 +534,16 @@
       "lang": "en"
     },
     {
+      "id": "8e6d8e050bd7",
+      "title": "FPF’s 2026 DC Privacy Forum: Leading Voices in AI, Privacy and Emerging Technology",
+      "url": "https://fpf.org/blog/fpfs-2026-dc-privacy-forum-leading-voices-in-ai-privacy-and-emerging-technology/",
+      "source": "Future of Privacy Forum",
+      "publishedAt": "2026-06-24T16:31:03.000Z",
+      "category": "legal-regulatory",
+      "region": "unspecified",
+      "lang": "en"
+    },
+    {
       "id": "18ac03d8f280",
       "title": "Supporting GDPR consistency: EDPB launches dedicated form",
       "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
@@ -495,7 +558,7 @@
       "title": "UK Data Protection Complaints Obligations Take Effect",
       "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-data-protection-complaints-obligations-take-effect",
       "source": "Hunton Privacy",
-      "publishedAt": "2026-06-23T13:00:08.000Z",
+      "publishedAt": "2026-06-23T13:00:09.000Z",
       "category": "legal-regulatory",
       "region": "europe",
       "lang": "en"
@@ -512,16 +575,6 @@
       "originalTitle": "Ransomware Gentlemen: EDR killer capaz de eliminar más de 400 procesos de seguridad"
     },
     {
-      "id": "d7251ad78e96",
-      "title": "Perseverance Pays Off for Vermont Privacy Efforts",
-      "url": "https://fpf.org/blog/perseverance-pays-off-for-vermont-privacy-efforts/",
-      "source": "Future of Privacy Forum",
-      "publishedAt": "2026-06-17T13:54:58.000Z",
-      "category": "policy-perspectives",
-      "region": "unspecified",
-      "lang": "en"
-    },
-    {
       "id": "b14d51278ec2",
       "title": "FTC Sues to Stop Sprawling Enterprise Operating Unlawful Subscription Schemes",
       "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes",
@@ -532,25 +585,37 @@
       "lang": "en"
     },
     {
-      "id": "ec5e72b398da",
-      "title": "Nordic Media Giant Schibsted switches to “Pay or Okay” – complaint filed!",
-      "url": "https://noyb.eu/en/nordic-media-giant-schibsted-switches-pay-or-okay-complaint-filed",
-      "source": "noyb",
-      "publishedAt": "2026-06-03T05:00:00.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "en"
+      "id": "16e316284cbd",
+      "title": "Orix Life Insurance Accidentally Sends File Containing Customer Personal Information to an Agent - Orix Life Insurance",
+      "url": "https://www.security-next.com/187065",
+      "source": "Security NEXT",
+      "publishedAt": "2026-07-09T13:37:43.000Z",
+      "category": "breaches",
+      "region": "asia-pacific",
+      "lang": "ja",
+      "originalTitle": "代理店に顧客の個人情報含むファイルを誤送信 - オリックス生命"
     },
     {
-      "id": "c5f6a83861aa",
-      "title": "Video Analysis for the Federal Police: Train Station Cameras Are Designed to Identify People and Monitor Their Behavior",
-      "url": "https://netzpolitik.org/2026/videoanalyse-fuer-die-bundespolizei-bahnhofs-kameras-sollen-menschen-und-ihr-verhalten-erkennen/",
+      "id": "4b21d7fb3f57",
+      "title": "EU Parliament: Voluntary chat monitoring gets the green light thanks to a procedural loophole",
+      "url": "https://netzpolitik.org/2026/eu-parlament-freiwillige-chatkontrolle-geht-mit-verfahrenstrick-durch/",
       "source": "netzpolitik.org",
-      "publishedAt": "2026-07-08T07:34:17.000Z",
+      "publishedAt": "2026-07-09T12:55:30.000Z",
       "category": "policy-perspectives",
       "region": "europe",
       "lang": "de",
-      "originalTitle": "Videoanalyse für die Bundespolizei: Bahnhofs-Kameras sollen Menschen und ihr Verhalten erkennen"
+      "originalTitle": "EU-Parlament: Freiwillige Chatkontrolle geht mit Verfahrenstrick durch"
+    },
+    {
+      "id": "15eeb37c3b2e",
+      "title": "A Discussion on the AI Regulation",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/in-gesprek-over-de-ai-verordening",
+      "source": "Autoriteit Persoonsgegevens",
+      "publishedAt": "2026-07-08T07:53:08.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "nl",
+      "originalTitle": "In gesprek over de AI-verordening"
     },
     {
       "id": "3894c7cd3790",
@@ -563,15 +628,26 @@
       "lang": "en"
     },
     {
-      "id": "71fb01a72497",
-      "title": "Geolocation and Mobile Apps: What Rules Are in Place to Protect User Data?",
-      "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-quelles-regles",
+      "id": "ba68c26e33e1",
+      "title": "Geolocation and Mobile Apps: How Can You Protect Your Data?",
+      "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-proteger-vos-donnees",
       "source": "CNIL",
       "publishedAt": "2026-07-07T12:00:00.000Z",
       "category": "legal-regulatory",
       "region": "europe",
       "lang": "fr",
-      "originalTitle": "Géolocalisation et applications mobiles : quelles règles pour protéger les données des utilisateurs ?"
+      "originalTitle": "Géolocalisation et applications mobiles : comment protéger vos données ?"
+    },
+    {
+      "id": "894f85bb4189",
+      "title": "Data Breach Affecting Guests at Many Polish Hotels",
+      "url": "https://niebezpiecznik.pl/post/wyciek-danych-gosci-wielu-polskich-hoteli/",
+      "source": "Niebezpiecznik",
+      "publishedAt": "2026-07-03T09:18:08.000Z",
+      "category": "breaches",
+      "region": "europe",
+      "lang": "pl",
+      "originalTitle": "Wyciek danych gości wielu polskich hoteli"
     },
     {
       "id": "6c9ed69de415",
@@ -604,23 +680,22 @@
       "lang": "en"
     },
     {
-      "id": "aafb4a5c71fa",
-      "title": "Summer vacation means more screen time for kids. But it doesn't have to be that way ;)",
-      "url": "https://niebezpiecznik.pl/post/wakacje-to-wiecej-czasu-przed-ekranem-dla-dzieci-ale-tak-nie-musi-byc/",
-      "source": "Niebezpiecznik",
-      "publishedAt": "2026-06-26T07:35:20.000Z",
-      "category": "breaches",
-      "region": "europe",
-      "lang": "pl",
-      "originalTitle": "Wakacje, to więcej czasu przed ekranem dla dzieci. Ale tak nie musi być ;)"
-    },
-    {
       "id": "ef838b235d86",
       "title": "Vermont Enacts Significant Amendments to Data Broker Legislation",
       "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/vermont-enacts-significant-amendments-to-data-broker-legislation",
       "source": "Hunton Privacy",
-      "publishedAt": "2026-06-22T13:00:09.000Z",
+      "publishedAt": "2026-06-22T13:00:10.000Z",
       "category": "breaches",
+      "region": "unspecified",
+      "lang": "en"
+    },
+    {
+      "id": "d7251ad78e96",
+      "title": "Perseverance Pays Off for Vermont Privacy Efforts",
+      "url": "https://fpf.org/blog/perseverance-pays-off-for-vermont-privacy-efforts/",
+      "source": "Future of Privacy Forum",
+      "publishedAt": "2026-06-17T13:54:58.000Z",
+      "category": "policy-perspectives",
       "region": "unspecified",
       "lang": "en"
     },
@@ -646,16 +721,6 @@
       "lang": "en"
     },
     {
-      "id": "ebbbb3d08eac",
-      "title": "Future of Privacy Forum Releases Comprehensive Report On Algorithmic Personalization in Youth Online Experiences",
-      "url": "https://fpf.org/press-releases/future-of-privacy-forum-releases-comprehensive-report-on-algorithmic-personalization-in-youth-online-experiences/",
-      "source": "Future of Privacy Forum",
-      "publishedAt": "2026-06-09T21:58:19.000Z",
-      "category": "legal-regulatory",
-      "region": "unspecified",
-      "lang": "en"
-    },
-    {
       "id": "b5e72c7bb58e",
       "title": "FTC Gives Final Approval to Order Against Illuminate Settling Allegations It Failed to Secure Students’ Personal Data",
       "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-gives-final-approval-order-against-illuminate-settling-allegations-it-failed-secure-students",
@@ -666,15 +731,37 @@
       "lang": "en"
     },
     {
-      "id": "ba68c26e33e1",
-      "title": "Geolocation and Mobile Apps: How Can You Protect Your Data?",
-      "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-proteger-vos-donnees",
+      "id": "c5f6a83861aa",
+      "title": "Video Analysis for the Federal Police: Train Station Cameras Are Designed to Identify People and Monitor Their Behavior",
+      "url": "https://netzpolitik.org/2026/videoanalyse-fuer-die-bundespolizei-bahnhofs-kameras-sollen-menschen-und-ihr-verhalten-erkennen/",
+      "source": "netzpolitik.org",
+      "publishedAt": "2026-07-08T07:34:17.000Z",
+      "category": "policy-perspectives",
+      "region": "europe",
+      "lang": "de",
+      "originalTitle": "Videoanalyse für die Bundespolizei: Bahnhofs-Kameras sollen Menschen und ihr Verhalten erkennen"
+    },
+    {
+      "id": "71fb01a72497",
+      "title": "Geolocation and Mobile Apps: What Rules Are in Place to Protect User Data?",
+      "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-quelles-regles",
       "source": "CNIL",
       "publishedAt": "2026-07-07T12:00:00.000Z",
       "category": "legal-regulatory",
       "region": "europe",
       "lang": "fr",
-      "originalTitle": "Géolocalisation et applications mobiles : comment protéger vos données ?"
+      "originalTitle": "Géolocalisation et applications mobiles : quelles règles pour protéger les données des utilisateurs ?"
+    },
+    {
+      "id": "38dcf02a8c45",
+      "title": "AP Advises Implementing Organizations and Regulators: 11 Conditions to Follow When Signs of Fraud Are Detected",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-adviseert-uitvoeringsorganisaties-en-toezichthouders-11-voorwaarden-bij-signalen-van-fraude",
+      "source": "Autoriteit Persoonsgegevens",
+      "publishedAt": "2026-07-07T07:10:02.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "nl",
+      "originalTitle": "AP adviseert uitvoeringsorganisaties en toezichthouders: 11 voorwaarden bij signalen van fraude"
     },
     {
       "id": "23211cf81f80",
@@ -685,17 +772,6 @@
       "category": "breaches",
       "region": "unspecified",
       "lang": "en"
-    },
-    {
-      "id": "cb1321d88630",
-      "title": "AfD Party Convention in Erfurt: The Fear of a Fascist Surveillance State",
-      "url": "https://netzpolitik.org/2026/afd-parteitag-in-erfurt-die-angst-vor-dem-faschistischen-ueberwachungsstaat/",
-      "source": "netzpolitik.org",
-      "publishedAt": "2026-07-06T06:36:18.000Z",
-      "category": "policy-perspectives",
-      "region": "europe",
-      "lang": "de",
-      "originalTitle": "AfD-Parteitag in Erfurt: Die Angst vor dem faschistischen Überwachungsstaat"
     },
     {
       "id": "24cb8d7c7435",
@@ -718,15 +794,15 @@
       "lang": "en"
     },
     {
-      "id": "f2077e226ff1",
-      "title": "LastPass Issues Another Alert Regarding the Theft of User Data",
-      "url": "https://niebezpiecznik.pl/post/lastpass-ponownie-informuje-o-kradziezy-danych-uzytkownikow/",
+      "id": "aafb4a5c71fa",
+      "title": "Summer vacation means more screen time for kids. But it doesn't have to be that way ;)",
+      "url": "https://niebezpiecznik.pl/post/wakacje-to-wiecej-czasu-przed-ekranem-dla-dzieci-ale-tak-nie-musi-byc/",
       "source": "Niebezpiecznik",
-      "publishedAt": "2026-06-26T07:04:30.000Z",
+      "publishedAt": "2026-06-26T07:35:20.000Z",
       "category": "breaches",
       "region": "europe",
       "lang": "pl",
-      "originalTitle": "LastPass ponownie informuje o kradzieży danych użytkowników"
+      "originalTitle": "Wakacje, to więcej czasu przed ekranem dla dzieci. Ale tak nie musi być ;)"
     },
     {
       "id": "bbcc58f1da3b",
@@ -736,16 +812,6 @@
       "publishedAt": "2026-06-18T08:00:00.000Z",
       "category": "breaches",
       "region": "europe",
-      "lang": "en"
-    },
-    {
-      "id": "5c07917e5c8e",
-      "title": "Vermont Becomes 23rd State with Comprehensive Consumer Privacy Law",
-      "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/vermont-becomes-23rd-state-with-comprehensive-consumer-privacy-law",
-      "source": "Hunton Privacy",
-      "publishedAt": "2026-06-17T13:00:10.000Z",
-      "category": "legal-regulatory",
-      "region": "unspecified",
       "lang": "en"
     },
     {
@@ -770,12 +836,12 @@
       "lang": "en"
     },
     {
-      "id": "bd2b8a6746ed",
-      "title": "Privacy Becomes You, Bayou State: A Look at the Louisiana Data Privacy Act",
-      "url": "https://fpf.org/blog/privacy-becomes-you-bayou-state-a-look-at-the-louisiana-data-privacy-act/",
+      "id": "ebbbb3d08eac",
+      "title": "Future of Privacy Forum Releases Comprehensive Report On Algorithmic Personalization in Youth Online Experiences",
+      "url": "https://fpf.org/press-releases/future-of-privacy-forum-releases-comprehensive-report-on-algorithmic-personalization-in-youth-online-experiences/",
       "source": "Future of Privacy Forum",
-      "publishedAt": "2026-06-03T20:21:57.000Z",
-      "category": "policy-perspectives",
+      "publishedAt": "2026-06-09T21:58:19.000Z",
+      "category": "legal-regulatory",
       "region": "unspecified",
       "lang": "en"
     },
@@ -790,48 +856,26 @@
       "lang": "en"
     },
     {
-      "id": "9c11338d998c",
-      "title": "The CNIL has imposed 23 new penalties since January under the simplified procedure",
-      "url": "https://www.cnil.fr/fr/23-nouvelles-sanctions-simplifiees",
-      "source": "CNIL",
-      "publishedAt": "2026-07-06T12:00:00.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "fr",
-      "originalTitle": "La CNIL a prononcé 23 nouvelles sanctions depuis janvier au titre de la procédure simplifiée"
-    },
-    {
-      "id": "4b4605f7fc5e",
-      "title": "Government Transparency: Attack on Freedom of Information Continues to Draw Fierce Criticism",
-      "url": "https://netzpolitik.org/2026/staatliche-transparenz-angriff-auf-informationsfreiheit-sorgt-weiter-fuer-heftige-kritik/",
+      "id": "cb1321d88630",
+      "title": "AfD Party Convention in Erfurt: The Fear of a Fascist Surveillance State",
+      "url": "https://netzpolitik.org/2026/afd-parteitag-in-erfurt-die-angst-vor-dem-faschistischen-ueberwachungsstaat/",
       "source": "netzpolitik.org",
-      "publishedAt": "2026-07-03T08:44:09.000Z",
+      "publishedAt": "2026-07-06T06:36:18.000Z",
       "category": "policy-perspectives",
       "region": "europe",
       "lang": "de",
-      "originalTitle": "Staatliche Transparenz: Angriff auf Informationsfreiheit sorgt weiter für heftige Kritik"
+      "originalTitle": "AfD-Parteitag in Erfurt: Die Angst vor dem faschistischen Überwachungsstaat"
     },
     {
-      "id": "b4200ed83136",
-      "title": "Behind the Scenes of the School E-Register — How Advanced and Secure Is This School Management Tool?",
-      "url": "https://niebezpiecznik.pl/post/szkolny-e-dziennik-od-kulis-jak-zaawansowane-i-bezpieczne-jest-narzedzie-do-zarzadzania-szkola/",
+      "id": "f2077e226ff1",
+      "title": "LastPass Issues Another Alert Regarding the Theft of User Data",
+      "url": "https://niebezpiecznik.pl/post/lastpass-ponownie-informuje-o-kradziezy-danych-uzytkownikow/",
       "source": "Niebezpiecznik",
-      "publishedAt": "2026-06-25T10:32:01.000Z",
+      "publishedAt": "2026-06-26T07:04:30.000Z",
       "category": "breaches",
       "region": "europe",
       "lang": "pl",
-      "originalTitle": "Szkolny e-dziennik od kulis &#8211; jak zaawansowane i bezpieczne jest narzędzie do zarządzania szkołą?"
-    },
-    {
-      "id": "a188598b83a2",
-      "title": "Palo Alto Warns of Active Exploitation of a VPN Vulnerability in PAN-OS GlobalProtect",
-      "url": "https://blog.segu-info.com.ar/2026/06/palo-alto-advierte-sobre-la-explotacion.html",
-      "source": "Segu-Info",
-      "publishedAt": "2026-06-15T17:30:00.000Z",
-      "category": "breaches",
-      "region": "americas",
-      "lang": "es",
-      "originalTitle": "Palo Alto advierte sobre la explotación activa de una vulnerabilidad de VPN en PAN-OS GlobalProtect"
+      "originalTitle": "LastPass ponownie informuje o kradzieży danych użytkowników"
     },
     {
       "id": "6b38ecc72ab3",
@@ -854,47 +898,14 @@
       "lang": "en"
     },
     {
-      "id": "8d7687400f7e",
-      "title": "No Silver Bullet, But a Silver Lining? PETs and International Data Transfers",
-      "url": "https://fpf.org/blog/no-silver-bullet-but-a-silver-lining-pets-and-international-data-transfers/",
+      "id": "bd2b8a6746ed",
+      "title": "Privacy Becomes You, Bayou State: A Look at the Louisiana Data Privacy Act",
+      "url": "https://fpf.org/blog/privacy-becomes-you-bayou-state-a-look-at-the-louisiana-data-privacy-act/",
       "source": "Future of Privacy Forum",
-      "publishedAt": "2026-05-29T18:35:03.000Z",
-      "category": "legal-regulatory",
-      "region": "cross-border",
-      "lang": "en"
-    },
-    {
-      "id": "fb78e8d88902",
-      "title": "The Role of the DPO in the Age of Artificial Intelligence: Survey Results Released",
-      "url": "https://www.cnil.fr/fr/enquete-dpo-ia",
-      "source": "CNIL",
-      "publishedAt": "2026-07-03T12:00:00.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "fr",
-      "originalTitle": "Le métier de DPO à l’heure de l’intelligence artificielle : publication des résultats de l’enquête"
-    },
-    {
-      "id": "91d3c76ba93b",
-      "title": "Software Selected for Monitoring Berlin: Behavior Scanner at Kotti to Launch This Summer",
-      "url": "https://netzpolitik.org/2026/software-zur-ueberwachung-berlins-ausgewaehlt-verhaltensscanner-am-kotti-startet-noch-im-sommer/",
-      "source": "netzpolitik.org",
-      "publishedAt": "2026-07-03T06:07:35.000Z",
+      "publishedAt": "2026-06-03T20:21:57.000Z",
       "category": "policy-perspectives",
-      "region": "europe",
-      "lang": "de",
-      "originalTitle": "Software zur Überwachung Berlins ausgewählt: Verhaltensscanner am Kotti startet noch im Sommer"
-    },
-    {
-      "id": "56af3ad59149",
-      "title": "You don't have to pay extra for peace of mind",
-      "url": "https://niebezpiecznik.pl/post/nie-musisz-doplacac-za-spokoj/",
-      "source": "Niebezpiecznik",
-      "publishedAt": "2026-06-22T08:56:11.000Z",
-      "category": "breaches",
-      "region": "europe",
-      "lang": "pl",
-      "originalTitle": "Nie musisz dopłacać za spokój"
+      "region": "unspecified",
+      "lang": "en"
     },
     {
       "id": "e7f36e796c22",
@@ -915,17 +926,6 @@
       "category": "breaches",
       "region": "europe",
       "lang": "en"
-    },
-    {
-      "id": "fadfacf6ed1e",
-      "title": "Agenda for the Plenary Session on July 2, 2026",
-      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-2-juillet-2026",
-      "source": "CNIL",
-      "publishedAt": "2026-07-02T12:00:00.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "fr",
-      "originalTitle": "Ordre du jour de la séance plénière du 2 juillet 2026"
     },
     {
       "id": "200075e69d3f",

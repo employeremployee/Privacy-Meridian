@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-07-10T01:39:43.148Z",
+  "generatedAt": "2026-07-10T12:15:10.822Z",
   "items": [
+    {
+      "id": "95b0522074d7",
+      "title": "Watch the webinar: New Health and Research Online Service—What’s Changing for Your Authorization Requests",
+      "url": "https://www.cnil.fr/fr/revoir-le-webinaire-nouveau-teleservice-sante-et-recherche-ce-qui-change-pour-vos-demandes",
+      "source": "CNIL",
+      "publishedAt": "2026-07-10T12:00:00.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "fr",
+      "originalTitle": "Revoir le webinaire : Nouveau téléservice santé et recherche, ce qui change pour vos demandes d’autorisation"
+    },
+    {
+      "id": "e6d3eb444bfc",
+      "title": "Who Unloaded the Payments? Or: An Example of an Incident Investigation During a Postgres Pro Enterprise Audit",
+      "url": "https://habr.com/ru/companies/postgrespro/articles/1057898/?utm_campaign=1057898&utm_source=habrahabr&utm_medium=rss",
+      "source": "Habr Security",
+      "publishedAt": "2026-07-10T11:46:56.000Z",
+      "category": "breaches",
+      "region": "europe",
+      "lang": "ru",
+      "originalTitle": "Кто выгрузил платежи, или Пример расследования инцидента на аудите в Postgres Pro Enterprise"
+    },
+    {
+      "id": "fcf1a756fad9",
+      "title": "AI Surveillance and Social Progress",
+      "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+      "source": "Schneier on Security",
+      "publishedAt": "2026-07-10T11:02:04.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "en"
+    },
+    {
+      "id": "b371da66106a",
+      "title": "Meta mulls keeping privacy LED light turned off in upcoming AI glasses: Report",
+      "url": "https://www.medianama.com/2026/07/223-meta-keeping-privacy-led-light-turned-off-upcoming-ai-glasses-report/",
+      "source": "MediaNama",
+      "publishedAt": "2026-07-10T08:19:26.000Z",
+      "category": "policy-perspectives",
+      "region": "asia-pacific",
+      "lang": "en"
+    },
     {
       "id": "8caf52128d10",
       "title": "U.S. Insurance Company Assurance America Suffers Data Breach Affecting Approximately 7 Million People",
@@ -45,47 +87,15 @@
       "originalTitle": "代理店に顧客の個人情報含むファイルを誤送信 - オリックス生命"
     },
     {
-      "id": "0fa0042282b9",
-      "title": "AI Transparency Requirements Take Effect August 2: AP Recommends Signing the Code of Practice",
-      "url": "https://autoriteitpersoonsgegevens.nl/actueel/transparantie-eisen-ai-gelden-vanaf-2-augustus-ap-adviseert-praktijkcode-te-ondertekenen",
-      "source": "Autoriteit Persoonsgegevens",
-      "publishedAt": "2026-07-09T12:41:58.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "nl",
-      "originalTitle": "Transparantie-eisen AI gelden vanaf 2 augustus: AP adviseert praktijkcode te ondertekenen"
-    },
-    {
-      "id": "ab637e0bf642",
-      "title": "Labor and Human Resources: Monitoring Employee Activities",
-      "url": "https://www.cnil.fr/fr/controle-de-lactivite-des-personnes-employees",
-      "source": "CNIL",
-      "publishedAt": "2026-07-09T12:00:00.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "fr",
-      "originalTitle": "Travail, ressources humaines : le contrôle de l’activité des personnes employées"
-    },
-    {
-      "id": "000632dd391a",
-      "title": "The Language of AI Could Change How Humans Speak",
-      "url": "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html",
-      "source": "Schneier on Security",
-      "publishedAt": "2026-07-09T11:00:45.000Z",
-      "category": "legal-regulatory",
-      "region": "americas",
-      "lang": "en"
-    },
-    {
       "id": "52945e95eaaf",
-      "title": "Chat Control — Politicians Want to Read Our Private Messages Again",
+      "title": "[UPDATE] Chat Control — Politicians Want to Read Our Private Messages Again",
       "url": "https://niebezpiecznik.pl/post/chat-control-politycy-znow-chca-czytac-nasze-prywatne-wiadomosci/",
       "source": "Niebezpiecznik",
       "publishedAt": "2026-07-09T11:00:37.000Z",
       "category": "breaches",
       "region": "europe",
       "lang": "pl",
-      "originalTitle": "Chat Control &#8211; politycy znów chcą czytać nasze prywatne wiadomości"
+      "originalTitle": "[AKTUALIZACJA] Chat Control &#8211; politycy znów chcą czytać nasze prywatne wiadomości"
     },
     {
       "id": "3c63ce40a6a0",
@@ -136,16 +146,6 @@
       "publishedAt": "2026-07-08T13:00:02.000Z",
       "category": "breaches",
       "region": "europe",
-      "lang": "en"
-    },
-    {
-      "id": "8352ab86979f",
-      "title": "When every call leaves a trail: Why can’t Nigeria still find kidnappers?",
-      "url": "https://techcabal.com/2026/07/08/kidnappers-leave-digital-trails-why-are-they-still-escaping/",
-      "source": "TechCabal",
-      "publishedAt": "2026-07-08T12:36:36.000Z",
-      "category": "policy-perspectives",
-      "region": "africa",
       "lang": "en"
     },
     {
@@ -253,15 +253,25 @@
       "originalTitle": "Smart Glasses: Meta plant offenbar noch invasivere Überwachungsbrille"
     },
     {
-      "id": "e75f99da976a",
-      "title": "The EDPS Highlights Anonymization and Data Harvesting for Generative AI and Adopts the Final Version of the Blockchain Guidelines",
-      "url": "https://www.cnil.fr/fr/cepd-ia-generative-chaines-blocs",
+      "id": "ab637e0bf642",
+      "title": "Labor and Human Resources: Monitoring Employee Activities",
+      "url": "https://www.cnil.fr/fr/controle-de-lactivite-des-personnes-employees",
       "source": "CNIL",
       "publishedAt": "2026-07-09T12:00:00.000Z",
       "category": "legal-regulatory",
       "region": "europe",
       "lang": "fr",
-      "originalTitle": "Le CEPD met en lumière l’anonymisation et le moissonnage pour l’IA générative et adopte la version finale des lignes directrices sur la chaîne de blocs"
+      "originalTitle": "Travail, ressources humaines : le contrôle de l’activité des personnes employées"
+    },
+    {
+      "id": "000632dd391a",
+      "title": "The Language of AI Could Change How Humans Speak",
+      "url": "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html",
+      "source": "Schneier on Security",
+      "publishedAt": "2026-07-09T11:00:45.000Z",
+      "category": "legal-regulatory",
+      "region": "americas",
+      "lang": "en"
     },
     {
       "id": "964cbfb255ae",
@@ -275,17 +285,6 @@
       "originalTitle": "Jak Windows śledzi użytkowników przez Global Device ID (GDID)? Czyli o operacji FBI i wpadce nastoletniego przestępcy"
     },
     {
-      "id": "dc23de553377",
-      "title": "AI Increases the Risks of Cyberattacks",
-      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ai-vergroot-gevaren-van-cyberaanvallen",
-      "source": "Autoriteit Persoonsgegevens",
-      "publishedAt": "2026-07-08T15:30:00.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "nl",
-      "originalTitle": "AI vergroot gevaren van cyberaanvallen"
-    },
-    {
       "id": "36073a1f27a3",
       "title": "Why Bangladesh’s new data protection law may fail to protect your data",
       "url": "https://databreaches.net/2026/07/08/why-bangladeshs-new-data-protection-law-may-fail-to-protect-your-data/?pk_campaign=feed&pk_kwd=why-bangladeshs-new-data-protection-law-may-fail-to-protect-your-data",
@@ -296,36 +295,26 @@
       "lang": "en"
     },
     {
-      "id": "d4ea7a0b03ef",
-      "title": "Lockin Company's Mobile Screen Security Service, LISS, Receives GS Certification Grade 1",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207509",
-      "source": "DailySecu",
-      "publishedAt": "2026-07-08T15:10:35.000Z",
+      "id": "f89568f1e83a",
+      "title": "Employees are leaking data to a third-party AI. Let's take a look at the risks involved",
+      "url": "https://habr.com/ru/articles/1057128/?utm_campaign=1057128&utm_source=habrahabr&utm_medium=rss",
+      "source": "Habr Security",
+      "publishedAt": "2026-07-08T14:23:53.000Z",
       "category": "breaches",
-      "region": "asia-pacific",
-      "lang": "ko",
-      "originalTitle": "락인컴퍼니 모바일 화면보안 서비스 LISS, GS인증 1등급 획득"
+      "region": "europe",
+      "lang": "ru",
+      "originalTitle": "Сотрудники сливают данные в чужой ИИ. Разбираемся чем это грозит"
     },
     {
-      "id": "980fbe9ca49e",
-      "title": "Personal Information Stored in the Wrong Location and Unintentionally Shared with Students - Kinki University",
-      "url": "https://www.security-next.com/186754",
+      "id": "45276cd7df23",
+      "title": "Vulnerability Found in \"HP DeskJet 2800 Series\" Printers—Risk of Confidential Information Leakage",
+      "url": "https://www.security-next.com/186984",
       "source": "Security NEXT",
-      "publishedAt": "2026-07-08T12:44:58.000Z",
+      "publishedAt": "2026-07-08T04:35:31.000Z",
       "category": "breaches",
       "region": "asia-pacific",
       "lang": "ja",
-      "originalTitle": "個人情報の保存先を誤り、意図せず学生に共有 - 近畿大"
-    },
-    {
-      "id": "87f306ebc360",
-      "title": "Flock Cameras Can Surveil Cars Without License Plates",
-      "url": "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html",
-      "source": "Schneier on Security",
-      "publishedAt": "2026-07-03T11:15:25.000Z",
-      "category": "legal-regulatory",
-      "region": "unspecified",
-      "lang": "en"
+      "originalTitle": "プリンタ「HP DeskJet 2800シリーズ」に脆弱性 - 機密情報漏洩のおそれ"
     },
     {
       "id": "c02934fb9dc4",
@@ -430,37 +419,15 @@
       "originalTitle": "EU-Parlament: Freiwillige Chatkontrolle geht mit Verfahrenstrick durch"
     },
     {
-      "id": "00bef405ba4c",
-      "title": "AI Deep Unveils Next-Generation Security Solution Lineup Designed to Address Generative AI",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207508",
-      "source": "DailySecu",
-      "publishedAt": "2026-07-08T14:36:48.000Z",
-      "category": "breaches",
-      "region": "asia-pacific",
-      "lang": "ko",
-      "originalTitle": "에이아이딥, 생성형 AI 대응 차세대 보안 솔루션 라인업 공개"
-    },
-    {
-      "id": "15eeb37c3b2e",
-      "title": "A Discussion on the AI Regulation",
-      "url": "https://autoriteitpersoonsgegevens.nl/actueel/in-gesprek-over-de-ai-verordening",
-      "source": "Autoriteit Persoonsgegevens",
-      "publishedAt": "2026-07-08T07:53:08.000Z",
+      "id": "e75f99da976a",
+      "title": "The EDPS Highlights Anonymization and Data Harvesting for Generative AI and Adopts the Final Version of the Blockchain Guidelines",
+      "url": "https://www.cnil.fr/fr/cepd-ia-generative-chaines-blocs",
+      "source": "CNIL",
+      "publishedAt": "2026-07-09T12:00:00.000Z",
       "category": "legal-regulatory",
       "region": "europe",
-      "lang": "nl",
-      "originalTitle": "In gesprek over de AI-verordening"
-    },
-    {
-      "id": "45276cd7df23",
-      "title": "Vulnerability Found in \"HP DeskJet 2800 Series\" Printers—Risk of Confidential Information Leakage",
-      "url": "https://www.security-next.com/186984",
-      "source": "Security NEXT",
-      "publishedAt": "2026-07-08T04:35:31.000Z",
-      "category": "breaches",
-      "region": "asia-pacific",
-      "lang": "ja",
-      "originalTitle": "プリンタ「HP DeskJet 2800シリーズ」に脆弱性 - 機密情報漏洩のおそれ"
+      "lang": "fr",
+      "originalTitle": "Le CEPD met en lumière l’anonymisation et le moissonnage pour l’IA générative et adopte la version finale des lignes directrices sur la chaîne de blocs"
     },
     {
       "id": "70e74570a9e4",
@@ -473,15 +440,14 @@
       "lang": "en"
     },
     {
-      "id": "71fb01a72497",
-      "title": "Geolocation and Mobile Apps: What Rules Are in Place to Protect User Data?",
-      "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-quelles-regles",
-      "source": "CNIL",
-      "publishedAt": "2026-07-07T12:00:00.000Z",
+      "id": "87f306ebc360",
+      "title": "Flock Cameras Can Surveil Cars Without License Plates",
+      "url": "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html",
+      "source": "Schneier on Security",
+      "publishedAt": "2026-07-03T11:15:25.000Z",
       "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "fr",
-      "originalTitle": "Géolocalisation et applications mobiles : quelles règles pour protéger les données des utilisateurs ?"
+      "region": "unspecified",
+      "lang": "en"
     },
     {
       "id": "894f85bb4189",
@@ -500,16 +466,6 @@
       "url": "https://epic.org/new-jersey-legislature-passes-grocery-surveillance-pricing-ban/",
       "source": "EPIC",
       "publishedAt": "2026-07-01T16:09:17.000Z",
-      "category": "policy-perspectives",
-      "region": "americas",
-      "lang": "en"
-    },
-    {
-      "id": "6c9ed69de415",
-      "title": "Papa Johns Surveillance-Based Advertising",
-      "url": "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html",
-      "source": "Schneier on Security",
-      "publishedAt": "2026-07-01T10:53:23.000Z",
       "category": "policy-perspectives",
       "region": "americas",
       "lang": "en"
@@ -597,17 +553,6 @@
       "originalTitle": "Videoanalyse für die Bundespolizei: Bahnhofs-Kameras sollen Menschen und ihr Verhalten erkennen"
     },
     {
-      "id": "15d6c3b2699e",
-      "title": "[MPIS Leaders Forum 2026] Sparrow: “Code Generated by AI Must Also Be Verified… Medical Software Security Is a Matter of Patient Safety”",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207497",
-      "source": "DailySecu",
-      "publishedAt": "2026-07-08T00:13:29.000Z",
-      "category": "breaches",
-      "region": "asia-pacific",
-      "lang": "ko",
-      "originalTitle": "[MPIS 리더스 포럼 2026] 스패로우 “AI가 만든 코드도 반드시 검증해야…의료SW 보안은 환자 안전 문제”"
-    },
-    {
       "id": "3894c7cd3790",
       "title": "Bojangles sued again by workers over Russian hacker data breach. NC judge weighs in",
       "url": "https://databreaches.net/2026/07/07/bojangles-sued-again-by-workers-over-russian-hacker-data-breach-nc-judge-weighs-in/?pk_campaign=feed&pk_kwd=bojangles-sued-again-by-workers-over-russian-hacker-data-breach-nc-judge-weighs-in",
@@ -618,26 +563,25 @@
       "lang": "en"
     },
     {
-      "id": "ba68c26e33e1",
-      "title": "Geolocation and Mobile Apps: How Can You Protect Your Data?",
-      "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-proteger-vos-donnees",
+      "id": "71fb01a72497",
+      "title": "Geolocation and Mobile Apps: What Rules Are in Place to Protect User Data?",
+      "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-quelles-regles",
       "source": "CNIL",
       "publishedAt": "2026-07-07T12:00:00.000Z",
       "category": "legal-regulatory",
       "region": "europe",
       "lang": "fr",
-      "originalTitle": "Géolocalisation et applications mobiles : comment protéger vos données ?"
+      "originalTitle": "Géolocalisation et applications mobiles : quelles règles pour protéger les données des utilisateurs ?"
     },
     {
-      "id": "38dcf02a8c45",
-      "title": "AP Advises Implementing Organizations and Regulators: 11 Conditions to Follow When Signs of Fraud Are Detected",
-      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-adviseert-uitvoeringsorganisaties-en-toezichthouders-11-voorwaarden-bij-signalen-van-fraude",
-      "source": "Autoriteit Persoonsgegevens",
-      "publishedAt": "2026-07-07T07:10:02.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "nl",
-      "originalTitle": "AP adviseert uitvoeringsorganisaties en toezichthouders: 11 voorwaarden bij signalen van fraude"
+      "id": "6c9ed69de415",
+      "title": "Papa Johns Surveillance-Based Advertising",
+      "url": "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html",
+      "source": "Schneier on Security",
+      "publishedAt": "2026-07-01T10:53:23.000Z",
+      "category": "policy-perspectives",
+      "region": "americas",
+      "lang": "en"
     },
     {
       "id": "e1e878857a6d",
@@ -647,16 +591,6 @@
       "publishedAt": "2026-06-30T20:34:03.000Z",
       "category": "legal-regulatory",
       "region": "americas",
-      "lang": "en"
-    },
-    {
-      "id": "24cb8d7c7435",
-      "title": "The Realities of AI Video Surveillance",
-      "url": "https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html",
-      "source": "Schneier on Security",
-      "publishedAt": "2026-06-30T12:05:57.000Z",
-      "category": "policy-perspectives",
-      "region": "europe",
       "lang": "en"
     },
     {
@@ -732,15 +666,15 @@
       "lang": "en"
     },
     {
-      "id": "d45a5f950a9f",
-      "title": "[MPIS Leaders Forum 2026] “Healthcare Institutions Must Manage Personal Information Risks Throughout the Entire AI Adoption Process”",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207496",
-      "source": "DailySecu",
-      "publishedAt": "2026-07-07T23:59:44.000Z",
-      "category": "breaches",
-      "region": "asia-pacific",
-      "lang": "ko",
-      "originalTitle": "[MPIS 리더스 포럼 2026] “의료기관, AI 도입 전 과정에서 개인정보 위험 관리해야”"
+      "id": "ba68c26e33e1",
+      "title": "Geolocation and Mobile Apps: How Can You Protect Your Data?",
+      "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-proteger-vos-donnees",
+      "source": "CNIL",
+      "publishedAt": "2026-07-07T12:00:00.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "fr",
+      "originalTitle": "Géolocalisation et applications mobiles : comment protéger vos données ?"
     },
     {
       "id": "23211cf81f80",
@@ -753,17 +687,6 @@
       "lang": "en"
     },
     {
-      "id": "9c11338d998c",
-      "title": "The CNIL has imposed 23 new penalties since January under the simplified procedure",
-      "url": "https://www.cnil.fr/fr/23-nouvelles-sanctions-simplifiees",
-      "source": "CNIL",
-      "publishedAt": "2026-07-06T12:00:00.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "fr",
-      "originalTitle": "La CNIL a prononcé 23 nouvelles sanctions depuis janvier au titre de la procédure simplifiée"
-    },
-    {
       "id": "cb1321d88630",
       "title": "AfD Party Convention in Erfurt: The Fear of a Fascist Surveillance State",
       "url": "https://netzpolitik.org/2026/afd-parteitag-in-erfurt-die-angst-vor-dem-faschistischen-ueberwachungsstaat/",
@@ -773,6 +696,16 @@
       "region": "europe",
       "lang": "de",
       "originalTitle": "AfD-Parteitag in Erfurt: Die Angst vor dem faschistischen Überwachungsstaat"
+    },
+    {
+      "id": "24cb8d7c7435",
+      "title": "The Realities of AI Video Surveillance",
+      "url": "https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html",
+      "source": "Schneier on Security",
+      "publishedAt": "2026-06-30T12:05:57.000Z",
+      "category": "policy-perspectives",
+      "region": "europe",
+      "lang": "en"
     },
     {
       "id": "86bf3de203ad",
@@ -794,17 +727,6 @@
       "region": "europe",
       "lang": "pl",
       "originalTitle": "LastPass ponownie informuje o kradzieży danych użytkowników"
-    },
-    {
-      "id": "10773c36da53",
-      "title": "Royal Honor for Aleid Wolfsen",
-      "url": "https://autoriteitpersoonsgegevens.nl/actueel/koninklijke-onderscheiding-voor-aleid-wolfsen",
-      "source": "Autoriteit Persoonsgegevens",
-      "publishedAt": "2026-06-25T15:43:47.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "nl",
-      "originalTitle": "Koninklijke onderscheiding voor Aleid Wolfsen"
     },
     {
       "id": "bbcc58f1da3b",
@@ -868,6 +790,50 @@
       "lang": "en"
     },
     {
+      "id": "9c11338d998c",
+      "title": "The CNIL has imposed 23 new penalties since January under the simplified procedure",
+      "url": "https://www.cnil.fr/fr/23-nouvelles-sanctions-simplifiees",
+      "source": "CNIL",
+      "publishedAt": "2026-07-06T12:00:00.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "fr",
+      "originalTitle": "La CNIL a prononcé 23 nouvelles sanctions depuis janvier au titre de la procédure simplifiée"
+    },
+    {
+      "id": "4b4605f7fc5e",
+      "title": "Government Transparency: Attack on Freedom of Information Continues to Draw Fierce Criticism",
+      "url": "https://netzpolitik.org/2026/staatliche-transparenz-angriff-auf-informationsfreiheit-sorgt-weiter-fuer-heftige-kritik/",
+      "source": "netzpolitik.org",
+      "publishedAt": "2026-07-03T08:44:09.000Z",
+      "category": "policy-perspectives",
+      "region": "europe",
+      "lang": "de",
+      "originalTitle": "Staatliche Transparenz: Angriff auf Informationsfreiheit sorgt weiter für heftige Kritik"
+    },
+    {
+      "id": "b4200ed83136",
+      "title": "Behind the Scenes of the School E-Register — How Advanced and Secure Is This School Management Tool?",
+      "url": "https://niebezpiecznik.pl/post/szkolny-e-dziennik-od-kulis-jak-zaawansowane-i-bezpieczne-jest-narzedzie-do-zarzadzania-szkola/",
+      "source": "Niebezpiecznik",
+      "publishedAt": "2026-06-25T10:32:01.000Z",
+      "category": "breaches",
+      "region": "europe",
+      "lang": "pl",
+      "originalTitle": "Szkolny e-dziennik od kulis &#8211; jak zaawansowane i bezpieczne jest narzędzie do zarządzania szkołą?"
+    },
+    {
+      "id": "a188598b83a2",
+      "title": "Palo Alto Warns of Active Exploitation of a VPN Vulnerability in PAN-OS GlobalProtect",
+      "url": "https://blog.segu-info.com.ar/2026/06/palo-alto-advierte-sobre-la-explotacion.html",
+      "source": "Segu-Info",
+      "publishedAt": "2026-06-15T17:30:00.000Z",
+      "category": "breaches",
+      "region": "americas",
+      "lang": "es",
+      "originalTitle": "Palo Alto advierte sobre la explotación activa de una vulnerabilidad de VPN en PAN-OS GlobalProtect"
+    },
+    {
       "id": "6b38ecc72ab3",
       "title": "UK: New complaints handling rules under DUAA take effect on 19 June 2026 – are you ready?",
       "url": "https://privacymatters.dlapiper.com/2026/06/uk-new-complaints-handling-rules-under-duaa-take-effect-on-19-june-2026-are-you-ready/",
@@ -898,6 +864,39 @@
       "lang": "en"
     },
     {
+      "id": "fb78e8d88902",
+      "title": "The Role of the DPO in the Age of Artificial Intelligence: Survey Results Released",
+      "url": "https://www.cnil.fr/fr/enquete-dpo-ia",
+      "source": "CNIL",
+      "publishedAt": "2026-07-03T12:00:00.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "fr",
+      "originalTitle": "Le métier de DPO à l’heure de l’intelligence artificielle : publication des résultats de l’enquête"
+    },
+    {
+      "id": "91d3c76ba93b",
+      "title": "Software Selected for Monitoring Berlin: Behavior Scanner at Kotti to Launch This Summer",
+      "url": "https://netzpolitik.org/2026/software-zur-ueberwachung-berlins-ausgewaehlt-verhaltensscanner-am-kotti-startet-noch-im-sommer/",
+      "source": "netzpolitik.org",
+      "publishedAt": "2026-07-03T06:07:35.000Z",
+      "category": "policy-perspectives",
+      "region": "europe",
+      "lang": "de",
+      "originalTitle": "Software zur Überwachung Berlins ausgewählt: Verhaltensscanner am Kotti startet noch im Sommer"
+    },
+    {
+      "id": "56af3ad59149",
+      "title": "You don't have to pay extra for peace of mind",
+      "url": "https://niebezpiecznik.pl/post/nie-musisz-doplacac-za-spokoj/",
+      "source": "Niebezpiecznik",
+      "publishedAt": "2026-06-22T08:56:11.000Z",
+      "category": "breaches",
+      "region": "europe",
+      "lang": "pl",
+      "originalTitle": "Nie musisz dopłacać za spokój"
+    },
+    {
       "id": "e7f36e796c22",
       "title": "EDPB meets with EU Commissioner McGrath and adopts common data breach notification template",
       "url": "https://www.edpb.europa.eu/news/edpb-meets-with-eu-commissioner-mcgrath-and-adopts-common-data-breach-notification-template_en",
@@ -918,21 +917,22 @@
       "lang": "en"
     },
     {
+      "id": "fadfacf6ed1e",
+      "title": "Agenda for the Plenary Session on July 2, 2026",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-2-juillet-2026",
+      "source": "CNIL",
+      "publishedAt": "2026-07-02T12:00:00.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "fr",
+      "originalTitle": "Ordre du jour de la séance plénière du 2 juillet 2026"
+    },
+    {
       "id": "200075e69d3f",
       "title": "Swedish SA: Administrative fine against Sportadmin",
       "url": "https://www.edpb.europa.eu/news/swedish-sa-administrative-fine-against-sportadmin_en",
       "source": "EDPB",
       "publishedAt": "2026-06-05T08:21:10.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "en"
-    },
-    {
-      "id": "bc30f751116c",
-      "title": "Spain: Government approves the draft Organic Law on the proper use and governance of artificial intelligence",
-      "url": "https://privacymatters.dlapiper.com/2026/05/spain-government-approves-the-draft-organic-law-on-the-proper-use-and-governance-of-artificial-intelligence/",
-      "source": "DLA Piper Privacy Matters",
-      "publishedAt": "2026-05-28T15:46:13.000Z",
       "category": "legal-regulatory",
       "region": "europe",
       "lang": "en"

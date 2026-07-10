@@ -16,10 +16,12 @@ const MAP_WIDTH = 800
 const MAP_HEIGHT = 400
 
 // Status -> fill. Enacted = Meridian Blue (strong), Developing = Horizon (distinct), none = Rule (neutral).
+// Selected = light azure so a picked country reads clearly against the dark unselected blue.
 const FILL = {
   enacted: '#0F3460',
   enactedHover: '#16213E',
-  enactedSelected: '#16213E',
+  selected: '#5B9BD5',
+  selectedHover: '#4A8BC7',
   developing: '#533483',
   developingHover: '#3E2762',
   none: '#D4D0CC',
@@ -104,10 +106,24 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
                     )
                   }
 
-                  const fill = isSelected ? FILL.enactedSelected : FILL.enacted
                   const ariaLabel = isSelected
                     ? t('map.selectedJurisdictionLabel', { name: label })
                     : t('map.viewJurisdictionLabel', { name: label })
+
+                  // Selected countries get a light-azure fill with a Meridian
+                  // Blue border, and stay light on hover instead of flipping to
+                  // navy, so the picked state reads clearly at a glance.
+                  const geoStyle = isSelected
+                    ? {
+                        default: { fill: FILL.selected, stroke: '#0F3460', strokeWidth: 1.5, outline: 'none', cursor: 'pointer' },
+                        hover: { fill: FILL.selectedHover, stroke: '#0F3460', strokeWidth: 1.5, outline: 'none', cursor: 'pointer' },
+                        pressed: { fill: FILL.selectedHover, stroke: '#0F3460', strokeWidth: 1.5, outline: 'none', cursor: 'pointer' },
+                      }
+                    : {
+                        default: { fill: FILL.enacted, stroke: '#FFFFFF', strokeWidth: 0.75, outline: 'none', cursor: 'pointer' },
+                        hover: { fill: FILL.enactedHover, stroke: '#FFFFFF', strokeWidth: 1, outline: 'none', cursor: 'pointer' },
+                        pressed: { fill: FILL.enactedHover, stroke: '#FFFFFF', strokeWidth: 1, outline: 'none', cursor: 'pointer' },
+                      }
 
                   return (
                     <Geography
@@ -129,29 +145,7 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
                           onSelectJurisdiction(jurisdictionId, geo.properties.name)
                         }
                       }}
-                      style={{
-                        default: {
-                          fill,
-                          stroke: isSelected ? '#F8F7F4' : '#FFFFFF',
-                          strokeWidth: isSelected ? 1.5 : 0.75,
-                          outline: 'none',
-                          cursor: 'pointer',
-                        },
-                        hover: {
-                          fill: FILL.enactedHover,
-                          stroke: '#FFFFFF',
-                          strokeWidth: 1,
-                          outline: 'none',
-                          cursor: 'pointer',
-                        },
-                        pressed: {
-                          fill: FILL.enactedHover,
-                          stroke: '#FFFFFF',
-                          strokeWidth: 1,
-                          outline: 'none',
-                          cursor: 'pointer',
-                        },
-                      }}
+                      style={geoStyle}
                     />
                   )
                 })

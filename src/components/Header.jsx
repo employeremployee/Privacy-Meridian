@@ -14,6 +14,12 @@ function Header() {
         </Link>
 
         <div className="flex flex-wrap items-center gap-3">
+          <Link
+            to="/barrelman"
+            className="text-xs font-medium text-white underline-offset-2 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          >
+            {t('nav.news')}
+          </Link>
           <LanguageSelector />
         </div>
       </div>

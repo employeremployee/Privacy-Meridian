@@ -9,6 +9,7 @@
   --color-surface: #eeecea;
   --color-rule: #d4d0cc;
   --color-muted: #8a8480;
+  --color-selected-blue: #5b9bd5;
 
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', monospace;

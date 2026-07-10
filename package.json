@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "news": "node scripts/barrelman/fetch-news.mjs"
   },
   "dependencies": {
     "@radix-ui/react-popover": "^1.1.18",
@@ -26,7 +27,10 @@
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3",
+    "cheerio": "^1.2.0",
     "oxlint": "^1.71.0",
+    "p-limit": "^7.3.0",
+    "rss-parser": "^3.13.0",
     "vite": "^8.1.1"
   }
 }

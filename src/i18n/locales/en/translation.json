@@ -109,5 +109,71 @@
     "about": "About",
     "lastUpdated": "Last updated July 2026",
     "copyright": "© 2026 Privacy Meridian. All rights reserved."
+  },
+  "nav": {
+    "barrelman": "Privacy Barrelman",
+    "news": "News",
+    "backToMap": "Back to the map"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "That page does not exist or has moved."
+  },
+  "barrelman": {
+    "title": "Privacy Barrelman",
+    "tagline": "The lookout for global privacy news.",
+    "intro": "Recent privacy news from around the world, refreshed through the day.",
+    "updatedAt": "Updated {{time}}",
+    "updatedUnknown": "Update time unknown",
+    "searchLabel": "Search headlines",
+    "searchPlaceholder": "Search headlines",
+    "categoryFilterLabel": "Filter by category",
+    "regionFilterLabel": "Filter by region",
+    "allCategories": "All",
+    "allRegions": "All regions",
+    "resultCount": "{{count}} article",
+    "resultCount_other": "{{count}} articles",
+    "empty": "No articles match your filters. Try clearing them.",
+    "clearFilters": "Clear filters",
+    "loading": "Loading the latest privacy news.",
+    "error": "The news feed could not load right now. Please try again later.",
+    "stale": "This feed has not refreshed recently. Showing the most recent articles we have.",
+    "seedNotice": "Sample stories for now. The live feed turns on once the site is deployed.",
+    "openInNewTab": "Opens in a new tab",
+    "sourceLabel": "Source: {{source}}",
+    "inLanguage": "In {{language}}",
+    "pagination": {
+      "label": "News pages",
+      "previous": "Previous pages",
+      "next": "Next pages",
+      "page": "Page {{page}}",
+      "status": "Page {{page}} of {{total}}"
+    },
+    "category": {
+      "legal-regulatory": "Legal & Regulatory",
+      "policy-perspectives": "Policy & Perspectives",
+      "breaches": "Breaches"
+    },
+    "region": {
+      "europe": "Europe",
+      "americas": "Americas",
+      "asia-pacific": "Asia-Pacific",
+      "africa": "Africa",
+      "middle-east": "Middle East",
+      "cross-border": "Cross-Border"
+    },
+    "language": {
+      "en": "English",
+      "fr": "French",
+      "de": "German",
+      "nl": "Dutch",
+      "es": "Spanish",
+      "pt": "Portuguese",
+      "ja": "Japanese",
+      "zh": "Chinese",
+      "ru": "Russian",
+      "pl": "Polish",
+      "ko": "Korean"
+    }
   }
 }

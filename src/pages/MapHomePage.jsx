@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import gdprData from '../data/jurisdictions/gdpr.json'
 import ccpaData from '../data/jurisdictions/ccpa.json'
@@ -125,27 +126,35 @@ function MapHomePage() {
 
   return (
     <main className="mx-auto max-w-[1200px] px-4 py-6">
-      {/* View toggle (provisional switch between the two views) */}
-      <div role="tablist" aria-label={t('home.viewLabel')} className="mb-4 inline-flex rounded-lg border border-rule p-1">
-        {VIEWS.map((v) => {
-          const isActive = v === view
-          return (
-            <button
-              key={v}
-              type="button"
-              role="tab"
-              aria-selected={isActive}
-              onClick={() => setView(v)}
-              className={[
-                'rounded-md px-4 py-1.5 text-sm font-medium transition-colors',
-                'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue',
-                isActive ? 'bg-meridian-blue text-white' : 'text-ink hover:bg-surface',
-              ].join(' ')}
-            >
-              {t(v === 'explore' ? 'home.exploreTab' : 'home.compareTab')}
-            </button>
-          )
-        })}
+      {/* View toggle plus the link out to the Barrelman news page */}
+      <div className="mb-4 flex flex-wrap items-center gap-3">
+        <div role="tablist" aria-label={t('home.viewLabel')} className="inline-flex rounded-lg border border-rule p-1">
+          {VIEWS.map((v) => {
+            const isActive = v === view
+            return (
+              <button
+                key={v}
+                type="button"
+                role="tab"
+                aria-selected={isActive}
+                onClick={() => setView(v)}
+                className={[
+                  'rounded-md px-4 py-1.5 text-sm font-medium transition-colors',
+                  'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue',
+                  isActive ? 'bg-meridian-blue text-white' : 'text-ink hover:bg-surface',
+                ].join(' ')}
+              >
+                {t(v === 'explore' ? 'home.exploreTab' : 'home.compareTab')}
+              </button>
+            )
+          })}
+        </div>
+        <Link
+          to="/barrelman"
+          className="text-sm font-medium text-meridian-blue underline-offset-2 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue"
+        >
+          {t('nav.barrelman')}
+        </Link>
       </div>
 
       <p className="mb-3 text-sm text-ink">

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T19:09:40.772Z",
+  "generatedAt": "2026-07-10T23:32:52.237Z",
   "items": [
     {
       "id": "3b30652011fa",
@@ -253,7 +253,7 @@
     },
     {
       "id": "a81209d0dd40",
-      "title": "A ban on social media until age 15? Without a long-term strategy, that's not enough",
+      "title": "A ban on social media for children under 15? Without a long-term strategy, that's not enough",
       "url": "https://panoptykon.org/zakaz-mediow-spolecznosciowych-do-15-roku-zycia-bez-dlugofalowej-strategii-za-malo",
       "source": "Panoptykon",
       "publishedAt": "2026-04-29T07:47:34.000Z",
@@ -306,7 +306,7 @@
     },
     {
       "id": "0fa0042282b9",
-      "title": "AI Transparency Requirements Take Effect August 2: AP Recommends Signing the Code of Practice",
+      "title": "AI Transparency Requirements Take Effect on August 2: AP Recommends Signing the Code of Practice",
       "url": "https://autoriteitpersoonsgegevens.nl/actueel/transparantie-eisen-ai-gelden-vanaf-2-augustus-ap-adviseert-praktijkcode-te-ondertekenen",
       "source": "Autoriteit Persoonsgegevens",
       "publishedAt": "2026-07-09T12:41:58.000Z",
@@ -356,6 +356,17 @@
       "category": "breaches",
       "region": "unspecified",
       "lang": "en"
+    },
+    {
+      "id": "f89568f1e83a",
+      "title": "Employees are leaking data to a third-party AI. Let's take a look at the risks involved.",
+      "url": "https://habr.com/ru/articles/1057128/?utm_campaign=1057128&utm_source=habrahabr&utm_medium=rss",
+      "source": "Habr Security",
+      "publishedAt": "2026-07-08T14:23:53.000Z",
+      "category": "breaches",
+      "region": "europe",
+      "lang": "ru",
+      "originalTitle": "Сотрудники сливают данные в чужой ИИ. Разбираемся чем это грозит"
     },
     {
       "id": "c02934fb9dc4",
@@ -597,7 +608,7 @@
     },
     {
       "id": "4b21d7fb3f57",
-      "title": "EU Parliament: Voluntary chat monitoring gets the green light thanks to a procedural loophole",
+      "title": "EU Parliament: Voluntary chat monitoring gets approved thanks to a procedural loophole",
       "url": "https://netzpolitik.org/2026/eu-parlament-freiwillige-chatkontrolle-geht-mit-verfahrenstrick-durch/",
       "source": "netzpolitik.org",
       "publishedAt": "2026-07-09T12:55:30.000Z",
@@ -854,17 +865,6 @@
       "category": "legal-regulatory",
       "region": "americas",
       "lang": "en"
-    },
-    {
-      "id": "cb1321d88630",
-      "title": "AfD Party Convention in Erfurt: The Fear of a Fascist Surveillance State",
-      "url": "https://netzpolitik.org/2026/afd-parteitag-in-erfurt-die-angst-vor-dem-faschistischen-ueberwachungsstaat/",
-      "source": "netzpolitik.org",
-      "publishedAt": "2026-07-06T06:36:18.000Z",
-      "category": "policy-perspectives",
-      "region": "europe",
-      "lang": "de",
-      "originalTitle": "AfD-Parteitag in Erfurt: Die Angst vor dem faschistischen Überwachungsstaat"
     },
     {
       "id": "f2077e226ff1",

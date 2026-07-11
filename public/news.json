@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T15:33:39.057Z",
+  "generatedAt": "2026-07-11T19:55:45.631Z",
   "items": [
     {
       "id": "6338dcdf3bea",
@@ -147,17 +147,6 @@
       "category": "legal-regulatory",
       "region": "cross-border",
       "lang": "en"
-    },
-    {
-      "id": "9ba22c776fa7",
-      "title": "DuckDuckGo Now Removes Ads from YouTube",
-      "url": "https://tecnoblog.net/noticias/duckduckgo-agora-remove-anuncios-do-youtube/",
-      "source": "Tecnoblog",
-      "publishedAt": "2026-07-08T18:25:08.000Z",
-      "category": "policy-perspectives",
-      "region": "americas",
-      "lang": "pt",
-      "originalTitle": "DuckDuckGo agora remove anúncios do YouTube"
     },
     {
       "id": "fdde18c0097f",
@@ -854,6 +843,17 @@
       "category": "legal-regulatory",
       "region": "americas",
       "lang": "en"
+    },
+    {
+      "id": "9c11338d998c",
+      "title": "The CNIL has imposed 23 new penalties since January under the simplified procedure",
+      "url": "https://www.cnil.fr/fr/23-nouvelles-sanctions-simplifiees",
+      "source": "CNIL",
+      "publishedAt": "2026-07-06T12:00:00.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "fr",
+      "originalTitle": "La CNIL a prononcé 23 nouvelles sanctions depuis janvier au titre de la procédure simplifiée"
     },
     {
       "id": "cb1321d88630",

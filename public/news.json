@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T19:55:45.631Z",
+  "generatedAt": "2026-07-11T22:33:30.633Z",
   "items": [
     {
       "id": "6338dcdf3bea",
@@ -345,17 +345,6 @@
       "region": "europe",
       "lang": "pl",
       "originalTitle": "[AKTUALIZACJA] Chat Control &#8211; politycy znów chcą czytać nasze prywatne wiadomości"
-    },
-    {
-      "id": "f89568f1e83a",
-      "title": "Employees are leaking data to a third-party AI. Let's take a look at the risks involved.",
-      "url": "https://habr.com/ru/articles/1057128/?utm_campaign=1057128&utm_source=habrahabr&utm_medium=rss",
-      "source": "Habr Security",
-      "publishedAt": "2026-07-08T14:23:53.000Z",
-      "category": "breaches",
-      "region": "europe",
-      "lang": "ru",
-      "originalTitle": "Сотрудники сливают данные в чужой ИИ. Разбираемся чем это грозит"
     },
     {
       "id": "c02934fb9dc4",
@@ -876,6 +865,17 @@
       "region": "europe",
       "lang": "pl",
       "originalTitle": "LastPass ponownie informuje o kradzieży danych użytkowników"
+    },
+    {
+      "id": "10773c36da53",
+      "title": "Royal Honor for Aleid Wolfsen",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/koninklijke-onderscheiding-voor-aleid-wolfsen",
+      "source": "Autoriteit Persoonsgegevens",
+      "publishedAt": "2026-06-25T15:43:47.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "nl",
+      "originalTitle": "Koninklijke onderscheiding voor Aleid Wolfsen"
     },
     {
       "id": "6b38ecc72ab3",

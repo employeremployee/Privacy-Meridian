@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T07:24:16.220Z",
+  "generatedAt": "2026-07-11T11:33:18.587Z",
   "items": [
     {
       "id": "3b30652011fa",
@@ -359,7 +359,7 @@
     },
     {
       "id": "f89568f1e83a",
-      "title": "Employees are leaking data to a third-party AI. Let's take a look at the risks involved.",
+      "title": "Employees are leaking data to a third-party AI. Let's take a look at the risks involved",
       "url": "https://habr.com/ru/articles/1057128/?utm_campaign=1057128&utm_source=habrahabr&utm_medium=rss",
       "source": "Habr Security",
       "publishedAt": "2026-07-08T14:23:53.000Z",

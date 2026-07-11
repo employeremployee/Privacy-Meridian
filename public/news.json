@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-11T11:33:18.587Z",
+  "generatedAt": "2026-07-11T15:33:39.057Z",
   "items": [
+    {
+      "id": "6338dcdf3bea",
+      "title": "TikTok class action alleges data breach affected 2.4B users",
+      "url": "https://databreaches.net/2026/07/11/tiktok-class-action-alleges-data-breach-affected-2-4b-users/?pk_campaign=feed&pk_kwd=tiktok-class-action-alleges-data-breach-affected-2-4b-users",
+      "source": "DataBreaches.net",
+      "publishedAt": "2026-07-11T12:56:27.000Z",
+      "category": "breaches",
+      "region": "americas",
+      "lang": "en"
+    },
     {
       "id": "3b30652011fa",
       "title": "License plate cameras may be next target after Supreme Court reins in location tracking",
@@ -150,16 +160,6 @@
       "originalTitle": "DuckDuckGo agora remove anúncios do YouTube"
     },
     {
-      "id": "d9100722dce3",
-      "title": "Patients Sue Healthcare Corporations Over Data Breaches, Sharing of Personal Information",
-      "url": "https://databreaches.net/2026/07/08/patients-sue-healthcare-corporations-over-data-breaches-sharing-of-personal-information/?pk_campaign=feed&pk_kwd=patients-sue-healthcare-corporations-over-data-breaches-sharing-of-personal-information",
-      "source": "DataBreaches.net",
-      "publishedAt": "2026-07-08T15:31:58.000Z",
-      "category": "breaches",
-      "region": "unspecified",
-      "lang": "en"
-    },
-    {
       "id": "fdde18c0097f",
       "title": "EDPB Opens Public Consultation on New Personal Data Breach Notification Template",
       "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/edpb-opens-public-consultation-on-new-personal-data-breach-notification-template",
@@ -263,6 +263,16 @@
       "originalTitle": "Zakaz mediów społecznościowych do 15. roku życia? Bez długofalowej strategii to za mało"
     },
     {
+      "id": "c2c1be1ab468",
+      "title": "Dutch police trace Odido telco cyberattack to suspected local accomplice; May leak voice recording",
+      "url": "https://databreaches.net/2026/07/11/dutch-police-trace-odido-telco-cyberattack-to-suspected-local-accomplice-may-leak-voice-recording/?pk_campaign=feed&pk_kwd=dutch-police-trace-odido-telco-cyberattack-to-suspected-local-accomplice-may-leak-voice-recording",
+      "source": "DataBreaches.net",
+      "publishedAt": "2026-07-11T12:51:45.000Z",
+      "category": "breaches",
+      "region": "europe",
+      "lang": "en"
+    },
+    {
       "id": "4748b54d4075",
       "title": "Backpack Containing Personal Storage Media with Junior High School Student Information Lost - Edogawa Ward",
       "url": "https://www.security-next.com/186977",
@@ -348,18 +358,8 @@
       "originalTitle": "[AKTUALIZACJA] Chat Control &#8211; politycy znów chcą czytać nasze prywatne wiadomości"
     },
     {
-      "id": "36073a1f27a3",
-      "title": "Why Bangladesh’s new data protection law may fail to protect your data",
-      "url": "https://databreaches.net/2026/07/08/why-bangladeshs-new-data-protection-law-may-fail-to-protect-your-data/?pk_campaign=feed&pk_kwd=why-bangladeshs-new-data-protection-law-may-fail-to-protect-your-data",
-      "source": "DataBreaches.net",
-      "publishedAt": "2026-07-08T15:23:34.000Z",
-      "category": "breaches",
-      "region": "unspecified",
-      "lang": "en"
-    },
-    {
       "id": "f89568f1e83a",
-      "title": "Employees are leaking data to a third-party AI. Let's take a look at the risks involved",
+      "title": "Employees are leaking data to a third-party AI. Let's take a look at the risks involved.",
       "url": "https://habr.com/ru/articles/1057128/?utm_campaign=1057128&utm_source=habrahabr&utm_medium=rss",
       "source": "Habr Security",
       "publishedAt": "2026-07-08T14:23:53.000Z",
@@ -494,6 +494,16 @@
       "originalTitle": "Jak Windows śledzi użytkowników przez Global Device ID (GDID)? Czyli o operacji FBI i wpadce nastoletniego przestępcy"
     },
     {
+      "id": "d9100722dce3",
+      "title": "Patients Sue Healthcare Corporations Over Data Breaches, Sharing of Personal Information",
+      "url": "https://databreaches.net/2026/07/08/patients-sue-healthcare-corporations-over-data-breaches-sharing-of-personal-information/?pk_campaign=feed&pk_kwd=patients-sue-healthcare-corporations-over-data-breaches-sharing-of-personal-information",
+      "source": "DataBreaches.net",
+      "publishedAt": "2026-07-08T15:31:58.000Z",
+      "category": "breaches",
+      "region": "unspecified",
+      "lang": "en"
+    },
+    {
       "id": "dc23de553377",
       "title": "AI Increases the Risks of Cyberattacks",
       "url": "https://autoriteitpersoonsgegevens.nl/actueel/ai-vergroot-gevaren-van-cyberaanvallen",
@@ -503,16 +513,6 @@
       "region": "europe",
       "lang": "nl",
       "originalTitle": "AI vergroot gevaren van cyberaanvallen"
-    },
-    {
-      "id": "70e74570a9e4",
-      "title": "Washington Dept. of Social and Health Services announces massive data breach",
-      "url": "https://databreaches.net/2026/07/07/washington-dept-of-social-and-health-services-announces-massive-data-breach/?pk_campaign=feed&pk_kwd=washington-dept-of-social-and-health-services-announces-massive-data-breach",
-      "source": "DataBreaches.net",
-      "publishedAt": "2026-07-07T22:17:55.000Z",
-      "category": "breaches",
-      "region": "unspecified",
-      "lang": "en"
     },
     {
       "id": "87f306ebc360",
@@ -618,6 +618,16 @@
       "originalTitle": "EU-Parlament: Freiwillige Chatkontrolle geht mit Verfahrenstrick durch"
     },
     {
+      "id": "36073a1f27a3",
+      "title": "Why Bangladesh’s new data protection law may fail to protect your data",
+      "url": "https://databreaches.net/2026/07/08/why-bangladeshs-new-data-protection-law-may-fail-to-protect-your-data/?pk_campaign=feed&pk_kwd=why-bangladeshs-new-data-protection-law-may-fail-to-protect-your-data",
+      "source": "DataBreaches.net",
+      "publishedAt": "2026-07-08T15:23:34.000Z",
+      "category": "breaches",
+      "region": "unspecified",
+      "lang": "en"
+    },
+    {
       "id": "15eeb37c3b2e",
       "title": "A Discussion on the AI Regulation",
       "url": "https://autoriteitpersoonsgegevens.nl/actueel/in-gesprek-over-de-ai-verordening",
@@ -627,16 +637,6 @@
       "region": "europe",
       "lang": "nl",
       "originalTitle": "In gesprek over de AI-verordening"
-    },
-    {
-      "id": "3894c7cd3790",
-      "title": "Bojangles sued again by workers over Russian hacker data breach. NC judge weighs in",
-      "url": "https://databreaches.net/2026/07/07/bojangles-sued-again-by-workers-over-russian-hacker-data-breach-nc-judge-weighs-in/?pk_campaign=feed&pk_kwd=bojangles-sued-again-by-workers-over-russian-hacker-data-breach-nc-judge-weighs-in",
-      "source": "DataBreaches.net",
-      "publishedAt": "2026-07-07T12:46:49.000Z",
-      "category": "breaches",
-      "region": "unspecified",
-      "lang": "en"
     },
     {
       "id": "ba68c26e33e1",
@@ -753,6 +753,16 @@
       "originalTitle": "Videoanalyse für die Bundespolizei: Bahnhofs-Kameras sollen Menschen und ihr Verhalten erkennen"
     },
     {
+      "id": "70e74570a9e4",
+      "title": "Washington Dept. of Social and Health Services announces massive data breach",
+      "url": "https://databreaches.net/2026/07/07/washington-dept-of-social-and-health-services-announces-massive-data-breach/?pk_campaign=feed&pk_kwd=washington-dept-of-social-and-health-services-announces-massive-data-breach",
+      "source": "DataBreaches.net",
+      "publishedAt": "2026-07-07T22:17:55.000Z",
+      "category": "breaches",
+      "region": "unspecified",
+      "lang": "en"
+    },
+    {
       "id": "71fb01a72497",
       "title": "Geolocation and Mobile Apps: What Rules Are in Place to Protect User Data?",
       "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-quelles-regles",
@@ -773,16 +783,6 @@
       "region": "europe",
       "lang": "nl",
       "originalTitle": "AP adviseert uitvoeringsorganisaties en toezichthouders: 11 voorwaarden bij signalen van fraude"
-    },
-    {
-      "id": "23211cf81f80",
-      "title": "Alberta, Centurion Project sued over alleged data breach that affected millions of voters",
-      "url": "https://databreaches.net/2026/07/06/alberta-centurion-project-sued-over-alleged-data-breach-that-affected-millions-of-voters/?pk_campaign=feed&pk_kwd=alberta-centurion-project-sued-over-alleged-data-breach-that-affected-millions-of-voters",
-      "source": "DataBreaches.net",
-      "publishedAt": "2026-07-06T12:09:24.000Z",
-      "category": "breaches",
-      "region": "unspecified",
-      "lang": "en"
     },
     {
       "id": "24cb8d7c7435",
@@ -826,17 +826,6 @@
       "lang": "en"
     },
     {
-      "id": "53cdd7cc0827",
-      "title": "Chrome wallpaper extensions with 105,000 installations linked to adware and fake traffic",
-      "url": "https://blog.segu-info.com.ar/2026/06/extensiones-de-fondo-de-pantalla-para.html",
-      "source": "Segu-Info",
-      "publishedAt": "2026-06-16T12:49:28.000Z",
-      "category": "legal-regulatory",
-      "region": "americas",
-      "lang": "es",
-      "originalTitle": "Extensiones de fondo de pantalla para Chrome con 105.000 instalaciones vinculadas a adware y tráfico falso"
-    },
-    {
       "id": "522ea77385bc",
       "title": "One-Stop-Shop case digest on right to object and right to erasure updated",
       "url": "https://www.edpb.europa.eu/news/one-stop-shop-case-digest-on-right-to-object-and-right-to-erasure-updated_en",
@@ -865,6 +854,17 @@
       "category": "legal-regulatory",
       "region": "americas",
       "lang": "en"
+    },
+    {
+      "id": "cb1321d88630",
+      "title": "AfD Party Convention in Erfurt: The Fear of a Fascist Surveillance State",
+      "url": "https://netzpolitik.org/2026/afd-parteitag-in-erfurt-die-angst-vor-dem-faschistischen-ueberwachungsstaat/",
+      "source": "netzpolitik.org",
+      "publishedAt": "2026-07-06T06:36:18.000Z",
+      "category": "policy-perspectives",
+      "region": "europe",
+      "lang": "de",
+      "originalTitle": "AfD-Parteitag in Erfurt: Die Angst vor dem faschistischen Überwachungsstaat"
     },
     {
       "id": "f2077e226ff1",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T11:43:46.439Z",
+  "generatedAt": "2026-07-12T15:40:07.885Z",
   "items": [
     {
       "id": "6338dcdf3bea",
@@ -585,6 +585,16 @@
       "lang": "en"
     },
     {
+      "id": "ec5e72b398da",
+      "title": "Nordic Media Giant Schibsted switches to “Pay or Okay” – complaint filed!",
+      "url": "https://noyb.eu/en/nordic-media-giant-schibsted-switches-pay-or-okay-complaint-filed",
+      "source": "noyb",
+      "publishedAt": "2026-06-03T05:00:00.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "en"
+    },
+    {
       "id": "16e316284cbd",
       "title": "Orix Life Insurance Accidentally Sends File Containing Customer Personal Information to an Agent - Orix Life Insurance",
       "url": "https://www.security-next.com/187065",
@@ -740,16 +750,6 @@
       "region": "europe",
       "lang": "de",
       "originalTitle": "Videoanalyse für die Bundespolizei: Bahnhofs-Kameras sollen Menschen und ihr Verhalten erkennen"
-    },
-    {
-      "id": "70e74570a9e4",
-      "title": "Washington Dept. of Social and Health Services announces massive data breach",
-      "url": "https://databreaches.net/2026/07/07/washington-dept-of-social-and-health-services-announces-massive-data-breach/?pk_campaign=feed&pk_kwd=washington-dept-of-social-and-health-services-announces-massive-data-breach",
-      "source": "DataBreaches.net",
-      "publishedAt": "2026-07-07T22:17:55.000Z",
-      "category": "breaches",
-      "region": "unspecified",
-      "lang": "en"
     },
     {
       "id": "71fb01a72497",

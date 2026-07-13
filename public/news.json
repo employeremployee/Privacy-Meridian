@@ -1,16 +1,27 @@
 {
-  "generatedAt": "2026-07-13T02:25:36.438Z",
+  "generatedAt": "2026-07-13T11:43:42.626Z",
   "items": [
     {
-      "id": "80b13771e4b6",
-      "title": "[On-Site Security Insights from CISO Lee Hyuk-joong - 7] Was It the Server That Was Compromised, or the Organization? The True State of an Organization Revealed by a Security Breach",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207567",
+      "id": "8396c6eb884e",
+      "title": "Lockin Company's Mobile Screen Security Service, LISS, Receives GS Certification Grade 1",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207586",
       "source": "DailySecu",
-      "publishedAt": "2026-07-13T07:15:28.000Z",
+      "publishedAt": "2026-07-13T18:13:19.000Z",
       "category": "breaches",
       "region": "asia-pacific",
       "lang": "ko",
-      "originalTitle": "[이혁중 CISO의 현장 보안 인사이트-7] 서버가 뚫린 것인가, 조직이 뚫린 것인가: 침해사고가 드러내는 조직의 민낯"
+      "originalTitle": "락인컴퍼니 모바일 화면보안 서비스 LISS, GS인증 1등급 획득"
+    },
+    {
+      "id": "e17248280aa2",
+      "title": "Possible Leak of Personal Information from a Third-Party Server - Korean Entertainment Company",
+      "url": "https://www.security-next.com/186971",
+      "source": "Security NEXT",
+      "publishedAt": "2026-07-13T08:16:21.000Z",
+      "category": "breaches",
+      "region": "asia-pacific",
+      "lang": "ja",
+      "originalTitle": "委託先のサーバから個人情報が流出した可能性 - 韓流エンタメ会社"
     },
     {
       "id": "6338dcdf3bea",
@@ -65,17 +76,6 @@
       "originalTitle": "Neues Bundespolizeigesetz: Der Bundestag hat das Zeitalter der automatisierten Überwachung eingeläutet"
     },
     {
-      "id": "fdd917b8efa0",
-      "title": "Invitation to Information Session Sent to Wrong Recipients; Names of All Expected Attendees Included - Osaka City",
-      "url": "https://www.security-next.com/187074",
-      "source": "Security NEXT",
-      "publishedAt": "2026-07-10T13:39:30.000Z",
-      "category": "breaches",
-      "region": "asia-pacific",
-      "lang": "ja",
-      "originalTitle": "説明会の案内状を誤送信、全参加予定者の氏名 - 大阪市"
-    },
-    {
       "id": "8d6354a30a5d",
       "title": "Data Brokers & Beyond: Navigating New Jersey’s Data Broker & “Data Collector” Registration Law",
       "url": "https://fpf.org/blog/data-brokers-beyond-navigating-new-jerseys-data-broker-data-collector-registration-law/",
@@ -115,16 +115,6 @@
       "publishedAt": "2026-07-10T11:02:04.000Z",
       "category": "legal-regulatory",
       "region": "europe",
-      "lang": "en"
-    },
-    {
-      "id": "b371da66106a",
-      "title": "Meta mulls keeping privacy LED light turned off in upcoming AI glasses: Report",
-      "url": "https://www.medianama.com/2026/07/223-meta-keeping-privacy-led-light-turned-off-upcoming-ai-glasses-report/",
-      "source": "MediaNama",
-      "publishedAt": "2026-07-10T08:19:26.000Z",
-      "category": "policy-perspectives",
-      "region": "asia-pacific",
       "lang": "en"
     },
     {
@@ -170,7 +160,7 @@
     },
     {
       "id": "227b37becb3b",
-      "title": "Arrest of a Criminal Sparks Debate on the Possibility of Tracking Windows Devices",
+      "title": "Arrest of a Criminal Sparks Debate on the Ability to Track Windows Devices",
       "url": "https://blog.segu-info.com.ar/2026/07/arresto-de-delincuente-abre-discusion.html",
       "source": "Segu-Info",
       "publishedAt": "2026-07-07T12:00:11.000Z",
@@ -241,6 +231,28 @@
       "originalTitle": "ElParking, la app de movilidad del Grupo Mutua Madrileña, sufre una brecha de datos."
     },
     {
+      "id": "80b13771e4b6",
+      "title": "[On-Site Security Insights from CISO Lee Hyuk-joong - 7] Was It the Server That Was Compromised, or the Organization? The True State of an Organization Revealed by a Security Breach",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207567",
+      "source": "DailySecu",
+      "publishedAt": "2026-07-13T07:15:28.000Z",
+      "category": "breaches",
+      "region": "asia-pacific",
+      "lang": "ko",
+      "originalTitle": "[이혁중 CISO의 현장 보안 인사이트-7] 서버가 뚫린 것인가, 조직이 뚫린 것인가: 침해사고가 드러내는 조직의 민낯"
+    },
+    {
+      "id": "43084e61b190",
+      "title": "Investigation into Potential Data Breach and Its Impact - TV Asahi Subsidiary",
+      "url": "https://www.security-next.com/187218",
+      "source": "Security NEXT",
+      "publishedAt": "2026-07-13T01:38:54.000Z",
+      "category": "breaches",
+      "region": "asia-pacific",
+      "lang": "ja",
+      "originalTitle": "情報流出の可能性、影響など調査 - テレビ朝日子会社"
+    },
+    {
       "id": "c2c1be1ab468",
       "title": "Dutch police trace Odido telco cyberattack to suspected local accomplice; May leak voice recording",
       "url": "https://databreaches.net/2026/07/11/dutch-police-trace-odido-telco-cyberattack-to-suspected-local-accomplice-may-leak-voice-recording/?pk_campaign=feed&pk_kwd=dutch-police-trace-odido-telco-cyberattack-to-suspected-local-accomplice-may-leak-voice-recording",
@@ -251,17 +263,6 @@
       "lang": "en"
     },
     {
-      "id": "4748b54d4075",
-      "title": "Backpack Containing Personal Storage Media with Junior High School Student Information Lost - Edogawa Ward",
-      "url": "https://www.security-next.com/186977",
-      "source": "Security NEXT",
-      "publishedAt": "2026-07-10T12:48:19.000Z",
-      "category": "breaches",
-      "region": "asia-pacific",
-      "lang": "ja",
-      "originalTitle": "中学校の生徒情報含む私物メディアを鞄ごと紛失 - 江戸川区"
-    },
-    {
       "id": "96d561137291",
       "title": "Dutch police trace Odido telco cyberattack to suspected local accomplice",
       "url": "https://therecord.media/dutch-police-suspect-dutch-accomplice-in-odido-cyberattack",
@@ -270,17 +271,6 @@
       "category": "breaches",
       "region": "unspecified",
       "lang": "en"
-    },
-    {
-      "id": "8caf52128d10",
-      "title": "U.S. Insurance Company Assurance America Suffers Data Breach Affecting Approximately 7 Million People",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207543",
-      "source": "DailySecu",
-      "publishedAt": "2026-07-09T21:07:37.000Z",
-      "category": "breaches",
-      "region": "asia-pacific",
-      "lang": "ko",
-      "originalTitle": "미국 보험사 어슈어런스아메리카, 약 700만 명 개인정보 유출"
     },
     {
       "id": "74ba1c4e72d7",
@@ -439,15 +429,36 @@
       "lang": "en"
     },
     {
-      "id": "ad9de9efd6d8",
-      "title": "Page with Volunteer Information Now Available - Chitose JAL International Marathon",
-      "url": "https://www.security-next.com/186914",
+      "id": "3a3864b8f93c",
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-05-22T16:34:24.000Z",
+      "category": "breaches",
+      "region": "americas",
+      "lang": "en"
+    },
+    {
+      "id": "fdd917b8efa0",
+      "title": "Invitation to Information Session Sent to Wrong Recipients; Names of All Expected Attendees Included - Osaka City",
+      "url": "https://www.security-next.com/187074",
       "source": "Security NEXT",
-      "publishedAt": "2026-07-10T11:39:01.000Z",
+      "publishedAt": "2026-07-10T13:39:30.000Z",
       "category": "breaches",
       "region": "asia-pacific",
       "lang": "ja",
-      "originalTitle": "ボランティア情報含むページが閲覧可能に - 千歳JAL国際マラソン"
+      "originalTitle": "説明会の案内状を誤送信、全参加予定者の氏名 - 大阪市"
+    },
+    {
+      "id": "8caf52128d10",
+      "title": "U.S. Insurance Company Assurance America Suffers Data Breach Affecting Approximately 7 Million People",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207543",
+      "source": "DailySecu",
+      "publishedAt": "2026-07-09T21:07:37.000Z",
+      "category": "breaches",
+      "region": "asia-pacific",
+      "lang": "ko",
+      "originalTitle": "미국 보험사 어슈어런스아메리카, 약 700만 명 개인정보 유출"
     },
     {
       "id": "e75f99da976a",
@@ -584,6 +595,17 @@
       "lang": "en"
     },
     {
+      "id": "4748b54d4075",
+      "title": "Backpack Containing Personal Storage Media with Junior High School Student Information Lost - Edogawa Ward",
+      "url": "https://www.security-next.com/186977",
+      "source": "Security NEXT",
+      "publishedAt": "2026-07-10T12:48:19.000Z",
+      "category": "breaches",
+      "region": "asia-pacific",
+      "lang": "ja",
+      "originalTitle": "中学校の生徒情報含む私物メディアを鞄ごと紛失 - 江戸川区"
+    },
+    {
       "id": "36073a1f27a3",
       "title": "Why Bangladesh’s new data protection law may fail to protect your data",
       "url": "https://databreaches.net/2026/07/08/why-bangladeshs-new-data-protection-law-may-fail-to-protect-your-data/?pk_campaign=feed&pk_kwd=why-bangladeshs-new-data-protection-law-may-fail-to-protect-your-data",
@@ -708,6 +730,17 @@
       "lang": "en"
     },
     {
+      "id": "ad9de9efd6d8",
+      "title": "Page with Volunteer Information Now Available - Chitose JAL International Marathon",
+      "url": "https://www.security-next.com/186914",
+      "source": "Security NEXT",
+      "publishedAt": "2026-07-10T11:39:01.000Z",
+      "category": "breaches",
+      "region": "asia-pacific",
+      "lang": "ja",
+      "originalTitle": "ボランティア情報含むページが閲覧可能に - 千歳JAL国際マラソン"
+    },
+    {
       "id": "71fb01a72497",
       "title": "Geolocation and Mobile Apps: What Rules Are in Place to Protect User Data?",
       "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-quelles-regles",
@@ -728,16 +761,6 @@
       "region": "europe",
       "lang": "nl",
       "originalTitle": "AP adviseert uitvoeringsorganisaties en toezichthouders: 11 voorwaarden bij signalen van fraude"
-    },
-    {
-      "id": "24cb8d7c7435",
-      "title": "The Realities of AI Video Surveillance",
-      "url": "https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html",
-      "source": "Schneier on Security",
-      "publishedAt": "2026-06-30T12:05:57.000Z",
-      "category": "policy-perspectives",
-      "region": "europe",
-      "lang": "en"
     },
     {
       "id": "86bf3de203ad",
@@ -864,28 +887,6 @@
       "lang": "en"
     },
     {
-      "id": "fb78e8d88902",
-      "title": "The Role of the DPO in the Age of Artificial Intelligence: Survey Results Released",
-      "url": "https://www.cnil.fr/fr/enquete-dpo-ia",
-      "source": "CNIL",
-      "publishedAt": "2026-07-03T12:00:00.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "fr",
-      "originalTitle": "Le métier de DPO à l’heure de l’intelligence artificielle : publication des résultats de l’enquête"
-    },
-    {
-      "id": "0e5f44442445",
-      "title": "AP Seeks Feedback on List of DPIA Exceptions",
-      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-vraagt-reacties-op-lijst-dpia-uitzonderingen",
-      "source": "Autoriteit Persoonsgegevens",
-      "publishedAt": "2026-06-24T07:06:20.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "nl",
-      "originalTitle": "AP vraagt reacties op lijst DPIA-uitzonderingen"
-    },
-    {
       "id": "e7f36e796c22",
       "title": "EDPB meets with EU Commissioner McGrath and adopts common data breach notification template",
       "url": "https://www.edpb.europa.eu/news/edpb-meets-with-eu-commissioner-mcgrath-and-adopts-common-data-breach-notification-template_en",
@@ -907,7 +908,7 @@
     },
     {
       "id": "ca0da0bdc9f2",
-      "title": "Protecting Children from Pornography — The Council of Ministers Has Approved a Bill",
+      "title": "Protecting Children from Pornography — The Council of Ministers Has Adopted a Bill",
       "url": "https://niebezpiecznik.pl/post/ochrona-dzieci-przed-pornografia-rada-ministrow-przyjela-projekt-ustawy/",
       "source": "Niebezpiecznik",
       "publishedAt": "2026-06-02T15:44:01.000Z",
@@ -917,22 +918,21 @@
       "originalTitle": "Ochrona dzieci przed pornografią &#8211; Rada Ministrów przyjęła projekt ustawy"
     },
     {
-      "id": "fadfacf6ed1e",
-      "title": "Agenda for the Plenary Session on July 2, 2026",
-      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-2-juillet-2026",
-      "source": "CNIL",
-      "publishedAt": "2026-07-02T12:00:00.000Z",
-      "category": "legal-regulatory",
-      "region": "europe",
-      "lang": "fr",
-      "originalTitle": "Ordre du jour de la séance plénière du 2 juillet 2026"
-    },
-    {
       "id": "200075e69d3f",
       "title": "Swedish SA: Administrative fine against Sportadmin",
       "url": "https://www.edpb.europa.eu/news/swedish-sa-administrative-fine-against-sportadmin_en",
       "source": "EDPB",
       "publishedAt": "2026-06-05T08:21:10.000Z",
+      "category": "legal-regulatory",
+      "region": "europe",
+      "lang": "en"
+    },
+    {
+      "id": "bc30f751116c",
+      "title": "Spain: Government approves the draft Organic Law on the proper use and governance of artificial intelligence",
+      "url": "https://privacymatters.dlapiper.com/2026/05/spain-government-approves-the-draft-organic-law-on-the-proper-use-and-governance-of-artificial-intelligence/",
+      "source": "DLA Piper Privacy Matters",
+      "publishedAt": "2026-05-28T15:46:13.000Z",
       "category": "legal-regulatory",
       "region": "europe",
       "lang": "en"

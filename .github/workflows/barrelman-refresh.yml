@@ -1,36 +1,43 @@
-name: Refresh Barrelman feed
+name: Refresh and deploy Barrelman
 
-# Fetches the latest privacy news, translates non-English titles via DeepL, and
-# commits public/news.json when it changes. Whatever host builds from this repo
-# (Netlify today, a custom host later) then redeploys automatically with the
-# fresh, translated feed. Host-independent by design.
+# Builds the site on GitHub's runners and deploys it to GitHub Pages. Everything
+# lives in GitHub: no third-party host, no access tokens, no build-minute wall.
+# Runs every 2 hours to refresh + translate the news feed, on any push (to
+# deploy code changes), and on demand.
 #
-# One-time GitHub setting required for the commit-back to work:
-#   Settings -> Actions -> General -> Workflow permissions -> "Read and write".
+# Required GitHub repository secret:
+#   DEEPL_API_KEY  - DeepL Free key (title translation)
+#
+# One-time repo setup: make the repo public (free Pages), then
+# Settings -> Pages -> Build and deployment -> Source: "GitHub Actions".
 
 on:
   schedule:
-    # Every 2 hours (keeps a private repo within free Actions minutes).
     - cron: '0 */2 * * *'
   push:
     branches: [v2-map-first]
-    # Only re-run on pushes that change the feed pipeline itself, not every code
-    # change (the scheduled run and the host's own build cover the rest).
-    paths:
-      - 'scripts/barrelman/**'
-      - '.github/workflows/barrelman-refresh.yml'
   workflow_dispatch: {}
 
-concurrency:
-  group: barrelman-refresh
-  cancel-in-progress: false
-
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a newer run supersede an in-flight one.
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
-  refresh:
+  build-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      # Project Pages serve from /Privacy-Meridian/. When a custom domain
+      # (privacymeridian.org) is added later, set this to "/" or remove it.
+      VITE_BASE: /Privacy-Meridian/
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -49,14 +56,20 @@ jobs:
         env:
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
 
-      - name: Commit updated feed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/news.json
-          if git diff --staged --quiet; then
-            echo "No feed changes to commit."
-          else
-            git commit -m "chore: refresh Barrelman feed"
-            git push
-          fi
+      - name: Build
+        run: npm run build
+
+      - name: Add SPA fallback for client-side routes
+        run: cp dist/index.html dist/404.html
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

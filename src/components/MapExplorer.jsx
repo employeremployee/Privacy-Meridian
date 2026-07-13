@@ -7,7 +7,8 @@ import {
   getJurisdictionForCountryCode,
 } from '../data/countryStatus.js'
 
-const GEO_URL = '/maps/world-110m.json'
+// Honor Vite's base path so the topology resolves under a Pages subpath too.
+const GEO_URL = `${import.meta.env.BASE_URL}maps/world-110m.json`
 
 // Map canvas size. translateExtent below is bound to this box so panning can
 // never move the map out of view: at full zoom-out it stays fixed, and panning

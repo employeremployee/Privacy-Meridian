@@ -4,7 +4,8 @@ import { useTranslation } from 'react-i18next'
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps'
 import { getJurisdictionForCountryCode } from '../data/jurisdictionRegions.js'
 
-const GEO_URL = '/maps/world-110m.json'
+// Honor Vite's base path so the topology resolves under a Pages subpath too.
+const GEO_URL = `${import.meta.env.BASE_URL}maps/world-110m.json`
 
 const INTERACTIVE_FOCUS_CLASS =
   'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'

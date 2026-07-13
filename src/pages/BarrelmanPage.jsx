@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import NewsCard from '../components/NewsCard.jsx'
 import NewsFilters from '../components/NewsFilters.jsx'
 import NewsPagination from '../components/NewsPagination.jsx'
-import { normalizeCategory, normalizeRegion } from '../data/barrelman/taxonomy.js'
+import { normalizeCategory } from '../data/barrelman/taxonomy.js'
 
 // Stories shown per page. The rest are reached through the pager or by swiping.
 const PAGE_SIZE = 9
@@ -30,7 +30,6 @@ function BarrelmanPage() {
 
   const [query, setQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState('all')
-  const [activeRegion, setActiveRegion] = useState('all')
   const [page, setPage] = useState(1)
 
   const touchStartRef = useRef(null)
@@ -68,16 +67,15 @@ function BarrelmanPage() {
     const q = query.trim().toLowerCase()
     return items.filter((item) => {
       if (activeCategory !== 'all' && normalizeCategory(item.category) !== activeCategory) return false
-      if (activeRegion !== 'all' && normalizeRegion(item.region) !== activeRegion) return false
       if (q) {
         const haystack = `${item.title} ${item.source}`.toLowerCase()
         if (!haystack.includes(q)) return false
       }
       return true
     })
-  }, [items, query, activeCategory, activeRegion])
+  }, [items, query, activeCategory])
 
-  const hasActiveFilters = query.trim() !== '' || activeCategory !== 'all' || activeRegion !== 'all'
+  const hasActiveFilters = query.trim() !== '' || activeCategory !== 'all'
 
   // Show 9 at a time. Reset to the first page whenever the filtered set changes.
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))
@@ -86,7 +84,7 @@ function BarrelmanPage() {
 
   useEffect(() => {
     setPage(1)
-  }, [query, activeCategory, activeRegion])
+  }, [query, activeCategory])
 
   function goToPage(next) {
     const clamped = Math.min(Math.max(1, next), totalPages)
@@ -115,7 +113,6 @@ function BarrelmanPage() {
   function clearFilters() {
     setQuery('')
     setActiveCategory('all')
-    setActiveRegion('all')
   }
 
   const generatedAt = feed?.generatedAt ? new Date(feed.generatedAt) : null
@@ -169,8 +166,6 @@ function BarrelmanPage() {
               onQueryChange={setQuery}
               activeCategory={activeCategory}
               onCategoryChange={setActiveCategory}
-              activeRegion={activeRegion}
-              onRegionChange={setActiveRegion}
               onClear={clearFilters}
               hasActiveFilters={hasActiveFilters}
             />

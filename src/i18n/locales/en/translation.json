@@ -128,9 +128,7 @@
     "searchLabel": "Search headlines",
     "searchPlaceholder": "Search headlines",
     "categoryFilterLabel": "Filter by category",
-    "regionFilterLabel": "Filter by region",
     "allCategories": "All",
-    "allRegions": "All regions",
     "resultCount": "{{count}} article",
     "resultCount_other": "{{count}} articles",
     "empty": "No articles match your filters. Try clearing them.",
@@ -153,14 +151,6 @@
       "legal-regulatory": "Legal & Regulatory",
       "policy-perspectives": "Policy & Perspectives",
       "breaches": "Breaches"
-    },
-    "region": {
-      "europe": "Europe",
-      "americas": "Americas",
-      "asia-pacific": "Asia-Pacific",
-      "africa": "Africa",
-      "middle-east": "Middle East",
-      "cross-border": "Cross-Border"
     },
     "language": {
       "en": "English",

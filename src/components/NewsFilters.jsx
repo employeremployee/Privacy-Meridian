@@ -1,22 +1,19 @@
 import { useId } from 'react'
 import { useTranslation } from 'react-i18next'
-import { NEWS_CATEGORIES, NEWS_REGIONS } from '../data/barrelman/taxonomy.js'
+import { NEWS_CATEGORIES } from '../data/barrelman/taxonomy.js'
 
-// Filter bar for the Barrelman grid: a search box, category chips, and a region
-// select. Fully controlled by the page so the visible grid always reflects it.
+// Filter bar for the Barrelman grid: a search box and category chips. Fully
+// controlled by the page so the visible grid always reflects it.
 function NewsFilters({
   query,
   onQueryChange,
   activeCategory,
   onCategoryChange,
-  activeRegion,
-  onRegionChange,
   onClear,
   hasActiveFilters,
 }) {
   const { t } = useTranslation()
   const searchId = useId()
-  const regionId = useId()
 
   const chips = [{ id: 'all', label: t('barrelman.allCategories') }].concat(
     NEWS_CATEGORIES.map((id) => ({ id, label: t(`barrelman.category.${id}`) })),
@@ -37,25 +34,6 @@ function NewsFilters({
             placeholder={t('barrelman.searchPlaceholder')}
             className="w-full max-w-xs rounded-md border border-rule bg-paper px-3 py-2 text-sm text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue"
           />
-        </div>
-
-        <div className="flex flex-col gap-1">
-          <label htmlFor={regionId} className="text-xs font-medium text-ink">
-            {t('barrelman.regionFilterLabel')}
-          </label>
-          <select
-            id={regionId}
-            value={activeRegion}
-            onChange={(event) => onRegionChange(event.target.value)}
-            className="rounded-md border border-rule bg-paper px-3 py-2 text-sm text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue"
-          >
-            <option value="all">{t('barrelman.allRegions')}</option>
-            {NEWS_REGIONS.map((id) => (
-              <option key={id} value={id}>
-                {t(`barrelman.region.${id}`)}
-              </option>
-            ))}
-          </select>
         </div>
 
         {hasActiveFilters && (

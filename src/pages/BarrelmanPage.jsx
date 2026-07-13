@@ -11,11 +11,13 @@ const PAGE_SIZE = 9
 // A horizontal drag past this many pixels flips the page on touch devices.
 const SWIPE_THRESHOLD = 50
 
-// How often to re-pull news.json while the page stays open (matches the feed's
-// own 30-minute refresh). Same-origin static file, so no third-party calls.
+// How often to re-pull news.json while the page stays open, to pick up the
+// roughly-2-hour server refresh. Same-origin static file, so no third-party calls.
 const REFRESH_MS = 30 * 60 * 1000
-// A feed older than this is flagged as stale so visitors know it may be behind.
-const STALE_MS = 90 * 60 * 1000
+// Only warn when the feed is genuinely behind. The server refreshes every ~2
+// hours, and scheduled CI plus the host build can add delay, so a healthy feed
+// can be up to ~2.5h old. Warn past 5 hours (about two missed refreshes).
+const STALE_MS = 5 * 60 * 60 * 1000
 
 // news.json is emitted into the site root, so honor Vite's base path (matters
 // once the site is served from a GitHub Pages subpath).

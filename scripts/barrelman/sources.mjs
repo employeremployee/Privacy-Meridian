@@ -89,16 +89,17 @@ export const RELEVANCE_TERMS = [
   'protección de datos', 'datos personales', 'privacidad', 'vigilancia', 'filtración de datos',
   // Portuguese
   'proteção de dados', 'dados pessoais', 'privacidade', 'vigilância', 'vazamento de dados',
-  // Japanese
-  '個人情報', 'プライバシー', '情報漏洩', '情報漏えい', '監視', 'データ保護',
+  // Japanese (personal-data specific: bare '情報漏洩'/'監視' let general security
+  // and confidential-info stories through, so they are intentionally omitted)
+  '個人情報', '個人データ', 'プライバシー', 'データ保護', '個人情報保護', '顔認証',
   // Chinese (simplified)
   '隐私', '个人信息', '数据保护', '数据泄露', '监控',
   // Russian
   'персональные данные', 'приватность', 'конфиденциальность', 'утечка данных', 'слежка', 'защита данных',
   // Polish
   'dane osobowe', 'prywatność', 'ochrona danych', 'rodo', 'wyciek danych', 'inwigilacja',
-  // Korean
-  '개인정보', '프라이버시', '정보 유출', '감시',
+  // Korean (personal-data specific; bare '감시'/'정보 유출' were too broad)
+  '개인정보', '프라이버시', '개인정보보호', '얼굴 인식',
 ]
 
 // Exclusion gate: drop solicitations, fundraising, and administrative pages that

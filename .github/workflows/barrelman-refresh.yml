@@ -51,6 +51,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Persist the feed build cache (link resolutions + title translations)
+      # across runs, so DeepL only ever translates a given title once. A fresh
+      # key each run always saves a new entry; restore-keys picks the latest.
+      - name: Restore Barrelman build cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: barrelman-cache-${{ github.run_id }}
+          restore-keys: |
+            barrelman-cache-
+
       - name: Fetch and translate the feed
         run: node scripts/barrelman/fetch-news.mjs
         env:

@@ -25,3 +25,7 @@ dist-ssr
 
 # Local Claude Code permission settings (machine-specific, not shared)
 .claude/settings.local.json
+
+# Barrelman build cache (URL resolutions + title translations). Rebuilt on the
+# fly; persisted across CI runs via actions/cache, never committed.
+.cache/

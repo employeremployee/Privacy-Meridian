@@ -426,7 +426,7 @@ const DEEPL_HOST =
   DEEPL_KEY && DEEPL_KEY.endsWith(':fx') ? 'https://api-free.deepl.com' : 'https://api.deepl.com'
 
 function tKey(lang, title) {
-  return createHash('sha1').update(`${lang} ${title}`).digest('hex')
+  return createHash('sha1').update(`${lang}|${title}`).digest('hex')
 }
 
 // Translate non-English titles to English in place, storing the original as

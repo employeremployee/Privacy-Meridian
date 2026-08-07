@@ -31,6 +31,10 @@ concurrency:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    # Normal runs finish in under a minute (the cache makes link resolution
+    # near-instant). Cap the job so a one-off network stall fails fast instead
+    # of hanging ~15 minutes before being cancelled.
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}

@@ -131,7 +131,7 @@ export const DENY_DOMAINS = new Set([
   // Stock/crypto/market aggregators that surface off-topic on a loose keyword match
   'marketscreener.com', 'benzinga.com', 'simplywall.st', 'seekingalpha.com', 'tradingview.com',
   'moomoo.com', 'bolsamania.com', 'kalkinemedia.com', 'kalkine.com.au', 'yellow.com',
-  'stocktitan.net', 'investing.com', 'coindesk.com',
+  'stocktitan.net', 'investing.com', 'coindesk.com', 'diariobitcoin.com',
   // Celebrity/entertainment outlets that match on "privacy" in a gossip context
   'gala.fr', 'film.wp.pl',
 ])
@@ -197,6 +197,23 @@ export const EXCLUDE_TERMS = [
   'speaking engagements', 'upcoming speaking',
   // Non-English solicitation
   'spenden', 'jetzt spenden', 'przekaż', 'wesprzyj', 'пожертвовать', 'haz una donación',
+  // Celebrity / human-interest "privacy" (a person pleading to be left alone),
+  // which is not data-privacy news. Deliberately high-precision so it does not
+  // catch legal coverage like "right to respect for private life" or a headline
+  // about protecting users' privacy. Bare "privacy" stays a valid signal because
+  // most bare-privacy stories are legitimate (regulators, AI, health data).
+  'asks for privacy', 'ask for privacy', 'asking for privacy', 'asked for privacy',
+  'request for privacy', 'requests for privacy', 'plea for privacy', 'pleads for privacy',
+  'begs for privacy', 'wants privacy', 'craves privacy', 'fiercely private',
+  'respect her privacy', 'respect his privacy', 'respecting her privacy', 'respecting his privacy',
+  'privacy during this difficult', 'as they grieve', 'as they mourn',
+  'pide privacidad', 'piden privacidad', 'solicita privacidad',
+  'chiede privacy', 'chiede riservatezza', 'pede privacidade', 'pedem privacidade',
+  'bittet um privatsphäre',
+  // Entertainment/tabloid markers that never occur in data-privacy news
+  'red carpet', 'baby bump', 'engagement ring', 'dating rumor', 'dating rumours', 'love life',
+  'tapis rouge', 'alfombra roja', 'tappeto rosso', 'tapete vermelho', 'roter teppich',
+  'vie amoureuse', 'vida amorosa', 'vita sentimentale', 'liebesleben',
 ]
 
 // Words that collapse an item into a category. Checked title + summary, in this

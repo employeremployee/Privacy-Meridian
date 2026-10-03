@@ -385,8 +385,8 @@
       "definition": "Data localization means a law requires certain personal data to be stored inside a specific country and not moved abroad without approval. China's privacy law requires this for organizations above certain size thresholds. This is one of the most significant structural differences between Chinese and European privacy law.",
       "jurisdiction": "PIPL specific (Article 40). No equivalent requirement in GDPR, CCPA/CPRA, or LGPD.",
       "source": {
-        "label": "PIPL Article 40: npc.gov.cn",
-        "url": "https://npc.gov.cn"
+        "label": "PIPL Article 40 (Stanford DigiChina)",
+        "url": "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/"
       },
       "definitions": {
         "de": "Datenlokalisierung bedeutet, dass ein Gesetz verlangt, bestimmte personenbezogene Daten innerhalb eines bestimmten Landes zu speichern und nicht ohne Genehmigung ins Ausland zu übermitteln. Das chinesische Datenschutzrecht verlangt dies für Organisationen oberhalb bestimmter Größenschwellen. Dies ist einer der bedeutendsten strukturellen Unterschiede zwischen chinesischem und europäischem Datenschutzrecht.",

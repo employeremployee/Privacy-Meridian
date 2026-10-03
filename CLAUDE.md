@@ -57,6 +57,7 @@ Follow the design system in the specification exactly. Key rules:
 
 - Color palette: Ink #1A1A2E, Deep Navy #16213E, Meridian Blue #0F3460, Horizon #533483, Paper #F8F7F4, Surface #EEECEA, Rule #D4D0CC, Muted #8A8480.
 - Selected Blue #5B9BD5 (token `--color-selected-blue`). Approved 2026-07-08 as the map's selected-country fill, since Deep Navy was too close to Meridian Blue to read as "picked." Use only for the map selected state unless asked otherwise.
+- Selected Border #9DC3E6 (soft sky blue). Approved 2026-10-03 as the map's selected-country border, replacing the old dark Meridian Blue outline, which read as too heavy. Borders were also thinned (selected 0.75px, enacted 0.5px). Map "developing" tier removed the same day: only laws fully in force are colored; everything else is grey.
 - Typography: Inter for all text. JetBrains Mono for article references and source citations.
 - Spacing: Base unit 4px. All spacing is a multiple of 4.
 - Signature element: A thin vertical rule in Meridian Blue (#0F3460) on the left edge of every content card and article block.

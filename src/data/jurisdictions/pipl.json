@@ -7,13 +7,13 @@
     "region": "China",
     "badge": "CN",
     "effectiveDate": "2021-11-01",
-    "sourceUrl": "https://www.npc.gov.cn",
+    "sourceUrl": "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/",
     "authority": {
       "name": "CAC",
       "url": "https://www.cac.gov.cn"
     },
     "sourceUrls": [
-      "https://www.npc.gov.cn",
+      "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/",
       "https://www.cac.gov.cn"
     ]
   },
@@ -32,12 +32,12 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Personal Information Protection Law: npc.gov.cn",
-              "url": "https://www.npc.gov.cn"
+              "label": "Personal Information Protection Law (Stanford DigiChina)",
+              "url": "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/"
             },
             {
               "label": "PIPL English Translation: digichina.stanford.edu",
-              "url": "https://digichina.stanford.edu"
+              "url": "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/"
             },
             {
               "label": "CAC: cac.gov.cn",
@@ -82,8 +82,8 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Personal Information Protection Law: npc.gov.cn",
-              "url": "https://www.npc.gov.cn"
+              "label": "Personal Information Protection Law (Stanford DigiChina)",
+              "url": "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/"
             },
             {
               "label": "CAC Consent Guidelines: cac.gov.cn",
@@ -129,8 +129,8 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Personal Information Protection Law: npc.gov.cn",
-              "url": "https://www.npc.gov.cn"
+              "label": "Personal Information Protection Law (Stanford DigiChina)",
+              "url": "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/"
             }
           ],
           "tooltipTerms": [
@@ -158,8 +158,8 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Personal Information Protection Law: npc.gov.cn",
-              "url": "https://www.npc.gov.cn"
+              "label": "Personal Information Protection Law (Stanford DigiChina)",
+              "url": "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/"
             }
           ],
           "tooltipTerms": [
@@ -187,8 +187,8 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Personal Information Protection Law: npc.gov.cn",
-              "url": "https://www.npc.gov.cn"
+              "label": "Personal Information Protection Law (Stanford DigiChina)",
+              "url": "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/"
             }
           ],
           "tooltipTerms": [
@@ -238,8 +238,8 @@
           ],
           "sourceLinks": [
             {
-              "label": "Personal Information Protection Law: npc.gov.cn",
-              "url": "https://www.npc.gov.cn"
+              "label": "Personal Information Protection Law (Stanford DigiChina)",
+              "url": "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/"
             },
             {
               "label": "CAC Cross-Border Transfer Regulations: cac.gov.cn",
@@ -277,8 +277,8 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Personal Information Protection Law: npc.gov.cn",
-              "url": "https://www.npc.gov.cn"
+              "label": "Personal Information Protection Law (Stanford DigiChina)",
+              "url": "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/"
             },
             {
               "label": "CAC Regulations on Data Localization",
@@ -324,8 +324,8 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Personal Information Protection Law: npc.gov.cn",
-              "url": "https://www.npc.gov.cn"
+              "label": "Personal Information Protection Law (Stanford DigiChina)",
+              "url": "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/"
             },
             {
               "label": "CAC Incident Guidance",

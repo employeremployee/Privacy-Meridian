@@ -1,9 +1,11 @@
-// Country legal-status tiers for the v2 map. One axis drives map color + interactivity + content depth.
+// Country legal-status for the v2 map. One axis drives map color + interactivity.
 //
 // Tiers:
-//   'enacted'    -> comprehensive law in force. Strong color, drillable, full content.
-//   'developing' -> law passed-but-not-in-force OR actively developing. Distinct color, identified only.
-//   (absent)     -> no comprehensive law. Neutral, non-interactive.
+//   'enacted' -> comprehensive law in force. Strong color, drillable, full content.
+//   (absent)  -> no comprehensive law in force yet. Neutral grey, non-interactive.
+//
+// A law that is passed but not yet in force is intentionally NOT shown as a
+// separate tier: only laws that are 100% live are colored. Everything else is grey.
 //
 // ISO 3166-1 numeric codes, matched against public/maps/world-110m.json's geo.id.
 // This file is the v2 map's own mapping. The legacy jurisdictionRegions.js is left
@@ -35,13 +37,6 @@ const V2_REGION_CODES = {
   dpdp: ['356'], // India
 }
 
-// Illustrative only: placeholder classifications to show the 'developing' tier color.
-// Unverified; replace with a reviewed country-status dataset before launch.
-const DEVELOPING_CODES = {
-  360: 'Indonesia (PDP Law)',
-  566: 'Nigeria (NDPA)',
-}
-
 export function getJurisdictionForCountryCode(code) {
   for (const [jurisdictionId, codes] of Object.entries(V2_REGION_CODES)) {
     if (codes.includes(code)) return jurisdictionId
@@ -50,13 +45,7 @@ export function getJurisdictionForCountryCode(code) {
 }
 
 export function getCountryStatus(code) {
-  if (getJurisdictionForCountryCode(code)) return 'enacted'
-  if (DEVELOPING_CODES[code]) return 'developing'
-  return null
-}
-
-export function getDevelopingLabel(code) {
-  return DEVELOPING_CODES[code] || null
+  return getJurisdictionForCountryCode(code) ? 'enacted' : null
 }
 
 export { V2_REGION_CODES as JURISDICTION_REGION_CODES }

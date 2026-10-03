@@ -1,11 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from 'react-simple-maps'
-import {
-  getCountryStatus,
-  getDevelopingLabel,
-  getJurisdictionForCountryCode,
-} from '../data/countryStatus.js'
+import { getJurisdictionForCountryCode } from '../data/countryStatus.js'
 
 // Honor Vite's base path so the topology resolves under a Pages subpath too.
 const GEO_URL = `${import.meta.env.BASE_URL}maps/world-110m.json`
@@ -16,20 +12,30 @@ const GEO_URL = `${import.meta.env.BASE_URL}maps/world-110m.json`
 const MAP_WIDTH = 800
 const MAP_HEIGHT = 400
 
-// Status -> fill. Enacted = Meridian Blue (strong), Developing = Horizon (distinct), none = Rule (neutral).
-// Selected = light azure so a picked country reads clearly against the dark unselected blue.
+// Status -> fill. Enacted = Meridian Blue (strong); everything else is neutral
+// grey. Selected = light azure with a soft light-blue border so a picked country
+// reads clearly against the dark unselected blue. Laws not yet in force are grey.
 const FILL = {
   enacted: '#0F3460',
   enactedHover: '#16213E',
   selected: '#5B9BD5',
   selectedHover: '#4A8BC7',
-  developing: '#533483',
-  developingHover: '#3E2762',
   none: '#D4D0CC',
 }
 
+// Light-blue border for a selected country (approved 2026-10-03). Softer and
+// thinner than the old dark Meridian Blue outline, which read as too heavy.
+const SELECTED_BORDER = '#9DC3E6'
+
 const FOCUS_CLASS =
   'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+
+// Ignore touch gestures for pan/zoom so a finger drag scrolls the page instead of
+// getting trapped inside the map (iOS). Desktop mouse drag and wheel still zoom.
+// Paired with touch-action: pan-y on the container below.
+function filterZoomEvent(event) {
+  return !String(event.type).startsWith('touch')
+}
 
 function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onSelectJurisdiction }) {
   const { t } = useTranslation()
@@ -38,8 +44,6 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
   function labelForGeo(geo) {
     const jurisdictionId = getJurisdictionForCountryCode(geo.id)
     if (jurisdictionId) return jurisdictionsData[jurisdictionId].jurisdiction.fullName
-    const dev = getDevelopingLabel(geo.id)
-    if (dev) return `${dev}, developing`
     return null
   }
 
@@ -56,7 +60,7 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
         {hoveredLabel ? t('map.currentlyHighlighting', { name: hoveredLabel }) : ' '}
       </p>
 
-      <div className="overflow-hidden rounded-lg border border-rule bg-paper">
+      <div className="mx-auto max-w-[900px] touch-pan-y overflow-hidden rounded-lg border border-rule bg-paper">
         <ComposableMap
           projection="geoMercator"
           width={MAP_WIDTH}
@@ -68,6 +72,7 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
             zoom={1}
             maxZoom={8}
             minZoom={1}
+            filterZoomEvent={filterZoomEvent}
             translateExtent={[
               [0, 0],
               [MAP_WIDTH, MAP_HEIGHT],
@@ -76,32 +81,23 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
             <Geographies geography={GEO_URL}>
               {({ geographies }) =>
                 geographies.map((geo) => {
-                  const status = getCountryStatus(geo.id)
                   const jurisdictionId = getJurisdictionForCountryCode(geo.id)
                   const interactive = !!jurisdictionId
                   const label = labelForGeo(geo)
                   const isSelected = interactive && selectedIds.includes(jurisdictionId)
 
+                  // Non-interactive countries (no law in force) are neutral grey.
                   if (!interactive) {
-                    const devFill = status === 'developing' ? FILL.developing : FILL.none
-                    const devHover = status === 'developing' ? FILL.developingHover : FILL.none
                     return (
                       <Geography
                         key={geo.rsmKey}
                         geography={geo}
-                        tabIndex={status === 'developing' ? 0 : -1}
-                        aria-hidden={status === 'developing' ? undefined : 'true'}
-                        aria-label={status === 'developing' ? label : undefined}
-                        role={status === 'developing' ? 'img' : undefined}
-                        onMouseEnter={() => status === 'developing' && setHoveredLabel(label)}
-                        onMouseLeave={() => setHoveredLabel(null)}
-                        onFocus={() => status === 'developing' && setHoveredLabel(label)}
-                        onBlur={() => setHoveredLabel(null)}
-                        className={status === 'developing' ? FOCUS_CLASS : undefined}
+                        tabIndex={-1}
+                        aria-hidden="true"
                         style={{
-                          default: { fill: devFill, stroke: '#F8F7F4', strokeWidth: 0.5, outline: 'none' },
-                          hover: { fill: devHover, stroke: '#F8F7F4', strokeWidth: 0.5, outline: 'none' },
-                          pressed: { fill: devHover, stroke: '#F8F7F4', strokeWidth: 0.5, outline: 'none' },
+                          default: { fill: FILL.none, stroke: '#F8F7F4', strokeWidth: 0.5, outline: 'none' },
+                          hover: { fill: FILL.none, stroke: '#F8F7F4', strokeWidth: 0.5, outline: 'none' },
+                          pressed: { fill: FILL.none, stroke: '#F8F7F4', strokeWidth: 0.5, outline: 'none' },
                         }}
                       />
                     )
@@ -111,19 +107,20 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
                     ? t('map.selectedJurisdictionLabel', { name: label })
                     : t('map.viewJurisdictionLabel', { name: label })
 
-                  // Selected countries get a light-azure fill with a Meridian
-                  // Blue border, and stay light on hover instead of flipping to
-                  // navy, so the picked state reads clearly at a glance.
+                  // Selected countries get a light-azure fill with a soft
+                  // light-blue border, and stay light on hover instead of
+                  // flipping to navy, so the picked state reads at a glance.
+                  // Borders are kept thin so they do not overwhelm the map.
                   const geoStyle = isSelected
                     ? {
-                        default: { fill: FILL.selected, stroke: '#0F3460', strokeWidth: 1.5, outline: 'none', cursor: 'pointer' },
-                        hover: { fill: FILL.selectedHover, stroke: '#0F3460', strokeWidth: 1.5, outline: 'none', cursor: 'pointer' },
-                        pressed: { fill: FILL.selectedHover, stroke: '#0F3460', strokeWidth: 1.5, outline: 'none', cursor: 'pointer' },
+                        default: { fill: FILL.selected, stroke: SELECTED_BORDER, strokeWidth: 0.75, outline: 'none', cursor: 'pointer' },
+                        hover: { fill: FILL.selectedHover, stroke: SELECTED_BORDER, strokeWidth: 0.75, outline: 'none', cursor: 'pointer' },
+                        pressed: { fill: FILL.selectedHover, stroke: SELECTED_BORDER, strokeWidth: 0.75, outline: 'none', cursor: 'pointer' },
                       }
                     : {
-                        default: { fill: FILL.enacted, stroke: '#FFFFFF', strokeWidth: 0.75, outline: 'none', cursor: 'pointer' },
-                        hover: { fill: FILL.enactedHover, stroke: '#FFFFFF', strokeWidth: 1, outline: 'none', cursor: 'pointer' },
-                        pressed: { fill: FILL.enactedHover, stroke: '#FFFFFF', strokeWidth: 1, outline: 'none', cursor: 'pointer' },
+                        default: { fill: FILL.enacted, stroke: '#FFFFFF', strokeWidth: 0.5, outline: 'none', cursor: 'pointer' },
+                        hover: { fill: FILL.enactedHover, stroke: '#FFFFFF', strokeWidth: 0.75, outline: 'none', cursor: 'pointer' },
+                        pressed: { fill: FILL.enactedHover, stroke: '#FFFFFF', strokeWidth: 0.75, outline: 'none', cursor: 'pointer' },
                       }
 
                   return (

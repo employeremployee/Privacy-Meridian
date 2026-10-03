@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next'
 
 const ITEMS = [
   { key: 'enacted', color: '#0F3460' },
-  { key: 'developing', color: '#533483' },
   { key: 'none', color: '#D4D0CC' },
 ]
 

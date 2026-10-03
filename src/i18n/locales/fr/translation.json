@@ -1,1 +1,171 @@
-{}
+{
+  "app": {
+    "siteName": "Privacy Meridian",
+    "tagline": "Naviguez dans le droit mondial de la vie privée."
+  },
+  "mode": {
+    "groupLabel": "Mode du site",
+    "inform": "Mode Information",
+    "assess": "Mode Évaluation"
+  },
+  "entrySelector": {
+    "label": "Point d'entrée",
+    "byRegulation": "Par loi",
+    "byTopic": "Par thème",
+    "byMap": "Par carte"
+  },
+  "contentBlock": {
+    "timelineLabel": "Délais de réponse",
+    "sourceLinksLabel": "Sources",
+    "crossReferencesLabel": "Articles liés",
+    "personalImpact": "Ce que cela signifie pour vous"
+  },
+  "glossary": {
+    "learnMore": "En savoir plus"
+  },
+  "assess": {
+    "considerLabel": "À considérer"
+  },
+  "gapRemediation": {
+    "heading": "Comment combler l'écart"
+  },
+  "tiers": {
+    "smb": "Petite entreprise",
+    "midMarket": "Moyenne entreprise",
+    "enterprise": "Grande entreprise"
+  },
+  "comparisonGrid": {
+    "requirementColumn": "Exigence",
+    "showDifferencesOnly": "Afficher uniquement les différences",
+    "additionalRequirement": "Exigence supplémentaire",
+    "structuralDifference": "Différence structurelle",
+    "showingCount": "Affichage de {{shown}} sur {{total}} exigences"
+  },
+  "modal": {
+    "close": "Fermer"
+  },
+  "map": {
+    "skipLink": "Passer la carte du monde",
+    "instructions": "Utilisez la tabulation ou le survol sur les pays en surbrillance pour voir quelle loi de confidentialité s'applique. Les pays en bleu ouvrent le détail juridique complet.",
+    "viewJurisdictionLabel": "Voir le droit de la vie privée de {{name}}",
+    "selectedJurisdictionLabel": "{{name}}, sélectionné. Activez pour retirer de la comparaison.",
+    "currentlyHighlighting": "En surbrillance : {{name}}",
+    "nationalImplementationNote": "Le RGPD s'applique dans toute l'UE. {{country}} peut aussi avoir une mise en œuvre nationale supplémentaire."
+  },
+  "home": {
+    "exploreTab": "Explorer",
+    "compareTab": "Comparer",
+    "viewLabel": "Vue",
+    "exploreHint": "Choisissez un pays sur la carte pour voir sa loi de confidentialité.",
+    "compareHint": "Choisissez un thème, puis des pays sur la carte pour les comparer côte à côte.",
+    "draftBadge": "Données provisoires",
+    "statusIllustrative": "Les couleurs de statut des pays sont indicatives dans ce prototype et pas encore vérifiées.",
+    "compareSelectedCount": "{{count}} pays sur {{max}} sélectionnés.",
+    "compareLimitReached": "Limite atteinte. Retirez un pays avant d'en ajouter un autre."
+  },
+  "legend": {
+    "heading": "Légende de la carte",
+    "enacted": "Loi complète en vigueur",
+    "developing": "Loi en cours d'élaboration ou pas encore en vigueur",
+    "none": "Pas de loi complète"
+  },
+  "topicPicker": {
+    "label": "Thème"
+  },
+  "countryPicker": {
+    "label": "Choisissez un pays",
+    "placeholder": "Saisissez le nom d'un pays",
+    "noResults": "Aucun pays ne correspond à ce nom.",
+    "clearAll": "Effacer toutes les sélections"
+  },
+  "comparison": {
+    "requirementColumn": "Catégorie",
+    "yes": "Oui",
+    "partial": "Partiel",
+    "no": "Non",
+    "pickCountries": "Choisissez des pays sur la carte pour comparer.",
+    "draftNotice": "Données de comparaison provisoires : en cours d'examen, pas encore vérifiées."
+  },
+  "drilldown": {
+    "draftNotice": "Contenu provisoire : en cours d'examen, pas encore vérifié."
+  },
+  "organizations": {
+    "toggle": "Aide pour les organisations",
+    "toggleHint": "Afficher les conseils de conformité pour les organisations"
+  },
+  "languageSelector": {
+    "label": "Langue"
+  },
+  "regulationNav": {
+    "label": "Choisissez une juridiction",
+    "heading": "Choisissez une juridiction"
+  },
+  "topicNav": {
+    "label": "Choisissez un thème",
+    "heading": "Choisissez un thème"
+  },
+  "footer": {
+    "sourceAttribution": "Le contenu s'appuie sur des textes réglementaires officiels et des orientations publiques.",
+    "about": "À propos",
+    "lastUpdated": "Dernière mise à jour en juillet 2026",
+    "copyright": "© 2026 Privacy Meridian. Tous droits réservés."
+  },
+  "nav": {
+    "barrelman": "Privacy Barrelman",
+    "news": "Actualités",
+    "backToMap": "Retour à la carte"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "message": "Cette page n'existe pas ou a été déplacée."
+  },
+  "barrelman": {
+    "title": "Privacy Barrelman",
+    "tagline": "La vigie de l'actualité mondiale de la vie privée.",
+    "intro": "Actualités récentes sur la vie privée du monde entier, mises à jour tout au long de la journée.",
+    "updatedAt": "Mis à jour {{time}}",
+    "updatedUnknown": "Heure de mise à jour inconnue",
+    "searchLabel": "Rechercher dans les titres",
+    "searchPlaceholder": "Rechercher dans les titres",
+    "categoryFilterLabel": "Filtrer par catégorie",
+    "allCategories": "Toutes",
+    "resultCount": "{{count}} article",
+    "resultCount_other": "{{count}} articles",
+    "empty": "Aucun article ne correspond à vos filtres. Essayez de les effacer.",
+    "clearFilters": "Effacer les filtres",
+    "loading": "Chargement des dernières actualités sur la vie privée.",
+    "error": "Le flux d'actualités n'a pas pu se charger pour le moment. Veuillez réessayer plus tard.",
+    "stale": "Ce flux n'a pas été actualisé récemment. Les articles les plus récents disponibles sont affichés.",
+    "seedNotice": "Exemples d'articles pour l'instant. Le flux en direct s'active une fois le site publié.",
+    "openInNewTab": "S'ouvre dans un nouvel onglet",
+    "sourceLabel": "Source : {{source}}",
+    "inLanguage": "En {{language}}",
+    "pagination": {
+      "label": "Pages d'actualités",
+      "previous": "Pages précédentes",
+      "next": "Pages suivantes",
+      "page": "Page {{page}}",
+      "status": "Page {{page}} sur {{total}}"
+    },
+    "category": {
+      "legal-regulatory": "Droit et réglementation",
+      "policy-perspectives": "Politique et perspectives",
+      "breaches": "Violations de données"
+    },
+    "language": {
+      "en": "anglais",
+      "fr": "français",
+      "de": "allemand",
+      "nl": "néerlandais",
+      "es": "espagnol",
+      "pt": "portugais",
+      "ja": "japonais",
+      "zh": "chinois",
+      "ru": "russe",
+      "pl": "polonais",
+      "ko": "coréen",
+      "it": "italien",
+      "ar": "arabe"
+    }
+  }
+}

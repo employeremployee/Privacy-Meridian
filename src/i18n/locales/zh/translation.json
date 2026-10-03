@@ -1,1 +1,171 @@
-{}
+{
+  "app": {
+    "siteName": "Privacy Meridian",
+    "tagline": "纵览全球隐私法律。"
+  },
+  "mode": {
+    "groupLabel": "网站模式",
+    "inform": "信息模式",
+    "assess": "评估模式"
+  },
+  "entrySelector": {
+    "label": "入口",
+    "byRegulation": "按法律",
+    "byTopic": "按主题",
+    "byMap": "按地图"
+  },
+  "contentBlock": {
+    "timelineLabel": "响应时限",
+    "sourceLinksLabel": "来源",
+    "crossReferencesLabel": "相关条文",
+    "personalImpact": "这对您意味着什么"
+  },
+  "glossary": {
+    "learnMore": "了解更多"
+  },
+  "assess": {
+    "considerLabel": "注意事项"
+  },
+  "gapRemediation": {
+    "heading": "如何弥合差距"
+  },
+  "tiers": {
+    "smb": "小型企业",
+    "midMarket": "中型企业",
+    "enterprise": "大型企业"
+  },
+  "comparisonGrid": {
+    "requirementColumn": "要求",
+    "showDifferencesOnly": "仅显示差异",
+    "additionalRequirement": "额外要求",
+    "structuralDifference": "结构性差异",
+    "showingCount": "正在显示 {{total}} 项要求中的 {{shown}} 项"
+  },
+  "modal": {
+    "close": "关闭"
+  },
+  "map": {
+    "skipLink": "跳过世界地图",
+    "instructions": "使用 Tab 键或将鼠标悬停在高亮的国家上，查看适用的隐私法律。蓝色国家可打开完整的法律详情。",
+    "viewJurisdictionLabel": "查看{{name}}的隐私法律",
+    "selectedJurisdictionLabel": "已选择{{name}}。激活可从比较中移除。",
+    "currentlyHighlighting": "高亮显示：{{name}}",
+    "nationalImplementationNote": "GDPR 适用于整个欧盟。{{country}}可能还有额外的国家层面实施规定。"
+  },
+  "home": {
+    "exploreTab": "浏览",
+    "compareTab": "比较",
+    "viewLabel": "视图",
+    "exploreHint": "在地图上选择一个国家，查看其隐私法律。",
+    "compareHint": "先选择一个主题，再在地图上选择国家，进行并排比较。",
+    "draftBadge": "草稿数据",
+    "statusIllustrative": "本原型中各国的状态颜色仅供参考，尚未经过核实。",
+    "compareSelectedCount": "已选择 {{max}} 个国家中的 {{count}} 个。",
+    "compareLimitReached": "已达上限。请先移除一个国家，再添加其他国家。"
+  },
+  "legend": {
+    "heading": "地图图例",
+    "enacted": "全面法律已生效",
+    "developing": "法律制定中或尚未生效",
+    "none": "没有全面法律"
+  },
+  "topicPicker": {
+    "label": "主题"
+  },
+  "countryPicker": {
+    "label": "选择一个国家",
+    "placeholder": "输入国家名称",
+    "noResults": "没有与该名称匹配的国家。",
+    "clearAll": "清除所有选择"
+  },
+  "comparison": {
+    "requirementColumn": "类别",
+    "yes": "是",
+    "partial": "部分",
+    "no": "否",
+    "pickCountries": "在地图上选择国家进行比较。",
+    "draftNotice": "比较数据为草稿：审核中，尚未核实。"
+  },
+  "drilldown": {
+    "draftNotice": "草稿内容：审核中，尚未核实。"
+  },
+  "organizations": {
+    "toggle": "面向组织的帮助",
+    "toggleHint": "显示面向组织的合规指南"
+  },
+  "languageSelector": {
+    "label": "语言"
+  },
+  "regulationNav": {
+    "label": "选择一个司法管辖区",
+    "heading": "选择一个司法管辖区"
+  },
+  "topicNav": {
+    "label": "选择一个主题",
+    "heading": "选择一个主题"
+  },
+  "footer": {
+    "sourceAttribution": "内容参考官方法规文本和公开指南。",
+    "about": "关于",
+    "lastUpdated": "最后更新于 2026 年 7 月",
+    "copyright": "© 2026 Privacy Meridian。保留所有权利。"
+  },
+  "nav": {
+    "barrelman": "Privacy Barrelman",
+    "news": "新闻",
+    "backToMap": "返回地图"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "message": "该页面不存在或已移动。"
+  },
+  "barrelman": {
+    "title": "Privacy Barrelman",
+    "tagline": "全球隐私新闻的瞭望员。",
+    "intro": "来自世界各地的最新隐私新闻，全天更新。",
+    "updatedAt": "更新于 {{time}}",
+    "updatedUnknown": "更新时间未知",
+    "searchLabel": "搜索标题",
+    "searchPlaceholder": "搜索标题",
+    "categoryFilterLabel": "按类别筛选",
+    "allCategories": "全部",
+    "resultCount": "{{count}} 篇文章",
+    "resultCount_other": "{{count}} 篇文章",
+    "empty": "没有符合筛选条件的文章。请尝试清除筛选。",
+    "clearFilters": "清除筛选",
+    "loading": "正在加载最新的隐私新闻。",
+    "error": "目前无法加载新闻源。请稍后再试。",
+    "stale": "此新闻源近期未更新。正在显示我们现有的最新文章。",
+    "seedNotice": "暂为示例新闻。网站发布后将启用实时新闻源。",
+    "openInNewTab": "在新标签页中打开",
+    "sourceLabel": "来源：{{source}}",
+    "inLanguage": "{{language}}原文",
+    "pagination": {
+      "label": "新闻页",
+      "previous": "上一页",
+      "next": "下一页",
+      "page": "第 {{page}} 页",
+      "status": "第 {{page}} 页，共 {{total}} 页"
+    },
+    "category": {
+      "legal-regulatory": "法律与监管",
+      "policy-perspectives": "政策与观点",
+      "breaches": "数据泄露"
+    },
+    "language": {
+      "en": "英语",
+      "fr": "法语",
+      "de": "德语",
+      "nl": "荷兰语",
+      "es": "西班牙语",
+      "pt": "葡萄牙语",
+      "ja": "日语",
+      "zh": "中文",
+      "ru": "俄语",
+      "pl": "波兰语",
+      "ko": "韩语",
+      "it": "意大利语",
+      "ar": "阿拉伯语"
+    }
+  }
+}

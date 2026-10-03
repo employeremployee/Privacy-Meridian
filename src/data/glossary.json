@@ -9,6 +9,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Ein Verantwortlicher entscheidet, warum und wie personenbezogene Daten erhoben und verwendet werden. Ein Auftragsverarbeiter verarbeitet diese Daten im Auftrag des Verantwortlichen. Wenn Sie ein Unternehmen mit der Verwaltung Ihrer Kundendatenbank beauftragen, sind Sie der Verantwortliche. Das Unternehmen ist der Auftragsverarbeiter.",
+        "es": "Un responsable del tratamiento decide por qué y cómo se recopilan y usan los datos personales. Un encargado del tratamiento gestiona esos datos en nombre del responsable. Si contrata a una empresa para gestionar su base de datos de clientes, usted es el responsable. Ellos son el encargado.",
+        "fr": "Un responsable du traitement décide pourquoi et comment les données personnelles sont collectées et utilisées. Un sous-traitant traite ces données pour le compte du responsable. Si vous engagez une entreprise pour gérer votre base de données clients, vous êtes le responsable. Elle est le sous-traitant.",
+        "pt": "Um controlador decide por que e como os dados pessoais são coletados e usados. Um operador trata esses dados em nome do controlador. Se você contrata uma empresa para gerenciar seu banco de dados de clientes, você é o controlador. Ela é o operador.",
+        "zh": "控制者决定为何以及如何收集和使用个人数据。处理者代表控制者处理这些数据。如果您聘请一家公司管理您的客户数据库，您就是控制者，他们则是处理者。"
       }
     },
     {
@@ -20,6 +27,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Einwilligung bedeutet, dass Sie aktiv zugestimmt haben, dass ein Unternehmen Ihre personenbezogenen Daten verwenden darf. Sie muss freiwillig, spezifisch und leicht verständlich sein. Widerruf bedeutet, dass Sie diese Zustimmung jederzeit zurücknehmen können. Das Unternehmen muss den Widerruf der Einwilligung so einfach machen wie deren Erteilung.",
+        "es": "El consentimiento significa que usted aceptó activamente que una empresa use su información personal. Debe ser libre, específico y fácil de entender. La retirada significa que puede revocar ese acuerdo en cualquier momento. La empresa debe hacer que retirar el consentimiento sea tan fácil como darlo.",
+        "fr": "Le consentement signifie que vous avez activement accepté qu'une entreprise utilise vos informations personnelles. Il doit être libre, spécifique et facile à comprendre. Le retrait signifie que vous pouvez revenir sur cet accord à tout moment. L'entreprise doit rendre le retrait du consentement aussi simple que son octroi.",
+        "pt": "Consentimento significa que você concordou ativamente em deixar uma empresa usar suas informações pessoais. Deve ser livre, específico e fácil de entender. A retirada significa que você pode revogar esse acordo a qualquer momento. A empresa deve tornar a retirada do consentimento tão fácil quanto foi concedê-lo.",
+        "zh": "同意是指您主动允许某公司使用您的个人信息。同意必须是自愿、具体且易于理解的。撤回是指您可以随时收回该同意。公司必须让撤回同意与给予同意一样容易。"
       }
     },
     {
@@ -31,6 +45,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Eine Datenschutz-Folgenabschätzung (PIA) ist ein Verfahren, um Datenschutzrisiken zu erkennen und zu verringern, bevor eine neue Tätigkeit mit personenbezogenen Daten beginnt. DPIA, Data Protection Impact Assessment, ist dasselbe Verfahren unter einem anderen Namen, der speziell in der DSGVO verwendet wird. Beide dienen demselben Zweck: das Risiko zu finden, bevor es Schaden anrichtet.",
+        "es": "Una Evaluación de Impacto sobre la Privacidad es un proceso para identificar y reducir los riesgos de privacidad antes de iniciar una nueva actividad que implique datos personales. La DPIA, Evaluación de Impacto relativa a la Protección de Datos, es el mismo proceso con otro nombre, usado específicamente en el RGPD. Ambas sirven al mismo fin: encontrar el riesgo antes de que cause daño.",
+        "fr": "Une analyse d'impact sur la vie privée (PIA) est un processus visant à identifier et réduire les risques pour la vie privée avant de lancer une nouvelle activité impliquant des données personnelles. La DPIA, analyse d'impact relative à la protection des données, est le même processus sous un autre nom, utilisé spécifiquement dans le RGPD. Les deux poursuivent le même but : trouver le risque avant qu'il ne cause un préjudice.",
+        "pt": "Uma Avaliação de Impacto à Privacidade é um processo para identificar e reduzir riscos de privacidade antes de iniciar uma nova atividade que envolva dados pessoais. A DPIA, Avaliação de Impacto à Proteção de Dados, é o mesmo processo com outro nome, usado especificamente no RGPD. Ambas têm o mesmo objetivo: encontrar o risco antes que ele cause dano.",
+        "zh": "隐私影响评估是在开展涉及个人数据的新活动之前，用于识别和降低隐私风险的流程。DPIA（数据保护影响评估）是同一流程的不同名称，专门用于 GDPR。两者目的相同：在风险造成损害之前将其发现。"
       }
     },
     {
@@ -42,6 +63,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Anonymisierung entfernt dauerhaft alle identifizierenden Informationen aus Daten. Einmal wirklich anonymisiert, lassen sich die Daten keiner Person mehr zuordnen. Pseudonymisierung ersetzt identifizierende Informationen durch einen Code oder ein Alias. Mit dem richtigen Schlüssel lässt sich die ursprüngliche Identität wiederherstellen. Anonymisierte Daten sind keine personenbezogenen Daten mehr. Pseudonymisierte Daten sind es weiterhin.",
+        "es": "La anonimización elimina de forma permanente toda la información identificativa de los datos. Una vez verdaderamente anonimizados, los datos ya no pueden vincularse a ninguna persona. La seudonimización sustituye la información identificativa por un código o alias. La identidad original aún puede recuperarse con la clave adecuada. Los datos anonimizados dejan de ser datos personales. Los seudonimizados siguen siéndolo.",
+        "fr": "L'anonymisation supprime définitivement toute information identifiante des données. Une fois véritablement anonymisées, les données ne peuvent plus être reliées à une personne. La pseudonymisation remplace les informations identifiantes par un code ou un alias. L'identité d'origine peut encore être retrouvée avec la bonne clé. Les données anonymisées ne sont plus des données personnelles. Les données pseudonymisées le restent.",
+        "pt": "A anonimização remove permanentemente todas as informações identificadoras dos dados. Uma vez verdadeiramente anonimizados, os dados não podem mais ser vinculados a nenhuma pessoa. A pseudonimização substitui as informações identificadoras por um código ou alias. A identidade original ainda pode ser recuperada com a chave certa. Dados anonimizados deixam de ser dados pessoais. Dados pseudonimizados ainda são.",
+        "zh": "匿名化会永久去除数据中的所有识别信息。一旦真正匿名化，数据将无法再关联到任何个人。假名化用代码或别名替换识别信息，使用正确的密钥仍可恢复原始身份。匿名化数据不再是个人数据，而假名化数据仍然是。"
       }
     },
     {
@@ -53,6 +81,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Eine Aufsichtsbehörde ist die staatliche Stelle, die für die Durchsetzung des Datenschutzrechts in einem bestimmten Land oder einer Region zuständig ist. Datenschutzbehörde, oder DPA, bedeutet dasselbe. Verschiedene Gesetze verwenden unterschiedliche Namen für dieselbe Rolle.",
+        "es": "Una autoridad de control es el organismo público responsable de hacer cumplir la ley de privacidad en un país o región determinados. Autoridad de Protección de Datos, o DPA, significa lo mismo. Distintas leyes usan nombres diferentes para la misma función.",
+        "fr": "Une autorité de contrôle est l'organisme public chargé de faire appliquer le droit de la vie privée dans un pays ou une région donnés. Autorité de protection des données, ou DPA, signifie la même chose. Différentes lois emploient des noms différents pour le même rôle.",
+        "pt": "Uma autoridade de controle é o órgão público responsável por fazer cumprir a lei de privacidade em um determinado país ou região. Autoridade de Proteção de Dados, ou DPA, significa o mesmo. Leis diferentes usam nomes diferentes para a mesma função.",
+        "zh": "监管机构是负责在特定国家或地区执行隐私法律的政府部门。数据保护机构（DPA）含义相同。不同法律对同一角色使用不同的名称。"
       }
     },
     {
@@ -64,6 +99,13 @@
       "source": {
         "label": "CPPA",
         "url": "https://cppa.ca.gov"
+      },
+      "definitions": {
+        "de": "Nach kalifornischem Recht bedeutet der Verkauf personenbezogener Daten, diese gegen Geld oder einen anderen Wert zu tauschen. Weitergabe bedeutet, sie für kontextübergreifende verhaltensbasierte Werbung offenzulegen, auch ohne Bezahlung. Beides löst das Widerspruchsrecht aus.",
+        "es": "Según la ley de California, vender información personal significa intercambiarla por dinero u otro valor. Compartir significa divulgarla para publicidad conductual entre contextos, incluso sin pago. Ambas activan el derecho a oponerse.",
+        "fr": "Selon la loi californienne, vendre des informations personnelles signifie les échanger contre de l'argent ou une autre contrepartie. Le partage consiste à les divulguer à des fins de publicité comportementale intercontextuelle, même sans paiement. Les deux déclenchent le droit d'opposition.",
+        "pt": "Conforme a lei da Califórnia, vender informações pessoais significa trocá-las por dinheiro ou outro valor. Compartilhar significa divulgá-las para publicidade comportamental entre contextos, mesmo sem pagamento. Ambos acionam o direito de optar por sair.",
+        "zh": "根据加利福尼亚州法律，出售个人信息是指以金钱或其他价值进行交换。共享是指为跨场景行为广告而披露信息，即使没有付款。两者都会触发选择退出的权利。"
       }
     },
     {
@@ -75,6 +117,13 @@
       "source": {
         "label": "CPPA",
         "url": "https://cppa.ca.gov"
+      },
+      "definitions": {
+        "de": "Nach kalifornischem Recht verarbeitet ein Dienstleister Daten in Ihrem Auftrag auf Grundlage eines schriftlichen Vertrags. Ein Auftragnehmer erhält Daten im Rahmen einer ähnlichen Vereinbarung, jedoch in einem anderen Rechtsverhältnis. Ein Dritter erhält Daten eigenständig und ist nicht an dieselben vertraglichen Beschränkungen gebunden. Übermittlungen an Dritte können einen Verkauf oder eine Weitergabe darstellen.",
+        "es": "Según la ley de California, un proveedor de servicios trata los datos en su nombre bajo un contrato escrito. Un contratista recibe los datos mediante un acuerdo similar, pero en una relación jurídica distinta. Un tercero recibe los datos de forma independiente y no está sujeto a las mismas restricciones contractuales. Las transferencias a terceros pueden constituir una venta o un acto de compartir.",
+        "fr": "Selon la loi californienne, un prestataire de services traite les données pour votre compte dans le cadre d'un contrat écrit. Un contractant reçoit les données selon un arrangement similaire mais dans une relation juridique différente. Un tiers reçoit les données de manière indépendante et n'est pas lié par les mêmes restrictions contractuelles. Les transferts à des tiers peuvent constituer une vente ou un partage.",
+        "pt": "Conforme a lei da Califórnia, um prestador de serviços trata os dados em seu nome sob um contrato escrito. Um contratado recebe os dados em um acordo semelhante, mas em uma relação jurídica diferente. Um terceiro recebe os dados de forma independente e não está sujeito às mesmas restrições contratuais. Transferências a terceiros podem constituir venda ou compartilhamento.",
+        "zh": "根据加利福尼亚州法律，服务提供商依据书面合同代表您处理数据。承包商在类似安排下接收数据，但处于不同的法律关系中。第三方独立接收数据，不受相同的合同限制约束。向第三方转移数据可能构成出售或共享。"
       }
     },
     {
@@ -86,6 +135,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Opt-in bedeutet, dass Sie aktiv zustimmen müssen, bevor ein Unternehmen Ihre Daten verwenden darf. Opt-out bedeutet, dass das Unternehmen Ihre Daten standardmäßig verwenden darf, sofern Sie nicht widersprechen. Die DSGVO verlangt in der Regel eine Opt-in-Einwilligung. CCPA/CPRA verwendet für die meisten Verarbeitungen ein Opt-out-Modell.",
+        "es": "La aceptación expresa (opt-in) significa que debe aceptar activamente antes de que una empresa pueda usar sus datos. La exclusión voluntaria (opt-out) significa que la empresa puede usar sus datos de forma predeterminada salvo que usted se oponga. El RGPD exige por lo general consentimiento de tipo opt-in. La CCPA/CPRA usa un modelo opt-out para la mayoría de los tratamientos.",
+        "fr": "L'opt-in signifie que vous devez accepter activement avant qu'une entreprise puisse utiliser vos données. L'opt-out signifie que l'entreprise peut utiliser vos données par défaut, sauf si vous refusez. Le RGPD exige généralement un consentement de type opt-in. La CCPA/CPRA utilise un modèle opt-out pour la plupart des traitements.",
+        "pt": "Opt-in significa que você deve concordar ativamente antes que uma empresa possa usar seus dados. Opt-out significa que a empresa pode usar seus dados por padrão, a menos que você recuse. O RGPD geralmente exige consentimento do tipo opt-in. A CCPA/CPRA usa um modelo opt-out para a maioria dos tratamentos.",
+        "zh": "选择加入（opt-in）是指公司在使用您的数据前必须获得您的主动同意。选择退出（opt-out）是指除非您拒绝，公司默认即可使用您的数据。GDPR 通常要求选择加入的同意。CCPA/CPRA 对大多数处理采用选择退出模式。"
       }
     },
     {
@@ -97,6 +153,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Eine Rechtsgrundlage ist der konkrete Grund, aus dem ein Unternehmen Ihre personenbezogenen Daten erheben oder verwenden darf. Datenschutzgesetze verlangen, dass Unternehmen vor Beginn eine solche haben. Häufige Beispiele sind Ihre Einwilligung, ein Vertrag mit Ihnen oder eine gesetzliche Pflicht, die sie erfüllen müssen.",
+        "es": "Una base jurídica es el motivo específico por el que una empresa puede recopilar o usar su información personal. Las leyes de privacidad exigen que las empresas tengan una antes de empezar. Ejemplos comunes son su consentimiento, un contrato que tiene con ellas o una obligación legal que deben cumplir.",
+        "fr": "Une base légale est la raison précise pour laquelle une entreprise est autorisée à collecter ou utiliser vos informations personnelles. Les lois sur la vie privée exigent qu'une entreprise en dispose avant de commencer. Les exemples courants incluent votre consentement, un contrat conclu avec elle ou une obligation légale qu'elle doit respecter.",
+        "pt": "Uma base legal é o motivo específico pelo qual uma empresa pode coletar ou usar suas informações pessoais. As leis de privacidade exigem que as empresas tenham uma antes de começar. Exemplos comuns incluem o seu consentimento, um contrato que você tem com elas ou uma obrigação legal que precisam cumprir.",
+        "zh": "法律依据是指公司被允许收集或使用您个人信息的具体理由。隐私法律要求公司在开始之前必须具备一项。常见例子包括您的同意、您与其订立的合同，或其必须履行的法律义务。"
       }
     },
     {
@@ -108,6 +171,13 @@
       "source": {
         "label": "EDPB Guidelines on Legitimate Interest",
         "url": "https://edpb.europa.eu"
+      },
+      "definitions": {
+        "de": "Berechtigte Interessen sind eine Rechtsgrundlage, die es einem Unternehmen erlaubt, personenbezogene Daten für einen echten geschäftlichen Zweck ohne Einwilligung zu nutzen. Das Unternehmen muss dieses Interesse gegen Ihre Rechte abwägen. Überwiegen Ihre Rechte den geschäftlichen Bedarf, können berechtigte Interessen nicht herangezogen werden.",
+        "es": "El interés legítimo es una base jurídica que permite a una empresa usar datos personales con un fin empresarial genuino sin pedir consentimiento. La empresa debe ponderar ese interés frente a sus derechos. Si sus derechos prevalecen sobre la necesidad empresarial, no puede recurrirse al interés legítimo.",
+        "fr": "L'intérêt légitime est une base légale qui permet à une entreprise d'utiliser des données personnelles à une fin commerciale réelle sans demander de consentement. L'entreprise doit mettre en balance cet intérêt et vos droits. Si vos droits l'emportent sur le besoin commercial, l'intérêt légitime ne peut pas être invoqué.",
+        "pt": "O legítimo interesse é uma base legal que permite a uma empresa usar dados pessoais para uma finalidade comercial genuína sem pedir consentimento. A empresa deve ponderar esse interesse em relação aos seus direitos. Se os seus direitos prevalecerem sobre a necessidade comercial, o legítimo interesse não pode ser usado.",
+        "zh": "正当利益是一项法律依据，允许公司在不征求同意的情况下，出于真实的商业目的使用个人数据。公司必须在该利益与您的权利之间进行权衡。如果您的权利高于商业需求，则不得使用正当利益。"
       }
     },
     {
@@ -119,6 +189,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Profiling bedeutet, personenbezogene Daten zu nutzen, um Aspekte einer Person automatisch zu bewerten, vorherzusagen oder zu analysieren. Beispiele sind die Vorhersage Ihrer Kreditwürdigkeit, Gesundheit, Vorlieben oder Ihres Verhaltens. Datenschutzgesetze setzen dem Profiling, das erhebliche Entscheidungen über Personen hervorbringt, besondere Grenzen.",
+        "es": "La elaboración de perfiles consiste en usar datos personales para evaluar, predecir o analizar automáticamente aspectos de una persona. Algunos ejemplos son predecir su solvencia, salud, preferencias o comportamiento. Las leyes de privacidad imponen límites específicos a la elaboración de perfiles que produce decisiones significativas sobre las personas.",
+        "fr": "Le profilage consiste à utiliser des données personnelles pour évaluer, prédire ou analyser automatiquement des aspects d'une personne. Par exemple, prédire votre solvabilité, votre santé, vos préférences ou votre comportement. Les lois sur la vie privée encadrent spécifiquement le profilage qui produit des décisions importantes concernant les personnes.",
+        "pt": "A definição de perfis significa usar dados pessoais para avaliar, prever ou analisar automaticamente aspectos de uma pessoa. Exemplos incluem prever sua capacidade de crédito, saúde, preferências ou comportamento. As leis de privacidade impõem limites específicos à definição de perfis que produz decisões significativas sobre as pessoas.",
+        "zh": "画像是指利用个人数据自动评估、预测或分析一个人的各个方面。例如预测您的信用状况、健康、偏好或行为。隐私法律对会产生重大个人决定的画像设有特定限制。"
       }
     },
     {
@@ -130,6 +207,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Verarbeitung bedeutet jeden Vorgang im Zusammenhang mit personenbezogenen Daten. Dazu gehören das Erheben, Speichern, Verwenden, Weitergeben und Löschen. Wenn ein Unternehmen personenbezogene Daten in irgendeiner Weise berührt, ist das Verarbeitung.",
+        "es": "El tratamiento es cualquier operación realizada sobre datos personales. Esto incluye recopilarlos, almacenarlos, usarlos, compartirlos y eliminarlos. Si una empresa manipula datos personales de cualquier forma, eso es tratamiento.",
+        "fr": "Le traitement désigne toute opération effectuée sur des données personnelles. Cela inclut leur collecte, leur stockage, leur utilisation, leur partage et leur suppression. Si une entreprise touche à des données personnelles de quelque manière que ce soit, il s'agit d'un traitement.",
+        "pt": "Tratamento é qualquer operação realizada com dados pessoais. Isso inclui coletá-los, armazená-los, usá-los, compartilhá-los e excluí-los. Se uma empresa manuseia dados pessoais de qualquer forma, isso é tratamento.",
+        "zh": "处理是指对个人数据执行的任何操作，包括收集、存储、使用、共享和删除。只要公司以任何方式接触个人数据，即构成处理。"
       }
     },
     {
@@ -141,6 +225,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Eine betroffene Person ist jede lebende natürliche Person, deren personenbezogene Daten erhoben oder verwendet werden. Wenn ein Unternehmen Informationen über Sie besitzt, sind Sie die betroffene Person. CCPA/CPRA verwendet den Begriff Verbraucher. PIPL verwendet den Begriff Einzelperson.",
+        "es": "Un interesado es cualquier persona física viva cuyos datos personales se recopilan o usan. Si una empresa tiene información sobre usted, usted es el interesado. La CCPA/CPRA usa el término consumidor. La PIPL usa el término individuo.",
+        "fr": "Une personne concernée est toute personne physique vivante dont les données personnelles sont collectées ou utilisées. Si une entreprise détient des informations sur vous, vous êtes la personne concernée. La CCPA/CPRA emploie le terme consommateur. La PIPL emploie le terme individu.",
+        "pt": "Um titular dos dados é qualquer pessoa física viva cujos dados pessoais estão sendo coletados ou usados. Se uma empresa tem informações sobre você, você é o titular dos dados. A CCPA/CPRA usa o termo consumidor. A PIPL usa o termo indivíduo.",
+        "zh": "数据主体是指其个人数据正被收集或使用的任何在世自然人。如果公司持有关于您的信息，您就是数据主体。CCPA/CPRA 使用“消费者”一词，PIPL 使用“个人”一词。"
       }
     },
     {
@@ -152,6 +243,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Personenbezogene Daten sind alle Informationen, die eine lebende Person identifizieren können. Dazu gehören offensichtliche Angaben wie Ihr Name und Ihre E-Mail-Adresse. Ebenso zählen weniger offensichtliche Angaben dazu wie Ihre IP-Adresse, Standortdaten oder ein Cookie, das Ihr Surfverhalten verfolgt.",
+        "es": "Los datos personales son cualquier información que pueda identificar a una persona física viva. Esto incluye cosas evidentes como su nombre y su dirección de correo electrónico. También incluye cosas menos evidentes como su dirección IP, datos de ubicación o una cookie que rastrea su navegación.",
+        "fr": "Les données personnelles désignent toute information permettant d'identifier une personne physique vivante. Cela inclut des éléments évidents comme votre nom et votre adresse e-mail. Cela inclut aussi des éléments moins évidents comme votre adresse IP, vos données de localisation ou un cookie qui suit votre navigation.",
+        "pt": "Dados pessoais são qualquer informação que possa identificar uma pessoa física viva. Isso inclui coisas óbvias, como seu nome e endereço de e-mail. Também inclui coisas menos óbvias, como seu endereço IP, dados de localização ou um cookie que rastreia sua navegação.",
+        "zh": "个人数据是指任何能够识别在世个人的信息。这既包括姓名和电子邮件地址等明显信息，也包括 IP 地址、位置信息或追踪您浏览行为的 Cookie 等不太明显的信息。"
       }
     },
     {
@@ -163,6 +261,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Einige Arten personenbezogener Daten gelten als besonders sensibel und genießen einen stärkeren rechtlichen Schutz. Dazu zählen in der Regel Gesundheitsdaten, rassische oder ethnische Herkunft, religiöse Überzeugungen, biometrische Daten und die sexuelle Orientierung. Unternehmen benötigen eine besondere rechtliche Rechtfertigung, um solche Informationen zu verarbeiten.",
+        "es": "Algunos tipos de información personal se consideran especialmente sensibles y reciben una protección legal más fuerte. Suelen incluir información de salud, origen racial o étnico, creencias religiosas, datos biométricos y orientación sexual. Las empresas necesitan una justificación legal específica para tratar este tipo de información.",
+        "fr": "Certains types d'informations personnelles sont considérés comme particulièrement sensibles et bénéficient d'une protection juridique renforcée. Ils incluent généralement les informations de santé, l'origine raciale ou ethnique, les convictions religieuses, les données biométriques et l'orientation sexuelle. Les entreprises doivent disposer d'une justification juridique spécifique pour traiter ce type d'informations.",
+        "pt": "Alguns tipos de informação pessoal são considerados especialmente sensíveis e recebem proteção legal mais forte. Normalmente incluem informações de saúde, origem racial ou étnica, crenças religiosas, dados biométricos e orientação sexual. As empresas precisam de uma justificativa legal específica para tratar esse tipo de informação.",
+        "zh": "某些类型的个人信息被视为特别敏感，受到更强的法律保护。通常包括健康信息、种族或民族出身、宗教信仰、生物识别数据和性取向。公司需要特定的法律依据才能处理此类信息。"
       }
     },
     {
@@ -174,6 +279,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Ein Datenschutzbeauftragter ist eine Person innerhalb einer Organisation, die für die Überwachung der Einhaltung des Datenschutzes zuständig ist. Manche Organisationen sind gesetzlich verpflichtet, einen zu benennen. Die LGPD verwendet für die entsprechende Rolle in Brasilien den Begriff Encarregado.",
+        "es": "Un Delegado de Protección de Datos es una persona dentro de una organización responsable de supervisar el cumplimiento en materia de privacidad. Algunas organizaciones están legalmente obligadas a nombrar uno. La LGPD usa el término Encarregado para la función equivalente en Brasil.",
+        "fr": "Un délégué à la protection des données est une personne au sein d'une organisation chargée de superviser la conformité en matière de vie privée. Certaines organisations sont légalement tenues d'en nommer un. La LGPD emploie le terme Encarregado pour le rôle équivalent au Brésil.",
+        "pt": "Um Encarregado pela Proteção de Dados é uma pessoa dentro de uma organização responsável por supervisionar a conformidade com a privacidade. Algumas organizações são legalmente obrigadas a nomear um. A LGPD usa o termo Encarregado para a função equivalente no Brasil.",
+        "zh": "数据保护官是组织内部负责监督隐私合规的人员。某些组织依法必须任命一名。LGPD 在巴西对这一等效角色使用“Encarregado”一词。"
       }
     },
     {
@@ -185,6 +297,13 @@
       "source": {
         "label": "GDPR Article 30: EUR-Lex",
         "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+      },
+      "definitions": {
+        "de": "Ein Verzeichnis von Verarbeitungstätigkeiten (RoPA) ist ein internes Dokument, das jede Art festhält, wie eine Organisation personenbezogene Daten nutzt. Es erfasst, welche Daten erhoben werden, warum, wer sie sieht und wie lange sie aufbewahrt werden. Aufsichtsbehörden können es jederzeit anfordern.",
+        "es": "Un RoPA es un documento interno que registra todas las formas en que una organización usa datos personales. Abarca qué datos se recopilan, por qué, quién los ve y cuánto tiempo se conservan. Las autoridades pueden solicitarlo en cualquier momento.",
+        "fr": "Un registre des activités de traitement (RoPA) est un document interne qui consigne chaque usage que fait une organisation des données personnelles. Il indique quelles données sont collectées, pourquoi, qui y a accès et combien de temps elles sont conservées. Les autorités peuvent le demander à tout moment.",
+        "pt": "Um RoPA é um documento interno que registra todas as formas como uma organização usa dados pessoais. Abrange quais dados são coletados, por quê, quem os vê e por quanto tempo são mantidos. As autoridades podem solicitá-lo a qualquer momento.",
+        "zh": "处理活动记录（RoPA）是一份内部文件，记录组织使用个人数据的每一种方式。它涵盖收集了哪些数据、原因、谁可以查看以及保存多久。监管机构可随时索取。"
       }
     },
     {
@@ -196,6 +315,13 @@
       "source": {
         "label": "CPPA",
         "url": "https://cppa.ca.gov"
+      },
+      "definitions": {
+        "de": "Ein überprüfbarer Verbraucherantrag ist ein Antrag auf Wahrnehmung von Datenschutzrechten, bei dem das Unternehmen bestätigt hat, dass die antragstellende Person diejenige ist, die sie vorgibt zu sein. Unternehmen müssen die Identität vor der Beantwortung überprüfen, um zu verhindern, dass jemand die Daten einer anderen Person anfordert.",
+        "es": "Una solicitud verificable del consumidor es una solicitud de derechos de privacidad en la que la empresa ha confirmado que quien la presenta es quien dice ser. Las empresas deben verificar la identidad antes de responder, para evitar que alguien solicite los datos de otra persona.",
+        "fr": "Une demande vérifiable du consommateur est une demande d'exercice de droits en matière de vie privée pour laquelle l'entreprise a confirmé que la personne qui la présente est bien celle qu'elle prétend être. Les entreprises doivent vérifier l'identité avant de répondre, afin d'éviter que quelqu'un ne demande les données d'autrui.",
+        "pt": "Uma solicitação verificável do consumidor é um pedido de direitos de privacidade em que a empresa confirmou que quem o faz é quem diz ser. As empresas devem verificar a identidade antes de responder, para evitar que alguém solicite os dados de outra pessoa.",
+        "zh": "可验证的消费者请求是指企业已确认提出请求者确为其所声称身份的隐私权利请求。企业必须在响应前核实身份，以防有人索取他人的数据。"
       }
     },
     {
@@ -207,6 +333,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Ein maschinenlesbares Format ist ein Dateityp, den Software automatisch lesen und verarbeiten kann. Gängige Beispiele sind CSV-, JSON- und XML-Dateien. Datenschutzgesetze verlangen, dass Antworten zur Datenübertragbarkeit ein solches Format verwenden, damit Ihre Daten an einen anderen Dienst übertragen werden können.",
+        "es": "Un formato legible por máquina es un tipo de archivo que el software puede leer y procesar automáticamente. Ejemplos comunes son los archivos CSV, JSON y XML. Las leyes de privacidad exigen que las respuestas de portabilidad de datos usen este tipo de formato para que sus datos puedan transferirse a otro servicio.",
+        "fr": "Un format lisible par machine est un type de fichier qu'un logiciel peut lire et traiter automatiquement. Les exemples courants sont les fichiers CSV, JSON et XML. Les lois sur la vie privée exigent que les réponses relatives à la portabilité des données utilisent ce type de format afin que vos données puissent être transférées vers un autre service.",
+        "pt": "Um formato legível por máquina é um tipo de arquivo que o software pode ler e processar automaticamente. Exemplos comuns são arquivos CSV, JSON e XML. As leis de privacidade exigem que as respostas de portabilidade de dados usem esse tipo de formato para que seus dados possam ser transferidos para outro serviço.",
+        "zh": "机器可读格式是指软件能够自动读取和处理的文件类型，常见例子有 CSV、JSON 和 XML 文件。隐私法律要求数据可携带性的回应采用此类格式，以便将您的数据转移到另一项服务。"
       }
     },
     {
@@ -218,6 +351,13 @@
       "source": {
         "label": "CPPA GPC Guidance",
         "url": "https://cppa.ca.gov"
+      },
+      "definitions": {
+        "de": "Die Global Privacy Control ist eine Browser-Einstellung, die Websites automatisch signalisiert, dass Sie den Verkauf oder die Weitergabe Ihrer personenbezogenen Daten nicht wünschen. Unternehmen in Kalifornien sind gesetzlich verpflichtet, dieses Signal als gültigen Widerspruch zu beachten.",
+        "es": "El Global Privacy Control es una configuración del navegador que indica automáticamente a los sitios web que usted no quiere que se vendan ni se compartan sus datos personales. Las empresas de California están legalmente obligadas a respetar esta señal como una exclusión válida.",
+        "fr": "Le Global Privacy Control est un réglage du navigateur qui signale automatiquement aux sites web que vous ne voulez pas que vos informations personnelles soient vendues ou partagées. Les entreprises de Californie sont légalement tenues de respecter ce signal comme une opposition valide.",
+        "pt": "O Global Privacy Control é uma configuração do navegador que sinaliza automaticamente aos sites que você não quer que suas informações pessoais sejam vendidas ou compartilhadas. As empresas da Califórnia são legalmente obrigadas a respeitar esse sinal como uma recusa válida.",
+        "zh": "全球隐私控制（GPC）是一项浏览器设置，可自动向网站发出信号，表明您不希望自己的个人信息被出售或共享。加利福尼亚州的企业依法必须将该信号视为有效的选择退出。"
       }
     },
     {
@@ -229,6 +369,13 @@
       "source": {
         "label": "CPPA",
         "url": "https://cppa.ca.gov"
+      },
+      "definitions": {
+        "de": "Kontextübergreifende verhaltensbasierte Werbung bedeutet, Ihnen Anzeigen auf Grundlage Ihrer Aktivität über verschiedene Websites oder Apps hinweg auszuspielen. Nach kalifornischem Recht muss Ihnen bei der Weitergabe Ihrer Daten zu diesem Zweck ein Widerspruchsrecht eingeräumt werden, selbst wenn kein Geld fließt.",
+        "es": "La publicidad conductual entre contextos consiste en mostrarle anuncios basados en su actividad en distintos sitios web o aplicaciones. Según la ley de California, compartir sus datos con este fin exige concederle el derecho a oponerse, aunque no haya intercambio de dinero.",
+        "fr": "La publicité comportementale intercontextuelle consiste à vous cibler avec des annonces en fonction de votre activité sur différents sites web ou applications. Selon la loi californienne, le partage de vos données à cette fin exige de vous accorder un droit d'opposition, même si aucune somme d'argent n'est échangée.",
+        "pt": "A publicidade comportamental entre contextos significa direcionar anúncios a você com base na sua atividade em diferentes sites ou aplicativos. Conforme a lei da Califórnia, compartilhar seus dados para essa finalidade exige conceder a você o direito de recusar, mesmo que nenhum dinheiro seja trocado.",
+        "zh": "跨场景行为广告是指根据您在不同网站或应用中的活动向您投放定向广告。根据加利福尼亚州法律，为此目的共享您的数据必须赋予您选择退出的权利，即使没有金钱往来。"
       }
     },
     {
@@ -240,6 +387,13 @@
       "source": {
         "label": "PIPL Article 40: npc.gov.cn",
         "url": "https://npc.gov.cn"
+      },
+      "definitions": {
+        "de": "Datenlokalisierung bedeutet, dass ein Gesetz verlangt, bestimmte personenbezogene Daten innerhalb eines bestimmten Landes zu speichern und nicht ohne Genehmigung ins Ausland zu übermitteln. Das chinesische Datenschutzrecht verlangt dies für Organisationen oberhalb bestimmter Größenschwellen. Dies ist einer der bedeutendsten strukturellen Unterschiede zwischen chinesischem und europäischem Datenschutzrecht.",
+        "es": "La localización de datos significa que una ley exige que ciertos datos personales se almacenen dentro de un país concreto y no se trasladen al extranjero sin aprobación. La ley de privacidad de China lo exige a las organizaciones que superan ciertos umbrales de tamaño. Es una de las diferencias estructurales más importantes entre el derecho de privacidad chino y el europeo.",
+        "fr": "La localisation des données signifie qu'une loi exige que certaines données personnelles soient stockées à l'intérieur d'un pays donné et ne soient pas transférées à l'étranger sans autorisation. La loi chinoise sur la vie privée l'impose aux organisations dépassant certains seuils de taille. C'est l'une des différences structurelles les plus importantes entre le droit chinois et le droit européen de la vie privée.",
+        "pt": "A localização de dados significa que uma lei exige que certos dados pessoais sejam armazenados dentro de um país específico e não sejam transferidos para o exterior sem aprovação. A lei de privacidade da China exige isso de organizações acima de certos limites de tamanho. É uma das diferenças estruturais mais significativas entre o direito de privacidade chinês e o europeu.",
+        "zh": "数据本地化是指法律要求某些个人数据存储在特定国家境内，未经批准不得转移到境外。中国的隐私法律对超过一定规模门槛的组织有此要求。这是中国与欧洲隐私法律之间最重要的结构性差异之一。"
       }
     },
     {
@@ -251,6 +405,13 @@
       "source": {
         "label": "European Commission SCCs",
         "url": "https://ec.europa.eu"
+      },
+      "definitions": {
+        "de": "Standardvertragsklauseln sind vorab genehmigte Vertragsbestimmungen, die es Unternehmen erlauben, personenbezogene Daten rechtmäßig außerhalb der Europäischen Union zu übermitteln. Sie verpflichten die empfangende Organisation, die Daten nach EU-Standards zu schützen. Jede Rechtsordnung verfügt über einen eigenen entsprechenden Mechanismus für grenzüberschreitende Übermittlungen.",
+        "es": "Las Cláusulas Contractuales Tipo son términos contractuales previamente aprobados que permiten a las empresas transferir legalmente datos personales fuera de la Unión Europea. Comprometen a la organización receptora a proteger los datos conforme a los estándares de la UE. Cada jurisdicción tiene su propio mecanismo equivalente para las transferencias transfronterizas.",
+        "fr": "Les clauses contractuelles types sont des clauses contractuelles préapprouvées qui permettent aux entreprises de transférer légalement des données personnelles hors de l'Union européenne. Elles engagent l'organisation destinataire à protéger les données selon les normes de l'UE. Chaque juridiction dispose de son propre mécanisme équivalent pour les transferts transfrontaliers.",
+        "pt": "As Cláusulas Contratuais Padrão são termos contratuais pré-aprovados que permitem às empresas transferir legalmente dados pessoais para fora da União Europeia. Elas comprometem a organização receptora a proteger os dados segundo os padrões da UE. Cada jurisdição tem seu próprio mecanismo equivalente para transferências internacionais.",
+        "zh": "标准合同条款是预先批准的合同条款，允许公司合法地将个人数据传输至欧盟境外。它们要求接收方组织按欧盟标准保护数据。各司法管辖区都有其各自等效的跨境传输机制。"
       }
     },
     {
@@ -262,6 +423,13 @@
       "source": {
         "label": "EDPB Recommendations 01/2020",
         "url": "https://edpb.europa.eu"
+      },
+      "definitions": {
+        "de": "Eine Transfer-Folgenabschätzung ist eine Analyse, die ein Unternehmen abschließen muss, bevor es personenbezogene Daten in ein Land außerhalb der Europäischen Union übermittelt. Sie bewertet, ob die Gesetze dieses Landes einen angemessenen Schutz bieten. Sie wurde nach dem Schrems-II-Urteil von 2020 erforderlich.",
+        "es": "Una Evaluación de Impacto de la Transferencia es un análisis que una empresa debe completar antes de enviar datos personales a un país fuera de la Unión Europea. Evalúa si las leyes de ese país ofrecen una protección adecuada. Pasó a ser obligatoria tras la sentencia judicial Schrems II de 2020.",
+        "fr": "Une analyse d'impact du transfert est une analyse qu'une entreprise doit réaliser avant d'envoyer des données personnelles vers un pays hors de l'Union européenne. Elle évalue si les lois de ce pays offrent une protection adéquate. Elle est devenue obligatoire après l'arrêt Schrems II de 2020.",
+        "pt": "Uma Avaliação de Impacto da Transferência é uma análise que uma empresa deve concluir antes de enviar dados pessoais para um país fora da União Europeia. Ela avalia se as leis desse país oferecem proteção adequada. Tornou-se obrigatória após a decisão judicial Schrems II, em 2020.",
+        "zh": "传输影响评估是公司在向欧盟境外国家发送个人数据之前必须完成的分析。它评估该国法律是否提供充分的保护。自 2020 年 Schrems II 法院判决后成为必需。"
       }
     },
     {
@@ -273,17 +441,31 @@
       "source": {
         "label": "CJEU Case C-311/18",
         "url": "https://curia.europa.eu"
+      },
+      "definitions": {
+        "de": "Schrems II ist eine Entscheidung eines europäischen Gerichts aus dem Jahr 2020, die die Regeln für die Übermittlung personenbezogener Daten aus der EU in die Vereinigten Staaten geändert hat. Sie erklärte das bisherige Übermittlungsabkommen für ungültig und verpflichtete Unternehmen zu prüfen, ob das US-Recht EU-Daten angemessen schützt. Sie erhöhte die Compliance-Pflichten für transatlantische Datenübermittlungen erheblich.",
+        "es": "Schrems II es una sentencia de un tribunal europeo de 2020 que cambió las reglas para enviar datos personales de la UE a Estados Unidos. Invalidó el acuerdo de transferencia anterior y obligó a las empresas a evaluar si la legislación estadounidense protege adecuadamente los datos de la UE. Aumentó de forma significativa las obligaciones de cumplimiento para las transferencias transatlánticas de datos.",
+        "fr": "Schrems II est une décision d'une juridiction européenne de 2020 qui a modifié les règles d'envoi de données personnelles de l'UE vers les États-Unis. Elle a invalidé l'accord de transfert précédent et obligé les entreprises à évaluer si le droit américain protège adéquatement les données de l'UE. Elle a considérablement accru les obligations de conformité pour les transferts transatlantiques de données.",
+        "pt": "Schrems II é uma decisão de um tribunal europeu de 2020 que mudou as regras para o envio de dados pessoais da UE para os Estados Unidos. Ela invalidou o acordo de transferência anterior e obrigou as empresas a avaliar se a legislação dos EUA protege adequadamente os dados da UE. Aumentou significativamente as obrigações de conformidade para transferências transatlânticas de dados.",
+        "zh": "Schrems II 是 2020 年一项欧洲法院判决，改变了将个人数据从欧盟发送到美国的规则。它使此前的传输协议失效，并要求公司评估美国法律是否充分保护欧盟数据。它大幅增加了跨大西洋数据传输的合规义务。"
       }
     },
     {
       "id": "anpd",
       "type": "standalone",
       "term": "ANPD",
-      "definition": "The ANPD, Autoridade Nacional de Prote\u00e7\u00e3o de Dados, is Brazil's national data protection authority. It enforces LGPD, issues regulations, and handles complaints from individuals. Its regulatory guidance is still developing in several areas.",
+      "definition": "The ANPD, Autoridade Nacional de Proteção de Dados, is Brazil's national data protection authority. It enforces LGPD, issues regulations, and handles complaints from individuals. Its regulatory guidance is still developing in several areas.",
       "jurisdiction": "LGPD specific",
       "source": {
         "label": "ANPD",
         "url": "https://www.gov.br/anpd"
+      },
+      "definitions": {
+        "de": "Die ANPD, Autoridade Nacional de Proteção de Dados, ist die nationale Datenschutzbehörde Brasiliens. Sie setzt die LGPD durch, erlässt Vorschriften und bearbeitet Beschwerden von Einzelpersonen. Ihre aufsichtsrechtlichen Leitlinien befinden sich in mehreren Bereichen noch in der Entwicklung.",
+        "es": "La ANPD, Autoridade Nacional de Proteção de Dados, es la autoridad nacional de protección de datos de Brasil. Hace cumplir la LGPD, emite regulaciones y gestiona las reclamaciones de las personas. Su orientación regulatoria aún se está desarrollando en varias áreas.",
+        "fr": "L'ANPD, Autoridade Nacional de Proteção de Dados, est l'autorité nationale de protection des données du Brésil. Elle applique la LGPD, édicte des règlements et traite les plaintes des particuliers. Ses orientations réglementaires sont encore en cours d'élaboration dans plusieurs domaines.",
+        "pt": "A ANPD, Autoridade Nacional de Proteção de Dados, é a autoridade nacional de proteção de dados do Brasil. Ela fiscaliza a LGPD, edita regulamentos e trata das reclamações das pessoas. Sua orientação regulatória ainda está em desenvolvimento em várias áreas.",
+        "zh": "ANPD（Autoridade Nacional de Proteção de Dados，国家数据保护局）是巴西的国家数据保护机构。它执行 LGPD、发布法规并处理个人投诉。其监管指引在多个领域仍在完善中。"
       }
     },
     {
@@ -295,6 +477,13 @@
       "source": {
         "label": "CAC",
         "url": "https://www.cac.gov.cn"
+      },
+      "definitions": {
+        "de": "Die CAC, Cyberspace Administration of China, ist Chinas wichtigste Behörde für die Durchsetzung des PIPL und die Regulierung von Internet- und Datenaktivitäten. Sie führt Sicherheitsbewertungen für grenzüberschreitende Datenübermittlungen durch und erlässt verbindliche Vorschriften zum Schutz personenbezogener Informationen.",
+        "es": "La CAC, Administración del Ciberespacio de China, es la principal autoridad de China para hacer cumplir la PIPL y regular las actividades de internet y de datos. Realiza evaluaciones de seguridad para las transferencias transfronterizas de datos y emite regulaciones vinculantes sobre la protección de la información personal.",
+        "fr": "La CAC, Cyberspace Administration of China, est la principale autorité chinoise chargée d'appliquer la PIPL et de réguler les activités liées à internet et aux données. Elle réalise des évaluations de sécurité pour les transferts transfrontaliers de données et édicte des règlements contraignants sur la protection des informations personnelles.",
+        "pt": "A CAC, Administração do Ciberespaço da China, é a principal autoridade da China para fazer cumprir a PIPL e regular as atividades de internet e de dados. Ela realiza avaliações de segurança para transferências internacionais de dados e edita regulamentos vinculantes sobre a proteção de informações pessoais.",
+        "zh": "CAC（国家互联网信息办公室）是中国执行 PIPL、监管互联网和数据活动的主要机构。它对跨境数据传输进行安全评估，并就个人信息保护发布具有约束力的法规。"
       }
     },
     {
@@ -306,6 +495,13 @@
       "source": {
         "label": "EDPB",
         "url": "https://edpb.europa.eu"
+      },
+      "definitions": {
+        "de": "Der EDPB, Europäischer Datenschutzausschuss, koordiniert die Durchsetzung des Datenschutzes in den EU-Mitgliedstaaten. Er gibt Leitlinien, Stellungnahmen und verbindliche Beschlüsse zur Auslegung der DSGVO heraus. Er ist die wichtigste Quelle maßgeblicher DSGVO-Leitlinien.",
+        "es": "El EDPB, Comité Europeo de Protección de Datos, coordina la aplicación de la privacidad en los Estados miembros de la UE. Emite directrices, dictámenes y decisiones vinculantes sobre la interpretación del RGPD. Es la principal fuente de orientación autorizada sobre el RGPD.",
+        "fr": "L'EDPB, Comité européen de la protection des données, coordonne l'application des règles de protection de la vie privée dans les États membres de l'UE. Il publie des lignes directrices, des avis et des décisions contraignantes sur l'interprétation du RGPD. Il est la principale source d'orientation faisant autorité sur le RGPD.",
+        "pt": "O EDPB, Comitê Europeu de Proteção de Dados, coordena a aplicação da privacidade entre os Estados-membros da UE. Ele emite diretrizes, pareceres e decisões vinculantes sobre a interpretação do RGPD. É a principal fonte de orientação oficial sobre o RGPD.",
+        "zh": "EDPB（欧洲数据保护委员会）协调欧盟各成员国的隐私执法工作。它就 GDPR 的解释发布指南、意见和具有约束力的决定，是 GDPR 权威指引的主要来源。"
       }
     },
     {
@@ -317,6 +513,13 @@
       "source": {
         "label": "GDPR Article 17: EUR-Lex",
         "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+      },
+      "definitions": {
+        "de": "Das Recht auf Vergessenwerden ist die geläufige Bezeichnung für das Recht, Ihre personenbezogenen Daten löschen zu lassen. Die DSGVO verankert dies als Recht auf Löschung nach Artikel 17. Es ist nicht absolut. Unternehmen können die Löschung unter bestimmten Umständen verweigern.",
+        "es": "El derecho al olvido es el nombre popular del derecho a que se eliminen sus datos personales. El RGPD lo formaliza como el derecho de supresión en el artículo 17. No es absoluto. Las empresas pueden negarse a eliminar los datos en determinadas circunstancias.",
+        "fr": "Le droit à l'oubli est le nom courant du droit de faire supprimer vos informations personnelles. Le RGPD le formalise comme le droit à l'effacement à l'article 17. Il n'est pas absolu. Les entreprises peuvent refuser la suppression dans certaines circonstances.",
+        "pt": "O direito ao esquecimento é o nome popular do direito de ter suas informações pessoais apagadas. O RGPD o formaliza como o direito ao apagamento no Artigo 17. Não é absoluto. As empresas podem recusar a exclusão em circunstâncias específicas.",
+        "zh": "被遗忘权是要求删除您个人信息这一权利的通俗名称。GDPR 将其正式确立为第 17 条下的删除权。该权利并非绝对，公司在特定情形下可以拒绝删除。"
       }
     },
     {
@@ -328,6 +531,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Die Benachrichtigung bei Datenschutzverletzungen ist die gesetzliche Pflicht, einen Sicherheitsvorfall zu melden, bei dem personenbezogene Daten offengelegt werden. Organisationen müssen sowohl die Aufsichtsbehörden als auch die betroffenen Personen benachrichtigen. Die vorgeschriebene Frist unterscheidet sich erheblich je nach Rechtsordnung.",
+        "es": "La notificación de brechas es la obligación legal de informar de un incidente de seguridad que expone datos personales. Las organizaciones deben notificar tanto a las autoridades como a las personas afectadas. El plazo exigido varía notablemente de una jurisdicción a otra.",
+        "fr": "La notification des violations est l'obligation légale de signaler un incident de sécurité exposant des données personnelles. Les organisations doivent informer à la fois les autorités et les personnes concernées. Le délai requis varie considérablement d'une juridiction à l'autre.",
+        "pt": "A notificação de incidentes é a obrigação legal de comunicar um incidente de segurança que expõe dados pessoais. As organizações devem notificar tanto as autoridades quanto as pessoas afetadas. O prazo exigido varia significativamente entre as jurisdições.",
+        "zh": "违规通知是报告暴露个人数据的安全事件的法律义务。组织必须同时通知监管机构和受影响的个人。所要求的时限在各司法管辖区之间差异很大。"
       }
     },
     {
@@ -339,6 +549,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Datenminimierung bedeutet, nur die personenbezogenen Daten zu erheben, die Sie tatsächlich benötigen. Was Sie nicht benötigen, sollten Sie nicht erheben. Sie ist ein Grundprinzip der meisten großen Datenschutzrahmen.",
+        "es": "La minimización de datos significa recopilar solo la información personal que realmente necesita. Si no la necesita, no debería recopilarla. Es un principio fundamental en la mayoría de los grandes marcos de privacidad.",
+        "fr": "La minimisation des données consiste à ne collecter que les informations personnelles dont vous avez réellement besoin. Si vous n'en avez pas besoin, vous ne devriez pas les collecter. C'est un principe fondamental de la plupart des grands cadres de protection de la vie privée.",
+        "pt": "A minimização de dados significa coletar apenas as informações pessoais de que você realmente precisa. Se não precisa delas, não deve coletá-las. É um princípio central na maioria dos grandes marcos de privacidade.",
+        "zh": "数据最小化是指只收集您确实需要的个人信息。不需要的，就不应收集。它是大多数主要隐私框架的核心原则。"
       }
     },
     {
@@ -350,6 +567,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Zweckbindung bedeutet, dass personenbezogene Daten nur für den Zweck verwendet werden dürfen, für den sie ursprünglich erhoben wurden. Die spätere Nutzung der Daten für einen anderen Zweck erfordert in der Regel eine neue Rechtsgrundlage oder eine erneute Einwilligung.",
+        "es": "La limitación de la finalidad significa que los datos personales solo pueden usarse para el motivo por el que se recopilaron originalmente. Usar los datos más adelante con una finalidad distinta suele requerir una nueva base jurídica o un nuevo consentimiento.",
+        "fr": "La limitation des finalités signifie que les données personnelles ne peuvent être utilisées que pour la raison pour laquelle elles ont été collectées à l'origine. Les utiliser ultérieurement à une autre fin nécessite généralement une nouvelle base légale ou un nouveau consentement.",
+        "pt": "A limitação da finalidade significa que os dados pessoais só podem ser usados para o motivo pelo qual foram originalmente coletados. Usar os dados posteriormente para outra finalidade geralmente exige uma nova base legal ou um novo consentimento.",
+        "zh": "目的限制是指个人数据只能用于其最初收集时的目的。日后将数据用于其他目的通常需要新的法律依据或重新取得同意。"
       }
     },
     {
@@ -361,6 +585,13 @@
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
+      },
+      "definitions": {
+        "de": "Eine Aufbewahrungsfrist gibt an, wie lange eine Organisation personenbezogene Daten aufbewahrt, bevor sie diese löscht oder anonymisiert. Unternehmen müssen für jede Datenart Aufbewahrungsfristen festlegen und dokumentieren. Daten länger als nötig aufzubewahren, ist ein Compliance-Risiko.",
+        "es": "Un plazo de conservación es el tiempo que una organización conserva los datos personales antes de eliminarlos o anonimizarlos. Las empresas deben definir y documentar los plazos de conservación para cada tipo de dato. Conservar los datos más tiempo del necesario es un riesgo de cumplimiento.",
+        "fr": "Une durée de conservation est la durée pendant laquelle une organisation conserve des données personnelles avant de les supprimer ou de les anonymiser. Les entreprises doivent définir et documenter des durées de conservation pour chaque type de donnée. Conserver des données plus longtemps que nécessaire constitue un risque de conformité.",
+        "pt": "Um período de retenção é por quanto tempo uma organização mantém dados pessoais antes de excluí-los ou anonimizá-los. As empresas devem definir e documentar períodos de retenção para cada tipo de dado. Manter dados por mais tempo que o necessário é um risco de conformidade.",
+        "zh": "保存期限是指组织在删除或匿名化之前保留个人数据的时长。公司必须为每种类型的数据界定并记录保存期限。将数据保留超过必要时间会构成合规风险。"
       }
     },
     {
@@ -372,6 +603,13 @@
       "source": {
         "label": "EDPB Guidelines on Automated Decision-Making",
         "url": "https://edpb.europa.eu"
+      },
+      "definitions": {
+        "de": "Maßgebliche menschliche Beteiligung bedeutet, dass eine reale Person eine automatisierte Entscheidung wirklich überprüft, bevor sie wirksam wird. Es genügt nicht, dass eine Person die Ausgabe eines Algorithmus lediglich abnickt. Die Überprüfung muss echt sein, keine Formsache.",
+        "es": "La intervención humana significativa implica que una persona real revisa de verdad una decisión automatizada antes de que surta efecto. No basta con tener a alguien disponible para aprobar el resultado de un algoritmo. La revisión debe ser genuina, no una formalidad.",
+        "fr": "L'intervention humaine significative signifie qu'une personne réelle examine véritablement une décision automatisée avant qu'elle ne prenne effet. Le simple fait d'avoir une personne disponible pour approuver le résultat d'un algorithme ne suffit pas. L'examen doit être réel, et non une formalité.",
+        "pt": "O envolvimento humano significativo significa que uma pessoa real revisa de fato uma decisão automatizada antes de ela entrar em vigor. Apenas ter alguém disponível para aprovar o resultado de um algoritmo não basta. A revisão deve ser genuína, não uma formalidade.",
+        "zh": "有意义的人工参与是指在自动化决策生效之前，由真人进行实质性审查。仅仅安排一个人来批准算法的输出并不符合要求。审查必须是真实的，而非走形式。"
       }
     }
   ]

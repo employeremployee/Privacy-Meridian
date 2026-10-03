@@ -1,1 +1,171 @@
-{}
+{
+  "app": {
+    "siteName": "Privacy Meridian",
+    "tagline": "Navegue pela legislação de privacidade mundial."
+  },
+  "mode": {
+    "groupLabel": "Modo do site",
+    "inform": "Modo Informar",
+    "assess": "Modo Avaliar"
+  },
+  "entrySelector": {
+    "label": "Ponto de entrada",
+    "byRegulation": "Por lei",
+    "byTopic": "Por tema",
+    "byMap": "Por mapa"
+  },
+  "contentBlock": {
+    "timelineLabel": "Prazos de resposta",
+    "sourceLinksLabel": "Fontes",
+    "crossReferencesLabel": "Artigos relacionados",
+    "personalImpact": "O que isso significa para você"
+  },
+  "glossary": {
+    "learnMore": "Saiba mais"
+  },
+  "assess": {
+    "considerLabel": "Considere"
+  },
+  "gapRemediation": {
+    "heading": "Como fechar a lacuna"
+  },
+  "tiers": {
+    "smb": "Pequena empresa",
+    "midMarket": "Média empresa",
+    "enterprise": "Grande empresa"
+  },
+  "comparisonGrid": {
+    "requirementColumn": "Requisito",
+    "showDifferencesOnly": "Mostrar apenas as diferenças",
+    "additionalRequirement": "Requisito adicional",
+    "structuralDifference": "Diferença estrutural",
+    "showingCount": "Mostrando {{shown}} de {{total}} requisitos"
+  },
+  "modal": {
+    "close": "Fechar"
+  },
+  "map": {
+    "skipLink": "Pular o mapa-múndi",
+    "instructions": "Use Tab ou passe o cursor sobre os países destacados para ver qual lei de privacidade se aplica. Os países em azul abrem os detalhes jurídicos completos.",
+    "viewJurisdictionLabel": "Ver a lei de privacidade de {{name}}",
+    "selectedJurisdictionLabel": "{{name}}, selecionado. Ative para remover da comparação.",
+    "currentlyHighlighting": "Destacando: {{name}}",
+    "nationalImplementationNote": "O RGPD se aplica em toda a UE. {{country}} também pode ter uma implementação nacional adicional."
+  },
+  "home": {
+    "exploreTab": "Explorar",
+    "compareTab": "Comparar",
+    "viewLabel": "Visualização",
+    "exploreHint": "Escolha um país no mapa para ver sua lei de privacidade.",
+    "compareHint": "Escolha um tema e depois países no mapa para compará-los lado a lado.",
+    "draftBadge": "Dados preliminares",
+    "statusIllustrative": "As cores de status dos países são ilustrativas neste protótipo e ainda não foram verificadas.",
+    "compareSelectedCount": "{{count}} de {{max}} países selecionados.",
+    "compareLimitReached": "Limite atingido. Remova um país antes de adicionar outro."
+  },
+  "legend": {
+    "heading": "Legenda do mapa",
+    "enacted": "Lei abrangente em vigor",
+    "developing": "Lei em desenvolvimento ou ainda não em vigor",
+    "none": "Sem lei abrangente"
+  },
+  "topicPicker": {
+    "label": "Tema"
+  },
+  "countryPicker": {
+    "label": "Escolha um país",
+    "placeholder": "Digite o nome de um país",
+    "noResults": "Nenhum país corresponde a esse nome.",
+    "clearAll": "Limpar todas as seleções"
+  },
+  "comparison": {
+    "requirementColumn": "Categoria",
+    "yes": "Sim",
+    "partial": "Parcial",
+    "no": "Não",
+    "pickCountries": "Escolha países no mapa para comparar.",
+    "draftNotice": "Dados de comparação preliminares: em análise, ainda não verificados."
+  },
+  "drilldown": {
+    "draftNotice": "Conteúdo preliminar: em análise, ainda não verificado."
+  },
+  "organizations": {
+    "toggle": "Ajuda para organizações",
+    "toggleHint": "Mostrar orientações de conformidade para organizações"
+  },
+  "languageSelector": {
+    "label": "Idioma"
+  },
+  "regulationNav": {
+    "label": "Escolha uma jurisdição",
+    "heading": "Escolha uma jurisdição"
+  },
+  "topicNav": {
+    "label": "Escolha um tema",
+    "heading": "Escolha um tema"
+  },
+  "footer": {
+    "sourceAttribution": "O conteúdo se baseia em textos normativos oficiais e orientações públicas.",
+    "about": "Sobre",
+    "lastUpdated": "Última atualização em julho de 2026",
+    "copyright": "© 2026 Privacy Meridian. Todos os direitos reservados."
+  },
+  "nav": {
+    "barrelman": "Privacy Barrelman",
+    "news": "Notícias",
+    "backToMap": "Voltar ao mapa"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "message": "Essa página não existe ou foi movida."
+  },
+  "barrelman": {
+    "title": "Privacy Barrelman",
+    "tagline": "O vigia das notícias de privacidade do mundo.",
+    "intro": "Notícias recentes de privacidade do mundo todo, atualizadas ao longo do dia.",
+    "updatedAt": "Atualizado {{time}}",
+    "updatedUnknown": "Horário de atualização desconhecido",
+    "searchLabel": "Pesquisar manchetes",
+    "searchPlaceholder": "Pesquisar manchetes",
+    "categoryFilterLabel": "Filtrar por categoria",
+    "allCategories": "Todas",
+    "resultCount": "{{count}} artigo",
+    "resultCount_other": "{{count}} artigos",
+    "empty": "Nenhum artigo corresponde aos seus filtros. Tente limpá-los.",
+    "clearFilters": "Limpar filtros",
+    "loading": "Carregando as últimas notícias de privacidade.",
+    "error": "O feed de notícias não pôde ser carregado agora. Tente novamente mais tarde.",
+    "stale": "Este feed não foi atualizado recentemente. Mostrando os artigos mais recentes disponíveis.",
+    "seedNotice": "Notícias de exemplo por enquanto. O feed ao vivo é ativado quando o site é publicado.",
+    "openInNewTab": "Abre em uma nova aba",
+    "sourceLabel": "Fonte: {{source}}",
+    "inLanguage": "Em {{language}}",
+    "pagination": {
+      "label": "Páginas de notícias",
+      "previous": "Páginas anteriores",
+      "next": "Próximas páginas",
+      "page": "Página {{page}}",
+      "status": "Página {{page}} de {{total}}"
+    },
+    "category": {
+      "legal-regulatory": "Jurídico e regulatório",
+      "policy-perspectives": "Políticas e perspectivas",
+      "breaches": "Vazamentos"
+    },
+    "language": {
+      "en": "inglês",
+      "fr": "francês",
+      "de": "alemão",
+      "nl": "holandês",
+      "es": "espanhol",
+      "pt": "português",
+      "ja": "japonês",
+      "zh": "chinês",
+      "ru": "russo",
+      "pl": "polonês",
+      "ko": "coreano",
+      "it": "italiano",
+      "ar": "árabe"
+    }
+  }
+}

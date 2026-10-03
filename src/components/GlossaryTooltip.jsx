@@ -1,12 +1,17 @@
 import { useTranslation } from 'react-i18next'
 
 function GlossaryTooltip({ term, onLearnMore }) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+
+  // Show the definition in the active language, falling back to English. The
+  // term heading stays English on purpose: it matches the English word the
+  // reader hovered in the (English) article prose.
+  const definition = term.definitions?.[i18n.language] || term.definition
 
   return (
     <div className="flex max-w-[280px] flex-col gap-2">
       <p className="text-xs font-bold text-ink">{term.term}</p>
-      <p className="text-xs text-ink">{term.definition}</p>
+      <p className="text-xs text-ink">{definition}</p>
       {term.source && (
         <a
           href={term.source.url}

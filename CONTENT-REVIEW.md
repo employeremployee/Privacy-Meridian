@@ -33,7 +33,42 @@ Sources:
 
 ---
 
+## India — DPDP Act ◐
+
+**Headline finding:** our content presented the DPDP regime as operational, but it is phased in. The **DPDP Rules were notified 13 November 2025** with **staggered commencement**: the Data Protection Board provisions are in force now, but the **core obligations and rights (Sections 3-17) take effect ~18 months later, around mid-2027.** Until then those duties are not yet enforceable.
+
+Proposed changes to `dpdp.json`:
+1. **Scope professionalLayer** — rewrote the implementation sentence to state the Nov 2025 notification, the staggered commencement, and that Sections 3-17 (notice, consent, rights, breach, etc.) are not yet enforceable until ~mid-2027. (Done.)
+2. The substantive descriptions (consent + Section 7 legitimate uses, no sensitive-data category, nomination right, no-threshold breach notice, blacklist transfers, 250 crore penalty, consent managers) check out against the Act and need no change.
+
+**⚠️ Decision for you (map coloring):** India is currently colored blue (enacted) on the map. Under the rule we just set ("only laws fully in force are colored, else grey"), India's core regime is not in force until ~2027, so India arguably belongs **grey** until then. It is a judgment call because the Board provisions *are* live. Tell me whether to grey India out now or keep it blue with the "phasing in" note. (Same test may apply to any other jurisdiction found not fully in force.)
+
+Sources:
+- Press Information Bureau, "DPDP Rules, 2025 Notified" — https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190655&reg=48&lang=2
+- Shardul Amarchand Mangaldas, "Enforcement of the DPDP Act and notification of the DPDP rules" — https://www.amsshardul.com/insight/enforcement-of-the-dpdp-act-and-notification-of-the-dpdp-rules/
+- India Briefing, "DPDP Rules 2025" — https://www.india-briefing.com/news/dpdp-rules-2025-india-data-protection-law-compliance-40769.html/
+
+---
+
+## California — CCPA/CPRA ◐
+**Finding:** the CPPA finalized major new regulations (approved 2025-09-23) on automated decision-making technology (ADMT), risk assessments, and cybersecurity audits. Revisions to existing duties took effect 2026-01-01; the ADMT, risk-assessment, and cybersecurity-audit obligations phase in through 2027. Added a note to `ccpa.json` scope. Rest of content checks out.
+Sources: White & Case — https://www.whitecase.com/insight-alert/cppa-finalizes-rules-admt-risk-assessments-and-cybersecurity-audits-requirements ; CPPA — https://cppa.ca.gov/announcements/2025/20250923.html
+
+## China — PIPL ◐
+**Finding:** our transfers article described the original strict regime. The CAC *relaxed* cross-border rules via the March 2024 Provisions on Promoting and Regulating Cross-Border Data Flows (higher thresholds, exemptions for trade/HR), and a certification route took effect 2026-01-01. Added a note to the `pipl.json` transfers article. (PIPL source links already swapped to DigiChina in commit c9301b7.)
+Sources: Freshfields — https://riskandcompliance.freshfields.com/post/102j3jy/china-introduces-revised-cross-border-data-transfer-rules ; Benesch — https://www.beneschlaw.com/insight/china-officially-promulgates-new-cross-border-data-transfer-requirements/
+
+## EU — GDPR ✅ (reviewed, no content change)
+**Finding:** the GDPR itself (Regulation 2016/679) is unchanged and current. A "Digital Omnibus" reform was *proposed* 2025-11-19 (personal-data definition, breach notification single entry point, AI/ML and cookie provisions, record-keeping relief) but is **not adopted** and drew critical EDPB/EDPS opinions. Left current-law content intact; flagging the proposal here as a watch item, not a change. Revisit if/when adopted.
+Sources: EDPB/EDPS Joint Opinion 2/2026 — https://www.edpb.europa.eu/news/digital-omnibus-edpb-and-edps-support-simplification-and-competitiveness-while-raising-key_en
+
+## Brazil — LGPD ◐
+**Finding:** the ANPD became an autonomous regulatory agency (2025-09-17) and moved into active enforcement with its first significant fines; Brazil's own standard contractual clauses for international transfers took effect in 2025 (grace period ended Aug 2025). Updated the `lgpd.json` scope (it had said the ANPD was "still developing its regulatory guidance").
+Sources: Trench Rossi Watanabe — https://www.trenchrossi.com/en/legal-alerts/brazilian-data-protection-authority-becomes-a-regulatory-agency-and-assumes-new-responsibilities-for-the-digital-protection-of-children-and-adolescents/ ; Mayer Brown (Brazil SCCs) — https://www.mayerbrown.com/en/insights/publications/2025/08/end-of-grace-period-implementation-of-brazils-standard-contractual-clauses-in-international-transfers-of-personal-data
+
+---
+
 ## Remaining jurisdictions ☐
-GDPR, UK GDPR, CCPA/CPRA, LGPD (Brazil), PIPL (China), FADP (Switzerland),
-PDPA (Argentina), LPDP (Uruguay), PIPA (South Korea), NZPA (New Zealand),
-POPIA (South Africa), KDPA (Kenya), DPDP (India) — pending.
+UK GDPR, FADP (Switzerland), PDPA (Argentina), LPDP (Uruguay),
+PIPA (South Korea), NZPA (New Zealand), POPIA (South Africa), KDPA (Kenya) — pending.
+Then Pass B: fill comparison-grid article/section citations (currently ~34% of cells).

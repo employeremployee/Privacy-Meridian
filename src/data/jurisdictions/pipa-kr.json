@@ -3,7 +3,7 @@
     "id": "pipa-kr",
     "name": "PIPA",
     "fullName": "Personal Information Protection Act",
-    "citation": "PIPA (2011), substantially amended 2020 and 2023",
+    "citation": "PIPA (2011), substantially amended 2020, 2023, and 2025",
     "region": "South Korea",
     "badge": "KR",
     "effectiveDate": "2011-09-30",
@@ -28,7 +28,7 @@
           "surfaceLabel": "Does South Korea's Privacy Law Apply to Your Organization?",
           "plainSummary": "South Korea's PIPA is one of the oldest and strictest comprehensive privacy laws, dating to 2011 and heavily modernized since. It applies to nearly every organization handling personal information of people in Korea, public or private.",
           "personalImpact": "South Korea is one of the world's most connected societies, and its major data breaches have been just as large. Your resident registration number and accounts sit in countless databases. PIPA covers organizations handling data about people in Korea, including from abroad. It sets strict rules to match those stakes.",
-          "professionalLayer": "PIPA applies to personal information controllers across the public and private sectors, with extraterritorial reach over foreign operators processing Korean data subjects' information in connection with offering goods or services into Korea. The 2020 amendments consolidated enforcement under an independent Personal Information Protection Commission and folded the online-sector rules into PIPA; the 2023 amendments overhauled breach notification, cross-border transfers, penalties tied to total revenue, and automated decision rights. Controllers must designate a chief privacy officer, and Korea holds an EU adequacy decision. PIPA's consent granularity and enforcement intensity make it one of the most operationally demanding regimes in Asia.",
+          "professionalLayer": "PIPA applies to personal information controllers across the public and private sectors, with extraterritorial reach over foreign operators processing Korean data subjects' information in connection with offering goods or services into Korea. The 2020 amendments consolidated enforcement under an independent Personal Information Protection Commission and folded the online-sector rules into PIPA; the 2023 amendments overhauled breach notification, cross-border transfers, penalties tied to total revenue, and automated decision rights. Controllers must designate a chief privacy officer, and Korea holds an EU adequacy decision. PIPA's consent granularity and enforcement intensity make it one of the most operationally demanding regimes in Asia. A 2024 enforcement decree added rules on AI-driven automated decisions and chief privacy officer qualifications, and a data-portability right took effect in 2025. A 2025 amendment requires foreign operators to appoint a domestic representative and raises the top administrative fine to 10 percent of total revenue in severe cases.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [

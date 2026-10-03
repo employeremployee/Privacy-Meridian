@@ -41,7 +41,7 @@ Proposed changes to `dpdp.json`:
 1. **Scope professionalLayer** — rewrote the implementation sentence to state the Nov 2025 notification, the staggered commencement, and that Sections 3-17 (notice, consent, rights, breach, etc.) are not yet enforceable until ~mid-2027. (Done.)
 2. The substantive descriptions (consent + Section 7 legitimate uses, no sensitive-data category, nomination right, no-threshold breach notice, blacklist transfers, 250 crore penalty, consent managers) check out against the Act and need no change.
 
-**⚠️ Decision for you (map coloring):** India is currently colored blue (enacted) on the map. Under the rule we just set ("only laws fully in force are colored, else grey"), India's core regime is not in force until ~2027, so India arguably belongs **grey** until then. It is a judgment call because the Board provisions *are* live. Tell me whether to grey India out now or keep it blue with the "phasing in" note. (Same test may apply to any other jurisdiction found not fully in force.)
+**Map coloring (resolved 2026):** Jared decided to **keep India blue** with the "phasing in" note, since the Act is effectively law. No map change. (This also sets the precedent: a passed-but-phasing-in law stays colored, with the status noted in content rather than greyed out.)
 
 Sources:
 - Press Information Bureau, "DPDP Rules, 2025 Notified" — https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190655&reg=48&lang=2
@@ -68,7 +68,38 @@ Sources: Trench Rossi Watanabe — https://www.trenchrossi.com/en/legal-alerts/b
 
 ---
 
-## Remaining jurisdictions ☐
-UK GDPR, FADP (Switzerland), PDPA (Argentina), LPDP (Uruguay),
-PIPA (South Korea), NZPA (New Zealand), POPIA (South Africa), KDPA (Kenya) — pending.
-Then Pass B: fill comparison-grid article/section citations (currently ~34% of cells).
+## United Kingdom — UK GDPR ◐
+**Finding:** the Data (Use and Access) Act 2025 is now in force (data-protection provisions commenced Feb 2026). Adds a seventh lawful basis (recognised legitimate interests), replaces Article 22 with new Articles 22A-22D, relaxes some cookie-consent rules, and adds a UK "data bridges" transfer test. Updated `ukgdpr.json` scope (it only vaguely noted divergence).
+Sources: ICO — https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-what-does-it-mean-for-organisations/ ; DLA Piper — https://privacymatters.dlapiper.com/2026/02/uk-commencement-of-the-data-protection-provisions-in-the-data-use-and-access-act/
+
+## South Korea — PIPA ◐
+**Finding:** added the 2024 enforcement decree (AI automated-decision rules, CPO qualifications), the 2025 data-portability right, and the 2025 amendment (domestic-representative mandate for foreign operators, top fine raised to 10% of total revenue in severe cases). Updated `pipa-kr.json` citation + scope.
+Sources: Library of Congress — https://www.loc.gov/item/global-legal-monitor/2025-06-23/south-korea-amended-personal-information-protection-act-expands-individuals-control-over-personal-data/ ; Private AI — https://www.private-ai.com/en/2024/03/18/south-korea-pipa/
+
+## New Zealand — Privacy Act 2020 ◐
+**Finding:** added IPP 3A (notice on indirect collection, in force May 2026, via the Privacy Amendment Act 2025) and the Biometric Processing Privacy Code (in force Nov 2025). Updated `nzpa.json` scope.
+Sources: IAPP — https://iapp.org/news/a/nz-privacy-amendment-act-broadens-privacy-notification-obligation-to-meet-global-practice ; Nat Law Review — https://natlawreview.com/article/new-zealand-privacy-amendment-act-2025-introduces-new-notification-requirements
+
+## Switzerland — FADP ✅ (reviewed, no change)
+Revised FADP in force since 1 Sept 2023; content already current. No material 2024-2026 amendment found.
+
+## Argentina — PDPA (Law 25.326) ✅ (reviewed, no change)
+Law 25.326 (2000) remains binding; EU adequacy intact. GDPR-aligned replacement bills are pending in Congress (e.g. 644-S-2025, 1948-D-2025) but none enacted. Our content already states this accurately.
+Source: Lexology — https://www.lexology.com/library/detail.aspx?g=d696be0e-4476-4c8c-83f9-6360dd701d70
+
+## Uruguay — LPDP (Law 18.331) ✅ (reviewed, no change)
+Law 18.331 (2008), EU adequacy (2012), first non-European ratifier of Convention 108. No material 2024-2025 amendment found; content current.
+
+## South Africa — POPIA ◐
+**Finding:** POPIA Regulations amended effective 17 April 2025 — direct-marketing consent now requires a positive opt-in, data-subject-request channels widened with a 30-day response window, and the Information Regulator launched an online breach-reporting portal. Updated `popia.json` scope.
+Sources: Bowmans — https://bowmanslaw.com/insights/south-africa-popia-regulations-get-a-makeover-what-you-need-to-know/ ; Alt Advisory — https://altadvisory.africa/2025/04/22/south-africa-info-regulator-issues-new-popia-regulations/
+
+## Kenya — DPA 2019 ◐
+**Finding:** noted late-2024 ODPC draft rules (compliance audits, data-sharing code) and the pending Data Protection Amendment Bill 2025 (adds political opinions and trade-union membership to sensitive data, revises penalties), flagged as not yet in force. Updated `kdpa.json` scope.
+Source: Digital Policy Alert — https://digitalpolicyalert.org/digest/dpa-digital-digest-kenya
+
+---
+
+## Pass A complete — all 14 laws reviewed ✅
+
+Next: **Pass B — comparison-grid citations (#5).** Fill the article/section citation in each comparison cell that lacks one (~34% of 798 cells cite one today; the display already supports it via `ComparisonCell`). Done per topic file, verified against each law.

@@ -45,7 +45,7 @@
         "lpdp-uy": { "state": "partial", "note": "Consent tied to the informed purpose." },
         "pipa-kr": { "state": "yes", "note": "Separate consent required for each distinct purpose." },
         "appi": { "state": "partial", "note": "Use limited to the notified purpose." },
-        "nzpa": { "state": "partial", "note": "Use limited to the purpose of collection, IPP 10." },
+        "nzpa": { "state": "partial", "note": "Use limited to the purpose of collection." },
         "popia": { "state": "partial", "note": "Processing tied to a specific, explicit purpose." },
         "kdpa": { "state": "partial", "note": "Consent tied to specified purposes." },
         "dpdp": { "state": "yes", "note": "Consent limited to the specified purpose; itemized notice required." }
@@ -55,18 +55,18 @@
       "id": "sensitive-explicit",
       "label": "Explicit consent for sensitive data",
       "jurisdictions": {
-        "gdpr": { "state": "yes", "note": "Article 9 explicit consent condition." },
+        "gdpr": { "state": "yes", "note": "Explicit consent condition." },
         "ccpa": { "state": "partial", "note": "Right to limit use of sensitive personal information rather than prior consent." },
         "lgpd": { "state": "yes", "note": "Specific and highlighted consent for sensitive data." },
-        "pipl": { "state": "yes", "note": "Separate consent for sensitive personal information, Article 29." },
-        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 9 explicit consent condition." },
-        "fadp": { "state": "yes", "note": "Explicit consent required for sensitive data, Article 6." },
-        "pdpa-ar": { "state": "yes", "note": "Sensitive data needs specific consent, Article 7." },
+        "pipl": { "state": "yes", "note": "Separate consent for sensitive personal information." },
+        "ukgdpr": { "state": "yes", "note": "Explicit consent condition." },
+        "fadp": { "state": "yes", "note": "Explicit consent required for sensitive data." },
+        "pdpa-ar": { "state": "yes", "note": "Sensitive data needs specific consent." },
         "lpdp-uy": { "state": "yes", "note": "Express consent required for sensitive data." },
-        "pipa-kr": { "state": "yes", "note": "Separate consent for sensitive information, Article 23." },
-        "appi": { "state": "yes", "note": "Prior consent required to acquire special care-required data, Article 20." },
+        "pipa-kr": { "state": "yes", "note": "Separate consent for sensitive information." },
+        "appi": { "state": "yes", "note": "Prior consent required to acquire special care-required data." },
         "nzpa": { "state": "no", "note": "No special-category consent rule; the same principles apply." },
-        "popia": { "state": "yes", "note": "Special personal information requires consent or a listed exception, Section 27." },
+        "popia": { "state": "yes", "note": "Special personal information requires consent or a listed exception." },
         "kdpa": { "state": "yes", "note": "Sensitive data requires consent or a specific condition." },
         "dpdp": { "state": "partial", "note": "No sensitive category, but children's data needs verifiable parental consent." }
       }
@@ -75,20 +75,20 @@
       "id": "easy-withdrawal",
       "label": "Withdrawal as easy as giving",
       "jurisdictions": {
-        "gdpr": { "state": "yes", "note": "Article 7(3)." },
+        "gdpr": { "state": "yes" },
         "ccpa": { "state": "partial", "note": "Delivered through opt-out mechanisms." },
-        "lgpd": { "state": "yes", "note": "Article 8, facilitated withdrawal." },
-        "pipl": { "state": "yes", "note": "Article 15, convenient withdrawal." },
-        "ukgdpr": { "state": "yes", "note": "UK GDPR Article 7(3)." },
+        "lgpd": { "state": "yes", "note": "Facilitated withdrawal." },
+        "pipl": { "state": "yes", "note": "Convenient withdrawal." },
+        "ukgdpr": { "state": "yes" },
         "fadp": { "state": "yes", "note": "Consent can be withdrawn at any time." },
-        "pdpa-ar": { "state": "yes", "note": "Consent is revocable, Article 5." },
+        "pdpa-ar": { "state": "yes", "note": "Consent is revocable." },
         "lpdp-uy": { "state": "yes", "note": "Consent may be withdrawn." },
         "pipa-kr": { "state": "yes", "note": "Consent may be withdrawn at any time." },
         "appi": { "state": "partial", "note": "Withdrawal handled through cessation-of-use requests." },
         "nzpa": { "state": "partial", "note": "No formal consent-withdrawal mechanism; principle-based." },
-        "popia": { "state": "yes", "note": "Consent may be withdrawn, Section 11(2)." },
+        "popia": { "state": "yes", "note": "Consent may be withdrawn." },
         "kdpa": { "state": "yes", "note": "Consent may be withdrawn." },
-        "dpdp": { "state": "yes", "note": "Withdrawal must be as easy as giving consent, Section 6." }
+        "dpdp": { "state": "yes", "note": "Withdrawal must be as easy as giving consent." }
       }
     },
     {
@@ -104,7 +104,7 @@
         "pdpa-ar": { "state": "no", "note": "Opt-in framework." },
         "lpdp-uy": { "state": "no", "note": "Opt-in framework." },
         "pipa-kr": { "state": "no", "note": "Consent-based framework." },
-        "appi": { "state": "partial", "note": "Third-party provision can use an opt-out filing, Article 27." },
+        "appi": { "state": "partial", "note": "Third-party provision can use an opt-out filing." },
         "nzpa": { "state": "partial", "note": "Principle-based; neither strict opt-in nor opt-out." },
         "popia": { "state": "no", "note": "Justification-based framework, not opt-out." },
         "kdpa": { "state": "no", "note": "Consent and lawful-basis framework." },
@@ -115,9 +115,9 @@
       "id": "children",
       "label": "Heightened consent for children",
       "jurisdictions": {
-        "gdpr": { "state": "yes", "note": "Article 8, parental consent below the age threshold." },
+        "gdpr": { "state": "yes", "note": "Parental consent below the age threshold." },
         "ccpa": { "state": "yes", "note": "Opt-in for sale or sharing of data of consumers under 16." },
-        "lgpd": { "state": "yes", "note": "Article 14, best interest of the child." },
+        "lgpd": { "state": "yes", "note": "Best interest of the child." },
         "pipl": { "state": "yes", "note": "Guardian consent for minors under 14, treated as sensitive." },
         "ukgdpr": { "state": "yes", "note": "Parental consent below the age threshold; the DPA 2018 sets it at 13." },
         "fadp": { "state": "partial", "note": "General principles apply; no fixed child-consent age." },
@@ -126,9 +126,9 @@
         "pipa-kr": { "state": "yes", "note": "Guardian consent for children under 14." },
         "appi": { "state": "partial", "note": "Guidelines expect guardian consent for children under 15." },
         "nzpa": { "state": "no", "note": "No specific child-consent rule." },
-        "popia": { "state": "yes", "note": "Processing children's data needs consent of a competent person, Section 35." },
-        "kdpa": { "state": "yes", "note": "Consent of a parent or guardian for a child, Section 33." },
-        "dpdp": { "state": "yes", "note": "Verifiable parental consent required for children under 18, Section 9." }
+        "popia": { "state": "yes", "note": "Processing children's data needs consent of a competent person." },
+        "kdpa": { "state": "yes", "note": "Consent of a parent or guardian for a child." },
+        "dpdp": { "state": "yes", "note": "Verifiable parental consent required for children under 18." }
       }
     }
   ]

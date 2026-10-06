@@ -15,19 +15,19 @@
       "id": "adequacy",
       "label": "Adequacy decision or recognition",
       "jurisdictions": {
-        "gdpr": { "state": "yes", "note": "Article 45." },
+        "gdpr": { "state": "yes" },
         "ccpa": { "state": "no", "note": "No specific cross-border transfer restrictions." },
         "lgpd": { "state": "yes", "note": "ANPD adequacy recognition, still developing." },
-        "pipl": { "state": "no", "note": "PIPL has no adequacy-decision mechanism." },
-        "ukgdpr": { "state": "yes", "note": "UK adequacy regulations, known as data bridges." },
+        "pipl": { "state": "no", "note": "No adequacy-decision mechanism." },
+        "ukgdpr": { "state": "yes", "note": "Adequacy regulations, known as data bridges." },
         "fadp": { "state": "yes", "note": "Federal Council list of countries with adequate protection." },
-        "pdpa-ar": { "state": "yes", "note": "Transfers allowed to countries with adequate protection, Article 12." },
-        "lpdp-uy": { "state": "yes", "note": "Transfers allowed to countries with adequate protection, Article 23." },
+        "pdpa-ar": { "state": "yes", "note": "Transfers allowed to countries with adequate protection." },
+        "lpdp-uy": { "state": "yes", "note": "Transfers allowed to countries with adequate protection." },
         "pipa-kr": { "state": "partial", "note": "Adequacy-style recognition being developed under the 2023 amendment." },
         "appi": { "state": "yes", "note": "Transfers allowed to countries designated as equivalent by the PPC." },
-        "nzpa": { "state": "partial", "note": "IPP 12 allows transfer where comparable safeguards exist, with no formal adequacy list." },
-        "popia": { "state": "partial", "note": "Transfer allowed where the recipient has adequate protection, Section 72." },
-        "kdpa": { "state": "yes", "note": "Transfers to countries with adequate safeguards, Section 48." },
+        "nzpa": { "state": "partial", "note": "Transfer allowed where comparable safeguards exist, with no formal adequacy list." },
+        "popia": { "state": "partial", "note": "Transfer allowed where the recipient has adequate protection." },
+        "kdpa": { "state": "yes", "note": "Transfers to countries with adequate safeguards." },
         "dpdp": { "state": "partial", "note": "Transfers allowed except to countries the government restricts." }
       }
     },
@@ -35,7 +35,7 @@
       "id": "sccs",
       "label": "Standard contractual clauses",
       "jurisdictions": {
-        "gdpr": { "state": "yes", "note": "Article 46, EU-approved SCCs." },
+        "gdpr": { "state": "yes", "note": "EU-approved SCCs." },
         "ccpa": { "state": "no", "note": "Service-provider contracts, but no SCC transfer regime." },
         "lgpd": { "state": "partial", "note": "ANPD-approved clauses, still being finalized." },
         "pipl": { "state": "yes", "note": "CAC standard contract, using the mandated CAC form." },
@@ -45,8 +45,8 @@
         "lpdp-uy": { "state": "yes", "note": "Contractual clauses accepted for transfers." },
         "pipa-kr": { "state": "partial", "note": "Contractual safeguards used, with no single mandated form." },
         "appi": { "state": "partial", "note": "Contractual measures ensure equivalent protection at the recipient." },
-        "nzpa": { "state": "yes", "note": "Contractual safeguards satisfy IPP 12." },
-        "popia": { "state": "yes", "note": "Binding agreements with the recipient, Section 72." },
+        "nzpa": { "state": "yes", "note": "Contractual safeguards satisfy the transfer principle." },
+        "popia": { "state": "yes", "note": "Binding agreements with the recipient." },
         "kdpa": { "state": "yes", "note": "Contractual safeguards for transfers." },
         "dpdp": { "state": "no", "note": "No standard-contractual-clause regime; transfers turn on the country list." }
       }
@@ -55,39 +55,39 @@
       "id": "bcrs",
       "label": "Binding corporate rules",
       "jurisdictions": {
-        "gdpr": { "state": "yes", "note": "Article 47." },
+        "gdpr": { "state": "yes" },
         "ccpa": { "state": "no", "note": "Not part of the CCPA framework." },
         "lgpd": { "state": "partial", "note": "Recognized in principle, guidance developing." },
-        "pipl": { "state": "no", "note": "Not a recognized PIPL mechanism." },
-        "ukgdpr": { "state": "yes", "note": "UK binding corporate rules, ICO-approved." },
+        "pipl": { "state": "no", "note": "Not a recognized mechanism." },
+        "ukgdpr": { "state": "yes", "note": "Binding corporate rules, ICO-approved." },
         "fadp": { "state": "partial", "note": "Group data-protection rules recognized by the FDPIC." },
         "pdpa-ar": { "state": "partial", "note": "Intra-group codes recognized in practice, guidance developing." },
         "lpdp-uy": { "state": "partial", "note": "Intra-group safeguards accepted, with limited guidance." },
         "pipa-kr": { "state": "no", "note": "Not a distinct recognized mechanism." },
         "appi": { "state": "partial", "note": "Intra-group rules can support equivalent protection." },
-        "nzpa": { "state": "partial", "note": "Intra-group safeguards can satisfy IPP 12." },
-        "popia": { "state": "partial", "note": "Binding intra-group agreements can satisfy Section 72." },
+        "nzpa": { "state": "partial", "note": "Intra-group safeguards can satisfy the transfer principle." },
+        "popia": { "state": "partial", "note": "Binding intra-group agreements can satisfy the transfer rule." },
         "kdpa": { "state": "partial", "note": "Binding corporate rules contemplated, guidance developing." },
-        "dpdp": { "state": "no", "note": "Not a recognized DPDP mechanism." }
+        "dpdp": { "state": "no", "note": "Not a recognized mechanism." }
       }
     },
     {
       "id": "consent-transfer",
       "label": "Explicit consent for transfer",
       "jurisdictions": {
-        "gdpr": { "state": "partial", "note": "Article 49 derogation for specific situations." },
+        "gdpr": { "state": "partial", "note": "Derogation for specific situations." },
         "ccpa": { "state": "no", "note": "Not a transfer mechanism." },
-        "lgpd": { "state": "yes", "note": "Specific consent for the transfer, Article 33." },
-        "pipl": { "state": "yes", "note": "Separate consent for cross-border transfer, Article 39." },
-        "ukgdpr": { "state": "partial", "note": "Article 49 derogation for specific situations." },
-        "fadp": { "state": "yes", "note": "Explicit consent permits transfer, Article 17." },
-        "pdpa-ar": { "state": "yes", "note": "Data-subject consent permits transfer, Article 12." },
-        "lpdp-uy": { "state": "yes", "note": "Consent permits transfer, Article 23." },
+        "lgpd": { "state": "yes", "note": "Specific consent for the transfer." },
+        "pipl": { "state": "yes", "note": "Separate consent for cross-border transfer." },
+        "ukgdpr": { "state": "partial", "note": "Derogation for specific situations." },
+        "fadp": { "state": "yes", "note": "Explicit consent permits transfer." },
+        "pdpa-ar": { "state": "yes", "note": "Data-subject consent permits transfer." },
+        "lpdp-uy": { "state": "yes", "note": "Consent permits transfer." },
         "pipa-kr": { "state": "yes", "note": "Separate consent required to transfer data abroad." },
-        "appi": { "state": "yes", "note": "Consent is the primary route for third-party transfer abroad, Article 28." },
-        "nzpa": { "state": "partial", "note": "Individual authorization is one route under IPP 12." },
-        "popia": { "state": "yes", "note": "Data-subject consent permits transfer, Section 72." },
-        "kdpa": { "state": "yes", "note": "Consent permits transfer, Section 48." },
+        "appi": { "state": "yes", "note": "Consent is the primary route for third-party transfer abroad." },
+        "nzpa": { "state": "partial", "note": "Individual authorization is one route." },
+        "popia": { "state": "yes", "note": "Data-subject consent permits transfer." },
+        "kdpa": { "state": "yes", "note": "Consent permits transfer." },
         "dpdp": { "state": "partial", "note": "Consent underpins processing, but transfer turns on the country list." }
       }
     },
@@ -95,7 +95,7 @@
       "id": "certification",
       "label": "Certification mechanism",
       "jurisdictions": {
-        "gdpr": { "state": "yes", "note": "Articles 42 and 46." },
+        "gdpr": { "state": "yes" },
         "ccpa": { "state": "no", "note": "Not part of the CCPA framework." },
         "lgpd": { "state": "partial", "note": "Contemplated, guidance developing." },
         "pipl": { "state": "yes", "note": "CAC-recognized professional certification." },
@@ -105,10 +105,10 @@
         "lpdp-uy": { "state": "no", "note": "Not part of the transfer regime." },
         "pipa-kr": { "state": "partial", "note": "Certification such as ISMS-P supports but does not authorize transfer." },
         "appi": { "state": "no", "note": "Not a distinct transfer mechanism." },
-        "nzpa": { "state": "no", "note": "Not part of IPP 12." },
-        "popia": { "state": "no", "note": "Not part of Section 72." },
+        "nzpa": { "state": "no", "note": "Not part of the transfer principle." },
+        "popia": { "state": "no", "note": "Not part of the transfer rule." },
         "kdpa": { "state": "no", "note": "Not a distinct transfer mechanism." },
-        "dpdp": { "state": "no", "note": "Not part of the DPDP transfer model." }
+        "dpdp": { "state": "no", "note": "Not part of the transfer model." }
       }
     },
     {
@@ -127,7 +127,7 @@
         "appi": { "state": "no", "note": "No government pre-approval of transfers." },
         "nzpa": { "state": "no", "note": "No government pre-approval of transfers." },
         "popia": { "state": "no", "note": "No government pre-approval of transfers." },
-        "kdpa": { "state": "partial", "note": "Sensitive-data transfers may require confirmation of safeguards, Section 49." },
+        "kdpa": { "state": "partial", "note": "Sensitive-data transfers may require confirmation of safeguards." },
         "dpdp": { "state": "no", "note": "No pre-approval; the government instead restricts specific countries." }
       }
     },
@@ -135,7 +135,7 @@
       "id": "localization",
       "label": "Data localization required",
       "jurisdictions": {
-        "gdpr": { "state": "no", "note": "Transfers permitted under Chapter V mechanisms." },
+        "gdpr": { "state": "no", "note": "Transfers permitted under recognized mechanisms." },
         "ccpa": { "state": "no", "note": "No localization requirement." },
         "lgpd": { "state": "no", "note": "No localization requirement." },
         "pipl": { "state": "yes", "note": "Required for CIIOs and handlers above CAC volume thresholds." },
@@ -147,7 +147,7 @@
         "appi": { "state": "no", "note": "No localization requirement." },
         "nzpa": { "state": "no", "note": "No localization requirement." },
         "popia": { "state": "no", "note": "No general localization requirement." },
-        "kdpa": { "state": "partial", "note": "Strategic or sensitive categories may require local storage, Section 50." },
+        "kdpa": { "state": "partial", "note": "Strategic or sensitive categories may require local storage." },
         "dpdp": { "state": "partial", "note": "The government may restrict transfers to specified countries." }
       }
     }

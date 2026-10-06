@@ -102,4 +102,36 @@ Source: Digital Policy Alert — https://digitalpolicyalert.org/digest/dpa-digit
 
 ## Pass A complete — all 14 laws reviewed ✅
 
-Next: **Pass B — comparison-grid citations (#5).** Fill the article/section citation in each comparison cell that lacks one (~34% of 798 cells cite one today; the display already supports it via `ComparisonCell`). Done per topic file, verified against each law.
+---
+
+## Comparison tables — citations removed (#5, reversed direction) ✅
+
+**Decision (2026-10-05):** We reversed the original #5 plan. Instead of *adding* article
+numbers to every comparison cell, we **removed the pinpoint article/section references from
+the comparison tables entirely.** The tables are an at-a-glance scanning tool; the pinpoint
+precision belongs in the per-jurisdiction article pages, where each article block already
+carries its own `articleRef` heading and source links.
+
+Why: a wrong citation on a public legal reference is worse than none, each pinpoint is a
+maintenance burden as laws amend, and the detail layer already holds the authoritative
+citations (verified live — clicking a Topic-grid cell still opens the full article with its
+article number and sources intact).
+
+What changed (9 files in `src/data/comparison/`):
+- All 8 Compare-matrix files (`scope`, `individualRights`, `legalBases`, `consentStandards`,
+  `sensitiveData`, `internationalTransfers`, `enforcementPenalties`, `timeBasedObligations`)
+  and `grid.json`.
+- Rule applied: stripped Article/Section/IPP numbers and sub-paragraphs; kept the plain
+  explanation; dropped a note that was *only* a citation; kept cross-references to **other**
+  laws (e.g. "mirrors the EU GDPR", "Credit Information Act", "ANPD Resolution 15/2024");
+  dropped a cell's reference to its own column's law as redundant.
+- `grid.json`: stripped the "Article 16:" prefixes from the visible cell text but **kept the
+  `articleId` links** that power click-to-expand. Verified the modal still opens the full
+  article.
+- No component code changed. Build passes; JSON validates.
+
+**One content discrepancy noticed in passing (not a citation issue, left for your call):**
+the LGPD breach-notification timeline differs between two files — `grid.json` says "2 business
+days (preliminary) + 5 business days (supplementary)" while `timeBasedObligations.json` says
+"3 business days (ANPD Resolution 15/2024), supplement within 20 business days." The latter
+matches ANPD Resolution 15/2024. Flagging for you to reconcile; I did not change it.

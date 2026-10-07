@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import LanguageSelector from './LanguageSelector.jsx'
 
 function Header() {
   const { t } = useTranslation()
@@ -20,7 +19,6 @@ function Header() {
           >
             {t('nav.news')}
           </Link>
-          <LanguageSelector />
         </div>
       </div>
     </header>

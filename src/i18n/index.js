@@ -7,34 +7,30 @@ import es from './locales/es/translation.json'
 import pt from './locales/pt/translation.json'
 import zh from './locales/zh/translation.json'
 
-const STORAGE_KEY = 'privacy-meridian-language'
-const SUPPORTED_LANGUAGES = ['en', 'fr', 'de', 'es', 'pt', 'zh']
-
-const storedLanguage = typeof window !== 'undefined' ? window.localStorage.getItem(STORAGE_KEY) : null
-const initialLanguage = SUPPORTED_LANGUAGES.includes(storedLanguage) ? storedLanguage : 'en'
+// The site ships English-only (decided 2026-10-07). The other locale files are
+// kept parked here, dormant, so translation can be re-enabled later without
+// re-importing them. To turn languages back on: restore <LanguageSelector /> in
+// Header.jsx, set supportedLngs to the full list, and restore a language-pref
+// init. Until then the app is locked to English and stores no language state.
+const resources = {
+  en: { translation: en },
+  fr: { translation: fr },
+  de: { translation: de },
+  es: { translation: es },
+  pt: { translation: pt },
+  zh: { translation: zh },
+}
 
 i18n.use(initReactI18next).init({
-  resources: {
-    en: { translation: en },
-    fr: { translation: fr },
-    de: { translation: de },
-    es: { translation: es },
-    pt: { translation: pt },
-    zh: { translation: zh },
-  },
-  lng: initialLanguage,
+  resources,
+  lng: 'en',
   fallbackLng: 'en',
-  supportedLngs: SUPPORTED_LANGUAGES,
+  supportedLngs: ['en'],
   interpolation: { escapeValue: false },
 })
 
 if (typeof document !== 'undefined') {
-  document.documentElement.lang = i18n.language
+  document.documentElement.lang = 'en'
 }
-
-i18n.on('languageChanged', (lng) => {
-  window.localStorage.setItem(STORAGE_KEY, lng)
-  document.documentElement.lang = lng
-})
 
 export default i18n

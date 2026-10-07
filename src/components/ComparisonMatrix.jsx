@@ -15,11 +15,6 @@ function ComparisonMatrix({ data, selectedIds, jurisdictionsData }) {
 
   return (
     <div>
-      {data.draft && (
-        <p className="mb-3 inline-block rounded border border-horizon px-2 py-1 text-xs font-medium text-horizon">
-          {t('comparison.draftNotice')}
-        </p>
-      )}
       <div className="overflow-x-auto rounded-lg border border-rule">
         <table className="w-full border-collapse">
           <thead>

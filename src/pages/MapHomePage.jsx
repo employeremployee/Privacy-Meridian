@@ -217,9 +217,8 @@ function MapHomePage() {
         onSelectJurisdiction={handleSelect}
       />
 
-      <div className="mt-3 flex flex-col gap-2">
+      <div className="mx-auto mt-3 max-w-[1040px]">
         <MapLegend />
-        <p className="text-xs italic text-ink">{t('home.statusIllustrative')}</p>
       </div>
 
       <div className="mt-8">

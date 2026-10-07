@@ -60,7 +60,7 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
         {hoveredLabel ? t('map.currentlyHighlighting', { name: hoveredLabel }) : ' '}
       </p>
 
-      <div className="mx-auto max-w-[900px] touch-pan-y overflow-hidden rounded-lg border border-rule bg-paper">
+      <div className="mx-auto max-w-[1040px] touch-pan-y overflow-hidden rounded-lg border border-rule bg-paper">
         <ComposableMap
           projection="geoMercator"
           width={MAP_WIDTH}

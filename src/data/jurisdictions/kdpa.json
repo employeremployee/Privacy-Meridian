@@ -34,7 +34,7 @@
           "sourceLinks": [
             {
               "label": "Data Protection Act, 2019: kenyalaw.org",
-              "url": "https://kenyalaw.org"
+              "url": "https://new.kenyalaw.org/akn/ke/act/2019/24"
             },
             {
               "label": "ODPC: odpc.go.ke",
@@ -81,7 +81,7 @@
           "sourceLinks": [
             {
               "label": "Data Protection Act, 2019: kenyalaw.org",
-              "url": "https://kenyalaw.org"
+              "url": "https://new.kenyalaw.org/akn/ke/act/2019/24"
             }
           ],
           "tooltipTerms": [
@@ -117,10 +117,10 @@
           "sourceLinks": [
             {
               "label": "Data Protection Act, 2019: kenyalaw.org",
-              "url": "https://kenyalaw.org"
+              "url": "https://new.kenyalaw.org/akn/ke/act/2019/24"
             },
             {
-              "label": "ODPC Guidance",
+              "label": "ODPC: odpc.go.ke",
               "url": "https://www.odpc.go.ke"
             }
           ],
@@ -155,10 +155,10 @@
           "sourceLinks": [
             {
               "label": "Data Protection Act, 2019: kenyalaw.org",
-              "url": "https://kenyalaw.org"
+              "url": "https://new.kenyalaw.org/akn/ke/act/2019/24"
             },
             {
-              "label": "ODPC Breach Reporting",
+              "label": "ODPC: odpc.go.ke",
               "url": "https://www.odpc.go.ke"
             }
           ],
@@ -192,7 +192,7 @@
           "sourceLinks": [
             {
               "label": "Data Protection Act, 2019: kenyalaw.org",
-              "url": "https://kenyalaw.org"
+              "url": "https://new.kenyalaw.org/akn/ke/act/2019/24"
             }
           ],
           "tooltipTerms": [

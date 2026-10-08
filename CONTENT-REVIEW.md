@@ -130,8 +130,10 @@ What changed (9 files in `src/data/comparison/`):
   article.
 - No component code changed. Build passes; JSON validates.
 
-**One content discrepancy noticed in passing (not a citation issue, left for your call):**
-the LGPD breach-notification timeline differs between two files — `grid.json` says "2 business
-days (preliminary) + 5 business days (supplementary)" while `timeBasedObligations.json` says
-"3 business days (ANPD Resolution 15/2024), supplement within 20 business days." The latter
-matches ANPD Resolution 15/2024. Flagging for you to reconcile; I did not change it.
+**LGPD breach-notification timeline — RESOLVED (Oct 2026, confirmed by Jared).**
+The breach article's summary already had the correct figure (3 business days + 20-day
+supplement, per ANPD Resolution 15/2024), but the gap-remediation guidance and `grid.json`
+still carried a stale "2-day + 5-day." All now read 3 business days with a 20-business-day
+supplement. Also added, in the LGPD breach detail page: startups and small businesses
+(ANPD Resolution 2/2022) get double the deadline, 6 business days, unless they do high-risk
+processing. (Verified via ANPD Resolution 15/2024 + 2/2022 and law-firm summaries.)

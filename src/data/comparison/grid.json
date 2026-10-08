@@ -116,7 +116,7 @@
           "differenceType": "additional-requirement"
         },
         "lgpd": {
-          "value": "2 business days (preliminary) + 5 business days (supplementary)",
+          "value": "3 business days, supplement within 20 business days",
           "differenceType": "structural-difference"
         },
         "pipl": {

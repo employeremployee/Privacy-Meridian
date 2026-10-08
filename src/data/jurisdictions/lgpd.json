@@ -196,7 +196,7 @@
           "surfaceLabel": "What Happens When Personal Data Is Compromised in Brazil",
           "plainSummary": "Organizations in Brazil must notify the national data protection authority and affected individuals when a security incident could cause harm to data subjects.",
           "personalImpact": "Given Brazil's history of large-scale leaks, a breach of your data is a real risk. The danger grows when a company stays silent about it. Article 48 requires notice to the ANPD and to you when the risk is serious. You are informed in time to protect your accounts and your CPF.",
-          "professionalLayer": "Article 48 requires controllers to notify the ANPD and affected data subjects of security incidents that could cause relevant harm to data subjects. LGPD does not specify a fixed notification timeframe in the legislation. ANPD Resolution CD/ANPD No. 15/2024 requires notification to the ANPD and affected data subjects within 3 business days of becoming aware of the incident, with supplementary information within 20 business days. This is a materially different timeline from GDPR's 72-hour window.",
+          "professionalLayer": "Article 48 requires controllers to notify the ANPD and affected data subjects of security incidents that could cause relevant harm to data subjects. LGPD does not specify a fixed notification timeframe in the legislation. ANPD Resolution CD/ANPD No. 15/2024 requires notification to the ANPD and affected data subjects within 3 business days of becoming aware of the incident, with supplementary information within 20 business days. Small processing agents, including startups and small businesses under ANPD Resolution CD/ANPD No. 2/2022, receive double the deadline, 6 business days, unless they carry out high-risk processing. This is a materially different timeline from GDPR's 72-hour window.",
           "responseTimeline": "Notification to the ANPD and affected data subjects: 3 business days from awareness. Supplementary information within 20 business days.",
           "crossReferences": [],
           "sourceLinks": [
@@ -205,7 +205,11 @@
               "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
             },
             {
-              "label": "ANPD Resolution CD/ANPD No. 02/2022",
+              "label": "ANPD Resolution CD/ANPD No. 15/2024 (breach notification)",
+              "url": "https://www.gov.br/anpd"
+            },
+            {
+              "label": "ANPD Resolution CD/ANPD No. 2/2022 (small processing agents)",
               "url": "https://www.gov.br/anpd"
             }
           ],
@@ -216,8 +220,8 @@
           ],
           "assessTrigger": "Does your organization's breach response plan address LGPD's specific notification timelines, and is your ANPD notification process documented separately from your GDPR supervisory authority notification process?",
           "gapRemediation": {
-            "smb": "A documented breach response checklist covering LGPD's 2-day preliminary and 5-day supplementary notification windows is the minimum. Do not assume your GDPR process covers LGPD.",
-            "midMarket": "Your breach response plan should include jurisdiction-specific notification timelines. LGPD's 2-business-day preliminary notification is tighter than it appears in practice.",
+            "smb": "A documented breach response checklist covering LGPD's 3-business-day notification window is the minimum. Startups and small businesses get 6 business days. Do not assume your GDPR process covers LGPD.",
+            "midMarket": "Your breach response plan should include jurisdiction-specific notification timelines. LGPD's 3-business-day notification is tighter than it appears in practice.",
             "enterprise": "Enterprise breach response programs should have separate notification workflows for each jurisdiction. LGPD's two-stage notification process requires distinct internal processes for preliminary and supplementary filings."
           },
           "comparisonFlags": [

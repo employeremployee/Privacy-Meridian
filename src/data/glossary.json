@@ -98,7 +98,7 @@
       "jurisdiction": "CCPA/CPRA specific",
       "source": {
         "label": "CPPA",
-        "url": "https://cppa.ca.gov"
+        "url": "https://cppa.ca.gov/regulations/"
       },
       "definitions": {
         "de": "Nach kalifornischem Recht bedeutet der Verkauf personenbezogener Daten, diese gegen Geld oder einen anderen Wert zu tauschen. Weitergabe bedeutet, sie für kontextübergreifende verhaltensbasierte Werbung offenzulegen, auch ohne Bezahlung. Beides löst das Widerspruchsrecht aus.",
@@ -116,7 +116,7 @@
       "jurisdiction": "CCPA/CPRA specific",
       "source": {
         "label": "CPPA",
-        "url": "https://cppa.ca.gov"
+        "url": "https://cppa.ca.gov/regulations/"
       },
       "definitions": {
         "de": "Nach kalifornischem Recht verarbeitet ein Dienstleister Daten in Ihrem Auftrag auf Grundlage eines schriftlichen Vertrags. Ein Auftragnehmer erhält Daten im Rahmen einer ähnlichen Vereinbarung, jedoch in einem anderen Rechtsverhältnis. Ein Dritter erhält Daten eigenständig und ist nicht an dieselben vertraglichen Beschränkungen gebunden. Übermittlungen an Dritte können einen Verkauf oder eine Weitergabe darstellen.",
@@ -170,7 +170,7 @@
       "jurisdiction": "GDPR and LGPD. Not a recognized basis under CCPA/CPRA or PIPL in the same form.",
       "source": {
         "label": "EDPB Guidelines on Legitimate Interest",
-        "url": "https://edpb.europa.eu"
+        "url": "https://www.edpb.europa.eu/our-work-tools/documents/public-consultations/2024/guidelines-12024-processing-personal-data-based_en"
       },
       "definitions": {
         "de": "Berechtigte Interessen sind eine Rechtsgrundlage, die es einem Unternehmen erlaubt, personenbezogene Daten für einen echten geschäftlichen Zweck ohne Einwilligung zu nutzen. Das Unternehmen muss dieses Interesse gegen Ihre Rechte abwägen. Überwiegen Ihre Rechte den geschäftlichen Bedarf, können berechtigte Interessen nicht herangezogen werden.",
@@ -314,7 +314,7 @@
       "jurisdiction": "CCPA/CPRA specific",
       "source": {
         "label": "CPPA",
-        "url": "https://cppa.ca.gov"
+        "url": "https://cppa.ca.gov/regulations/"
       },
       "definitions": {
         "de": "Ein überprüfbarer Verbraucherantrag ist ein Antrag auf Wahrnehmung von Datenschutzrechten, bei dem das Unternehmen bestätigt hat, dass die antragstellende Person diejenige ist, die sie vorgibt zu sein. Unternehmen müssen die Identität vor der Beantwortung überprüfen, um zu verhindern, dass jemand die Daten einer anderen Person anfordert.",
@@ -349,8 +349,8 @@
       "definition": "The Global Privacy Control is a browser setting that automatically signals to websites that you do not want your personal information sold or shared. California businesses are legally required to honor this signal as a valid opt-out.",
       "jurisdiction": "Mandatory under CCPA/CPRA. No equivalent mandatory requirement in other v1 jurisdictions.",
       "source": {
-        "label": "CPPA GPC Guidance",
-        "url": "https://cppa.ca.gov"
+        "label": "CPPA Regulations",
+        "url": "https://cppa.ca.gov/regulations/"
       },
       "definitions": {
         "de": "Die Global Privacy Control ist eine Browser-Einstellung, die Websites automatisch signalisiert, dass Sie den Verkauf oder die Weitergabe Ihrer personenbezogenen Daten nicht wünschen. Unternehmen in Kalifornien sind gesetzlich verpflichtet, dieses Signal als gültigen Widerspruch zu beachten.",
@@ -368,7 +368,7 @@
       "jurisdiction": "CCPA/CPRA specific",
       "source": {
         "label": "CPPA",
-        "url": "https://cppa.ca.gov"
+        "url": "https://cppa.ca.gov/regulations/"
       },
       "definitions": {
         "de": "Kontextübergreifende verhaltensbasierte Werbung bedeutet, Ihnen Anzeigen auf Grundlage Ihrer Aktivität über verschiedene Websites oder Apps hinweg auszuspielen. Nach kalifornischem Recht muss Ihnen bei der Weitergabe Ihrer Daten zu diesem Zweck ein Widerspruchsrecht eingeräumt werden, selbst wenn kein Geld fließt.",
@@ -404,7 +404,7 @@
       "jurisdiction": "GDPR primary. LGPD and PIPL have equivalent but distinct mechanisms.",
       "source": {
         "label": "European Commission SCCs",
-        "url": "https://ec.europa.eu"
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021D0914"
       },
       "definitions": {
         "de": "Standardvertragsklauseln sind vorab genehmigte Vertragsbestimmungen, die es Unternehmen erlauben, personenbezogene Daten rechtmäßig außerhalb der Europäischen Union zu übermitteln. Sie verpflichten die empfangende Organisation, die Daten nach EU-Standards zu schützen. Jede Rechtsordnung verfügt über einen eigenen entsprechenden Mechanismus für grenzüberschreitende Übermittlungen.",
@@ -421,8 +421,8 @@
       "definition": "A Transfer Impact Assessment is an analysis a company must complete before sending personal data to a country outside the European Union. It evaluates whether that country's laws provide adequate protection. It became required after the Schrems II court decision in 2020.",
       "jurisdiction": "GDPR specific: post-Schrems II requirement",
       "source": {
-        "label": "EDPB Recommendations 01/2020",
-        "url": "https://edpb.europa.eu"
+        "label": "EDPB guidelines",
+        "url": "https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en"
       },
       "definitions": {
         "de": "Eine Transfer-Folgenabschätzung ist eine Analyse, die ein Unternehmen abschließen muss, bevor es personenbezogene Daten in ein Land außerhalb der Europäischen Union übermittelt. Sie bewertet, ob die Gesetze dieses Landes einen angemessenen Schutz bieten. Sie wurde nach dem Schrems-II-Urteil von 2020 erforderlich.",
@@ -440,7 +440,7 @@
       "jurisdiction": "GDPR specific: EU-US data transfers",
       "source": {
         "label": "CJEU Case C-311/18",
-        "url": "https://curia.europa.eu"
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0311"
       },
       "definitions": {
         "de": "Schrems II ist eine Entscheidung eines europäischen Gerichts aus dem Jahr 2020, die die Regeln für die Übermittlung personenbezogener Daten aus der EU in die Vereinigten Staaten geändert hat. Sie erklärte das bisherige Übermittlungsabkommen für ungültig und verpflichtete Unternehmen zu prüfen, ob das US-Recht EU-Daten angemessen schützt. Sie erhöhte die Compliance-Pflichten für transatlantische Datenübermittlungen erheblich.",
@@ -602,7 +602,7 @@
       "jurisdiction": "GDPR Article 22 primary. PIPL Article 24 equivalent concept.",
       "source": {
         "label": "EDPB Guidelines on Automated Decision-Making",
-        "url": "https://edpb.europa.eu"
+        "url": "https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=612053"
       },
       "definitions": {
         "de": "Maßgebliche menschliche Beteiligung bedeutet, dass eine reale Person eine automatisierte Entscheidung wirklich überprüft, bevor sie wirksam wird. Es genügt nicht, dass eine Person die Ausgabe eines Algorithmus lediglich abnickt. Die Überprüfung muss echt sein, keine Formsache.",

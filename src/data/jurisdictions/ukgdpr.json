@@ -38,7 +38,7 @@
             },
             {
               "label": "ICO Guidance: ico.org.uk",
-              "url": "https://ico.org.uk"
+              "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/"
             }
           ],
           "tooltipTerms": [
@@ -73,7 +73,7 @@
             },
             {
               "label": "ICO Lawful Basis Guidance",
-              "url": "https://ico.org.uk"
+              "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/"
             }
           ],
           "tooltipTerms": [
@@ -110,7 +110,7 @@
             },
             {
               "label": "ICO Right of Access Guidance",
-              "url": "https://ico.org.uk"
+              "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/right-of-access/"
             }
           ],
           "tooltipTerms": [
@@ -139,8 +139,8 @@
               "url": "https://www.legislation.gov.uk/eur/2016/679"
             },
             {
-              "label": "ICO Right to Erasure Guidance",
-              "url": "https://ico.org.uk"
+              "label": "ICO Individual Rights Guidance",
+              "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/"
             }
           ],
           "tooltipTerms": [
@@ -176,7 +176,7 @@
             },
             {
               "label": "ICO Breach Reporting",
-              "url": "https://ico.org.uk"
+              "url": "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/"
             }
           ],
           "tooltipTerms": [
@@ -207,7 +207,7 @@
           "sourceLinks": [
             {
               "label": "ICO International Transfers Guidance",
-              "url": "https://ico.org.uk"
+              "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/"
             },
             {
               "label": "UK GDPR Chapter V: legislation.gov.uk",

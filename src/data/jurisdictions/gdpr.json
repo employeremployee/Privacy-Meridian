@@ -41,7 +41,7 @@
             },
             {
               "label": "EDPB Transparency Guidelines",
-              "url": "https://edpb.europa.eu"
+              "url": "https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=622227"
             }
           ],
           "tooltipTerms": [
@@ -76,8 +76,8 @@
               "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
             },
             {
-              "label": "EDPB Guidelines on Data Subject Rights",
-              "url": "https://edpb.europa.eu"
+              "label": "EDPB Guidelines on the Right of Access",
+              "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-012022-data-subject-rights-right-access_en"
             }
           ],
           "tooltipTerms": [
@@ -156,8 +156,8 @@
               "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
             },
             {
-              "label": "EDPB Guidelines on the Right to Erasure",
-              "url": "https://edpb.europa.eu"
+              "label": "EDPB guidelines",
+              "url": "https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en"
             }
           ],
           "tooltipTerms": [
@@ -272,7 +272,7 @@
             },
             {
               "label": "EDPB Guidelines on Data Portability",
-              "url": "https://edpb.europa.eu"
+              "url": "https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=611233"
             }
           ],
           "tooltipTerms": [
@@ -308,7 +308,7 @@
             },
             {
               "label": "EDPB Guidelines on Legitimate Interest",
-              "url": "https://edpb.europa.eu"
+              "url": "https://www.edpb.europa.eu/our-work-tools/documents/public-consultations/2024/guidelines-12024-processing-personal-data-based_en"
             }
           ],
           "tooltipTerms": [
@@ -342,7 +342,7 @@
             },
             {
               "label": "EDPB Guidelines on Automated Decision-Making",
-              "url": "https://edpb.europa.eu"
+              "url": "https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=612053"
             }
           ],
           "tooltipTerms": [
@@ -448,7 +448,7 @@
             },
             {
               "label": "EDPB PIA Guidelines",
-              "url": "https://edpb.europa.eu"
+              "url": "https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=611236"
             }
           ],
           "tooltipTerms": [
@@ -490,8 +490,8 @@
               "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
             },
             {
-              "label": "EDPB Breach Notification Guidelines",
-              "url": "https://edpb.europa.eu"
+              "label": "EDPB guidelines",
+              "url": "https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en"
             }
           ],
           "tooltipTerms": [
@@ -544,11 +544,11 @@
             },
             {
               "label": "European Commission SCCs",
-              "url": "https://ec.europa.eu"
+              "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021D0914"
             },
             {
               "label": "CJEU Schrems II Decision C-311/18",
-              "url": "https://curia.europa.eu"
+              "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0311"
             }
           ],
           "tooltipTerms": [

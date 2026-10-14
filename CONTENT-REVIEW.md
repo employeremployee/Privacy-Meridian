@@ -184,3 +184,38 @@ the GDPR page). Unused text keys `legend.developing` and `home.draftBadge` remov
 **Not yet done from Part C (minor):** popups that sit inside a longer defined term (e.g.
 "personal data" inside "Sensitive personal data" on kdpa-s30). The dormant non-English
 glossary translations were not updated; they are not shown while the site is English-only.
+
+## 2026-10-08 site review: Batch 2, source links (Oct 2026)
+
+Source: file 01, Part D. Every new or changed URL was opened in a real browser and checked
+against its label before editing.
+
+- **GDPR:** every "Article N: EUR-Lex" link now jumps to that article (`#art_N`; all 16
+  anchors confirmed). Breach article links EDPB Guidelines 9/2022. The erasure article's EDPB
+  link is removed (no general erasure guideline exists; it landed on Public consultations).
+  The four WP29 documents are relabelled "Article 29 Working Party guidelines on … (endorsed
+  by the EDPB)", with "PIA" corrected to "DPIAs". The legitimate-interest link is labelled as
+  the 2024 consultation draft. The glossary's automated-decision source matches.
+- **UK GDPR:** Article 6, 15, 17 and 33 links and the Chapter V link open those provisions
+  instead of the preamble.
+- **Switzerland:** Fedlex links jump to Arts 16, 24, 25 and 30. FDPIC links open the English
+  site.
+- **South Africa:** the Act link is labelled gov.za (was inforegulator). The gov.za homepage
+  "Government Gazette" link is removed.
+- **Japan:** APPI links open the PPC "Laws and Policies" page, not the homepage.
+- **South Korea:** the Act link opens the official Korean text on law.go.kr. PIPC links open
+  the PIPC English site.
+- **New Zealand:** legislation links use the new URL (the old one redirected).
+- **California:** the right-to-know article now cites Sections 1798.110 and 1798.115 and
+  links §1798.110 (file 03, CA-S3).
+- **China:** removed the duplicate DigiChina link on the overview.
+- **Uruguay:** breach article now links Decree 64/020 and Law 19.670 Arts 37 to 40 (a 2018
+  budget law whose Arts 37 to 40 cover data protection).
+
+**Open, needs Jared:** India's MeitY link redirects, after a few seconds, to the Hindi-script
+domain, and that page no longer shows the DPDP Act (issue L16 reproduced). The Act's official
+home, India Code (indiacode.nic.in, handle 22037), blocked the test browser with an edge
+error, so it could not be verified. Link left unchanged.
+
+**Not changed:** the 25 glossary "IAPP Privacy Glossary" links (minor, L15), and the optional
+regulator deep links in L17.

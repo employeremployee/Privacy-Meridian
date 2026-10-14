@@ -68,7 +68,7 @@
       "articles": [
         {
           "id": "ccpa-right-to-know",
-          "articleRef": "Section 1798.100",
+          "articleRef": "Sections 1798.110 and 1798.115",
           "surfaceLabel": "Your Right to Know What Is Collected About You",
           "plainSummary": "California residents have the right to ask a business what personal information it has collected about them, where it came from, why it was collected, and who it has been shared with or sold to.",
           "personalImpact": "You see an ad that feels too personal and wonder how they knew. Behind it sits a profile assembled from sources you never authorized. The Right to Know lets you ask a business exactly what it collected and who it shared it with. That disclosure brings a hidden data trail into full view.",
@@ -77,8 +77,8 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Section 1798.100: California Legislative Information",
-              "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.100."
+              "label": "Section 1798.110: California Legislative Information",
+              "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.110."
             },
             {
               "label": "CPPA Regulations",

@@ -601,7 +601,7 @@
       "definition": "Meaningful human involvement means a real person genuinely reviews an automated decision before it takes effect. Simply having a person available to approve an algorithm's output does not qualify. The review must be genuine, not a formality.",
       "jurisdiction": "GDPR Article 22 primary. PIPL Article 24 lets people refuse decisions made solely by automation, but sets no human-review standard.",
       "source": {
-        "label": "EDPB Guidelines on Automated Decision-Making",
+        "label": "Article 29 Working Party guidelines on automated decision-making and profiling (endorsed by the EDPB)",
         "url": "https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=612053"
       },
       "definitions": {

@@ -69,7 +69,7 @@
           "sourceLinks": [
             {
               "label": "UK GDPR Article 6: legislation.gov.uk",
-              "url": "https://www.legislation.gov.uk/eur/2016/679"
+              "url": "https://www.legislation.gov.uk/eur/2016/679/article/6"
             },
             {
               "label": "ICO Lawful Basis Guidance",
@@ -106,7 +106,7 @@
           "sourceLinks": [
             {
               "label": "UK GDPR Article 15: legislation.gov.uk",
-              "url": "https://www.legislation.gov.uk/eur/2016/679"
+              "url": "https://www.legislation.gov.uk/eur/2016/679/article/15"
             },
             {
               "label": "ICO Right of Access Guidance",
@@ -136,7 +136,7 @@
           "sourceLinks": [
             {
               "label": "UK GDPR Article 17: legislation.gov.uk",
-              "url": "https://www.legislation.gov.uk/eur/2016/679"
+              "url": "https://www.legislation.gov.uk/eur/2016/679/article/17"
             },
             {
               "label": "ICO Individual Rights Guidance",
@@ -172,7 +172,7 @@
           "sourceLinks": [
             {
               "label": "UK GDPR Articles 33-34: legislation.gov.uk",
-              "url": "https://www.legislation.gov.uk/eur/2016/679"
+              "url": "https://www.legislation.gov.uk/eur/2016/679/article/33"
             },
             {
               "label": "ICO Breach Reporting",
@@ -211,7 +211,7 @@
             },
             {
               "label": "UK GDPR Chapter V: legislation.gov.uk",
-              "url": "https://www.legislation.gov.uk/eur/2016/679"
+              "url": "https://www.legislation.gov.uk/eur/2016/679/chapter/V"
             }
           ],
           "tooltipTerms": [],

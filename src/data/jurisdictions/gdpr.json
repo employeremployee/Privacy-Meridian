@@ -33,14 +33,14 @@
           "sourceLinks": [
             {
               "label": "Article 13: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_13"
             },
             {
               "label": "Article 14: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_14"
             },
             {
-              "label": "EDPB Transparency Guidelines",
+              "label": "Article 29 Working Party guidelines on transparency (endorsed by the EDPB)",
               "url": "https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=622227"
             }
           ],
@@ -73,7 +73,7 @@
           "sourceLinks": [
             {
               "label": "Article 15: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_15"
             },
             {
               "label": "EDPB Guidelines on the Right of Access",
@@ -112,11 +112,11 @@
           "sourceLinks": [
             {
               "label": "Article 16: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_16"
             },
             {
               "label": "Article 19: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_19"
             }
           ],
           "tooltipTerms": [
@@ -153,11 +153,7 @@
           "sourceLinks": [
             {
               "label": "Article 17: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
-            },
-            {
-              "label": "EDPB guidelines",
-              "url": "https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_17"
             }
           ],
           "tooltipTerms": [
@@ -196,7 +192,7 @@
           "sourceLinks": [
             {
               "label": "Article 18: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_18"
             }
           ],
           "tooltipTerms": [
@@ -238,7 +234,7 @@
           "sourceLinks": [
             {
               "label": "Article 19: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_19"
             }
           ],
           "tooltipTerms": [
@@ -268,10 +264,10 @@
           "sourceLinks": [
             {
               "label": "Article 20: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_20"
             },
             {
-              "label": "EDPB Guidelines on Data Portability",
+              "label": "Article 29 Working Party guidelines on data portability (endorsed by the EDPB)",
               "url": "https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=611233"
             }
           ],
@@ -304,10 +300,10 @@
           "sourceLinks": [
             {
               "label": "Article 21: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_21"
             },
             {
-              "label": "EDPB Guidelines on Legitimate Interest",
+              "label": "EDPB Guidelines 1/2024 on legitimate interest (draft for consultation)",
               "url": "https://www.edpb.europa.eu/our-work-tools/documents/public-consultations/2024/guidelines-12024-processing-personal-data-based_en"
             }
           ],
@@ -338,10 +334,10 @@
           "sourceLinks": [
             {
               "label": "Article 22: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_22"
             },
             {
-              "label": "EDPB Guidelines on Automated Decision-Making",
+              "label": "Article 29 Working Party guidelines on automated decision-making and profiling (endorsed by the EDPB)",
               "url": "https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=612053"
             }
           ],
@@ -378,7 +374,7 @@
           "sourceLinks": [
             {
               "label": "Article 30: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_30"
             }
           ],
           "tooltipTerms": [
@@ -411,7 +407,7 @@
           "sourceLinks": [
             {
               "label": "Articles 37-39: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_37"
             }
           ],
           "tooltipTerms": [
@@ -444,10 +440,10 @@
           "sourceLinks": [
             {
               "label": "Article 35: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_35"
             },
             {
-              "label": "EDPB PIA Guidelines",
+              "label": "Article 29 Working Party guidelines on DPIAs (endorsed by the EDPB)",
               "url": "https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=611236"
             }
           ],
@@ -483,15 +479,15 @@
           "sourceLinks": [
             {
               "label": "Article 33: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_33"
             },
             {
               "label": "Article 34: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_34"
             },
             {
-              "label": "EDPB guidelines",
-              "url": "https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en"
+              "label": "EDPB Guidelines 9/2022 on personal data breach notification",
+              "url": "https://www.edpb.europa.eu/documents/guideline/guidelines-92022-on-personal-data-breach-notification-under-gdpr_en"
             }
           ],
           "tooltipTerms": [
@@ -540,7 +536,7 @@
           "sourceLinks": [
             {
               "label": "Articles 44-49: EUR-Lex",
-              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng#art_44"
             },
             {
               "label": "European Commission SCCs",

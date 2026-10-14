@@ -158,7 +158,7 @@
         "lgpd": { "state": "yes", "note": "Blocking remedy." },
         "pipl": { "state": "yes", "note": "Restriction of processing." },
         "ukgdpr": { "state": "yes" },
-        "fadp": { "state": "partial", "note": "Disputed data can be blocked pending resolution." },
+        "fadp": { "state": "partial", "note": "Disputed data can be marked as disputed, and a court can stop specific processing." },
         "pdpa-ar": { "state": "partial", "note": "Blocking during a dispute over accuracy." },
         "lpdp-uy": { "state": "partial", "note": "Blocking of contested data." },
         "pipa-kr": { "state": "yes", "note": "Suspension of processing." },

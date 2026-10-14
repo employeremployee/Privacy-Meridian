@@ -53,7 +53,7 @@
         "lgpd": { "value": "None", "note": "Applies regardless of size." },
         "pipl": { "value": "None to apply", "note": "But high volume triggers extra localization and assessment duties." },
         "ukgdpr": { "value": "None", "note": "Applies to any size; duties scale with risk." },
-        "fadp": { "value": "None", "note": "Small businesses get lighter record-keeping duties." },
+        "fadp": { "value": "None", "note": "Businesses under 250 employees need no record of processing, unless their processing is high-risk." },
         "pdpa-ar": { "value": "None", "note": "Applies regardless of size." },
         "lpdp-uy": { "value": "None", "note": "Applies regardless of size." },
         "pipa-kr": { "value": "None", "note": "Applies regardless of size." },

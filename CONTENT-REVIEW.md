@@ -297,3 +297,31 @@ legislation.gov.uk). Edits were then written in the house voice. `grid.json` ite
 - Tooltip scan before/after: all popups still land on the right words.
 - **Log correction (file 07):** the earlier note "EU GDPR reviewed, no content change" was
   incomplete. The law hadn't changed, but the site text had the errors above.
+
+### Switzerland FADP (all items CONFIRMED; wording checked in the official German text)
+- **Fines (overview + tables):** CHF 250,000 fines need intent. Most offences are prosecuted
+  only on complaint. A business can be fined up to CHF 50,000 where finding the responsible
+  person is disproportionate (Art 64). Cantonal authorities prosecute and fine; the FDPIC
+  investigates and orders but cannot fine (Art 65).
+- **Natural persons:** removed the error "Unlike GDPR, the FADP protects only natural
+  persons." The GDPR also covers only natural persons; the contrast is with the old Swiss law.
+  (New issue found by the verifier.)
+- **Scope:** cantonal and communal bodies follow cantonal law.
+- **Lawfulness:** consent is not required just to process sensitive data. Explicit consent is
+  needed only where consent is relied on. Disclosing sensitive data to third parties added as
+  a personality violation (Art 30(2)(c)). Principles list adds recognizability and storage
+  limitation.
+- **Access:** misuse limits are now statutory (Art 26(1)(c)), not just case law.
+- **Breach:** individuals are told where needed or where the FDPIC asks; notice can be limited
+  or replaced by a public announcement; FDPIC may forward reports to the Federal Office for
+  Cybersecurity with consent (since Apr 2025).
+- **Transfers:** BCRs approved by the FDPIC; codes and certification; US adequate for
+  Swiss-US DPF organisations since Sep 2024.
+- **Tables:** contract and credit checks are listed overriding interests; public interest can
+  justify private processing ("yes"); no opt-in default ("no", matching NZ); explicit consent
+  only where relied on; withdrawal "partial"; restriction = marking as disputed; EU SCCs with
+  Swiss adaptations; BCRs "yes"; consent transfer "partial" (matching GDPR/UK); 30-day
+  extension rule; FDPIC can request individual notice; record-keeping exemption under 250
+  employees.
+- Tooltip scan: no popup moved.
+- **Log correction (file 07):** the earlier "Switzerland reviewed, no change" was wrong.

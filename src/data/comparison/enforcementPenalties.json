@@ -30,7 +30,7 @@
       "jurisdictions": {
         "gdpr": { "value": "National data protection authorities", "note": "One-stop-shop for cross-border cases. The EDPB settles disputes between authorities." },
         "ccpa": { "value": "CalPrivacy and the California AG", "note": "CalPrivacy, formally the California Privacy Protection Agency, is a dedicated privacy regulator." },
-        "lgpd": { "value": "ANPD", "note": "Guidance and enforcement are still maturing." },
+        "lgpd": { "value": "ANPD", "note": "A national regulatory agency since 2026. Its first large fine came in August 2026." },
         "pipl": { "value": "CAC and sectoral regulators", "note": "The CAC leads, with sector-specific oversight." },
         "ukgdpr": { "value": "The Information Commission", "note": "Replaced the Information Commissioner on 30 September 2026." },
         "fadp": { "value": "The FDPIC", "note": "The Federal Data Protection and Information Commissioner investigates and orders. Cantonal authorities impose fines." },

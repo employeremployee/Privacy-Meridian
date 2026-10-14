@@ -115,7 +115,7 @@
       "jurisdictions": {
         "gdpr": { "state": "yes", "note": "For online services offered to children, parental consent below 16, or a lower national age of at least 13." },
         "ccpa": { "state": "yes", "note": "Opt-in for sale or sharing of data of consumers under 16." },
-        "lgpd": { "state": "yes", "note": "Best interest of the child." },
+        "lgpd": { "state": "yes", "note": "Consent from a parent for children, in their best interest. Since 2026, the ECA Digital adds age checks and guardian-linked accounts." },
         "pipl": { "state": "yes", "note": "Guardian consent for minors under 14, treated as sensitive." },
         "ukgdpr": { "state": "yes", "note": "For online services offered to children, parental consent below 13. Ministers can now raise the age to as high as 16." },
         "fadp": { "state": "partial", "note": "General principles apply; no fixed child-consent age." },

@@ -15,7 +15,7 @@
       "jurisdictions": {
         "gdpr": { "state": "yes" },
         "ccpa": { "state": "no", "note": "No specific cross-border transfer restrictions." },
-        "lgpd": { "state": "yes", "note": "ANPD adequacy recognition, still developing." },
+        "lgpd": { "state": "yes", "note": "The ANPD recognised the EU and EEA in January 2026. The EU recognised Brazil the same day." },
         "pipl": { "state": "no", "note": "No adequacy-decision mechanism." },
         "ukgdpr": { "state": "yes", "note": "Adequacy regulations, known as data bridges, under a data protection test." },
         "fadp": { "state": "yes", "note": "Federal Council list of countries with adequate protection." },
@@ -35,7 +35,7 @@
       "jurisdictions": {
         "gdpr": { "state": "yes", "note": "EU-approved SCCs." },
         "ccpa": { "state": "no", "note": "Service-provider contracts, but no SCC transfer regime." },
-        "lgpd": { "state": "partial", "note": "ANPD-approved clauses, still being finalized." },
+        "lgpd": { "state": "yes", "note": "ANPD standard clauses, required for clause-based transfers since August 2025." },
         "pipl": { "state": "yes", "note": "CAC standard contract, using the mandated CAC form." },
         "ukgdpr": { "state": "yes", "note": "UK International Data Transfer Agreement or Addendum." },
         "fadp": { "state": "yes", "note": "EU clauses recognized by the FDPIC, with Swiss adaptations." },
@@ -55,7 +55,7 @@
       "jurisdictions": {
         "gdpr": { "state": "yes" },
         "ccpa": { "state": "no", "note": "Not part of the CCPA framework." },
-        "lgpd": { "state": "partial", "note": "Recognized in principle, guidance developing." },
+        "lgpd": { "state": "yes", "note": "Global corporate rules, each approved by the ANPD." },
         "pipl": { "state": "no", "note": "Not a recognized mechanism." },
         "ukgdpr": { "state": "yes", "note": "Binding corporate rules, ICO-approved." },
         "fadp": { "state": "yes", "note": "Binding corporate rules approved by the FDPIC or an adequate country's authority." },

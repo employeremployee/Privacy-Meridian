@@ -391,3 +391,33 @@ grid.json items are moot (file deleted in batch 3).
 - **Deferred to D9:** Delete Act / DROP (AB 883 shortens 45 days to 30, Ch. 507, 2026).
 - Secondary-only: SB 446 signing date; 1 Jan 2027 operative dates (statutory default).
 - Tooltip scan: identical popups before and after.
+
+### Brazil LGPD (items CONFIRMED against the compiled LGPD on planalto and ANPD resolutions)
+- **Public sector (error):** removed "Unlike GDPR, LGPD applies to public bodies". GDPR does too.
+- **Transfers (error):** Art 33 has nine grounds, not seven. ANPD standard clauses came in
+  Res. 19/2024 (Aug 2024; contracts had until Aug 2025). First adequacy decision is Res.
+  32/2026 (26 Jan 2026) for the EU and EEA; the EU recognised Brazil the same day
+  (Decision (EU) 2026/179). Table: adequacy, SCCs and global corporate rules now "yes".
+- **Deadlines (error):** a simplified access reply is due immediately, the complete one within
+  15 days (Art 19). Other Art 18 rights need an immediate reply or reasons; the law leaves a
+  fixed deadline to a future ANPD rule (Art 18 s.5). Small agents get double time unless
+  high-risk (Res. 2/2022). Table: "Immediately, or 15 days"; extension cell fixed.
+- **ANPD:** Law 15.352 (25 Feb 2026) made it the Agência Nacional de Proteção de Dados.
+  **Verifier corrected the review:** the ANPD did issue a large fine, R$153.7 million against
+  TikTok over children's data (DOU 25 Aug 2026, appealable). The page now says this instead of
+  "first significant fines in 2025".
+- **Legitimate interests:** the ANPD guide exists (Feb 2024). Removed "narrower than GDPR" and
+  "guidance still developing". Table now "yes". Credit protection no longer "unique".
+- **Children:** parental consent (Art 14) and the ECA Digital (Law 15.211/2025, in force
+  17 Mar 2026: age checks, guardian-linked accounts, no ad profiling) added to two table cells.
+- **Rights table:** automated decisions "partial" (request review only; human review vetoed);
+  objection "partial" (only unlawful processing without consent); non-discrimination note
+  now states Art 21's rule.
+- **Other:** official name "Lei Geral de Proteção de Dados Pessoais"; deletion page adds
+  Art 18 VI and the duty to tell recipients; impact reports are on ANPD request, not general;
+  breach page adds the 40-day supplement for small agents and the integrity exception; the
+  stale "2 days / 5 days" flag and PIPL's "LGPD 2-5 business days" now say 3 business days.
+- **Softened:** CPF leak no longer says "hundreds of millions" (only secondary sources).
+- Not changed: portability cell (no ANPD rule found, but absence not provable); planalto links
+  still point at the original text rather than the compiled one (editorial, optional).
+- Tooltip scan: identical popups before and after.

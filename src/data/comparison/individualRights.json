@@ -115,7 +115,7 @@
       "jurisdictions": {
         "gdpr": { "state": "yes" },
         "ccpa": { "state": "partial", "note": "Limited; opt-out and Limit-the-Use mechanisms rather than a general objection right." },
-        "lgpd": { "state": "yes" },
+        "lgpd": { "state": "partial", "note": "Only against processing without consent that breaks the law." },
         "pipl": { "state": "yes", "note": "Right to restrict or refuse." },
         "ukgdpr": { "state": "yes" },
         "fadp": { "state": "yes", "note": "Processing against the person's express wishes requires justification." },
@@ -135,7 +135,7 @@
       "jurisdictions": {
         "gdpr": { "state": "yes" },
         "ccpa": { "state": "partial", "note": "From January 2027, an opt-out and access right for significant automated decisions, with exceptions." },
-        "lgpd": { "state": "yes", "note": "Right to review." },
+        "lgpd": { "state": "partial", "note": "A right to request review and learn the criteria, not a ban." },
         "pipl": { "state": "yes" },
         "ukgdpr": { "state": "partial", "note": "Banned only with special category data or recognised legitimate interests. Otherwise allowed with safeguards, including human review." },
         "fadp": { "state": "yes", "note": "Information and human review of automated decisions." },
@@ -175,7 +175,7 @@
       "jurisdictions": {
         "gdpr": { "state": "partial", "note": "Protected in principle, not framed as a standalone right." },
         "ccpa": { "state": "yes", "note": "An explicit CCPA right." },
-        "lgpd": { "state": "partial", "note": "Implied through good-faith and non-discrimination principles." },
+        "lgpd": { "state": "partial", "note": "Data about how you use your rights cannot be used against you." },
         "pipl": { "state": "partial", "note": "Anti-differential-pricing provision for automated decisions." },
         "ukgdpr": { "state": "partial", "note": "Protected in principle, not a standalone right." },
         "fadp": { "state": "partial", "note": "Protected through good-faith and proportionality principles." },

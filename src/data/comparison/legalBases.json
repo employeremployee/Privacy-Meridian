@@ -115,7 +115,7 @@
       "jurisdictions": {
         "gdpr": { "state": "yes", "note": "With a balancing test." },
         "ccpa": { "state": "no", "note": "No equivalent basis." },
-        "lgpd": { "state": "partial", "note": "Narrower than GDPR and still developing under ANPD." },
+        "lgpd": { "state": "yes", "note": "With a balancing test, set out in ANPD guidance. Not for sensitive data." },
         "pipl": { "state": "no", "note": "No general legitimate-interests basis." },
         "ukgdpr": { "state": "yes", "note": "With a balancing test. Recognised legitimate interests need none." },
         "fadp": { "state": "yes", "note": "Overriding private or public interest is a core justification." },
@@ -135,7 +135,7 @@
       "jurisdictions": {
         "gdpr": { "state": "no", "note": "Not a standalone basis." },
         "ccpa": { "state": "no", "note": "Not a standalone basis." },
-        "lgpd": { "state": "yes", "note": "Unique to LGPD." },
+        "lgpd": { "state": "yes", "note": "A standalone legal basis." },
         "pipl": { "state": "no", "note": "Not a standalone basis." },
         "ukgdpr": { "state": "no", "note": "Not a standalone basis." },
         "fadp": { "state": "partial", "note": "Credit checks are listed as an overriding interest, with conditions. Not a standalone basis." },

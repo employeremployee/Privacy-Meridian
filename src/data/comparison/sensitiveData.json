@@ -195,7 +195,7 @@
       "jurisdictions": {
         "gdpr": { "state": "partial", "note": "Not a special category, but children receive specific heightened protections." },
         "ccpa": { "state": "partial", "note": "Opt-in required for sale/sharing of minors' data, handled separately from sensitive PI." },
-        "lgpd": { "state": "partial", "note": "Children's data given special treatment, not listed as sensitive." },
+        "lgpd": { "state": "partial", "note": "Not listed as sensitive, but needs parental consent. The ECA Digital bans ad profiling of minors." },
         "pipl": { "state": "yes", "note": "Personal information of minors under 14 is sensitive." },
         "ukgdpr": { "state": "partial", "note": "Heightened protections, not a special category." },
         "fadp": { "state": "partial", "note": "General principles apply; no dedicated child category." },

@@ -252,4 +252,4 @@ the 2025 Rules and gazette notifications. Opened and confirmed in a real browser
   Analytics, Zaraz and similar features off (file 06, P2).
 - **D11 (draft flags):** removed the hidden `draft`/`draftNote` flags from all 8 comparison
   files and the 10 newer law files. Nothing on screen changes.
-- **D10 (favicon):** first design sent back by Jared for a redo; pending.
+- **D10 (favicon):** done. Jared chose design "E2": a tilted compass with a light blue rim, a red north needle (Compass Red #B23A3A, approved for the favicon only), a white north notch and a soft shadow (14% opacity, offset reduced by a third). Recorded in CLAUDE.md design rules.

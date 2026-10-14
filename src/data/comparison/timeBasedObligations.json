@@ -12,7 +12,7 @@
         "ccpa": { "value": "45 days", "note": "From receipt of a verifiable consumer request." },
         "lgpd": { "value": "15 days", "note": "From receipt; immediate simplified response also available." },
         "pipl": { "value": "15 working days", "note": "From receipt, after verification." },
-        "ukgdpr": { "value": "1 month", "note": "From receipt, mirroring the EU GDPR." },
+        "ukgdpr": { "value": "1 month", "note": "From the latest of receipt, requested ID, or fee. Access requests pause while awaiting clarification." },
         "fadp": { "value": "30 days", "note": "Information provided within 30 days as a rule." },
         "pdpa-ar": { "value": "10 days", "note": "Access requests answered within 10 calendar days." },
         "lpdp-uy": { "value": "5 business days", "note": "Access within 5 working days." },

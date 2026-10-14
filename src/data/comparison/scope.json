@@ -32,7 +32,7 @@
         "ccpa": { "value": "California residents' data", "note": "Regardless of where the business is located." },
         "lgpd": { "value": "Processing in or of people in Brazil", "note": "Including data collected in Brazil." },
         "pipl": { "value": "Processing in or targeting China", "note": "Extraterritorial for offering goods or profiling." },
-        "ukgdpr": { "value": "UK establishment or UK residents", "note": "Processing in the UK, or targeting or monitoring people there." },
+        "ukgdpr": { "value": "UK establishment, or people in the UK", "note": "An establishment counts wherever the processing happens. Foreign firms are covered when they target or monitor people in the UK." },
         "fadp": { "value": "Effects felt in Switzerland", "note": "Applies to conduct that produces effects in Switzerland." },
         "pdpa-ar": { "value": "Databases operating in Argentina", "note": "Data held or processed within the country." },
         "lpdp-uy": { "value": "Processing in or from Uruguay", "note": "Includes activity using means located in Uruguay." },

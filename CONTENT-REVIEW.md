@@ -325,3 +325,32 @@ legislation.gov.uk). Edits were then written in the house voice. `grid.json` ite
   employees.
 - Tooltip scan: no popup moved.
 - **Log correction (file 07):** the earlier "Switzerland reviewed, no change" was wrong.
+
+### UK GDPR (all items CONFIRMED against legislation.gov.uk and EUR-Lex)
+- **Regulator:** since 30 Sep 2026 the **Information Commission** enforces the law (DUAA
+  ss.118-119; SI 2026/1015). Updated on the overview, breach article and enforcement table.
+- **Seven lawful bases:** fixed the self-contradiction ("same six" vs "a seventh").
+  Recognised legitimate interests (Art 6(1)(ea), from 5 Feb 2026) need **no** balancing test
+  but must meet an Annex 1 condition; public authorities can't use (ea) or (f) for their tasks.
+- **Access:** reasonable and proportionate search (from 1 Jan 2024); the one-month clock starts
+  at the latest of request, ID or fee; for access requests only, it pauses while awaiting
+  clarification (Art 12A, from 5 Feb 2026); complaints process with 30-day acknowledgement (from
+  19 Jun 2026). Verifier corrected the review: the clarification pause is access-only.
+- **Automated decisions (table):** now "partial". Banned only with special category data or
+  recognised legitimate interests; otherwise allowed with safeguards (Arts 22A-22D).
+- **Transfers:** EU adequacy for the UK renewed 19 Dec 2025, valid to 27 Dec 2031. UK-US data
+  bridge (Oct 2023). New approvals use the "data protection test" (not materially lower).
+- **Scope:** people *in* the UK, not residents; UK establishment counts wherever processing
+  happens. "Assimilated" law (not "retained"). Citation now notes the 2025 Act.
+- **Erasure:** adds the children's online services ground, direct-marketing objection, the
+  2026 malicious-allegation ground (England and Wales), and missing refusal grounds.
+- **Breach:** report unless unlikely to be a risk (was "serious breaches").
+- **Unverified claims resolved:** removed "employment requests dominate"; replaced "priority
+  enforcement area" and "most exercised right" with supported wording; lawful-basis record
+  wording now matches the regulator's guidance; backups claim kept (supported).
+- **Tables:** consent per purpose "yes"; lawful-basis framing; children's age is 13 in Art 8,
+  now changeable by ministers up to 16; legitimate interests note; public data; response time.
+- Tooltip scan: identical popups before and after (the Art 6 popup stays on the right words).
+- **Not done (waits for D9 UK/PECR content):** PECR fines now reach UK GDPR levels (DUAA
+  s.115, Sch 13, from 5 Feb 2026). The exact tier split needs a full read of the substituted
+  s.157(2) before it goes on the site.

@@ -17,7 +17,7 @@
         "ccpa": { "state": "no", "note": "No specific cross-border transfer restrictions." },
         "lgpd": { "state": "yes", "note": "ANPD adequacy recognition, still developing." },
         "pipl": { "state": "no", "note": "No adequacy-decision mechanism." },
-        "ukgdpr": { "state": "yes", "note": "Adequacy regulations, known as data bridges." },
+        "ukgdpr": { "state": "yes", "note": "Adequacy regulations, known as data bridges, under a data protection test." },
         "fadp": { "state": "yes", "note": "Federal Council list of countries with adequate protection." },
         "pdpa-ar": { "state": "yes", "note": "Transfers allowed to countries with adequate protection." },
         "lpdp-uy": { "state": "yes", "note": "Transfers allowed to countries with adequate protection." },

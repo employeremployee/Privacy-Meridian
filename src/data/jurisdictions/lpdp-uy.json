@@ -25,9 +25,9 @@
           "id": "lpdp-uy-scope",
           "articleRef": "Overview",
           "surfaceLabel": "Does Uruguay's Privacy Law Apply to Your Organization?",
-          "plainSummary": "Uruguay treats data protection as a fundamental human right. Its 2008 law applies to personal data recorded in any medium and has been extended to reach organizations abroad that process data about people in Uruguay.",
+          "plainSummary": "Uruguay treats data protection as a fundamental human right. Its 2008 law applies to personal data recorded in any medium and has been extended to some organizations abroad, such as those offering goods or services to people in Uruguay.",
           "personalImpact": "Uruguay built one of Latin America's strongest privacy regimes, recognized as adequate by the EU. Still, your data flows to banks, credit bureaus, and online services. This law covers organizations handling personal data in Uruguay. It gives people real control over that information.",
-          "professionalLayer": "Law 18,331 declares data protection an inherent human right and applies broadly to personal data recorded in any medium, across the public and private sectors. Later reforms extended territorial scope to foreign processors targeting or processing data of persons in Uruguay, and added accountability duties including data protection officers for certain entities, impact assessments, and breach notification through implementing decrees. Uruguay holds an EU adequacy decision granted in 2012 and was the first non-European state to ratify Convention 108. The URCDP, the national regulatory and control unit, supervises and enforces the regime.",
+          "professionalLayer": "Law 18,331 declares data protection an inherent human right and applies broadly to personal data recorded in any medium, across the public and private sectors. Law 19,670 of 2018 extended territorial scope to foreign controllers that offer goods or services to people in Uruguay or analyse their behaviour. It also reaches foreign controllers using means of processing located in Uruguay, or bound by contract or international law. The same law added data protection officers for certain entities, impact assessments, and breach notification. Decree 64/020 implements these duties. Uruguay holds an EU adequacy decision granted in 2012 and became the first non-European state to join Convention 108, in 2013. It ratified the modernised version, known as 108+, in 2021. The URCDP, the national regulatory and control unit, supervises and enforces the regime.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
@@ -49,7 +49,7 @@
           "assessTrigger": "Do you process personal data of people in Uruguay from abroad, and have you checked whether the extended scope rules and DPO designation duties reach your organization?",
           "gapRemediation": {
             "smb": "If Uruguayan customers are incidental, confirm scope first. If covered, the consent and short-deadline duties matter most.",
-            "midMarket": "Check the DPO designation criteria in the implementing decrees, which capture more organizations than many expect.",
+            "midMarket": "Check the DPO designation criteria in Law 19,670 and Decree 64/020, which capture more organizations than many expect.",
             "enterprise": "Fold Uruguay into your regional program with local review of URCDP resolutions, which carry much of the operative detail."
           },
           "comparisonFlags": []
@@ -61,7 +61,7 @@
       "articles": [
         {
           "id": "lpdp-uy-consent",
-          "articleRef": "Article 9",
+          "articleRef": "Articles 9 and 18",
           "surfaceLabel": "Why Organizations Are Allowed to Use Your Data in Uruguay",
           "plainSummary": "Uruguayan law requires your prior, informed consent before your personal data is processed, with a list of exceptions such as public-source data and contractual necessity.",
           "personalImpact": "A company cannot use your data simply because it collected it. Uruguayan law requires your prior, informed consent, or another lawful basis. That consent must be clear and freely given. Uses without a valid basis are not allowed.",
@@ -70,7 +70,7 @@
           "crossReferences": [],
           "sourceLinks": [
             {
-              "label": "Ley 18.331 Article 9: impo.com.uy",
+              "label": "Ley 18.331 Articles 9 and 18: impo.com.uy",
               "url": "https://www.impo.com.uy/bases/leyes/18331-2008"
             }
           ],
@@ -169,10 +169,10 @@
           "id": "lpdp-uy-breach",
           "articleRef": "Decree 64/020",
           "surfaceLabel": "What Happens When Your Data Is Compromised in Uruguay",
-          "plainSummary": "Organizations must tell the Uruguayan regulator about data security breaches within 72 hours of learning of them, and inform affected people once the impact is known.",
+          "plainSummary": "Organizations must tell the Uruguayan regulator about data security breaches within 72 hours of learning of them, and inform affected people immediately.",
           "personalImpact": "A leak can expose your cedula number and financial details to fraud. A company that stays silent only widens the damage. Uruguayan rules require notice to the URCDP when your data is at risk. You learn in time to protect yourself.",
-          "professionalLayer": "Uruguay added a mandatory breach regime through its accountability reforms and Decree 64/020. Upon becoming aware of a security incident affecting personal data, the controller must notify the URCDP within a maximum of 72 hours, adopt containment and mitigation measures, and inform affected data subjects in clear language once impacts are determined. After resolution, a report on the incident and measures taken is expected. The structure resembles GDPR's dual-notification model with the 72-hour clock applied to the regulator.",
-          "responseTimeline": "URCDP: within 72 hours of awareness. Individuals: once impacts are determined.",
+          "professionalLayer": "Uruguay added a mandatory breach regime through its accountability reforms and Decree 64/020. Upon becoming aware of a security incident affecting personal data, the controller must notify the URCDP within a maximum of 72 hours, start containment within 24 hours, and immediately inform data subjects who suffered a significant impact, in clear and simple language. After resolution, the controller must send the URCDP a detailed report on the incident and measures taken. The structure resembles GDPR's dual-notification model with the 72-hour clock applied to the regulator.",
+          "responseTimeline": "URCDP: within 72 hours of awareness. Individuals: immediately, with no fixed hour count.",
           "crossReferences": [],
           "sourceLinks": [
             {
@@ -210,9 +210,9 @@
           "id": "lpdp-uy-transfers",
           "articleRef": "Article 23",
           "surfaceLabel": "Moving Personal Data Out of Uruguay",
-          "plainSummary": "Transfers to countries without adequate protection are prohibited unless an exception applies, such as consent or contract clauses that guarantee protection.",
+          "plainSummary": "Transfers to countries without adequate protection are prohibited unless an exception applies, such as the person's consent. Transfers relying on contract clauses need the regulator's approval.",
           "personalImpact": "Your data may travel to servers in other countries. Protection abroad is not always as strong. This law permits the transfer only with adequate safeguards or your consent. Your rights follow the data across the border.",
-          "professionalLayer": "Article 23 prohibits transfers to countries or international organizations that do not provide adequate levels of protection under international or regional law standards. Exceptions include international judicial cooperation, health emergencies, banking and stock transfers, treaty-based transfers, and the data subject's consent. The URCDP recognizes contractual clauses and has adopted standard clause models by resolution, and adequacy assessments broadly track the European map. Uruguay's own EU adequacy status keeps inbound EU flows unrestricted and anchors its adequacy-first architecture.",
+          "professionalLayer": "Article 23 prohibits transfers to countries or international organizations that do not provide adequate levels of protection under international or regional law standards. Exceptions include international judicial cooperation, medical data exchange the person's treatment requires, banking and stock transfers, treaty-based transfers, and intelligence cooperation against serious crime. Others cover the data subject's consent, contracts, public interest or legal claims, vital interests, and public registers. Transfers based on contract clauses or other guarantees need prior URCDP authorisation. The URCDP has recommended model clause sets by resolution, most recently the Council of Europe's clauses in 2026, and adequacy assessments broadly track the European map. Uruguay's own EU adequacy status keeps inbound EU flows unrestricted and anchors its adequacy-first architecture.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
@@ -229,9 +229,9 @@
             "data-subject",
             "consent-withdrawal"
           ],
-          "assessTrigger": "Do your transfers out of Uruguay rest on adequacy, consent, or URCDP-recognized clauses, documented per flow?",
+          "assessTrigger": "Do your transfers out of Uruguay rest on adequacy, consent, or URCDP-authorised clauses, documented per flow?",
           "gapRemediation": {
-            "smb": "Check vendor destinations against adequacy expectations and add URCDP-recognized clauses where needed.",
+            "smb": "Check vendor destinations against adequacy expectations and seek URCDP authorisation for clause-based transfers.",
             "midMarket": "Inventory Uruguayan-origin flows and attach the correct instrument to each.",
             "enterprise": "Manage Uruguay within your regional transfer program and monitor URCDP resolutions for clause updates."
           },

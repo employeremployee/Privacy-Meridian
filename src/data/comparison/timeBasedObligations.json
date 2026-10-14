@@ -75,7 +75,7 @@
         "ukgdpr": { "value": "Without undue delay", "note": "Where the breach is high risk to individuals." },
         "fadp": { "value": "Where needed for protection", "note": "Inform the person where needed for their protection, or if the FDPIC asks." },
         "pdpa-ar": { "value": "No statutory duty", "note": "The 2000 law has no individual-notice rule." },
-        "lpdp-uy": { "value": "72 hours", "note": "Affected individuals informed alongside the URCDP." },
+        "lpdp-uy": { "value": "Immediately", "note": "To people significantly affected. The 72-hour cap applies to the URCDP only." },
         "pipa-kr": { "value": "Without delay", "note": "Notify affected individuals of a qualifying breach." },
         "appi": { "value": "Promptly", "note": "Notify affected individuals, or make a public notice instead." },
         "nzpa": { "value": "As soon as practicable", "note": "Notify affected individuals where the breach is notifiable." },

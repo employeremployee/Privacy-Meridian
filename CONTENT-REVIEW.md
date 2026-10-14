@@ -442,3 +442,37 @@ grid.json items are moot (file deleted in batch 3).
   the verifier found no source for or against. Needs Jared's call.
 - Secondary-only: Convention 108 accession year (not stated on the page).
 - Tooltip scan: identical popups before and after.
+
+### Uruguay Law 18.331 (items CONFIRMED against impo.com.uy texts)
+- **Automated decisions (error):** table now "yes". Art 16 (Law 18.719) gives a right not to
+  face significant decisions based solely on automated evaluation, and to learn the criteria.
+- **Breach (error):** individuals must be told **immediately** (Law 19.670 Art 38); the
+  72 hours applies to the URCDP only (Decree 64/020 Art 4). Containment starts within 24 hours
+  (Art 3); the post-incident report to the URCDP is mandatory.
+- **Consent page:** reference now "Articles 9 and 18" (express written consent for sensitive
+  data is Art 18). Table sensitive-data note adds "written".
+- **Scope:** Law 19.670 Art 37 grounds (offering goods or services, analysing behaviour,
+  contract or international law, means in Uruguay), in the page and two table cells. Duties
+  come from Law 19.670, implemented by Decree 64/020. **Verifier corrected the review:** the
+  35,000-person DPO threshold is Decree 64/020 Art 10 (not Art 14), and impact assessment is
+  Law 18.331 Art 12 as rewritten by Law 19.670 Art 39.
+- **Convention 108:** Uruguay *acceded* (not ratified) in 2013, the first non-European state;
+  ratified 108+ in 2021 (Council of Europe releases, found via search).
+- **Transfers:** clause-based transfers need prior URCDP authorisation (Art 23, Decree 414/009
+  Arts 34-35); the resolutions *recommend* model clauses (latest: CoE 108+ clauses, Res.
+  8/026). Exceptions list fixed (medical data for treatment, not "health emergencies").
+  Table: SCC note and pre-approval row ("partial") updated.
+- **Sensitive data:** biometric defined in law with a prior impact assessment (Law 19.924,
+  Art 18-BIS), not sensitive; genetic not listed (now "no").
+- **Other tables:** fines capped at 500,000 UI by law (Art 35); contested data is flagged as
+  under review, blocking applies to marketing lists.
+- **Open (not changed):** children (two cells), intra-group rules and non-discrimination
+  cells: the verifier found no source for or against. Needs Jared's call. The
+  `effectiveDate` 2008-08-11 is the promulgation date (published 18 Aug 2008); data only.
+- Tooltip scan: same 262 popups (one dropped "processing" popup restored).
+
+### File 07 log corrections applied (Americas)
+- California: phase-in runs to 1 Apr 2030, not "through 2027".
+- Brazil: ANPD status is Law 15.352 (25 Feb 2026); SCCs took effect Aug 2024; the "first
+  significant fines" claim was unsupported in 2025 but a R$153.7M fine followed in Aug 2026.
+- Argentina and Uruguay: the earlier "reviewed, no change" entries were wrong (see above).

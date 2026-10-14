@@ -60,7 +60,7 @@
         "ukgdpr": { "state": "yes", "note": "Explicit consent condition." },
         "fadp": { "state": "yes", "note": "Consent must be explicit where it is relied on. It is not required just to process sensitive data." },
         "pdpa-ar": { "state": "partial", "note": "Sensitive data needs a general-interest ground set by law, or anonymous research use. No one can be forced to give it." },
-        "lpdp-uy": { "state": "yes", "note": "Express consent required for sensitive data." },
+        "lpdp-uy": { "state": "yes", "note": "Express written consent required for sensitive data." },
         "pipa-kr": { "state": "yes", "note": "Separate consent for sensitive information." },
         "appi": { "state": "yes", "note": "Prior consent required to acquire special care-required data." },
         "nzpa": { "state": "no", "note": "No special-category consent rule; the same principles apply." },

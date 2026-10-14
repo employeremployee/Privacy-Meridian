@@ -3,8 +3,6 @@
   "topicLabel": "Scope and Applicability",
   "format": "value",
   "rowHeader": "Aspect",
-  "draft": true,
-  "draftNote": "DRAFT values for prototype review. Not yet verified. Jared to confirm each cell before this is trustworthy.",
   "rows": [
     {
       "id": "who-covered",

@@ -104,7 +104,9 @@
     "sourceAttribution": "Content draws from official regulatory texts and public guidance.",
     "about": "About",
     "lastUpdated": "Last updated July 2026",
-    "copyright": "© 2026 Privacy Meridian. All rights reserved."
+    "copyright": "© 2026 Privacy Meridian. All rights reserved.",
+    "notLegalAdvice": "Privacy Meridian explains privacy laws in plain language. It is general information, not legal advice.",
+    "privacyNote": "This site collects nothing about you. No cookies, no trackers, no analytics."
   },
   "nav": {
     "barrelman": "Privacy Barrelman",

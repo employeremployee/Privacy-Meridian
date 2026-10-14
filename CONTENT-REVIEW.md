@@ -241,3 +241,15 @@ the 2025 Rules and gazette notifications. Opened and confirmed in a real browser
 - Build passes; lint is now fully clean (the old ModeContext warning went with the deleted
   code). Bundle about 14 KB smaller. Checked in the browser: redirects, picker, related-article
   scroll and focus, table key, US note, no console errors.
+
+## 2026-10-08 site review: Batch 4, decisions D4, P4, D11 (Oct 2026)
+
+- **D4 (legal notice):** footer on every page now says "Privacy Meridian explains privacy laws
+  in plain language. It is general information, not legal advice."
+- **P4 (privacy note):** footer also says "This site collects nothing about you. No cookies,
+  no trackers, no analytics." (True today: the review found zero outside requests, no cookies
+  and no browser storage.) **Keep it true:** when moving to Cloudflare Pages, leave Web
+  Analytics, Zaraz and similar features off (file 06, P2).
+- **D11 (draft flags):** removed the hidden `draft`/`draftNote` flags from all 8 comparison
+  files and the 10 newer law files. Nothing on screen changes.
+- **D10 (favicon):** first design sent back by Jared for a redo; pending.

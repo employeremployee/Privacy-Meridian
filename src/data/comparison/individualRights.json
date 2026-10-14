@@ -3,8 +3,6 @@
   "topicLabel": "Individual Rights",
   "format": "three-state",
   "rowHeader": "Right",
-  "draft": true,
-  "draftNote": "DRAFT classifications for prototype review. Not yet verified. Jared to confirm each cell before this is trustworthy.",
   "states": {
     "yes": "Granted as a distinct enforceable right",
     "partial": "Granted conditionally, partially, or under a different mechanism",

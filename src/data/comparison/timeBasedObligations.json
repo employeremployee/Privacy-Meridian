@@ -3,8 +3,6 @@
   "topicLabel": "Time-Based Obligations",
   "format": "value",
   "rowHeader": "Obligation",
-  "draft": true,
-  "draftNote": "DRAFT values for prototype review. Not yet verified. Jared to confirm each cell before this is trustworthy.",
   "rows": [
     {
       "id": "dsr-standard",

@@ -3,8 +3,6 @@
   "topicLabel": "Legal Bases for Processing",
   "format": "three-state",
   "rowHeader": "Legal basis",
-  "draft": true,
-  "draftNote": "DRAFT classifications for prototype review. Not yet verified. Jared to confirm each cell before this is trustworthy.",
   "states": {
     "yes": "Recognized as a lawful basis",
     "partial": "Recognized in a narrower or conditional form",

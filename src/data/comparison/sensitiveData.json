@@ -3,8 +3,6 @@
   "topicLabel": "Sensitive Data",
   "format": "three-state",
   "rowHeader": "Category",
-  "draft": true,
-  "draftNote": "DRAFT classifications for prototype review. Not yet verified. Jared to confirm each cell before this is trustworthy.",
   "states": {
     "yes": "Explicitly protected as a special/sensitive category",
     "partial": "Protected conditionally, indirectly, or under a different mechanism",

@@ -22,7 +22,7 @@
       "id": "consent-withdrawal",
       "type": "paired",
       "term": "Consent and Withdrawal of Consent",
-      "definition": "Consent means you actively agreed to let a company use your personal information. It must be freely given, specific, and easy to understand. Withdrawal means you can take that agreement back at any time. The company must make withdrawing consent as easy as giving it was.",
+      "definition": "Consent means you actively agreed to let a company use your personal information. It must be freely given, specific, and easy to understand. Withdrawal means you can take that agreement back at any time. Laws like the GDPR require withdrawal to be as easy as giving consent.",
       "jurisdiction": "universal",
       "source": {
         "label": "IAPP Privacy Glossary",
@@ -40,8 +40,8 @@
       "id": "pia-dpia",
       "type": "paired",
       "term": "PIA and DPIA",
-      "definition": "A Privacy Impact Assessment is a process for identifying and reducing privacy risks before starting a new activity that involves personal data. DPIA, Data Protection Impact Assessment, is the same process under a different name used specifically in GDPR. Both serve the same purpose: find the risk before it causes harm.",
-      "jurisdiction": "PIA: universal. DPIA: GDPR specific. PIPIA: PIPL specific.",
+      "definition": "A Privacy Impact Assessment is a process for identifying and reducing privacy risks before starting a new activity that involves personal data. DPIA, Data Protection Impact Assessment, is the term the GDPR uses for the same process. Kenya's and India's laws use the term too. Both serve the same purpose: find the risk before it causes harm.",
+      "jurisdiction": "PIA: universal. DPIA: GDPR, UK GDPR, Kenya, India. PIPIA: PIPL.",
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
@@ -58,7 +58,7 @@
       "id": "anonymization-pseudonymization",
       "type": "paired",
       "term": "Anonymization and Pseudonymization",
-      "definition": "Anonymization removes all identifying information from data permanently. Once truly anonymized, the data can no longer be linked back to any individual. Pseudonymization replaces identifying information with a code or alias. The original identity can still be recovered with the right key. Anonymized data is no longer personal data. Pseudonymized data still is.",
+      "definition": "Anonymization removes all identifying information from data permanently. Once truly anonymized, the data can no longer be linked back to any individual. Pseudonymization replaces identifying information with a code or alias. The original identity can still be recovered with the right key. Anonymized data is no longer personal data. Pseudonymized data stays personal data for anyone able to re-identify it. A 2025 EU court ruling found it may not be personal data for a recipient who cannot.",
       "jurisdiction": "universal",
       "source": {
         "label": "IAPP Privacy Glossary",
@@ -112,7 +112,7 @@
       "id": "service-provider-contractor-third-party",
       "type": "three-way",
       "term": "Service Provider, Contractor, and Third Party",
-      "definition": "Under California law, a service provider processes data on your behalf under a written contract. A contractor receives data under a similar arrangement but in a different legal relationship. A third party receives data independently and is not bound by the same contract restrictions. Transfers to third parties may constitute a sale or sharing.",
+      "definition": "Under California law, a service provider handles data for a business under a written contract. A contractor receives data under a similar contract but a different relationship. A third party receives data for its own use. Businesses still need a contract with third parties, but with different required terms. Sharing data with a third party can count as a sale or sharing.",
       "jurisdiction": "CCPA/CPRA specific",
       "source": {
         "label": "CPPA",
@@ -130,7 +130,7 @@
       "id": "opt-in-opt-out",
       "type": "paired",
       "term": "Opt-In and Opt-Out",
-      "definition": "Opt-in means you must actively agree before a company can use your data. Opt-out means the company can use your data by default unless you say no. GDPR generally requires opt-in consent. CCPA/CPRA uses an opt-out model for most processing.",
+      "definition": "Opt-in means you must actively agree before a company can use your data. Opt-out means the company can use your data unless you say no. The GDPR requires opt-in when a company relies on consent. California's law uses an opt-out model for most processing.",
       "jurisdiction": "universal",
       "source": {
         "label": "IAPP Privacy Glossary",
@@ -148,8 +148,8 @@
       "id": "legal-basis",
       "type": "standalone",
       "term": "Legal Basis",
-      "definition": "A legal basis is the specific reason a company is permitted to collect or use your personal information. Privacy laws require companies to have one before they start. Common examples include your consent, a contract you have with them, or a legal obligation they must meet.",
-      "jurisdiction": "universal",
+      "definition": "A legal basis is the specific reason a company may collect or use your personal information. Many privacy laws require one before the company starts. Common examples include your consent, a contract with you, or a legal duty.",
+      "jurisdiction": "Required under GDPR, UK GDPR, LGPD, PIPL, POPIA and Kenya. Not the model under CCPA/CPRA, APPI, NZ or the Swiss FADP for private actors.",
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
@@ -166,10 +166,10 @@
       "id": "legitimate-interests",
       "type": "standalone",
       "term": "Legitimate Interests",
-      "definition": "Legitimate interests is a legal basis that allows a company to use personal data for a genuine business purpose without asking for consent. The company must weigh that interest against your rights. If your rights outweigh the business need, legitimate interests cannot be used.",
-      "jurisdiction": "GDPR and LGPD. Not a recognized basis under CCPA/CPRA or PIPL in the same form.",
+      "definition": "Legitimate interests is a legal basis for using personal data without asking for consent. The company needs a genuine interest, and the use must be necessary for it. The company must then weigh that interest against your rights. If your rights outweigh it, the company cannot rely on this basis.",
+      "jurisdiction": "Available under GDPR, UK GDPR, LGPD, POPIA and Kenya's law. Not available under PIPL, APPI or CCPA/CPRA.",
       "source": {
-        "label": "EDPB Guidelines on Legitimate Interest",
+        "label": "EDPB Guidelines 1/2024 on legitimate interest (draft for consultation)",
         "url": "https://www.edpb.europa.eu/our-work-tools/documents/public-consultations/2024/guidelines-12024-processing-personal-data-based_en"
       },
       "definitions": {
@@ -220,7 +220,7 @@
       "id": "data-subject",
       "type": "standalone",
       "term": "Data Subject",
-      "definition": "A data subject is any living individual whose personal data is being collected or used. If a company holds information about you, you are the data subject. CCPA/CPRA uses the term consumer. PIPL uses the term individual.",
+      "definition": "A data subject is the living person whose personal data a company collects or uses. If a company holds information about you, you are the data subject. Some laws, like South Africa's, Argentina's and Uruguay's, also cover companies. CCPA/CPRA uses the term consumer. PIPL uses the term individual.",
       "jurisdiction": "GDPR and LGPD term. Equivalent: consumer (CCPA/CPRA), individual (PIPL).",
       "source": {
         "label": "IAPP Privacy Glossary",
@@ -238,7 +238,7 @@
       "id": "personal-data",
       "type": "standalone",
       "term": "Personal Data / Personal Information",
-      "definition": "Personal data is any information that can identify a living individual. This includes obvious things like your name and email address. It also includes less obvious things like your IP address, location data, or a cookie that tracks your browsing.",
+      "definition": "Personal data is any information that can identify a living person. This includes obvious things like your name and email address. It also includes less obvious things like your IP address, location data, or a tracking cookie. Some laws, like South Africa's, Argentina's and Uruguay's, also protect information about companies. Japan's law treats data like a cookie ID alone as a lighter, separate category.",
       "jurisdiction": "universal",
       "source": {
         "label": "IAPP Privacy Glossary",
@@ -256,7 +256,7 @@
       "id": "sensitive-data",
       "type": "standalone",
       "term": "Special Category Data / Sensitive Personal Information",
-      "definition": "Some types of personal information are considered especially sensitive and receive stronger legal protection. These typically include health information, racial or ethnic origin, religious beliefs, biometric data, and sexual orientation. Companies need specific legal justification to handle this type of information.",
+      "definition": "Some types of personal information count as especially sensitive and get stronger protection. These often include health, racial or ethnic origin, religion, biometrics and sexual orientation. Most laws require a specific justification to handle this data. California instead gives you a right to limit how companies use it.",
       "jurisdiction": "GDPR: special category data (Article 9). CCPA/CPRA: sensitive personal information. PIPL: sensitive personal information. LGPD: sensitive personal data.",
       "source": {
         "label": "IAPP Privacy Glossary",
@@ -274,7 +274,7 @@
       "id": "dpo-encarregado",
       "type": "standalone",
       "term": "Data Protection Officer / Encarregado",
-      "definition": "A Data Protection Officer is a person inside an organization responsible for overseeing privacy compliance. Some organizations are legally required to appoint one. LGPD uses the term Encarregado for the equivalent role in Brazil.",
+      "definition": "A Data Protection Officer oversees an organization's privacy compliance. The officer can be an employee or an outside provider. Some organizations must appoint one by law. Brazil's LGPD calls this role the Encarregado.",
       "jurisdiction": "GDPR: DPO (Articles 37-39). LGPD: Encarregado (Article 41). PIPL: equivalent role (Article 52).",
       "source": {
         "label": "IAPP Privacy Glossary",
@@ -292,8 +292,8 @@
       "id": "ropa",
       "type": "standalone",
       "term": "Records of Processing Activities (RoPA)",
-      "definition": "A RoPA is an internal document that records every way an organization uses personal data. It covers what data is collected, why, who sees it, and how long it is kept. Regulators can request it at any time.",
-      "jurisdiction": "GDPR specific (Article 30). Equivalent records obligations exist under LGPD and PIPL.",
+      "definition": "A RoPA is an internal document that records every way an organization uses personal data. It covers what data is collected, why, who sees it, and how long it is kept. Regulators can request it at any time. Under the GDPR, organizations with fewer than 250 employees are often exempt. The exemption does not apply to risky, regular, or sensitive-data processing.",
+      "jurisdiction": "GDPR specific (Article 30). LGPD has its own records duty. PIPL requires records only for activities that need an impact assessment.",
       "source": {
         "label": "GDPR Article 30: EUR-Lex",
         "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
@@ -310,7 +310,7 @@
       "id": "verifiable-consumer-request",
       "type": "standalone",
       "term": "Verifiable Consumer Request",
-      "definition": "A verifiable consumer request is a privacy rights request where the business has confirmed the person making it is who they say they are. Businesses must verify identity before responding to protect against someone requesting another person's data.",
+      "definition": "A verifiable consumer request is a rights request where the business confirms who is asking. Businesses must verify identity before they disclose, delete or correct data. Opt-out and limit requests do not need this verification.",
       "jurisdiction": "CCPA/CPRA specific",
       "source": {
         "label": "CPPA",
@@ -346,11 +346,11 @@
       "id": "gpc",
       "type": "standalone",
       "term": "Global Privacy Control (GPC)",
-      "definition": "The Global Privacy Control is a browser setting that automatically signals to websites that you do not want your personal information sold or shared. California businesses are legally required to honor this signal as a valid opt-out.",
-      "jurisdiction": "Mandatory under CCPA/CPRA. No equivalent mandatory requirement in other v1 jurisdictions.",
+      "definition": "The Global Privacy Control is a browser setting that tells websites not to sell or share your data. Under California law, covered businesses that sell or share data must honor it as an opt-out. This applies wherever the business is located.",
+      "jurisdiction": "Mandatory under CCPA/CPRA for covered businesses that sell or share personal information.",
       "source": {
-        "label": "CPPA Regulations",
-        "url": "https://cppa.ca.gov/regulations/"
+        "label": "California Attorney General: CCPA FAQ",
+        "url": "https://oag.ca.gov/privacy/ccpa"
       },
       "definitions": {
         "de": "Die Global Privacy Control ist eine Browser-Einstellung, die Websites automatisch signalisiert, dass Sie den Verkauf oder die Weitergabe Ihrer personenbezogenen Daten nicht wünschen. Unternehmen in Kalifornien sind gesetzlich verpflichtet, dieses Signal als gültigen Widerspruch zu beachten.",
@@ -382,7 +382,7 @@
       "id": "data-localization",
       "type": "standalone",
       "term": "Data Localization",
-      "definition": "Data localization means a law requires certain personal data to be stored inside a specific country and not moved abroad without approval. China's privacy law requires this for organizations above certain size thresholds. This is one of the most significant structural differences between Chinese and European privacy law.",
+      "definition": "Data localization means a law requires certain data to stay inside a country. China requires this for critical infrastructure operators and for handlers above set data volumes. Sending such data abroad needs a government security review. This is a major structural difference from European privacy law.",
       "jurisdiction": "PIPL specific (Article 40). No equivalent requirement in GDPR, CCPA/CPRA, or LGPD.",
       "source": {
         "label": "PIPL Article 40 (Stanford DigiChina)",
@@ -400,8 +400,8 @@
       "id": "sccs",
       "type": "standalone",
       "term": "Standard Contractual Clauses (SCCs)",
-      "definition": "Standard Contractual Clauses are pre-approved contract terms that allow companies to legally transfer personal data outside the European Union. They commit the receiving organization to protecting the data to EU standards. Each jurisdiction has its own equivalent mechanism for cross-border transfers.",
-      "jurisdiction": "GDPR primary. LGPD and PIPL have equivalent but distinct mechanisms.",
+      "definition": "Standard Contractual Clauses are pre-approved contract terms for sending personal data outside the European Economic Area. They commit the receiver to protect the data to EU standards. Several other laws have their own versions. Examples include clauses in the UK, Brazil, China, Argentina and Kenya. Some laws have none.",
+      "jurisdiction": "GDPR primary. Own versions: UK IDTA and Addendum, LGPD ANPD clauses, PIPL standard contract, Argentina AAIP clauses, Kenya ODPC clauses. None under CCPA/CPRA or DPDP.",
       "source": {
         "label": "European Commission SCCs",
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021D0914"
@@ -418,11 +418,11 @@
       "id": "tia",
       "type": "standalone",
       "term": "Transfer Impact Assessment (TIA)",
-      "definition": "A Transfer Impact Assessment is an analysis a company must complete before sending personal data to a country outside the European Union. It evaluates whether that country's laws provide adequate protection. It became required after the Schrems II court decision in 2020.",
-      "jurisdiction": "GDPR specific: post-Schrems II requirement",
+      "definition": "A Transfer Impact Assessment checks whether another country's laws undermine protection for personal data. Exporters in the European Economic Area need one for tools like standard contractual clauses. Transfers to adequate countries, or under narrow exceptions, do not need one. The requirement grew out of the 2020 Schrems II ruling.",
+      "jurisdiction": "GDPR specific. Required when relying on Article 46 transfer tools, after Schrems II.",
       "source": {
-        "label": "EDPB guidelines",
-        "url": "https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en"
+        "label": "EDPB Recommendations 01/2020 on supplementary measures",
+        "url": "https://www.edpb.europa.eu/system/files/documents/2021-06/edpb_recommendations_202001vo.2.0_supplementarymeasurestransferstools_en.pdf"
       },
       "definitions": {
         "de": "Eine Transfer-Folgenabschätzung ist eine Analyse, die ein Unternehmen abschließen muss, bevor es personenbezogene Daten in ein Land außerhalb der Europäischen Union übermittelt. Sie bewertet, ob die Gesetze dieses Landes einen angemessenen Schutz bieten. Sie wurde nach dem Schrems-II-Urteil von 2020 erforderlich.",
@@ -436,7 +436,7 @@
       "id": "schrems-ii",
       "type": "standalone",
       "term": "Schrems II",
-      "definition": "Schrems II is a 2020 European court decision that changed the rules for sending personal data from the EU to the United States. It invalidated the previous transfer agreement and required companies to assess whether US law adequately protects EU data. It significantly increased compliance obligations for transatlantic data transfers.",
+      "definition": "Schrems II is a 2020 EU court ruling on sending personal data to the United States. It struck down the EU-US Privacy Shield and required case-by-case transfer checks. The EU adopted a new Data Privacy Framework in July 2023, which remains in force. A court upheld it in 2025, and an appeal is pending. In July 2026, the EDPB asked the Commission to assess a US Supreme Court ruling's impact.",
       "jurisdiction": "GDPR specific: EU-US data transfers",
       "source": {
         "label": "CJEU Case C-311/18",
@@ -454,7 +454,7 @@
       "id": "anpd",
       "type": "standalone",
       "term": "ANPD",
-      "definition": "The ANPD, Autoridade Nacional de Proteção de Dados, is Brazil's national data protection authority. It enforces LGPD, issues regulations, and handles complaints from individuals. Its regulatory guidance is still developing in several areas.",
+      "definition": "The ANPD, Agência Nacional de Proteção de Dados, is Brazil's data protection authority. A 2026 law made it a regulatory agency with more independence. It enforces the LGPD, issues regulations, and handles complaints. It also enforces Brazil's ECA Digital child-safety law.",
       "jurisdiction": "LGPD specific",
       "source": {
         "label": "ANPD",
@@ -490,7 +490,7 @@
       "id": "edpb",
       "type": "standalone",
       "term": "EDPB",
-      "definition": "The EDPB, European Data Protection Board, coordinates privacy enforcement across EU member states. It issues guidelines, opinions, and binding decisions on GDPR interpretation. It is the primary source of authoritative GDPR guidance.",
+      "definition": "The EDPB, European Data Protection Board, coordinates privacy enforcement across EU member states. It issues guidelines, opinions, and binding decisions on GDPR interpretation. Its guidance carries great weight, though the EU Court of Justice has the final word.",
       "jurisdiction": "GDPR specific",
       "source": {
         "label": "EDPB",
@@ -509,7 +509,7 @@
       "type": "standalone",
       "term": "Right to be Forgotten",
       "definition": "The right to be forgotten is the popular name for the right to have your personal information deleted. GDPR formalizes this as the right to erasure under Article 17. It is not absolute. Companies can refuse deletion in specific circumstances.",
-      "jurisdiction": "Common usage term. Legal right exists across all four v1 jurisdictions in varying forms.",
+      "jurisdiction": "Common usage term. Some form of the right exists in most laws covered here.",
       "source": {
         "label": "GDPR Article 17: EUR-Lex",
         "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
@@ -526,8 +526,8 @@
       "id": "breach-notification",
       "type": "standalone",
       "term": "Breach Notification",
-      "definition": "Breach notification is the legal requirement to report a security incident that exposes personal data. Organizations must notify both regulators and affected individuals. The required timeframe differs significantly across jurisdictions.",
-      "jurisdiction": "Universal. Timelines: GDPR 72 hours, LGPD 2-5 business days, PIPL immediate, CCPA/CPRA without unreasonable delay.",
+      "definition": "Breach notification is the duty to report a security incident that exposes personal data. Many laws require notice to a regulator, to affected people, or to both. Who must be told, and how fast, differs from law to law.",
+      "jurisdiction": "Timelines vary. GDPR: 72 hours to the regulator. LGPD: 3 business days. PIPL: immediately. California breach law: 30 calendar days to residents (SB 446, 2026). Argentina: no statutory duty.",
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
@@ -562,7 +562,7 @@
       "id": "purpose-limitation",
       "type": "standalone",
       "term": "Purpose Limitation",
-      "definition": "Purpose limitation means personal data can only be used for the reason it was originally collected. Using data for a different purpose later generally requires a new legal basis or fresh consent.",
+      "definition": "Purpose limitation means a company uses personal data only for the reasons it collected it. A later use must be compatible with the original purpose. Under the GDPR, an incompatible use needs your consent or a law that allows it.",
       "jurisdiction": "universal",
       "source": {
         "label": "IAPP Privacy Glossary",
@@ -599,7 +599,7 @@
       "type": "standalone",
       "term": "Meaningful Human Involvement",
       "definition": "Meaningful human involvement means a real person genuinely reviews an automated decision before it takes effect. Simply having a person available to approve an algorithm's output does not qualify. The review must be genuine, not a formality.",
-      "jurisdiction": "GDPR Article 22 primary. PIPL Article 24 equivalent concept.",
+      "jurisdiction": "GDPR Article 22 primary. PIPL Article 24 lets people refuse decisions made solely by automation, but sets no human-review standard.",
       "source": {
         "label": "EDPB Guidelines on Automated Decision-Making",
         "url": "https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=612053"

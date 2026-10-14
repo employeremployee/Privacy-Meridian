@@ -166,8 +166,7 @@
           ],
           "tooltipTerms": [
             "data-subject",
-            "controller-processor",
-            "consent-withdrawal"
+            "controller-processor"
           ],
           "assessTrigger": "Does your breach process apply the Swiss high-risk threshold and FDPIC portal route, distinct from your EU 72-hour workflow?",
           "gapRemediation": {

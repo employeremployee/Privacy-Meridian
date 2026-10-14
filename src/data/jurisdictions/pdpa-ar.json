@@ -186,9 +186,7 @@
               "url": "https://www.argentina.gob.ar/aaip"
             }
           ],
-          "tooltipTerms": [
-            "breach-notification"
-          ],
+          "tooltipTerms": [],
           "assessTrigger": "Does your incident plan cover Argentina with documented handling and voluntary AAIP reporting, and are you monitoring the modernization bills that would make notification mandatory?",
           "gapRemediation": {
             "smb": "Document incidents affecting Argentine data even without a legal duty. It is cheap insurance and expected practice.",

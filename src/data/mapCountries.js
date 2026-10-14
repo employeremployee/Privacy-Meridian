@@ -26,7 +26,9 @@ const GROUP_LABELS = {
   dpdp: 'India (DPDP Act)',
 }
 
-// EEA countries that apply the GDPR, matching the codes in countryStatus.js.
+// EEA countries that apply the GDPR. Matches the codes in countryStatus.js, plus
+// Liechtenstein and Malta: the 110m map topology has no shape for either, but
+// the picker is a text list, so they stay selectable here.
 const GDPR_COUNTRIES = [
   'Austria',
   'Belgium',
@@ -45,8 +47,10 @@ const GDPR_COUNTRIES = [
   'Ireland',
   'Italy',
   'Latvia',
+  'Liechtenstein',
   'Lithuania',
   'Luxembourg',
+  'Malta',
   'Netherlands',
   'Norway',
   'Poland',

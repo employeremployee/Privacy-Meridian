@@ -137,3 +137,50 @@ still carried a stale "2-day + 5-day." All now read 3 business days with a 20-bu
 supplement. Also added, in the LGPD breach detail page: startups and small businesses
 (ANPD Resolution 2/2022) get double the deadline, 6 business days, unless they do high-risk
 processing. (Verified via ANPD Resolution 15/2024 + 2/2022 and law-firm summaries.)
+
+---
+
+## 2026-10-08 site review: Batch 1 (Oct 2026)
+
+Source: `docs/site-review-2026-10-08/` (file 01, Parts B and C). Approved by Jared 2026-10-14.
+
+**Jared's decisions so far:**
+- D1 (US on map): keep the US colored, labelled "California only" with a note. *Not yet built.*
+- D2/D3 (legend wording): handle as a separate project that adds all countries with enacted
+  privacy laws (e.g. Canada, Singapore, Australia). *Scoping to come.*
+- D5 (glossary popups): fix by removing mismatched pairings in the data. No code change.
+- D4, D6 to D11, P4: still open.
+
+**Glossary definitions corrected** (`src/data/glossary.json`, rendered in popups):
+breach-notification (not every law notifies both regulator and individuals), personal-data and
+data-subject (some laws also cover companies; Japan treats cookie IDs alone separately),
+legitimate-interests (adds the necessity step; source labelled as the 2024 consultation
+draft), sensitive-data (California uses a right to limit), consent-withdrawal ("as easy as
+giving" is a GDPR-type rule, not universal), purpose-limitation (compatible use), tia (only
+for Art 46 tools, not adequacy; EEA; now links EDPB Recommendations 01/2020 v2.0), sccs (other
+laws' versions; some laws have none), schrems-ii (Data Privacy Framework 2023, Latombe
+T-553/23 upheld it 3 Sep 2025, appeal C-703/25 P pending, EDPB July 2026 letter on *Trump v.
+Slaughter*), opt-in-opt-out (GDPR opt-in only where consent is the basis), legal-basis
+("many" laws), service-provider-contractor-third-party (third parties need a contract too),
+ropa (Art 30(5) small-organisation exemption), dpo-encarregado (can be external), anpd (now
+the Agência Nacional, Law 15.352/2026; enforces ECA Digital), data-localization (data
+volume, not company size), anonymization-pseudonymization (EDPS v SRB, C-413/23 P, 4 Sep
+2025), gpc (covered businesses anywhere; links the California AG CCPA page), verifiable-
+consumer-request (opt-out and limit requests need no verification), pia-dpia (Kenya and India
+use DPIA too). Hidden fields also fixed: stale "v1 jurisdictions" wording, LGPD "2-5 days",
+PIPL wording, meaningful-human-involvement, edpb.
+
+Facts checked before editing: Latombe judgment and appeal (EUR-Lex OJ notice C/2025/6610),
+EDPS v SRB, EDPB Recommendations 01/2020 v2.0 (PDF opened), California AG CCPA page (opened
+in a real browser; mentions the global privacy control).
+
+**Popups removed where they landed on the wrong meaning** (D5): breach-notification on
+pdpa-ar-breach, legitimate-interests on appi-cease-use, consent-withdrawal on fadp-breach,
+dpo-encarregado on lpdp-uy-scope. Tooltip scan before and after: only these 4 changed.
+
+**Site text and map data:** Malta and Liechtenstein added to the country picker (both open
+the GDPR page). Unused text keys `legend.developing` and `home.draftBadge` removed.
+
+**Not yet done from Part C (minor):** popups that sit inside a longer defined term (e.g.
+"personal data" inside "Sensitive personal data" on kdpa-s30). The dormant non-English
+glossary translations were not updated; they are not shown while the site is English-only.

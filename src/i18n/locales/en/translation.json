@@ -58,7 +58,6 @@
     "viewLabel": "View",
     "exploreHint": "Pick a country on the map to see its privacy law.",
     "compareHint": "Pick a topic, then pick countries on the map to compare them side by side.",
-    "draftBadge": "Draft data",
     "compareSelectedCount": "{{count}} of {{max}} countries selected.",
     "compareLimitReached": "Limit reached. Remove a country before adding another."
   },
@@ -66,7 +65,6 @@
     "heading": "Map key",
     "enacted": "Comprehensive law in effect",
     "selected": "Selected country",
-    "developing": "Law developing or not yet in force",
     "none": "No comprehensive law"
   },
   "topicPicker": {

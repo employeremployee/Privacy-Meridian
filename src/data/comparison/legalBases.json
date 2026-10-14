@@ -153,7 +153,7 @@
       "id": "public-data",
       "label": "Processing already-public information",
       "jurisdictions": {
-        "gdpr": { "state": "partial", "note": "Manifestly-public exemption applies mainly to special categories." },
+        "gdpr": { "state": "partial", "note": "The manifestly-public exemption applies only to special categories. Public data still needs a legal basis." },
         "ccpa": { "state": "partial", "note": "Publicly available information is excluded from personal information." },
         "lgpd": { "state": "partial", "note": "Manifestly-public data treated with lighter conditions." },
         "pipl": { "state": "yes", "note": "Publicly disclosed information within reasonable scope." },

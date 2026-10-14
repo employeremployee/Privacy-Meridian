@@ -33,7 +33,7 @@
       "id": "per-purpose",
       "label": "Separate consent per purpose",
       "jurisdictions": {
-        "gdpr": { "state": "partial", "note": "Purpose limitation applies; related purposes can share consent." },
+        "gdpr": { "state": "yes", "note": "Consent must cover each purpose, with separate choices where appropriate." },
         "ccpa": { "state": "no", "note": "Not a consent-per-purpose regime." },
         "lgpd": { "state": "partial", "note": "Consent tied to specified purposes." },
         "pipl": { "state": "yes", "note": "Separate consent per purpose; bundled consent is not permitted." },
@@ -93,7 +93,7 @@
       "id": "opt-out-model",
       "label": "Opt-out model for general processing",
       "jurisdictions": {
-        "gdpr": { "state": "no", "note": "Opt-in framework." },
+        "gdpr": { "state": "partial", "note": "A lawful-basis framework. Consent is one of six bases, and legitimate-interest processing runs until you object." },
         "ccpa": { "state": "yes", "note": "The core CCPA model." },
         "lgpd": { "state": "no", "note": "Opt-in framework." },
         "pipl": { "state": "no", "note": "Consent-based framework." },
@@ -113,7 +113,7 @@
       "id": "children",
       "label": "Heightened consent for children",
       "jurisdictions": {
-        "gdpr": { "state": "yes", "note": "Parental consent below the age threshold." },
+        "gdpr": { "state": "yes", "note": "For online services offered to children, parental consent below 16, or a lower national age of at least 13." },
         "ccpa": { "state": "yes", "note": "Opt-in for sale or sharing of data of consumers under 16." },
         "lgpd": { "state": "yes", "note": "Best interest of the child." },
         "pipl": { "state": "yes", "note": "Guardian consent for minors under 14, treated as sensitive." },

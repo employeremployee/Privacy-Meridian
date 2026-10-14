@@ -253,3 +253,47 @@ the 2025 Rules and gazette notifications. Opened and confirmed in a real browser
 - **D11 (draft flags):** removed the hidden `draft`/`draftNote` flags from all 8 comparison
   files and the 10 newer law files. Nothing on screen changes.
 - **D10 (favicon):** done. Jared chose design "E2": a tilted compass with a light blue rim, a red north needle (Compass Red #B23A3A, approved for the favicon only), a white north notch and a soft shadow (14% opacity, offset reduced by a third). Recorded in CLAUDE.md design rules.
+
+## 2026-10-08 site review: Batch 5, Europe (Oct 2026)
+
+Method: three research agents independently re-checked every file-02 item against primary
+sources (EUR-Lex, CJEU judgments, the EDPB letter, Fedlex in German and French,
+legislation.gov.uk). Edits were then written in the house voice. `grid.json` items skipped
+(file deleted).
+
+### EU GDPR (all items CONFIRMED by the verifier)
+- **Transfers (Arts 44-49):** says "out of the European Economic Area". Adds that the GDPR has
+  applied in Norway, Iceland and Liechtenstein since July 2018 (EEA Decision 154/2018). Data
+  Privacy Framework: adequacy for certified US recipients (Decision 2023/1795). Upheld by the
+  General Court in *Latombe* (T-553/23, 3 Sep 2025); appeal C-703/25 P pending. *Trump v.
+  Slaughter* (29 Jun 2026) and the EDPB's 31 Jul 2026 request that the Commission assess it.
+  The framework remains in force. "Transfer Impact Assessment" is now described as the check
+  Schrems II required, not a term from the judgment.
+- **Access (Art 15):** must name actual recipients (C-154/21, 2023). Adds Art 15(1)(h) and the
+  duty to explain the procedure and principles actually applied (C-203/22, 2025).
+- **Automated decisions (Art 22):** a general prohibition (SCHUFA, C-634/21). The three
+  conditions are now listed correctly. Human intervention and contest rights attach to the
+  contract and consent exceptions; laws authorising decisions must set their own safeguards.
+  "Entitled to human involvement before it stands" removed.
+- **Breach (Arts 33-34):** the 72-hour duty now carries its exception everywhere. Adds "where
+  feasible", reasons for delay, the contact-point item, documenting every breach, and the
+  Art 34(3) exceptions.
+- **Transparency (Arts 13-14):** foundation of transparency, not consent. Art 14 timing
+  (reasonable period, one month, earlier on first communication or disclosure).
+- **Rectification (Art 16):** "without undue delay"; Art 19 qualifier added.
+- **Erasure (Art 17):** all five Art 17(3) exemptions; Art 21(2) marketing objection ground.
+- **Objection (Art 21):** "particular situation" condition; no "immediate" deadline (one
+  month, Art 12(3)); notice "clearly and separately, at the latest" at first communication.
+- **Records (Art 30):** exemption also lifts for criminal data; records go to regulators, not
+  individuals.
+- **DPIA (Art 35):** the three Art 35(3) mandatory cases; each authority publishes its own list.
+- **DPO (Arts 37-39):** courts exception, "regular and systematic", core activities, criminal
+  data, national rules (Germany: 20+ people constantly doing automated processing).
+- **Tables:** scope says "people in the EU", not residents. Consent rows: GDPR is a
+  lawful-basis framework (opt-out row now "partial"); consent per purpose is "yes". Children:
+  16, or a national age of at least 13. Public data: exemption applies only to special
+  categories. Enforcement: national authorities enforce; the EDPB settles disputes.
+- Hidden data: authority now "national supervisory authorities"; LGPD flag now 3 days.
+- Tooltip scan before/after: all popups still land on the right words.
+- **Log correction (file 07):** the earlier note "EU GDPR reviewed, no content change" was
+  incomplete. The law hadn't changed, but the site text had the errors above.

@@ -28,7 +28,7 @@
       "id": "authority",
       "label": "Enforcement authority",
       "jurisdictions": {
-        "gdpr": { "value": "National DPAs and the EDPB", "note": "One-stop-shop for cross-border cases." },
+        "gdpr": { "value": "National data protection authorities", "note": "One-stop-shop for cross-border cases. The EDPB settles disputes between authorities." },
         "ccpa": { "value": "CPPA and the California AG", "note": "The CPPA is a dedicated privacy regulator." },
         "lgpd": { "value": "ANPD", "note": "Guidance and enforcement are still maturing." },
         "pipl": { "value": "CAC and sectoral regulators", "note": "The CAC leads, with sector-specific oversight." },

@@ -28,7 +28,7 @@
       "id": "territorial-reach",
       "label": "Territorial reach",
       "jurisdictions": {
-        "gdpr": { "value": "EU establishment or EU residents", "note": "Establishment, targeting, or monitoring." },
+        "gdpr": { "value": "EU establishment, or people in the EU", "note": "Establishment, targeting, or monitoring." },
         "ccpa": { "value": "California residents' data", "note": "Regardless of where the business is located." },
         "lgpd": { "value": "Processing in or of people in Brazil", "note": "Including data collected in Brazil." },
         "pipl": { "value": "Processing in or targeting China", "note": "Extraterritorial for offering goods or profiling." },

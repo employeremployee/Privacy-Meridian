@@ -54,7 +54,7 @@
       "label": "Right to correction",
       "jurisdictions": {
         "gdpr": { "state": "yes", "note": "Rectification." },
-        "ccpa": { "state": "partial", "note": "Added by CPRA; absent from the original CCPA." },
+        "ccpa": { "state": "yes", "note": "Added by CPRA, in force since 2023." },
         "lgpd": { "state": "yes" },
         "pipl": { "state": "yes" },
         "ukgdpr": { "state": "yes", "note": "Rectification." },
@@ -134,7 +134,7 @@
       "label": "Right against solely automated decisions",
       "jurisdictions": {
         "gdpr": { "state": "yes" },
-        "ccpa": { "state": "partial", "note": "Automated decision-making rules developing under CPRA rulemaking." },
+        "ccpa": { "state": "partial", "note": "From January 2027, an opt-out and access right for significant automated decisions, with exceptions." },
         "lgpd": { "state": "yes", "note": "Right to review." },
         "pipl": { "state": "yes" },
         "ukgdpr": { "state": "partial", "note": "Banned only with special category data or recognised legitimate interests. Otherwise allowed with safeguards, including human review." },

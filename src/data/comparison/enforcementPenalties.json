@@ -9,7 +9,7 @@
       "label": "Maximum administrative fine",
       "jurisdictions": {
         "gdpr": { "value": "€20M or 4% of global turnover", "note": "Whichever is higher, for the most serious infringements." },
-        "ccpa": { "value": "Up to $7,500 per violation", "note": "Per intentional violation or violation involving a minor; less for others." },
+        "ccpa": { "value": "Up to $7,988 per violation", "note": "For intentional violations or those involving minors under 16. Others are up to $2,663. Both rise with inflation." },
         "lgpd": { "value": "2% of Brazil revenue, up to R$50M", "note": "Per infringement." },
         "pipl": { "value": "¥50M or 5% of annual revenue", "note": "For serious violations, plus possible suspension." },
         "ukgdpr": { "value": "£17.5M or 4% of global turnover", "note": "Whichever is higher, for the most serious infringements." },
@@ -29,7 +29,7 @@
       "label": "Enforcement authority",
       "jurisdictions": {
         "gdpr": { "value": "National data protection authorities", "note": "One-stop-shop for cross-border cases. The EDPB settles disputes between authorities." },
-        "ccpa": { "value": "CPPA and the California AG", "note": "The CPPA is a dedicated privacy regulator." },
+        "ccpa": { "value": "CalPrivacy and the California AG", "note": "CalPrivacy, formally the California Privacy Protection Agency, is a dedicated privacy regulator." },
         "lgpd": { "value": "ANPD", "note": "Guidance and enforcement are still maturing." },
         "pipl": { "value": "CAC and sectoral regulators", "note": "The CAC leads, with sector-specific oversight." },
         "ukgdpr": { "value": "The Information Commission", "note": "Replaced the Information Commissioner on 30 September 2026." },
@@ -49,7 +49,7 @@
       "label": "Private right of action",
       "jurisdictions": {
         "gdpr": { "value": "Yes", "note": "Compensation for damage." },
-        "ccpa": { "value": "Limited", "note": "Data-breach claims only, with statutory damages." },
+        "ccpa": { "value": "Limited", "note": "Data-breach claims only. Damages run $107 to $799 per consumer per incident, or actual damages if higher." },
         "lgpd": { "value": "Yes", "note": "Individual and collective actions available." },
         "pipl": { "value": "Yes", "note": "With a reversed burden of proof on handlers." },
         "ukgdpr": { "value": "Yes", "note": "Compensation for damage, mirroring the EU GDPR." },

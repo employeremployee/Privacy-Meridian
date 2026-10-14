@@ -14,7 +14,7 @@
       "label": "Consent",
       "jurisdictions": {
         "gdpr": { "state": "yes" },
-        "ccpa": { "state": "partial", "note": "Opt-out model; consent required only for specific cases such as minors and sensitive data." },
+        "ccpa": { "state": "partial", "note": "An opt-out model. Consent is needed only to sell or share minors' data, to resume after an opt-out, or to join a financial incentive." },
         "lgpd": { "state": "yes" },
         "pipl": { "state": "yes", "note": "The primary basis." },
         "ukgdpr": { "state": "yes" },

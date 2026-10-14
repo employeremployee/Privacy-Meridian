@@ -14,7 +14,7 @@
       "label": "Opt-in required by default",
       "jurisdictions": {
         "gdpr": { "state": "yes", "note": "Affirmative consent where consent is the basis." },
-        "ccpa": { "state": "no", "note": "Opt-out model; processing is allowed until the consumer objects." },
+        "ccpa": { "state": "no", "note": "An opt-out model. Processing must be necessary and proportionate, and you can opt out of sale, sharing and sensitive uses." },
         "lgpd": { "state": "yes", "note": "Consent must be prior and affirmative." },
         "pipl": { "state": "yes", "note": "Consent is the primary basis and must be affirmative." },
         "ukgdpr": { "state": "yes", "note": "Affirmative consent where consent is the basis." },

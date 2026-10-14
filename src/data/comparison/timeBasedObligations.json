@@ -49,7 +49,7 @@
       "label": "Notify the regulator of a breach",
       "jurisdictions": {
         "gdpr": { "value": "72 hours", "note": "From awareness, unless unlikely to be a risk." },
-        "ccpa": { "value": "Without unreasonable delay", "note": "No fixed hour threshold." },
+        "ccpa": { "value": "Within 15 days of notifying residents", "note": "A sample notice to the Attorney General, if over 500 residents are notified. This is California's breach law, not the CCPA." },
         "lgpd": { "value": "3 business days", "note": "ANPD Resolution 15/2024, from awareness; supplement within 20 business days." },
         "pipl": { "value": "Immediately", "note": "No fixed hour threshold; some sectors specify 24 hours." },
         "ukgdpr": { "value": "72 hours", "note": "From awareness, unless unlikely to be a risk." },
@@ -69,7 +69,7 @@
       "label": "Notify affected individuals of a breach",
       "jurisdictions": {
         "gdpr": { "value": "Without undue delay", "note": "Where the breach is high risk to individuals." },
-        "ccpa": { "value": "Most expedient time possible", "note": "For breaches of defined sensitive categories." },
+        "ccpa": { "value": "30 calendar days", "note": "From discovery, under California's breach law. Delay is allowed for police or to scope the breach." },
         "lgpd": { "value": "3 business days", "note": "ANPD Resolution 15/2024 also covers notice to affected data subjects." },
         "pipl": { "value": "Immediately", "note": "May be replaced by public announcement if harm is avoided." },
         "ukgdpr": { "value": "Without undue delay", "note": "Where the breach is high risk to individuals." },

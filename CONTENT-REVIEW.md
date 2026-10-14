@@ -354,3 +354,40 @@ legislation.gov.uk). Edits were then written in the house voice. `grid.json` ite
 - **Not done (waits for D9 UK/PECR content):** PECR fines now reach UK GDPR levels (DUAA
   s.115, Sch 13, from 5 Feb 2026). The exact tier split needs a full read of the substituted
   s.157(2) before it goes on the site.
+
+## Batch 6: Americas (review file 03), 2026-10-14
+
+Method as batch 5: one read-only verifier agent per law, checked against statute and
+regulator texts, then edits, tooltip scan, build, browser check, one commit per law.
+grid.json items are moot (file deleted in batch 3).
+
+### California CCPA/CPRA (items CONFIRMED against Civ. Code and 11 CCR, eff. 1 Jan 2026)
+- **Household data (error):** the right-to-know duties do **not** apply to household data
+  (s.1798.145(p)). Removed the opposite claim; households still count toward 100,000.
+- **Deletion:** eight exceptions, not nine. The right covers data collected *from* the
+  consumer now; SB 923 (Ch. 482, 2026) extends it to data collected *about* them from
+  1 Jan 2027, with a suppression record and a web form for online-only businesses. Added the
+  disproportionate-effort excuse for third-party notice.
+- **Consent (table):** sensitive data needs no consent. Consent applies only to sale/sharing of
+  under-16s, resuming after an opt-out, and financial incentives. AB 1542 was vetoed.
+- **Figures:** revenue threshold $26,625,000; fines $2,663 / $7,988; breach damages $107-$799
+  (CPPA CPI adjustment, 1 Jan 2025). Next adjustment due Jan 2027.
+- **Phase-in:** risk assessments from 2026 (pre-2026 processing by 31 Dec 2027, submissions by
+  1 Apr 2028); ADMT from 1 Jan 2027 (table now names the opt-out and access rights); audit
+  certifications 1 Apr 2028 to 1 Apr 2030.
+- **Scope:** non-profits can be covered as affiliates of a covered business; joint ventures and
+  voluntary certifiers covered; must "do business in California". Agency is now
+  **CalPrivacy** (public name since Nov 2025).
+- **Opt-out:** no sale or sharing until the consumer consents; the 12 months only limits when
+  the business may ask. Signal-processed status required since 2026; AB 566 browser signal
+  from 1 Jan 2027. Links not required if signals are honoured as the rules allow.
+- **Sensitive data:** full statutory list (adds IDs, citizenship, philosophical beliefs, mail
+  contents, neural data, sex life); right starts once you ask; inferring-characteristics carve-out.
+- **Other:** lookback is "impossible or disproportionate effort", not "technically feasible";
+  financial incentives need opt-in consent and value-related pricing; correction is "yes" in the
+  table; GDPR recipient notice is Art 19 (not 16); removed internal "v1" wording.
+- **Breach cells:** California's breach law (Civ. Code s.1798.82, SB 446): 30 calendar days to
+  residents; AG sample notice within 15 days if over 500 residents.
+- **Deferred to D9:** Delete Act / DROP (AB 883 shortens 45 days to 30, Ch. 507, 2026).
+- Secondary-only: SB 446 signing date; 1 Jan 2027 operative dates (statutory default).
+- Tooltip scan: identical popups before and after.

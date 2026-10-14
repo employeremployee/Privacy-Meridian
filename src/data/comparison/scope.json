@@ -9,7 +9,7 @@
       "label": "Who the law covers",
       "jurisdictions": {
         "gdpr": { "value": "Controllers and processors", "note": "Any organization determining or carrying out processing." },
-        "ccpa": { "value": "For-profit businesses", "note": "Only for-profit entities that meet a threshold." },
+        "ccpa": { "value": "For-profit businesses", "note": "Businesses that meet a threshold, plus some affiliates and joint ventures, which can include non-profits." },
         "lgpd": { "value": "Any public or private entity", "note": "Broad application across sectors." },
         "pipl": { "value": "Personal information handlers", "note": "Any organization or individual determining processing." },
         "ukgdpr": { "value": "Controllers and processors", "note": "The same controller and processor model as the EU GDPR." },
@@ -49,7 +49,7 @@
       "label": "Size or volume threshold",
       "jurisdictions": {
         "gdpr": { "value": "None", "note": "Applies to any size, though duties scale with risk." },
-        "ccpa": { "value": "$25M revenue, 100k consumers, or 50% data revenue", "note": "Meet one or more to be covered." },
+        "ccpa": { "value": "About $26.6M revenue, 100k consumers, or 50% data revenue", "note": "Meet one or more to be covered. The revenue figure rises with inflation every two years." },
         "lgpd": { "value": "None", "note": "Applies regardless of size." },
         "pipl": { "value": "None to apply", "note": "But high volume triggers extra localization and assessment duties." },
         "ukgdpr": { "value": "None", "note": "Applies to any size; duties scale with risk." },
@@ -69,7 +69,7 @@
       "label": "Public sector covered",
       "jurisdictions": {
         "gdpr": { "value": "Yes", "note": "Applies to public authorities." },
-        "ccpa": { "value": "No", "note": "For-profit businesses only; excludes government and non-profits." },
+        "ccpa": { "value": "No", "note": "Government is excluded. Most non-profits are too, unless tied to a covered business." },
         "lgpd": { "value": "Yes", "note": "Public and private sectors." },
         "pipl": { "value": "Yes", "note": "State organs covered, with some exceptions." },
         "ukgdpr": { "value": "Yes", "note": "Applies to public authorities." },
@@ -89,7 +89,7 @@
       "label": "Extraterritorial reach",
       "jurisdictions": {
         "gdpr": { "value": "Yes" },
-        "ccpa": { "value": "Yes", "note": "Any qualifying business handling California residents' data." },
+        "ccpa": { "value": "Yes", "note": "Any qualifying business that does business in California and handles residents' data." },
         "lgpd": { "value": "Yes" },
         "pipl": { "value": "Yes", "note": "With a required domestic representative." },
         "ukgdpr": { "value": "Yes", "note": "Mirrors the EU GDPR." },

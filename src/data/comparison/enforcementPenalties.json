@@ -14,7 +14,7 @@
         "pipl": { "value": "¥50M or 5% of annual revenue", "note": "For serious violations, plus possible suspension." },
         "ukgdpr": { "value": "£17.5M or 4% of global turnover", "note": "Whichever is higher, for the most serious infringements." },
         "fadp": { "value": "Up to CHF 250,000", "note": "A criminal fine on responsible individuals for intentional breaches. A business can be fined up to CHF 50,000 in some cases." },
-        "pdpa-ar": { "value": "Graduated administrative fines", "note": "Set by the AAIP, with database suspension for serious cases." },
+        "pdpa-ar": { "value": "Up to ARS 100,000 per fine", "note": "Stacked fines are capped at ARS 50 million. Serious cases can also suspend or close a database." },
         "lpdp-uy": { "value": "Fines in indexed units", "note": "Graduated fines measured in indexed units, set by the URCDP." },
         "pipa-kr": { "value": "Up to 3% of total revenue", "note": "For serious violations, under the 2023 amendment; criminal penalties also apply." },
         "appi": { "value": "Up to ¥100M", "note": "For corporations that defy a PPC order; individuals face lower fines and imprisonment." },

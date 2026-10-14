@@ -421,3 +421,24 @@ grid.json items are moot (file deleted in batch 3).
 - Not changed: portability cell (no ANPD rule found, but absence not provable); planalto links
   still point at the original text rather than the compiled one (editorial, optional).
 - Tooltip scan: identical popups before and after.
+
+### Argentina Law 25.326 (items CONFIRMED against infoleg, Decree 1558/2001 and AAIP resolutions)
+- **Year (error):** three table notes said "the 1998 law". It is from 2000.
+- **Transfers:** Art 12 exceptions now listed correctly (medical data for treatment or
+  epidemiological research, not "medical emergencies"; intelligence cooperation added).
+  Consent comes from Decree 1558/2001 (express consent), not the law; decree link added.
+  Binding corporate rules: AAIP Res. 159/2018 guidelines; table now "yes".
+- **Scope:** EU adequacy kept in the Commission's Jan 2024 review; 108+ ratified Apr 2023.
+  Reform bill 3397-D-2026 is early-stage; "not yet enacted" stays accurate.
+- **Tables:** automated decisions "partial" (Art 20 bars court and government decisions resting
+  solely on profiling; AAIP Res. 4/2019 adds an explanation right); genetic data sensitive under
+  Res. 255/2022 when identifying plus health or discrimination risk; sensitive data "partial"
+  (no statutory consent route); withdrawal "partial"; children follow maturity, not "best
+  interest" (Res. 4/2019); fines ARS 100,000 per fine, ARS 50M stacked cap (Art 31, Res. 126/2024).
+- **Breach:** guidance recommends reporting to the AAIP (Res. 47/2018); notifying individuals
+  appears only as an inspection item (Res. 332/2020). Removed "prompt notice to affected people".
+- **Consent page:** exceptions include scientific relationships and legal obligations.
+- **Open (not changed):** `individualRights` non-discrimination "General good-faith principle":
+  the verifier found no source for or against. Needs Jared's call.
+- Secondary-only: Convention 108 accession year (not stated on the page).
+- Tooltip scan: identical popups before and after.

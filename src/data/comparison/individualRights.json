@@ -139,7 +139,7 @@
         "pipl": { "state": "yes" },
         "ukgdpr": { "state": "partial", "note": "Banned only with special category data or recognised legitimate interests. Otherwise allowed with safeguards, including human review." },
         "fadp": { "state": "yes", "note": "Information and human review of automated decisions." },
-        "pdpa-ar": { "state": "no", "note": "No specific automated-decision right." },
+        "pdpa-ar": { "state": "partial", "note": "Court and government decisions cannot rest solely on automated profiling. AAIP guidance adds a right to an explanation." },
         "lpdp-uy": { "state": "no", "note": "No specific automated-decision right." },
         "pipa-kr": { "state": "yes", "note": "Right to refuse or seek explanation of automated decisions, 2023 amendment." },
         "appi": { "state": "no", "note": "No specific automated-decision right." },

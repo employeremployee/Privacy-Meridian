@@ -59,7 +59,7 @@
         "pipl": { "state": "no", "note": "Not a recognized mechanism." },
         "ukgdpr": { "state": "yes", "note": "Binding corporate rules, ICO-approved." },
         "fadp": { "state": "yes", "note": "Binding corporate rules approved by the FDPIC or an adequate country's authority." },
-        "pdpa-ar": { "state": "partial", "note": "Intra-group codes recognized in practice, guidance developing." },
+        "pdpa-ar": { "state": "yes", "note": "AAIP guidelines for intra-group rules. Rules that depart from them need AAIP approval." },
         "lpdp-uy": { "state": "partial", "note": "Intra-group safeguards accepted, with limited guidance." },
         "pipa-kr": { "state": "no", "note": "Not a distinct recognized mechanism." },
         "appi": { "state": "partial", "note": "Intra-group rules can support equivalent protection." },

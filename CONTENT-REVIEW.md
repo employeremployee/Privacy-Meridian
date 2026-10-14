@@ -219,3 +219,7 @@ error, so it could not be verified. Link left unchanged.
 
 **Not changed:** the 25 glossary "IAPP Privacy Glossary" links (minor, L15), and the optional
 regulator deep links in L17.
+
+**India link resolved (L16):** India Code moved to `indiacode.gov.in` (found by Jared). All 5
+DPDP links now open the Act's page there (`/act/c058fa9f-…`), which lists all 44 sections,
+the 2025 Rules and gazette notifications. Opened and confirmed in a real browser.

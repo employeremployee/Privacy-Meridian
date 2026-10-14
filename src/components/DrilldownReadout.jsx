@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import ContentBlock from './ContentBlock.jsx'
 import JurisdictionBadge from './JurisdictionBadge.jsx'
@@ -17,8 +17,26 @@ function DrilldownReadout({ jurisdictionData, glossaryData }) {
 
   const [activeTopic, setActiveTopic] = useState(topics[0]?.id ?? null)
   const [showOrganizations, setShowOrganizations] = useState(false)
+  // Article a Related Articles link asked to show. Scrolled to after the topic renders.
+  const [pendingArticleId, setPendingArticleId] = useState(null)
 
   const articles = activeTopic ? getCategoryArticles(jurisdictionData, activeTopic) : []
+
+  function goToArticle(articleId, categoryId) {
+    setActiveTopic(categoryId)
+    setPendingArticleId(articleId)
+  }
+
+  useEffect(() => {
+    if (!pendingArticleId) return
+    const el = document.getElementById(pendingArticleId)
+    if (!el) return
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    el.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' })
+    // Move keyboard and screen-reader focus to the article without a second scroll jump.
+    el.focus({ preventScroll: true })
+    setPendingArticleId(null)
+  }, [pendingArticleId, activeTopic])
 
   return (
     <section aria-label={jurisdiction.fullName}>
@@ -66,10 +84,10 @@ function DrilldownReadout({ jurisdictionData, glossaryData }) {
           <ContentBlock
             key={article.id}
             article={article}
-            jurisdictionId={jurisdiction.id}
             jurisdictionData={jurisdictionData}
             glossaryData={glossaryData}
             showOrganizations={showOrganizations}
+            onNavigateToArticle={goToArticle}
           />
         ))}
       </div>

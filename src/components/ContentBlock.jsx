@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import { useMode } from '../context/ModeContext.jsx'
 import SurfaceLabel from './SurfaceLabel.jsx'
 import ProfessionalLayer from './ProfessionalLayer.jsx'
 import CrossReference from './CrossReference.jsx'
@@ -8,18 +7,17 @@ import SourceLinks from './SourceLinks.jsx'
 import AssessTrigger from './AssessTrigger.jsx'
 import GapRemediation from './GapRemediation.jsx'
 
-// `showOrganizations` (v2): explicit control of the org layer per jurisdiction. When undefined,
-// falls back to the legacy global mode context so the old routes keep working.
-function ContentBlock({ article, jurisdictionId, jurisdictionData, glossaryData, showOrganizations }) {
+// `showOrganizations` shows the "Help for Organizations" layer.
+// `onNavigateToArticle(articleId, categoryId)` lets Related Articles move the
+// reader within the current law instead of leaving the page.
+function ContentBlock({ article, jurisdictionData, glossaryData, showOrganizations, onNavigateToArticle }) {
   const { t } = useTranslation()
-  const modeCtx = useMode()
-  const resolvedShowOrg =
-    showOrganizations !== undefined ? showOrganizations : modeCtx?.mode === 'assess'
 
   return (
     <article
       id={article.id}
-      className="rounded-lg border-l-4 border-meridian-blue bg-surface p-6"
+      tabIndex={-1}
+      className="scroll-mt-4 rounded-lg border-l-4 border-meridian-blue bg-surface p-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue"
     >
       <SurfaceLabel
         articleRef={article.articleRef}
@@ -41,12 +39,12 @@ function ContentBlock({ article, jurisdictionId, jurisdictionData, glossaryData,
       />
       <CrossReference
         references={article.crossReferences}
-        jurisdictionId={jurisdictionId}
         jurisdictionData={jurisdictionData}
+        onNavigate={onNavigateToArticle}
       />
       {article.responseTimeline && <Timeline timeline={article.responseTimeline} />}
       <SourceLinks links={article.sourceLinks} />
-      {resolvedShowOrg && (
+      {showOrganizations && (
         <>
           <AssessTrigger trigger={article.assessTrigger} />
           <GapRemediation gapRemediation={article.gapRemediation} />

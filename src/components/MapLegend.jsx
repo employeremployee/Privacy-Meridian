@@ -24,6 +24,7 @@ function MapLegend() {
           </li>
         ))}
       </ul>
+      <p className="mt-2 text-xs text-ink">{t('legend.usNote')}</p>
     </div>
   )
 }

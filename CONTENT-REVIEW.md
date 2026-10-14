@@ -223,3 +223,21 @@ regulator deep links in L17.
 **India link resolved (L16):** India Code moved to `indiacode.gov.in` (found by Jared). All 5
 DPDP links now open the Act's page there (`/act/c058fa9f-…`), which lists all 44 sections,
 the 2025 Rules and gazette notifications. Opened and confirmed in a real browser.
+
+## 2026-10-08 site review: Batch 3, decisions D1, D6, D7, D8 (Oct 2026)
+
+- **D1 (US):** picker option is now "United States (California only)"; typing "California"
+  finds it. A note under the map key reads "United States: no federal privacy law. The map
+  shows California's law."
+- **D6 (old routes):** `/map`, `/topic/...` and `/regulation/...` redirect to the home map.
+  Their code (15 components and pages) and the legacy `grid.json` were deleted. This makes
+  every `grid.json` item in files 01 to 05 moot (e.g. T4 badges, CCPA and LGPD grid cells).
+- **D7 (Related Articles):** the 9 links in GDPR and PIPL articles stay on the map page. A
+  click scrolls to the related article and moves keyboard focus to it (respects reduced
+  motion). Fixes bug B1 in file 06.
+- **D8 (table key):** the five Yes/Partial/No tables show "What the answers mean" under the
+  table, using each table's own definitions. Value tables (scope, timelines, enforcement) have
+  no key.
+- Build passes; lint is now fully clean (the old ModeContext warning went with the deleted
+  code). Bundle about 14 KB smaller. Checked in the browser: redirects, picker, related-article
+  scroll and focus, table key, US note, no console errors.

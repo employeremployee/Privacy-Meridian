@@ -1,36 +1,30 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import * as Tooltip from '@radix-ui/react-tooltip'
-import { ModeProvider } from './context/ModeContext.jsx'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import MapHomePage from './pages/MapHomePage.jsx'
 import BarrelmanPage from './pages/BarrelmanPage.jsx'
 import NotFoundPage from './pages/NotFoundPage.jsx'
-import RegulationPage from './pages/RegulationPage.jsx'
-import TopicPage from './pages/TopicPage.jsx'
-import MapPage from './pages/MapPage.jsx'
 
 function App() {
   return (
-    <ModeProvider>
-      <Tooltip.Provider delayDuration={200}>
-        <div className="flex min-h-screen flex-col">
-          <Header />
-          <div className="flex-1">
-            <Routes>
-              <Route path="/" element={<MapHomePage />} />
-              <Route path="/barrelman" element={<BarrelmanPage />} />
-              {/* Legacy routes kept reachable by URL during the v2 transition. */}
-              <Route path="/regulation/:jurisdictionId?/:categoryId?" element={<RegulationPage />} />
-              <Route path="/topic/:categoryId?/:jurisdictionId?" element={<TopicPage />} />
-              <Route path="/map" element={<MapPage />} />
-              <Route path="*" element={<NotFoundPage />} />
-            </Routes>
-          </div>
-          <Footer />
+    <Tooltip.Provider delayDuration={200}>
+      <div className="flex min-h-screen flex-col">
+        <Header />
+        <div className="flex-1">
+          <Routes>
+            <Route path="/" element={<MapHomePage />} />
+            <Route path="/barrelman" element={<BarrelmanPage />} />
+            {/* Retired v1 pages. Old links land on the map, which covers all laws. */}
+            <Route path="/map" element={<Navigate to="/" replace />} />
+            <Route path="/topic/*" element={<Navigate to="/" replace />} />
+            <Route path="/regulation/*" element={<Navigate to="/" replace />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
         </div>
-      </Tooltip.Provider>
-    </ModeProvider>
+        <Footer />
+      </div>
+    </Tooltip.Provider>
   )
 }
 

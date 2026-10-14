@@ -1,8 +1,10 @@
-import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { findArticleLocation } from '../utils/contentLookup.js'
 
-function CrossReference({ references, jurisdictionId, jurisdictionData }) {
+// Related articles within the same law. Each is a button that moves the reader
+// to that article on the current page (switching topic if needed), so the
+// visitor keeps their place on the map page.
+function CrossReference({ references, jurisdictionData, onNavigate }) {
   const { t } = useTranslation()
 
   if (!references || references.length === 0) return null
@@ -15,7 +17,7 @@ function CrossReference({ references, jurisdictionId, jurisdictionData }) {
       <ul className="mt-1 space-y-1">
         {references.map((ref) => {
           const location = findArticleLocation(jurisdictionData, ref.articleId)
-          if (!location) {
+          if (!location || !onNavigate) {
             return (
               <li key={ref.articleId} className="text-sm text-ink">
                 {ref.label}
@@ -24,12 +26,13 @@ function CrossReference({ references, jurisdictionId, jurisdictionData }) {
           }
           return (
             <li key={ref.articleId}>
-              <Link
-                to={`/regulation/${jurisdictionId}/${location.categoryId}#${ref.articleId}`}
-                className="text-sm text-meridian-blue underline hover:no-underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue"
+              <button
+                type="button"
+                onClick={() => onNavigate(ref.articleId, location.categoryId)}
+                className="text-left text-sm text-meridian-blue underline hover:no-underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue"
               >
                 {ref.label}
-              </Link>
+              </button>
             </li>
           )
         })}

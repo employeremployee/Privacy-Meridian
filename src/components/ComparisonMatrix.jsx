@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import ComparisonCell from './ComparisonCell.jsx'
+import { STATE } from './comparisonStates.js'
 import JurisdictionBadge from './JurisdictionBadge.jsx'
 
 function ComparisonMatrix({ data, selectedIds, jurisdictionsData }) {
@@ -57,6 +58,31 @@ function ComparisonMatrix({ data, selectedIds, jurisdictionsData }) {
           </tbody>
         </table>
       </div>
+
+      {/* Key for Yes / Partial / No tables. "Partial" means something different
+          in each table, so the meanings come from that table's own data. */}
+      {data.states && (
+        <div className="mt-3">
+          <h3 className="text-xs font-medium uppercase tracking-wide text-ink">
+            {t('comparison.keyHeading')}
+          </h3>
+          <dl className="mt-1 flex flex-col gap-1 text-xs text-ink">
+            {['yes', 'partial', 'no'].map((state) =>
+              data.states[state] ? (
+                <div key={state} className="flex items-start gap-1.5">
+                  <dt className="flex shrink-0 items-center gap-1 font-medium">
+                    <span aria-hidden="true" style={{ color: STATE[state].color }}>
+                      {STATE[state].icon}
+                    </span>
+                    {t(STATE[state].labelKey)}:
+                  </dt>
+                  <dd>{data.states[state]}</dd>
+                </div>
+              ) : null,
+            )}
+          </dl>
+        </div>
+      )}
     </div>
   )
 }

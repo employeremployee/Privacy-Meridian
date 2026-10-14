@@ -11,7 +11,7 @@
 // picker tells the user which regime a country falls under.
 const GROUP_LABELS = {
   gdpr: 'European Union (GDPR)',
-  ccpa: 'United States (CCPA and CPRA)',
+  ccpa: 'United States: California only (CCPA and CPRA)',
   lgpd: 'Brazil (LGPD)',
   pipl: 'China (PIPL)',
   ukgdpr: 'United Kingdom (UK GDPR)',
@@ -75,7 +75,9 @@ const STANDALONE = [
   { name: 'South Korea', jurisdictionId: 'pipa-kr' },
   { name: 'Switzerland', jurisdictionId: 'fadp' },
   { name: 'United Kingdom', jurisdictionId: 'ukgdpr' },
-  { name: 'United States', jurisdictionId: 'ccpa' },
+  // No US federal law. The map colors the whole US but shows California's law,
+  // so the name says so. Typing "California" also finds it.
+  { name: 'United States (California only)', jurisdictionId: 'ccpa' },
   { name: 'Uruguay', jurisdictionId: 'lpdp-uy' },
 ]
 

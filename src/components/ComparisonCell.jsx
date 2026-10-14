@@ -1,11 +1,5 @@
 import { useTranslation } from 'react-i18next'
-
-// Three-state indicator. Icon + text label (never color alone) + note.
-const STATE = {
-  yes: { icon: '✓', color: '#1B7A4B', labelKey: 'comparison.yes' },
-  partial: { icon: '◑', color: '#B45309', labelKey: 'comparison.partial' },
-  no: { icon: '–', color: '#1A1A2E', labelKey: 'comparison.no' },
-}
+import { STATE } from './comparisonStates.js'
 
 function ComparisonCell({ cell }) {
   const { t } = useTranslation()

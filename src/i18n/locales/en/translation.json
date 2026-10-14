@@ -65,7 +65,8 @@
     "heading": "Map key",
     "enacted": "Comprehensive law in effect",
     "selected": "Selected country",
-    "none": "No comprehensive law"
+    "none": "No comprehensive law",
+    "usNote": "United States: no federal privacy law. The map shows California's law."
   },
   "topicPicker": {
     "label": "Topic"
@@ -81,7 +82,8 @@
     "yes": "Yes",
     "partial": "Partial",
     "no": "No",
-    "pickCountries": "Pick countries on the map to compare."
+    "pickCountries": "Pick countries on the map to compare.",
+    "keyHeading": "What the answers mean"
   },
   "organizations": {
     "toggle": "Help for Organizations",

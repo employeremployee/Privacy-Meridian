@@ -38,7 +38,7 @@
         "lpdp-uy": { "value": "No formal extension", "note": "The 5-day window is the operative rule." },
         "pipa-kr": { "value": "Extension available", "note": "May be extended once with notice to the individual." },
         "appi": { "value": "No fixed maximum", "note": "Response expected without undue delay." },
-        "nzpa": { "value": "Extension permitted", "note": "May extend where the request needs consultation or is large." },
+        "nzpa": { "value": "Extension permitted", "note": "May extend where the request is large, needs consultation, or is complex." },
         "popia": { "value": "No fixed maximum", "note": "Reasonableness governs." },
         "kdpa": { "value": "Extension with notice", "note": "Additional time where the request is complex." },
         "dpdp": { "value": "As prescribed", "note": "To be set by rules." }

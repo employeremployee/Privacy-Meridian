@@ -83,7 +83,7 @@
         "lpdp-uy": { "state": "no", "note": "Not listed as a sensitive category." },
         "pipa-kr": { "state": "yes", "note": "Genetic data from testing, enforcement decree." },
         "appi": { "state": "yes", "note": "Genetic test results included by rule." },
-        "nzpa": { "state": "no", "note": "No special-category regime." },
+        "nzpa": { "state": "partial", "note": "Genetic test results held for health purposes fall under the Health Information Privacy Code." },
         "popia": { "state": "partial", "note": "Not itemized; treated within health information." },
         "kdpa": { "state": "yes", "note": "Genetic data listed as sensitive." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
@@ -203,7 +203,7 @@
         "lpdp-uy": { "state": "partial", "note": "Best-interest guidance, not a statutory sensitive category." },
         "pipa-kr": { "state": "partial", "note": "Guardian consent required for children under 14." },
         "appi": { "state": "partial", "note": "Guidelines expect guardian consent for children under 15, not a special category." },
-        "nzpa": { "state": "no", "note": "No child-specific special category." },
+        "nzpa": { "state": "partial", "note": "Not a special category, but collection from children needs particular care to be fair and not intrusive." },
         "popia": { "state": "yes", "note": "Children's personal information is specially protected." },
         "kdpa": { "state": "yes", "note": "Children's data given special protection." },
         "dpdp": { "state": "yes", "note": "Children's data receives heightened protection." }

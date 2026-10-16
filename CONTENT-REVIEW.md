@@ -476,3 +476,28 @@ grid.json items are moot (file deleted in batch 3).
 - Brazil: ANPD status is Law 15.352 (25 Feb 2026); SCCs took effect Aug 2024; the "first
   significant fines" claim was unsupported in 2025 but a R$153.7M fine followed in Aug 2026.
 - Argentina and Uruguay: the earlier "reviewed, no change" entries were wrong (see above).
+
+## Batch 7: Asia-Pacific and Africa (review files 04 and 05), 2026-10-15
+
+Same method as batches 5 and 6: one read-only verifier agent per law, then edits, tooltip
+scan, build, browser check, one commit per law. grid.json items are moot.
+
+### New Zealand Privacy Act 2020 (items CONFIRMED via OPC reproductions of the Act)
+- **Access (error):** IPP 6 is a court-enforceable legal right only against public sector
+  agencies (s 31). With private agencies the routes are a complaint, an access direction and
+  the Human Rights Review Tribunal. Added the s 48 extension grounds (large, consultation, complex).
+- **Fourteen principles, not thirteen:** IPP 3A (indirect-collection notice) has applied since
+  1 May 2026, not to information collected before then. The collection page now covers it.
+- **Transfers:** "expressly" applies to being told, not to authorising; added the
+  "carries on business in NZ and subject to the Act" route. Table: prescribed-country list
+  mechanism exists; binding schemes "partial"; individual authorisation "yes" (consistent with
+  other laws that list consent as a route).
+- **Tables:** children's data "partial" (IPP 4 care for children); genetic "partial" (Health
+  Information Privacy Code covers test results, secondary copy only); extension grounds.
+- **Other:** "Māori" spelling; Biometric Processing Privacy Code dates (new processing from
+  3 Nov 2025, existing from 3 Aug 2026); removed "distinctive New Zealand feature" (Australia
+  has the same statement-of-correction rule); old legislation.govt.nz header URL replaced.
+- **Popup removed on purpose (D5):** the GDPR-style consent-withdrawal popup no longer
+  attaches to the NZ collection page.
+- Not changed: NZ$10,000 offence cap is still correct (no penalty reform enacted).
+  Open consistency nit: `easy-withdrawal` is "partial" while its note says "no mechanism".

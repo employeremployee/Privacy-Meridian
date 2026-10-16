@@ -23,7 +23,7 @@
         "lpdp-uy": { "state": "yes", "note": "Transfers allowed to countries with adequate protection." },
         "pipa-kr": { "state": "partial", "note": "Adequacy-style recognition being developed under the 2023 amendment." },
         "appi": { "state": "yes", "note": "Transfers allowed to countries designated as equivalent by the PPC." },
-        "nzpa": { "state": "partial", "note": "Transfer allowed where comparable safeguards exist, with no formal adequacy list." },
+        "nzpa": { "state": "partial", "note": "Transfer allowed where comparable safeguards exist. The Act also allows a list of prescribed countries." },
         "popia": { "state": "partial", "note": "Transfer allowed where the recipient has adequate protection." },
         "kdpa": { "state": "yes", "note": "Transfers to countries with adequate safeguards." },
         "dpdp": { "state": "partial", "note": "Transfers allowed except to countries the government restricts." }
@@ -83,7 +83,7 @@
         "lpdp-uy": { "state": "yes", "note": "Consent permits transfer." },
         "pipa-kr": { "state": "yes", "note": "Separate consent required to transfer data abroad." },
         "appi": { "state": "yes", "note": "Consent is the primary route for third-party transfer abroad." },
-        "nzpa": { "state": "partial", "note": "Individual authorization is one route." },
+        "nzpa": { "state": "yes", "note": "Allowed if you authorize it after being expressly told protections may be weaker." },
         "popia": { "state": "yes", "note": "Data-subject consent permits transfer." },
         "kdpa": { "state": "yes", "note": "Consent permits transfer." },
         "dpdp": { "state": "partial", "note": "Consent underpins processing, but transfer turns on the country list." }
@@ -103,7 +103,7 @@
         "lpdp-uy": { "state": "no", "note": "Not part of the transfer regime." },
         "pipa-kr": { "state": "partial", "note": "Certification such as ISMS-P supports but does not authorize transfer." },
         "appi": { "state": "no", "note": "Not a distinct transfer mechanism." },
-        "nzpa": { "state": "no", "note": "Not part of the transfer principle." },
+        "nzpa": { "state": "partial", "note": "Joining a prescribed binding scheme is one route." },
         "popia": { "state": "no", "note": "Not part of the transfer rule." },
         "kdpa": { "state": "no", "note": "Not a distinct transfer mechanism." },
         "dpdp": { "state": "no", "note": "Not part of the transfer model." }

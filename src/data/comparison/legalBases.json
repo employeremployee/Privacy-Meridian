@@ -46,7 +46,7 @@
         "nzpa": { "state": "partial", "note": "No legal-basis framework; the principles govern collection and use." },
         "popia": { "state": "yes", "note": "Necessary to perform a contract." },
         "kdpa": { "state": "yes", "note": "Performance of a contract." },
-        "dpdp": { "state": "partial", "note": "Covered within enumerated legitimate uses rather than a distinct basis." }
+        "dpdp": { "state": "partial", "note": "No contract basis. Data you volunteer for a stated purpose comes closest." }
       }
     },
     {
@@ -66,7 +66,7 @@
         "nzpa": { "state": "yes", "note": "Collection and use required or authorized by law are permitted." },
         "popia": { "state": "yes", "note": "Compliance with a legal obligation." },
         "kdpa": { "state": "yes", "note": "Compliance with a legal obligation." },
-        "dpdp": { "state": "yes", "note": "Legal-obligation processing is a legitimate use." }
+        "dpdp": { "state": "partial", "note": "Only disclosures the law requires and compliance with court orders." }
       }
     },
     {
@@ -166,7 +166,7 @@
         "nzpa": { "state": "partial", "note": "Publicly available information is exempt from several principles." },
         "popia": { "state": "partial", "note": "Data deliberately made public by the person lifts several conditions." },
         "kdpa": { "state": "partial", "note": "Public-source data still subject to fair-processing duties." },
-        "dpdp": { "state": "yes", "note": "Data the person has made publicly available is exempt." }
+        "dpdp": { "state": "yes", "note": "Data the person made public, or must publish by law, falls outside the Act." }
       }
     }
   ]

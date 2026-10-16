@@ -146,7 +146,7 @@
         "nzpa": { "state": "no", "note": "No localization requirement." },
         "popia": { "state": "no", "note": "No general localization requirement." },
         "kdpa": { "state": "partial", "note": "Strategic or sensitive categories may require local storage." },
-        "dpdp": { "state": "partial", "note": "The government may restrict transfers to specified countries." }
+        "dpdp": { "state": "partial", "note": "The government may require significant data fiduciaries to keep specified data in India. Sector rules can also apply." }
       }
     }
   ]

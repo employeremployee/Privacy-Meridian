@@ -21,7 +21,7 @@
         "nzpa": { "value": "Up to NZ$10,000", "note": "A fine for specific offences; no GDPR-scale administrative fines." },
         "popia": { "value": "Up to R10M or imprisonment", "note": "For serious offences, up to ten years' imprisonment as an alternative." },
         "kdpa": { "value": "Up to KES 5M or 1% of turnover", "note": "Whichever is lower, for the most serious cases." },
-        "dpdp": { "value": "Up to ₹250 crore", "note": "Per instance, imposed by the Data Protection Board." }
+        "dpdp": { "value": "Up to ₹250 crore", "note": "Imposed by the Data Protection Board, from 13 May 2027." }
       }
     },
     {
@@ -41,7 +41,7 @@
         "nzpa": { "value": "The Privacy Commissioner", "note": "Issues compliance notices and enforceable decisions." },
         "popia": { "value": "The Information Regulator", "note": "Oversees POPIA and access-to-information law." },
         "kdpa": { "value": "The ODPC", "note": "The Office of the Data Protection Commissioner." },
-        "dpdp": { "value": "The Data Protection Board", "note": "The Data Protection Board of India." }
+        "dpdp": { "value": "The Data Protection Board", "note": "Set up in 2025, with members still to be appointed as of August 2026. Its powers start 13 May 2027." }
       }
     },
     {
@@ -61,7 +61,7 @@
         "nzpa": { "value": "Via tribunal", "note": "Complaints escalate to the Human Rights Review Tribunal for damages." },
         "popia": { "value": "Yes", "note": "Civil action for damages, without needing to prove fault." },
         "kdpa": { "value": "Yes", "note": "Compensation claims for damage." },
-        "dpdp": { "value": "No", "note": "No private right of action; the Board handles complaints and penalties." }
+        "dpdp": { "value": "No", "note": "No private right of action. The Board will handle complaints from 13 May 2027." }
       }
     },
     {

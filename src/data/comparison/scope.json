@@ -61,7 +61,7 @@
         "nzpa": { "value": "None", "note": "Applies to agencies of any size." },
         "popia": { "value": "None", "note": "Applies regardless of size." },
         "kdpa": { "value": "None to apply", "note": "But registration duties can depend on turnover and volume." },
-        "dpdp": { "value": "None", "note": "Applies regardless of size, with lighter duties for smaller fiduciaries." }
+        "dpdp": { "value": "None", "note": "Applies regardless of size. The government can exempt notified fiduciaries, such as startups, from some duties." }
       }
     },
     {

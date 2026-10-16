@@ -21,7 +21,7 @@
         "nzpa": { "value": "20 working days", "note": "Access requests answered within 20 working days." },
         "popia": { "value": "Reasonable time", "note": "No fixed statutory deadline." },
         "kdpa": { "value": "7 days", "note": "The General Regulations 2021 timeline for responding to a request." },
-        "dpdp": { "value": "As prescribed", "note": "Response window to be set by rules; not yet fixed in the Act." }
+        "dpdp": { "value": "Up to 90 days", "note": "A reasonable period of no more than 90 days, from 13 May 2027." }
       }
     },
     {
@@ -41,7 +41,7 @@
         "nzpa": { "value": "Extension permitted", "note": "May extend where the request is large, needs consultation, or is complex." },
         "popia": { "value": "No fixed maximum", "note": "Reasonableness governs." },
         "kdpa": { "value": "Extension with notice", "note": "Additional time where the request is complex." },
-        "dpdp": { "value": "As prescribed", "note": "To be set by rules." }
+        "dpdp": { "value": "No extension", "note": "The 90-day cap has no extension mechanism." }
       }
     },
     {
@@ -61,7 +61,7 @@
         "nzpa": { "value": "As soon as practicable", "note": "Notify the Commissioner of a notifiable breach." },
         "popia": { "value": "As soon as reasonably possible", "note": "Notify the Information Regulator after discovery." },
         "kdpa": { "value": "72 hours", "note": "Notify the ODPC within 72 hours of becoming aware." },
-        "dpdp": { "value": "Without delay", "note": "Notify the Data Protection Board of India of a breach." }
+        "dpdp": { "value": "Without delay", "note": "Then a detailed report to the Board within 72 hours. Applies from 13 May 2027." }
       }
     },
     {
@@ -81,7 +81,7 @@
         "nzpa": { "value": "As soon as practicable", "note": "Notify affected individuals where the breach is notifiable." },
         "popia": { "value": "As soon as reasonably possible", "note": "Notify affected data subjects after discovery." },
         "kdpa": { "value": "Without undue delay", "note": "Notify affected individuals where there is a real risk of harm." },
-        "dpdp": { "value": "Without delay", "note": "Notify each affected individual of a breach." }
+        "dpdp": { "value": "Without delay", "note": "Notify each affected individual of any breach. Applies from 13 May 2027." }
       }
     }
   ]

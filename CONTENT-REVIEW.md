@@ -501,3 +501,26 @@ scan, build, browser check, one commit per law. grid.json items are moot.
   attaches to the NZ collection page.
 - Not changed: NZ$10,000 offence cap is still correct (no penalty reform enacted).
   Open consistency nit: `easy-withdrawal` is "partial" while its note says "no mechanism".
+
+### India DPDP Act 2023 (items CONFIRMED against the Act and the gazetted DPDP Rules 2025)
+- **Commencement (the main fix):** most duties are not in force yet. Rule 1 sets three phases:
+  Board set-up on notification (13 Nov 2025); consent manager registration from 13 Nov 2026;
+  everything else (notice, consent, rights, breach, children, transfers, Board powers,
+  penalties) from **13 May 2027**. The overview now gives exact dates, and every affected page
+  and table cell says "from 13 May 2027". The Board had no members as of 12 Aug 2026 (Lok
+  Sabha answer). Until 2027, IT Act s.43A rules and CERT-In 6-hour reporting still apply.
+- **Deadlines:** rights requests within a reasonable period of no more than 90 days (Rule
+  14(3)), with no extension. Breach: Board without delay, detailed report within 72 hours.
+- **Penalties:** added ₹200 crore for failing to notify a breach; removed "per instance".
+- **Children:** exemptions for classes (healthcare, schools) and purposes (safety); guardian
+  consent also covers people with disabilities.
+- **Tables:** legal obligation "partial" (only State disclosures and court orders); contract
+  note fixed; public data is outside the Act's scope; sensitive-consent "no"; localization note
+  now describes Rule 13(4); size threshold describes the s.17(3) exemption power, not "lighter
+  duties"; Board and private-action notes carry the 2027 start.
+- **Other:** "first dedicated rules" now "first comprehensive rules" (2011 rules came first);
+  transfers add Rule 15 (government orders on foreign-state access).
+- Secondary-only: section-level commencement notice (G.S.R. 843(E)); no Board appointment
+  after Aug 2026. Not added: a reported Oct 2026 Removal of Difficulties Order (not checked
+  against the Gazette).
+- Tooltip scan: identical popups before and after.

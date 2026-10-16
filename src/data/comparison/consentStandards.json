@@ -66,7 +66,7 @@
         "nzpa": { "state": "no", "note": "No special-category consent rule; the same principles apply." },
         "popia": { "state": "yes", "note": "Special personal information requires consent or a listed exception." },
         "kdpa": { "state": "yes", "note": "Sensitive data requires consent or a specific condition." },
-        "dpdp": { "state": "partial", "note": "No sensitive category, but children's data needs verifiable parental consent." }
+        "dpdp": { "state": "no", "note": "No sensitive-data category." }
       }
     },
     {

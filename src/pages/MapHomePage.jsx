@@ -128,15 +128,14 @@ function MapHomePage() {
     <main className="mx-auto max-w-[1200px] px-4 py-6">
       {/* View toggle plus the link out to the Barrelman news page */}
       <div className="mb-4 flex flex-wrap items-center gap-3">
-        <div role="tablist" aria-label={t('home.viewLabel')} className="inline-flex rounded-lg border border-rule p-1">
+        <div role="group" aria-label={t('home.viewLabel')} className="inline-flex rounded-lg border border-rule p-1">
           {VIEWS.map((v) => {
             const isActive = v === view
             return (
               <button
                 key={v}
                 type="button"
-                role="tab"
-                aria-selected={isActive}
+                aria-pressed={isActive}
                 onClick={() => setView(v)}
                 className={[
                   'rounded-md px-4 py-1.5 text-sm font-medium transition-colors',

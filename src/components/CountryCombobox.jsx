@@ -132,7 +132,7 @@ function CountryCombobox({ options, mode = 'single', selectedIds = [], checkedNa
         type="text"
         role="combobox"
         aria-expanded={open}
-        aria-controls={listboxId}
+        aria-controls={open ? listboxId : undefined}
         aria-autocomplete="list"
         aria-activedescendant={open && activeIndex >= 0 ? `${listboxId}-opt-${activeIndex}` : undefined}
         autoComplete="off"
@@ -146,7 +146,7 @@ function CountryCombobox({ options, mode = 'single', selectedIds = [], checkedNa
         onFocus={() => setOpen(true)}
         onClick={() => setOpen(true)}
         onKeyDown={handleKeyDown}
-        className="w-full rounded-md border border-rule bg-paper px-3 py-2 text-sm text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue"
+        className="w-full rounded-md border border-rule bg-paper px-3 py-2 text-sm text-ink placeholder:text-ink/75 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue"
       />
       {open && (
         <ul

@@ -96,7 +96,7 @@
         "gdpr": { "state": "yes" },
         "ccpa": { "state": "no", "note": "Not framed as a processing basis." },
         "lgpd": { "state": "yes", "note": "Execution of public policies." },
-        "pipl": { "state": "yes", "note": "News reporting and public interest." },
+        "pipl": { "state": "yes", "note": "News reporting and public-opinion oversight in the public interest, within reasonable scope." },
         "ukgdpr": { "state": "yes" },
         "fadp": { "state": "yes", "note": "An overriding public interest can justify private processing. Federal bodies need a legal basis." },
         "pdpa-ar": { "state": "partial", "note": "State databases process for defined public functions." },

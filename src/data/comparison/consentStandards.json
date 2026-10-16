@@ -36,7 +36,7 @@
         "gdpr": { "state": "yes", "note": "Consent must cover each purpose, with separate choices where appropriate." },
         "ccpa": { "state": "no", "note": "Not a consent-per-purpose regime." },
         "lgpd": { "state": "partial", "note": "Consent tied to specified purposes." },
-        "pipl": { "state": "yes", "note": "Separate consent per purpose; bundled consent is not permitted." },
+        "pipl": { "state": "partial", "note": "Separate consent for listed cases, such as sharing, sensitive data and transfers abroad. New purposes need fresh consent." },
         "ukgdpr": { "state": "yes", "note": "Consent must cover each purpose, with separate choices where appropriate." },
         "fadp": { "state": "partial", "note": "The purpose must be recognizable; separate consent is not mandated." },
         "pdpa-ar": { "state": "partial", "note": "Consent tied to specified purposes." },

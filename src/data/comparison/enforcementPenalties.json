@@ -11,7 +11,7 @@
         "gdpr": { "value": "€20M or 4% of global turnover", "note": "Whichever is higher, for the most serious infringements." },
         "ccpa": { "value": "Up to $7,988 per violation", "note": "For intentional violations or those involving minors under 16. Others are up to $2,663. Both rise with inflation." },
         "lgpd": { "value": "2% of Brazil revenue, up to R$50M", "note": "Per infringement." },
-        "pipl": { "value": "¥50M or 5% of annual revenue", "note": "For serious violations, plus possible suspension." },
+        "pipl": { "value": "¥50M or 5% of prior-year turnover", "note": "For serious violations, plus possible suspension." },
         "ukgdpr": { "value": "£17.5M or 4% of global turnover", "note": "Whichever is higher, for the most serious infringements." },
         "fadp": { "value": "Up to CHF 250,000", "note": "A criminal fine on responsible individuals for intentional breaches. A business can be fined up to CHF 50,000 in some cases." },
         "pdpa-ar": { "value": "Up to ARS 100,000 per fine", "note": "Stacked fines are capped at ARS 50 million. Serious cases can also suspend or close a database." },

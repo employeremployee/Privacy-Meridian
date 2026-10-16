@@ -176,7 +176,7 @@
         "gdpr": { "state": "partial", "note": "Protected in principle, not framed as a standalone right." },
         "ccpa": { "state": "yes", "note": "An explicit CCPA right." },
         "lgpd": { "state": "partial", "note": "Data about how you use your rights cannot be used against you." },
-        "pipl": { "state": "partial", "note": "Anti-differential-pricing provision for automated decisions." },
+        "pipl": { "state": "partial", "note": "Handlers cannot refuse service because you decline processing they do not need." },
         "ukgdpr": { "state": "partial", "note": "Protected in principle, not a standalone right." },
         "fadp": { "state": "partial", "note": "Protected through good-faith and proportionality principles." },
         "pdpa-ar": { "state": "partial", "note": "General good-faith principle rather than a standalone right." },

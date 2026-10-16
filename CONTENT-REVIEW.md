@@ -605,3 +605,29 @@ scan, build, browser check, one commit per law. grid.json items are moot.
   disclosure, correction and cessation added to private action.
 - **Other:** special care-required list now "including" disability, health-check and genetic results.
 - Tooltip scan: identical popups before and after.
+
+### China PIPL (items CONFIRMED against the PIPL on cac.gov.cn and CAC measures)
+- **Deadlines (error):** PIPL sets no day count; requests must be accepted and handled
+  promptly (Arts 45-46, Network Data Regulations Art 23). The "15 working days" came from 2019
+  app rules for some correction and deletion requests only. Removed from three pages and the table.
+- **Deletion (error):** Art 47 has six grounds (adds "stops providing the service"); it says
+  nothing about entrusted parties or backups. Where deletion is not yet possible, stop all
+  processing except storage and security. Processors return or delete under Art 21.
+- **Legal bases:** seven, not six (adds HR management, news and public-opinion oversight, other
+  cases by law). No legitimate-interests basis. Separate consent applies only in listed cases
+  (sharing, publication, sensitive data, transfers abroad), not "per purpose". Table "partial".
+- **Automated decisions:** explanation and refusal rights apply to decisions with a major
+  impact; no human-review requirement; marketing needs a non-personalised option or easy refusal.
+- **Transfers:** four Art 38 routes plus treaties (not five); separate consent is an extra
+  requirement, not a route (table "partial"). 2024 Provisions thresholds stated exactly;
+  certification has existed since 2021 (2026 measures detail it); standard contracts are
+  filed, not approved; Art 40 localization has exemptions.
+- **Breach:** duty covers leaks that may have occurred; individuals need not be told if harm is
+  avoided (no "public announcement" substitute in Art 57). Removed "some sectors 24 hours";
+  added the national incident measures (1 Nov 2025): 4 hours, 1 hour for critical operators,
+  for relatively major incidents (thresholds from JunHe analysis, not added).
+- **Other tables:** fines are 5% of prior-year turnover; non-discrimination note cites the
+  no-refusal-of-service rule; racial and sexual-orientation data "may qualify".
+- **Deferred to D9:** Order 25 small-handler rules, compliance audits, facial-recognition
+  measures, Cybersecurity Law amendment (all verified by the agent).
+- Tooltip scan: identical popups before and after.

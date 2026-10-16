@@ -566,3 +566,24 @@ scan, build, browser check, one commit per law. grid.json items are moot.
 - **Other:** access includes who has had the data; recipients told of changes that affect
   decisions; prior-authorisation triggers listed accurately.
 - Tooltip scan: identical popups before and after.
+
+### South Korea PIPA (items CONFIRMED against the Act and Enforcement Decree, current to 11 Sep 2026)
+- **2026 amendment (Act No. 21445, in force 11 Sep 2026):** top surcharge 10% of total revenue
+  for repeat, 10-million-plus or order-defying violations (normally 3%); business owner is the
+  final responsible person; notice of possible leaks. Citation now lists 2026.
+- **2025 amendment corrected:** it tightened the domestic-agent rule (use the Korean subsidiary
+  where one exists); the agent duty itself is older. It did not raise fines.
+- **Breach:** individuals within 72 hours (Decree Art 39), not "without delay"; possible leaks
+  covered since Sep 2026.
+- **Errors fixed:** the justifiable-interest basis dates from 2011, not 2023; controllers tell
+  the body that *gave* them the data of corrections (no duty to notify downstream recipients).
+- **Transfers:** PIPC recognised the EU (Sep 2025), table "yes"; certification is a full route
+  ("yes"); no standard-clause route ("no").
+- **Tables:** extension is access postponement only; portability phasing in (large companies
+  from 20 Feb 2027, date from a law.go.kr mirror); private action describes reversed burden,
+  5x damages and statutory damages; consent note reflects seven bases.
+- **Other:** urgent public-safety basis added; resident registration numbers cannot rest on
+  consent; scope paragraph semicolon removed; EU adequacy now mutual.
+- Not added: AI-development exception (passed Aug 2026, not yet in force); claimed ISMS-P 2027
+  mandate (not found in PIPA).
+- Tooltip scan: identical popups before and after.

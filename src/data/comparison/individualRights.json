@@ -81,7 +81,7 @@
         "fadp": { "state": "yes", "note": "Right to data portability." },
         "pdpa-ar": { "state": "no", "note": "No standalone portability right." },
         "lpdp-uy": { "state": "no", "note": "No standalone portability right." },
-        "pipa-kr": { "state": "partial", "note": "A transmission right is being phased in under the 2023 amendment." },
+        "pipa-kr": { "state": "partial", "note": "Phasing in since 2025. Large companies are covered from February 2027." },
         "appi": { "state": "partial", "note": "Disclosure can be requested electronically, but no transfer-to-controller right." },
         "nzpa": { "state": "no", "note": "No data portability right." },
         "popia": { "state": "no", "note": "No standalone portability right." },

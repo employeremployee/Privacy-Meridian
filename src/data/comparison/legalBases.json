@@ -121,7 +121,7 @@
         "fadp": { "state": "yes", "note": "Overriding private or public interest is a core justification." },
         "pdpa-ar": { "state": "no", "note": "No general legitimate-interests basis." },
         "lpdp-uy": { "state": "no", "note": "No general legitimate-interests basis." },
-        "pipa-kr": { "state": "partial", "note": "A limited legitimate-interest basis was added by the 2023 amendment." },
+        "pipa-kr": { "state": "partial", "note": "A narrow basis where the controller's interest clearly overrides the person's rights." },
         "appi": { "state": "no", "note": "No legitimate-interests basis; relies on consent and exemptions." },
         "nzpa": { "state": "partial", "note": "No named basis; the principles allow reasonable business use." },
         "popia": { "state": "yes", "note": "Legitimate interests of the responsible party or a third party." },

@@ -21,7 +21,7 @@
         "fadp": { "state": "no", "note": "Processing by private persons is generally lawful without consent, subject to principles." },
         "pdpa-ar": { "state": "yes", "note": "Prior, express, informed consent is the rule." },
         "lpdp-uy": { "state": "yes", "note": "Prior informed consent required." },
-        "pipa-kr": { "state": "yes", "note": "Consent required before collection, with limited exceptions." },
+        "pipa-kr": { "state": "yes", "note": "Consent is one of several bases, but Korea relies on it heavily." },
         "appi": { "state": "partial", "note": "Consent required for sensitive data and third-party sharing, not all use." },
         "nzpa": { "state": "no", "note": "Principle-based collection; no blanket opt-in requirement." },
         "popia": { "state": "yes", "note": "Affirmative consent where consent is the basis." },

@@ -27,8 +27,12 @@ const FILL = {
 // thinner than the old dark Meridian Blue outline, which read as too heavy.
 const SELECTED_BORDER = '#9DC3E6'
 
-const FOCUS_CLASS =
-  'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+// Keyboard focus ring for a country, drawn as two overlaid outlines: a wide Ink
+// stroke under a narrow Paper stroke. One of the two always contrasts with what
+// sits beside it (the light sea, a dark country, or a selected country), which
+// CSS outlines on SVG paths could not do because the map library forces
+// outline: none on every state.
+const FOCUS_RING = { outer: '#1A1A2E', inner: '#F8F7F4' }
 
 // Ignore touch gestures for pan/zoom so a finger drag scrolls the page instead of
 // getting trapped inside the map (iOS). Desktop mouse drag and wheel still zoom.
@@ -40,6 +44,8 @@ function filterZoomEvent(event) {
 function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onSelectJurisdiction }) {
   const { t } = useTranslation()
   const [hoveredLabel, setHoveredLabel] = useState(null)
+  // The country path that has keyboard focus, so the ring can be drawn on top.
+  const [focusedGeo, setFocusedGeo] = useState(null)
 
   function labelForGeo(geo) {
     const jurisdictionId = getJurisdictionForCountryCode(geo.id)
@@ -103,9 +109,12 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
                     )
                   }
 
+                  // Name the country first, so the 28 GDPR countries do not all
+                  // announce the same law name.
+                  const country = geo.properties.name
                   const ariaLabel = isSelected
-                    ? t('map.selectedJurisdictionLabel', { name: label })
-                    : t('map.viewJurisdictionLabel', { name: label })
+                    ? t('map.selectedCountryLabel', { country, name: label })
+                    : t('map.viewCountryLabel', { country, name: label })
 
                   // Selected countries get a light-azure fill with a soft
                   // light-blue border, and stay light on hover instead of
@@ -131,11 +140,17 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
                       role="button"
                       aria-pressed={mode === 'multi' ? isSelected : undefined}
                       aria-label={ariaLabel}
-                      className={FOCUS_CLASS}
                       onMouseEnter={() => setHoveredLabel(label)}
                       onMouseLeave={() => setHoveredLabel(null)}
-                      onFocus={() => setHoveredLabel(label)}
-                      onBlur={() => setHoveredLabel(null)}
+                      onFocus={(event) => {
+                        setHoveredLabel(label)
+                        // Ring for keyboard focus only, not for mouse clicks.
+                        if (event.currentTarget.matches(':focus-visible')) setFocusedGeo(geo)
+                      }}
+                      onBlur={() => {
+                        setHoveredLabel(null)
+                        setFocusedGeo(null)
+                      }}
                       onClick={() => onSelectJurisdiction(jurisdictionId, geo.properties.name)}
                       onKeyDown={(event) => {
                         if (event.key === 'Enter' || event.key === ' ') {
@@ -149,6 +164,24 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
                 })
               }
             </Geographies>
+            {focusedGeo && (
+              <g aria-hidden="true" style={{ pointerEvents: 'none' }}>
+                {[
+                  { color: FOCUS_RING.outer, width: 4 },
+                  { color: FOCUS_RING.inner, width: 1.5 },
+                ].map((ring) => (
+                  <path
+                    key={ring.color}
+                    d={focusedGeo.svgPath}
+                    fill="none"
+                    stroke={ring.color}
+                    strokeWidth={ring.width}
+                    strokeLinejoin="round"
+                    vectorEffect="non-scaling-stroke"
+                  />
+                ))}
+              </g>
+            )}
           </ZoomableGroup>
         </ComposableMap>
       </div>

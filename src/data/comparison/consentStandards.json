@@ -24,7 +24,7 @@
         "pipa-kr": { "state": "yes", "note": "Consent required before collection, with limited exceptions." },
         "appi": { "state": "partial", "note": "Consent required for sensitive data and third-party sharing, not all use." },
         "nzpa": { "state": "no", "note": "Principle-based collection; no blanket opt-in requirement." },
-        "popia": { "state": "partial", "note": "Consent is one of several justifications, not the default." },
+        "popia": { "state": "yes", "note": "Affirmative consent where consent is the basis." },
         "kdpa": { "state": "yes", "note": "Affirmative consent where consent is the basis." },
         "dpdp": { "state": "yes", "note": "Clear affirmative consent required, with limited legitimate uses." }
       }
@@ -84,7 +84,7 @@
         "pipa-kr": { "state": "yes", "note": "Consent may be withdrawn at any time." },
         "appi": { "state": "partial", "note": "Withdrawal handled through cessation-of-use requests." },
         "nzpa": { "state": "partial", "note": "No formal consent-withdrawal mechanism; principle-based." },
-        "popia": { "state": "yes", "note": "Consent may be withdrawn." },
+        "popia": { "state": "partial", "note": "Consent can be withdrawn at any time, but no rule says withdrawal must be as easy as giving it." },
         "kdpa": { "state": "yes", "note": "Consent may be withdrawn." },
         "dpdp": { "state": "yes", "note": "Withdrawal must be as easy as giving consent." }
       }

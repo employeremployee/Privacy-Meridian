@@ -19,7 +19,7 @@
         "pipa-kr": { "value": "10 days", "note": "Access and similar requests within 10 days." },
         "appi": { "value": "Without delay", "note": "No fixed statutory number of days." },
         "nzpa": { "value": "20 working days", "note": "Access requests answered within 20 working days." },
-        "popia": { "value": "Reasonable time", "note": "No fixed statutory deadline." },
+        "popia": { "value": "Reasonable time", "note": "No fixed deadline for access. Correction outcomes must be notified in writing within 30 days." },
         "kdpa": { "value": "7 days", "note": "For access requests. Most other rights get 14 days." },
         "dpdp": { "value": "Up to 90 days", "note": "A reasonable period of no more than 90 days, from 13 May 2027." }
       }

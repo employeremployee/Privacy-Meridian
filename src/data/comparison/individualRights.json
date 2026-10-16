@@ -44,7 +44,7 @@
         "pipa-kr": { "state": "yes", "note": "Deletion of personal information." },
         "appi": { "state": "yes", "note": "Erasure or cessation of use on specified grounds." },
         "nzpa": { "state": "no", "note": "No general erasure right; correction is provided instead." },
-        "popia": { "state": "partial", "note": "Deletion where the party is no longer authorized to hold the data." },
+        "popia": { "state": "partial", "note": "Deletion of inaccurate, excessive, unlawful or no-longer-authorised data." },
         "kdpa": { "state": "yes", "note": "Right to erasure." },
         "dpdp": { "state": "yes", "note": "Right to erasure." }
       }
@@ -164,7 +164,7 @@
         "pipa-kr": { "state": "yes", "note": "Suspension of processing." },
         "appi": { "state": "partial", "note": "Cessation of use available on specified grounds." },
         "nzpa": { "state": "no", "note": "No standalone restriction right." },
-        "popia": { "state": "partial", "note": "Restriction where accuracy is contested or processing is objected to." },
+        "popia": { "state": "partial", "note": "On four grounds, such as contested accuracy or unlawful processing." },
         "kdpa": { "state": "yes", "note": "A standalone right on four grounds, such as contested accuracy." },
         "dpdp": { "state": "no", "note": "No standalone restriction right." }
       }

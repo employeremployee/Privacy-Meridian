@@ -84,7 +84,7 @@
         "pipa-kr": { "state": "yes", "note": "Genetic data from testing, enforcement decree." },
         "appi": { "state": "yes", "note": "Genetic test results included by rule." },
         "nzpa": { "state": "partial", "note": "Genetic test results held for health purposes fall under the Health Information Privacy Code." },
-        "popia": { "state": "partial", "note": "Not itemized; treated within health information." },
+        "popia": { "state": "no", "note": "Not listed as special personal information." },
         "kdpa": { "state": "yes", "note": "Genetic data listed as sensitive." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
       }

@@ -19,7 +19,7 @@
         "pipa-kr": { "value": "Personal information controllers", "note": "Any entity processing personal information for its work." },
         "appi": { "value": "Business operators handling data", "note": "Any business using a personal information database." },
         "nzpa": { "value": "Agencies, public and private", "note": "A broad definition covering nearly all organizations." },
-        "popia": { "value": "Responsible parties", "note": "Public and private bodies that determine processing." },
+        "popia": { "value": "Responsible parties", "note": "Public and private bodies, and individuals, that determine processing." },
         "kdpa": { "value": "Data controllers and processors", "note": "Mirrors the GDPR controller and processor split." },
         "dpdp": { "value": "Data fiduciaries", "note": "Any person determining the purpose and means of processing." }
       }

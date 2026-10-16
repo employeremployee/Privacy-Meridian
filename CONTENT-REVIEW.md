@@ -546,3 +546,23 @@ scan, build, browser check, one commit per law. grid.json items are moot.
 - **Deferred to D9:** ODPC 2026 cross-border transfer guidance (verified: standard clauses,
   BCR approval, offshore cloud counts as a transfer).
 - Tooltip scan: identical popups before and after.
+
+### South Africa POPIA (items CONFIRMED against Act 4 of 2013 and the 2025 Regulations)
+- **Errors fixed:** "Uniquely protects companies" removed (Argentina and Uruguay do too);
+  transfers of special or children's data to non-adequate countries need the Regulator's prior
+  authorisation (s.57(1)(d)), now on the page and in the table ("partial"); restriction has
+  four grounds (s.14(6)), and objection is not one of them.
+- **Penalties:** offences carry a fine, up to 10 years, **or both** (not "as an alternative");
+  the R10M is an administrative fine via infringement notice (s.109). Tiered note fixed.
+- **2025 Regulations:** the 30 days is for written notice of a correction or deletion outcome
+  (reg 3.6), not a response deadline. Opt-out is not consent for direct marketing, but the
+  existing-customer route remains. Access requests stay "within a reasonable time"; PAIA's
+  30-day periods do not apply (s.25 imports only PAIA's form rules).
+- **Breach portal:** mandatory since 1 April 2025 by Regulator statement (verifier corrected
+  the review: not by the amended Regulations).
+- **Tables:** BCRs "yes" (named in s.72); no model clauses; consent opt-in "yes" (consistency
+  with GDPR and Kenya, review item T2); withdrawal "partial"; genetic "no" (not listed);
+  deletion grounds widened; individuals can be responsible parties.
+- **Other:** access includes who has had the data; recipients told of changes that affect
+  decisions; prior-authorisation triggers listed accurately.
+- Tooltip scan: identical popups before and after.

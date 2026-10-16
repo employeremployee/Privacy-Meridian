@@ -44,7 +44,7 @@
         "pipa-kr": { "state": "partial", "note": "Contractual safeguards used, with no single mandated form." },
         "appi": { "state": "partial", "note": "Contractual measures ensure equivalent protection at the recipient." },
         "nzpa": { "state": "yes", "note": "Contractual safeguards satisfy the transfer principle." },
-        "popia": { "state": "yes", "note": "Binding agreements with the recipient." },
+        "popia": { "state": "yes", "note": "Binding agreements with the recipient. The Regulator has issued no model clauses." },
         "kdpa": { "state": "yes", "note": "Contractual safeguards for transfers." },
         "dpdp": { "state": "no", "note": "No standard-contractual-clause regime; transfers turn on the country list." }
       }
@@ -64,7 +64,7 @@
         "pipa-kr": { "state": "no", "note": "Not a distinct recognized mechanism." },
         "appi": { "state": "partial", "note": "Intra-group rules can support equivalent protection." },
         "nzpa": { "state": "partial", "note": "Intra-group safeguards can satisfy the transfer principle." },
-        "popia": { "state": "partial", "note": "Binding intra-group agreements can satisfy the transfer rule." },
+        "popia": { "state": "yes", "note": "Binding corporate rules are named in the Act." },
         "kdpa": { "state": "yes", "note": "Binding corporate rules recognised since 2021, with ODPC approval." },
         "dpdp": { "state": "no", "note": "Not a recognized mechanism." }
       }
@@ -124,7 +124,7 @@
         "pipa-kr": { "state": "no", "note": "No general government pre-approval of transfers." },
         "appi": { "state": "no", "note": "No government pre-approval of transfers." },
         "nzpa": { "state": "no", "note": "No government pre-approval of transfers." },
-        "popia": { "state": "no", "note": "No government pre-approval of transfers." },
+        "popia": { "state": "partial", "note": "Prior authorisation needed to send special or children's data to countries without adequate protection." },
         "kdpa": { "state": "partial", "note": "Sensitive-data transfers may require confirmation of safeguards." },
         "dpdp": { "state": "no", "note": "No pre-approval; the government instead restricts specific countries." }
       }

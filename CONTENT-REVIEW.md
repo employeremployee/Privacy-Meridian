@@ -631,3 +631,16 @@ scan, build, browser check, one commit per law. grid.json items are moot.
 - **Deferred to D9:** Order 25 small-handler rules, compliance audits, facial-recognition
   measures, Cybersecurity Law amendment (all verified by the agent).
 - Tooltip scan: identical popups before and after.
+
+### Unsupported table cells resolved (Jared's decisions, 2026-10-15)
+A dedicated research agent checked statutes, decrees and regulator opinions (in Spanish for
+Argentina and Uruguay). Findings: Uruguay's law has no good-faith principle; Argentina's decree
+has a good-faith duty for collecting data only; none of Argentina, Uruguay, Kenya, South Africa
+or Japan has a rule against penalising people for using their rights.
+- **Non-discrimination:** Uruguay, Kenya, South Africa and Japan now "no: No specific rule in the
+  law." Argentina stays "partial" with an honest note (general fair, good-faith collection duty).
+  GDPR, UK and Swiss cells left as they are.
+- **Uruguay group transfers:** "yes". Group codes of conduct registered with the regulator
+  (Decree 414/009); the note adds that little guidance is published (Jared's wording choice).
+- **Uruguay children (two cells):** stay "partial" with corrected notes. No fixed age in the law;
+  the regulator expects parental consent (Dictamen 1/020); childhood law adds protection.

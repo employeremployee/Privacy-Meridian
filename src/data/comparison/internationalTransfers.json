@@ -60,7 +60,7 @@
         "ukgdpr": { "state": "yes", "note": "Binding corporate rules, ICO-approved." },
         "fadp": { "state": "yes", "note": "Binding corporate rules approved by the FDPIC or an adequate country's authority." },
         "pdpa-ar": { "state": "yes", "note": "AAIP guidelines for intra-group rules. Rules that depart from them need AAIP approval." },
-        "lpdp-uy": { "state": "partial", "note": "Intra-group safeguards accepted, with limited guidance." },
+        "lpdp-uy": { "state": "yes", "note": "Group companies can share data under codes of conduct registered with the regulator. Little guidance is published." },
         "pipa-kr": { "state": "no", "note": "Not a distinct recognized mechanism." },
         "appi": { "state": "partial", "note": "Intra-group rules can support equivalent protection." },
         "nzpa": { "state": "partial", "note": "Intra-group safeguards can satisfy the transfer principle." },

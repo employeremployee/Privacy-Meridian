@@ -179,13 +179,13 @@
         "pipl": { "state": "partial", "note": "Handlers cannot refuse service because you decline processing they do not need." },
         "ukgdpr": { "state": "partial", "note": "Protected in principle, not a standalone right." },
         "fadp": { "state": "partial", "note": "Protected through good-faith and proportionality principles." },
-        "pdpa-ar": { "state": "partial", "note": "General good-faith principle rather than a standalone right." },
-        "lpdp-uy": { "state": "partial", "note": "General good-faith principle." },
+        "pdpa-ar": { "state": "partial", "note": "No specific rule. Only a general duty to collect data fairly and in good faith." },
+        "lpdp-uy": { "state": "no", "note": "No specific rule in the law." },
         "pipa-kr": { "state": "partial", "note": "Protected through general principles, not a standalone right." },
-        "appi": { "state": "partial", "note": "Protected through proper-handling duties, not a standalone right." },
+        "appi": { "state": "no", "note": "No specific rule in the law." },
         "nzpa": { "state": "no", "note": "Not framed as a right." },
-        "popia": { "state": "partial", "note": "Protected through lawful-processing conditions." },
-        "kdpa": { "state": "partial", "note": "Protected through fair-processing principles." },
+        "popia": { "state": "no", "note": "No specific rule in the law." },
+        "kdpa": { "state": "no", "note": "No specific rule in the law." },
         "dpdp": { "state": "no", "note": "Not framed as a right." }
       }
     }

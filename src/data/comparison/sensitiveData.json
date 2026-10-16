@@ -45,7 +45,7 @@
         "appi": { "state": "partial", "note": "Covered indirectly through creed, not itemized." },
         "nzpa": { "state": "no", "note": "No special-category regime." },
         "popia": { "state": "yes", "note": "Political persuasion." },
-        "kdpa": { "state": "yes", "note": "Political opinion listed as sensitive." },
+        "kdpa": { "state": "no", "note": "Not listed as sensitive." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
       }
     },
@@ -165,7 +165,7 @@
         "appi": { "state": "no", "note": "Not a special category." },
         "nzpa": { "state": "no", "note": "No special-category regime." },
         "popia": { "state": "no", "note": "Not a special category." },
-        "kdpa": { "state": "no", "note": "Not a sensitive category; property details are separate." },
+        "kdpa": { "state": "partial", "note": "Property details are sensitive. Financial accounts are not listed as such." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
       }
     },
@@ -205,7 +205,7 @@
         "appi": { "state": "partial", "note": "Guidelines expect guardian consent for children under 15, not a special category." },
         "nzpa": { "state": "partial", "note": "Not a special category, but collection from children needs particular care to be fair and not intrusive." },
         "popia": { "state": "yes", "note": "Children's personal information is specially protected." },
-        "kdpa": { "state": "yes", "note": "Children's data given special protection." },
+        "kdpa": { "state": "partial", "note": "Not a sensitive category, but processing needs parental consent and age checks." },
         "dpdp": { "state": "yes", "note": "Children's data receives heightened protection." }
       }
     }

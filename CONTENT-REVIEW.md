@@ -524,3 +524,25 @@ scan, build, browser check, one commit per law. grid.json items are moot.
   after Aug 2026. Not added: a reported Oct 2026 Removal of Difficulties Order (not checked
   against the Gazette).
 - Tooltip scan: identical popups before and after.
+
+### Kenya Data Protection Act 2019 (items CONFIRMED against the Act and 2021 Regulations)
+- **Errors fixed:** individuals are told "within a reasonably practical period", in writing (not
+  "without undue delay"); no general extension exists, only for portability; localization
+  covers six listed public-interest purposes (reg 26), not "sensitive categories" or payments;
+  first ODPC penalty was Oppo Kenya, KES 5M, December 2022 (not 2023).
+- **Deadlines:** access 7 days; restriction, objection, correction and deletion 14 days;
+  portability 30 days (General Regulations 2021). The page no longer says "confirm before relying".
+- **Transfers page:** now Sections 48-50. Necessity grounds are in s.48, s.49 is sensitive data
+  only (consent plus safeguards), s.50 localization (strategic interests or revenue). Binding
+  corporate rules recognised since 2021, with ODPC approval (table "yes").
+- **Sensitive data:** political opinion is NOT listed (table "no"); property details are
+  (financial row "partial"); children's data "partial" (s.33 parental consent, not sensitive);
+  sensitive processing grounds in ss.45-46 don't include consent (table "partial").
+- **Other:** restriction is a standalone right (table "yes"); research ground added to s.30;
+  breach page adds the encryption exception and investigation delay; registration threshold is
+  turnover and staff, not volume; the 2025 amendment is a draft proposal, not a tabled Bill.
+- **Removed:** "late 2024 proposed rules... not in force" (the Data Sharing Code 2025 is now
+  cited by the ODPC as existing; status unconfirmed, so the sentence was dropped).
+- **Deferred to D9:** ODPC 2026 cross-border transfer guidance (verified: standard clauses,
+  BCR approval, offshore cloud counts as a transfer).
+- Tooltip scan: identical popups before and after.

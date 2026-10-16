@@ -20,7 +20,7 @@
         "appi": { "value": "Without delay", "note": "No fixed statutory number of days." },
         "nzpa": { "value": "20 working days", "note": "Access requests answered within 20 working days." },
         "popia": { "value": "Reasonable time", "note": "No fixed statutory deadline." },
-        "kdpa": { "value": "7 days", "note": "The General Regulations 2021 timeline for responding to a request." },
+        "kdpa": { "value": "7 days", "note": "For access requests. Most other rights get 14 days." },
         "dpdp": { "value": "Up to 90 days", "note": "A reasonable period of no more than 90 days, from 13 May 2027." }
       }
     },
@@ -40,7 +40,7 @@
         "appi": { "value": "No fixed maximum", "note": "Response expected without undue delay." },
         "nzpa": { "value": "Extension permitted", "note": "May extend where the request is large, needs consultation, or is complex." },
         "popia": { "value": "No fixed maximum", "note": "Reasonableness governs." },
-        "kdpa": { "value": "Extension with notice", "note": "Additional time where the request is complex." },
+        "kdpa": { "value": "Portability only", "note": "Portability requests can be extended in consultation with the Data Commissioner." },
         "dpdp": { "value": "No extension", "note": "The 90-day cap has no extension mechanism." }
       }
     },
@@ -80,7 +80,7 @@
         "appi": { "value": "Promptly", "note": "Notify affected individuals, or make a public notice instead." },
         "nzpa": { "value": "As soon as practicable", "note": "Notify affected individuals where the breach is notifiable." },
         "popia": { "value": "As soon as reasonably possible", "note": "Notify affected data subjects after discovery." },
-        "kdpa": { "value": "Without undue delay", "note": "Notify affected individuals where there is a real risk of harm." },
+        "kdpa": { "value": "Within a reasonably practical period", "note": "In writing, where there is a real risk of harm." },
         "dpdp": { "value": "Without delay", "note": "Notify each affected individual of any breach. Applies from 13 May 2027." }
       }
     }

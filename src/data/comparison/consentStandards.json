@@ -65,7 +65,7 @@
         "appi": { "state": "yes", "note": "Prior consent required to acquire special care-required data." },
         "nzpa": { "state": "no", "note": "No special-category consent rule; the same principles apply." },
         "popia": { "state": "yes", "note": "Special personal information requires consent or a listed exception." },
-        "kdpa": { "state": "yes", "note": "Sensitive data requires consent or a specific condition." },
+        "kdpa": { "state": "partial", "note": "Needs a specific statutory ground, which does not include consent. Explicit consent is needed to send it abroad." },
         "dpdp": { "state": "no", "note": "No sensitive-data category." }
       }
     },

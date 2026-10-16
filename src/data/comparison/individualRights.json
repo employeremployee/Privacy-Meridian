@@ -165,7 +165,7 @@
         "appi": { "state": "partial", "note": "Cessation of use available on specified grounds." },
         "nzpa": { "state": "no", "note": "No standalone restriction right." },
         "popia": { "state": "partial", "note": "Restriction where accuracy is contested or processing is objected to." },
-        "kdpa": { "state": "partial", "note": "Restriction tied to objection and accuracy disputes." },
+        "kdpa": { "state": "yes", "note": "A standalone right on four grounds, such as contested accuracy." },
         "dpdp": { "state": "no", "note": "No standalone restriction right." }
       }
     },

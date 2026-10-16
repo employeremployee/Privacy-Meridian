@@ -65,7 +65,7 @@
         "appi": { "state": "partial", "note": "Intra-group rules can support equivalent protection." },
         "nzpa": { "state": "partial", "note": "Intra-group safeguards can satisfy the transfer principle." },
         "popia": { "state": "partial", "note": "Binding intra-group agreements can satisfy the transfer rule." },
-        "kdpa": { "state": "partial", "note": "Binding corporate rules contemplated, guidance developing." },
+        "kdpa": { "state": "yes", "note": "Binding corporate rules recognised since 2021, with ODPC approval." },
         "dpdp": { "state": "no", "note": "Not a recognized mechanism." }
       }
     },
@@ -145,7 +145,7 @@
         "appi": { "state": "no", "note": "No localization requirement." },
         "nzpa": { "state": "no", "note": "No localization requirement." },
         "popia": { "state": "no", "note": "No general localization requirement." },
-        "kdpa": { "state": "partial", "note": "Strategic or sensitive categories may require local storage." },
+        "kdpa": { "state": "partial", "note": "Six listed public-interest purposes, such as elections and health care, must use servers in Kenya." },
         "dpdp": { "state": "partial", "note": "The government may require significant data fiduciaries to keep specified data in India. Sector rules can also apply." }
       }
     }

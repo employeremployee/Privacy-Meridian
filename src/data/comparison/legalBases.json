@@ -22,7 +22,7 @@
         "pdpa-ar": { "state": "yes", "note": "Consent is the general rule." },
         "lpdp-uy": { "state": "yes", "note": "Prior informed consent." },
         "pipa-kr": { "state": "yes", "note": "A primary basis." },
-        "appi": { "state": "yes", "note": "Consent is the core basis for use and disclosure." },
+        "appi": { "state": "partial", "note": "Consent is needed to go beyond the stated purpose, for sensitive data, and for third-party provision." },
         "nzpa": { "state": "partial", "note": "Authorization by the individual is one ground among the principles." },
         "popia": { "state": "yes" },
         "kdpa": { "state": "yes" },

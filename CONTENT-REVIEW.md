@@ -587,3 +587,21 @@ scan, build, browser check, one commit per law. grid.json items are moot.
 - Not added: AI-development exception (passed Aug 2026, not yet in force); claimed ISMS-P 2027
   mandate (not found in PIPA).
 - Tooltip scan: identical popups before and after.
+
+### Japan APPI (items CONFIRMED against the APPI, PPC Rules and the 2026 amending Act)
+- **2026 amendment status:** passed the Diet 10 Jul 2026, promulgated 17 Jul 2026, **not yet
+  in force**. The main body starts on a cabinet-order date, by 16 Jul 2028 at the latest (no
+  order yet). Only the criminal-penalty changes start earlier, on 17 Jan 2027. "Phasing in"
+  replaced everywhere; citation updated.
+- **Surcharge:** equal to gains from listed violations (e.g. unlawful third-party provision),
+  not a general "first administrative fine". Processor change described accurately (direct
+  scope duty, conditional exemption), not "relief".
+- **Breach:** the trigger is a leak possibly caused by a wrongful-purpose act (e.g. a
+  cyberattack); final report 30 days, or 60 for those cases (Rules Arts 7-8). Table updated.
+- **Children:** PPC Q&A says guardian consent for roughly 12 to 15 and under, not "under 15".
+- **Tables:** the ¥100M is a criminal fine on corporations (order defiance or database
+  misuse); consent "partial" (needed only to exceed purpose, for sensitive data, third-party
+  provision); international certification "partial" (Rules Art 16); court claims for
+  disclosure, correction and cessation added to private action.
+- **Other:** special care-required list now "including" disability, health-check and genetic results.
+- Tooltip scan: identical popups before and after.

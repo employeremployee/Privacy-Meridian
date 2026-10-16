@@ -102,7 +102,7 @@
         "pdpa-ar": { "state": "no", "note": "Not part of the transfer regime." },
         "lpdp-uy": { "state": "no", "note": "Not part of the transfer regime." },
         "pipa-kr": { "state": "yes", "note": "A PIPC-designated certification held by the recipient can authorise a transfer." },
-        "appi": { "state": "no", "note": "Not a distinct transfer mechanism." },
+        "appi": { "state": "partial", "note": "International certification can show the recipient has equivalent safeguards." },
         "nzpa": { "state": "partial", "note": "Joining a prescribed binding scheme is one route." },
         "popia": { "state": "no", "note": "Not part of the transfer rule." },
         "kdpa": { "state": "no", "note": "Not a distinct transfer mechanism." },

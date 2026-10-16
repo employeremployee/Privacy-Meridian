@@ -122,7 +122,7 @@
         "pdpa-ar": { "state": "partial", "note": "AAIP guidance lets minors consent according to their maturity, with no fixed age." },
         "lpdp-uy": { "state": "partial", "note": "Best-interest guidance for minors." },
         "pipa-kr": { "state": "yes", "note": "Guardian consent for children under 14." },
-        "appi": { "state": "partial", "note": "Guidelines expect guardian consent for children under 15." },
+        "appi": { "state": "partial", "note": "PPC guidance expects guardian consent for children aged about 12 to 15 and under. A statutory under-16 rule is not yet in force." },
         "nzpa": { "state": "no", "note": "No specific child-consent rule." },
         "popia": { "state": "yes", "note": "Processing children's data needs consent of a competent person." },
         "kdpa": { "state": "yes", "note": "Consent of a parent or guardian for a child." },

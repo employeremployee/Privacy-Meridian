@@ -119,6 +119,29 @@ Accessibility is built in from the start. It is never a retrofit. Target WCAG 2.
 
 ---
 
+## New Country Checklist
+
+Run this for every country or law added to the site (Canada, Australia, Singapore, and every later wave). Shared-code fixes (map focus ring, page titles, heading levels, popup names, table captions) apply automatically. These steps cover what depends on each country's data.
+
+**Wire it in (all five, or the country is half-added):**
+- `src/data/jurisdictions/<id>.json`: the law page, same schema as the existing 14.
+- `src/pages/MapHomePage.jsx`: import the JSON and add it to `JURISDICTIONS_DATA`.
+- `src/data/countryStatus.js`: map the ISO numeric code(s) to the law id so the country is colored and clickable.
+- `src/data/mapCountries.js`: the picker label and every country option. Small or missing map shapes (Malta, Hong Kong) are picker-only.
+- Every file in `src/data/comparison/`: add a cell for the new id in every row, using line-based edits (never re-serialize these files).
+
+**Check before committing:**
+- The map shape announces "Country: Law name. View details." (the label comes from `fullName`, so keep it accurate).
+- The browser tab title reads well when the law is chosen ("name, region").
+- Every source link opens the right page in a real browser, not just a scripted 200.
+- Run the tooltip scan (`docs/site-review-2026-10-08/06`, section 7a). Every popup must fit its words in that law.
+- Content follows house voice. Table cells carry no article or section numbers.
+- Every claim is checked against the official text by a read-only verifier agent first. Claims backed only by secondary sources are flagged to Jared, not published.
+- Run `npm run build` and `npm run lint`. Check the Explore and Compare views in the browser for console errors.
+- Log the country in `CONTENT-REVIEW.md` and commit one law per commit.
+
+---
+
 ## What To Do When Stuck
 
 If you have made the same mistake twice on a task, stop. Do not attempt a third time in the same session. Tell Jared what you tried, what failed, and what you think the correct approach is. Wait for direction before proceeding.

@@ -1,0 +1,74 @@
+# DRAFT, not active. To use: review with Jared, then save as
+# .github/workflows/barrelman-refresh.yml (replacing the GitHub Pages version).
+#
+# Same 2-hour feed refresh as today, but deploys to Cloudflare Pages instead of
+# GitHub Pages. The site is served at the root of privacymeridian.org, so
+# VITE_BASE is "/" and no 404.html copy is needed: Cloudflare Pages serves
+# index.html with a 200 status for app routes like /barrelman.
+#
+# Required GitHub repository secrets:
+#   DEEPL_API_KEY          - DeepL Free key (title translation), already set
+#   CLOUDFLARE_API_TOKEN   - token with "Cloudflare Pages: Edit" permission only
+#   CLOUDFLARE_ACCOUNT_ID  - from the Cloudflare dashboard
+#
+# One-time Cloudflare setup: create a Pages project named "privacy-meridian"
+# (Direct Upload), add the custom domain, and keep Web Analytics, Zaraz, Bot
+# Fight Mode, Email Obfuscation and Rocket Loader OFF (review item P2).
+
+name: Refresh and deploy Barrelman
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  push:
+    branches: [v2-map-first]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      VITE_BASE: /
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Restore Barrelman build cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: barrelman-cache-${{ github.run_id }}
+          restore-keys: |
+            barrelman-cache-
+
+      - name: Fetch and translate the feed
+        run: node scripts/barrelman/fetch-news.mjs
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=privacy-meridian --branch=main

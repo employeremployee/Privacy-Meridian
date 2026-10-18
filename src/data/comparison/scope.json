@@ -23,7 +23,8 @@
         "kdpa": { "value": "Data controllers and processors", "note": "Mirrors the GDPR controller and processor split." },
         "dpdp": { "value": "Data fiduciaries", "note": "Any person determining the purpose and means of processing." },
         "pipeda": { "value": "Businesses in commercial activity", "note": "Private-sector organizations handling personal information commercially, plus federally regulated employers for staff data." },
-        "pa-au": { "value": "Agencies and organisations", "note": "Commonwealth agencies and private businesses, with some exemptions." }
+        "pa-au": { "value": "Agencies and organisations", "note": "Commonwealth agencies and private businesses, with some exemptions." },
+        "pdpa-sg": { "value": "Private-sector organisations", "note": "Any organisation handling personal data in Singapore, including non-profits." }
       }
     },
     {
@@ -45,7 +46,8 @@
         "kdpa": { "value": "Processing in or of people in Kenya", "note": "Controllers and processors established or acting in Kenya." },
         "dpdp": { "value": "Processing in India or targeting India", "note": "Extraterritorial where linked to offering goods or services in India." },
         "pipeda": { "value": "Canada, except in-province activity under similar provincial laws", "note": "Quebec, Alberta and British Columbia apply their own laws inside those provinces." },
-        "pa-au": { "value": "Australia, plus overseas firms with an Australian link", "note": "Covers overseas organisations that carry on business in Australia." }
+        "pa-au": { "value": "Australia, plus overseas firms with an Australian link", "note": "Covers overseas organisations that carry on business in Australia." },
+        "pdpa-sg": { "value": "Activities in Singapore", "note": "Covers personal data handled in Singapore, including data brought in from overseas." }
       }
     },
     {
@@ -67,7 +69,8 @@
         "kdpa": { "value": "None to apply", "note": "Registration depends on turnover, staff numbers and listed purposes." },
         "dpdp": { "value": "None", "note": "Applies regardless of size. The government can exempt notified fiduciaries, such as startups, from some duties." },
         "pipeda": { "value": "None", "note": "Applies to organizations of any size." },
-        "pa-au": { "value": "A$3M annual turnover", "note": "Smaller businesses are exempt unless they handle health data, trade in data, or fit another exception." }
+        "pa-au": { "value": "A$3M annual turnover", "note": "Smaller businesses are exempt unless they handle health data, trade in data, or fit another exception." },
+        "pdpa-sg": { "value": "None", "note": "No size, revenue or volume threshold." }
       }
     },
     {
@@ -89,7 +92,8 @@
         "kdpa": { "value": "Yes", "note": "Public and private controllers." },
         "dpdp": { "value": "Yes", "note": "Applies to the State, subject to specific exemptions." },
         "pipeda": { "value": "No", "note": "Federal institutions fall under a separate Privacy Act. Provincial laws cover provincial bodies." },
-        "pa-au": { "value": "Yes, federal only", "note": "Covers Commonwealth agencies. State agencies fall under state laws." }
+        "pa-au": { "value": "Yes, federal only", "note": "Covers Commonwealth agencies. State agencies fall under state laws." },
+        "pdpa-sg": { "value": "No", "note": "Public agencies are excluded and follow separate public-sector rules." }
       }
     },
     {
@@ -111,7 +115,8 @@
         "kdpa": { "value": "Yes", "note": "Reaches controllers acting on people in Kenya." },
         "dpdp": { "value": "Yes", "note": "Reaches processing outside India linked to offering goods or services there." },
         "pipeda": { "value": "Yes, through the courts", "note": "Courts apply it to foreign organizations with a real and substantial connection to Canada." },
-        "pa-au": { "value": "Yes", "note": "Reaches overseas businesses operating in Australia, wherever the data is held." }
+        "pa-au": { "value": "Yes", "note": "Reaches overseas businesses operating in Australia, wherever the data is held." },
+        "pdpa-sg": { "value": "Partial", "note": "Foreign organisations are covered when they handle personal data in Singapore." }
       }
     }
   ]

@@ -28,7 +28,8 @@
         "kdpa": { "state": "yes", "note": "Sensitive personal data definition." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
         "pipeda": { "state": "partial", "note": "No special-category list. Regulator guidance treats it as generally sensitive." },
-        "pa-au": { "state": "yes", "note": "Sensitive information." }
+        "pa-au": { "state": "yes", "note": "Sensitive information." },
+        "pdpa-sg": { "state": "no", "note": "No special category in the law." }
       }
     },
     {
@@ -50,7 +51,8 @@
         "kdpa": { "state": "no", "note": "Not listed as sensitive." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
         "pipeda": { "state": "partial", "note": "No special-category list. Regulator guidance treats it as generally sensitive." },
-        "pa-au": { "state": "yes", "note": "Sensitive, including political party membership." }
+        "pa-au": { "state": "yes", "note": "Sensitive, including political party membership." },
+        "pdpa-sg": { "state": "no", "note": "No special category in the law." }
       }
     },
     {
@@ -72,7 +74,8 @@
         "kdpa": { "state": "yes", "note": "Conscience and belief, sensitive definition." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
         "pipeda": { "state": "partial", "note": "No special-category list. Regulator guidance treats it as generally sensitive." },
-        "pa-au": { "state": "yes", "note": "Religious and philosophical beliefs are sensitive." }
+        "pa-au": { "state": "yes", "note": "Religious and philosophical beliefs are sensitive." },
+        "pdpa-sg": { "state": "no", "note": "No special category in the law." }
       }
     },
     {
@@ -94,7 +97,8 @@
         "kdpa": { "state": "yes", "note": "Genetic data listed as sensitive." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
         "pipeda": { "state": "partial", "note": "Treated as sensitive in regulator guidance." },
-        "pa-au": { "state": "yes", "note": "Genetic information is sensitive." }
+        "pa-au": { "state": "yes", "note": "Genetic information is sensitive." },
+        "pdpa-sg": { "state": "no", "note": "No special category in the law." }
       }
     },
     {
@@ -116,7 +120,8 @@
         "kdpa": { "state": "yes", "note": "Biometric data listed as sensitive." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
         "pipeda": { "state": "partial", "note": "Identifying biometrics are sensitive in regulator guidance. Quebec requires express consent." },
-        "pa-au": { "state": "yes", "note": "Sensitive when used for automated identification or verification." }
+        "pa-au": { "state": "yes", "note": "Sensitive when used for automated identification or verification." },
+        "pdpa-sg": { "state": "no", "note": "No special category in the law." }
       }
     },
     {
@@ -138,7 +143,8 @@
         "kdpa": { "state": "yes", "note": "Health data listed as sensitive." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
         "pipeda": { "state": "partial", "note": "The law names medical records as almost always sensitive. Provincial health laws often apply." },
-        "pa-au": { "state": "yes", "note": "Health information is sensitive." }
+        "pa-au": { "state": "yes", "note": "Health information is sensitive." },
+        "pdpa-sg": { "state": "partial", "note": "Listed medical and insurance data make a breach notifiable." }
       }
     },
     {
@@ -160,7 +166,8 @@
         "kdpa": { "state": "yes", "note": "Sex and sexual orientation listed as sensitive." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
         "pipeda": { "state": "partial", "note": "No special-category list. Regulator guidance treats it as generally sensitive." },
-        "pa-au": { "state": "yes", "note": "Sexual orientation and practices are sensitive." }
+        "pa-au": { "state": "yes", "note": "Sexual orientation and practices are sensitive." },
+        "pdpa-sg": { "state": "no", "note": "No special category in the law." }
       }
     },
     {
@@ -182,7 +189,8 @@
         "kdpa": { "state": "partial", "note": "Property details are sensitive. Financial accounts are not listed as such." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
         "pipeda": { "state": "partial", "note": "The law names income and financial records as almost always sensitive." },
-        "pa-au": { "state": "partial", "note": "Not sensitive. Credit information has its own strict rules." }
+        "pa-au": { "state": "partial", "note": "Not sensitive. Credit information has its own strict rules." },
+        "pdpa-sg": { "state": "partial", "note": "Bank, card and credit data make a breach notifiable." }
       }
     },
     {
@@ -204,7 +212,8 @@
         "kdpa": { "state": "no", "note": "Not a sensitive category." },
         "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
         "pipeda": { "state": "partial", "note": "Not listed, but regulators found constant app location tracking excessive." },
-        "pa-au": { "state": "no", "note": "Not a sensitive category." }
+        "pa-au": { "state": "no", "note": "Not a sensitive category." },
+        "pdpa-sg": { "state": "no", "note": "No special category in the law." }
       }
     },
     {
@@ -226,7 +235,8 @@
         "kdpa": { "state": "partial", "note": "Not a sensitive category, but processing needs parental consent and age checks." },
         "dpdp": { "state": "yes", "note": "Children's data receives heightened protection." },
         "pipeda": { "state": "partial", "note": "Guidance treats it as sensitive. Children under 13 generally need a parent's consent." },
-        "pa-au": { "state": "partial", "note": "Not a sensitive category. A children's online privacy code is due by December 2026." }
+        "pa-au": { "state": "partial", "note": "Not a sensitive category. A children's online privacy code is due by December 2026." },
+        "pdpa-sg": { "state": "partial", "note": "Not a special category. Child-protection data makes a breach notifiable, and guidance asks for extra care." }
       }
     }
   ]

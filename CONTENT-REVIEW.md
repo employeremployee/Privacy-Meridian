@@ -677,3 +677,17 @@ or Japan has a rule against penalising people for using their rights.
   Records localization rule, credit code version name, draft bill contents.
 - Wired in per the New Country Checklist (map code 036). Tooltip scan: 8 new popups; existing
   unchanged.
+
+### Singapore (PDPA 2012) — new law page and comparison column
+- Researched by a read-only agent against Singapore Statutes Online (current consolidation)
+  and pdpc.gov.sg. All 5 source links opened in a real browser.
+- Status as of Oct 2026: data portability (Part 6B) enacted in 2020 but never commenced;
+  turnover-based penalty cap in force since 1 Oct 2022; Global CBPR and PRP added as
+  transfer certifications on 2 Mar 2026. Marina Bay Sands decision (S$315,000, Oct 2025)
+  cited from the PDPC decision PDF.
+- No map shape at 110m scale, so Singapore is picker-only (like Malta).
+- Left out (search snippets only): children's guidance specifics, NRIC guideline details,
+  SingHealth fine figures.
+- Glossary: the legitimate-interests availability line now mentions Singapore (exception),
+  PIPEDA and Australia (not available).
+- Tooltip scan: 7 new popups, all fitting; existing unchanged.

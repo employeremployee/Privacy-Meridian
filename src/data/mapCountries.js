@@ -24,6 +24,7 @@ const GROUP_LABELS = {
   popia: 'South Africa (POPIA)',
   kdpa: 'Kenya (Data Protection Act)',
   dpdp: 'India (DPDP Act)',
+  'pdpa-sg': 'Singapore (PDPA)',
   'pa-au': 'Australia (Privacy Act 1988)',
   pipeda: 'Canada: federal law (PIPEDA)',
 }
@@ -70,6 +71,7 @@ const STANDALONE = [
   { name: 'Brazil', jurisdictionId: 'lgpd' },
   { name: 'China', jurisdictionId: 'pipl' },
   { name: 'India', jurisdictionId: 'dpdp' },
+  { name: 'Singapore', jurisdictionId: 'pdpa-sg' },
   { name: 'Australia', jurisdictionId: 'pa-au' },
   { name: 'Canada (federal law)', jurisdictionId: 'pipeda' },
   { name: 'Japan', jurisdictionId: 'appi' },

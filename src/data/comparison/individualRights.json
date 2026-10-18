@@ -28,7 +28,8 @@
         "kdpa": { "state": "yes", "note": "Right of access." },
         "dpdp": { "state": "yes", "note": "Right to access information." },
         "pipeda": { "state": "yes", "note": "See your information, how it was used, and who received it." },
-        "pa-au": { "state": "yes", "note": "Access to your information, usually within 30 days." }
+        "pa-au": { "state": "yes", "note": "Access to your information, usually within 30 days." },
+        "pdpa-sg": { "state": "yes", "note": "Your data, plus how it was used or shared in the past year." }
       }
     },
     {
@@ -50,7 +51,8 @@
         "kdpa": { "state": "yes", "note": "Right to erasure." },
         "dpdp": { "state": "yes", "note": "Right to erasure." },
         "pipeda": { "state": "partial", "note": "No general erasure right. Unneeded data should be destroyed, and inaccurate data corrected or deleted." },
-        "pa-au": { "state": "no", "note": "No erasure right. Entities must destroy or de-identify data they no longer need." }
+        "pa-au": { "state": "no", "note": "No erasure right. Entities must destroy or de-identify data they no longer need." },
+        "pdpa-sg": { "state": "no", "note": "No erasure right. Organisations must stop keeping data they no longer need." }
       }
     },
     {
@@ -72,7 +74,8 @@
         "kdpa": { "state": "yes", "note": "Rectification." },
         "dpdp": { "state": "yes", "note": "Correction and updating." },
         "pipeda": { "state": "yes", "note": "Inaccurate or incomplete data must be amended and the change shared where appropriate." },
-        "pa-au": { "state": "yes", "note": "Correction, or a statement attached to the record if refused." }
+        "pa-au": { "state": "yes", "note": "Correction, or a statement attached to the record if refused." },
+        "pdpa-sg": { "state": "yes", "note": "Errors fixed and passed to recent recipients, or the request noted." }
       }
     },
     {
@@ -94,7 +97,8 @@
         "kdpa": { "state": "yes", "note": "Right to data portability." },
         "dpdp": { "state": "no", "note": "No data portability right in the Act." },
         "pipeda": { "state": "no", "note": "No right in force federally. Quebec has one, and a federal amendment awaits regulations." },
-        "pa-au": { "state": "partial", "note": "No general right. The separate Consumer Data Right lets you share data in some sectors." }
+        "pa-au": { "state": "partial", "note": "No general right. The separate Consumer Data Right lets you share data in some sectors." },
+        "pdpa-sg": { "state": "no", "note": "Enacted in 2020 but never brought into force." }
       }
     },
     {
@@ -116,7 +120,8 @@
         "kdpa": { "state": "partial", "note": "Right to object to processing for direct marketing." },
         "dpdp": { "state": "no", "note": "No sale or opt-out-of-sale concept." },
         "pipeda": { "state": "no", "note": "No sale concept. You can withdraw consent instead." },
-        "pa-au": { "state": "no", "note": "No sale concept. You can opt out of direct marketing." }
+        "pa-au": { "state": "no", "note": "No sale concept. You can opt out of direct marketing." },
+        "pdpa-sg": { "state": "no", "note": "No sale concept. You can withdraw consent or join the Do Not Call registry." }
       }
     },
     {
@@ -138,7 +143,8 @@
         "kdpa": { "state": "yes", "note": "Right to object." },
         "dpdp": { "state": "no", "note": "No general objection right; withdrawing consent is the main lever." },
         "pipeda": { "state": "partial", "note": "No objection right, but you can withdraw consent at any time." },
-        "pa-au": { "state": "partial", "note": "No general objection right. You can stop direct marketing." }
+        "pa-au": { "state": "partial", "note": "No general objection right. You can stop direct marketing." },
+        "pdpa-sg": { "state": "partial", "note": "You can withdraw consent at any time. This does not stop processing under exceptions." }
       }
     },
     {
@@ -160,7 +166,8 @@
         "kdpa": { "state": "yes", "note": "Protection against automated decisions." },
         "dpdp": { "state": "no", "note": "No specific automated-decision right in the Act." },
         "pipeda": { "state": "no", "note": "No federal rules. Quebec requires notice and an explanation of automated decisions." },
-        "pa-au": { "state": "no", "note": "No right yet. From December 2026, privacy policies must explain automated decisions." }
+        "pa-au": { "state": "no", "note": "No right yet. From December 2026, privacy policies must explain automated decisions." },
+        "pdpa-sg": { "state": "no", "note": "No statutory right." }
       }
     },
     {
@@ -182,7 +189,8 @@
         "kdpa": { "state": "yes", "note": "A standalone right on four grounds, such as contested accuracy." },
         "dpdp": { "state": "no", "note": "No standalone restriction right." },
         "pipeda": { "state": "no", "note": "No restriction right." },
-        "pa-au": { "state": "no", "note": "No restriction right." }
+        "pa-au": { "state": "no", "note": "No restriction right." },
+        "pdpa-sg": { "state": "no", "note": "No restriction right." }
       }
     },
     {
@@ -204,7 +212,8 @@
         "kdpa": { "state": "no", "note": "No specific rule in the law." },
         "dpdp": { "state": "no", "note": "Not framed as a right." },
         "pipeda": { "state": "no", "note": "No specific rule in the law." },
-        "pa-au": { "state": "no", "note": "No specific rule in the law." }
+        "pa-au": { "state": "no", "note": "No specific rule in the law." },
+        "pdpa-sg": { "state": "no", "note": "No specific rule in the law." }
       }
     }
   ]

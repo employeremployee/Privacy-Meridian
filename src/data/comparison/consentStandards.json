@@ -28,7 +28,8 @@
         "kdpa": { "state": "yes", "note": "Affirmative consent where consent is the basis." },
         "dpdp": { "state": "yes", "note": "Clear affirmative consent required, with limited legitimate uses." },
         "pipeda": { "state": "partial", "note": "Consent is required, but implied consent can do for less sensitive information." },
-        "pa-au": { "state": "no", "note": "Necessity-based collection. Consent is not the default gate." }
+        "pa-au": { "state": "no", "note": "Necessity-based collection. Consent is not the default gate." },
+        "pdpa-sg": { "state": "partial", "note": "Consent is required, but deemed and notification-based consent are allowed." }
       }
     },
     {
@@ -50,7 +51,8 @@
         "kdpa": { "state": "partial", "note": "Consent tied to specified purposes." },
         "dpdp": { "state": "yes", "note": "Consent limited to the specified purpose; itemized notice required." },
         "pipeda": { "state": "partial", "note": "Consent covers the purposes identified. A new purpose needs fresh consent." },
-        "pa-au": { "state": "partial", "note": "Use is tied to the purpose of collection, and consent must be specific." }
+        "pa-au": { "state": "partial", "note": "Use is tied to the purpose of collection, and consent must be specific." },
+        "pdpa-sg": { "state": "yes", "note": "Consent is tied to the purposes notified up front." }
       }
     },
     {
@@ -72,7 +74,8 @@
         "kdpa": { "state": "partial", "note": "Needs a specific statutory ground, which does not include consent. Explicit consent is needed to send it abroad." },
         "dpdp": { "state": "no", "note": "No sensitive-data category." },
         "pipeda": { "state": "partial", "note": "Express consent is generally expected for sensitive information, not strictly required. Quebec requires it." },
-        "pa-au": { "state": "partial", "note": "Sensitive data needs consent, but consent can be implied." }
+        "pa-au": { "state": "partial", "note": "Sensitive data needs consent, but consent can be implied." },
+        "pdpa-sg": { "state": "no", "note": "No special consent rule for sensitive data." }
       }
     },
     {
@@ -94,7 +97,8 @@
         "kdpa": { "state": "yes", "note": "Consent may be withdrawn." },
         "dpdp": { "state": "yes", "note": "Withdrawal must be as easy as giving consent." },
         "pipeda": { "state": "partial", "note": "Consent can be withdrawn at any time with reasonable notice." },
-        "pa-au": { "state": "partial", "note": "Regulator guidance says you can withdraw consent. The Act sets no procedure." }
+        "pa-au": { "state": "partial", "note": "Regulator guidance says you can withdraw consent. The Act sets no procedure." },
+        "pdpa-sg": { "state": "partial", "note": "Withdraw any time on reasonable notice, and organisations cannot forbid it." }
       }
     },
     {
@@ -116,7 +120,8 @@
         "kdpa": { "state": "no", "note": "Consent and lawful-basis framework." },
         "dpdp": { "state": "no", "note": "Consent-based framework." },
         "pipeda": { "state": "partial", "note": "Implied, opt-out consent can work for non-sensitive information people would expect." },
-        "pa-au": { "state": "partial", "note": "Direct marketing works on opt-out. Other uses follow necessity rules." }
+        "pa-au": { "state": "partial", "note": "Direct marketing works on opt-out. Other uses follow necessity rules." },
+        "pdpa-sg": { "state": "partial", "note": "Deemed consent by notification works as an opt-out. Not for marketing." }
       }
     },
     {
@@ -138,7 +143,8 @@
         "kdpa": { "state": "yes", "note": "Consent of a parent or guardian for a child." },
         "dpdp": { "state": "yes", "note": "Verifiable parental consent required for children under 18." },
         "pipeda": { "state": "partial", "note": "Guidance says children under 13 generally need a parent's consent. Quebec sets 14 by law." },
-        "pa-au": { "state": "partial", "note": "No set age. The regulator assesses capacity case by case. A children's code is pending." }
+        "pa-au": { "state": "partial", "note": "No set age. The regulator assesses capacity case by case. A children's code is pending." },
+        "pdpa-sg": { "state": "partial", "note": "No rule in the law. Regulator guidance sets expectations for children's consent." }
       }
     }
   ]

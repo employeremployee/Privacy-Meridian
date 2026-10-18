@@ -28,7 +28,8 @@
         "kdpa": { "state": "yes", "note": "Transfers to countries with adequate safeguards." },
         "dpdp": { "state": "partial", "note": "Transfers allowed except to countries the government restricts." },
         "pipeda": { "state": "no", "note": "No country-approval system for transfers out of Canada." },
-        "pa-au": { "state": "partial", "note": "The government can list countries with similar laws. None are listed yet." }
+        "pa-au": { "state": "partial", "note": "The government can list countries with similar laws. None are listed yet." },
+        "pdpa-sg": { "state": "no", "note": "No government list. The sender checks that protection abroad is comparable." }
       }
     },
     {
@@ -50,7 +51,8 @@
         "kdpa": { "state": "yes", "note": "Contractual safeguards for transfers." },
         "dpdp": { "state": "no", "note": "No standard-contractual-clause regime; transfers turn on the country list." },
         "pipeda": { "state": "partial", "note": "Contracts must give comparable protection. No official standard clauses exist." },
-        "pa-au": { "state": "yes", "note": "Contracts are the usual safeguard. The sender stays accountable for the recipient." }
+        "pa-au": { "state": "yes", "note": "Contracts are the usual safeguard. The sender stays accountable for the recipient." },
+        "pdpa-sg": { "state": "yes", "note": "Contracts with comparable protections that name the countries qualify." }
       }
     },
     {
@@ -72,7 +74,8 @@
         "kdpa": { "state": "yes", "note": "Binding corporate rules recognised since 2021, with ODPC approval." },
         "dpdp": { "state": "no", "note": "Not a recognized mechanism." },
         "pipeda": { "state": "no", "note": "No corporate-rules mechanism. Group transfers rely on accountability." },
-        "pa-au": { "state": "partial", "note": "A binding scheme with similar protection can qualify. There is no formal approval process." }
+        "pa-au": { "state": "partial", "note": "A binding scheme with similar protection can qualify. There is no formal approval process." },
+        "pdpa-sg": { "state": "yes", "note": "Allowed for related group companies." }
       }
     },
     {
@@ -94,7 +97,8 @@
         "kdpa": { "state": "yes", "note": "Consent permits transfer." },
         "dpdp": { "state": "partial", "note": "Consent underpins processing, but transfer turns on the country list." },
         "pipeda": { "state": "no", "note": "Transfers for processing need notice, not consent, under regulator guidance." },
-        "pa-au": { "state": "yes", "note": "Allowed if you agree after being told protections will not apply." }
+        "pa-au": { "state": "yes", "note": "Allowed if you agree after being told protections will not apply." },
+        "pdpa-sg": { "state": "yes", "note": "Allowed after a written summary of the destination's protections." }
       }
     },
     {
@@ -116,7 +120,8 @@
         "kdpa": { "state": "no", "note": "Not a distinct transfer mechanism." },
         "dpdp": { "state": "no", "note": "Not part of the transfer model." },
         "pipeda": { "state": "no", "note": "No certification route for transfers." },
-        "pa-au": { "state": "partial", "note": "Prescribed binding schemes are possible. None are prescribed yet." }
+        "pa-au": { "state": "partial", "note": "Prescribed binding schemes are possible. None are prescribed yet." },
+        "pdpa-sg": { "state": "yes", "note": "APEC and Global Cross-Border Privacy Rules certifications qualify." }
       }
     },
     {
@@ -138,7 +143,8 @@
         "kdpa": { "state": "partial", "note": "Sensitive-data transfers may require confirmation of safeguards." },
         "dpdp": { "state": "no", "note": "No pre-approval; the government instead restricts specific countries." },
         "pipeda": { "state": "no", "note": "No government review. Quebec requires an impact assessment by the business first." },
-        "pa-au": { "state": "no", "note": "No government approval of transfers." }
+        "pa-au": { "state": "no", "note": "No government approval of transfers." },
+        "pdpa-sg": { "state": "no", "note": "No government review of transfers." }
       }
     },
     {
@@ -160,7 +166,8 @@
         "kdpa": { "state": "partial", "note": "Six listed public-interest purposes, such as elections and health care, must use servers in Kenya." },
         "dpdp": { "state": "partial", "note": "The government may require significant data fiduciaries to keep specified data in India. Sector rules can also apply." },
         "pipeda": { "state": "no", "note": "No federal data localization requirement." },
-        "pa-au": { "state": "no", "note": "No general localization requirement." }
+        "pa-au": { "state": "no", "note": "No general localization requirement." },
+        "pdpa-sg": { "state": "no", "note": "No data localisation requirement." }
       }
     }
   ]

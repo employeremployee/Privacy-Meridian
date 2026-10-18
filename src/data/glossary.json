@@ -167,7 +167,7 @@
       "type": "standalone",
       "term": "Legitimate Interests",
       "definition": "Legitimate interests is a legal basis for using personal data without asking for consent. The company needs a genuine interest, and the use must be necessary for it. The company must then weigh that interest against your rights. If your rights outweigh it, the company cannot rely on this basis.",
-      "jurisdiction": "Available under GDPR, UK GDPR, LGPD, POPIA and Kenya's law. Not available under PIPL, APPI or CCPA/CPRA.",
+      "jurisdiction": "Available under GDPR, UK GDPR, LGPD, POPIA and Kenya's law, and as a consent exception under Singapore's PDPA. Not available under PIPL, APPI, CCPA/CPRA, PIPEDA or Australia's Privacy Act.",
       "source": {
         "label": "EDPB Guidelines 1/2024 on legitimate interest (draft for consultation)",
         "url": "https://www.edpb.europa.eu/our-work-tools/documents/public-consultations/2024/guidelines-12024-processing-personal-data-based_en"

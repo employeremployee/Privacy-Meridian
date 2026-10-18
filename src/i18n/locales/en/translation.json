@@ -72,9 +72,12 @@
     "mapOnly": "Law in effect, not yet covered",
     "selected": "Selected country",
     "none": "No comprehensive law",
-    "usNote": "United States: no federal privacy law. The map shows California's law.",
-    "mapOnlyListToggle": "Show the {{count}} countries with a law we do not cover in detail yet",
-    "canadaNote": "Canada: the map shows the federal law. Quebec, Alberta and British Columbia have their own private-sector laws."
+    "mapOnlyListToggle": "Show the {{count}} laws in effect that we do not cover yet: countries, US states and Canadian provinces",
+    "mapOnlyGroups": {
+      "countries": "Countries ({{count}})",
+      "usStates": "US states ({{count}})",
+      "caProvinces": "Canadian provinces ({{count}})"
+    }
   },
   "topicPicker": {
     "label": "Topic"

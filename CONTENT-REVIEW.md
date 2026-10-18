@@ -710,3 +710,16 @@ or Japan has a rule against penalising people for using their rights.
   Saint Lucia, Antigua and Barbuda, The Gambia, Djibouti, DR Congo, Burundi, Kuwait
   (sectoral only), Curaçao, Sint Maarten, Aruba.
 - Follow-ups: Egypt and Chile change status within weeks of launch; revisit then.
+
+## US states and Canadian provinces on the map, 2026-10-18 (Jared's UI review)
+- Map now draws US states and Canadian provinces (Natural Earth 50m admin-1, public domain,
+  simplified to 316 KB, self-hosted). California opens the CCPA page; every province opens
+  PIPEDA for now.
+- A read-only agent listed state laws from law-firm trackers (Covington, Venable, Morgan
+  Lewis, Hunton, WilmerHale) dated June-Sept 2026; official links not opened. 18 states other
+  than California have a comprehensive law in effect and take the map-only tint.
+- Grey for now: Oklahoma, Louisiana (1 Jan 2027), Alabama (1 May 2027), Vermont (1 Jan 2028)
+  are enacted but not in effect. Florida's Digital Bill of Rights (only $1B+ companies) is left
+  out, as most trackers do (flagged to Jared). Massachusetts and Pennsylvania bills not enacted.
+- Provinces with their own laws (Quebec, Alberta, BC) are listed in the map-only list under
+  "Canadian provinces"; on the map they stay dark blue (PIPEDA).

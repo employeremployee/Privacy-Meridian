@@ -129,6 +129,8 @@ Run this for every country or law added to the site (Canada, Australia, Singapor
 - `src/data/jurisdictions/<id>.json`: the law page, same schema as the existing 14.
 - `src/pages/MapHomePage.jsx`: import the JSON and add it to `JURISDICTIONS_DATA`.
 - `src/data/countryStatus.js`: map the ISO numeric code(s) to the law id so the country is colored and clickable.
+- For a US state or Canadian province law: the US and Canada are drawn from `public/maps/us-canada-50m.json` (ids like "US-VA", "CA-QC"), not the world map. Map the id in `jurisdictionForRegion` in `src/components/MapExplorer.jsx`, and remove it from `MAP_ONLY_STATE_LAWS` / `MAP_ONLY_PROVINCE_LAWS` in `src/data/mapOnlyLaws.js`.
+- `src/data/mapOnlyLaws.js`: remove the country from the map-only list once it is covered in detail.
 - `src/data/mapCountries.js`: the picker label and every country option. Small or missing map shapes (Malta, Hong Kong) are picker-only.
 - Every file in `src/data/comparison/`: add a cell for the new id in every row, using line-based edits (never re-serialize these files).
 

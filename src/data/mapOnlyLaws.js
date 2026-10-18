@@ -105,7 +105,43 @@ export const MAP_ONLY_LAWS = [
   { name: "Zimbabwe", iso: "716", law: "Data Protection Act 2021 (Chapter 12:07)", onMap: true },
 ]
 
-const BY_CODE = new Map(MAP_ONLY_LAWS.filter((entry) => entry.iso).map((entry) => [entry.iso, entry]))
+// US states with a comprehensive consumer privacy law in effect, other than
+// California (covered in detail). Ids match the state shapes in
+// public/maps/us-canada-50m.json. Laws enacted but not yet in effect
+// (Oklahoma, Louisiana, Alabama, Vermont) and Florida's narrow law are left out.
+export const MAP_ONLY_STATE_LAWS = [
+  { name: "Virginia", iso: "US-VA", law: "Consumer Data Protection Act", onMap: true },
+  { name: "Colorado", iso: "US-CO", law: "Colorado Privacy Act", onMap: true },
+  { name: "Connecticut", iso: "US-CT", law: "Connecticut Data Privacy Act", onMap: true },
+  { name: "Utah", iso: "US-UT", law: "Utah Consumer Privacy Act", onMap: true },
+  { name: "Texas", iso: "US-TX", law: "Texas Data Privacy and Security Act", onMap: true },
+  { name: "Oregon", iso: "US-OR", law: "Oregon Consumer Privacy Act", onMap: true },
+  { name: "Montana", iso: "US-MT", law: "Montana Consumer Data Privacy Act", onMap: true },
+  { name: "Iowa", iso: "US-IA", law: "Iowa Consumer Data Protection Act", onMap: true },
+  { name: "Delaware", iso: "US-DE", law: "Delaware Personal Data Privacy Act", onMap: true },
+  { name: "Nebraska", iso: "US-NE", law: "Nebraska Data Privacy Act", onMap: true },
+  { name: "New Hampshire", iso: "US-NH", law: "New Hampshire Privacy Act", onMap: true },
+  { name: "New Jersey", iso: "US-NJ", law: "New Jersey Data Privacy Act", onMap: true },
+  { name: "Tennessee", iso: "US-TN", law: "Tennessee Information Protection Act", onMap: true },
+  { name: "Minnesota", iso: "US-MN", law: "Minnesota Consumer Data Privacy Act", onMap: true },
+  { name: "Maryland", iso: "US-MD", law: "Maryland Online Data Privacy Act", onMap: true },
+  { name: "Indiana", iso: "US-IN", law: "Indiana Consumer Data Protection Act", onMap: true },
+  { name: "Kentucky", iso: "US-KY", law: "Kentucky Consumer Data Protection Act", onMap: true },
+  { name: "Rhode Island", iso: "US-RI", law: "Rhode Island Data Transparency and Privacy Protection Act", onMap: true },
+]
+
+// Canadian provinces with their own private-sector law, declared substantially
+// similar to PIPEDA. On the map these provinces still open the federal law
+// page, so they are listed here but not tinted.
+export const MAP_ONLY_PROVINCE_LAWS = [
+  { name: "Quebec", iso: "CA-QC", law: "Act respecting the protection of personal information in the private sector (Law 25)", onMap: true },
+  { name: "Alberta", iso: "CA-AB", law: "Personal Information Protection Act", onMap: true },
+  { name: "British Columbia", iso: "CA-BC", law: "Personal Information Protection Act", onMap: true },
+]
+
+const BY_CODE = new Map(
+  [...MAP_ONLY_LAWS, ...MAP_ONLY_STATE_LAWS].filter((entry) => entry.iso).map((entry) => [entry.iso, entry]),
+)
 
 export function getMapOnlyLaw(code) {
   return BY_CODE.get(code) || null

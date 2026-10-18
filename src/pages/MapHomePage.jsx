@@ -231,6 +231,10 @@ function MapHomePage() {
         <MapLegend />
       </div>
 
+      <p aria-live="polite" className="sr-only">
+        {exploreLaw && view === 'explore' ? t('home.lawShown', { name: exploreLaw.fullName }) : ''}
+      </p>
+
       <div className="mt-8">
         {view === 'explore' ? (
           exploreSelection ? (
@@ -245,7 +249,7 @@ function MapHomePage() {
           )
         ) : (
           <div>
-            <nav aria-label={t('topicPicker.label')} className="mb-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
+            <div role="group" aria-label={t('topicPicker.label')} className="mb-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
               {COMPARISON_TOPICS.map((topic) => {
                 const isActive = topic.topicId === compareTopicId
                 return (
@@ -264,7 +268,7 @@ function MapHomePage() {
                   </button>
                 )
               })}
-            </nav>
+            </div>
             <h2 className="mb-4 text-xl font-bold text-ink">{activeTopic.topicLabel}</h2>
             <ComparisonMatrix
               data={activeTopic}

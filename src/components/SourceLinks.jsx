@@ -7,9 +7,9 @@ function SourceLinks({ links }) {
 
   return (
     <div className="mt-4">
-      <h3 className="text-xs font-medium uppercase tracking-wide text-ink">
+      <h4 className="text-xs font-medium uppercase tracking-wide text-ink">
         {t('contentBlock.sourceLinksLabel')}
-      </h3>
+      </h4>
       <ul className="mt-1 space-y-1">
         {links.map((link) => (
           <li key={link.url + link.label}>

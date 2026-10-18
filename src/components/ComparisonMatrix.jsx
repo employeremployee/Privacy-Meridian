@@ -18,6 +18,7 @@ function ComparisonMatrix({ data, selectedIds, jurisdictionsData }) {
     <div>
       <div className="overflow-x-auto rounded-lg border border-rule">
         <table className="w-full border-collapse">
+          <caption className="sr-only">{data.topicLabel}</caption>
           <thead>
             <tr>
               <th

@@ -12,9 +12,9 @@ function GapRemediation({ gapRemediation }) {
 
   return (
     <div className="mt-4">
-      <h3 className="text-xs font-medium uppercase tracking-wide text-ink">
+      <h4 className="text-xs font-medium uppercase tracking-wide text-ink">
         {t('gapRemediation.heading')}
-      </h3>
+      </h4>
 
       <div className="mt-2 hidden md:grid md:grid-cols-3 md:gap-4">
         {TIERS.map((tier) => (

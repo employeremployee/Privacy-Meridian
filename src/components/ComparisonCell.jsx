@@ -5,7 +5,7 @@ function ComparisonCell({ cell }) {
   const { t } = useTranslation()
 
   if (!cell) {
-    return <span className="text-sm text-ink">n/a</span>
+    return <span className="text-sm text-ink">{t('comparison.notApplicable')}</span>
   }
 
   // Value cell: a short text value plus an optional note.

@@ -46,7 +46,7 @@ function DrilldownReadout({ jurisdictionData, glossaryData }) {
         <span className="font-mono text-xs text-ink">{jurisdiction.citation}</span>
       </div>
 
-      <nav aria-label={t('topicPicker.label')} className="mt-4 flex flex-wrap gap-2">
+      <div role="group" aria-label={t('topicPicker.label')} className="mt-4 flex flex-wrap gap-2">
         {topics.map((topic) => {
           const isActive = topic.id === activeTopic
           return (
@@ -65,7 +65,7 @@ function DrilldownReadout({ jurisdictionData, glossaryData }) {
             </button>
           )
         })}
-      </nav>
+      </div>
 
       <div className="mt-4">
         <label className="inline-flex items-center gap-2 text-sm font-medium text-ink">

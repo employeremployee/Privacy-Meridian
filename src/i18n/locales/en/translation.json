@@ -60,6 +60,7 @@
     "exploreHint": "Pick a country on the map to see its privacy law.",
     "compareTitle": "Compare: {{topic}}",
     "lawTitle": "{{name}}, {{region}}",
+    "lawShown": "Showing {{name}} below the map.",
     "compareHint": "Pick a topic, then pick countries on the map to compare them side by side.",
     "compareSelectedCount": "{{count}} of {{max}} countries selected.",
     "compareLimitReached": "Limit reached. Remove a country before adding another."
@@ -86,7 +87,8 @@
     "partial": "Partial",
     "no": "No",
     "pickCountries": "Pick countries on the map to compare.",
-    "keyHeading": "What the answers mean"
+    "keyHeading": "What the answers mean",
+    "notApplicable": "n/a"
   },
   "organizations": {
     "toggle": "Help for Organizations",

@@ -23,6 +23,7 @@ function TooltipTerm({ termId, glossaryData, children }) {
       </Popover.Trigger>
       <Popover.Portal>
         <Popover.Content
+          aria-label={term.term}
           side="top"
           collisionPadding={8}
           sideOffset={6}

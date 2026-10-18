@@ -11,9 +11,9 @@ function CrossReference({ references, jurisdictionData, onNavigate }) {
 
   return (
     <div className="mt-4">
-      <h3 className="text-xs font-medium uppercase tracking-wide text-ink">
+      <h4 className="text-xs font-medium uppercase tracking-wide text-ink">
         {t('contentBlock.crossReferencesLabel')}
-      </h3>
+      </h4>
       <ul className="mt-1 space-y-1">
         {references.map((ref) => {
           const location = findArticleLocation(jurisdictionData, ref.articleId)

@@ -45,7 +45,7 @@ function filterZoomEvent(event) {
   return !String(event.type).startsWith('touch')
 }
 
-function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onSelectJurisdiction }) {
+function MapExplorer({ jurisdictionsData, selectedIds = [], onSelectJurisdiction }) {
   const { t } = useTranslation()
   const [hoveredLabel, setHoveredLabel] = useState(null)
   // The country path that has keyboard focus, so the ring can be drawn on top.
@@ -73,6 +73,9 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
       <div className="mx-auto max-w-[1040px] touch-pan-y overflow-hidden rounded-lg border border-rule bg-paper">
         <ComposableMap
           projection="geoMercator"
+          // Scale so the full 360 degrees of longitude fit the 800px frame.
+          // The library default (160) cut off New Zealand and the far east.
+          projectionConfig={{ scale: MAP_WIDTH / (2 * Math.PI) }}
           width={MAP_WIDTH}
           height={MAP_HEIGHT}
           style={{ width: '100%', height: 'auto' }}
@@ -150,7 +153,7 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
                       geography={geo}
                       tabIndex={0}
                       role="button"
-                      aria-pressed={mode === 'multi' ? isSelected : undefined}
+                      aria-pressed={isSelected}
                       aria-label={ariaLabel}
                       onMouseEnter={() => setHoveredLabel(label)}
                       onMouseLeave={() => setHoveredLabel(null)}

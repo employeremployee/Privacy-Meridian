@@ -108,7 +108,8 @@ function MapHomePage() {
 
   function handleSelect(jurisdictionId, countryName) {
     if (view === 'explore') {
-      setExploreSelection(jurisdictionId)
+      // Picking the law that is already shown clears it, so the map acts as a toggle.
+      setExploreSelection((current) => (current === jurisdictionId ? null : jurisdictionId))
       return
     }
 
@@ -228,7 +229,6 @@ function MapHomePage() {
 
       <MapExplorer
         jurisdictionsData={JURISDICTIONS_DATA}
-        mode={view === 'compare' ? 'multi' : 'single'}
         selectedIds={selectedIds}
         onSelectJurisdiction={handleSelect}
       />

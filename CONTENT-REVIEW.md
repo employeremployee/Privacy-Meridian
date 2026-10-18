@@ -691,3 +691,22 @@ or Japan has a rule against penalising people for using their rights.
 - Glossary: the legitimate-interests availability line now mentions Singapore (exception),
   PIPEDA and Australia (not available).
 - Tooltip scan: 7 new popups, all fitting; existing unchanged.
+
+## Map-only tier, 2026-10-18
+- A read-only agent listed every jurisdiction with a comprehensive (private-sector) privacy
+  law in force on 18 Oct 2026, outside the 17 laws covered in detail. Laws from 2023 on were
+  checked against official or gazette-linked sources; older laws against legal trackers
+  (DLA Piper, UNCTAD). Exact in-force days for older laws were not checked one by one; the
+  site does not show them.
+- 91 countries are shown: 79 colored on the map (Map-Only Navy #647FA3, not clickable, named
+  on hover) and all 91 in a text list under the map key ("Show the 91 countries...").
+- Judgment calls (flagged to Jared): dependent territories (Jersey, Guernsey, Isle of Man,
+  Gibraltar, Bermuda, Cayman, BVI, Faroe) left out; Hong Kong, Macau and Taiwan included;
+  Kosovo listed in text only (no map code); Laos included although its law covers
+  electronic data only; Chile shows its 1999 law until Law 21.719 applies (1 Dec 2026).
+- Left out as passed but not in force: Egypt (full compliance due 31 Oct 2026), Sri Lanka
+  (1 Jan 2027), Paraguay (~Nov 2027), Guyana, Belize, Saint Kitts and Nevis.
+- Left out as uncertain: UAE (no executive regulations), Bangladesh, Trinidad and Tobago,
+  Saint Lucia, Antigua and Barbuda, The Gambia, Djibouti, DR Congo, Burundi, Kuwait
+  (sectoral only), Curaçao, Sint Maarten, Aruba.
+- Follow-ups: Egypt and Chile change status within weeks of launch; revisit then.

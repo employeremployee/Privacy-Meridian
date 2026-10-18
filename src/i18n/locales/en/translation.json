@@ -51,6 +51,7 @@
     "viewCountryLabel": "{{country}}: {{name}}. View details.",
     "selectedCountryLabel": "{{country}}: {{name}}, selected. Activate to remove from comparison.",
     "currentlyHighlighting": "Highlighting: {{name}}",
+    "mapOnlyLabel": "{{country}}: {{law}}. Not covered in detail yet.",
     "nationalImplementationNote": "GDPR applies across the EU. {{country}} may also have additional national implementation."
   },
   "home": {
@@ -68,9 +69,11 @@
   "legend": {
     "heading": "Map key",
     "enacted": "Comprehensive law in effect",
+    "mapOnly": "Law in force, not covered in detail",
     "selected": "Selected country",
     "none": "No comprehensive law",
     "usNote": "United States: no federal privacy law. The map shows California's law.",
+    "mapOnlyListToggle": "Show the {{count}} countries with a law we do not cover in detail yet",
     "canadaNote": "Canada: the map shows the federal law. Quebec, Alberta and British Columbia have their own private-sector laws."
   },
   "topicPicker": {

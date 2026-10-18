@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from 'react-simple-maps'
 import { getJurisdictionForCountryCode } from '../data/countryStatus.js'
+import { getMapOnlyLaw } from '../data/mapOnlyLaws.js'
 
 // Honor Vite's base path so the topology resolves under a Pages subpath too.
 const GEO_URL = `${import.meta.env.BASE_URL}maps/world-110m.json`
@@ -20,6 +21,9 @@ const FILL = {
   enactedHover: '#16213E',
   selected: '#5B9BD5',
   selectedHover: '#4A8BC7',
+  // Law in force, not covered in detail (approved 2026-10-18). A greyed navy
+  // chosen for at least 3:1 against covered blue and the page background.
+  mapOnly: '#647FA3',
   none: '#D4D0CC',
 }
 
@@ -92,19 +96,27 @@ function MapExplorer({ jurisdictionsData, mode = 'single', selectedIds = [], onS
                   const label = labelForGeo(geo)
                   const isSelected = interactive && selectedIds.includes(jurisdictionId)
 
-                  // Non-interactive countries (no law in force) are neutral grey.
+                  // Non-interactive countries. Those with a law in force that the
+                  // site does not cover yet get the map-only tint and name their law
+                  // on hover. The rest (no law in force) are neutral grey. Neither is
+                  // a tab stop: the list under the legend gives the same information.
                   if (!interactive) {
+                    const mapOnly = getMapOnlyLaw(geo.id)
+                    const fill = mapOnly ? FILL.mapOnly : FILL.none
+                    const stroke = mapOnly ? '#FFFFFF' : '#F8F7F4'
+                    const flat = { fill, stroke, strokeWidth: 0.5, outline: 'none' }
+                    const mapOnlyLabel = mapOnly
+                      ? t('map.mapOnlyLabel', { country: mapOnly.name, law: mapOnly.law })
+                      : null
                     return (
                       <Geography
                         key={geo.rsmKey}
                         geography={geo}
                         tabIndex={-1}
                         aria-hidden="true"
-                        style={{
-                          default: { fill: FILL.none, stroke: '#F8F7F4', strokeWidth: 0.5, outline: 'none' },
-                          hover: { fill: FILL.none, stroke: '#F8F7F4', strokeWidth: 0.5, outline: 'none' },
-                          pressed: { fill: FILL.none, stroke: '#F8F7F4', strokeWidth: 0.5, outline: 'none' },
-                        }}
+                        onMouseEnter={mapOnly ? () => setHoveredLabel(mapOnlyLabel) : undefined}
+                        onMouseLeave={mapOnly ? () => setHoveredLabel(null) : undefined}
+                        style={{ default: flat, hover: flat, pressed: flat }}
                       />
                     )
                   }

@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { useDocumentTitle } from '../hooks/useDocumentTitle.js'
 
 // Catch-all for unknown URLs so a typo or dead link never lands on a blank page.
 function NotFoundPage() {
   const { t } = useTranslation()
+  useDocumentTitle(t('notFound.title'))
 
   return (
     <main className="mx-auto max-w-[1200px] px-4 py-12">

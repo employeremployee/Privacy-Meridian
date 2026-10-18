@@ -23,6 +23,7 @@ import MapLegend from '../components/MapLegend.jsx'
 import DrilldownReadout from '../components/DrilldownReadout.jsx'
 import ComparisonMatrix from '../components/ComparisonMatrix.jsx'
 import CountryCombobox from '../components/CountryCombobox.jsx'
+import { useDocumentTitle } from '../hooks/useDocumentTitle.js'
 
 const JURISDICTIONS_DATA = {
   gdpr: gdprData,
@@ -74,6 +75,16 @@ function MapHomePage() {
     COMPARISON_TOPICS.find((topic) => topic.topicId === compareTopicId) || COMPARISON_TOPICS[0]
 
   const compareLimitReached = compareSelection.length >= MAX_COMPARE
+
+  // Tab title follows the view: the chosen law in Explore, the topic in Compare.
+  const exploreLaw = exploreSelection ? JURISDICTIONS_DATA[exploreSelection].jurisdiction : null
+  useDocumentTitle(
+    view === 'compare'
+      ? t('home.compareTitle', { topic: activeTopic.topicLabel })
+      : exploreLaw
+        ? t('home.lawTitle', { name: exploreLaw.name, region: exploreLaw.region })
+        : null,
+  )
 
   // Country names to show checked in the multi-select picker.
   const checkedNames = new Set(

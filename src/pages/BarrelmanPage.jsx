@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { useDocumentTitle } from '../hooks/useDocumentTitle.js'
 import NewsCard from '../components/NewsCard.jsx'
 import NewsFilters from '../components/NewsFilters.jsx'
 import NewsPagination from '../components/NewsPagination.jsx'
@@ -32,6 +33,7 @@ const NEWS_URL = import.meta.env.DEV ? LIVE_FEED_URL : `${import.meta.env.BASE_U
 
 function BarrelmanPage() {
   const { t, i18n } = useTranslation()
+  useDocumentTitle(t('barrelman.title'))
   const [feed, setFeed] = useState(null)
   const [status, setStatus] = useState('loading') // loading | ready | error
 

@@ -13,6 +13,9 @@ function NewsCard({ item }) {
   // Non-English articles carry a language note so a click-through is never a
   // surprise. The original headline shows on hover.
   const isForeign = item.lang && item.lang !== 'en'
+  // An untranslated foreign headline is marked with its language so screen
+  // readers switch voice instead of reading it with English rules.
+  const headlineLang = isForeign && !item.originalTitle ? item.lang : undefined
   const languageNote = isForeign ? t('barrelman.inLanguage', { language: t(`barrelman.language.${item.lang}`) }) : null
 
   return (
@@ -31,7 +34,7 @@ function NewsCard({ item }) {
           <span className="text-xs text-ink">{dateLabel}</span>
         </div>
 
-        <h3 className="line-clamp-3 text-base font-semibold leading-snug text-ink group-hover:text-meridian-blue">
+        <h3 lang={headlineLang} className="line-clamp-3 text-base font-semibold leading-snug text-ink group-hover:text-meridian-blue">
           {item.title}
         </h3>
 

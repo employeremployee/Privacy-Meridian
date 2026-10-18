@@ -29,7 +29,9 @@ export const RSS_SOURCES = [
   { name: 'CNIL', feed: 'https://www.cnil.fr/fr/rss.xml', category: 'legal-regulatory', region: 'europe', lang: 'fr', trusted: true },
   { name: 'Autoriteit Persoonsgegevens', feed: 'https://autoriteitpersoonsgegevens.nl/rss', category: 'legal-regulatory', region: 'europe', lang: 'nl', trusted: true },
   { name: 'noyb', feed: 'https://noyb.eu/en/rss', category: 'legal-regulatory', region: 'europe', lang: 'en', trusted: true, pathDeny: ['join', 'donate', 'support', 'project'] },
-  { name: 'FTC', feed: 'https://www.ftc.gov/feeds/press-release-consumer-protection.xml', category: 'legal-regulatory', region: 'americas', lang: 'en' },
+  // The FTC feed covers all consumer protection (crypto, fees), so its items
+  // must carry a privacy term in the headline itself.
+  { name: 'FTC', feed: 'https://www.ftc.gov/feeds/press-release-consumer-protection.xml', category: 'legal-regulatory', region: 'americas', lang: 'en', headlineRelevance: true },
 
   // Specialist legal analysis
   { name: 'Hunton Privacy', feed: 'https://www.huntonprivacyblog.com/feed/', category: 'legal-regulatory', region: 'unspecified', lang: 'en' },
@@ -195,6 +197,11 @@ export const EXCLUDE_TERMS = [
   'save the date', 'nominate', 'call for nominations',
   'award recipient', 'career achievement', 'advisory board',
   'speaking engagements', 'upcoming speaking',
+  // Spam pages and storage-industry "data protection" (backup, not privacy law)
+  'porn', 'hentai', 'nsfw', 'smart contract', 'cyber resilience', 'backup',
+  'storage and data protection',
+  // Paid releases and vendor marketing, which are not news
+  'press release', 'sponsored', 'webinar', 'quantum-ready', 'quantum-safe',
   // Non-English solicitation
   'spenden', 'jetzt spenden', 'przekaż', 'wesprzyj', 'пожертвовать', 'haz una donación',
   // Celebrity / human-interest "privacy" (a person pleading to be left alone),
@@ -225,9 +232,10 @@ export const CATEGORY_HINTS = [
     words: [
       // English
       'breach', 'data leak', 'leaked', 'hacked', 'ransomware', 'exposed', 'stolen data',
-      'data theft', 'compromised', 'exfiltrat', 'records exposed', 'misconfigur',
+      'data theft', 'compromised', 'exfiltrat', 'records exposed', 'misconfigur', 'leak', 'hack',
       // Other languages
-      'datenleck', 'datenpanne', 'fuite de données', 'filtración', 'violación de datos',
+      'datalek', 'gehackt', 'fuga di dati', 'violazione dei dati', 'fuga de datos',
+      'violation de données', 'naruszenie danych', 'datenleck', 'datenpanne', 'fuite de données', 'filtración', 'violación de datos',
       'vazamento', 'utyczka', 'wyciek danych', 'утечка', '情報漏洩', '個人情報漏', '個資外洩',
       '資料外洩', '데이터 유출', '개인정보 유출', '数据泄露', '数据泄漏', 'تسريب',
     ],
@@ -242,9 +250,20 @@ export const CATEGORY_HINTS = [
       'consultation', 'agenda', 'plenary', 'settlement', 'injunction', 'order',
       // Other languages
       'amende', 'multa', 'bußgeld', 'geldstrafe', 'grzywna', 'штраф', 'sentenza',
+      'boete', 'sanción', 'sanzione', 'sanção', 'sanctionne', 'condamn', 'tribunal', 'urteil',
+      'gericht', 'rechtbank', 'garante', 'autorité', 'aufsichtsbehörde', 'toezichthouder',
       '罚款', '過料', '課徴金', '과징금', '벌금', '判决', '法改正', '改正法', '法案',
     ],
   },
+]
+
+// Strong enforcement outcomes. When a headline carries one, the story is filed
+// as Legal & Regulatory even if it also mentions a breach, since the news is the
+// regulator's or court's action (a fine over a leak, a ruling on tracking pixels).
+export const ENFORCEMENT_TERMS = [
+  'fined', 'fines ', 'penalty', 'penalised', 'penalized', 'determination', 'settlement',
+  'lawsuit', 'class action', 'sued', 'sues ', 'amende', 'bußgeld', 'boete', 'sanción',
+  'sanzione', 'sanção', '罚款', '과징금', '課徴金',
 ]
 
 // Cross-border is a positive category, not a default. An article earns it only
@@ -260,6 +279,18 @@ export const CROSS_BORDER_TERMS = [
   'schrems', 'transatlantic', 'eu-u.s.', 'eu-us', 'eu-uk', 'uk-us',
   'between the eu and', 'trade agreement', 'data pact', 'data bridge',
 ]
+
+// Display names for outlets that sometimes arrive as a bare domain, so the
+// same outlet never shows under two names.
+export const SOURCE_NAMES = {
+  'thehindu.com': 'The Hindu',
+  'indianexpress.com': 'The Indian Express',
+  'theguardian.com': 'The Guardian',
+  'reuters.com': 'Reuters',
+  'apnews.com': 'AP News',
+  'scmp.com': 'South China Morning Post',
+  'finance.yahoo.com': 'Yahoo Finance',
+}
 
 export const REGION_HINTS = [
   { region: 'europe', words: ['eu ', 'europe', 'gdpr', 'brussels', 'ireland', 'germany', 'france', 'italy', 'spain', 'uk ', 'britain'] },

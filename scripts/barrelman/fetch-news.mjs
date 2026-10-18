@@ -36,6 +36,8 @@ import {
   CATEGORY_HINTS,
   CROSS_BORDER_TERMS,
   REGION_HINTS,
+  ENFORCEMENT_TERMS,
+  SOURCE_NAMES,
 } from './sources.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -112,6 +114,7 @@ async function fromRss(source) {
       region: source.region,
       lang: source.lang || 'en',
       trusted: !!source.trusted,
+      headlineRelevance: !!source.headlineRelevance,
       pathAllow: source.pathAllow,
       pathDeny: source.pathDeny,
     }))
@@ -340,16 +343,21 @@ function passesGates(item) {
   // query) skip the keyword relevance gate. This also lets their non-English
   // titles through without English keyword matching.
   if (item.trusted || item.vouched) return true
+  if (item.headlineRelevance) return isRelevant(item.title.toLowerCase())
   if (!isRelevant(text)) return false
   return true
 }
 
-function canonical(url) {
+// Tracking parameters that tell a publisher where a click came from. They are
+// removed from the links we publish, so visiting a story from the feed leaks
+// nothing about the reader, and from dedupe keys, so tagged copies match.
+const TRACKING_PARAM = /^(utm_|mc_|fbclid$|gclid$|dclid$|msclkid$|igshid$|cre$|mod$|rfunc$|tj$|tr$|pos$|spm$|ref_src$|cmpid$|smid$|ito$)/i
+
+function stripTracking(url) {
   try {
     const u = new URL(url)
-    u.hash = ''
     for (const key of [...u.searchParams.keys()]) {
-      if (/^(utm_|fbclid|gclid|mc_)/i.test(key)) u.searchParams.delete(key)
+      if (TRACKING_PARAM.test(key)) u.searchParams.delete(key)
     }
     return u.toString()
   } catch {
@@ -357,17 +365,74 @@ function canonical(url) {
   }
 }
 
+function canonical(url) {
+  try {
+    const u = new URL(stripTracking(url))
+    u.hash = ''
+    return u.toString()
+  } catch {
+    return url
+  }
+}
+
+// A redirect that ends on a cookie or consent wall instead of the article.
+function isConsentWall(url) {
+  try {
+    const u = new URL(url)
+    return (
+      /^(consent|myprivacy|cmp|cookies?)\./i.test(u.hostname) ||
+      /^\/(consent|privacy-gate|cookiewall)(\/|$)/i.test(u.pathname)
+    )
+  } catch {
+    return false
+  }
+}
+
+// Outlet name for display: a known domain gets its proper name.
+function sourceName(source) {
+  const key = (source || '').toLowerCase().replace(/^www\./, '')
+  return SOURCE_NAMES[key] || source
+}
+
+// Normalized headline words for near-duplicate detection.
+const STOPWORDS = new Set(['the', 'a', 'an', 'of', 'to', 'in', 'on', 'for', 'and', 'or', 'with', 'by', 'at', 'from', 'is', 'are', 'as', 'its', 'after', 'over', 'new'])
+function titleWords(title) {
+  return new Set(
+    title
+      .toLowerCase()
+      .split(/[^\p{L}\p{N}]+/u)
+      .filter((w) => w && !STOPWORDS.has(w)),
+  )
+}
+
+// Two headlines are the same story when most of their words overlap. Short or
+// unspaced headlines (CJK) fall back to exact matching, since word overlap is
+// not meaningful for them.
+function sameStory(a, b) {
+  if (a.size < 4 || b.size < 4) return false
+  let shared = 0
+  for (const w of a) if (b.has(w)) shared += 1
+  return shared / Math.min(a.size, b.size) >= 0.7
+}
+
 function classify(item) {
   const hay = `${item.title} ${item.summary}`.toLowerCase()
 
   let category = item.category
+  if (ENFORCEMENT_TERMS.some((w) => item.title.toLowerCase().includes(w))) {
+    return withRegion(item, 'legal-regulatory')
+  }
   for (const hint of CATEGORY_HINTS) {
     if (hint.words.some((w) => hay.includes(w))) {
       category = hint.category
       break
     }
   }
+  return withRegion(item, category)
+}
 
+function withRegion(item, category) {
+  const hay = `${item.title} ${item.summary}`.toLowerCase()
   // Region axis: cross-border topics win, then a specific geographic hint, then
   // the source's own home region, else unspecified. Cross-border is matched on
   // the title alone so a stray "data transfer" deep in a summary can't misfile
@@ -406,8 +471,8 @@ async function verify(item) {
     return {
       id: createHash('sha1').update(canonical(item.url)).digest('hex').slice(0, 12),
       title: item.title,
-      url: res.url || item.url,
-      source: item.source,
+      url: stripTracking(res.url && !isConsentWall(res.url) ? res.url : item.url),
+      source: sourceName(item.source),
       publishedAt: item.publishedAt,
       category: item.category,
       region: item.region,
@@ -568,12 +633,17 @@ async function main() {
   })
   const seenUrl = new Set()
   const seenTitle = new Set()
+  const keptWords = []
   items = items.filter((it) => {
     const cu = canonical(it.url)
     const ct = it.title.toLowerCase()
     if (seenUrl.has(cu) || seenTitle.has(ct)) return false
+    // Near-duplicates collapse to the first, most authoritative copy.
+    const words = titleWords(it.title)
+    if (keptWords.some((w) => sameStory(w, words))) return false
     seenUrl.add(cu)
     seenTitle.add(ct)
+    keptWords.push(words)
     return true
   })
 

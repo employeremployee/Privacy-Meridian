@@ -78,3 +78,12 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* Masthead title: large, in the page-background color, with its baseline set on
+   the bottom edge of the navy band (see Header.jsx). The negative margin pulls
+   the baseline down past the font's built-in space below the letters. */
+.masthead-title {
+  font-size: clamp(2.75rem, 10vw, 7rem);
+  line-height: 1;
+  margin-bottom: -0.145em;
+}

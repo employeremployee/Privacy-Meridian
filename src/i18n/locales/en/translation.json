@@ -114,12 +114,15 @@
     "about": "About",
     "lastUpdated": "Last updated October 2026",
     "copyright": "© 2026 Privacy Meridian. All rights reserved.",
-    "notLegalAdvice": "Privacy Meridian explains privacy laws in plain language. It is general information, not legal advice.",
-    "privacyNote": "This site collects nothing about you. No cookies, no trackers, no analytics."
+    "notLegalAdvice": "Privacy Meridian explains privacy laws in plain language. This site might not be updated with the latest legal developments. It is general information, not legal advice.",
+    "privacyNote": "No cookies, no trackers, no analytics.",
+    "siteMapLabel": "Site map",
+    "siteMap": {
+      "explore": "Explore and compare laws"
+    }
   },
   "nav": {
     "barrelman": "Privacy Barrelman",
-    "news": "News",
     "backToMap": "Back to the map"
   },
   "notFound": {
@@ -173,6 +176,32 @@
       "ko": "Korean",
       "it": "Italian",
       "ar": "Arabic"
+    }
+  },
+  "about": {
+    "title": "About Privacy Meridian",
+    "intro": "Privacy Meridian explains how privacy laws around the world protect you, in plain language. It is free, and it collects nothing about you.",
+    "sections": {
+      "what": {
+        "heading": "What this site is",
+        "body": "A public guide to the privacy laws that shape how organizations handle your data. Each law covered in detail gets a plain summary, a note on why it matters to you, and a section for professionals."
+      },
+      "how": {
+        "heading": "How we research the laws",
+        "body": "Every page is checked against the official text of the law and guidance from its regulator. Claims that rest only on secondary sources are left out until they can be confirmed. Each page links to its sources so you can check them yourself."
+      },
+      "use": {
+        "heading": "What you can do here",
+        "body": "Explore a law by picking a country on the map. Compare up to five laws side by side by topic. Read the latest privacy news from around the world in Privacy Barrelman, with headlines translated into English."
+      },
+      "privacy": {
+        "heading": "Your privacy here",
+        "body": "This site sets no cookies and uses no trackers or analytics. It loads nothing from other websites, so your visit stays between you and this site."
+      },
+      "advice": {
+        "heading": "Not legal advice",
+        "body": "Laws change, and this site might not reflect the latest developments. Use it to understand the landscape, and speak with a qualified lawyer before making legal decisions."
+      }
     }
   }
 }

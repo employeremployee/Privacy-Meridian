@@ -5,6 +5,7 @@ import Footer from './components/Footer.jsx'
 import MapHomePage from './pages/MapHomePage.jsx'
 import BarrelmanPage from './pages/BarrelmanPage.jsx'
 import NotFoundPage from './pages/NotFoundPage.jsx'
+import AboutPage from './pages/AboutPage.jsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<MapHomePage />} />
             <Route path="/barrelman" element={<BarrelmanPage />} />
+            <Route path="/about" element={<AboutPage />} />
             {/* Retired v1 pages. Old links land on the map, which covers all laws. */}
             <Route path="/map" element={<Navigate to="/" replace />} />
             <Route path="/topic/*" element={<Navigate to="/" replace />} />

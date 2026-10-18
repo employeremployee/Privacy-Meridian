@@ -1,25 +1,23 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
+// Masthead. The site name is set large in the page-background color and sits
+// flush on the bottom edge of the navy band, so the letters read as cut out of
+// the masthead and rising from the page below. overflow-hidden clips the
+// descender, which would otherwise vanish into the matching page color anyway.
 function Header() {
   const { t } = useTranslation()
 
   return (
-    <header className="bg-deep-navy text-white">
-      <div className="mx-auto flex max-w-[1200px] flex-col gap-4 px-4 py-4 md:flex-row md:items-center md:justify-between">
-        <Link to="/" className="inline-flex flex-col gap-1 rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
-          <h1 className="text-2xl font-bold leading-tight">{t('app.siteName')}</h1>
-          <p className="text-sm text-white/80">{t('app.tagline')}</p>
+    <header className="overflow-hidden bg-deep-navy text-paper">
+      <div className="mx-auto max-w-[1200px] px-4 pt-6">
+        <Link
+          to="/"
+          className="block rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:outline-white"
+        >
+          <p className="text-sm text-paper/80">{t('app.tagline')}</p>
+          <h1 className="masthead-title mt-3 font-bold tracking-tight text-paper">{t('app.siteName')}</h1>
         </Link>
-
-        <div className="flex flex-wrap items-center gap-3">
-          <Link
-            to="/barrelman"
-            className="text-xs font-medium text-white underline-offset-2 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-          >
-            {t('nav.news')}
-          </Link>
-        </div>
       </div>
     </header>
   )

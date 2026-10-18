@@ -1,24 +1,16 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
 import en from './locales/en/translation.json'
-import fr from './locales/fr/translation.json'
-import de from './locales/de/translation.json'
-import es from './locales/es/translation.json'
-import pt from './locales/pt/translation.json'
-import zh from './locales/zh/translation.json'
 
-// The site ships English-only (decided 2026-10-07). The other locale files are
-// kept parked here, dormant, so translation can be re-enabled later without
-// re-importing them. To turn languages back on: restore <LanguageSelector /> in
-// Header.jsx, set supportedLngs to the full list, and restore a language-pref
-// init. Until then the app is locked to English and stores no language state.
+// The site ships English-only (decided 2026-10-07). The fr, de, es, pt and zh
+// locale files stay parked in ./locales, dormant and no longer imported, so the
+// download carries English only (approved 2026-10-18). To turn languages back
+// on: import each locale here and add it to resources, restore
+// <LanguageSelector /> in Header.jsx, set supportedLngs to the full list, and
+// restore a language-pref init. Until then the app is locked to English and
+// stores no language state.
 const resources = {
   en: { translation: en },
-  fr: { translation: fr },
-  de: { translation: de },
-  es: { translation: es },
-  pt: { translation: pt },
-  zh: { translation: zh },
 }
 
 i18n.use(initReactI18next).init({

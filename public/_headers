@@ -1,0 +1,11 @@
+# Security headers for Cloudflare Pages (approved 2026-10-18, review item P3).
+# Everything the site loads is its own: fonts, map data, news feed. So the
+# browser is told to load nothing from anywhere else, never to frame the site,
+# and never to send a referrer. The map draws with inline style attributes,
+# which is why style-src allows 'unsafe-inline'. GitHub Pages ignores this file.
+/*
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  Referrer-Policy: no-referrer
+  Permissions-Policy: interest-cohort=(), browsing-topics=(), camera=(), microphone=(), geolocation=()
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY

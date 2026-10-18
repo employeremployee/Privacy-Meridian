@@ -22,7 +22,8 @@
         "popia": { "value": "Reasonable time", "note": "No fixed deadline for access. Correction outcomes must be notified in writing within 30 days." },
         "kdpa": { "value": "7 days", "note": "For access requests. Most other rights get 14 days." },
         "dpdp": { "value": "Up to 90 days", "note": "A reasonable period of no more than 90 days, from 13 May 2027." },
-        "pipeda": { "value": "30 days", "note": "Access requests answered within 30 days of receipt." }
+        "pipeda": { "value": "30 days", "note": "Access requests answered within 30 days of receipt." },
+        "pa-au": { "value": "30 days, or a reasonable period", "note": "30 days for agencies. Businesses get a reasonable period, generally no more than 30 days." }
       }
     },
     {
@@ -43,7 +44,8 @@
         "popia": { "value": "No fixed maximum", "note": "Reasonableness governs." },
         "kdpa": { "value": "Portability only", "note": "Portability requests can be extended in consultation with the Data Commissioner." },
         "dpdp": { "value": "No extension", "note": "The 90-day cap has no extension mechanism." },
-        "pipeda": { "value": "Up to 60 days", "note": "Another 30 days for disruption or consultation, longer for alternative formats." }
+        "pipeda": { "value": "Up to 60 days", "note": "Another 30 days for disruption or consultation, longer for alternative formats." },
+        "pa-au": { "value": "No extension set", "note": "The principles set no extension." }
       }
     },
     {
@@ -64,7 +66,8 @@
         "popia": { "value": "As soon as reasonably possible", "note": "Notify the Information Regulator after discovery." },
         "kdpa": { "value": "72 hours", "note": "Notify the ODPC within 72 hours of becoming aware." },
         "dpdp": { "value": "Without delay", "note": "Then a detailed report to the Board within 72 hours. Applies from 13 May 2027." },
-        "pipeda": { "value": "As soon as feasible", "note": "Report breaches posing a real risk of significant harm. No fixed hours." }
+        "pipeda": { "value": "As soon as feasible", "note": "Report breaches posing a real risk of significant harm. No fixed hours." },
+        "pa-au": { "value": "As soon as practicable", "note": "Assess a suspected breach within 30 days, then tell the regulator promptly." }
       }
     },
     {
@@ -85,7 +88,8 @@
         "popia": { "value": "As soon as reasonably possible", "note": "Notify affected data subjects after discovery." },
         "kdpa": { "value": "Within a reasonably practical period", "note": "In writing, where there is a real risk of harm." },
         "dpdp": { "value": "Without delay", "note": "Notify each affected individual of any breach. Applies from 13 May 2027." },
-        "pipeda": { "value": "As soon as feasible", "note": "Notify people directly where there is a real risk of significant harm." }
+        "pipeda": { "value": "As soon as feasible", "note": "Notify people directly where there is a real risk of significant harm." },
+        "pa-au": { "value": "As soon as practicable", "note": "Notify people likely to face serious harm, or publish a notice." }
       }
     }
   ]

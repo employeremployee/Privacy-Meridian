@@ -663,3 +663,17 @@ or Japan has a rule against penalising people for using their rights.
 - Not added (secondary only): Bill C-36 penalty figures and regulator name; extraterritorial
   case law is described generally, not cited.
 - Tooltip scan: 6 new popups, all fitting; existing 261 unchanged.
+
+### Australia (Privacy Act 1988) — new law page and comparison column
+- Researched by a read-only agent against legislation.gov.au and oaic.gov.au. All 7 source
+  links opened in a real browser.
+- Status as of Oct 2026: 2024 amendments in force (penalty tiers, infringement notices,
+  prescribed-country mechanism, none prescribed yet); statutory tort since 10 Jun 2025;
+  automated-decision transparency from 10 Dec 2026; children's code not yet registered; the
+  "tranche 2" reform is an exposure draft only (Aug 2026), not introduced.
+- First Privacy Act civil penalty (Australian Clinical Labs, A$5.8M, Oct 2025) cited from the
+  OAIC release.
+- Left out (agent flagged as unverified or from memory): statutory tort damages cap, My Health
+  Records localization rule, credit code version name, draft bill contents.
+- Wired in per the New Country Checklist (map code 036). Tooltip scan: 8 new popups; existing
+  unchanged.

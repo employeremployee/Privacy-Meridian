@@ -24,6 +24,7 @@ const GROUP_LABELS = {
   popia: 'South Africa (POPIA)',
   kdpa: 'Kenya (Data Protection Act)',
   dpdp: 'India (DPDP Act)',
+  pipeda: 'Canada: federal law (PIPEDA)',
 }
 
 // EEA countries that apply the GDPR. Matches the codes in countryStatus.js, plus
@@ -68,6 +69,7 @@ const STANDALONE = [
   { name: 'Brazil', jurisdictionId: 'lgpd' },
   { name: 'China', jurisdictionId: 'pipl' },
   { name: 'India', jurisdictionId: 'dpdp' },
+  { name: 'Canada (federal law)', jurisdictionId: 'pipeda' },
   { name: 'Japan', jurisdictionId: 'appi' },
   { name: 'Kenya', jurisdictionId: 'kdpa' },
   { name: 'New Zealand', jurisdictionId: 'nzpa' },

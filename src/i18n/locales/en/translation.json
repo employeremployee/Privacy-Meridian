@@ -70,7 +70,8 @@
     "enacted": "Comprehensive law in effect",
     "selected": "Selected country",
     "none": "No comprehensive law",
-    "usNote": "United States: no federal privacy law. The map shows California's law."
+    "usNote": "United States: no federal privacy law. The map shows California's law.",
+    "canadaNote": "Canada: the map shows the federal law. Quebec, Alberta and British Columbia have their own private-sector laws."
   },
   "topicPicker": {
     "label": "Topic"

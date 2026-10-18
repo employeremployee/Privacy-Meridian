@@ -644,3 +644,22 @@ or Japan has a rule against penalising people for using their rights.
   (Decree 414/009); the note adds that little guidance is published (Jared's wording choice).
 - **Uruguay children (two cells):** stay "partial" with corrected notes. No fixed age in the law;
   the regulator expects parental consent (Dictamen 1/020); childhood law adds protection.
+
+## New countries, 2026-10-18
+
+### Canada (PIPEDA, federal) — new law page and comparison column
+- Researched by a read-only agent against laws-lois.justice.gc.ca, priv.gc.ca and LEGISinfo.
+  Every source link opened in a real browser (one redirected; updated to the final URL).
+- Covers PIPEDA, with the federal/provincial split stated on the page, in the picker
+  ("Canada (federal law)") and in a map note (Quebec, Alberta, BC have their own laws).
+  Quebec's stricter rules are noted where they differ (portability, automated decisions,
+  express consent for sensitive data, transfer impact assessments, penalties).
+- Status as of Oct 2026: Bill C-27 died Jan 2025; successor Bill C-36 (Protecting Privacy and
+  Consumer Data Act, first reading 15 Jun 2026) is not law; a data mobility amendment (S.C.
+  2026, c. 3) passed but is not in force. The regulator cannot fine.
+- Wired in per the CLAUDE.md New Country Checklist: pipeda.json, MapHomePage, countryStatus
+  (124), mapCountries, all 53 comparison cells, legend note.
+- Badge "CAN" (California already uses "CA"); flagged to Jared.
+- Not added (secondary only): Bill C-36 penalty figures and regulator name; extraterritorial
+  case law is described generally, not cited.
+- Tooltip scan: 6 new popups, all fitting; existing 261 unchanged.

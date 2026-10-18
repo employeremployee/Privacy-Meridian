@@ -21,7 +21,8 @@
         "nzpa": { "value": "Up to NZ$10,000", "note": "A fine for specific offences; no GDPR-scale administrative fines." },
         "popia": { "value": "Up to R10M", "note": "An administrative fine. Serious offences can also bring a fine, up to ten years in prison, or both." },
         "kdpa": { "value": "Up to KES 5M or 1% of turnover", "note": "Whichever is lower, for the most serious cases." },
-        "dpdp": { "value": "Up to ₹250 crore", "note": "Imposed by the Data Protection Board, from 13 May 2027." }
+        "dpdp": { "value": "Up to ₹250 crore", "note": "Imposed by the Data Protection Board, from 13 May 2027." },
+        "pipeda": { "value": "None from the regulator", "note": "Courts can fine knowing breaches of key duties up to C$100,000. Quebec allows administrative penalties." }
       }
     },
     {
@@ -41,7 +42,8 @@
         "nzpa": { "value": "The Privacy Commissioner", "note": "Issues compliance notices and enforceable decisions." },
         "popia": { "value": "The Information Regulator", "note": "Oversees POPIA and access-to-information law." },
         "kdpa": { "value": "The ODPC", "note": "The Office of the Data Protection Commissioner." },
-        "dpdp": { "value": "The Data Protection Board", "note": "Set up in 2025, with members still to be appointed as of August 2026. Its powers start 13 May 2027." }
+        "dpdp": { "value": "The Data Protection Board", "note": "Set up in 2025, with members still to be appointed as of August 2026. Its powers start 13 May 2027." },
+        "pipeda": { "value": "The Privacy Commissioner of Canada", "note": "Investigates and recommends, and can make enforceable compliance agreements. Cannot issue orders." }
       }
     },
     {
@@ -61,7 +63,8 @@
         "nzpa": { "value": "Via tribunal", "note": "Complaints escalate to the Human Rights Review Tribunal for damages." },
         "popia": { "value": "Yes", "note": "Civil action for damages, without needing to prove fault." },
         "kdpa": { "value": "Yes", "note": "Compensation claims for damage." },
-        "dpdp": { "value": "No", "note": "No private right of action. The Board will handle complaints from 13 May 2027." }
+        "dpdp": { "value": "No", "note": "No private right of action. The Board will handle complaints from 13 May 2027." },
+        "pipeda": { "value": "Via Federal Court", "note": "After a complaint to the regulator, people can seek court orders and damages." }
       }
     },
     {
@@ -81,7 +84,8 @@
         "nzpa": { "value": "Compliance-first", "note": "Compliance notices and tribunal orders rather than turnover tiers." },
         "popia": { "value": "Yes", "note": "Enforcement notices, then an administrative fine or prosecution for offences." },
         "kdpa": { "value": "Yes", "note": "Penalty notices scaled to the nature of the breach." },
-        "dpdp": { "value": "Yes", "note": "Penalties scaled by breach type, up to the statutory maximum." }
+        "dpdp": { "value": "Yes", "note": "Penalties scaled by breach type, up to the statutory maximum." },
+        "pipeda": { "value": "Two-tier offences", "note": "A lower maximum on summary conviction, a higher one on indictment. No turnover tiers." }
       }
     }
   ]

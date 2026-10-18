@@ -26,7 +26,8 @@
         "nzpa": { "state": "no", "note": "No special-category regime; the same principles cover all information." },
         "popia": { "state": "yes", "note": "Special personal information." },
         "kdpa": { "state": "yes", "note": "Sensitive personal data definition." },
-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
+        "pipeda": { "state": "partial", "note": "No special-category list. Regulator guidance treats it as generally sensitive." }
       }
     },
     {
@@ -46,7 +47,8 @@
         "nzpa": { "state": "no", "note": "No special-category regime." },
         "popia": { "state": "yes", "note": "Political persuasion." },
         "kdpa": { "state": "no", "note": "Not listed as sensitive." },
-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
+        "pipeda": { "state": "partial", "note": "No special-category list. Regulator guidance treats it as generally sensitive." }
       }
     },
     {
@@ -66,7 +68,8 @@
         "nzpa": { "state": "no", "note": "No special-category regime." },
         "popia": { "state": "yes", "note": "Religious or philosophical beliefs." },
         "kdpa": { "state": "yes", "note": "Conscience and belief, sensitive definition." },
-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
+        "pipeda": { "state": "partial", "note": "No special-category list. Regulator guidance treats it as generally sensitive." }
       }
     },
     {
@@ -86,7 +89,8 @@
         "nzpa": { "state": "partial", "note": "Genetic test results held for health purposes fall under the Health Information Privacy Code." },
         "popia": { "state": "no", "note": "Not listed as special personal information." },
         "kdpa": { "state": "yes", "note": "Genetic data listed as sensitive." },
-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
+        "pipeda": { "state": "partial", "note": "Treated as sensitive in regulator guidance." }
       }
     },
     {
@@ -106,7 +110,8 @@
         "nzpa": { "state": "partial", "note": "Addressed through a dedicated biometric privacy code, not the Act itself." },
         "popia": { "state": "yes", "note": "Biometric information." },
         "kdpa": { "state": "yes", "note": "Biometric data listed as sensitive." },
-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
+        "pipeda": { "state": "partial", "note": "Identifying biometrics are sensitive in regulator guidance. Quebec requires express consent." }
       }
     },
     {
@@ -126,7 +131,8 @@
         "nzpa": { "state": "partial", "note": "Governed by a separate Health Information Privacy Code." },
         "popia": { "state": "yes", "note": "Health data." },
         "kdpa": { "state": "yes", "note": "Health data listed as sensitive." },
-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
+        "pipeda": { "state": "partial", "note": "The law names medical records as almost always sensitive. Provincial health laws often apply." }
       }
     },
     {
@@ -146,7 +152,8 @@
         "nzpa": { "state": "no", "note": "No special-category regime." },
         "popia": { "state": "yes", "note": "Sex life." },
         "kdpa": { "state": "yes", "note": "Sex and sexual orientation listed as sensitive." },
-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
+        "pipeda": { "state": "partial", "note": "No special-category list. Regulator guidance treats it as generally sensitive." }
       }
     },
     {
@@ -166,7 +173,8 @@
         "nzpa": { "state": "no", "note": "No special-category regime." },
         "popia": { "state": "no", "note": "Not a special category." },
         "kdpa": { "state": "partial", "note": "Property details are sensitive. Financial accounts are not listed as such." },
-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
+        "pipeda": { "state": "partial", "note": "The law names income and financial records as almost always sensitive." }
       }
     },
     {
@@ -186,7 +194,8 @@
         "nzpa": { "state": "no", "note": "No special-category regime." },
         "popia": { "state": "no", "note": "Not a special category." },
         "kdpa": { "state": "no", "note": "Not a sensitive category." },
-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." }
+        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
+        "pipeda": { "state": "partial", "note": "Not listed, but regulators found constant app location tracking excessive." }
       }
     },
     {
@@ -206,7 +215,8 @@
         "nzpa": { "state": "partial", "note": "Not a special category, but collection from children needs particular care to be fair and not intrusive." },
         "popia": { "state": "yes", "note": "Children's personal information is specially protected." },
         "kdpa": { "state": "partial", "note": "Not a sensitive category, but processing needs parental consent and age checks." },
-        "dpdp": { "state": "yes", "note": "Children's data receives heightened protection." }
+        "dpdp": { "state": "yes", "note": "Children's data receives heightened protection." },
+        "pipeda": { "state": "partial", "note": "Guidance treats it as sensitive. Children under 13 generally need a parent's consent." }
       }
     }
   ]

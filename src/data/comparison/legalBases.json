@@ -26,7 +26,8 @@
         "nzpa": { "state": "partial", "note": "Authorization by the individual is one ground among the principles." },
         "popia": { "state": "yes" },
         "kdpa": { "state": "yes" },
-        "dpdp": { "state": "yes", "note": "Consent is the primary basis." }
+        "dpdp": { "state": "yes", "note": "Consent is the primary basis." },
+        "pipeda": { "state": "yes", "note": "Consent is the default for collection, use and disclosure." }
       }
     },
     {
@@ -46,7 +47,8 @@
         "nzpa": { "state": "partial", "note": "No legal-basis framework; the principles govern collection and use." },
         "popia": { "state": "yes", "note": "Necessary to perform a contract." },
         "kdpa": { "state": "yes", "note": "Performance of a contract." },
-        "dpdp": { "state": "partial", "note": "No contract basis. Data you volunteer for a stated purpose comes closest." }
+        "dpdp": { "state": "partial", "note": "No contract basis. Data you volunteer for a stated purpose comes closest." },
+        "pipeda": { "state": "partial", "note": "No contract basis. Consent covers what a requested service needs." }
       }
     },
     {
@@ -66,7 +68,8 @@
         "nzpa": { "state": "yes", "note": "Collection and use required or authorized by law are permitted." },
         "popia": { "state": "yes", "note": "Compliance with a legal obligation." },
         "kdpa": { "state": "yes", "note": "Compliance with a legal obligation." },
-        "dpdp": { "state": "partial", "note": "Only disclosures the law requires and compliance with court orders." }
+        "dpdp": { "state": "partial", "note": "Only disclosures the law requires and compliance with court orders." },
+        "pipeda": { "state": "yes", "note": "Collection, use or disclosure required by law is allowed without consent." }
       }
     },
     {
@@ -86,7 +89,8 @@
         "nzpa": { "state": "yes", "note": "A serious threat to life or health permits collection and use." },
         "popia": { "state": "yes", "note": "Protecting a legitimate interest of the data subject." },
         "kdpa": { "state": "yes", "note": "Protection of vital interests." },
-        "dpdp": { "state": "yes", "note": "Medical emergencies and threats to life are legitimate uses." }
+        "dpdp": { "state": "yes", "note": "Medical emergencies and threats to life are legitimate uses." },
+        "pipeda": { "state": "yes", "note": "Emergencies threatening life, health or security allow use without consent." }
       }
     },
     {
@@ -106,7 +110,8 @@
         "nzpa": { "state": "partial", "note": "Public-interest grounds appear as specific exceptions." },
         "popia": { "state": "yes", "note": "Public-law duty of a public body." },
         "kdpa": { "state": "yes", "note": "Public interest or official authority." },
-        "dpdp": { "state": "yes", "note": "State functions and public-interest uses are enumerated." }
+        "dpdp": { "state": "yes", "note": "State functions and public-interest uses are enumerated." },
+        "pipeda": { "state": "partial", "note": "Only narrow exceptions, such as research and archives." }
       }
     },
     {
@@ -126,7 +131,8 @@
         "nzpa": { "state": "partial", "note": "No named basis; the principles allow reasonable business use." },
         "popia": { "state": "yes", "note": "Legitimate interests of the responsible party or a third party." },
         "kdpa": { "state": "yes" },
-        "dpdp": { "state": "no", "note": "No general legitimate-interests basis; only enumerated legitimate uses." }
+        "dpdp": { "state": "no", "note": "No general legitimate-interests basis; only enumerated legitimate uses." },
+        "pipeda": { "state": "partial", "note": "No general basis. Listed exceptions cover deals, investigations and debt collection." }
       }
     },
     {
@@ -146,7 +152,8 @@
         "nzpa": { "state": "partial", "note": "Credit reporting governed by a separate Credit Reporting Privacy Code." },
         "popia": { "state": "no", "note": "Not a standalone basis." },
         "kdpa": { "state": "no", "note": "Not a standalone basis." },
-        "dpdp": { "state": "no", "note": "Not a standalone basis." }
+        "dpdp": { "state": "no", "note": "Not a standalone basis." },
+        "pipeda": { "state": "partial", "note": "No credit basis. Disclosure to collect a debt is allowed." }
       }
     },
     {
@@ -166,7 +173,8 @@
         "nzpa": { "state": "partial", "note": "Publicly available information is exempt from several principles." },
         "popia": { "state": "partial", "note": "Data deliberately made public by the person lifts several conditions." },
         "kdpa": { "state": "partial", "note": "Public-source data still subject to fair-processing duties." },
-        "dpdp": { "state": "yes", "note": "Data the person made public, or must publish by law, falls outside the Act." }
+        "dpdp": { "state": "yes", "note": "Data the person made public, or must publish by law, falls outside the Act." },
+        "pipeda": { "state": "partial", "note": "Only publicly available information of the types listed in regulations." }
       }
     }
   ]

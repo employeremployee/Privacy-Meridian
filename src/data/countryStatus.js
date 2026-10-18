@@ -35,6 +35,7 @@ const V2_REGION_CODES = {
   popia: ['710'], // South Africa
   kdpa: ['404'], // Kenya
   dpdp: ['356'], // India
+  pipeda: ['124'], // Canada (federal law)
 }
 
 export function getJurisdictionForCountryCode(code) {

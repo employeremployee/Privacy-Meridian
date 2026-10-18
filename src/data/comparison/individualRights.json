@@ -26,7 +26,8 @@
         "nzpa": { "state": "yes", "note": "Access to personal information." },
         "popia": { "state": "yes", "note": "Right of access." },
         "kdpa": { "state": "yes", "note": "Right of access." },
-        "dpdp": { "state": "yes", "note": "Right to access information." }
+        "dpdp": { "state": "yes", "note": "Right to access information." },
+        "pipeda": { "state": "yes", "note": "See your information, how it was used, and who received it." }
       }
     },
     {
@@ -46,7 +47,8 @@
         "nzpa": { "state": "no", "note": "No general erasure right; correction is provided instead." },
         "popia": { "state": "partial", "note": "Deletion of inaccurate, excessive, unlawful or no-longer-authorised data." },
         "kdpa": { "state": "yes", "note": "Right to erasure." },
-        "dpdp": { "state": "yes", "note": "Right to erasure." }
+        "dpdp": { "state": "yes", "note": "Right to erasure." },
+        "pipeda": { "state": "partial", "note": "No general erasure right. Unneeded data should be destroyed, and inaccurate data corrected or deleted." }
       }
     },
     {
@@ -66,7 +68,8 @@
         "nzpa": { "state": "yes", "note": "Correction." },
         "popia": { "state": "yes", "note": "Correction." },
         "kdpa": { "state": "yes", "note": "Rectification." },
-        "dpdp": { "state": "yes", "note": "Correction and updating." }
+        "dpdp": { "state": "yes", "note": "Correction and updating." },
+        "pipeda": { "state": "yes", "note": "Inaccurate or incomplete data must be amended and the change shared where appropriate." }
       }
     },
     {
@@ -86,7 +89,8 @@
         "nzpa": { "state": "no", "note": "No data portability right." },
         "popia": { "state": "no", "note": "No standalone portability right." },
         "kdpa": { "state": "yes", "note": "Right to data portability." },
-        "dpdp": { "state": "no", "note": "No data portability right in the Act." }
+        "dpdp": { "state": "no", "note": "No data portability right in the Act." },
+        "pipeda": { "state": "no", "note": "No right in force federally. Quebec has one, and a federal amendment awaits regulations." }
       }
     },
     {
@@ -106,7 +110,8 @@
         "nzpa": { "state": "no", "note": "No sale or opt-out-of-sale concept." },
         "popia": { "state": "partial", "note": "Right to object to processing for direct marketing." },
         "kdpa": { "state": "partial", "note": "Right to object to processing for direct marketing." },
-        "dpdp": { "state": "no", "note": "No sale or opt-out-of-sale concept." }
+        "dpdp": { "state": "no", "note": "No sale or opt-out-of-sale concept." },
+        "pipeda": { "state": "no", "note": "No sale concept. You can withdraw consent instead." }
       }
     },
     {
@@ -126,7 +131,8 @@
         "nzpa": { "state": "no", "note": "No general right to object to processing." },
         "popia": { "state": "yes", "note": "Right to object." },
         "kdpa": { "state": "yes", "note": "Right to object." },
-        "dpdp": { "state": "no", "note": "No general objection right; withdrawing consent is the main lever." }
+        "dpdp": { "state": "no", "note": "No general objection right; withdrawing consent is the main lever." },
+        "pipeda": { "state": "partial", "note": "No objection right, but you can withdraw consent at any time." }
       }
     },
     {
@@ -146,7 +152,8 @@
         "nzpa": { "state": "no", "note": "No specific automated-decision right." },
         "popia": { "state": "yes", "note": "Protection against automated decision-making." },
         "kdpa": { "state": "yes", "note": "Protection against automated decisions." },
-        "dpdp": { "state": "no", "note": "No specific automated-decision right in the Act." }
+        "dpdp": { "state": "no", "note": "No specific automated-decision right in the Act." },
+        "pipeda": { "state": "no", "note": "No federal rules. Quebec requires notice and an explanation of automated decisions." }
       }
     },
     {
@@ -166,7 +173,8 @@
         "nzpa": { "state": "no", "note": "No standalone restriction right." },
         "popia": { "state": "partial", "note": "On four grounds, such as contested accuracy or unlawful processing." },
         "kdpa": { "state": "yes", "note": "A standalone right on four grounds, such as contested accuracy." },
-        "dpdp": { "state": "no", "note": "No standalone restriction right." }
+        "dpdp": { "state": "no", "note": "No standalone restriction right." },
+        "pipeda": { "state": "no", "note": "No restriction right." }
       }
     },
     {
@@ -186,7 +194,8 @@
         "nzpa": { "state": "no", "note": "Not framed as a right." },
         "popia": { "state": "no", "note": "No specific rule in the law." },
         "kdpa": { "state": "no", "note": "No specific rule in the law." },
-        "dpdp": { "state": "no", "note": "Not framed as a right." }
+        "dpdp": { "state": "no", "note": "Not framed as a right." },
+        "pipeda": { "state": "no", "note": "No specific rule in the law." }
       }
     }
   ]

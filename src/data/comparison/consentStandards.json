@@ -26,7 +26,8 @@
         "nzpa": { "state": "no", "note": "Principle-based collection; no blanket opt-in requirement." },
         "popia": { "state": "yes", "note": "Affirmative consent where consent is the basis." },
         "kdpa": { "state": "yes", "note": "Affirmative consent where consent is the basis." },
-        "dpdp": { "state": "yes", "note": "Clear affirmative consent required, with limited legitimate uses." }
+        "dpdp": { "state": "yes", "note": "Clear affirmative consent required, with limited legitimate uses." },
+        "pipeda": { "state": "partial", "note": "Consent is required, but implied consent can do for less sensitive information." }
       }
     },
     {
@@ -46,7 +47,8 @@
         "nzpa": { "state": "partial", "note": "Use limited to the purpose of collection." },
         "popia": { "state": "partial", "note": "Processing tied to a specific, explicit purpose." },
         "kdpa": { "state": "partial", "note": "Consent tied to specified purposes." },
-        "dpdp": { "state": "yes", "note": "Consent limited to the specified purpose; itemized notice required." }
+        "dpdp": { "state": "yes", "note": "Consent limited to the specified purpose; itemized notice required." },
+        "pipeda": { "state": "partial", "note": "Consent covers the purposes identified. A new purpose needs fresh consent." }
       }
     },
     {
@@ -66,7 +68,8 @@
         "nzpa": { "state": "no", "note": "No special-category consent rule; the same principles apply." },
         "popia": { "state": "yes", "note": "Special personal information requires consent or a listed exception." },
         "kdpa": { "state": "partial", "note": "Needs a specific statutory ground, which does not include consent. Explicit consent is needed to send it abroad." },
-        "dpdp": { "state": "no", "note": "No sensitive-data category." }
+        "dpdp": { "state": "no", "note": "No sensitive-data category." },
+        "pipeda": { "state": "partial", "note": "Express consent is generally expected for sensitive information, not strictly required. Quebec requires it." }
       }
     },
     {
@@ -86,7 +89,8 @@
         "nzpa": { "state": "partial", "note": "No formal consent-withdrawal mechanism; principle-based." },
         "popia": { "state": "partial", "note": "Consent can be withdrawn at any time, but no rule says withdrawal must be as easy as giving it." },
         "kdpa": { "state": "yes", "note": "Consent may be withdrawn." },
-        "dpdp": { "state": "yes", "note": "Withdrawal must be as easy as giving consent." }
+        "dpdp": { "state": "yes", "note": "Withdrawal must be as easy as giving consent." },
+        "pipeda": { "state": "partial", "note": "Consent can be withdrawn at any time with reasonable notice." }
       }
     },
     {
@@ -106,7 +110,8 @@
         "nzpa": { "state": "partial", "note": "Principle-based; neither strict opt-in nor opt-out." },
         "popia": { "state": "no", "note": "Justification-based framework, not opt-out." },
         "kdpa": { "state": "no", "note": "Consent and lawful-basis framework." },
-        "dpdp": { "state": "no", "note": "Consent-based framework." }
+        "dpdp": { "state": "no", "note": "Consent-based framework." },
+        "pipeda": { "state": "partial", "note": "Implied, opt-out consent can work for non-sensitive information people would expect." }
       }
     },
     {
@@ -126,7 +131,8 @@
         "nzpa": { "state": "no", "note": "No specific child-consent rule." },
         "popia": { "state": "yes", "note": "Processing children's data needs consent of a competent person." },
         "kdpa": { "state": "yes", "note": "Consent of a parent or guardian for a child." },
-        "dpdp": { "state": "yes", "note": "Verifiable parental consent required for children under 18." }
+        "dpdp": { "state": "yes", "note": "Verifiable parental consent required for children under 18." },
+        "pipeda": { "state": "partial", "note": "Guidance says children under 13 generally need a parent's consent. Quebec sets 14 by law." }
       }
     }
   ]

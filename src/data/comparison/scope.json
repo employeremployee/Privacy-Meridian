@@ -21,7 +21,8 @@
         "nzpa": { "value": "Agencies, public and private", "note": "A broad definition covering nearly all organizations." },
         "popia": { "value": "Responsible parties", "note": "Public and private bodies, and individuals, that determine processing." },
         "kdpa": { "value": "Data controllers and processors", "note": "Mirrors the GDPR controller and processor split." },
-        "dpdp": { "value": "Data fiduciaries", "note": "Any person determining the purpose and means of processing." }
+        "dpdp": { "value": "Data fiduciaries", "note": "Any person determining the purpose and means of processing." },
+        "pipeda": { "value": "Businesses in commercial activity", "note": "Private-sector organizations handling personal information commercially, plus federally regulated employers for staff data." }
       }
     },
     {
@@ -41,7 +42,8 @@
         "nzpa": { "value": "Agencies acting in or from NZ", "note": "Includes overseas agencies carrying on business in New Zealand." },
         "popia": { "value": "Processing in South Africa", "note": "Responsible party domiciled in, or using means in, the country." },
         "kdpa": { "value": "Processing in or of people in Kenya", "note": "Controllers and processors established or acting in Kenya." },
-        "dpdp": { "value": "Processing in India or targeting India", "note": "Extraterritorial where linked to offering goods or services in India." }
+        "dpdp": { "value": "Processing in India or targeting India", "note": "Extraterritorial where linked to offering goods or services in India." },
+        "pipeda": { "value": "Canada, except in-province activity under similar provincial laws", "note": "Quebec, Alberta and British Columbia apply their own laws inside those provinces." }
       }
     },
     {
@@ -61,7 +63,8 @@
         "nzpa": { "value": "None", "note": "Applies to agencies of any size." },
         "popia": { "value": "None", "note": "Applies regardless of size." },
         "kdpa": { "value": "None to apply", "note": "Registration depends on turnover, staff numbers and listed purposes." },
-        "dpdp": { "value": "None", "note": "Applies regardless of size. The government can exempt notified fiduciaries, such as startups, from some duties." }
+        "dpdp": { "value": "None", "note": "Applies regardless of size. The government can exempt notified fiduciaries, such as startups, from some duties." },
+        "pipeda": { "value": "None", "note": "Applies to organizations of any size." }
       }
     },
     {
@@ -81,7 +84,8 @@
         "nzpa": { "value": "Yes", "note": "Public and private agencies alike." },
         "popia": { "value": "Yes", "note": "Public and private bodies." },
         "kdpa": { "value": "Yes", "note": "Public and private controllers." },
-        "dpdp": { "value": "Yes", "note": "Applies to the State, subject to specific exemptions." }
+        "dpdp": { "value": "Yes", "note": "Applies to the State, subject to specific exemptions." },
+        "pipeda": { "value": "No", "note": "Federal institutions fall under a separate Privacy Act. Provincial laws cover provincial bodies." }
       }
     },
     {
@@ -101,7 +105,8 @@
         "nzpa": { "value": "Yes", "note": "Reaches overseas agencies carrying on business in New Zealand." },
         "popia": { "value": "Yes", "note": "Where means located in South Africa are used." },
         "kdpa": { "value": "Yes", "note": "Reaches controllers acting on people in Kenya." },
-        "dpdp": { "value": "Yes", "note": "Reaches processing outside India linked to offering goods or services there." }
+        "dpdp": { "value": "Yes", "note": "Reaches processing outside India linked to offering goods or services there." },
+        "pipeda": { "value": "Yes, through the courts", "note": "Courts apply it to foreign organizations with a real and substantial connection to Canada." }
       }
     }
   ]

@@ -15,6 +15,7 @@ import nzpaData from '../data/jurisdictions/nzpa.json'
 import popiaData from '../data/jurisdictions/popia.json'
 import kdpaData from '../data/jurisdictions/kdpa.json'
 import dpdpData from '../data/jurisdictions/dpdp.json'
+import pipedaData from '../data/jurisdictions/pipeda.json'
 import glossaryData from '../data/glossary.json'
 import { COMPARISON_TOPICS } from '../data/comparison/comparisonTopics.js'
 import { COUNTRY_OPTIONS } from '../data/mapCountries.js'
@@ -40,6 +41,7 @@ const JURISDICTIONS_DATA = {
   popia: popiaData,
   kdpa: kdpaData,
   dpdp: dpdpData,
+  pipeda: pipedaData,
 }
 
 const VIEWS = ['explore', 'compare']

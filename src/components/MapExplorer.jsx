@@ -163,7 +163,10 @@ function MapExplorer({ jurisdictionsData, selectedIds = [], onSelectJurisdiction
           projection="geoMercator"
           // Scale so the full 360 degrees of longitude fit the 800px frame.
           // The library default (160) cut off New Zealand and the far east.
-          projectionConfig={{ scale: MAP_WIDTH / (2 * Math.PI) }}
+          // The projection itself is centred on 20N, so the opening view is the
+          // zoom group's resting position (no offset). Zooming all the way out then
+          // returns exactly to the opening view instead of shifting the map.
+          projectionConfig={{ scale: MAP_WIDTH / (2 * Math.PI), center: [0, 20] }}
           width={MAP_WIDTH}
           height={MAP_HEIGHT}
           style={{ width: '100%', height: 'auto' }}

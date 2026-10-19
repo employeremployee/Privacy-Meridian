@@ -79,11 +79,22 @@ body {
   }
 }
 
+/* Shared title size, so the tagline can line up with the title's first letter. */
+:root {
+  --masthead-size: clamp(2.75rem, 10vw, 7rem);
+}
+
+/* The capital P has built-in space on its left (about 0.06em in Inter Bold).
+   Indenting the tagline by the same amount lines its N up with the P. */
+.masthead-tagline {
+  padding-left: calc(var(--masthead-size) * 0.06 - 1px);
+}
+
 /* Masthead title: large, in the page-background color, with its baseline set on
    the bottom edge of the navy band (see Header.jsx). The negative margin pulls
    the baseline down past the font's built-in space below the letters. */
 .masthead-title {
-  font-size: clamp(2.75rem, 10vw, 7rem);
+  font-size: var(--masthead-size);
   line-height: 1;
   margin-bottom: -0.145em;
 }

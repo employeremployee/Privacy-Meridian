@@ -15,8 +15,8 @@ function Header() {
           to="/"
           className="block rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:outline-white"
         >
-          <p className="text-sm text-paper/80">{t('app.tagline')}</p>
-          <h1 className="masthead-title mt-3 font-bold tracking-tight text-paper">{t('app.siteName')}</h1>
+          <p className="masthead-tagline mt-1 text-sm text-paper/80">{t('app.tagline')}</p>
+          <h1 className="masthead-title mt-2 font-bold tracking-tight text-paper">{t('app.siteName')}</h1>
         </Link>
       </div>
     </header>

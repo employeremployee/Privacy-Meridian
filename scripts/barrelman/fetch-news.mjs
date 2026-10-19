@@ -38,6 +38,8 @@ import {
   REGION_HINTS,
   ENFORCEMENT_TERMS,
   SOURCE_NAMES,
+  CELEBRITY_TERMS,
+  DATA_CONTEXT_TERMS,
 } from './sources.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -215,7 +217,7 @@ async function prepareDiscovery(raw, cache) {
 
   items = items.filter((it) => {
     const text = it.title.toLowerCase()
-    return !EXCLUDE_TERMS.some((term) => text.includes(term))
+    return !EXCLUDE_TERMS.some((term) => text.includes(term)) && !isCelebrityGossip(it.title)
   })
 
   const now = Date.now()
@@ -325,6 +327,21 @@ const RELEVANCE_MATCHERS = RELEVANCE_TERMS.map((term) => {
   return (text) => re.test(text)
 })
 
+// Whole-word matchers for the celebrity-gossip filter (see sources.mjs). A term
+// ending in * is a stem and matches any word that starts with it.
+const wordMatcher = (term) => {
+  const stem = term.endsWith('*')
+  const body = escapeRegExp(stem ? term.slice(0, -1) : term)
+  const end = stem ? '' : '(?![\\p{L}\\p{N}])'
+  return new RegExp(`(?<![\\p{L}\\p{N}])${body}${end}`, 'iu')
+}
+const CELEBRITY_MATCHERS = CELEBRITY_TERMS.map(wordMatcher)
+const DATA_CONTEXT_MATCHERS = DATA_CONTEXT_TERMS.map(wordMatcher)
+
+function isCelebrityGossip(title) {
+  return CELEBRITY_MATCHERS.some((re) => re.test(title)) && !DATA_CONTEXT_MATCHERS.some((re) => re.test(title))
+}
+
 function isRelevant(text) {
   return RELEVANCE_MATCHERS.some((match) => match(text))
 }
@@ -339,6 +356,8 @@ function passesGates(item) {
   const text = `${item.title} ${item.summary}`.toLowerCase()
   const urlText = item.url.toLowerCase()
   if (EXCLUDE_TERMS.some((term) => text.includes(term) || urlText.includes(term))) return false
+  // Applies to every source, including trusted and search-discovered items.
+  if (isCelebrityGossip(item.title)) return false
   // Trusted sources (regulators) and discovery items (vouched by their search
   // query) skip the keyword relevance gate. This also lets their non-English
   // titles through without English keyword matching.

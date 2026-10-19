@@ -223,6 +223,31 @@ export const EXCLUDE_TERMS = [
   'vie amoureuse', 'vida amorosa', 'vita sentimentale', 'liebesleben',
 ]
 
+// Celebrity and royal "privacy" stories (a star asking to be left alone, famous
+// diners seeking privacy). A headline that names a celebrity or royal and has
+// no data, law, hacking or surveillance word in it is dropped, in any language.
+// Matched as whole words, so "star" does not match "startup". A trailing *
+// marks a stem: "celebrit*" matches celebrity and celebrities.
+export const CELEBRITY_TERMS = [
+  'celebrit*', 'celeb', 'celebs', 'famous', 'famosos', 'famosas', 'famoso', 'famosa', 'famosi', 'célébrit*',
+  'celebridad', 'celebridade', 'celebrità', 'prominente', 'promi', 'star', 'stars', 'superstar',
+  'actor', 'actress', 'actriz', 'atriz', 'attore', 'attrice', 'acteur', 'actrice', 'schauspieler',
+  'singer', 'cantante', 'cantora', 'cantor', 'chanteur', 'chanteuse', 'sänger', 'sängerin', 'rapper',
+  'influencer', 'influencers', 'royal', 'royals', 'prince', 'princess', 'duke', 'duchess',
+  'príncipe', 'princesa', 'principe', 'principessa', 'realeza', 'farándula', 'paparazzi',
+  'hollywood', 'reality show', 'vip',
+]
+// Any of these in the headline keeps a celebrity story, since it is then about
+// data protection (a leaked medical record, a deepfake law, a court ruling).
+export const DATA_CONTEXT_TERMS = [
+  'data*', 'datos', 'dados', 'dati', 'données', 'daten', 'dane', 'personal information',
+  'información personal', 'informações pessoais', 'gdpr', 'rgpd', 'lgpd', 'dsgvo', 'rodo',
+  'hack*', 'leak*', 'breach*', 'filtración', 'vazamento', 'fuite', 'cyber*', 'ciber*',
+  'surveillance', 'vigilancia', 'vigilância', 'tracking', 'rastreo', 'spyware', 'deepfake*',
+  'law', 'ley', 'lei', 'legge', 'loi', 'gesetz', 'court', 'tribunal', 'regulator', 'fine', 'multa',
+  'lawsuit', 'demanda', 'app', 'apps', 'facial recognition', 'reconocimiento facial', 'ai', 'ia',
+]
+
 // Words that collapse an item into a category. Checked title + summary, in this
 // order (breach signals win, then legal/regulatory signals, else the source
 // default carries). Multilingual so non-English items are categorized too.

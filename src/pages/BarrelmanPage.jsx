@@ -132,10 +132,10 @@ function BarrelmanPage() {
     <main className="mx-auto max-w-[1200px] px-4 py-6">
       <div className="border-l-4 border-meridian-blue pl-4">
         <h2 className="text-2xl font-bold text-ink">{t('barrelman.title')}</h2>
-        <p className="mt-1 text-sm text-ink">{t('barrelman.tagline')}</p>
+        <p className="mt-1 text-sm text-ink">
+          {t('barrelman.tagline')} {t('barrelman.intro')}
+        </p>
       </div>
-
-      <p className="mt-3 max-w-2xl text-sm text-ink">{t('barrelman.intro')}</p>
 
       <div className="mt-3">
         <Link

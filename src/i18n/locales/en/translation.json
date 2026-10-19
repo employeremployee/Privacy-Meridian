@@ -113,15 +113,13 @@
     "heading": "Choose a Topic"
   },
   "footer": {
-    "sourceAttribution": "Content draws from official regulatory texts and public guidance.",
     "about": "About",
     "lastUpdated": "Last updated October 2026",
     "copyright": "© 2026 Privacy Meridian. All rights reserved.",
-    "notLegalAdvice": "Privacy Meridian explains privacy laws in plain language. This site might not be updated with the latest legal developments. It is general information, not legal advice.",
     "privacyNote": "No cookies, no trackers, no analytics.",
     "siteMapLabel": "Site map",
     "siteMap": {
-      "explore": "Explore and compare laws"
+      "explore": "Explore and Compare Laws"
     }
   },
   "nav": {

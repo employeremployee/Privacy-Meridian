@@ -39,17 +39,23 @@ need your accounts or a decision.
    Email Address Obfuscation, Rocket Loader.
 
 ## 3. Domain (Jared)
-1. Add `privacymeridian.org` as a custom domain on the Pages project.
-2. Decide the main address: `privacymeridian.org` (recommended) with `www`
-   redirecting to it, or the other way round.
-3. Point the domain's DNS at Cloudflare as the dashboard instructs.
+DONE 2026-10-19. Nameservers moved from Namecheap to Cloudflare (remy, wally).
+The registration stays at Namecheap. `privacymeridian.org` is a custom domain
+on the Pages project (CNAME @ to privacy-meridian.pages.dev, proxied). `www`
+is a proxied CNAME with a 301 redirect rule to the bare address, and Always
+Use HTTPS is on. Namecheap's email-forwarding MX and SPF records were kept
+(no forwarders in use). AI training crawlers are blocked through Cloudflare's
+managed robots.txt.
 
 ## 4. After the domain works (Compass)
-1. Update `LIVE_FEED_URL` in `src/pages/BarrelmanPage.jsx` to
+1. DONE: `LIVE_FEED_URL` in `src/pages/BarrelmanPage.jsx` now points to
    `https://privacymeridian.org/news.json`.
-2. Check the live site: security headers present, deep links like `/barrelman`
-   return 200, the feed refreshes on schedule, no console errors.
+2. DONE 2026-10-19: live site checked. Security headers present, `/barrelman`,
+   `/about` and `/news.json` return 200, www and http redirect correctly, no
+   injected scripts and no cookies.
 3. Turn off GitHub Pages for the repository.
+4. At Namecheap, turn off auto-renew for PremiumDNS (renews 7 Jul 2027). It
+   is unused now that Cloudflare runs DNS.
 
 ## Judgment calls made overnight (please confirm)
 - Map-only list leaves out dependent territories (Jersey, Guernsey, Isle of

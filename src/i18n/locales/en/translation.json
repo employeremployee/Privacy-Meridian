@@ -132,8 +132,7 @@
   },
   "barrelman": {
     "title": "Privacy Barrelman",
-    "tagline": "The lookout for global privacy news.",
-    "intro": "Recent privacy news from around the world, refreshed throughout the day.",
+    "tagline": "The lookout for global privacy news from around the world, refreshed throughout the day.",
     "updatedAt": "Updated {{time}}",
     "updatedUnknown": "Update time unknown",
     "searchLabel": "Search headlines",

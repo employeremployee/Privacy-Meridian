@@ -28,7 +28,14 @@ need your accounts or a decision.
 4. Replace `.github/workflows/barrelman-refresh.yml` with
    `docs/launch/cloudflare-deploy.yml.draft` (Compass can do this step).
 5. Run the workflow once by hand and check the `*.pages.dev` address.
-6. In Cloudflare, keep these OFF: Web Analytics, Zaraz, Bot Fight Mode,
+6. Make the 2-hour feed refresh reliable. GitHub's free scheduler has been
+   running the "every 2 hours" job only every 3.5 to 8 hours (checked
+   2026-10-19), which can trip the 5-hour "may be out of date" notice. Use a
+   free Cloudflare scheduled task (Cron Trigger) to start the workflow every
+   2 hours through GitHub's workflow-dispatch API. It needs a GitHub token
+   limited to "Actions: write" on this repository only. Keep the GitHub
+   schedule as a backup.
+7. In Cloudflare, keep these OFF: Web Analytics, Zaraz, Bot Fight Mode,
    Email Address Obfuscation, Rocket Loader.
 
 ## 3. Domain (Jared)

@@ -25,8 +25,8 @@ need your accounts or a decision.
 2. Create an API token with only "Cloudflare Pages: Edit" permission.
 3. Add `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` as GitHub repository
    secrets.
-4. Replace `.github/workflows/barrelman-refresh.yml` with
-   `docs/launch/cloudflare-deploy.yml.draft` (Compass can do this step).
+4. DONE 2026-10-19: the deploy workflow now publishes to Cloudflare Pages
+   (project privacy-meridian, Direct Upload, no Git connection).
 5. Run the workflow once by hand and check the `*.pages.dev` address.
 6. Make the 2-hour feed refresh reliable. GitHub's free scheduler has been
    running the "every 2 hours" job only every 3.5 to 8 hours (checked

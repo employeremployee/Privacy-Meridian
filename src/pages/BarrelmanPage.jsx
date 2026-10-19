@@ -25,7 +25,7 @@ const STALE_MS = 5 * 60 * 60 * 1000
 // published feed instead, so the preview matches the real site. Production
 // builds keep reading their own same-origin news.json: visitors never call out.
 // LAUNCH CHECKLIST: update this URL when the site moves to privacymeridian.org.
-const LIVE_FEED_URL = 'https://employeremployee.github.io/Privacy-Meridian/news.json'
+const LIVE_FEED_URL = 'https://privacy-meridian.pages.dev/news.json'
 
 // news.json is emitted into the site root, so honor Vite's base path (matters
 // once the site is served from a GitHub Pages subpath).

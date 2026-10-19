@@ -1,15 +1,19 @@
-name: Refresh and deploy Barrelman
+# Builds the site on GitHub's runners and deploys it to Cloudflare Pages
+# (project "privacy-meridian", Direct Upload). Runs every 2 hours to refresh
+# and translate the news feed, on any push to v2-map-first, and on demand.
+# A Cloudflare Worker (docs/launch/refresh-timer) also starts this workflow
+# every 2 hours, because GitHub's free scheduler runs late.
+#
+# Required GitHub repository secrets:
+#   DEEPL_API_KEY          - DeepL Free key (title translation)
+#   CLOUDFLARE_API_TOKEN   - Cloudflare token with Pages: Edit only
+#   CLOUDFLARE_ACCOUNT_ID  - Cloudflare account ID
+#
+# Cloudflare Pages serves index.html with a 200 status for app routes like
+# /barrelman, so no 404.html copy is needed. Security headers come from
+# public/_headers.
 
-# Builds the site on GitHub's runners and deploys it to GitHub Pages. Everything
-# lives in GitHub: no third-party host, no access tokens, no build-minute wall.
-# Runs every 2 hours to refresh + translate the news feed, on any push (to
-# deploy code changes), and on demand.
-#
-# Required GitHub repository secret:
-#   DEEPL_API_KEY  - DeepL Free key (title translation)
-#
-# One-time repo setup: make the repo public (free Pages), then
-# Settings -> Pages -> Build and deployment -> Source: "GitHub Actions".
+name: Refresh and deploy Barrelman
 
 on:
   schedule:
@@ -20,28 +24,17 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
-# Let a newer run supersede an in-flight one.
 concurrency:
-  group: pages
+  group: deploy
   cancel-in-progress: true
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    # Normal runs finish in under a minute (the cache makes link resolution
-    # near-instant). Cap the job so a one-off network stall fails fast instead
-    # of hanging ~15 minutes before being cancelled.
     timeout-minutes: 10
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     env:
-      # Project Pages serve from /Privacy-Meridian/. When a custom domain
-      # (privacymeridian.org) is added later, set this to "/" or remove it.
-      VITE_BASE: /Privacy-Meridian/
+      VITE_BASE: /
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -55,9 +48,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Persist the feed build cache (link resolutions + title translations)
-      # across runs, so DeepL only ever translates a given title once. A fresh
-      # key each run always saves a new entry; restore-keys picks the latest.
       - name: Restore Barrelman build cache
         uses: actions/cache@v4
         with:
@@ -74,17 +64,9 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Add SPA fallback for client-side routes
-        run: cp dist/index.html dist/404.html
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
         with:
-          path: dist
-
-      - name: Deploy to GitHub Pages
-        id: deploy
-        uses: actions/deploy-pages@v4
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=privacy-meridian --branch=main

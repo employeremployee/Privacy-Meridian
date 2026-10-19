@@ -40,9 +40,9 @@ function Footer() {
         <p className="flex flex-wrap items-center gap-x-3 gap-y-1 md:flex-nowrap md:whitespace-nowrap">
           <span>{t('footer.lastUpdated')}</span>
           <span aria-hidden="true">|</span>
-          <span>{t('footer.copyright')}</span>
-          <span aria-hidden="true">|</span>
           <span>{t('footer.privacyNote')}</span>
+          <span aria-hidden="true">|</span>
+          <span>{t('footer.copyright')}</span>
         </p>
       </div>
     </footer>

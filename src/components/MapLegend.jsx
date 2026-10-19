@@ -45,11 +45,12 @@ function MapLegend() {
               <h3 className="mb-1 font-semibold">
                 {t(`legend.mapOnlyGroups.${key}`, { count: entries.length })}
               </h3>
-              <ul className="grid gap-1 sm:grid-cols-2 lg:grid-cols-3">
+              {/* CSS columns fill top to bottom, so the A to Z order runs down each column. */}
+              <ul className="gap-x-6 sm:columns-2 lg:columns-3">
                 {[...entries]
                   .sort((a, b) => a.name.localeCompare(b.name))
                   .map((entry) => (
-                    <li key={entry.name}>
+                    <li key={entry.name} className="mb-1 break-inside-avoid">
                       <span className="font-medium">{entry.name}</span>: {entry.law}
                     </li>
                   ))}

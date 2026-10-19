@@ -3,7 +3,7 @@ import { useDocumentTitle } from '../hooks/useDocumentTitle.js'
 
 // About page. Every word comes from translation.json (about.*), so the copy can
 // be edited without touching this component.
-const SECTIONS = ['what', 'how', 'use', 'privacy', 'advice']
+const SECTIONS = ['what', 'how', 'use', 'privacy', 'advice', 'roadmap']
 
 function AboutPage() {
   const { t } = useTranslation()

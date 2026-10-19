@@ -201,6 +201,10 @@
       "advice": {
         "heading": "Not legal advice",
         "body": "Laws change, and this site might not reflect the latest developments. Use it to understand the landscape, and speak with a qualified lawyer before making legal decisions."
+      },
+      "roadmap": {
+        "heading": "Roadmap",
+        "body": "More to come."
       }
     }
   }

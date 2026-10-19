@@ -72,7 +72,7 @@
     "mapOnly": "Law in effect, not yet covered",
     "selected": "Selected country",
     "none": "No comprehensive law",
-    "mapOnlyListToggle": "Show the {{count}} laws in effect that we do not cover yet: countries, US states and Canadian provinces",
+    "mapOnlyListToggle": "Show the laws in effect that we do not yet cover",
     "mapOnlyGroups": {
       "countries": "Countries ({{count}})",
       "usStates": "US states ({{count}})",

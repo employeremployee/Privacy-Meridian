@@ -1,0 +1,12 @@
+# Cloudflare Worker that starts the Barrelman feed refresh every 2 hours.
+# Deploy from this folder with `npx wrangler deploy` after `npx wrangler login`.
+name = "privacy-meridian-refresh-timer"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+# No public URL is needed: the Worker only runs on its schedule.
+workers_dev = false
+
+[triggers]
+# Minute 5 of every second hour, UTC.
+crons = ["5 */2 * * *"]

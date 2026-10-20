@@ -81,7 +81,7 @@ body {
 
 /* Shared title size, so the tagline can line up with the title's first letter. */
 :root {
-  --masthead-size: clamp(2.75rem, 10vw, 7rem);
+  --masthead-size: clamp(1.75rem, 9vw, 7rem);
 }
 
 /* The capital P has built-in space on its left (about 0.06em in Inter Bold).
@@ -97,4 +97,7 @@ body {
   font-size: var(--masthead-size);
   line-height: 1;
   margin-bottom: -0.145em;
+  /* All capitals (Jared, 2026-10-19): no letter drops below the band edge, so
+     nothing is cut off. The lowercase y's tail used to vanish, reading "Privacv". */
+  text-transform: uppercase;
 }

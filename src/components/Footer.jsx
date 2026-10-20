@@ -11,16 +11,17 @@ const SITE_MAP = [
   { to: '/about', key: 'footer.about' },
 ]
 
-// One line on wide screens: the site map on the left, site facts on the right.
+// One line on wide screens (xl, 1280px and up; narrower overflowed at 1024px):
+// the site map on the left, site facts on the right.
 // Both wrap onto their own lines on a phone.
 function Footer() {
   const { t } = useTranslation()
 
   return (
     <footer className="border-t border-rule bg-surface">
-      <div className="mx-auto flex max-w-[1200px] flex-col gap-3 px-4 py-6 text-sm text-ink md:flex-row md:items-center md:justify-between md:gap-8">
+      <div className="mx-auto flex max-w-[1200px] flex-col gap-3 px-4 py-6 text-sm text-ink xl:flex-row xl:items-center xl:justify-between xl:gap-8">
         <nav aria-label={t('footer.siteMapLabel')}>
-          <ul className="flex flex-wrap items-center gap-x-3 gap-y-1 md:flex-nowrap md:whitespace-nowrap">
+          <ul className="flex flex-wrap items-center gap-x-3 gap-y-1 xl:flex-nowrap xl:whitespace-nowrap">
             {SITE_MAP.map(({ to, key }, index) => (
               <Fragment key={to}>
                 {index > 0 && (
@@ -37,7 +38,7 @@ function Footer() {
             ))}
           </ul>
         </nav>
-        <p className="flex flex-wrap items-center gap-x-3 gap-y-1 md:flex-nowrap md:whitespace-nowrap">
+        <p className="flex flex-wrap items-center gap-x-3 gap-y-1 xl:flex-nowrap xl:whitespace-nowrap">
           <span>{t('footer.lastUpdated')}</span>
           <span aria-hidden="true">|</span>
           <span>{t('footer.privacyNote')}</span>

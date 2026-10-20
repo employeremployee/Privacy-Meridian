@@ -52,11 +52,15 @@ function jurisdictionForRegion(geo) {
   return null
 }
 
-// Ignore touch gestures for pan/zoom so a finger drag scrolls the page instead of
-// getting trapped inside the map (iOS). Desktop mouse drag and wheel still zoom.
-// Paired with touch-action: pan-y on the container below.
+// On touch screens, one finger scrolls the page so it never gets trapped inside
+// the map (iOS). Two fingers pinch to zoom in and out, and pan the map. d3-zoom
+// reads every finger on the screen when a gesture starts, so a pinch works even
+// when the second finger lands after the first. Desktop mouse drag and wheel
+// still zoom. Paired with touch-action: pan-y on the container below, which
+// stops the browser from zooming the whole page during a pinch on the map.
 function filterZoomEvent(event) {
-  return !String(event.type).startsWith('touch')
+  if (String(event.type).startsWith('touch')) return event.touches.length >= 2
+  return true
 }
 
 function MapExplorer({ jurisdictionsData, selectedIds = [], onSelectJurisdiction }) {

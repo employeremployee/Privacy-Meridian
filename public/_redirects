@@ -1,8 +1,9 @@
-# Cloudflare Pages rules (review P7). The app's pages are served by index.html
+# Cloudflare Pages rules (review P7). The app's pages are served by the home page
 # with a 200 status. Retired v1 addresses move permanently to the home page.
 # Any other address gets dist/404.html with a real 404 status (see vite.config.js).
+# Rewrite to "/", not "/index.html": Pages answers /index.html with a 308 to /.
 /map            /               301
 /topic/*        /               301
 /regulation/*   /               301
-/barrelman      /index.html     200
-/about          /index.html     200
+/barrelman      /               200
+/about          /               200

@@ -220,7 +220,7 @@
           ],
           "assessTrigger": "Does your organization's breach response plan address LGPD's specific notification timelines, and is your ANPD notification process documented separately from your GDPR supervisory authority notification process?",
           "gapRemediation": {
-            "smb": "A documented breach response checklist covering LGPD's 3-business-day notification window is the minimum. Startups and small businesses get 6 business days, unless their processing is high-risk. Do not assume your GDPR process covers LGPD.",
+            "smb": "A documented breach response checklist covering LGPD's 3-business-day notification window is a reasonable starting point. Startups and small businesses get 6 business days, unless their processing is high-risk. Do not assume your GDPR process covers LGPD.",
             "midMarket": "Your breach response plan should include jurisdiction-specific notification timelines. LGPD's 3-business-day notification is tighter than it appears in practice.",
             "enterprise": "Enterprise breach response programs should have separate notification workflows for each jurisdiction. LGPD's two-stage notification process requires distinct internal processes for preliminary and supplementary filings."
           },

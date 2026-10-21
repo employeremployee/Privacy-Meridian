@@ -15,6 +15,7 @@ function GapRemediation({ gapRemediation }) {
       <h4 className="text-xs font-medium uppercase tracking-wide text-ink">
         {t('gapRemediation.heading')}
       </h4>
+      <p className="mt-1 text-xs text-ink">{t('gapRemediation.notLegalAdvice')}</p>
 
       <div className="mt-2 hidden md:grid md:grid-cols-3 md:gap-4">
         {TIERS.map((tier) => (

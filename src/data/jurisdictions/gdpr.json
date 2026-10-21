@@ -55,7 +55,7 @@
           ],
           "assessTrigger": "Does your organization have a current, accurate privacy notice that covers all Article 13 and 14 required disclosures, and is it reviewed whenever processing purposes or legal bases change?",
           "gapRemediation": {
-            "smb": "A single privacy notice covering your primary data collection activities is the minimum. The common gap is a notice drafted once and never updated. Semi-annual review against your actual data flows is recommended.",
+            "smb": "A single privacy notice covering your primary data collection activities is a reasonable starting point. The common gap is a notice drafted once and never updated. Semi-annual review against your actual data flows is recommended.",
             "midMarket": "You likely collect data across multiple channels. Each collection point may need its own layered notice. A central privacy notice inventory helps ensure coverage is complete and consistent.",
             "enterprise": "Enterprise transparency programs require a notice management system that maps notices to processing activities in your RoPA. Notices should be versioned, dated, and archived. Changes to processing trigger automated notice review workflows."
           },
@@ -89,7 +89,7 @@
           ],
           "assessTrigger": "Does your organization's access request process capture all required supplementary information, not just the data itself, but retention periods, recipients, and data sources?",
           "gapRemediation": {
-            "smb": "A structured response template covering all Article 15 supplementary requirements is sufficient at this scale. The most common gap is providing raw data without the accompanying context. A checklist prevents this. Semi-annual process review is recommended.",
+            "smb": "A structured response template covering all Article 15 supplementary requirements is a reasonable starting point at this scale. The most common gap is providing raw data without the accompanying context. A checklist prevents this. Semi-annual process review is recommended.",
             "midMarket": "At this scale supplementary information requires coordination across teams. A defined internal workflow with named owners for each information category is necessary. Integration with your CRM or customer data system is important as fulfilling requests manually across fragmented systems becomes unsustainable.",
             "enterprise": "A purpose-built DSR platform should handle Article 15 responses systematically, pulling supplementary information from integrated systems. Recipients should map to your RoPA. Data sources should be documented in your data inventory."
           },
@@ -203,7 +203,7 @@
           ],
           "assessTrigger": "Does your organization have a technical mechanism to flag individual records as restricted and exclude them from active processing workflows, and a process to notify the data subject before restriction is lifted?",
           "gapRemediation": {
-            "smb": "For simple systems, restriction may mean manually flagging a record and documenting what processing is suspended. A log of restricted records with dates and grounds is the minimum. Semi-annual review ensures restrictions do not remain in place indefinitely.",
+            "smb": "For simple systems, restriction may mean manually flagging a record and documenting what processing is suspended. A log of restricted records with dates and grounds is a reasonable starting point. Semi-annual review ensures restrictions do not remain in place indefinitely.",
             "midMarket": "Manual flagging becomes unsustainable across multiple systems. Your DSR process should include a defined technical step for restricting records across all relevant platforms. The notification obligation before lifting restriction is frequently missed.",
             "enterprise": "Enterprise-scale restriction requires a technical architecture that can isolate individual records across integrated systems including data warehouses. Restricted status should propagate automatically. Lifting restriction should trigger a notification workflow before processing resumes."
           },
@@ -498,7 +498,7 @@
           ],
           "assessTrigger": "Does your organization have a documented breach response plan that defines awareness, includes a 72-hour notification workflow, and assigns clear ownership for supervisory authority and data subject notification decisions?",
           "gapRemediation": {
-            "smb": "A documented breach response checklist covering detection, containment, assessment, and notification is the minimum. The 72-hour clock waits for no one. Knowing who to call and what to do before a breach happens is critical.",
+            "smb": "A documented breach response checklist covering detection, containment, assessment, and notification is a reasonable starting point. The 72-hour clock waits for no one. Knowing who to call and what to do before a breach happens is critical.",
             "midMarket": "Your breach response plan should be tested annually. A defined severity matrix helps teams quickly assess whether supervisory authority and data subject notification are required. Legal counsel should be identified in advance.",
             "enterprise": "Enterprise breach response requires a cross-functional incident response team, integrated detection and logging systems, pre-drafted notification templates, and regular tabletop exercises. Regulatory relationships with lead supervisory authorities should be established before a breach occurs."
           },

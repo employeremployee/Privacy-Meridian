@@ -792,3 +792,6 @@ mix several laws.
   GDPR, UK GDPR, LGPD, POPIA and Kenya are now "partial" in it (consent is one of several
   bases). LGPD, POPIA and Kenya are "partial" in the opt-out row (legitimate interests run
   until you object). Korea stays "no", with a note that its other bases are narrow.
+- P1 (Jared, 2026-10-21): "not legal advice" line under each law title and in each Help for
+  Organizations panel. Seven directive phrases ("is sufficient", "is the minimum") now read "is a
+  reasonable starting point" (FADP, GDPR, LGPD, UK GDPR).

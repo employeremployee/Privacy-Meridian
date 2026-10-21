@@ -148,7 +148,7 @@
           ],
           "assessTrigger": "Does your erasure process cover all systems holding UK personal data, including backups, and log the grounds for every refusal?",
           "gapRemediation": {
-            "smb": "A decision checklist covering the erasure grounds and exemptions is sufficient. Record the outcome of each request.",
+            "smb": "A decision checklist covering the erasure grounds and exemptions is a reasonable starting point. Record the outcome of each request.",
             "midMarket": "Deletion must propagate across systems from a single request. Map data locations so erasure is not limited to the primary database.",
             "enterprise": "Automate deletion workflows with confirmation logging, and maintain a defensible backup erasure schedule."
           },

@@ -133,7 +133,7 @@
           ],
           "assessTrigger": "Can you fulfill Swiss access requests within 30 days, including the FADP's mandatory minimum information set?",
           "gapRemediation": {
-            "smb": "A response template covering the Article 25 minimum items is sufficient. Track the 30-day deadline.",
+            "smb": "A response template covering the Article 25 minimum items is a reasonable starting point. Track the 30-day deadline.",
             "midMarket": "Align your GDPR DSR workflow to also emit the FADP minimum set, which differs slightly from Article 15 content.",
             "enterprise": "Route Swiss requests through your DSR platform with an FADP-specific template and refusal-grounds logging."
           },

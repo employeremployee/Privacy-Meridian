@@ -28,7 +28,8 @@
     "considerLabel": "Consider"
   },
   "gapRemediation": {
-    "heading": "How to Close the Gap"
+    "heading": "How to Close the Gap",
+    "notLegalAdvice": "These are starting points, not legal advice. Check your situation with a qualified lawyer."
   },
   "tiers": {
     "smb": "Small Business",
@@ -81,6 +82,9 @@
   },
   "topicPicker": {
     "label": "Topic"
+  },
+  "lawPage": {
+    "notLegalAdvice": "This page explains the law in plain language. It is not legal advice."
   },
   "countryPicker": {
     "label": "Choose a country",

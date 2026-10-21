@@ -45,6 +45,7 @@ function DrilldownReadout({ jurisdictionData, glossaryData }) {
         <h2 className="text-xl font-bold text-ink">{jurisdiction.fullName}</h2>
         <span className="font-mono text-xs text-ink">{jurisdiction.citation}</span>
       </div>
+      <p className="mt-2 text-sm text-ink">{t('lawPage.notLegalAdvice')}</p>
 
       <div role="group" aria-label={t('topicPicker.label')} className="mt-4 flex flex-wrap gap-2">
         {topics.map((topic) => {

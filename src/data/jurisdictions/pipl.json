@@ -149,7 +149,7 @@
           "surfaceLabel": "Your Right to Have Your Information Deleted in China",
           "plainSummary": "Individuals in China can ask organizations to delete their personal information in specific circumstances, including when the original purpose has been fulfilled, when consent is withdrawn, or when the information was processed unlawfully.",
           "personalImpact": "Years of orders, locations, and messages can accumulate on a platform's servers. Closing your account does not always clear them. Article 47 lets you require deletion when data is no longer needed. You can remove the trail you leave behind.",
-          "professionalLayer": "Article 47 requires handlers to delete personal information on their own initiative in six circumstances, and individuals may request deletion if they do not. The grounds are that the purpose is achieved, impossible, or no longer needs the data, that the handler stops providing the product or service, that the retention period has expired, that consent is withdrawn, that handling breaks the law or the agreement, and other cases set by law. Where the retention period required by law has not expired or deletion is technically difficult, the handler must stop all processing except storage and necessary security measures. Separately, Article 21 requires entrusted processors to return or delete the data when the entrustment ends.",
+          "professionalLayer": "Article 47 requires handlers to delete personal information on their own initiative in five circumstances, and individuals may request deletion if they do not. The grounds are that the purpose is achieved, impossible, or no longer needs the data, that the handler stops providing the product or service or the retention period has expired, that consent is withdrawn, that handling breaks the law or the agreement, and other cases set by law. Where the retention period required by law has not expired or deletion is technically difficult, the handler must stop all processing except storage and necessary security measures. Separately, Article 21 requires entrusted processors to return or delete the data when the entrustment ends.",
           "responseTimeline": "PIPL sets no day count. Requests must be accepted and handled promptly.",
           "crossReferences": [],
           "sourceLinks": [
@@ -164,11 +164,11 @@
             "processing",
             "consent-withdrawal"
           ],
-          "assessTrigger": "Does your deletion process cover all six grounds, and can you stop all processing except storage and security where deletion is not yet possible?",
+          "assessTrigger": "Does your deletion process cover all five grounds, and can you stop all processing except storage and security where deletion is not yet possible?",
           "gapRemediation": {
             "smb": "Ensure your processor contracts require return or deletion when the work ends. Document how you restrict data you cannot yet delete.",
             "midMarket": "Your deletion workflow should cover processor return or deletion, and restriction of data that cannot yet be deleted.",
-            "enterprise": "Enterprise deletion programs under PIPL require integration with processor relationships and with systems that cannot delete at once. The six deletion grounds should be built into your decision workflow."
+            "enterprise": "Enterprise deletion programs under PIPL require integration with processor relationships and with systems that cannot delete at once. The five deletion grounds should be built into your decision workflow."
           },
           "comparisonFlags": []
         },
@@ -315,8 +315,8 @@
           "surfaceLabel": "What Happens When Personal Information Is Compromised in China",
           "plainSummary": "When a security incident affects personal information, organizations in China must take immediate remedial action and notify the relevant authorities and affected individuals.",
           "personalImpact": "A leak can expose the accounts tied to your WeChat, Alipay, and bank. Silence from the company only widens the harm. Article 57 requires prompt action and notice when your data is at risk. You are informed in time to secure your accounts.",
-          "professionalLayer": "Article 57 applies when a personal information leak, tampering, or loss occurs or may have occurred. Handlers must immediately take remedial measures and notify the relevant authorities and affected individuals. PIPL does not specify a fixed hour threshold. Since 1 November 2025, national incident-reporting measures require most network operators to report relatively major cybersecurity incidents to the provincial CAC office within 4 hours, and critical operators within 1 hour. Where the handler's measures effectively avoid harm, it need not notify individuals, although the authorities may still require it.",
-          "responseTimeline": "No fixed hour count in PIPL. Major cybersecurity incidents: within 4 hours to the provincial CAC office, 1 hour for critical operators.",
+          "professionalLayer": "Article 57 applies when a personal information leak, tampering, or loss occurs or may have occurred. Handlers must immediately take remedial measures and notify the relevant authorities and affected individuals. PIPL does not specify a fixed hour threshold. Separate incident-reporting measures have applied since 1 November 2025. They cover cybersecurity incidents rated relatively major or worse. A leak affecting 1 million or more people counts as relatively major. Critical infrastructure operators report within 1 hour to their protection department and the police. Central and state bodies report to their own department within 2 hours. Other operators report to the provincial CAC office within 4 hours. Where the handler's measures effectively avoid harm, it need not notify individuals, although the authorities may still require it.",
+          "responseTimeline": "No fixed hour count in PIPL. Major cybersecurity incidents: 1 hour for critical infrastructure, 2 hours for central and state bodies, 4 hours for other operators.",
           "crossReferences": [],
           "sourceLinks": [
             {

@@ -723,3 +723,33 @@ or Japan has a rule against penalising people for using their rights.
   out, as most trackers do (flagged to Jared). Massachusetts and Pennsylvania bills not enacted.
 - Provinces with their own laws (Quebec, Alberta, BC) are listed in the map-only list under
   "Canadian provinces"; on the map they stay dark blue (PIPEDA).
+
+## Review 2026-10-20, section 1 (fixed 2026-10-21)
+Source: `docs/site-review-2026-10-20/README.md`. Two read-only verifier agents checked every
+item first; their findings are in `docs/site-review-2026-10-20/verification-notes.md`.
+- C1 (918631e, 2026-10-20): Cloudflare was injecting its Web Analytics beacon for browser
+  requests on privacymeridian.org, though every dashboard setting showed it off (pages.dev had
+  none). Fixed with `Cache-Control: ... no-transform` in `public/_headers`. P5: HSTS added in
+  the same commit. Cloudflare's NEL header remains (no Free-plan setting found).
+- E1 Korea `pipa-kr-breach`: possible leaks are told to people within 72 hours (Decree
+  Art 39-3, so the review's "press only" doubt was wrong). The regulator report stays tied to
+  confirmed leaks. Added the new remedies content of notices and the recovered-data proviso.
+- E2 UK `ukgdpr-art17`: the malicious-allegation ground is UK-wide from 31 Mar 2026. Added
+  the narrow meaning of "malicious".
+- E3 China `pipl-art47`: five deletion grounds, not six (three fields).
+- E4 China `pipl-art57`: CII within 1 hour to its protection department and police; central
+  and state bodies 2 hours; others 4 hours to the provincial CAC; a 1M-person leak counts as
+  relatively major.
+- E5 Singapore `pdpa-sg-consent`: research is a Second Schedule exception (use and disclosure
+  only), with its conditions. articleRef now names both Schedules.
+- E6 Singapore `pdpa-sg-breach`: an account login with its password counts as significant
+  harm on its own.
+- E7 Canada `pipeda-scope`: the 23andMe breach was in 2023 (about 320,000 Canadians); the UK
+  fine came in 2025.
+- E8 map-only list (Jared, 2026-10-21): added Egypt (Law 151 of 2020; regulations Nov 2025),
+  the UAE (Decree-Law 45 of 2021, in force 2022, regulations still pending) and DR Congo
+  (Digital Code 2023, regulator not yet set up). This reverses the 2026-10-18 choice to leave
+  them out. Sources are law firms plus u.ae; no gazette reached. Not added: Bangladesh (2026
+  Act commencement unconfirmed), Belize, Guyana, Trinidad and Tobago (not in force), Greenland
+  (territory rule). 82 countries now colored map-only (100 shapes with states and provinces).
+- Tooltip scan before and after: same popups on the same words.

@@ -753,3 +753,5 @@ item first; their findings are in `docs/site-review-2026-10-20/verification-note
   Act commencement unconfirmed), Belize, Guyana, Trinidad and Tobago (not in force), Greenland
   (territory rule). 82 countries now colored map-only (100 shapes with states and provinces).
 - Tooltip scan before and after: same popups on the same words.
+- M1 (Jared, 2026-10-21): grey legend now reads "No comprehensive law in effect", since grey
+  also covers laws passed but not yet in force (Sri Lanka, Paraguay, some US states).

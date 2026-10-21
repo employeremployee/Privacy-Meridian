@@ -71,7 +71,7 @@
     "enacted": "Comprehensive law in effect",
     "mapOnly": "Law in effect, not yet covered",
     "selected": "Selected country",
-    "none": "No comprehensive law",
+    "none": "No comprehensive law in effect",
     "mapOnlyListToggle": "Show the laws in effect that we do not yet cover",
     "mapOnlyGroups": {
       "countries": "Countries ({{count}})",

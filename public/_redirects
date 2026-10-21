@@ -7,3 +7,5 @@
 /regulation/*   /               301
 /barrelman      /               200
 /about          /               200
+/barrelman/     /               200
+/about/         /               200

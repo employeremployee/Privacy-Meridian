@@ -21,7 +21,7 @@
         "nzpa": { "value": "20 working days", "note": "Access requests answered within 20 working days." },
         "popia": { "value": "Reasonable time", "note": "No fixed deadline for access. Correction outcomes must be notified in writing within 30 days." },
         "kdpa": { "value": "7 days", "note": "For access requests. Most other rights get 14 days." },
-        "dpdp": { "value": "Up to 90 days", "note": "A reasonable period of no more than 90 days, from 13 May 2027." },
+        "dpdp": { "value": "No set deadline", "note": "No deadline for rights requests. Grievances get up to 90 days, from 13 May 2027." },
         "pipeda": { "value": "30 days", "note": "Access requests answered within 30 days of receipt." },
         "pa-au": { "value": "30 days, or a reasonable period", "note": "30 days for agencies. Businesses get a reasonable period, generally no more than 30 days." },
         "pdpa-sg": { "value": "As soon as reasonably possible", "note": "No fixed deadline for access or correction." }
@@ -33,7 +33,7 @@
       "jurisdictions": {
         "gdpr": { "value": "Up to 3 months", "note": "Two further months for complex or numerous requests." },
         "ccpa": { "value": "Up to 90 days", "note": "One 45-day extension where reasonably necessary." },
-        "lgpd": { "value": "No general extension", "note": "Small businesses get double the time, unless their processing is high-risk." },
+        "lgpd": { "value": "No general extension", "note": "Small businesses get 15 days for a simplified reply and 30 for a complete one, unless their processing is high-risk." },
         "pipl": { "value": "No fixed rule", "note": "PIPL sets no deadline and no extension." },
         "ukgdpr": { "value": "Up to 3 months", "note": "Two further months for complex requests." },
         "fadp": { "value": "Reasonable extension", "note": "If 30 days isn't possible, the person must be told how long it will take." },
@@ -44,7 +44,7 @@
         "nzpa": { "value": "Extension permitted", "note": "May extend where the request is large, needs consultation, or is complex." },
         "popia": { "value": "No fixed maximum", "note": "Reasonableness governs." },
         "kdpa": { "value": "Portability only", "note": "Portability requests can be extended in consultation with the Data Commissioner." },
-        "dpdp": { "value": "No extension", "note": "The 90-day cap has no extension mechanism." },
+        "dpdp": { "value": "No extension", "note": "No deadline to extend. The 90-day grievance cap has no extension." },
         "pipeda": { "value": "Up to 60 days", "note": "Another 30 days for disruption or consultation, longer for alternative formats." },
         "pa-au": { "value": "No extension set", "note": "The principles set no extension." },
         "pdpa-sg": { "value": "Notice within 30 days", "note": "If it takes longer, say in writing within 30 days when you will respond." }

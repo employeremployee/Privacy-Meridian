@@ -233,7 +233,7 @@
         "nzpa": { "state": "partial", "note": "Not a special category, but collection from children needs particular care to be fair and not intrusive." },
         "popia": { "state": "yes", "note": "Children's personal information is specially protected." },
         "kdpa": { "state": "partial", "note": "Not a sensitive category, but processing needs parental consent and age checks." },
-        "dpdp": { "state": "yes", "note": "Children's data receives heightened protection." },
+        "dpdp": { "state": "partial", "note": "No sensitive category. Children's data gets its own protections." },
         "pipeda": { "state": "partial", "note": "Guidance treats it as sensitive. Children under 13 generally need a parent's consent." },
         "pa-au": { "state": "partial", "note": "Not a sensitive category. A children's online privacy code is due by December 2026." },
         "pdpa-sg": { "state": "partial", "note": "Not a special category. Child-protection data makes a breach notifiable, and guidance asks for extra care." }

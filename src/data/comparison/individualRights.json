@@ -26,7 +26,7 @@
         "nzpa": { "state": "yes", "note": "Access to personal information." },
         "popia": { "state": "yes", "note": "Right of access." },
         "kdpa": { "state": "yes", "note": "Right of access." },
-        "dpdp": { "state": "yes", "note": "Right to access information." },
+        "dpdp": { "state": "yes", "note": "Right to access information, from 13 May 2027." },
         "pipeda": { "state": "yes", "note": "See your information, how it was used, and who received it." },
         "pa-au": { "state": "yes", "note": "Access to your information, usually within 30 days." },
         "pdpa-sg": { "state": "yes", "note": "Your data, plus how it was used or shared in the past year." }
@@ -49,7 +49,7 @@
         "nzpa": { "state": "no", "note": "No general erasure right; correction is provided instead." },
         "popia": { "state": "partial", "note": "Deletion of inaccurate, excessive, unlawful or no-longer-authorised data." },
         "kdpa": { "state": "yes", "note": "Right to erasure." },
-        "dpdp": { "state": "yes", "note": "Right to erasure." },
+        "dpdp": { "state": "yes", "note": "Right to erasure, from 13 May 2027." },
         "pipeda": { "state": "partial", "note": "No general erasure right. Unneeded data should be destroyed, and inaccurate data corrected or deleted." },
         "pa-au": { "state": "no", "note": "No erasure right. Entities must destroy or de-identify data they no longer need." },
         "pdpa-sg": { "state": "no", "note": "No erasure right. Organisations must stop keeping data they no longer need." }
@@ -72,7 +72,7 @@
         "nzpa": { "state": "yes", "note": "Correction." },
         "popia": { "state": "yes", "note": "Correction." },
         "kdpa": { "state": "yes", "note": "Rectification." },
-        "dpdp": { "state": "yes", "note": "Correction and updating." },
+        "dpdp": { "state": "yes", "note": "Correction and updating, from 13 May 2027." },
         "pipeda": { "state": "yes", "note": "Inaccurate or incomplete data must be amended and the change shared where appropriate." },
         "pa-au": { "state": "yes", "note": "Correction, or a statement attached to the record if refused." },
         "pdpa-sg": { "state": "yes", "note": "Errors fixed and passed to recent recipients, or the request noted." }
@@ -155,7 +155,7 @@
         "ccpa": { "state": "partial", "note": "From January 2027, an opt-out and access right for significant automated decisions, with exceptions." },
         "lgpd": { "state": "partial", "note": "A right to request review and learn the criteria, not a ban." },
         "pipl": { "state": "yes" },
-        "ukgdpr": { "state": "partial", "note": "Banned only with special category data or recognised legitimate interests. Otherwise allowed with safeguards, including human review." },
+        "ukgdpr": { "state": "partial", "note": "Restricted with special category data. Banned when relying on recognised legitimate interests. Otherwise allowed with safeguards, including human review." },
         "fadp": { "state": "yes", "note": "Information and human review of automated decisions." },
         "pdpa-ar": { "state": "partial", "note": "Court and government decisions cannot rest solely on automated profiling. AAIP guidance adds a right to an explanation." },
         "lpdp-uy": { "state": "yes", "note": "A right not to face significant decisions based solely on automated evaluation, and to learn the criteria used." },
@@ -213,7 +213,7 @@
         "dpdp": { "state": "no", "note": "Not framed as a right." },
         "pipeda": { "state": "no", "note": "No specific rule in the law." },
         "pa-au": { "state": "no", "note": "No specific rule in the law." },
-        "pdpa-sg": { "state": "no", "note": "No specific rule in the law." }
+        "pdpa-sg": { "state": "partial", "note": "A service can't demand more consent than it needs to provide the service." }
       }
     }
   ]

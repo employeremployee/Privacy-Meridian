@@ -65,3 +65,29 @@ in the browser because plain fetches were blocked.
   deleted and the risk is markedly low. The site leaves this out.
 - Not re-verified: Korea's "tightest breach clocks" history sentence, and Canada's Tim Hortons
   2022 sentence.
+
+## Section 2 (M2 to M22), checked 2026-10-21
+
+| Row | Verdict | Corrected facts | Primary source? |
+|---|---|---|---|
+| M2 | Definition overclaims | The term is used by 36 articles, not 9. Reword the definition (Jared's choice). | n/a |
+| M3 | CONFIRMED | s 13G(3): greatest of A$50M, and 3x benefit if determinable, otherwise 30% of adjusted turnover. Individuals A$2.5M (s 13G(2)). | Yes, legislation.gov.au |
+| M4 | CONFIRMED | APP 6.2 allows expected related uses, uses required by law, and others without consent. | From memory of the APPs |
+| M5 | PARTLY | Current sentence is accurate. Bill C-15 (S.C. 2026, c. 3, assent 26 Mar 2026) adds s 10.4, applying only where both organisations are under a framework set by regulation. Not in force. | Yes, Justice Laws |
+| M6 | CONFIRMED | Art 22B: special category data allowed with explicit consent, or contract/law plus 9(2)(g). Banned on recognised legitimate interests. | Yes |
+| M7 | CONFIRMED | Art 21(1): only for 6(1)(e)/(f), on grounds of the person's particular situation. | Yes |
+| M8 | PARTLY | Either act on the request, or promptly pass it to the source body. | Secondary (2017 decree copy) |
+| M9 | CONFIRMED | Add a recipient holding a recognised international certification (APEC CBPR). | PPC 2016 translation; current numbering unconfirmed |
+| M10 | CONFIRMED | IPP 12(2) exception for law enforcement and serious threats. Plain summary misses two routes. | privacy.org.nz |
+| M11 | CONFIRMED | Art 24(2): non-personalised option OR an easy way to refuse, handler's choice. | Statute, not fetched |
+| M12 | CONFIRMED | Most duties from 13 May 2027, consent managers 13 Nov 2026 (G.S.R. **846(E)**, not 843(E)). | Yes, Gazette |
+| M13 | CONFIRMED | The 90-day cap is for grievances only. Access, correction and erasure have no set deadline. | Yes, Rule 14(3) |
+| M14 | CONFIRMED | Small agents: simplified reply 15 days, complete reply 30 days. Other requests are doubled once ANPD regulates. Not for high-risk processing. | Yes, DOU |
+| M15 | Uruguay partial; Kenya partial (cite reg 29(d)); Korea yes (Art 38(4), secondary) | | Mixed |
+| M16 | Editorial | Agent proposes a consistent scheme. **Decision for Jared.** | n/a |
+| M17 | CONFIRMED | India children's data: "partial". | Yes |
+| M18 | CONFIRMED | Singapore per-purpose and non-discrimination: both "partial" (s 14(2)(a)). | PDPC guidelines |
+| M19 | Editorial | About text: exempt the map-only list, and note translations. | n/a |
+| M20 | CONFIRMED | Fine on ByteDance (TikTok's owner). Appeal to the ANPD board within 10 business days, now passed. Outcome unknown. | Yes, gov.br/anpd |
+| M21 | Can't verify past August | Keep "as of August 2026" (Lok Sabha answer, 12 Aug). October status is secondary only. | Partly |
+| M22 | CONFIRMED | Reg 26(1): Kenyan server **or** at least one serving copy in Kenya. The list "includes", so it is open. Reg 26(3) adds a sanction route. | Yes, ODPC PDF |

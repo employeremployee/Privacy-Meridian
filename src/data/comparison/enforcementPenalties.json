@@ -23,7 +23,7 @@
         "kdpa": { "value": "Up to KES 5M or 1% of turnover", "note": "Whichever is lower, for the most serious cases." },
         "dpdp": { "value": "Up to ₹250 crore", "note": "Imposed by the Data Protection Board, from 13 May 2027." },
         "pipeda": { "value": "None from the regulator", "note": "Courts can fine knowing breaches of key duties up to C$100,000. Quebec allows administrative penalties." },
-        "pa-au": { "value": "A$50M, 3x benefit, or 30% of turnover", "note": "Whichever is greatest, set by a court for serious interferences." },
+        "pa-au": { "value": "A$50M, 3x benefit, or 30% of turnover", "note": "For companies, the greater of A$50M and 3x the benefit, or 30% of turnover if the benefit can't be valued. Individuals: A$2.5M." },
         "pdpa-sg": { "value": "10% of Singapore turnover, or S$1M", "note": "10% where Singapore turnover exceeds S$10M. Otherwise up to S$1M." }
       }
     },

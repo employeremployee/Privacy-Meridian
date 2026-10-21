@@ -22,7 +22,7 @@
       "id": "consent-withdrawal",
       "type": "paired",
       "term": "Consent and Withdrawal of Consent",
-      "definition": "Consent means you actively agreed to let a company use your personal information. It must be freely given, specific, and easy to understand. Withdrawal means you can take that agreement back at any time. Laws like the GDPR require withdrawal to be as easy as giving consent.",
+      "definition":"Consent means you agree to a company using your data for a stated purpose. Some laws also accept consent that is implied or deemed. Most let you withdraw it later. The GDPR and some other laws make withdrawing as easy as giving consent.",
       "jurisdiction": "universal",
       "source": {
         "label": "IAPP Privacy Glossary",

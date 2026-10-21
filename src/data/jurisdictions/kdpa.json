@@ -185,7 +185,7 @@
           "surfaceLabel": "Moving Personal Data Out of Kenya",
           "plainSummary": "Data may leave Kenya with proof of adequate safeguards, an adequacy decision, a listed necessity such as a contract, or your consent. Sensitive data needs your consent plus confirmed safeguards. Some public-interest data must stay in Kenya.",
           "personalImpact": "Your data may be sent to servers in other countries. Protection there is not always as strong. Kenyan law allows the transfer only with proof of adequate safeguards. Your protections stay with the data across the border.",
-          "professionalLayer": "Section 48 permits cross-border transfer where the controller gives the Data Commissioner proof of appropriate safeguards, including protection through the destination's laws. It also permits transfers necessary for a contract, the public interest, legal claims, vital interests, or compelling legitimate interests. The 2021 regulations add adequacy decisions by the Data Commissioner, binding corporate rules, and consent given after being told of the risks. Section 49 covers sensitive data, which needs the data subject's consent and confirmed safeguards, and lets the Data Commissioner restrict such transfers. Section 50 lets the Cabinet Secretary require processing through servers in Kenya to protect strategic state interests or revenue. The 2021 regulations apply this to six purposes: civil registration, elections, public-finance systems, protected computer systems, early childhood and basic education, and primary and secondary health care.",
+          "professionalLayer": "Section 48 permits cross-border transfer where the controller gives the Data Commissioner proof of appropriate safeguards, including protection through the destination's laws. It also permits transfers necessary for a contract, the public interest, legal claims, vital interests, or compelling legitimate interests. The 2021 regulations add adequacy decisions by the Data Commissioner, binding corporate rules, and consent given after being told of the risks. Section 49 covers sensitive data, which needs the data subject's consent and confirmed safeguards, and lets the Data Commissioner restrict such transfers. Section 50 lets the Cabinet Secretary require processing in Kenya to protect strategic state interests or revenue. The 2021 regulations accept a server and data centre in Kenya, or at least one serving copy stored there. The listed purposes include civil registration, elections, public-finance systems, protected computer systems, early childhood and basic education, and primary and secondary health care.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
@@ -204,7 +204,7 @@
           "gapRemediation": {
             "smb": "Keep proof of safeguards, such as contract clauses, on file per foreign destination.",
             "midMarket": "Screen data categories against localization prescriptions before choosing hosting regions.",
-            "enterprise": "Treat the six localization purposes in the 2021 regulations as live infrastructure constraints in your Kenya architecture."
+            "enterprise": "Treat the localization purposes in the 2021 regulations as live infrastructure constraints in your Kenya architecture."
           },
           "comparisonFlags": [
             {

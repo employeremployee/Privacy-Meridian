@@ -755,3 +755,36 @@ item first; their findings are in `docs/site-review-2026-10-20/verification-note
 - Tooltip scan before and after: same popups on the same words.
 - M1 (Jared, 2026-10-21): grey legend now reads "No comprehensive law in effect", since grey
   also covers laws passed but not yet in force (Sri Lanka, Paraguay, some US states).
+
+## Review 2026-10-20, section 2 (fixed 2026-10-21)
+A read-only verifier checked each row against primary sources first (see
+`docs/site-review-2026-10-20/verification-notes.md`). One commit, because the comparison files
+mix several laws.
+- M2 glossary `consent-withdrawal` (Jared chose reword): now says some laws accept implied
+  or deemed consent and most allow withdrawal. It is used by 36 articles, not 9.
+- M3 Australia: the court cap is the greater of A$50M and 3x benefit, or 30% of turnover if
+  the benefit can't be valued. Individuals A$2.5M (law page and penalties table).
+- M4 Australia legal bases: "many" secondary uses, not "most".
+- M5 Canada: the mobility right, once in force, applies only to sectors set by regulation.
+- M6 UK automated decisions: restricted with special category data, banned on recognised
+  legitimate interests.
+- M7 GDPR Art 21 plain summary: objection right limited to legitimate interests or public task.
+- M9 Japan transfers: a recognised international certification (APEC CBPR) also qualifies.
+- M10 NZ transfers: IPP 12(2) exceptions added. The plain summary lists all routes.
+- M11 China Art 24: a non-personalised option OR an easy way to refuse.
+- M12 India: "from 13 May 2027" on rights, consent and transfer text, plus 9 table cells.
+- M13 India: the 90-day limit is for grievances only (Rule 14(3), G.S.R. 846(E)). Rights
+  requests have no set deadline.
+- M14 Brazil small agents: 15 days simplified, 30 days complete, not for high-risk processing.
+- M15 easy withdrawal: Uruguay and Kenya now "partial". Korea left "yes" (support is
+  secondary only).
+- M17 India children's data: "partial". M18 Singapore per-purpose and non-discrimination:
+  "partial".
+- M19 About: says translated sources are labelled, and the not-yet-covered list relies on
+  trackers. The China DigiChina links are now labelled "unofficial English translation".
+- M20 Brazil: fine on ByteDance, TikTok's owner. The board-appeal deadline has passed.
+- M22 Kenya: a Kenyan server or a serving copy in Kenya. The purpose list is open ("includes").
+- **Held back (secondary sources only):** M8 Korea onward correction; M15 Korea note; M21
+  India Board after August (kept "as of August 2026").
+- **Waiting on Jared:** M16 (consent-model rows, an editorial scheme).
+- Tooltip scan: same popups on the same words (282).

@@ -26,9 +26,9 @@
         "nzpa": { "state": "partial", "note": "Authorization by the individual is one ground among the principles." },
         "popia": { "state": "yes" },
         "kdpa": { "state": "yes" },
-        "dpdp": { "state": "yes", "note": "Consent is the primary basis." },
+        "dpdp": { "state": "yes", "note": "Consent is the primary basis, from 13 May 2027." },
         "pipeda": { "state": "yes", "note": "Consent is the default for collection, use and disclosure." },
-        "pa-au": { "state": "partial", "note": "No legal-basis list. Consent is needed for sensitive data and most secondary uses." },
+        "pa-au": { "state": "partial", "note": "No legal-basis list. Consent is needed for sensitive data and many secondary uses." },
         "pdpa-sg": { "state": "yes", "note": "The default rule, including deemed consent by conduct, contract or notification." }
       }
     },

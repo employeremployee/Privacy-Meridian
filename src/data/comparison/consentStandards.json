@@ -26,7 +26,7 @@
         "nzpa": { "state": "no", "note": "Principle-based collection; no blanket opt-in requirement." },
         "popia": { "state": "yes", "note": "Affirmative consent where consent is the basis." },
         "kdpa": { "state": "yes", "note": "Affirmative consent where consent is the basis." },
-        "dpdp": { "state": "yes", "note": "Clear affirmative consent required, with limited legitimate uses." },
+        "dpdp": { "state": "yes", "note": "Clear affirmative consent required, with limited legitimate uses. From 13 May 2027." },
         "pipeda": { "state": "partial", "note": "Consent is required, but implied consent can do for less sensitive information." },
         "pa-au": { "state": "no", "note": "Necessity-based collection. Consent is not the default gate." },
         "pdpa-sg": { "state": "partial", "note": "Consent is required, but deemed and notification-based consent are allowed." }
@@ -49,10 +49,10 @@
         "nzpa": { "state": "partial", "note": "Use limited to the purpose of collection." },
         "popia": { "state": "partial", "note": "Processing tied to a specific, explicit purpose." },
         "kdpa": { "state": "partial", "note": "Consent tied to specified purposes." },
-        "dpdp": { "state": "yes", "note": "Consent limited to the specified purpose; itemized notice required." },
+        "dpdp": { "state": "yes", "note": "Consent limited to the specified purpose, with an itemized notice. From 13 May 2027." },
         "pipeda": { "state": "partial", "note": "Consent covers the purposes identified. A new purpose needs fresh consent." },
         "pa-au": { "state": "partial", "note": "Use is tied to the purpose of collection, and consent must be specific." },
-        "pdpa-sg": { "state": "yes", "note": "Consent is tied to the purposes notified up front." }
+        "pdpa-sg": { "state": "partial", "note": "Consent covers the purposes notified up front, with no rule on splitting them." }
       }
     },
     {
@@ -89,13 +89,13 @@
         "ukgdpr": { "state": "yes" },
         "fadp": { "state": "partial", "note": "No statutory withdrawal rule. In practice you object, and further processing then needs justification." },
         "pdpa-ar": { "state": "partial", "note": "Consent can be revoked at any time, but no rule says withdrawal must be as easy as giving it." },
-        "lpdp-uy": { "state": "yes", "note": "Consent may be withdrawn." },
+        "lpdp-uy": { "state": "partial", "note": "Consent may be withdrawn, but no rule says it must be as easy as giving it." },
         "pipa-kr": { "state": "yes", "note": "Consent may be withdrawn at any time." },
         "appi": { "state": "partial", "note": "Withdrawal handled through cessation-of-use requests." },
         "nzpa": { "state": "partial", "note": "No formal consent-withdrawal mechanism; principle-based." },
         "popia": { "state": "partial", "note": "Consent can be withdrawn at any time, but no rule says withdrawal must be as easy as giving it." },
-        "kdpa": { "state": "yes", "note": "Consent may be withdrawn." },
-        "dpdp": { "state": "yes", "note": "Withdrawal must be as easy as giving consent." },
+        "kdpa": { "state": "partial", "note": "Consent may be withdrawn at any time, through a simple method. No rule says it must be as easy as giving it." },
+        "dpdp": { "state": "yes", "note": "Withdrawal must be as easy as giving consent. From 13 May 2027." },
         "pipeda": { "state": "partial", "note": "Consent can be withdrawn at any time with reasonable notice." },
         "pa-au": { "state": "partial", "note": "Regulator guidance says you can withdraw consent. The Act sets no procedure." },
         "pdpa-sg": { "state": "partial", "note": "Withdraw any time on reasonable notice, and organisations cannot forbid it." }
@@ -141,7 +141,7 @@
         "nzpa": { "state": "no", "note": "No specific child-consent rule." },
         "popia": { "state": "yes", "note": "Processing children's data needs consent of a competent person." },
         "kdpa": { "state": "yes", "note": "Consent of a parent or guardian for a child." },
-        "dpdp": { "state": "yes", "note": "Verifiable parental consent required for children under 18." },
+        "dpdp": { "state": "yes", "note": "Verifiable parental consent required for children under 18, from 13 May 2027." },
         "pipeda": { "state": "partial", "note": "Guidance says children under 13 generally need a parent's consent. Quebec sets 14 by law." },
         "pa-au": { "state": "partial", "note": "No set age. The regulator assesses capacity case by case. A children's code is pending." },
         "pdpa-sg": { "state": "partial", "note": "No rule in the law. Regulator guidance sets expectations for children's consent." }

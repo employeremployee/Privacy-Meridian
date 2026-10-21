@@ -26,7 +26,7 @@
         "nzpa": { "state": "partial", "note": "Transfer allowed where comparable safeguards exist. The Act also allows a list of prescribed countries." },
         "popia": { "state": "partial", "note": "Transfer allowed where the recipient has adequate protection." },
         "kdpa": { "state": "yes", "note": "Transfers to countries with adequate safeguards." },
-        "dpdp": { "state": "partial", "note": "Transfers allowed except to countries the government restricts." },
+        "dpdp": { "state": "partial", "note": "From 13 May 2027, transfers are allowed except to countries the government restricts." },
         "pipeda": { "state": "no", "note": "No country-approval system for transfers out of Canada." },
         "pa-au": { "state": "partial", "note": "The government can list countries with similar laws. None are listed yet." },
         "pdpa-sg": { "state": "no", "note": "No government list. The sender checks that protection abroad is comparable." }
@@ -163,7 +163,7 @@
         "appi": { "state": "no", "note": "No localization requirement." },
         "nzpa": { "state": "no", "note": "No localization requirement." },
         "popia": { "state": "no", "note": "No general localization requirement." },
-        "kdpa": { "state": "partial", "note": "Six listed public-interest purposes, such as elections and health care, must use servers in Kenya." },
+        "kdpa": { "state": "partial", "note": "Listed public-interest purposes, such as elections and health care, need a Kenyan server or a serving copy kept in Kenya." },
         "dpdp": { "state": "partial", "note": "The government may require significant data fiduciaries to keep specified data in India. Sector rules can also apply." },
         "pipeda": { "state": "no", "note": "No federal data localization requirement." },
         "pa-au": { "state": "no", "note": "No general localization requirement." },

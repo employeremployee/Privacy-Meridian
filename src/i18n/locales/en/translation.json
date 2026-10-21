@@ -118,7 +118,7 @@
   },
   "footer": {
     "about": "About",
-    "lastUpdated": "Last updated October 2026",
+    "lastUpdated": "Last updated {{date}}",
     "copyright": "© 2026 Privacy Meridian. All rights reserved.",
     "privacyNote": "No cookies, no trackers, no analytics.",
     "siteMapLabel": "Site map",
@@ -154,6 +154,8 @@
     "openInNewTab": "Opens in a new tab",
     "sourceLabel": "Source: {{source}}",
     "inLanguage": "In {{language}}",
+    "machineTranslated": "headline machine-translated",
+    "originalHeadline": "Original headline:",
     "pagination": {
       "label": "News pages",
       "previous": "Previous pages",
@@ -184,7 +186,7 @@
   },
   "about": {
     "title": "About Privacy Meridian",
-    "intro": "Privacy Meridian explains how privacy laws around the world protect you, in plain language. It is free, and it collects nothing about you.",
+    "intro": "Privacy Meridian explains how privacy laws around the world protect you, in plain language. It is free, and we collect nothing about you.",
     "sections": {
       "what": {
         "heading": "What this site is",
@@ -200,7 +202,7 @@
       },
       "privacy": {
         "heading": "Your privacy here",
-        "body": "This site sets no cookies and uses no trackers or analytics. It loads nothing from other websites, so your visit stays between you and this site. Our host, Cloudflare, keeps visit counts by country. We see totals only, never who you are."
+        "body": "This site sets no cookies and uses no trackers or analytics. It loads nothing from other websites, so your visit stays between you and this site. Our host, Cloudflare, handles your network address to deliver and protect the site. It also keeps visit counts by country. We see totals only, never who you are."
       },
       "advice": {
         "heading": "Not legal advice",

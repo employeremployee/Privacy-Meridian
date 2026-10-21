@@ -5,6 +5,11 @@ import { useTranslation } from 'react-i18next'
 const LINK_CLASS =
   'underline-offset-2 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-meridian-blue'
 
+// Month and year of the latest commit, set at build time in vite.config.js.
+const LAST_UPDATED = new Intl.DateTimeFormat('en', { month: 'long', year: 'numeric' }).format(
+  new Date(__LAST_UPDATED__),
+)
+
 const SITE_MAP = [
   { to: '/', key: 'footer.siteMap.explore' },
   { to: '/barrelman', key: 'nav.barrelman' },
@@ -39,7 +44,7 @@ function Footer() {
           </ul>
         </nav>
         <p className="flex flex-wrap items-center gap-x-3 gap-y-1 xl:flex-nowrap xl:whitespace-nowrap">
-          <span>{t('footer.lastUpdated')}</span>
+          <span>{t('footer.lastUpdated', { date: LAST_UPDATED })}</span>
           <span aria-hidden="true">|</span>
           <span>{t('footer.privacyNote')}</span>
           <span aria-hidden="true">|</span>

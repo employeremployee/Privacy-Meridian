@@ -832,3 +832,7 @@ OAIC and ICO). Applied:
   Argentina "partial" on 2026-10-15); review's "sccs" wording (already correct).
 - **For Jared later:** Kosovo drawn grey (shape has no id); Hong Kong and Macau sit inside
   China's shape on this map.
+- Section 4 (2026-10-21): P3 translated headlines labelled, original headline given to screen
+  readers. P4 footer "Last updated" comes from the latest commit date. P7 real 404 status for unknown
+  addresses (404.html plus _redirects). P8 About says Cloudflare handles network addresses; "we
+  collect nothing about you". P2 contact address is a to-do (needs Jared's email).

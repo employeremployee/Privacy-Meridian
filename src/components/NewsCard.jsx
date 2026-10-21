@@ -43,6 +43,15 @@ function NewsCard({ item }) {
           {languageNote && (
             <span className="text-ink"> · {languageNote}</span>
           )}
+          {item.originalTitle && (
+            <>
+              <span className="text-ink">, {t('barrelman.machineTranslated')}</span>
+              {/* The original headline is shown on hover; screen readers get it here. */}
+              <span className="sr-only">
+                . {t('barrelman.originalHeadline')} <span lang={item.lang}>{item.originalTitle}</span>
+              </span>
+            </>
+          )}
           <span className="sr-only">. {t('barrelman.openInNewTab')}</span>
         </p>
       </a>

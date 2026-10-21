@@ -795,3 +795,40 @@ mix several laws.
 - P1 (Jared, 2026-10-21): "not legal advice" line under each law title and in each Help for
   Organizations panel. Seven directive phrases ("is sufficient", "is the minimum") now read "is a
   reasonable starting point" (FADP, GDPR, LGPD, UK GDPR).
+
+## Review 2026-10-20, section 3 (fixed 2026-10-21)
+A read-only verifier checked each bullet (official sources for Singapore, UK, NZ, Kenya, POPIA,
+OAIC and ICO). Applied:
+- Korea: notices name statutory damages too; 5x damages cover gross negligence;
+  non-discrimination note states the rule.
+- Japan: 60 days where a wrongful purpose is suspected (law page and table); "fraud or other
+  wrongful means".
+- China: RMB 50M; Art 57 summary covers possible incidents and the notice exception;
+  localisation glossary notes exemptions; political opinions "partial".
+- Singapore: private-action wording; told of rejection (no reasons duty); certification split
+  (CBPR any recipient, PRP intermediaries only) plus in-transit, publicly available and vital
+  interests routes; s 26D(6)-(7) no-notice and waiver; business improvement covers related
+  companies but never marketing; portability "not yet in force"; citation lists amendments.
+- Australia: health-service small businesses; "state rules, where they exist"; children's
+  capacity is assessed by organisations, with an optional presumption from 15 (OAIC); IP
+  addresses as personal data depend on the law and facts (glossary).
+- NZ: correction extension (s 65, not s 48 as the review said); portability "partial"
+  (Customer and Product Data Act, banking from Dec 2025).
+- UK: one-month clock starts at the latest of receipt, ID or fee; "complex or numerous";
+  transfer certification "partial" (ICO: none approved).
+- GDPR: Art 18 only in listed cases; Art 20 only data you provided, on consent or contract;
+  Art 35 "evaluation ... including profiling".
+- Canada: "income records". California: "The right to opt out has no direct GDPR equivalent".
+- Brazil: deletion articleRef "Article 18, IV and VI". POPIA: correction or deletion outcomes;
+  genetic "partial" (DNA analysis for identification is biometric). Kenya s 43 notice content.
+- Glossary ropa adds criminal-record processing.
+- Popups removed where they landed inside longer terms (12): personal-data in appi-scope,
+  pipl-art24/40/44/38-43, pipa-kr-scope, popia-s11, kdpa-s30; consent-withdrawal and
+  controller-processor in dpdp-scope; controller-processor in dpdp-rights;
+  legitimate-interests in pdpa-sg-consent (a consent exception in Singapore). Scan: 270.
+- **Held back:** Korea "leak" now includes forgery, alteration and damage (one law-firm source);
+  Korea citation (a 2025 amendment unconfirmed); Brazil small-agent exception (Res 15/2024
+  may have replaced it; unverified); Argentina/Uruguay non-discrimination (Jared chose
+  Argentina "partial" on 2026-10-15); review's "sccs" wording (already correct).
+- **For Jared later:** Kosovo drawn grey (shape has no id); Hong Kong and Macau sit inside
+  China's shape on this map.

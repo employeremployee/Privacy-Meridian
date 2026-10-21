@@ -117,7 +117,7 @@
           ],
           "assessTrigger": "Can your organization meet the one-month subject access deadline for UK requests, including searching unstructured sources like email where the ICO expects reasonable effort?",
           "gapRemediation": {
-            "smb": "A documented intake route and a response checklist cover most needs at this scale. Watch the one-month clock from the day of receipt.",
+            "smb": "A documented intake route and a response checklist cover most needs at this scale. Watch the one-month clock. It starts at the latest of receipt, ID checks or fee payment.",
             "midMarket": "Subject access requests from employees are the common stress case. Define search scope, exemption handling, and third-party data redaction in advance.",
             "enterprise": "High request volumes justify a dedicated DSR platform with email and unstructured data search, plus documented exemption decision logs the ICO can audit."
           },

@@ -92,13 +92,13 @@
         "lpdp-uy": { "state": "no", "note": "No standalone portability right." },
         "pipa-kr": { "state": "partial", "note": "Phasing in since 2025. Large companies are covered from February 2027." },
         "appi": { "state": "partial", "note": "Disclosure can be requested electronically, but no transfer-to-controller right." },
-        "nzpa": { "state": "no", "note": "No data portability right." },
+        "nzpa": { "state": "partial", "note": "No general right. A customer data law gives one for banking from December 2025." },
         "popia": { "state": "no", "note": "No standalone portability right." },
         "kdpa": { "state": "yes", "note": "Right to data portability." },
         "dpdp": { "state": "no", "note": "No data portability right in the Act." },
         "pipeda": { "state": "no", "note": "No right in force federally. Quebec has one, and a federal amendment awaits regulations." },
         "pa-au": { "state": "partial", "note": "No general right. The separate Consumer Data Right lets you share data in some sectors." },
-        "pdpa-sg": { "state": "no", "note": "Enacted in 2020 but never brought into force." }
+        "pdpa-sg": { "state": "no", "note": "Enacted in 2020 but not yet in force." }
       }
     },
     {
@@ -205,7 +205,7 @@
         "fadp": { "state": "partial", "note": "Protected through good-faith and proportionality principles." },
         "pdpa-ar": { "state": "partial", "note": "No specific rule. Only a general duty to collect data fairly and in good faith." },
         "lpdp-uy": { "state": "no", "note": "No specific rule in the law." },
-        "pipa-kr": { "state": "partial", "note": "Protected through general principles, not a standalone right." },
+        "pipa-kr": { "state": "partial", "note": "A company can't refuse service because you decline optional or unneeded data collection." },
         "appi": { "state": "no", "note": "No specific rule in the law." },
         "nzpa": { "state": "no", "note": "Not framed as a right." },
         "popia": { "state": "no", "note": "No specific rule in the law." },

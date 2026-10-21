@@ -238,7 +238,7 @@
       "id": "personal-data",
       "type": "standalone",
       "term": "Personal Data / Personal Information",
-      "definition": "Personal data is any information that can identify a living person. This includes obvious things like your name and email address. It also includes less obvious things like your IP address, location data, or a tracking cookie. Some laws, like South Africa's, Argentina's and Uruguay's, also protect information about companies. Japan's law treats data like a cookie ID alone as a lighter, separate category.",
+      "definition": "Personal data is any information that can identify a living person. This includes obvious things like your name and email address. It can also include less obvious things like your IP address, location data, or a tracking cookie, depending on the law and the facts. Some laws, like South Africa's, Argentina's and Uruguay's, also protect information about companies. Japan's law treats data like a cookie ID alone as a lighter, separate category.",
       "jurisdiction": "universal",
       "source": {
         "label": "IAPP Privacy Glossary",
@@ -292,7 +292,7 @@
       "id": "ropa",
       "type": "standalone",
       "term": "Records of Processing Activities (RoPA)",
-      "definition": "A RoPA is an internal document that records every way an organization uses personal data. It covers what data is collected, why, who sees it, and how long it is kept. Regulators can request it at any time. Under the GDPR, organizations with fewer than 250 employees are often exempt. The exemption does not apply to risky, regular, or sensitive-data processing.",
+      "definition": "A RoPA is an internal document that records every way an organization uses personal data. It covers what data is collected, why, who sees it, and how long it is kept. Regulators can request it at any time. Under the GDPR, organizations with fewer than 250 employees are often exempt. The exemption does not apply to risky, regular, sensitive-data or criminal-record processing.",
       "jurisdiction": "GDPR specific (Article 30). LGPD has its own records duty. PIPL requires records only for activities that need an impact assessment.",
       "source": {
         "label": "GDPR Article 30: EUR-Lex",
@@ -382,7 +382,7 @@
       "id": "data-localization",
       "type": "standalone",
       "term": "Data Localization",
-      "definition": "Data localization means a law requires certain data to stay inside a country. China requires this for critical infrastructure operators and for handlers above set data volumes. Sending such data abroad needs a government security review. This is a major structural difference from European privacy law.",
+      "definition": "Data localization means a law requires certain data to stay inside a country. China requires this for critical infrastructure operators and for handlers above set data volumes. Sending such data abroad usually needs a government security review, though some exports are exempt. This is a major structural difference from European privacy law.",
       "jurisdiction": "PIPL specific (Article 40). No equivalent requirement in GDPR, CCPA/CPRA, or LGPD.",
       "source": {
         "label": "PIPL Article 40 (Stanford DigiChina)",

@@ -109,7 +109,7 @@
         "ccpa": { "state": "no", "note": "Not part of the CCPA framework." },
         "lgpd": { "state": "partial", "note": "Contemplated, guidance developing." },
         "pipl": { "state": "yes", "note": "CAC-recognized professional certification." },
-        "ukgdpr": { "state": "yes", "note": "Certification schemes recognized, mirroring GDPR." },
+        "ukgdpr": { "state": "partial", "note": "Allowed in law, but no UK transfer certification scheme is approved yet." },
         "fadp": { "state": "partial", "note": "Codes of conduct or certification can support transfers." },
         "pdpa-ar": { "state": "no", "note": "Not part of the transfer regime." },
         "lpdp-uy": { "state": "no", "note": "Not part of the transfer regime." },

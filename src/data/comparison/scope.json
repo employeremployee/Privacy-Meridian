@@ -92,7 +92,7 @@
         "kdpa": { "value": "Yes", "note": "Public and private controllers." },
         "dpdp": { "value": "Yes", "note": "Applies to the State, subject to specific exemptions." },
         "pipeda": { "value": "No", "note": "Federal institutions fall under a separate Privacy Act. Provincial laws cover provincial bodies." },
-        "pa-au": { "value": "Yes, federal only", "note": "Covers Commonwealth agencies. State agencies fall under state laws." },
+        "pa-au": { "value": "Yes, federal only", "note": "Covers Commonwealth agencies. State agencies follow state rules, where they exist." },
         "pdpa-sg": { "value": "No", "note": "Public agencies are excluded and follow separate public-sector rules." }
       }
     },

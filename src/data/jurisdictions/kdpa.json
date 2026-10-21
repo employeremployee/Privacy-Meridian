@@ -83,14 +83,7 @@
               "url": "https://new.kenyalaw.org/akn/ke/act/2019/24"
             }
           ],
-          "tooltipTerms": [
-            "legitimate-interests",
-            "personal-data",
-            "data-subject",
-            "processing",
-            "controller-processor",
-            "consent-withdrawal"
-          ],
+          "tooltipTerms": ["legitimate-interests", "data-subject", "processing", "controller-processor", "consent-withdrawal"],
           "assessTrigger": "Is each Kenyan processing activity mapped to a Section 30 basis, with provable consent records where consent is relied on?",
           "gapRemediation": {
             "smb": "Map activities to the bases and keep consent evidence, since the burden of proof sits with you.",
@@ -148,7 +141,7 @@
           "surfaceLabel": "What Happens When Your Data Is Compromised in Kenya",
           "plainSummary": "Where a breach creates a real risk of harm, the organization must notify Kenya's regulator within 72 hours and tell affected people in writing within a reasonably practical time.",
           "personalImpact": "A breach can expose your phone records, mobile money history, and ID to fraudsters. Silence from a company deepens the danger. Kenyan law requires notice to the regulator, and to you where the risk is real. You are alerted in time to protect your money and identity.",
-          "professionalLayer": "Section 43 requires a controller to notify the Data Commissioner without delay and within 72 hours of becoming aware of a breach where personal data has been accessed or acquired by an unauthorized person and there is a real risk of harm to the data subject. Affected data subjects must be informed in writing within a reasonably practical period, unless identity cannot be established. Processors must notify controllers within 48 hours of becoming aware, where reasonably practicable. No notice to individuals is needed where security safeguards such as encryption were in place, and notice may be delayed for a criminal investigation. Notification content covers the nature of the breach, likely consequences, measures taken, and contact points, and delayed notifications require reasons.",
+          "professionalLayer": "Section 43 requires a controller to notify the Data Commissioner without delay and within 72 hours of becoming aware of a breach where personal data has been accessed or acquired by an unauthorized person and there is a real risk of harm to the data subject. Affected data subjects must be informed in writing within a reasonably practical period, unless identity cannot be established. Processors must notify controllers within 48 hours of becoming aware, where reasonably practicable. No notice to individuals is needed where security safeguards such as encryption were in place, and notice may be delayed for a criminal investigation. Notification content covers the nature of the breach, measures taken or planned, steps people should take, the unauthorised person's identity where known, and contact points, and delayed notifications require reasons.",
           "responseTimeline": "Commissioner: within 72 hours where real risk of harm. Processor to controller: within 48 hours. Individuals: within a reasonably practical period, in writing.",
           "crossReferences": [],
           "sourceLinks": [

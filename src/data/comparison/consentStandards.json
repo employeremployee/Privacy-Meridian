@@ -143,7 +143,7 @@
         "kdpa": { "state": "yes", "note": "Consent of a parent or guardian for a child." },
         "dpdp": { "state": "yes", "note": "Verifiable parental consent required for children under 18, from 13 May 2027." },
         "pipeda": { "state": "partial", "note": "Guidance says children under 13 generally need a parent's consent. Quebec sets 14 by law." },
-        "pa-au": { "state": "partial", "note": "No set age. The regulator assesses capacity case by case. A children's code is pending." },
+        "pa-au": { "state": "partial", "note": "No set age. Organisations assess capacity case by case, or may presume it from age 15. A children's code is pending." },
         "pdpa-sg": { "state": "partial", "note": "No rule in the law. Regulator guidance sets expectations for children's consent." }
       }
     }

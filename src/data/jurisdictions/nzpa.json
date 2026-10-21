@@ -132,7 +132,7 @@
           "plainSummary": "You can ask an organization to correct information about you. If it will not make the change, you can require it to attach your statement of the correction you wanted.",
           "personalImpact": "A wrong detail in your file can affect a claim, a loan, or your care. Left uncorrected, it keeps shaping decisions. This right lets you ask an agency to fix information about you. Records that guide those decisions stay accurate.",
           "professionalLayer": "IPP7 grants the right to request correction of personal information. Where an agency declines, the individual may provide a statement of the correction sought, which the agency must attach to the information so any future user sees the dispute. Agencies must take reasonable steps to inform other recipients of corrections made or statements attached. The statement-of-correction mechanism preserves the individual's voice even when the record stands, and the 20-working-day response discipline applies.",
-          "responseTimeline": "20 working days from receipt.",
+          "responseTimeline": "20 working days from receipt. The agency can extend this for complex requests, if it says so within those 20 days.",
           "crossReferences": [],
           "sourceLinks": [
             {

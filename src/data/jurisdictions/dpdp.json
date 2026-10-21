@@ -35,12 +35,7 @@
               "url": "https://indiacode.gov.in/act/c058fa9f-eaf0-4ca3-98f1-3443b087bca9"
             }
           ],
-          "tooltipTerms": [
-            "personal-data",
-            "processing",
-            "controller-processor",
-            "consent-withdrawal"
-          ],
+          "tooltipTerms": ["personal-data", "processing"],
           "assessTrigger": "Do you offer goods or services to people in India, and have you tracked which DPDP Rules obligations are in force for your phase, including possible significant data fiduciary designation?",
           "gapRemediation": {
             "smb": "Confirm scope and the phase-in dates that apply to you. Consent notices and grievance channels are the first practical builds.",
@@ -117,12 +112,7 @@
               "url": "https://indiacode.gov.in/act/c058fa9f-eaf0-4ca3-98f1-3443b087bca9"
             }
           ],
-          "tooltipTerms": [
-            "personal-data",
-            "processing",
-            "controller-processor",
-            "consent-withdrawal"
-          ],
+          "tooltipTerms": ["personal-data", "processing", "consent-withdrawal"],
           "assessTrigger": "Can you produce data summaries with sharing identities, honor erasure, and run the grievance channel within the Rules' timelines?",
           "gapRemediation": {
             "smb": "Stand up a working grievance email or portal with tracked response times. It is the gateway right under DPDP.",

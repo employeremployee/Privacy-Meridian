@@ -40,14 +40,7 @@
               "url": "https://pipc.go.kr/eng/"
             }
           ],
-          "tooltipTerms": [
-            "personal-data",
-            "breach-notification",
-            "data-subject",
-            "controller-processor",
-            "processing",
-            "consent-withdrawal"
-          ],
+          "tooltipTerms": ["breach-notification", "data-subject", "controller-processor", "processing", "consent-withdrawal"],
           "assessTrigger": "Do you offer goods or services into Korea, and have you designated a chief privacy officer and assessed PIPA's consent granularity against your collection flows?",
           "gapRemediation": {
             "smb": "Confirm scope first. If covered, the separate-consent requirements and CPO designation are the immediate gaps.",
@@ -185,7 +178,7 @@
           "surfaceLabel": "What Happens When Your Data Is Compromised in Korea",
           "plainSummary": "Organizations must notify affected people within 72 hours of learning of a data breach, or a possible one, and report qualifying confirmed breaches to the regulator in the same time.",
           "personalImpact": "A breach can expose your resident registration number, which is hard to change and prized by fraudsters. Silence from a company deepens the risk. PIPA requires prompt notice to you and the authorities when data is compromised. You are warned in time to act.",
-          "professionalLayer": "Article 34 and its implementing decree require controllers to notify affected data subjects within 72 hours of becoming aware, unless urgent containment or force majeure requires a delay, covering the items leaked, when and how, mitigation steps, and contact points. Reports to the PIPC or its designated agency are due within 72 hours where thresholds are met, including breaches affecting 1,000 or more people, sensitive information, or unique identifiers, or where outside intrusion caused the breach. Notification may proceed in stages if details are incomplete. Since 11 September 2026, people must also be told of a possible leak within 72 hours. This applies when a leak is likely but not yet confirmed. The report to the regulator still applies only to confirmed leaks. Notices must now also explain people's rights to damages and dispute mediation. No report is needed if the data is recovered or deleted and the risk becomes very low. Korea previously ran some of the world's tightest breach clocks for online providers, and the unified 72-hour standard preserved that stringency across sectors.",
+          "professionalLayer": "Article 34 and its implementing decree require controllers to notify affected data subjects within 72 hours of becoming aware, unless urgent containment or force majeure requires a delay, covering the items leaked, when and how, mitigation steps, and contact points. Reports to the PIPC or its designated agency are due within 72 hours where thresholds are met, including breaches affecting 1,000 or more people, sensitive information, or unique identifiers, or where outside intrusion caused the breach. Notification may proceed in stages if details are incomplete. Since 11 September 2026, people must also be told of a possible leak within 72 hours. This applies when a leak is likely but not yet confirmed. The report to the regulator still applies only to confirmed leaks. Notices must now also explain people's rights to damages, statutory damages and dispute mediation. No report is needed if the data is recovered or deleted and the risk becomes very low. Korea previously ran some of the world's tightest breach clocks for online providers, and the unified 72-hour standard preserved that stringency across sectors.",
           "responseTimeline": "PIPC: within 72 hours for qualifying confirmed breaches. Individuals: within 72 hours, including possible leaks.",
           "crossReferences": [],
           "sourceLinks": [

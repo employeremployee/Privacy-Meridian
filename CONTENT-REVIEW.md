@@ -788,3 +788,7 @@ mix several laws.
   India Board after August (kept "as of August 2026").
 - **Waiting on Jared:** M16 (consent-model rows, an editorial scheme).
 - Tooltip scan: same popups on the same words (282).
+- M16 (Jared, 2026-10-21): row "Opt-in required by default" renamed "Consent required by default".
+  GDPR, UK GDPR, LGPD, POPIA and Kenya are now "partial" in it (consent is one of several
+  bases). LGPD, POPIA and Kenya are "partial" in the opt-out row (legitimate interests run
+  until you object). Korea stays "no", with a note that its other bases are narrow.

@@ -44,6 +44,12 @@ const SUBNATIONAL_URL = `${import.meta.env.BASE_URL}maps/us-canada-50m.json`
 // Countries drawn by state or province instead of as one shape.
 const SUBNATIONAL_COUNTRIES = new Set(['840', '124'])
 
+// Hong Kong and Macau have their own privacy laws, but the 110m world map draws
+// them inside China. Their Natural Earth 50m shapes (public domain, ids "344"
+// and "446") are drawn on top of China so they show their own laws on hover.
+// Approved by Jared 2026-10-21; full law pages are a later batch.
+const HK_MACAU_URL = `${import.meta.env.BASE_URL}maps/hk-macau-50m.json`
+
 // Which covered law a state or province opens. California has the CCPA. All
 // provinces open the federal law (PIPEDA) until provincial laws are covered.
 function jurisdictionForRegion(geo) {
@@ -201,6 +207,10 @@ function MapExplorer({ jurisdictionsData, selectedIds = [], onSelectJurisdiction
               {({ geographies }) =>
                 geographies.map((geo) => renderShape(geo, jurisdictionForRegion(geo), geo.properties.name))
               }
+            </Geographies>
+            {/* Hong Kong and Macau, drawn over China with their own map-only laws. */}
+            <Geographies geography={HK_MACAU_URL}>
+              {({ geographies }) => geographies.map((geo) => renderShape(geo, null, geo.properties.name))}
             </Geographies>
             {focusedGeo && (
               <g aria-hidden="true" style={{ pointerEvents: 'none' }}>

@@ -9,7 +9,8 @@
 // gazette-linked sources; older ones against legal trackers (DLA Piper,
 // UNCTAD). See CONTENT-REVIEW.md for the research log.
 // Kosovo has no ISO numeric code and its map shape has no id, so it is listed
-// with iso: null and appears in the text list only. Dependent territories
+// with iso: null and appears in the text list only. Hong Kong and Macau have no
+// shape on the 110m map; theirs come from public/maps/hk-macau-50m.json. Dependent territories
 // (Jersey, Bermuda and similar) are left out: the list names countries.
 export const MAP_ONLY_LAWS = [
   { name: "Albania", iso: "008", law: "Law No. 124/2024 on Personal Data Protection", onMap: true },
@@ -48,7 +49,7 @@ export const MAP_ONLY_LAWS = [
   { name: "Georgia", iso: "268", law: "Law on Personal Data Protection 2023", onMap: true },
   { name: "Ghana", iso: "288", law: "Data Protection Act 2012 (Act 843)", onMap: true },
   { name: "Guinea", iso: "324", law: "Law L/2016/037/AN on Cybersecurity and Personal Data Protection", onMap: true },
-  { name: "Hong Kong", iso: "344", law: "Personal Data (Privacy) Ordinance 1995 (Cap. 486)", onMap: false },
+  { name: "Hong Kong", iso: "344", law: "Personal Data (Privacy) Ordinance 1995 (Cap. 486)", onMap: true },
   { name: "Indonesia", iso: "360", law: "Law No. 27 of 2022 on Personal Data Protection", onMap: true },
   { name: "Israel", iso: "376", law: "Protection of Privacy Law 1981 (Amendment 13 effective 2025)", onMap: true },
   { name: "Jamaica", iso: "388", law: "Data Protection Act 2020", onMap: true },
@@ -59,7 +60,7 @@ export const MAP_ONLY_LAWS = [
   { name: "Laos", iso: "418", law: "Law on Electronic Data Protection 2017", onMap: true },
   { name: "Lebanon", iso: "422", law: "Law No. 81 on Electronic Transactions and Personal Data 2018", onMap: true },
   { name: "Lesotho", iso: "426", law: "Data Protection Act 2011 (Act 5 of 2012)", onMap: true },
-  { name: "Macau", iso: "446", law: "Personal Data Protection Act (Law 8/2005)", onMap: false },
+  { name: "Macau", iso: "446", law: "Personal Data Protection Act (Law 8/2005)", onMap: true },
   { name: "Madagascar", iso: "450", law: "Law No. 2014-038 on Personal Data Protection", onMap: true },
   { name: "Malawi", iso: "454", law: "Data Protection Act 2024", onMap: true },
   { name: "Malaysia", iso: "458", law: "Personal Data Protection Act 2010 (amended 2024)", onMap: true },

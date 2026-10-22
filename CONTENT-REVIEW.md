@@ -836,3 +836,5 @@ OAIC and ICO). Applied:
   readers. P4 footer "Last updated" comes from the latest commit date. P7 real 404 status for unknown
   addresses (404.html plus _redirects). P8 About says the site's host handles network addresses (Jared: never name the host on the site); "we
   collect nothing about you". P2 contact address is a to-do (needs Jared's email).
+- 2026-10-21: Hong Kong (PDPO) and Macau (Law 8/2005) now drawn as their own map-only shapes
+  over China, from Natural Earth 50m (public domain). Full pages are a later batch (Jared).

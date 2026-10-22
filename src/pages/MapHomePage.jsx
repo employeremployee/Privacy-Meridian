@@ -82,22 +82,24 @@ function MapHomePage() {
 
   const compareLimitReached = compareSelection.length >= MAX_COMPARE
 
-  // On a short laptop screen the comparison table starts below the fold. After a
-  // law is added in Compare, scroll just enough to show the topic buttons and the
-  // table's first rows, keeping the lower map in view (Jared, 2026-10-21).
-  const compareRef = useRef(null)
-  const revealCompare = useRef(false)
+  // On a short laptop screen the results under the map start below the fold.
+  // After a law is picked in Explore or added in Compare, scroll just enough to
+  // show the start of the law page or the comparison, keeping the lower map in
+  // view (Jared, 2026-10-21). No scroll when results are already in view or when
+  // a law is cleared.
+  const resultsRef = useRef(null)
+  const revealResults = useRef(false)
   useEffect(() => {
-    if (!revealCompare.current) return
-    revealCompare.current = false
-    const el = compareRef.current
+    if (!revealResults.current) return
+    revealResults.current = false
+    const el = resultsRef.current
     if (!el) return
     const reveal = Math.min(420, window.innerHeight * 0.65)
     const overshoot = el.getBoundingClientRect().top - (window.innerHeight - reveal)
     if (overshoot <= 0) return
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     window.scrollBy({ top: overshoot, behavior: reduceMotion ? 'auto' : 'smooth' })
-  }, [compareSelection])
+  }, [compareSelection, exploreSelection])
 
   // Tab title follows the view: the chosen law in Explore, the topic in Compare.
   const exploreLaw = exploreSelection ? JURISDICTIONS_DATA[exploreSelection].jurisdiction : null
@@ -126,6 +128,7 @@ function MapHomePage() {
   function handleSelect(jurisdictionId, countryName) {
     if (view === 'explore') {
       // Picking the law that is already shown clears it, so the map acts as a toggle.
+      if (exploreSelection !== jurisdictionId) revealResults.current = true
       setExploreSelection((current) => (current === jurisdictionId ? null : jurisdictionId))
       return
     }
@@ -153,7 +156,7 @@ function MapHomePage() {
 
     // At the cap, ignore new laws.
     if (compareSelection.length >= MAX_COMPARE) return
-    revealCompare.current = true
+    revealResults.current = true
     setCompareSelection((prev) => [...prev, jurisdictionId])
     setCompareReps((prev) => ({ ...prev, [jurisdictionId]: countryName || null }))
   }
@@ -202,7 +205,10 @@ function MapHomePage() {
             options={COUNTRY_OPTIONS}
             mode="single"
             selectedIds={exploreSelection ? [exploreSelection] : []}
-            onSelect={(id) => setExploreSelection(id)}
+            onSelect={(id) => {
+              if (id && id !== exploreSelection) revealResults.current = true
+              setExploreSelection(id)
+            }}
           />
         </div>
       ) : (
@@ -259,7 +265,7 @@ function MapHomePage() {
         {exploreLaw && view === 'explore' ? t('home.lawShown', { name: exploreLaw.fullName }) : ''}
       </p>
 
-      <div className="mt-8">
+      <div ref={resultsRef} className="mt-8">
         {view === 'explore' ? (
           exploreSelection ? (
             <DrilldownReadout
@@ -272,7 +278,7 @@ function MapHomePage() {
             </p>
           )
         ) : (
-          <div ref={compareRef}>
+          <div>
             <div role="group" aria-label={t('topicPicker.label')} className="mb-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
               {COMPARISON_TOPICS.map((topic) => {
                 const isActive = topic.topicId === compareTopicId

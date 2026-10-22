@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import gdprData from '../data/jurisdictions/gdpr.json'
@@ -82,6 +82,23 @@ function MapHomePage() {
 
   const compareLimitReached = compareSelection.length >= MAX_COMPARE
 
+  // On a short laptop screen the comparison table starts below the fold. After a
+  // law is added in Compare, scroll just enough to show the topic buttons and the
+  // table's first rows, keeping the lower map in view (Jared, 2026-10-21).
+  const compareRef = useRef(null)
+  const revealCompare = useRef(false)
+  useEffect(() => {
+    if (!revealCompare.current) return
+    revealCompare.current = false
+    const el = compareRef.current
+    if (!el) return
+    const reveal = Math.min(420, window.innerHeight * 0.65)
+    const overshoot = el.getBoundingClientRect().top - (window.innerHeight - reveal)
+    if (overshoot <= 0) return
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    window.scrollBy({ top: overshoot, behavior: reduceMotion ? 'auto' : 'smooth' })
+  }, [compareSelection])
+
   // Tab title follows the view: the chosen law in Explore, the topic in Compare.
   const exploreLaw = exploreSelection ? JURISDICTIONS_DATA[exploreSelection].jurisdiction : null
   useDocumentTitle(
@@ -136,6 +153,7 @@ function MapHomePage() {
 
     // At the cap, ignore new laws.
     if (compareSelection.length >= MAX_COMPARE) return
+    revealCompare.current = true
     setCompareSelection((prev) => [...prev, jurisdictionId])
     setCompareReps((prev) => ({ ...prev, [jurisdictionId]: countryName || null }))
   }
@@ -254,7 +272,7 @@ function MapHomePage() {
             </p>
           )
         ) : (
-          <div>
+          <div ref={compareRef}>
             <div role="group" aria-label={t('topicPicker.label')} className="mb-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
               {COMPARISON_TOPICS.map((topic) => {
                 const isActive = topic.topicId === compareTopicId

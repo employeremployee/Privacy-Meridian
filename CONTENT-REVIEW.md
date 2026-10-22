@@ -838,3 +838,5 @@ OAIC and ICO). Applied:
   collect nothing about you". P2 contact address is a to-do (needs Jared's email).
 - 2026-10-21: Hong Kong (PDPO) and Macau (Law 8/2005) now drawn as their own map-only shapes
   over China, from Natural Earth 50m (public domain). Full pages are a later batch (Jared).
+- 2026-10-21 (Jared): Compare scrolls to show the table after a law is added (short laptop
+  screens hid it). Kosovo now coloured map-only (matched by name; its shape has no code).

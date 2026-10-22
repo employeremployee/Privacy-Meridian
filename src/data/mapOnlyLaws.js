@@ -9,7 +9,7 @@
 // gazette-linked sources; older ones against legal trackers (DLA Piper,
 // UNCTAD). See CONTENT-REVIEW.md for the research log.
 // Kosovo has no ISO numeric code and its map shape has no id, so it is listed
-// with iso: null and appears in the text list only. Hong Kong and Macau have no
+// with iso: null and matched to its shape by name (see getMapOnlyLaw). Hong Kong and Macau have no
 // shape on the 110m map; theirs come from public/maps/hk-macau-50m.json. Dependent territories
 // (Jersey, Bermuda and similar) are left out: the list names countries.
 export const MAP_ONLY_LAWS = [
@@ -55,7 +55,7 @@ export const MAP_ONLY_LAWS = [
   { name: "Jamaica", iso: "388", law: "Data Protection Act 2020", onMap: true },
   { name: "Jordan", iso: "400", law: "Personal Data Protection Law No. 24 of 2023", onMap: true },
   { name: "Kazakhstan", iso: "398", law: "Law No. 94-V on Personal Data and their Protection 2013", onMap: true },
-  { name: "Kosovo", iso: null, law: "Law No. 06/L-082 on Protection of Personal Data 2019", onMap: false },
+  { name: "Kosovo", iso: null, law: "Law No. 06/L-082 on Protection of Personal Data 2019", onMap: true },
   { name: "Kyrgyzstan", iso: "417", law: "Law No. 58 on Personal Information 2008", onMap: true },
   { name: "Laos", iso: "418", law: "Law on Electronic Data Protection 2017", onMap: true },
   { name: "Lebanon", iso: "422", law: "Law No. 81 on Electronic Transactions and Personal Data 2018", onMap: true },
@@ -147,6 +147,10 @@ const BY_CODE = new Map(
   [...MAP_ONLY_LAWS, ...MAP_ONLY_STATE_LAWS].filter((entry) => entry.iso).map((entry) => [entry.iso, entry]),
 )
 
-export function getMapOnlyLaw(code) {
-  return BY_CODE.get(code) || null
+// Shapes with no code (Kosovo) fall back to a name match on entries with iso: null.
+const BY_NAME_NO_CODE = new Map(MAP_ONLY_LAWS.filter((entry) => !entry.iso).map((entry) => [entry.name, entry]))
+
+export function getMapOnlyLaw(code, name) {
+  if (code) return BY_CODE.get(code) || null
+  return BY_NAME_NO_CODE.get(name) || null
 }

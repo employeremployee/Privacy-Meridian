@@ -83,7 +83,7 @@ function MapExplorer({ jurisdictionsData, selectedIds = [], onSelectJurisdiction
     // effect) are neutral grey. Neither is a tab stop: the list under the legend
     // gives the same information.
     if (!jurisdictionId) {
-      const mapOnly = getMapOnlyLaw(geo.id)
+      const mapOnly = getMapOnlyLaw(geo.id, geo.properties.name)
       const fill = mapOnly ? FILL.mapOnly : FILL.none
       const stroke = mapOnly ? '#FFFFFF' : '#F8F7F4'
       const flat = { fill, stroke, strokeWidth: 0.5, outline: 'none' }

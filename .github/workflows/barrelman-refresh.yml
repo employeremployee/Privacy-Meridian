@@ -32,7 +32,8 @@ concurrency:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # 15, not 10: on 2026-10-22 a slow npm install (7 min) pushed a publish past 10.
+    timeout-minutes: 15
     env:
       VITE_BASE: /
     steps:

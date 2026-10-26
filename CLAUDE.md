@@ -201,3 +201,18 @@ If you have made the same mistake twice on a task, stop. Do not attempt a third 
 **2026-10-21 — Do not name the hosting provider on the site (Jared).** Site text says "the site's host", never "Cloudflare". Internal docs and code comments may name it.
 
 **2026-10-21 — Hong Kong and Macau drawn separately (Jared).** They have their own privacy laws, so they must not read as part of China. Their Natural Earth 50m shapes live in `public/maps/hk-macau-50m.json` and draw over China in `MapExplorer.jsx` as map-only (light navy, hover names their law). Full law pages for both are a later batch (Level 2). PIPL generally does not apply inside Hong Kong or Macau (one country, two systems). Do not add a key note about them. Macau is under 2px wide even at full zoom.
+
+---
+
+## Editorial Style Rules (Jared, 2026-10-26)
+
+Decided from `docs/style-review-2026-10-26.md` (Section 1, D1 to D7). Base standard: *The Chicago Manual of Style*, 18th edition. Where Chicago and the voice rules above conflict, the voice rules win (for example, no semicolons in prose). Apply these to every new or edited string.
+
+- **D1 Numbers.** Spell out one to nine. Use numerals for 10 and up. Always use numerals with percent, money, hours in deadlines ("72 hours") and in tables. Examples: "five business days", "14 principles", "children under 18".
+- **D2 Dates.** Day-month-year: "13 May 2027", no comma. Convert the California page's month-day-year dates to match. (Jared chose this over the review's month-day-year recommendation.)
+- **D3 Spelling.** American everywhere: organization, recognized, offense, defense, center, behavior, analyze. Keep British spelling only inside official names and direct quotes.
+- **D4 Lists and callouts.** Approved in principle: a short professional-layer lead plus optional list, "How this differs from the GDPR" box and dated "What is changing" box. The schema and component plan needs separate approval (review Section 5), piloted on the GDPR page first.
+- **D5 "The" with law abbreviations.** Use "the" when an abbreviation said as letters is a noun: "under the GDPR", "the CCPA requires". Drop it when the abbreviation modifies a noun: "GDPR fines". Acronyms said as words, such as POPIA and PIPEDA, take no "the".
+- **D6 Capitalization.** Headline style for article titles, with prepositions lowercase ("Your Right to See Your Data in Japan"). Sentence style for all UI labels and small headings ("Response timeline", "How to close the gap", "Help for organizations").
+- **D7 Closing lines.** End "What this means for you" on the sentence that says what the law lets you do. Do not add stock closing lines ("Your protections travel with your data"). Keep a closing line only if it adds a fact, right or duty. Professional layers carry no opinion kickers ("the most significant…", "the backbone of…").
+- **Style passes never change a legal claim, date, figure, threshold or citation.** If a rewrite might change meaning, flag it for Jared instead.

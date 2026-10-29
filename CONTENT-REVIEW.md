@@ -840,3 +840,22 @@ OAIC and ICO). Applied:
   over China, from Natural Earth 50m (public domain). Full pages are a later batch (Jared).
 - 2026-10-21 (Jared): Compare scrolls to show the table after a law is added (short laptop
   screens hid it). Kosovo now coloured map-only (matched by name; its shape has no code).
+
+## Style fixes from docs/style-review-2026-10-26.md (2026-10-29)
+Mechanical pass only. The layout redesign (lists and callouts) is parked on local branch
+`style-pass`. Applied to all 17 laws, the comparison tables, the glossary and UI text:
+- American spelling (D3), serial commas, no semicolons in prose (long legal series became
+  "First… Second…" sentences), D1 numbers, D2 day-month-year dates (California page),
+  en dashes in reference ranges, "and" for "&", contractions expanded, "the GDPR" for noun uses (D5).
+- 12 misplaced parentheses fixed (GDPR case citations and transfer mechanisms, Brazil Articles
+  18 I-II and IV, Japan "not yet in force", Argentina Resolution 332/2020, PIPEDA reference,
+  Uruguay UI note, glossary). Company "they" became "it" where the subject is singular.
+- D7: the Appendix A closing lines marked CUT/TRIM, plus opinion kickers from Section 4.3.
+- Tables: semicolons to periods; India's repeated sensitive-data note shortened to
+  "No sensitive category."; key labels plainer. UI labels in sentence style (D6).
+- Checks: a facts script found no change to any figure, date or citation (only en dashes and
+  number style). Two popups dropped because their only matching word was in a cut kicker
+  (pipa-kr-scope "consent", pipl-art40 "data localization"). Build, lint and browser OK.
+- Held for Jared: the FADP name change to "Revised Federal Act on Data Protection" (it shows in
+  map labels and the tab title), and the map-instructions color name.
+- Before/after per law: docs/style-pass/fixes/.

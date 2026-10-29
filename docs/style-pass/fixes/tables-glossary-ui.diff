@@ -1,0 +1,708 @@
+diff --git a/src/data/comparison/consentStandards.json b/src/data/comparison/consentStandards.json
+index 8cad357..ed0d8bf 100644
+--- a/src/data/comparison/consentStandards.json
++++ b/src/data/comparison/consentStandards.json
+@@ -23,7 +23,7 @@
+         "lpdp-uy": { "state": "yes", "note": "Prior informed consent required." },
+         "pipa-kr": { "state": "yes", "note": "Consent is one of several bases, but Korea relies on it heavily." },
+         "appi": { "state": "partial", "note": "Consent required for sensitive data and third-party sharing, not all use." },
+-        "nzpa": { "state": "no", "note": "Principle-based collection; no blanket opt-in requirement." },
++        "nzpa": { "state": "no", "note": "Principle-based collection. No blanket opt-in requirement." },
+         "popia": { "state": "partial", "note": "Consent is one of several grounds. When relied on, it must be affirmative." },
+         "kdpa": { "state": "partial", "note": "Consent is one of several bases. When relied on, it must be affirmative." },
+         "dpdp": { "state": "yes", "note": "Clear affirmative consent required, with limited legitimate uses. From 13 May 2027." },
+@@ -41,7 +41,7 @@
+         "lgpd": { "state": "partial", "note": "Consent tied to specified purposes." },
+         "pipl": { "state": "partial", "note": "Separate consent for listed cases, such as sharing, sensitive data and transfers abroad. New purposes need fresh consent." },
+         "ukgdpr": { "state": "yes", "note": "Consent must cover each purpose, with separate choices where appropriate." },
+-        "fadp": { "state": "partial", "note": "The purpose must be recognizable; separate consent is not mandated." },
++        "fadp": { "state": "partial", "note": "The purpose must be recognizable. Separate consent is not mandated." },
+         "pdpa-ar": { "state": "partial", "note": "Consent tied to specified purposes." },
+         "lpdp-uy": { "state": "partial", "note": "Consent tied to the informed purpose." },
+         "pipa-kr": { "state": "yes", "note": "Separate consent required for each distinct purpose." },
+@@ -69,7 +69,7 @@
+         "lpdp-uy": { "state": "yes", "note": "Express written consent required for sensitive data." },
+         "pipa-kr": { "state": "yes", "note": "Separate consent for sensitive information." },
+         "appi": { "state": "yes", "note": "Prior consent required to acquire special care-required data." },
+-        "nzpa": { "state": "no", "note": "No special-category consent rule; the same principles apply." },
++        "nzpa": { "state": "no", "note": "No special-category consent rule. The same principles apply." },
+         "popia": { "state": "yes", "note": "Special personal information requires consent or a listed exception." },
+         "kdpa": { "state": "partial", "note": "Needs a specific statutory ground, which does not include consent. Explicit consent is needed to send it abroad." },
+         "dpdp": { "state": "no", "note": "No sensitive-data category." },
+@@ -92,13 +92,13 @@
+         "lpdp-uy": { "state": "partial", "note": "Consent may be withdrawn, but no rule says it must be as easy as giving it." },
+         "pipa-kr": { "state": "yes", "note": "Consent may be withdrawn at any time." },
+         "appi": { "state": "partial", "note": "Withdrawal handled through cessation-of-use requests." },
+-        "nzpa": { "state": "partial", "note": "No formal consent-withdrawal mechanism; principle-based." },
++        "nzpa": { "state": "partial", "note": "No formal consent-withdrawal mechanism. Principle-based." },
+         "popia": { "state": "partial", "note": "Consent can be withdrawn at any time, but no rule says withdrawal must be as easy as giving it." },
+         "kdpa": { "state": "partial", "note": "Consent may be withdrawn at any time, through a simple method. No rule says it must be as easy as giving it." },
+         "dpdp": { "state": "yes", "note": "Withdrawal must be as easy as giving consent. From 13 May 2027." },
+         "pipeda": { "state": "partial", "note": "Consent can be withdrawn at any time with reasonable notice." },
+         "pa-au": { "state": "partial", "note": "Regulator guidance says you can withdraw consent. The Act sets no procedure." },
+-        "pdpa-sg": { "state": "partial", "note": "Withdraw any time on reasonable notice, and organisations cannot forbid it." }
++        "pdpa-sg": { "state": "partial", "note": "Withdraw any time on reasonable notice, and organizations cannot forbid it." }
+       }
+     },
+     {
+@@ -110,12 +110,12 @@
+         "lgpd": { "state": "partial", "note": "A legal-basis framework. Legitimate-interest processing runs until you object." },
+         "pipl": { "state": "no", "note": "Consent-based framework." },
+         "ukgdpr": { "state": "partial", "note": "A lawful-basis framework. Consent is one of seven bases, and legitimate-interest processing runs until you object." },
+-        "fadp": { "state": "partial", "note": "Closer to an opt-out posture; processing is lawful unless objected to." },
++        "fadp": { "state": "partial", "note": "Closer to an opt-out posture. Processing is lawful unless objected to." },
+         "pdpa-ar": { "state": "no", "note": "Opt-in framework." },
+         "lpdp-uy": { "state": "no", "note": "Opt-in framework." },
+         "pipa-kr": { "state": "no", "note": "Consent-based framework. The other bases are narrow." },
+         "appi": { "state": "partial", "note": "Third-party provision can use an opt-out filing." },
+-        "nzpa": { "state": "partial", "note": "Principle-based; neither strict opt-in nor opt-out." },
++        "nzpa": { "state": "partial", "note": "Principle-based. Neither strict opt-in nor opt-out." },
+         "popia": { "state": "partial", "note": "A justification-based framework. Legitimate-interest processing runs until you object." },
+         "kdpa": { "state": "partial", "note": "A lawful-basis framework. Legitimate-interest processing runs until you object." },
+         "dpdp": { "state": "no", "note": "Consent-based framework." },
+@@ -133,7 +133,7 @@
+         "lgpd": { "state": "yes", "note": "Consent from a parent for children, in their best interest. Since 2026, the ECA Digital adds age checks and guardian-linked accounts." },
+         "pipl": { "state": "yes", "note": "Guardian consent for minors under 14, treated as sensitive." },
+         "ukgdpr": { "state": "yes", "note": "For online services offered to children, parental consent below 13. Ministers can now raise the age to as high as 16." },
+-        "fadp": { "state": "partial", "note": "General principles apply; no fixed child-consent age." },
++        "fadp": { "state": "partial", "note": "General principles apply. No fixed child-consent age." },
+         "pdpa-ar": { "state": "partial", "note": "AAIP guidance lets minors consent according to their maturity, with no fixed age." },
+         "lpdp-uy": { "state": "partial", "note": "No fixed age in the law. The regulator expects parental consent and weighs the child's maturity." },
+         "pipa-kr": { "state": "yes", "note": "Guardian consent for children under 14." },
+@@ -143,7 +143,7 @@
+         "kdpa": { "state": "yes", "note": "Consent of a parent or guardian for a child." },
+         "dpdp": { "state": "yes", "note": "Verifiable parental consent required for children under 18, from 13 May 2027." },
+         "pipeda": { "state": "partial", "note": "Guidance says children under 13 generally need a parent's consent. Quebec sets 14 by law." },
+-        "pa-au": { "state": "partial", "note": "No set age. Organisations assess capacity case by case, or may presume it from age 15. A children's code is pending." },
++        "pa-au": { "state": "partial", "note": "No set age. Organizations assess capacity case by case, or may presume it from age 15. A children's code is pending." },
+         "pdpa-sg": { "state": "partial", "note": "No rule in the law. Regulator guidance sets expectations for children's consent." }
+       }
+     }
+diff --git a/src/data/comparison/enforcementPenalties.json b/src/data/comparison/enforcementPenalties.json
+index c63faa0..dca1178 100644
+--- a/src/data/comparison/enforcementPenalties.json
++++ b/src/data/comparison/enforcementPenalties.json
+@@ -15,15 +15,15 @@
+         "ukgdpr": { "value": "£17.5M or 4% of global turnover", "note": "Whichever is higher, for the most serious infringements." },
+         "fadp": { "value": "Up to CHF 250,000", "note": "A criminal fine on responsible individuals for intentional breaches. A business can be fined up to CHF 50,000 in some cases." },
+         "pdpa-ar": { "value": "Up to ARS 100,000 per fine", "note": "Stacked fines are capped at ARS 50 million. Serious cases can also suspend or close a database." },
+-        "lpdp-uy": { "value": "Up to 500,000 UI", "note": "Fines in indexed units (UI), capped by law. Sanctions run from observation to closure." },
++        "lpdp-uy": { "value": "Up to 500,000 UI", "note": "Fines are set in Unidades Indexadas (UI), an inflation-linked unit, and capped by law. Sanctions run from observation to closure." },
+         "pipa-kr": { "value": "Up to 10% of total revenue", "note": "Normally up to 3%. Up to 10% for repeated, very large or defiant violations since September 2026." },
+         "appi": { "value": "Up to ¥100M", "note": "A criminal fine on corporations that defy a PPC order or misuse a database. Surcharges arrive with the 2026 amendment." },
+-        "nzpa": { "value": "Up to NZ$10,000", "note": "A fine for specific offences; no GDPR-scale administrative fines." },
+-        "popia": { "value": "Up to R10M", "note": "An administrative fine. Serious offences can also bring a fine, up to ten years in prison, or both." },
++        "nzpa": { "value": "Up to NZ$10,000", "note": "A fine for specific offenses. No GDPR-scale administrative fines." },
++        "popia": { "value": "Up to R10M", "note": "An administrative fine. Serious offenses can also bring a fine, up to ten years in prison, or both." },
+         "kdpa": { "value": "Up to KES 5M or 1% of turnover", "note": "Whichever is lower, for the most serious cases." },
+         "dpdp": { "value": "Up to ₹250 crore", "note": "Imposed by the Data Protection Board, from 13 May 2027." },
+         "pipeda": { "value": "None from the regulator", "note": "Courts can fine knowing breaches of key duties up to C$100,000. Quebec allows administrative penalties." },
+-        "pa-au": { "value": "A$50M, 3x benefit, or 30% of turnover", "note": "For companies, the greater of A$50M and 3x the benefit, or 30% of turnover if the benefit can't be valued. Individuals: A$2.5M." },
++        "pa-au": { "value": "A$50M, 3x benefit, or 30% of turnover", "note": "For companies, the greater of A$50M and three times the benefit, or 30% of turnover if the benefit cannot be valued. Individuals: A$2.5M." },
+         "pdpa-sg": { "value": "10% of Singapore turnover, or S$1M", "note": "10% where Singapore turnover exceeds S$10M. Otherwise up to S$1M." }
+       }
+     },
+@@ -31,7 +31,7 @@
+       "id": "authority",
+       "label": "Enforcement authority",
+       "jurisdictions": {
+-        "gdpr": { "value": "National data protection authorities", "note": "One-stop-shop for cross-border cases. The EDPB settles disputes between authorities." },
++        "gdpr": { "value": "National data protection authorities", "note": "One-stop shop for cross-border cases. The EDPB settles disputes between authorities." },
+         "ccpa": { "value": "CalPrivacy and the California AG", "note": "CalPrivacy, formally the California Privacy Protection Agency, is a dedicated privacy regulator." },
+         "lgpd": { "value": "ANPD", "note": "A national regulatory agency since 2026. Its first large fine came in August 2026." },
+         "pipl": { "value": "CAC and sectoral regulators", "note": "The CAC leads, with sector-specific oversight." },
+@@ -82,16 +82,16 @@
+         "lgpd": { "value": "Yes", "note": "Graduated sanctions from warning to fine to suspension." },
+         "pipl": { "value": "Yes", "note": "Escalates to business suspension and personal liability." },
+         "ukgdpr": { "value": "Yes", "note": "Two tiers, mirroring the EU GDPR." },
+-        "fadp": { "value": "Offence-based", "note": "Criminal fines tied to specific breaches rather than turnover tiers." },
++        "fadp": { "value": "Offense-based", "note": "Criminal fines tied to specific breaches rather than turnover tiers." },
+         "pdpa-ar": { "value": "Yes", "note": "Graduated from warning to fine to database closure." },
+         "lpdp-uy": { "value": "Yes", "note": "Graduated from observation to fine to suspension." },
+         "pipa-kr": { "value": "Yes", "note": "Administrative surcharges plus criminal penalties by severity." },
+         "appi": { "value": "Yes", "note": "Escalates from guidance to order to penalty for defying an order." },
+         "nzpa": { "value": "Compliance-first", "note": "Compliance notices and tribunal orders rather than turnover tiers." },
+-        "popia": { "value": "Yes", "note": "Enforcement notices, then an administrative fine or prosecution for offences." },
++        "popia": { "value": "Yes", "note": "Enforcement notices, then an administrative fine or prosecution for offenses." },
+         "kdpa": { "value": "Yes", "note": "Penalty notices scaled to the nature of the breach." },
+         "dpdp": { "value": "Yes", "note": "Penalties scaled by breach type, up to the statutory maximum." },
+-        "pipeda": { "value": "Two-tier offences", "note": "A lower maximum on summary conviction, a higher one on indictment. No turnover tiers." },
++        "pipeda": { "value": "Two-tier offenses", "note": "A lower maximum on summary conviction, a higher one on indictment. No turnover tiers." },
+         "pa-au": { "value": "Yes, three tiers", "note": "Serious, standard and administrative breaches. Minor breaches can bring infringement notices." },
+         "pdpa-sg": { "value": "By size", "note": "The cap depends on company turnover, not the type of violation. Do Not Call has separate caps." }
+       }
+diff --git a/src/data/comparison/individualRights.json b/src/data/comparison/individualRights.json
+index 9f07c38..c4527fc 100644
+--- a/src/data/comparison/individualRights.json
++++ b/src/data/comparison/individualRights.json
+@@ -5,7 +5,7 @@
+   "rowHeader": "Right",
+   "states": {
+     "yes": "Granted as a distinct enforceable right",
+-    "partial": "Granted conditionally, partially, or under a different mechanism",
++    "partial": "Granted only in part or through a different mechanism",
+     "no": "Not granted as a distinct right"
+   },
+   "rows": [
+@@ -46,13 +46,13 @@
+         "lpdp-uy": { "state": "yes", "note": "Right to deletion." },
+         "pipa-kr": { "state": "yes", "note": "Deletion of personal information." },
+         "appi": { "state": "yes", "note": "Erasure or cessation of use on specified grounds." },
+-        "nzpa": { "state": "no", "note": "No general erasure right; correction is provided instead." },
+-        "popia": { "state": "partial", "note": "Deletion of inaccurate, excessive, unlawful or no-longer-authorised data." },
++        "nzpa": { "state": "no", "note": "No general erasure right. Correction is provided instead." },
++        "popia": { "state": "partial", "note": "Deletion of inaccurate, excessive, unlawful or no-longer-authorized data." },
+         "kdpa": { "state": "yes", "note": "Right to erasure." },
+         "dpdp": { "state": "yes", "note": "Right to erasure, from 13 May 2027." },
+         "pipeda": { "state": "partial", "note": "No general erasure right. Unneeded data should be destroyed, and inaccurate data corrected or deleted." },
+         "pa-au": { "state": "no", "note": "No erasure right. Entities must destroy or de-identify data they no longer need." },
+-        "pdpa-sg": { "state": "no", "note": "No erasure right. Organisations must stop keeping data they no longer need." }
++        "pdpa-sg": { "state": "no", "note": "No erasure right. Organizations must stop keeping data they no longer need." }
+       }
+     },
+     {
+@@ -105,15 +105,15 @@
+       "id": "opt-out-sale",
+       "label": "Right to opt out of sale or sharing",
+       "jurisdictions": {
+-        "gdpr": { "state": "partial", "note": "No sale concept; objection to direct marketing is absolute." },
++        "gdpr": { "state": "partial", "note": "No sale concept. Objection to direct marketing is absolute." },
+         "ccpa": { "state": "yes", "note": "A core CCPA right." },
+-        "lgpd": { "state": "no", "note": "No direct equivalent; processing rests on legal bases and consent." },
++        "lgpd": { "state": "no", "note": "No direct equivalent. Processing rests on legal bases and consent." },
+         "pipl": { "state": "partial", "note": "Separate consent required for provision to third parties." },
+-        "ukgdpr": { "state": "partial", "note": "No sale concept; objection to direct marketing is absolute." },
+-        "fadp": { "state": "partial", "note": "No sale concept; the person can object to certain processing." },
++        "ukgdpr": { "state": "partial", "note": "No sale concept. Objection to direct marketing is absolute." },
++        "fadp": { "state": "partial", "note": "No sale concept. The person can object to certain processing." },
+         "pdpa-ar": { "state": "partial", "note": "Right to be removed from direct-marketing databases." },
+         "lpdp-uy": { "state": "partial", "note": "Right to object in direct-marketing databases." },
+-        "pipa-kr": { "state": "partial", "note": "Consent required before providing data to third parties; no sale opt-out as such." },
++        "pipa-kr": { "state": "partial", "note": "Consent required before providing data to third parties. No sale opt-out as such." },
+         "appi": { "state": "partial", "note": "Opt-out available for third-party provision." },
+         "nzpa": { "state": "no", "note": "No sale or opt-out-of-sale concept." },
+         "popia": { "state": "partial", "note": "Right to object to processing for direct marketing." },
+@@ -129,7 +129,7 @@
+       "label": "Right to object to processing",
+       "jurisdictions": {
+         "gdpr": { "state": "yes" },
+-        "ccpa": { "state": "partial", "note": "Limited; opt-out and Limit-the-Use mechanisms rather than a general objection right." },
++        "ccpa": { "state": "partial", "note": "Limited. Opt-out and Limit-the-Use mechanisms rather than a general objection right." },
+         "lgpd": { "state": "partial", "note": "Only against processing without consent that breaks the law." },
+         "pipl": { "state": "yes", "note": "Right to restrict or refuse." },
+         "ukgdpr": { "state": "yes" },
+@@ -141,7 +141,7 @@
+         "nzpa": { "state": "no", "note": "No general right to object to processing." },
+         "popia": { "state": "yes", "note": "Right to object." },
+         "kdpa": { "state": "yes", "note": "Right to object." },
+-        "dpdp": { "state": "no", "note": "No general objection right; withdrawing consent is the main lever." },
++        "dpdp": { "state": "no", "note": "No general objection right. Withdrawing consent is the main lever." },
+         "pipeda": { "state": "partial", "note": "No objection right, but you can withdraw consent at any time." },
+         "pa-au": { "state": "partial", "note": "No general objection right. You can stop direct marketing." },
+         "pdpa-sg": { "state": "partial", "note": "You can withdraw consent at any time. This does not stop processing under exceptions." }
+@@ -155,7 +155,7 @@
+         "ccpa": { "state": "partial", "note": "From January 2027, an opt-out and access right for significant automated decisions, with exceptions." },
+         "lgpd": { "state": "partial", "note": "A right to request review and learn the criteria, not a ban." },
+         "pipl": { "state": "yes" },
+-        "ukgdpr": { "state": "partial", "note": "Restricted with special category data. Banned when relying on recognised legitimate interests. Otherwise allowed with safeguards, including human review." },
++        "ukgdpr": { "state": "partial", "note": "Restricted with special category data. Banned when relying on recognized legitimate interests. Otherwise allowed with safeguards, including human review." },
+         "fadp": { "state": "yes", "note": "Information and human review of automated decisions." },
+         "pdpa-ar": { "state": "partial", "note": "Court and government decisions cannot rest solely on automated profiling. AAIP guidance adds a right to an explanation." },
+         "lpdp-uy": { "state": "yes", "note": "A right not to face significant decisions based solely on automated evaluation, and to learn the criteria used." },
+@@ -205,7 +205,7 @@
+         "fadp": { "state": "partial", "note": "Protected through good-faith and proportionality principles." },
+         "pdpa-ar": { "state": "partial", "note": "No specific rule. Only a general duty to collect data fairly and in good faith." },
+         "lpdp-uy": { "state": "no", "note": "No specific rule in the law." },
+-        "pipa-kr": { "state": "partial", "note": "A company can't refuse service because you decline optional or unneeded data collection." },
++        "pipa-kr": { "state": "partial", "note": "A company cannot refuse service because you decline optional or unneeded data collection." },
+         "appi": { "state": "no", "note": "No specific rule in the law." },
+         "nzpa": { "state": "no", "note": "Not framed as a right." },
+         "popia": { "state": "no", "note": "No specific rule in the law." },
+@@ -213,7 +213,7 @@
+         "dpdp": { "state": "no", "note": "Not framed as a right." },
+         "pipeda": { "state": "no", "note": "No specific rule in the law." },
+         "pa-au": { "state": "no", "note": "No specific rule in the law." },
+-        "pdpa-sg": { "state": "partial", "note": "A service can't demand more consent than it needs to provide the service." }
++        "pdpa-sg": { "state": "partial", "note": "A service cannot demand more consent than it needs to provide the service." }
+       }
+     }
+   ]
+diff --git a/src/data/comparison/internationalTransfers.json b/src/data/comparison/internationalTransfers.json
+index f2c077b..b381641 100644
+--- a/src/data/comparison/internationalTransfers.json
++++ b/src/data/comparison/internationalTransfers.json
+@@ -15,13 +15,13 @@
+       "jurisdictions": {
+         "gdpr": { "state": "yes" },
+         "ccpa": { "state": "no", "note": "No specific cross-border transfer restrictions." },
+-        "lgpd": { "state": "yes", "note": "The ANPD recognised the EU and EEA in January 2026. The EU recognised Brazil the same day." },
++        "lgpd": { "state": "yes", "note": "The ANPD recognized the EU and EEA in January 2026. The EU recognized Brazil the same day." },
+         "pipl": { "state": "no", "note": "No adequacy-decision mechanism." },
+         "ukgdpr": { "state": "yes", "note": "Adequacy regulations, known as data bridges, under a data protection test." },
+         "fadp": { "state": "yes", "note": "Federal Council list of countries with adequate protection." },
+         "pdpa-ar": { "state": "yes", "note": "Transfers allowed to countries with adequate protection." },
+         "lpdp-uy": { "state": "yes", "note": "Transfers allowed to countries with adequate protection." },
+-        "pipa-kr": { "state": "yes", "note": "The PIPC recognised the EU as equivalent in September 2025." },
++        "pipa-kr": { "state": "yes", "note": "The PIPC recognized the EU as equivalent in September 2025." },
+         "appi": { "state": "yes", "note": "Transfers allowed to countries designated as equivalent by the PPC." },
+         "nzpa": { "state": "partial", "note": "Transfer allowed where comparable safeguards exist. The Act also allows a list of prescribed countries." },
+         "popia": { "state": "partial", "note": "Transfer allowed where the recipient has adequate protection." },
+@@ -43,13 +43,13 @@
+         "ukgdpr": { "state": "yes", "note": "UK International Data Transfer Agreement or Addendum." },
+         "fadp": { "state": "yes", "note": "EU clauses recognized by the FDPIC, with Swiss adaptations." },
+         "pdpa-ar": { "state": "yes", "note": "AAIP model contractual clauses available." },
+-        "lpdp-uy": { "state": "yes", "note": "Contractual clauses accepted, with URCDP authorisation." },
++        "lpdp-uy": { "state": "yes", "note": "Contractual clauses accepted, with URCDP authorization." },
+         "pipa-kr": { "state": "no", "note": "No standard-clause route. Contracts work only where necessary, with notice." },
+         "appi": { "state": "partial", "note": "Contractual measures ensure equivalent protection at the recipient." },
+         "nzpa": { "state": "yes", "note": "Contractual safeguards satisfy the transfer principle." },
+         "popia": { "state": "yes", "note": "Binding agreements with the recipient. The Regulator has issued no model clauses." },
+         "kdpa": { "state": "yes", "note": "Contractual safeguards for transfers." },
+-        "dpdp": { "state": "no", "note": "No standard-contractual-clause regime; transfers turn on the country list." },
++        "dpdp": { "state": "no", "note": "No standard-contractual-clause regime. Transfers turn on the country list." },
+         "pipeda": { "state": "partial", "note": "Contracts must give comparable protection. No official standard clauses exist." },
+         "pa-au": { "state": "yes", "note": "Contracts are the usual safeguard. The sender stays accountable for the recipient." },
+         "pdpa-sg": { "state": "yes", "note": "Contracts with comparable protections that name the countries qualify." }
+@@ -71,7 +71,7 @@
+         "appi": { "state": "partial", "note": "Intra-group rules can support equivalent protection." },
+         "nzpa": { "state": "partial", "note": "Intra-group safeguards can satisfy the transfer principle." },
+         "popia": { "state": "yes", "note": "Binding corporate rules are named in the Act." },
+-        "kdpa": { "state": "yes", "note": "Binding corporate rules recognised since 2021, with ODPC approval." },
++        "kdpa": { "state": "yes", "note": "Binding corporate rules recognized since 2021, with ODPC approval." },
+         "dpdp": { "state": "no", "note": "Not a recognized mechanism." },
+         "pipeda": { "state": "no", "note": "No corporate-rules mechanism. Group transfers rely on accountability." },
+         "pa-au": { "state": "partial", "note": "A binding scheme with similar protection can qualify. There is no formal approval process." },
+@@ -113,7 +113,7 @@
+         "fadp": { "state": "partial", "note": "Codes of conduct or certification can support transfers." },
+         "pdpa-ar": { "state": "no", "note": "Not part of the transfer regime." },
+         "lpdp-uy": { "state": "no", "note": "Not part of the transfer regime." },
+-        "pipa-kr": { "state": "yes", "note": "A PIPC-designated certification held by the recipient can authorise a transfer." },
++        "pipa-kr": { "state": "yes", "note": "A PIPC-designated certification held by the recipient can authorize a transfer." },
+         "appi": { "state": "partial", "note": "International certification can show the recipient has equivalent safeguards." },
+         "nzpa": { "state": "partial", "note": "Joining a prescribed binding scheme is one route." },
+         "popia": { "state": "no", "note": "Not part of the transfer rule." },
+@@ -135,13 +135,13 @@
+         "ukgdpr": { "state": "no", "note": "No government pre-approval of transfers." },
+         "fadp": { "state": "no", "note": "No government pre-approval of transfers." },
+         "pdpa-ar": { "state": "no", "note": "No government pre-approval of transfers." },
+-        "lpdp-uy": { "state": "partial", "note": "No security review, but the URCDP must authorise clause-based transfers to non-adequate countries." },
++        "lpdp-uy": { "state": "partial", "note": "No security review, but the URCDP must authorize clause-based transfers to non-adequate countries." },
+         "pipa-kr": { "state": "no", "note": "No general government pre-approval of transfers." },
+         "appi": { "state": "no", "note": "No government pre-approval of transfers." },
+         "nzpa": { "state": "no", "note": "No government pre-approval of transfers." },
+-        "popia": { "state": "partial", "note": "Prior authorisation needed to send special or children's data to countries without adequate protection." },
++        "popia": { "state": "partial", "note": "Prior authorization needed to send special or children's data to countries without adequate protection." },
+         "kdpa": { "state": "partial", "note": "Sensitive-data transfers may require confirmation of safeguards." },
+-        "dpdp": { "state": "no", "note": "No pre-approval; the government instead restricts specific countries." },
++        "dpdp": { "state": "no", "note": "No pre-approval. The government instead restricts specific countries." },
+         "pipeda": { "state": "no", "note": "No government review. Quebec requires an impact assessment by the business first." },
+         "pa-au": { "state": "no", "note": "No government approval of transfers." },
+         "pdpa-sg": { "state": "no", "note": "No government review of transfers." }
+@@ -167,7 +167,7 @@
+         "dpdp": { "state": "partial", "note": "The government may require significant data fiduciaries to keep specified data in India. Sector rules can also apply." },
+         "pipeda": { "state": "no", "note": "No federal data localization requirement." },
+         "pa-au": { "state": "no", "note": "No general localization requirement." },
+-        "pdpa-sg": { "state": "no", "note": "No data localisation requirement." }
++        "pdpa-sg": { "state": "no", "note": "No data localization requirement." }
+       }
+     }
+   ]
+diff --git a/src/data/comparison/legalBases.json b/src/data/comparison/legalBases.json
+index 643fe48..ab0398f 100644
+--- a/src/data/comparison/legalBases.json
++++ b/src/data/comparison/legalBases.json
+@@ -45,8 +45,8 @@
+         "pdpa-ar": { "state": "yes", "note": "Processing arising from a contractual relationship." },
+         "lpdp-uy": { "state": "yes", "note": "Processing necessary for a contractual relationship." },
+         "pipa-kr": { "state": "yes", "note": "Necessary to perform a contract." },
+-        "appi": { "state": "partial", "note": "No legal-basis framework; contract needs are handled through purpose limits." },
+-        "nzpa": { "state": "partial", "note": "No legal-basis framework; the principles govern collection and use." },
++        "appi": { "state": "partial", "note": "No legal-basis framework. Contract needs are handled through purpose limits." },
++        "nzpa": { "state": "partial", "note": "No legal-basis framework. The principles govern collection and use." },
+         "popia": { "state": "yes", "note": "Necessary to perform a contract." },
+         "kdpa": { "state": "yes", "note": "Performance of a contract." },
+         "dpdp": { "state": "partial", "note": "No contract basis. Data you volunteer for a stated purpose comes closest." },
+@@ -74,8 +74,8 @@
+         "kdpa": { "state": "yes", "note": "Compliance with a legal obligation." },
+         "dpdp": { "state": "partial", "note": "Only disclosures the law requires and compliance with court orders." },
+         "pipeda": { "state": "yes", "note": "Collection, use or disclosure required by law is allowed without consent." },
+-        "pa-au": { "state": "yes", "note": "Collection and use required or authorised by law are permitted." },
+-        "pdpa-sg": { "state": "yes", "note": "Allowed where another law requires or authorises it." }
++        "pa-au": { "state": "yes", "note": "Collection and use required or authorized by law are permitted." },
++        "pdpa-sg": { "state": "yes", "note": "Allowed where another law requires or authorizes it." }
+       }
+     },
+     {
+@@ -132,16 +132,16 @@
+         "ccpa": { "state": "no", "note": "No equivalent basis." },
+         "lgpd": { "state": "yes", "note": "With a balancing test, set out in ANPD guidance. Not for sensitive data." },
+         "pipl": { "state": "no", "note": "No general legitimate-interests basis." },
+-        "ukgdpr": { "state": "yes", "note": "With a balancing test. Recognised legitimate interests need none." },
++        "ukgdpr": { "state": "yes", "note": "With a balancing test. Recognized legitimate interests need none." },
+         "fadp": { "state": "yes", "note": "Overriding private or public interest is a core justification." },
+         "pdpa-ar": { "state": "no", "note": "No general legitimate-interests basis." },
+         "lpdp-uy": { "state": "no", "note": "No general legitimate-interests basis." },
+         "pipa-kr": { "state": "partial", "note": "A narrow basis where the controller's interest clearly overrides the person's rights." },
+-        "appi": { "state": "no", "note": "No legitimate-interests basis; relies on consent and exemptions." },
+-        "nzpa": { "state": "partial", "note": "No named basis; the principles allow reasonable business use." },
++        "appi": { "state": "no", "note": "No legitimate-interests basis. Relies on consent and exemptions." },
++        "nzpa": { "state": "partial", "note": "No named basis. The principles allow reasonable business use." },
+         "popia": { "state": "yes", "note": "Legitimate interests of the responsible party or a third party." },
+         "kdpa": { "state": "yes" },
+-        "dpdp": { "state": "no", "note": "No general legitimate-interests basis; only enumerated legitimate uses." },
++        "dpdp": { "state": "no", "note": "No general legitimate-interests basis. Only enumerated legitimate uses." },
+         "pipeda": { "state": "partial", "note": "No general basis. Listed exceptions cover deals, investigations and debt collection." },
+         "pa-au": { "state": "partial", "note": "No named basis. Uses people would reasonably expect for a related purpose are allowed." },
+         "pdpa-sg": { "state": "yes", "note": "Needs a documented assessment and balancing test, and disclosure. Not for marketing." }
+diff --git a/src/data/comparison/scope.json b/src/data/comparison/scope.json
+index 58c516c..9425286 100644
+--- a/src/data/comparison/scope.json
++++ b/src/data/comparison/scope.json
+@@ -23,8 +23,8 @@
+         "kdpa": { "value": "Data controllers and processors", "note": "Mirrors the GDPR controller and processor split." },
+         "dpdp": { "value": "Data fiduciaries", "note": "Any person determining the purpose and means of processing." },
+         "pipeda": { "value": "Businesses in commercial activity", "note": "Private-sector organizations handling personal information commercially, plus federally regulated employers for staff data." },
+-        "pa-au": { "value": "Agencies and organisations", "note": "Commonwealth agencies and private businesses, with some exemptions." },
+-        "pdpa-sg": { "value": "Private-sector organisations", "note": "Any organisation handling personal data in Singapore, including non-profits." }
++        "pa-au": { "value": "Agencies and organizations", "note": "Commonwealth agencies and private businesses, with some exemptions." },
++        "pdpa-sg": { "value": "Private-sector organizations", "note": "Any organization handling personal data in Singapore, including non-profits." }
+       }
+     },
+     {
+@@ -38,7 +38,7 @@
+         "ukgdpr": { "value": "UK establishment, or people in the UK", "note": "An establishment counts wherever the processing happens. Foreign firms are covered when they target or monitor people in the UK." },
+         "fadp": { "value": "Effects felt in Switzerland", "note": "Applies to conduct that produces effects in Switzerland." },
+         "pdpa-ar": { "value": "Databases operating in Argentina", "note": "Data held or processed within the country." },
+-        "lpdp-uy": { "value": "Processing in or from Uruguay", "note": "Includes foreign controllers that target or analyse people in Uruguay, or use means there." },
++        "lpdp-uy": { "value": "Processing in or from Uruguay", "note": "Includes foreign controllers that target or analyze people in Uruguay, or use means there." },
+         "pipa-kr": { "value": "Processing affecting Korean residents", "note": "Reaches overseas handlers where Korean users are affected." },
+         "appi": { "value": "Handling data of people in Japan", "note": "Extraterritorial where goods or services target people in Japan." },
+         "nzpa": { "value": "Agencies acting in or from NZ", "note": "Includes overseas agencies carrying on business in New Zealand." },
+@@ -46,7 +46,7 @@
+         "kdpa": { "value": "Processing in or of people in Kenya", "note": "Controllers and processors established or acting in Kenya." },
+         "dpdp": { "value": "Processing in India or targeting India", "note": "Extraterritorial where linked to offering goods or services in India." },
+         "pipeda": { "value": "Canada, except in-province activity under similar provincial laws", "note": "Quebec, Alberta and British Columbia apply their own laws inside those provinces." },
+-        "pa-au": { "value": "Australia, plus overseas firms with an Australian link", "note": "Covers overseas organisations that carry on business in Australia." },
++        "pa-au": { "value": "Australia, plus overseas firms with an Australian link", "note": "Covers overseas organizations that carry on business in Australia." },
+         "pdpa-sg": { "value": "Activities in Singapore", "note": "Covers personal data handled in Singapore, including data brought in from overseas." }
+       }
+     },
+@@ -58,7 +58,7 @@
+         "ccpa": { "value": "About $26.6M revenue, 100k consumers, or 50% data revenue", "note": "Meet one or more to be covered. The revenue figure rises with inflation every two years." },
+         "lgpd": { "value": "None", "note": "Applies regardless of size." },
+         "pipl": { "value": "None to apply", "note": "But high volume triggers extra localization and assessment duties." },
+-        "ukgdpr": { "value": "None", "note": "Applies to any size; duties scale with risk." },
++        "ukgdpr": { "value": "None", "note": "Applies to any size. Duties scale with risk." },
+         "fadp": { "value": "None", "note": "Businesses under 250 employees need no record of processing, unless their processing is high-risk." },
+         "pdpa-ar": { "value": "None", "note": "Applies regardless of size." },
+         "lpdp-uy": { "value": "None", "note": "Applies regardless of size." },
+@@ -82,7 +82,7 @@
+         "lgpd": { "value": "Yes", "note": "Public and private sectors." },
+         "pipl": { "value": "Yes", "note": "State organs covered, with some exceptions." },
+         "ukgdpr": { "value": "Yes", "note": "Applies to public authorities." },
+-        "fadp": { "value": "Yes", "note": "Federal bodies; cantonal bodies fall under cantonal law." },
++        "fadp": { "value": "Yes", "note": "Federal bodies. Cantonal bodies fall under cantonal law." },
+         "pdpa-ar": { "value": "Yes", "note": "Covers public and private databases." },
+         "lpdp-uy": { "value": "Yes", "note": "Public and private sectors." },
+         "pipa-kr": { "value": "Yes", "note": "Public institutions and private entities alike." },
+@@ -105,9 +105,9 @@
+         "lgpd": { "value": "Yes" },
+         "pipl": { "value": "Yes", "note": "With a required domestic representative." },
+         "ukgdpr": { "value": "Yes", "note": "Mirrors the EU GDPR." },
+-        "fadp": { "value": "Yes", "note": "Effects-based reach; foreign controllers may need a Swiss representative." },
++        "fadp": { "value": "Yes", "note": "Effects-based reach. Foreign controllers may need a Swiss representative." },
+         "pdpa-ar": { "value": "Limited", "note": "Chiefly territorial, with outward transfer controls." },
+-        "lpdp-uy": { "value": "Yes", "note": "Reaches foreign controllers offering goods or services to people in Uruguay, or analysing their behaviour." },
++        "lpdp-uy": { "value": "Yes", "note": "Reaches foreign controllers offering goods or services to people in Uruguay, or analyzing their behavior." },
+         "pipa-kr": { "value": "Yes", "note": "Reaches overseas handlers affecting Korean residents." },
+         "appi": { "value": "Yes", "note": "Reaches foreign operators targeting people in Japan." },
+         "nzpa": { "value": "Yes", "note": "Reaches overseas agencies carrying on business in New Zealand." },
+@@ -116,7 +116,7 @@
+         "dpdp": { "value": "Yes", "note": "Reaches processing outside India linked to offering goods or services there." },
+         "pipeda": { "value": "Yes, through the courts", "note": "Courts apply it to foreign organizations with a real and substantial connection to Canada." },
+         "pa-au": { "value": "Yes", "note": "Reaches overseas businesses operating in Australia, wherever the data is held." },
+-        "pdpa-sg": { "value": "Partial", "note": "Foreign organisations are covered when they handle personal data in Singapore." }
++        "pdpa-sg": { "value": "Partial", "note": "Foreign organizations are covered when they handle personal data in Singapore." }
+       }
+     }
+   ]
+diff --git a/src/data/comparison/sensitiveData.json b/src/data/comparison/sensitiveData.json
+index 8e3fa73..de01e6a 100644
+--- a/src/data/comparison/sensitiveData.json
++++ b/src/data/comparison/sensitiveData.json
+@@ -4,9 +4,9 @@
+   "format": "three-state",
+   "rowHeader": "Category",
+   "states": {
+-    "yes": "Explicitly protected as a special/sensitive category",
++    "yes": "Explicitly protected as a special or sensitive category",
+     "partial": "Protected conditionally, indirectly, or under a different mechanism",
+-    "no": "Not treated as a special/sensitive category"
++    "no": "Not treated as a special or sensitive category"
+   },
+   "rows": [
+     {
+@@ -23,10 +23,10 @@
+         "lpdp-uy": { "state": "yes", "note": "Sensitive data." },
+         "pipa-kr": { "state": "yes", "note": "Race and ethnicity, an enforcement-decree sensitive item." },
+         "appi": { "state": "yes", "note": "Race listed as special care-required information." },
+-        "nzpa": { "state": "no", "note": "No special-category regime; the same principles cover all information." },
++        "nzpa": { "state": "no", "note": "No special-category regime. The same principles cover all information." },
+         "popia": { "state": "yes", "note": "Special personal information." },
+         "kdpa": { "state": "yes", "note": "Sensitive personal data definition." },
+-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
++        "dpdp": { "state": "no", "note": "No sensitive category." },
+         "pipeda": { "state": "partial", "note": "No special-category list. Regulator guidance treats it as generally sensitive." },
+         "pa-au": { "state": "yes", "note": "Sensitive information." },
+         "pdpa-sg": { "state": "no", "note": "No special category in the law." }
+@@ -49,7 +49,7 @@
+         "nzpa": { "state": "no", "note": "No special-category regime." },
+         "popia": { "state": "yes", "note": "Political persuasion." },
+         "kdpa": { "state": "no", "note": "Not listed as sensitive." },
+-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
++        "dpdp": { "state": "no", "note": "No sensitive category." },
+         "pipeda": { "state": "partial", "note": "No special-category list. Regulator guidance treats it as generally sensitive." },
+         "pa-au": { "state": "yes", "note": "Sensitive, including political party membership." },
+         "pdpa-sg": { "state": "no", "note": "No special category in the law." }
+@@ -72,7 +72,7 @@
+         "nzpa": { "state": "no", "note": "No special-category regime." },
+         "popia": { "state": "yes", "note": "Religious or philosophical beliefs." },
+         "kdpa": { "state": "yes", "note": "Conscience and belief, sensitive definition." },
+-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
++        "dpdp": { "state": "no", "note": "No sensitive category." },
+         "pipeda": { "state": "partial", "note": "No special-category list. Regulator guidance treats it as generally sensitive." },
+         "pa-au": { "state": "yes", "note": "Religious and philosophical beliefs are sensitive." },
+         "pdpa-sg": { "state": "no", "note": "No special category in the law." }
+@@ -95,7 +95,7 @@
+         "nzpa": { "state": "partial", "note": "Genetic test results held for health purposes fall under the Health Information Privacy Code." },
+         "popia": { "state": "partial", "note": "Not listed, but DNA analysis used for identification counts as biometric data." },
+         "kdpa": { "state": "yes", "note": "Genetic data listed as sensitive." },
+-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
++        "dpdp": { "state": "no", "note": "No sensitive category." },
+         "pipeda": { "state": "partial", "note": "Treated as sensitive in regulator guidance." },
+         "pa-au": { "state": "yes", "note": "Genetic information is sensitive." },
+         "pdpa-sg": { "state": "no", "note": "No special category in the law." }
+@@ -118,7 +118,7 @@
+         "nzpa": { "state": "partial", "note": "Addressed through a dedicated biometric privacy code, not the Act itself." },
+         "popia": { "state": "yes", "note": "Biometric information." },
+         "kdpa": { "state": "yes", "note": "Biometric data listed as sensitive." },
+-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
++        "dpdp": { "state": "no", "note": "No sensitive category." },
+         "pipeda": { "state": "partial", "note": "Identifying biometrics are sensitive in regulator guidance. Quebec requires express consent." },
+         "pa-au": { "state": "yes", "note": "Sensitive when used for automated identification or verification." },
+         "pdpa-sg": { "state": "no", "note": "No special category in the law." }
+@@ -141,7 +141,7 @@
+         "nzpa": { "state": "partial", "note": "Governed by a separate Health Information Privacy Code." },
+         "popia": { "state": "yes", "note": "Health data." },
+         "kdpa": { "state": "yes", "note": "Health data listed as sensitive." },
+-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
++        "dpdp": { "state": "no", "note": "No sensitive category." },
+         "pipeda": { "state": "partial", "note": "The law names medical records as almost always sensitive. Provincial health laws often apply." },
+         "pa-au": { "state": "yes", "note": "Health information is sensitive." },
+         "pdpa-sg": { "state": "partial", "note": "Listed medical and insurance data make a breach notifiable." }
+@@ -164,7 +164,7 @@
+         "nzpa": { "state": "no", "note": "No special-category regime." },
+         "popia": { "state": "yes", "note": "Sex life." },
+         "kdpa": { "state": "yes", "note": "Sex and sexual orientation listed as sensitive." },
+-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
++        "dpdp": { "state": "no", "note": "No sensitive category." },
+         "pipeda": { "state": "partial", "note": "No special-category list. Regulator guidance treats it as generally sensitive." },
+         "pa-au": { "state": "yes", "note": "Sexual orientation and practices are sensitive." },
+         "pdpa-sg": { "state": "no", "note": "No special category in the law." }
+@@ -174,7 +174,7 @@
+       "id": "financial-account",
+       "label": "Financial account credentials",
+       "jurisdictions": {
+-        "gdpr": { "state": "no", "note": "Not a special category; protected as ordinary personal data." },
++        "gdpr": { "state": "no", "note": "Not a special category. Protected as ordinary personal data." },
+         "ccpa": { "state": "yes", "note": "Account log-in and financial account plus access credentials are sensitive." },
+         "lgpd": { "state": "no", "note": "Not a sensitive category." },
+         "pipl": { "state": "yes", "note": "Financial accounts specifically listed." },
+@@ -182,12 +182,12 @@
+         "fadp": { "state": "no", "note": "Ordinary personal data." },
+         "pdpa-ar": { "state": "no", "note": "Not a sensitive category." },
+         "lpdp-uy": { "state": "no", "note": "Not a sensitive category." },
+-        "pipa-kr": { "state": "no", "note": "Not a sensitive category; protected as ordinary data." },
++        "pipa-kr": { "state": "no", "note": "Not a sensitive category. Protected as ordinary data." },
+         "appi": { "state": "no", "note": "Not a special category." },
+         "nzpa": { "state": "no", "note": "No special-category regime." },
+         "popia": { "state": "no", "note": "Not a special category." },
+         "kdpa": { "state": "partial", "note": "Property details are sensitive. Financial accounts are not listed as such." },
+-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
++        "dpdp": { "state": "no", "note": "No sensitive category." },
+         "pipeda": { "state": "partial", "note": "The law names income records as almost always sensitive." },
+         "pa-au": { "state": "partial", "note": "Not sensitive. Credit information has its own strict rules." },
+         "pdpa-sg": { "state": "partial", "note": "Bank, card and credit data make a breach notifiable." }
+@@ -197,7 +197,7 @@
+       "id": "precise-geolocation",
+       "label": "Precise geolocation",
+       "jurisdictions": {
+-        "gdpr": { "state": "no", "note": "Not a special category; protected as ordinary personal data." },
++        "gdpr": { "state": "no", "note": "Not a special category. Protected as ordinary personal data." },
+         "ccpa": { "state": "yes", "note": "Precise geolocation listed as sensitive." },
+         "lgpd": { "state": "no", "note": "Not a sensitive category." },
+         "pipl": { "state": "yes", "note": "Individual location tracking specifically listed." },
+@@ -210,7 +210,7 @@
+         "nzpa": { "state": "no", "note": "No special-category regime." },
+         "popia": { "state": "no", "note": "Not a special category." },
+         "kdpa": { "state": "no", "note": "Not a sensitive category." },
+-        "dpdp": { "state": "no", "note": "No sensitive-data category; one standard covers all personal data." },
++        "dpdp": { "state": "no", "note": "No sensitive category." },
+         "pipeda": { "state": "partial", "note": "Not listed, but regulators found constant app location tracking excessive." },
+         "pa-au": { "state": "no", "note": "Not a sensitive category." },
+         "pdpa-sg": { "state": "no", "note": "No special category in the law." }
+@@ -225,7 +225,7 @@
+         "lgpd": { "state": "partial", "note": "Not listed as sensitive, but needs parental consent. The ECA Digital bans ad profiling of minors." },
+         "pipl": { "state": "yes", "note": "Personal information of minors under 14 is sensitive." },
+         "ukgdpr": { "state": "partial", "note": "Heightened protections, not a special category." },
+-        "fadp": { "state": "partial", "note": "General principles apply; no dedicated child category." },
++        "fadp": { "state": "partial", "note": "General principles apply. No dedicated child category." },
+         "pdpa-ar": { "state": "partial", "note": "Addressed through guidance, not a statutory category." },
+         "lpdp-uy": { "state": "partial", "note": "Not a sensitive category. Childhood law and regulator opinions add protection case by case." },
+         "pipa-kr": { "state": "partial", "note": "Guardian consent required for children under 14." },
+diff --git a/src/data/comparison/timeBasedObligations.json b/src/data/comparison/timeBasedObligations.json
+index cd510cb..2cd6708 100644
+--- a/src/data/comparison/timeBasedObligations.json
++++ b/src/data/comparison/timeBasedObligations.json
+@@ -36,7 +36,7 @@
+         "lgpd": { "value": "No general extension", "note": "Small businesses get 15 days for a simplified reply and 30 for a complete one, unless their processing is high-risk." },
+         "pipl": { "value": "No fixed rule", "note": "PIPL sets no deadline and no extension." },
+         "ukgdpr": { "value": "Up to 3 months", "note": "Two further months for complex or numerous requests." },
+-        "fadp": { "value": "Reasonable extension", "note": "If 30 days isn't possible, the person must be told how long it will take." },
++        "fadp": { "value": "Reasonable extension", "note": "If 30 days is not possible, the person must be told how long it will take." },
+         "pdpa-ar": { "value": "No formal extension", "note": "The 10-day window is the operative rule." },
+         "lpdp-uy": { "value": "No formal extension", "note": "The 5-day window is the operative rule." },
+         "pipa-kr": { "value": "Postponement only", "note": "Access can be postponed for a justified reason, with notice. Correction and deletion have no extension." },
+@@ -56,11 +56,11 @@
+       "jurisdictions": {
+         "gdpr": { "value": "72 hours", "note": "From awareness, unless unlikely to be a risk." },
+         "ccpa": { "value": "Within 15 days of notifying residents", "note": "A sample notice to the Attorney General, if over 500 residents are notified. This is California's breach law, not the CCPA." },
+-        "lgpd": { "value": "3 business days", "note": "ANPD Resolution 15/2024, from awareness; supplement within 20 business days." },
++        "lgpd": { "value": "3 business days", "note": "ANPD Resolution 15/2024, from awareness. Supplement within 20 business days." },
+         "pipl": { "value": "Immediately", "note": "No fixed hour count in PIPL. Major cybersecurity incidents must be reported within 1 to 4 hours." },
+         "ukgdpr": { "value": "72 hours", "note": "From awareness, unless unlikely to be a risk." },
+         "fadp": { "value": "As soon as possible", "note": "Notify the FDPIC where there is high risk to the person." },
+-        "pdpa-ar": { "value": "No statutory duty", "note": "The 2000 law has no breach-notification rule; AAIP guidance encourages notice." },
++        "pdpa-ar": { "value": "No statutory duty", "note": "The 2000 law has no breach-notification rule. AAIP guidance encourages notice." },
+         "lpdp-uy": { "value": "72 hours", "note": "Notify the URCDP after becoming aware." },
+         "pipa-kr": { "value": "Within 72 hours", "note": "Notify the PIPC of a qualifying breach." },
+         "appi": { "value": "Promptly", "note": "Preliminary report promptly. Full report within 30 days, or 60 where a wrongful purpose is suspected." },
+diff --git a/src/data/glossary.json b/src/data/glossary.json
+index b3281c6..19f2719 100644
+--- a/src/data/glossary.json
++++ b/src/data/glossary.json
+@@ -40,7 +40,7 @@
+       "id": "pia-dpia",
+       "type": "paired",
+       "term": "PIA and DPIA",
+-      "definition": "A Privacy Impact Assessment is a process for identifying and reducing privacy risks before starting a new activity that involves personal data. DPIA, Data Protection Impact Assessment, is the term the GDPR uses for the same process. Kenya's and India's laws use the term too. Both serve the same purpose: find the risk before it causes harm.",
++      "definition": "A Privacy Impact Assessment is a process for identifying and reducing privacy risks before starting a new activity that involves personal data. Data Protection Impact Assessment (DPIA) is the term the GDPR uses for the same process. Kenya's and India's laws use the term too. Both serve the same purpose: find the risk before it causes harm.",
+       "jurisdiction": "PIA: universal. DPIA: GDPR, UK GDPR, Kenya, India. PIPIA: PIPL.",
+       "source": {
+         "label": "IAPP Privacy Glossary",
+@@ -220,8 +220,8 @@
+       "id": "data-subject",
+       "type": "standalone",
+       "term": "Data Subject",
+-      "definition": "A data subject is the living person whose personal data a company collects or uses. If a company holds information about you, you are the data subject. Some laws, like South Africa's, Argentina's and Uruguay's, also cover companies. CCPA/CPRA uses the term consumer. PIPL uses the term individual.",
+-      "jurisdiction": "GDPR and LGPD term. Equivalent: consumer (CCPA/CPRA), individual (PIPL).",
++      "definition": "A data subject is the person a piece of personal data is about. If a company holds information about you, you are the data subject. Some laws, like South Africa's, Argentina's, and Uruguay's, also cover companies. The CCPA/CPRA uses the term consumer. The PIPL uses the term individual.",
++      "jurisdiction": "Used in the GDPR and LGPD.",
+       "source": {
+         "label": "IAPP Privacy Glossary",
+         "url": "https://iapp.org/resources/glossary"
+@@ -507,8 +507,8 @@
+     {
+       "id": "right-to-be-forgotten",
+       "type": "standalone",
+-      "term": "Right to be Forgotten",
+-      "definition": "The right to be forgotten is the popular name for the right to have your personal information deleted. GDPR formalizes this as the right to erasure under Article 17. It is not absolute. Companies can refuse deletion in specific circumstances.",
++      "term": "Right to Be Forgotten",
++      "definition": "The right to be forgotten is the popular name for the right to have your personal information deleted. The GDPR formalizes this as the right to erasure under Article 17. It is not absolute. Companies can refuse deletion in specific circumstances.",
+       "jurisdiction": "Common usage term. Some form of the right exists in most laws covered here.",
+       "source": {
+         "label": "GDPR Article 17: EUR-Lex",
+@@ -527,7 +527,7 @@
+       "type": "standalone",
+       "term": "Breach Notification",
+       "definition": "Breach notification is the duty to report a security incident that exposes personal data. Many laws require notice to a regulator, to affected people, or to both. Who must be told, and how fast, differs from law to law.",
+-      "jurisdiction": "Timelines vary. GDPR: 72 hours to the regulator. LGPD: 3 business days. PIPL: immediately. California breach law: 30 calendar days to residents (SB 446, 2026). Argentina: no statutory duty.",
++      "jurisdiction": "Timelines vary. GDPR: 72 hours to the regulator. LGPD: three business days. PIPL: immediately. California breach law: 30 calendar days to residents, under SB 446 (2026). Argentina: no statutory duty.",
+       "source": {
+         "label": "IAPP Privacy Glossary",
+         "url": "https://iapp.org/resources/glossary"
+diff --git a/src/i18n/locales/en/translation.json b/src/i18n/locales/en/translation.json
+index 71bd559..d678d66 100644
+--- a/src/i18n/locales/en/translation.json
++++ b/src/i18n/locales/en/translation.json
+@@ -16,9 +16,9 @@
+     "byMap": "By Map"
+   },
+   "contentBlock": {
+-    "timelineLabel": "Response Timeline",
++    "timelineLabel": "Response timeline",
+     "sourceLinksLabel": "Sources",
+-    "crossReferencesLabel": "Related Articles",
++    "crossReferencesLabel": "Related articles",
+     "personalImpact": "What this means for you"
+   },
+   "glossary": {
+@@ -28,12 +28,12 @@
+     "considerLabel": "Consider"
+   },
+   "gapRemediation": {
+-    "heading": "How to Close the Gap",
++    "heading": "How to close the gap",
+     "notLegalAdvice": "These are starting points, not legal advice. Check your situation with a qualified lawyer."
+   },
+   "tiers": {
+-    "smb": "Small Business",
+-    "midMarket": "Mid-Market",
++    "smb": "Small business",
++    "midMarket": "Mid-market",
+     "enterprise": "Enterprise"
+   },
+   "comparisonGrid": {
+@@ -48,7 +48,7 @@
+   },
+   "map": {
+     "skipLink": "Skip world map",
+-    "instructions": "Tab or hover to highlighted countries to see which privacy law applies. Countries in blue open full legal detail.",
++    "instructions": "Tab to or hover over a highlighted country to see its privacy law. Countries in blue open full legal detail.",
+     "viewCountryLabel": "{{country}}: {{name}}. View details.",
+     "selectedCountryLabel": "{{country}}: {{name}}, selected. Activate to deselect.",
+     "currentlyHighlighting": "Highlighting: {{name}}",
+@@ -102,7 +102,7 @@
+     "notApplicable": "n/a"
+   },
+   "organizations": {
+-    "toggle": "Help for Organizations",
++    "toggle": "Help for organizations",
+     "toggleHint": "Show compliance guidance for organizations"
+   },
+   "languageSelector": {
+@@ -164,8 +164,8 @@
+       "status": "Page {{page}} of {{total}}"
+     },
+     "category": {
+-      "legal-regulatory": "Legal & Regulatory",
+-      "policy-perspectives": "Policy & Perspectives",
++      "legal-regulatory": "Legal and regulatory",
++      "policy-perspectives": "Policy and perspectives",
+       "breaches": "Breaches"
+     },
+     "language": {
+@@ -190,11 +190,11 @@
+     "sections": {
+       "what": {
+         "heading": "What this site is",
+-        "body": "A public guide to the privacy laws that shape how organizations handle your data. Each law covered in detail gets a plain summary, a note on why it matters to you, and a section for professionals."
++        "body": "Privacy Meridian is a public guide to the privacy laws that shape how organizations handle your data. Each law covered in detail gets a plain summary, a note on why it matters to you, and a section for professionals."
+       },
+       "how": {
+         "heading": "How we research the laws",
+-        "body": "Every law page is checked against the official text and guidance from its regulator. Where we rely on an English translation, the source link says so. Claims that rest only on secondary sources are left out until they can be confirmed. The list of laws we do not yet cover relies on legal trackers and law firms. Each page links to its sources so you can check them yourself."
++        "body": "We check every law page against the official text and its regulator's guidance. Where we rely on an English translation, the source link says so. We leave out claims that rest only on secondary sources until we can confirm them. The list of laws we do not yet cover relies on legal trackers and law firms. Each page links to its sources so you can check them yourself."
+       },
+       "use": {
+         "heading": "What you can do here",

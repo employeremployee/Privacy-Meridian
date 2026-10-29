@@ -1,11 +1,10 @@
-# Privacy Meridian — Content Review (for Jared's sign-off)
+# Privacy Meridian: Content Review Log
 
-Per-jurisdiction review of the 14 privacy laws: accuracy, amendments, added/removed
-sections (#1), plus comparison-grid article citations (#5). Every change below is a
-**proposal for your review** — edit or reject any of it before we push live. Sources
-are listed so you can verify. Content remains draft until you confirm.
+Log of content reviews and corrections, newest at the bottom. Every change was checked
+against official sources before publishing.
 
-Status legend: ☐ not started · ◐ content pass done · ✅ content + citations done
+Status legend for the first review pass below: ☐ not started · ◐ content pass done ·
+✅ content and citations done
 
 ---
 

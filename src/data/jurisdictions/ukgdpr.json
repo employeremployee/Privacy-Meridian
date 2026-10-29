@@ -26,8 +26,8 @@
           "articleRef": "Overview",
           "surfaceLabel": "Does UK Privacy Law Apply to Your Organization?",
           "plainSummary": "The UK kept GDPR after leaving the EU, in a version called the UK GDPR. It applies to organizations established in the UK, wherever they process data. It also applies to organizations abroad that offer goods or services to people in the UK, or monitor them.",
-          "personalImpact": "Your shopping, browsing, and location feed profiles that set your prices and target your ads. Companies across the UK and beyond trade that data every day. UK GDPR and the Data Protection Act 2018 cover UK organizations, and foreign ones that target or monitor people in the UK. Those companies must follow clear rules, wherever they are based.",
-          "professionalLayer": "The UK GDPR, together with the Data Protection Act 2018, is the assimilated version of the EU GDPR that took effect at the end of the Brexit transition period. It began as a mirror of the EU regulation, with the same legal bases, data subject rights and accountability obligations. Territorial scope covers UK establishments and organizations outside the UK that offer goods or services to, or monitor the behavior of, people in the UK. The regimes have since diverged with the Data (Use and Access) Act 2025, whose data protection provisions took effect mostly from 5 February 2026. It adds a seventh lawful basis of recognised legitimate interests and replaces the Article 22 automated-decision rules with new Articles 22A to 22D. It also changes subject access, relaxes some cookie-consent requirements, and sets a data protection test for international transfers. UK compliance can no longer be assumed from EU GDPR compliance. Since 30 September 2026, the Information Commission enforces the law, replacing the Information Commissioner.",
+          "personalImpact": "Your shopping, browsing, and location feed profiles that set your prices and target your ads. Companies across the UK and beyond trade that data every day. UK GDPR and the Data Protection Act 2018 cover UK organizations, and foreign ones that target or monitor people in the UK.",
+          "professionalLayer": "The UK GDPR, together with the Data Protection Act 2018, is the assimilated version of the EU GDPR that took effect at the end of the Brexit transition period. It began as a mirror of the EU regulation, with the same legal bases, data subject rights, and accountability obligations. Territorial scope covers UK establishments and organizations outside the UK that offer goods or services to, or monitor the behavior of, people in the UK. The regimes have since diverged with the Data (Use and Access) Act 2025, whose data protection provisions took effect mostly from 5 February 2026. It adds a seventh lawful basis of recognized legitimate interests and replaces the Article 22 automated-decision rules with new Articles 22A to 22D. It also changes subject access, relaxes some cookie-consent requirements, and sets a data protection test for international transfers. UK compliance can no longer be assumed from EU GDPR compliance. Since 30 September 2026, the Information Commission enforces the law, replacing the Information Commissioner.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
@@ -61,8 +61,8 @@
           "articleRef": "Article 6",
           "surfaceLabel": "Why Organizations Are Allowed to Use Your Data in the UK",
           "plainSummary": "UK law requires a valid legal reason before an organization can use your personal information. There are seven possible reasons, one more than under the EU's GDPR. They include your consent, a contract, or a legitimate business interest balanced against your rights.",
-          "personalImpact": "Unwanted marketing calls and texts are a daily nuisance across the UK. Behind many of them sits data used without any proper reason. The law requires a lawful basis before a company can process your data at all. Separate rules, known as PECR, also limit marketing calls, texts and emails.",
-          "professionalLayer": "Article 6 of the UK GDPR keeps the six lawful bases of its EU parent: consent, contract performance, legal obligation, vital interests, public task, and legitimate interests. The ICO publishes detailed guidance on selecting and documenting a basis, including an interactive lawful basis tool. Since 5 February 2026, it adds a seventh basis: recognised legitimate interests. These need no balancing test, but the processing must meet a condition in Annex 1. The conditions cover public-task disclosures, national security and defence, emergencies, crime, and safeguarding vulnerable people. Public authorities cannot use this basis, or ordinary legitimate interests, for their tasks. As under EU GDPR, the basis must be settled before processing begins. You must record which basis you rely on, and the regulator's guidance expects your record of processing to include or link to it.",
+          "personalImpact": "Unwanted marketing calls and texts are a daily nuisance across the UK. Behind many of them sits data used without any proper reason. The law requires a lawful basis before a company can process your data at all. Separate rules, known as PECR, also limit marketing calls, texts, and emails.",
+          "professionalLayer": "Article 6 of the UK GDPR keeps the six lawful bases of its EU parent: consent, contract performance, legal obligation, vital interests, public task, and legitimate interests. The ICO publishes detailed guidance on selecting and documenting a basis, including an interactive lawful basis tool. Since 5 February 2026, it adds a seventh basis: recognized legitimate interests. These need no balancing test, but the processing must meet a condition in Annex 1. The conditions cover public-task disclosures, national security and defense, emergencies, crime, and safeguarding vulnerable people. Public authorities cannot use this basis, or ordinary legitimate interests, for their tasks. As under EU GDPR, the basis must be settled before processing begins. You must record which basis you rely on, and the regulator's guidance expects your record of processing to include or link to it.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
@@ -80,11 +80,11 @@
             "processing",
             "consent-withdrawal"
           ],
-          "assessTrigger": "Has your organization documented a UK GDPR lawful basis for each processing activity involving people in the UK, and checked whether the new recognised legitimate interests basis applies?",
+          "assessTrigger": "Has your organization documented a UK GDPR lawful basis for each processing activity involving people in the UK, and checked whether the new recognized legitimate interests basis applies?",
           "gapRemediation": {
             "smb": "Map each activity to one of the seven bases and record it. Your EU GDPR mapping is a valid starting point.",
             "midMarket": "Review legitimate interests assessments against current ICO guidance, which is not always identical to EDPB positions.",
-            "enterprise": "Maintain UK-specific legal basis documentation and comply with the recognised legitimate interests rules now in force. Watch for changes to the Annex 1 conditions."
+            "enterprise": "Maintain UK-specific legal basis documentation and comply with the recognized legitimate interests rules now in force. Watch for changes to the Annex 1 conditions."
           },
           "comparisonFlags": []
         }
@@ -98,7 +98,7 @@
           "articleRef": "Article 15",
           "surfaceLabel": "Your Right to See Your Data in the UK",
           "plainSummary": "You have the right to ask any organization whether it holds personal information about you and to receive a copy. This is known as a subject access request. It is a common source of complaints to the UK regulator.",
-          "personalImpact": "Credit reference agencies and data brokers hold files that shape your loans and offers. Much of it is assembled without your knowledge. This right lets you see exactly what an organization holds about you. A hidden record becomes something you can check and question.",
+          "personalImpact": "Credit reference agencies and data brokers hold files that shape your loans and offers. Much of it is assembled without your knowledge. This right lets you see exactly what an organization holds about you.",
           "professionalLayer": "Article 15 of the UK GDPR grants the right of access: confirmation of processing, a copy of the data, and supplementary information covering purposes, categories, recipients, retention, and rights. Since the Data (Use and Access) Act, controllers need only make a reasonable and proportionate search, a rule treated as in force from 1 January 2024. The one-month clock starts at the latest of receiving the request, any ID asked for, or any fee charged. For access requests, it also pauses while the controller waits for clarification it reasonably needs. From 19 June 2026, organizations must also run a complaints process and acknowledge complaints within 30 days. The regulator takes action over late responses and publishes guidance for employers. The first copy is free. Organizations may charge a reasonable fee or refuse only where requests are manifestly unfounded or excessive, and the ICO interprets those exceptions narrowly.",
           "responseTimeline": "One calendar month, starting from the latest of receipt, receipt of any ID requested, or payment of any fee. Access requests pause while the controller waits for clarification it reasonably needs. Extendable by two further months for complex or numerous requests, with notice within the first month.",
           "crossReferences": [],
@@ -117,7 +117,7 @@
           ],
           "assessTrigger": "Can your organization meet the one-month subject access deadline for UK requests, including searching unstructured sources like email where the ICO expects reasonable effort?",
           "gapRemediation": {
-            "smb": "A documented intake route and a response checklist cover most needs at this scale. Watch the one-month clock. It starts at the latest of receipt, ID checks or fee payment.",
+            "smb": "A documented intake route and a response checklist cover most needs at this scale. Watch the one-month clock. It starts at the latest of receipt, ID checks, or fee payment.",
             "midMarket": "Subject access requests from employees are the common stress case. Define search scope, exemption handling, and third-party data redaction in advance.",
             "enterprise": "High request volumes justify a dedicated DSR platform with email and unstructured data search, plus documented exemption decision logs the ICO can audit."
           },
@@ -128,8 +128,8 @@
           "articleRef": "Article 17",
           "surfaceLabel": "Your Right to Delete Your Data in the UK",
           "plainSummary": "You can ask an organization to permanently delete your personal information in defined circumstances, such as when it is no longer needed or you withdraw consent. The organization can refuse only for specific legal reasons.",
-          "personalImpact": "An old address, a past dispute, or a mistaken record can follow you for years. Left in place, it keeps surfacing in searches and decisions. This right lets you ask for data that is no longer needed to be erased. You regain a say over what stays on file.",
-          "professionalLayer": "Article 17 of the UK GDPR mirrors the EU right to erasure: deletion is required where data is no longer necessary, consent is withdrawn without another basis, the individual objects without overriding grounds or objects to direct marketing, processing was unlawful, a legal obligation requires it, or the data was collected for online services offered to a child. Since 31 March 2026, it also covers data processed because of a malicious allegation. This applies across the UK. Malicious has a narrow meaning here. The accuser must have been convicted of stalking, harassment or a similar listed offence against the person. Or the accuser must be under a stalking protection order that protects them. The controller must also have investigated and decided to take no further action. Refusal grounds include freedom of expression, legal obligations and public tasks, public health, archiving and research, and legal claims. Organizations should be able to show why they refused a request. The regulator's guidance expects backup data to be put beyond use, even if it cannot be overwritten at once.",
+          "personalImpact": "An old address, a past dispute, or a mistaken record can follow you for years. Left in place, it keeps surfacing in searches and decisions. This right lets you ask for data that is no longer needed to be erased.",
+          "professionalLayer": "Article 17 of the UK GDPR mirrors the EU right to erasure: deletion is required where data is no longer necessary, consent is withdrawn without another basis, the individual objects without overriding grounds or objects to direct marketing, processing was unlawful, a legal obligation requires it, or the data was collected for online services offered to a child. Since 31 March 2026, it also covers data processed because of a malicious allegation. This applies across the UK. Malicious has a narrow meaning here. The accuser must have been convicted of stalking, harassment, or a similar listed offense against the person. Or the accuser must be under a stalking protection order that protects them. The controller must also have investigated and decided to take no further action. Refusal grounds include freedom of expression, legal obligations and public tasks, public health, archiving and research, and legal claims. Organizations should be able to show why they refused a request. The regulator's guidance expects backup data to be put beyond use, even if it cannot be overwritten at once.",
           "responseTimeline": "One calendar month, starting from the latest of receipt, receipt of any ID requested, or payment of any fee. Extendable by two further months for complex or numerous requests.",
           "crossReferences": [],
           "sourceLinks": [
@@ -161,10 +161,10 @@
       "articles": [
         {
           "id": "ukgdpr-art33-34",
-          "articleRef": "Articles 33 & 34",
+          "articleRef": "Articles 33 and 34",
           "surfaceLabel": "What Happens When Your Data Is Compromised in the UK",
           "plainSummary": "Organizations must report a data breach to the UK regulator within 72 hours of becoming aware, unless it is unlikely to put people at risk. If the breach is likely to cause you serious harm, they must also tell you directly.",
-          "personalImpact": "A breach can expose your bank details, passwords, and identity in one stroke. The danger grows when a company keeps quiet. The law requires it to tell the regulator within 72 hours, and to warn you when the risk is high. You are notified in time to protect yourself.",
+          "personalImpact": "A breach can expose your bank details, passwords, and identity in one stroke. The danger grows when a company keeps quiet. The law requires it to tell the regulator within 72 hours, and to warn you when the risk is high.",
           "professionalLayer": "The UK GDPR retains the EU breach framework: notification to the regulator, where feasible within 72 hours of awareness, unless the breach is unlikely to result in risk, and notification to affected individuals without undue delay where high risk exists. The regulator provides an online reporting tool and expects a documented internal breach register covering all breaches, including those judged non-notifiable. Late notification requires reasons. Processor-to-controller notification without undue delay is likewise retained.",
           "responseTimeline": "Regulator: without undue delay, where feasible within 72 hours of awareness, unless the breach is unlikely to be a risk. Individuals: without undue delay where high risk exists.",
           "crossReferences": [],
@@ -196,10 +196,10 @@
       "articles": [
         {
           "id": "ukgdpr-transfers",
-          "articleRef": "Articles 44-49",
+          "articleRef": "Articles 44–49",
           "surfaceLabel": "Moving Personal Data Out of the UK",
           "plainSummary": "Sending personal information out of the UK is only allowed with protections in place. The UK approves its own list of safe countries and has its own transfer contracts, separate from the EU versions.",
-          "personalImpact": "Your data rarely stays inside the UK. It flows to servers abroad that may follow weaker rules. The law requires your protection to travel with it, through approved safeguards or an adequacy decision. Your rights continue to apply once the data leaves the country.",
+          "personalImpact": "Your data rarely stays inside the UK. It flows to servers abroad that may follow weaker rules. The law requires your protection to travel with it, through approved safeguards or an adequacy decision.",
           "professionalLayer": "The UK operates a transfer regime parallel to but distinct from the EU's. Mechanisms include UK adequacy regulations, known as data bridges, such as the UK-US data bridge in force since October 2023. New approvals must pass a data protection test: protection must not be materially lower than in the UK. Other mechanisms include the International Data Transfer Agreement and the UK Addendum to the EU Standard Contractual Clauses. Transfer risk assessments are expected when relying on contractual mechanisms. The EU renewed its UK adequacy decisions in December 2025, valid until 27 December 2031. EU-to-UK flows are unrestricted, and the Commission keeps the decision under review. Organizations transferring from both the EU and UK typically need both sets of paperwork.",
           "responseTimeline": null,
           "crossReferences": [],

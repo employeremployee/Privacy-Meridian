@@ -40,7 +40,7 @@
       "id": "pia-dpia",
       "type": "paired",
       "term": "PIA and DPIA",
-      "definition": "A Privacy Impact Assessment is a process for identifying and reducing privacy risks before starting a new activity that involves personal data. DPIA, Data Protection Impact Assessment, is the term the GDPR uses for the same process. Kenya's and India's laws use the term too. Both serve the same purpose: find the risk before it causes harm.",
+      "definition": "A Privacy Impact Assessment is a process for identifying and reducing privacy risks before starting a new activity that involves personal data. Data Protection Impact Assessment (DPIA) is the term the GDPR uses for the same process. Kenya's and India's laws use the term too. Both serve the same purpose: find the risk before it causes harm.",
       "jurisdiction": "PIA: universal. DPIA: GDPR, UK GDPR, Kenya, India. PIPIA: PIPL.",
       "source": {
         "label": "IAPP Privacy Glossary",
@@ -220,8 +220,8 @@
       "id": "data-subject",
       "type": "standalone",
       "term": "Data Subject",
-      "definition": "A data subject is the living person whose personal data a company collects or uses. If a company holds information about you, you are the data subject. Some laws, like South Africa's, Argentina's and Uruguay's, also cover companies. CCPA/CPRA uses the term consumer. PIPL uses the term individual.",
-      "jurisdiction": "GDPR and LGPD term. Equivalent: consumer (CCPA/CPRA), individual (PIPL).",
+      "definition": "A data subject is the person a piece of personal data is about. If a company holds information about you, you are the data subject. Some laws, like South Africa's, Argentina's, and Uruguay's, also cover companies. The CCPA/CPRA uses the term consumer. The PIPL uses the term individual.",
+      "jurisdiction": "Used in the GDPR and LGPD.",
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"
@@ -507,8 +507,8 @@
     {
       "id": "right-to-be-forgotten",
       "type": "standalone",
-      "term": "Right to be Forgotten",
-      "definition": "The right to be forgotten is the popular name for the right to have your personal information deleted. GDPR formalizes this as the right to erasure under Article 17. It is not absolute. Companies can refuse deletion in specific circumstances.",
+      "term": "Right to Be Forgotten",
+      "definition": "The right to be forgotten is the popular name for the right to have your personal information deleted. The GDPR formalizes this as the right to erasure under Article 17. It is not absolute. Companies can refuse deletion in specific circumstances.",
       "jurisdiction": "Common usage term. Some form of the right exists in most laws covered here.",
       "source": {
         "label": "GDPR Article 17: EUR-Lex",
@@ -527,7 +527,7 @@
       "type": "standalone",
       "term": "Breach Notification",
       "definition": "Breach notification is the duty to report a security incident that exposes personal data. Many laws require notice to a regulator, to affected people, or to both. Who must be told, and how fast, differs from law to law.",
-      "jurisdiction": "Timelines vary. GDPR: 72 hours to the regulator. LGPD: 3 business days. PIPL: immediately. California breach law: 30 calendar days to residents (SB 446, 2026). Argentina: no statutory duty.",
+      "jurisdiction": "Timelines vary. GDPR: 72 hours to the regulator. LGPD: three business days. PIPL: immediately. California breach law: 30 calendar days to residents, under SB 446 (2026). Argentina: no statutory duty.",
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"

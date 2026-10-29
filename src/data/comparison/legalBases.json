@@ -45,8 +45,8 @@
         "pdpa-ar": { "state": "yes", "note": "Processing arising from a contractual relationship." },
         "lpdp-uy": { "state": "yes", "note": "Processing necessary for a contractual relationship." },
         "pipa-kr": { "state": "yes", "note": "Necessary to perform a contract." },
-        "appi": { "state": "partial", "note": "No legal-basis framework; contract needs are handled through purpose limits." },
-        "nzpa": { "state": "partial", "note": "No legal-basis framework; the principles govern collection and use." },
+        "appi": { "state": "partial", "note": "No legal-basis framework. Contract needs are handled through purpose limits." },
+        "nzpa": { "state": "partial", "note": "No legal-basis framework. The principles govern collection and use." },
         "popia": { "state": "yes", "note": "Necessary to perform a contract." },
         "kdpa": { "state": "yes", "note": "Performance of a contract." },
         "dpdp": { "state": "partial", "note": "No contract basis. Data you volunteer for a stated purpose comes closest." },
@@ -74,8 +74,8 @@
         "kdpa": { "state": "yes", "note": "Compliance with a legal obligation." },
         "dpdp": { "state": "partial", "note": "Only disclosures the law requires and compliance with court orders." },
         "pipeda": { "state": "yes", "note": "Collection, use or disclosure required by law is allowed without consent." },
-        "pa-au": { "state": "yes", "note": "Collection and use required or authorised by law are permitted." },
-        "pdpa-sg": { "state": "yes", "note": "Allowed where another law requires or authorises it." }
+        "pa-au": { "state": "yes", "note": "Collection and use required or authorized by law are permitted." },
+        "pdpa-sg": { "state": "yes", "note": "Allowed where another law requires or authorizes it." }
       }
     },
     {
@@ -132,16 +132,16 @@
         "ccpa": { "state": "no", "note": "No equivalent basis." },
         "lgpd": { "state": "yes", "note": "With a balancing test, set out in ANPD guidance. Not for sensitive data." },
         "pipl": { "state": "no", "note": "No general legitimate-interests basis." },
-        "ukgdpr": { "state": "yes", "note": "With a balancing test. Recognised legitimate interests need none." },
+        "ukgdpr": { "state": "yes", "note": "With a balancing test. Recognized legitimate interests need none." },
         "fadp": { "state": "yes", "note": "Overriding private or public interest is a core justification." },
         "pdpa-ar": { "state": "no", "note": "No general legitimate-interests basis." },
         "lpdp-uy": { "state": "no", "note": "No general legitimate-interests basis." },
         "pipa-kr": { "state": "partial", "note": "A narrow basis where the controller's interest clearly overrides the person's rights." },
-        "appi": { "state": "no", "note": "No legitimate-interests basis; relies on consent and exemptions." },
-        "nzpa": { "state": "partial", "note": "No named basis; the principles allow reasonable business use." },
+        "appi": { "state": "no", "note": "No legitimate-interests basis. Relies on consent and exemptions." },
+        "nzpa": { "state": "partial", "note": "No named basis. The principles allow reasonable business use." },
         "popia": { "state": "yes", "note": "Legitimate interests of the responsible party or a third party." },
         "kdpa": { "state": "yes" },
-        "dpdp": { "state": "no", "note": "No general legitimate-interests basis; only enumerated legitimate uses." },
+        "dpdp": { "state": "no", "note": "No general legitimate-interests basis. Only enumerated legitimate uses." },
         "pipeda": { "state": "partial", "note": "No general basis. Listed exceptions cover deals, investigations and debt collection." },
         "pa-au": { "state": "partial", "note": "No named basis. Uses people would reasonably expect for a related purpose are allowed." },
         "pdpa-sg": { "state": "yes", "note": "Needs a documented assessment and balancing test, and disclosure. Not for marketing." }

@@ -5,7 +5,7 @@
   "rowHeader": "Right",
   "states": {
     "yes": "Granted as a distinct enforceable right",
-    "partial": "Granted conditionally, partially, or under a different mechanism",
+    "partial": "Granted only in part or through a different mechanism",
     "no": "Not granted as a distinct right"
   },
   "rows": [
@@ -46,13 +46,13 @@
         "lpdp-uy": { "state": "yes", "note": "Right to deletion." },
         "pipa-kr": { "state": "yes", "note": "Deletion of personal information." },
         "appi": { "state": "yes", "note": "Erasure or cessation of use on specified grounds." },
-        "nzpa": { "state": "no", "note": "No general erasure right; correction is provided instead." },
-        "popia": { "state": "partial", "note": "Deletion of inaccurate, excessive, unlawful or no-longer-authorised data." },
+        "nzpa": { "state": "no", "note": "No general erasure right. Correction is provided instead." },
+        "popia": { "state": "partial", "note": "Deletion of inaccurate, excessive, unlawful or no-longer-authorized data." },
         "kdpa": { "state": "yes", "note": "Right to erasure." },
         "dpdp": { "state": "yes", "note": "Right to erasure, from 13 May 2027." },
         "pipeda": { "state": "partial", "note": "No general erasure right. Unneeded data should be destroyed, and inaccurate data corrected or deleted." },
         "pa-au": { "state": "no", "note": "No erasure right. Entities must destroy or de-identify data they no longer need." },
-        "pdpa-sg": { "state": "no", "note": "No erasure right. Organisations must stop keeping data they no longer need." }
+        "pdpa-sg": { "state": "no", "note": "No erasure right. Organizations must stop keeping data they no longer need." }
       }
     },
     {
@@ -105,15 +105,15 @@
       "id": "opt-out-sale",
       "label": "Right to opt out of sale or sharing",
       "jurisdictions": {
-        "gdpr": { "state": "partial", "note": "No sale concept; objection to direct marketing is absolute." },
+        "gdpr": { "state": "partial", "note": "No sale concept. Objection to direct marketing is absolute." },
         "ccpa": { "state": "yes", "note": "A core CCPA right." },
-        "lgpd": { "state": "no", "note": "No direct equivalent; processing rests on legal bases and consent." },
+        "lgpd": { "state": "no", "note": "No direct equivalent. Processing rests on legal bases and consent." },
         "pipl": { "state": "partial", "note": "Separate consent required for provision to third parties." },
-        "ukgdpr": { "state": "partial", "note": "No sale concept; objection to direct marketing is absolute." },
-        "fadp": { "state": "partial", "note": "No sale concept; the person can object to certain processing." },
+        "ukgdpr": { "state": "partial", "note": "No sale concept. Objection to direct marketing is absolute." },
+        "fadp": { "state": "partial", "note": "No sale concept. The person can object to certain processing." },
         "pdpa-ar": { "state": "partial", "note": "Right to be removed from direct-marketing databases." },
         "lpdp-uy": { "state": "partial", "note": "Right to object in direct-marketing databases." },
-        "pipa-kr": { "state": "partial", "note": "Consent required before providing data to third parties; no sale opt-out as such." },
+        "pipa-kr": { "state": "partial", "note": "Consent required before providing data to third parties. No sale opt-out as such." },
         "appi": { "state": "partial", "note": "Opt-out available for third-party provision." },
         "nzpa": { "state": "no", "note": "No sale or opt-out-of-sale concept." },
         "popia": { "state": "partial", "note": "Right to object to processing for direct marketing." },
@@ -129,7 +129,7 @@
       "label": "Right to object to processing",
       "jurisdictions": {
         "gdpr": { "state": "yes" },
-        "ccpa": { "state": "partial", "note": "Limited; opt-out and Limit-the-Use mechanisms rather than a general objection right." },
+        "ccpa": { "state": "partial", "note": "Limited. Opt-out and Limit-the-Use mechanisms rather than a general objection right." },
         "lgpd": { "state": "partial", "note": "Only against processing without consent that breaks the law." },
         "pipl": { "state": "yes", "note": "Right to restrict or refuse." },
         "ukgdpr": { "state": "yes" },
@@ -141,7 +141,7 @@
         "nzpa": { "state": "no", "note": "No general right to object to processing." },
         "popia": { "state": "yes", "note": "Right to object." },
         "kdpa": { "state": "yes", "note": "Right to object." },
-        "dpdp": { "state": "no", "note": "No general objection right; withdrawing consent is the main lever." },
+        "dpdp": { "state": "no", "note": "No general objection right. Withdrawing consent is the main lever." },
         "pipeda": { "state": "partial", "note": "No objection right, but you can withdraw consent at any time." },
         "pa-au": { "state": "partial", "note": "No general objection right. You can stop direct marketing." },
         "pdpa-sg": { "state": "partial", "note": "You can withdraw consent at any time. This does not stop processing under exceptions." }
@@ -155,7 +155,7 @@
         "ccpa": { "state": "partial", "note": "From January 2027, an opt-out and access right for significant automated decisions, with exceptions." },
         "lgpd": { "state": "partial", "note": "A right to request review and learn the criteria, not a ban." },
         "pipl": { "state": "yes" },
-        "ukgdpr": { "state": "partial", "note": "Restricted with special category data. Banned when relying on recognised legitimate interests. Otherwise allowed with safeguards, including human review." },
+        "ukgdpr": { "state": "partial", "note": "Restricted with special category data. Banned when relying on recognized legitimate interests. Otherwise allowed with safeguards, including human review." },
         "fadp": { "state": "yes", "note": "Information and human review of automated decisions." },
         "pdpa-ar": { "state": "partial", "note": "Court and government decisions cannot rest solely on automated profiling. AAIP guidance adds a right to an explanation." },
         "lpdp-uy": { "state": "yes", "note": "A right not to face significant decisions based solely on automated evaluation, and to learn the criteria used." },
@@ -205,7 +205,7 @@
         "fadp": { "state": "partial", "note": "Protected through good-faith and proportionality principles." },
         "pdpa-ar": { "state": "partial", "note": "No specific rule. Only a general duty to collect data fairly and in good faith." },
         "lpdp-uy": { "state": "no", "note": "No specific rule in the law." },
-        "pipa-kr": { "state": "partial", "note": "A company can't refuse service because you decline optional or unneeded data collection." },
+        "pipa-kr": { "state": "partial", "note": "A company cannot refuse service because you decline optional or unneeded data collection." },
         "appi": { "state": "no", "note": "No specific rule in the law." },
         "nzpa": { "state": "no", "note": "Not framed as a right." },
         "popia": { "state": "no", "note": "No specific rule in the law." },
@@ -213,7 +213,7 @@
         "dpdp": { "state": "no", "note": "Not framed as a right." },
         "pipeda": { "state": "no", "note": "No specific rule in the law." },
         "pa-au": { "state": "no", "note": "No specific rule in the law." },
-        "pdpa-sg": { "state": "partial", "note": "A service can't demand more consent than it needs to provide the service." }
+        "pdpa-sg": { "state": "partial", "note": "A service cannot demand more consent than it needs to provide the service." }
       }
     }
   ]

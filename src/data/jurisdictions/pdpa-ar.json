@@ -26,8 +26,8 @@
           "articleRef": "Overview",
           "surfaceLabel": "Does Argentina's Privacy Law Apply to Your Organization?",
           "plainSummary": "Argentina has protected personal data since 2000, rooted in a constitutional right called habeas data. The law applies to personal data recorded in files and databases in Argentina, in both the private and public sectors.",
-          "personalImpact": "In Argentina, control over your own data is rooted in the constitution as habeas data. Yet your details still fill credit databases and marketing lists. This law covers files and databases holding personal data in Argentina. It turns that constitutional promise into everyday rules.",
-          "professionalLayer": "Law 25,326 is one of Latin America's oldest comprehensive data protection laws, implementing the constitutional habeas data guarantee. It applies to personal data recorded in public and private files, registers, and databases within Argentina. The Agency for Access to Public Information supervises compliance. Argentina holds an EU adequacy decision dating from 2003, one of the earliest granted. The European Commission's January 2024 review kept it in place. Argentina is a party to the Council of Europe's Convention 108 and ratified its modernised version, known as 108+, in April 2023. The law predates the GDPR era, and its database-registration model and shorter response deadlines reflect that earlier generation. Modernization bills aligning Argentina more closely with GDPR have been introduced repeatedly but not yet enacted, so the 2000 framework remains the binding law.",
+          "personalImpact": "In Argentina, control over your own data is rooted in the constitution as habeas data. Yet your details still fill credit databases and marketing lists. This law covers files and databases holding personal data in Argentina.",
+          "professionalLayer": "Law 25,326 is one of Latin America's oldest comprehensive data protection laws, implementing the constitutional habeas data guarantee. It applies to personal data recorded in public and private files, registers, and databases within Argentina. The Agency for Access to Public Information supervises compliance. Argentina holds an EU adequacy decision dating from 2003, one of the earliest granted. The European Commission's January 2024 review kept it in place. Argentina is a party to the Council of Europe's Convention 108 and ratified its modernized version, known as 108+, in April 2023. The law predates the GDPR era, and its database-registration model and shorter response deadlines reflect that earlier generation. Modernization bills aligning Argentina more closely with the GDPR have been introduced repeatedly but not yet enacted, so the 2000 framework remains the binding law.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
@@ -66,10 +66,10 @@
       "articles": [
         {
           "id": "pdpa-ar-consent",
-          "articleRef": "Articles 5-6",
+          "articleRef": "Articles 5–6",
           "surfaceLabel": "Why Organizations Are Allowed to Use Your Data in Argentina",
           "plainSummary": "Argentine law treats your consent as the general rule for using personal data. Consent must be free, express, and informed, and given in writing or by an equivalent means, with limited exceptions.",
-          "personalImpact": "Companies often gather your data far beyond what a service really needs. Argentine law says they need your informed consent, or another lawful reason, first. That consent must be clear, not buried in fine print. Collection without a valid basis is not permitted.",
+          "personalImpact": "Companies often gather your data far beyond what a service really needs. Argentine law says they need your informed consent, or another lawful reason, first. That consent must be clear, not buried in fine print.",
           "professionalLayer": "Article 5 establishes consent as the default requirement for lawful processing: free, express, and informed, documented in writing or equivalent form. Exceptions cover data from unrestricted public sources, data collected for state functions or under a legal obligation, limited basic listing data such as name and tax identification, obligations arising from contractual, scientific, or professional relationships, and financial-sector operations under specific rules. Sensitive data receives stricter treatment, and no one can be compelled to disclose it. The framework is consent-centric in the pre-GDPR style rather than offering a menu of co-equal legal bases, with no legitimate-interests basis in the statute.",
           "responseTimeline": null,
           "crossReferences": [],
@@ -109,7 +109,7 @@
           "articleRef": "Article 14",
           "surfaceLabel": "Your Right to See Your Data in Argentina",
           "plainSummary": "You can ask any database holder whether it holds information about you and receive a copy. The organization must answer within 10 calendar days, one of the shortest access deadlines anywhere.",
-          "personalImpact": "Credit bureaus behind a Veraz report can decide your loans and rentals. The data driving that score is often invisible to you. This right lets you ask any database what it holds about you. A hidden file becomes something you can inspect.",
+          "personalImpact": "Credit bureaus behind a Veraz report can decide your loans and rentals. The data driving that score is often invisible to you. This right lets you ask any database what it holds about you.",
           "professionalLayer": "Article 14 grants the right of access to personal data held in public or private databases, exercisable free of charge at intervals of six months unless a legitimate interest justifies more frequent requests. The information must be provided within 10 calendar days of the request. If the deadline passes or the answer is unsatisfactory, the constitutional habeas data action becomes available, giving the right unusual judicial teeth. Responses must be clear, complete, and cover the whole record held on the person.",
           "responseTimeline": "10 calendar days from the request.",
           "crossReferences": [],
@@ -134,7 +134,7 @@
               "jurisdictions": [
                 "gdpr"
               ],
-              "note": "Argentina requires access responses in 10 calendar days. GDPR allows one month."
+              "note": "Argentina requires access responses in 10 calendar days. The GDPR allows one month."
             }
           ]
         },
@@ -143,9 +143,9 @@
           "articleRef": "Article 16",
           "surfaceLabel": "Your Right to Correct or Delete Your Data in Argentina",
           "plainSummary": "You can demand that wrong, incomplete, or unlawfully held information about you be corrected, updated, or deleted. The organization must act within five business days.",
-          "personalImpact": "A wrong entry in a credit or marketing database can quietly close doors. It may deny you financing or a plan, with no explanation. This law lets you correct or remove inaccurate data. Decisions about you then rest on the truth.",
+          "personalImpact": "A wrong entry in a credit or marketing database can quietly close doors. It may deny you financing or a plan, with no explanation. This law lets you correct or remove inaccurate data.",
           "professionalLayer": "Article 16 obliges the database controller to rectify, update, suppress, or subject to confidentiality the personal data of the requester within five business days of the claim or of detecting the error. During verification the controller must either block the record or annotate that its accuracy is contested. Onward correction flows to recipients of the data are required. As with access, failure opens the habeas data route. The five-business-day deadline is among the world's shortest for rectification and deletion.",
-          "responseTimeline": "5 business days from the request.",
+          "responseTimeline": "five business days from the request.",
           "crossReferences": [],
           "sourceLinks": [
             {
@@ -176,7 +176,7 @@
           "surfaceLabel": "What Happens When Your Data Is Compromised in Argentina",
           "plainSummary": "Argentina's 2000 law does not contain a mandatory breach notification duty. The regulator recommends reporting incidents and keeping records, and modernization bills would make notification mandatory.",
           "personalImpact": "A leak can expose your DNI number and financial records to fraudsters. Delay or silence from a company makes it worse. Argentine guidance recommends reporting breaches to the AAIP. Its inspectors also check for a way to notify affected people.",
-          "professionalLayer": "Law 25,326 predates breach notification as a standard feature and imposes only general security obligations. AAIP Resolution 47/2018 recommends, as part of its recommended security measures, that incidents be documented and reported to the AAIP, and notification is treated as good practice evidencing compliance rather than a hard statutory duty. AAIP inspectors also check whether a controller has a system for notifying the AAIP and affected people (Resolution 332/2020). Sectoral rules may impose their own incident duties. Pending modernization bills would introduce a mandatory notification regime aligned with international practice, so this is an area to monitor closely.",
+          "professionalLayer": "Law 25,326 predates breach notification as a standard feature and imposes only general security obligations. AAIP Resolution 47/2018 recommends, as part of its recommended security measures, that incidents be documented and reported to the AAIP, and notification is treated as good practice evidencing compliance rather than a hard statutory duty. Under Resolution 332/2020, AAIP inspectors also check whether a controller has a system for notifying the AAIP and affected people. Sectoral rules may impose their own incident duties. Pending modernization bills would introduce a mandatory notification regime aligned with international practice.",
           "responseTimeline": "No mandatory statutory deadline. Prompt voluntary reporting to the AAIP is recommended practice.",
           "crossReferences": [],
           "sourceLinks": [
@@ -198,7 +198,7 @@
               "jurisdictions": [
                 "gdpr"
               ],
-              "note": "Argentina has no mandatory breach notification duty in the current statute. GDPR requires 72-hour notification."
+              "note": "Argentina has no mandatory breach notification duty in the current statute. The GDPR requires 72-hour notification."
             }
           ]
         }
@@ -212,8 +212,8 @@
           "articleRef": "Article 12",
           "surfaceLabel": "Moving Personal Data Out of Argentina",
           "plainSummary": "Transfers to countries without adequate protection are prohibited unless an exception applies, such as the person's consent or approved contract clauses. The regulator publishes model clauses.",
-          "personalImpact": "Your data may be sent to companies in other countries. Some of them offer weaker protection than Argentina. This law allows the transfer only with adequate safeguards or your consent. Your protections do not end at the border.",
-          "professionalLayer": "Article 12 prohibits transfers to countries or international bodies that do not provide adequate levels of protection, subject to exceptions in the law. They cover international judicial cooperation, medical data exchange needed for treatment or epidemiological research, and bank and stock-exchange transfers. Treaty-based transfers and intelligence cooperation against organised crime and terrorism are also exempt. The implementing decree adds the person's express consent as a further exception. The AAIP maintains a list of jurisdictions it deems adequate, broadly tracking the EU adequacy map, and has approved model contractual clauses for transfers to non-adequate destinations. It has also set guidelines for binding corporate rules within corporate groups. Argentina itself holds EU adequacy, keeping EU-to-Argentina flows unrestricted, a status tied to maintaining its protection standards.",
+          "personalImpact": "Your data may be sent to companies in other countries. Some of them offer weaker protection than Argentina. This law allows the transfer only with adequate safeguards or your consent.",
+          "professionalLayer": "Article 12 prohibits transfers to countries or international bodies that do not provide adequate levels of protection, subject to exceptions in the law. They cover international judicial cooperation, medical data exchange needed for treatment or epidemiological research, and bank and stock-exchange transfers. Treaty-based transfers and intelligence cooperation against organized crime and terrorism are also exempt. The implementing decree adds the person's express consent as a further exception. The AAIP maintains a list of jurisdictions it deems adequate, broadly tracking the EU adequacy map, and has approved model contractual clauses for transfers to non-adequate destinations. It has also set guidelines for binding corporate rules within corporate groups. Argentina itself holds EU adequacy, keeping EU-to-Argentina flows unrestricted, a status tied to maintaining its protection standards.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [

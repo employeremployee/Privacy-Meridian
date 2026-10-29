@@ -26,8 +26,8 @@
           "articleRef": "Overview",
           "surfaceLabel": "Does Australia's Privacy Act Apply to Your Business?",
           "plainSummary": "Australia's Privacy Act covers federal government agencies and most businesses with annual turnover above A$3 million. Smaller businesses are covered too if they provide a health service and hold health information, or trade in personal information.",
-          "personalImpact": "In 2022, breaches at Optus and Medibank exposed the details of millions of Australians, including health records. In 2025, a court ordered the first-ever penalty under the Privacy Act, against Australian Clinical Labs. Since June 2025, you can also sue for a serious invasion of your privacy. The law now has real teeth.",
-          "professionalLayer": "The Privacy Act 1988 applies to APP entities: Commonwealth agencies and private-sector organisations. Businesses with annual turnover of A$3 million or less are exempt, unless they provide health services and hold health information, trade in personal information, or contract with the Commonwealth, among other exceptions. Employee records, registered political parties and some journalism are also exempt. State and territory agencies fall under their own state laws. The Act reaches overseas organisations that carry on business in Australia, wherever they hold the data. Its core is 13 Australian Privacy Principles. The 2024 amendments added new penalty tiers and infringement notices from December 2024. For companies, the court cap for serious interferences is the greater of A$50 million and a second figure. That figure is three times the benefit obtained, or 30% of adjusted turnover if the benefit cannot be valued. Individuals face up to A$2.5 million. A statutory tort for serious invasions of privacy has applied since 10 June 2025. Privacy policies must explain significant automated decisions from 10 December 2026, and a children's online privacy code is due by then. A further reform bill was released as a draft for consultation in August 2026 but has not been introduced.",
+          "personalImpact": "In 2022, breaches at Optus and Medibank exposed the details of millions of Australians, including health records. In 2025, a court ordered the first-ever penalty under the Privacy Act, against Australian Clinical Labs. Since June 2025, you can also sue for a serious invasion of your privacy.",
+          "professionalLayer": "The Privacy Act 1988 applies to APP entities: Commonwealth agencies and private-sector organizations. Businesses with annual turnover of A$3 million or less are exempt, unless they provide health services and hold health information, trade in personal information, or contract with the Commonwealth, among other exceptions. Employee records, registered political parties, and some journalism are also exempt. State and territory agencies fall under their own state laws. The Act reaches overseas organizations that carry on business in Australia, wherever they hold the data. Its core is 13 Australian Privacy Principles. The 2024 amendments added new penalty tiers and infringement notices from December 2024. For companies, the court cap for serious interferences is the greater of A$50 million and a second figure. That figure is three times the benefit obtained, or 30 percent of adjusted turnover if the benefit cannot be valued. Individuals face up to A$2.5 million. A statutory tort for serious invasions of privacy has applied since 10 June 2025. Privacy policies must explain significant automated decisions from 10 December 2026, and a children's online privacy code is due by then. A further reform bill was released as a draft for consultation in August 2026 but has not been introduced.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
@@ -66,11 +66,11 @@
       "articles": [
         {
           "id": "pa-au-collection",
-          "articleRef": "APPs 3, 6 and 7",
+          "articleRef": "APPs 3, 6, and 7",
           "surfaceLabel": "When Businesses Can Collect and Use Your Information",
           "plainSummary": "Australian law has no list of legal bases. Businesses may collect only what is reasonably necessary, need consent for sensitive information, and must use information for the purpose they collected it for.",
           "personalImpact": "Apps and retailers often collect more than they need. The Privacy Act limits collection to what is reasonably necessary. Sensitive details, like your health or religion, need your consent. You can also tell a business to stop sending you direct marketing.",
-          "professionalLayer": "APP 3 lets an organisation collect personal information only if it is reasonably necessary for its functions or activities, by lawful and fair means, and usually from the person directly. Sensitive information also needs the person's consent, unless an exception applies, such as a legal requirement, a serious threat to life, health or safety, or a permitted health situation. Consent can be express or implied, and must be informed, voluntary, current and specific. APP 6 limits use and disclosure to the purpose of collection. A secondary use needs consent or an exception, such as a related purpose the person would reasonably expect. APP 7 allows direct marketing with an easy opt-out in some cases, and requires consent for sensitive information. People can ask an organisation to stop direct marketing at no charge. Unlike the GDPR, there is no menu of legal bases: necessity is the gate, and consent is one exception among several.",
+          "professionalLayer": "APP 3 lets an organization collect personal information only if it is reasonably necessary for its functions or activities, by lawful and fair means, and usually from the person directly. Sensitive information also needs the person's consent, unless an exception applies, such as a legal requirement, a serious threat to life, health, or safety, or a permitted health situation. Consent can be express or implied, and must be informed, voluntary, current, and specific. APP 6 limits use and disclosure to the purpose of collection. A secondary use needs consent or an exception, such as a related purpose the person would reasonably expect. APP 7 allows direct marketing with an easy opt-out in some cases, and requires consent for sensitive information. People can ask an organization to stop direct marketing at no charge. Unlike the GDPR, there is no menu of legal bases: necessity is the gate, and consent is one exception among several.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
@@ -113,9 +113,9 @@
           "articleRef": "APP 12",
           "surfaceLabel": "Your Right to See Your Information",
           "plainSummary": "You can ask a business or agency for the personal information it holds about you. Agencies must answer within 30 days, and businesses within a reasonable period, generally also 30 days.",
-          "personalImpact": "Telcos, insurers and retailers keep detailed records about you. You rarely see what they hold. This right lets you ask for it. A hidden file becomes something you can check.",
-          "professionalLayer": "APP 12 requires an entity to give a person access to the personal information it holds about them. Agencies must respond within 30 calendar days. Organisations must respond within a reasonable period, which the regulator says should generally not exceed 30 calendar days. Agencies cannot charge. Organisations cannot charge for making a request, but may charge a fee for giving access, if it is not excessive. Organisations may refuse on listed grounds, such as a serious threat to safety, unreasonable impact on others' privacy, or legal proceedings. Agencies refuse under freedom of information law. Refusals need written reasons and information on how to complain. Access should be given in the way the person asks, where reasonable and practicable.",
-          "responseTimeline": "Agencies: 30 days. Organisations: a reasonable period, generally no more than 30 days.",
+          "personalImpact": "Phone companies, insurers, and retailers keep detailed records about you. You rarely see what they hold. This right lets you ask for it.",
+          "professionalLayer": "APP 12 requires an entity to give a person access to the personal information it holds about them. Agencies must respond within 30 calendar days. Organizations must respond within a reasonable period, which the regulator says should generally not exceed 30 calendar days. Agencies cannot charge. Organizations cannot charge for making a request, but may charge a fee for giving access, if it is not excessive. Organizations may refuse on listed grounds, such as a serious threat to safety, unreasonable impact on others' privacy, or legal proceedings. Agencies refuse under freedom of information law. Refusals need written reasons and information on how to complain. Access should be given in the way the person asks, where reasonable and practicable.",
+          "responseTimeline": "Agencies: 30 days. Organizations: a reasonable period, generally no more than 30 days.",
           "crossReferences": [],
           "sourceLinks": [
             {
@@ -130,7 +130,7 @@
           "gapRemediation": {
             "smb": "Treat 30 days as your deadline, and do not charge people simply for asking.",
             "midMarket": "Record refusal grounds and send written reasons with complaint options.",
-            "enterprise": "Track agency and organisation requests on their separate rules if you work for government."
+            "enterprise": "Track agency and organization requests on their separate rules if you work for government."
           },
           "comparisonFlags": []
         },
@@ -138,10 +138,10 @@
           "id": "pa-au-correction",
           "articleRef": "APPs 11.2 and 13",
           "surfaceLabel": "Your Right to Correct Your Information",
-          "plainSummary": "You can ask for inaccurate, out-of-date or misleading information to be corrected. If the business refuses, you can ask it to attach your statement. There is no general right to have data deleted.",
-          "personalImpact": "An old address or a wrong entry can cause real trouble with a bank or insurer. It can also mislead anyone who relies on the record. This right lets you have it fixed. If they refuse, your side of the story stays attached.",
-          "professionalLayer": "APP 13 requires an entity to take reasonable steps to correct personal information that is inaccurate, out of date, incomplete, irrelevant or misleading, on its own initiative or on request. It must tell earlier recipients of the correction if the person asks. A refusal needs written reasons. The person can then ask for a statement to be associated with the information so that users see it. Responses follow the same timing as access, and no charge is allowed. There is no general right to erasure. APP 11.2 requires entities to destroy or de-identify information they no longer need, but people cannot enforce this on request. A draft reform bill proposes an erasure right, but it is not law.",
-          "responseTimeline": "Agencies: 30 days. Organisations: a reasonable period. No charge.",
+          "plainSummary": "You can ask for inaccurate, out-of-date, or misleading information to be corrected. If the business refuses, you can ask it to attach your statement. There is no general right to have data deleted.",
+          "personalImpact": "An old address or a wrong entry can cause real trouble with a bank or insurer. It can also mislead anyone who relies on the record. This right lets you have it fixed. If the organization refuses, your side of the story stays attached.",
+          "professionalLayer": "APP 13 requires an entity to take reasonable steps to correct personal information that is inaccurate, out of date, incomplete, irrelevant, or misleading, on its own initiative or on request. It must tell earlier recipients of the correction if the person asks. A refusal needs written reasons. The person can then ask for a statement to be associated with the information so that users see it. Responses follow the same timing as access, and no charge is allowed. There is no general right to erasure. APP 11.2 requires entities to destroy or de-identify information they no longer need, but people cannot enforce this on request. A draft reform bill proposes an erasure right, but it is not law.",
+          "responseTimeline": "Agencies: 30 days. Organizations: a reasonable period. No charge.",
           "crossReferences": [],
           "sourceLinks": [
             {
@@ -170,8 +170,8 @@
           "articleRef": "Part IIIC",
           "surfaceLabel": "What Happens When Your Data Is Breached",
           "plainSummary": "If a breach is likely to cause serious harm, the business must notify the regulator and affected people as soon as practicable. Suspected breaches must be assessed within 30 days.",
-          "personalImpact": "After the Optus and Medibank breaches, millions of Australians had to replace documents and watch for scams. Being told quickly makes that possible. The Privacy Act requires notice when serious harm is likely. You get the chance to protect yourself.",
-          "professionalLayer": "The Notifiable Data Breaches scheme covers unauthorised access, disclosure or loss of personal information that a reasonable person would conclude is likely to result in serious harm. Remedial action that prevents serious harm removes the duty. An entity that suspects a breach must assess it reasonably and quickly, taking all reasonable steps to finish within 30 days. Once it knows of an eligible breach, it must give the regulator a statement and notify affected individuals as soon as practicable. Where notifying individuals is not practicable, it must publish a notice. There is no fixed hour count. In 2025, a court ordered Australian Clinical Labs to pay A$5.8 million, including penalties for a slow assessment and late notice to the regulator.",
+          "personalImpact": "After the Optus and Medibank breaches, millions of Australians had to replace documents and watch for scams. Being told quickly makes that possible. The Privacy Act requires notice when serious harm is likely.",
+          "professionalLayer": "The Notifiable Data Breaches scheme covers unauthorized access, disclosure, or loss of personal information that a reasonable person would conclude is likely to result in serious harm. Remedial action that prevents serious harm removes the duty. An entity that suspects a breach must assess it reasonably and quickly, taking all reasonable steps to finish within 30 days. Once it knows of an eligible breach, it must give the regulator a statement and notify affected individuals as soon as practicable. Where notifying individuals is not practicable, it must publish a notice. There is no fixed hour count. In 2025, a court ordered Australian Clinical Labs to pay A$5.8 million, including penalties for a slow assessment and late notice to the regulator.",
           "responseTimeline": "Assess within 30 days. Regulator and individuals: as soon as practicable for breaches likely to cause serious harm.",
           "crossReferences": [],
           "sourceLinks": [
@@ -190,7 +190,7 @@
           "assessTrigger": "Can you assess a suspected breach within 30 days and notify the regulator and individuals as soon as practicable?",
           "gapRemediation": {
             "smb": "Write a short breach plan with a 30-day assessment deadline and the regulator's online form.",
-            "midMarket": "Record each assessment and its timing. Courts now penalise slow assessments and late notices.",
+            "midMarket": "Record each assessment and its timing. Courts now penalize slow assessments and late notices.",
             "enterprise": "Run the Australian scheme alongside fixed-clock regimes, and pre-draft notices for individuals."
           },
           "comparisonFlags": [
@@ -199,7 +199,7 @@
               "jurisdictions": [
                 "gdpr"
               ],
-              "note": "Australia uses a likely-serious-harm test, a 30-day assessment window and an as-soon-as-practicable duty, not a 72-hour clock."
+              "note": "Australia uses a likely-serious-harm test, a 30-day assessment window, and an as-soon-as-practicable duty, not a 72-hour clock."
             }
           ]
         }
@@ -211,9 +211,9 @@
         {
           "id": "pa-au-transfers",
           "articleRef": "APP 8 and Section 16C",
-          "surfaceLabel": "Sending Your Information Outside Australia",
+          "surfaceLabel": "Sending Your Information outside Australia",
           "plainSummary": "Before sending your information overseas, a business must take reasonable steps so the recipient protects it. The business usually stays responsible for the recipient's mistakes.",
-          "personalImpact": "Many Australian services send data to providers overseas. Protection there can be weaker. The Privacy Act keeps the Australian business accountable for what happens to it. Your protection travels with your data.",
+          "personalImpact": "Many Australian services send data to providers overseas. Protection there can be weaker. The Privacy Act keeps the Australian business accountable for what happens to it.",
           "professionalLayer": "APP 8 requires an entity, before disclosing personal information to an overseas recipient, to take reasonable steps so the recipient does not breach the principles. Under section 16C, the entity generally remains accountable for the recipient's acts. Exceptions apply where the entity reasonably believes the recipient is bound by a substantially similar law or binding scheme that people can enforce. Since December 2024, the government can also prescribe countries or binding schemes, but none has been prescribed yet. Another exception applies where the person consents after being expressly told the protections will not apply. Disclosures required by Australian law also fall outside APP 8. Storing or using data overseas within the same entity counts as a use, not a disclosure. There is no government approval of transfers.",
           "responseTimeline": null,
           "crossReferences": [],

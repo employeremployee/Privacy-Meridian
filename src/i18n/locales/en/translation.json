@@ -16,9 +16,9 @@
     "byMap": "By Map"
   },
   "contentBlock": {
-    "timelineLabel": "Response Timeline",
+    "timelineLabel": "Response timeline",
     "sourceLinksLabel": "Sources",
-    "crossReferencesLabel": "Related Articles",
+    "crossReferencesLabel": "Related articles",
     "personalImpact": "What this means for you"
   },
   "glossary": {
@@ -28,12 +28,12 @@
     "considerLabel": "Consider"
   },
   "gapRemediation": {
-    "heading": "How to Close the Gap",
+    "heading": "How to close the gap",
     "notLegalAdvice": "These are starting points, not legal advice. Check your situation with a qualified lawyer."
   },
   "tiers": {
-    "smb": "Small Business",
-    "midMarket": "Mid-Market",
+    "smb": "Small business",
+    "midMarket": "Mid-market",
     "enterprise": "Enterprise"
   },
   "comparisonGrid": {
@@ -48,7 +48,7 @@
   },
   "map": {
     "skipLink": "Skip world map",
-    "instructions": "Tab or hover to highlighted countries to see which privacy law applies. Countries in blue open full legal detail.",
+    "instructions": "Tab to or hover over a highlighted country to see its privacy law. Countries in blue open full legal detail.",
     "viewCountryLabel": "{{country}}: {{name}}. View details.",
     "selectedCountryLabel": "{{country}}: {{name}}, selected. Activate to deselect.",
     "currentlyHighlighting": "Highlighting: {{name}}",
@@ -102,7 +102,7 @@
     "notApplicable": "n/a"
   },
   "organizations": {
-    "toggle": "Help for Organizations",
+    "toggle": "Help for organizations",
     "toggleHint": "Show compliance guidance for organizations"
   },
   "languageSelector": {
@@ -164,8 +164,8 @@
       "status": "Page {{page}} of {{total}}"
     },
     "category": {
-      "legal-regulatory": "Legal & Regulatory",
-      "policy-perspectives": "Policy & Perspectives",
+      "legal-regulatory": "Legal and regulatory",
+      "policy-perspectives": "Policy and perspectives",
       "breaches": "Breaches"
     },
     "language": {
@@ -190,11 +190,11 @@
     "sections": {
       "what": {
         "heading": "What this site is",
-        "body": "A public guide to the privacy laws that shape how organizations handle your data. Each law covered in detail gets a plain summary, a note on why it matters to you, and a section for professionals."
+        "body": "Privacy Meridian is a public guide to the privacy laws that shape how organizations handle your data. Each law covered in detail gets a plain summary, a note on why it matters to you, and a section for professionals."
       },
       "how": {
         "heading": "How we research the laws",
-        "body": "Every law page is checked against the official text and guidance from its regulator. Where we rely on an English translation, the source link says so. Claims that rest only on secondary sources are left out until they can be confirmed. The list of laws we do not yet cover relies on legal trackers and law firms. Each page links to its sources so you can check them yourself."
+        "body": "We check every law page against the official text and its regulator's guidance. Where we rely on an English translation, the source link says so. We leave out claims that rest only on secondary sources until we can confirm them. The list of laws we do not yet cover relies on legal trackers and law firms. Each page links to its sources so you can check them yourself."
       },
       "use": {
         "heading": "What you can do here",

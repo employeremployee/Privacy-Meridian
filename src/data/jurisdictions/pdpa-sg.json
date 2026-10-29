@@ -3,7 +3,7 @@
     "id": "pdpa-sg",
     "name": "PDPA",
     "fullName": "Personal Data Protection Act 2012",
-    "citation": "Act 26 of 2012, as amended (including in 2020, 2021, 2025 and 2026)",
+    "citation": "Act 26 of 2012, as amended (including in 2020, 2021, 2025, and 2026)",
     "region": "Singapore",
     "badge": "SG",
     "effectiveDate": "2014-07-02",
@@ -25,9 +25,9 @@
           "id": "pdpa-sg-scope",
           "articleRef": "Overview",
           "surfaceLabel": "Does Singapore's PDPA Apply to Your Business?",
-          "plainSummary": "Singapore's PDPA covers private-sector organisations that handle personal data in Singapore, of any size, including foreign ones. Government agencies are excluded and follow separate rules.",
+          "plainSummary": "Singapore's PDPA covers private-sector organizations that handle personal data in Singapore, of any size, including foreign ones. Government agencies are excluded and follow separate rules.",
           "personalImpact": "In 2023, hackers reached the records of more than 665,000 Marina Bay Sands rewards members and offered them for sale online. The regulator fined the company S$315,000 in 2025. Singapore's law applies to businesses of every size. It also sets up the national Do Not Call registry for marketing calls and messages.",
-          "professionalLayer": "The PDPA applies to any organisation that collects, uses or discloses personal data in Singapore, whether or not it is based there, including data brought in from overseas. It has no size threshold. Public agencies are excluded and follow separate public-sector rules. Data intermediaries processing under a written contract carry only the protection, retention and breach duties. Every organisation must designate at least one person responsible for compliance and publish their contact details. The Personal Data Protection Commission can give directions and impose financial penalties of up to 10% of annual Singapore turnover for organisations whose Singapore turnover exceeds S$10 million, or S$1 million otherwise, since October 2022. People who suffer loss can also sue. The PDPA includes a national Do Not Call registry for marketing calls and messages. A data portability right was enacted in 2020 but is not yet in force.",
+          "professionalLayer": "The PDPA applies to any organization that collects, uses, or discloses personal data in Singapore, whether or not it is based there, including data brought in from overseas. It has no size threshold. Public agencies are excluded and follow separate public-sector rules. Data intermediaries processing under a written contract carry only the protection, retention, and breach duties. Every organization must designate at least one person responsible for compliance and publish their contact details. The Personal Data Protection Commission can give directions and impose financial penalties of up to 10 percent of annual Singapore turnover for organizations whose Singapore turnover exceeds S$10 million, or S$1 million otherwise, since October 2022. People who suffer loss can also sue. The PDPA includes a national Do Not Call registry for marketing calls and messages. A data portability right was enacted in 2020 but is not yet in force.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
@@ -47,7 +47,7 @@
           "gapRemediation": {
             "smb": "Name a data protection contact and publish their details. The PDPA applies regardless of size.",
             "midMarket": "Check marketing lists against the Do Not Call registry, and document your consent and exception reliance.",
-            "enterprise": "Plan for penalties of up to 10% of Singapore turnover, and keep evidence of your security measures."
+            "enterprise": "Plan for penalties of up to 10 percent of Singapore turnover, and keep evidence of your security measures."
           },
           "comparisonFlags": [
             {
@@ -66,11 +66,11 @@
       "articles": [
         {
           "id": "pdpa-sg-consent",
-          "articleRef": "Sections 13-18 and First and Second Schedules",
+          "articleRef": "Sections 13–18 and First and Second Schedules",
           "surfaceLabel": "When Businesses Need Your Consent in Singapore",
-          "plainSummary": "Singapore requires consent to collect, use or disclose your personal data, unless an exception applies. Consent can be deemed in some cases, and a legitimate interests exception exists with safeguards.",
+          "plainSummary": "Singapore requires consent to collect, use, or disclose your personal data, unless an exception applies. Consent can be deemed in some cases, and a legitimate interests exception exists with safeguards.",
           "personalImpact": "Forms and apps often ask for more than a service needs. The PDPA says a business cannot demand consent beyond what is reasonable for the service. You can withdraw consent at any time. The business must explain what withdrawing means for you.",
-          "professionalLayer": "Section 13 requires consent unless the PDPA or another law permits processing without it. Consent is valid only after the organisation notifies the purposes, and cannot be demanded beyond what is reasonable to provide a product or service. Consent can be deemed when a person voluntarily provides data, when processing is reasonably necessary for a contract, or by notification. Deemed consent by notification requires an assessment of adverse effects and a reasonable period to opt out, and cannot be used for direct marketing. People can withdraw consent at any time on reasonable notice. The First Schedule lists exceptions, including vital interests, publicly available data and news. It also has a legitimate interests exception, which needs a documented assessment and balancing test, disclosure of reliance on it, and cannot be used for marketing messages. A business improvement exception covers some internal uses and sharing between related companies, but never for marketing messages. The Second Schedule adds a research exception for use and disclosure only. It applies when the research needs identifiable data and has a clear public benefit. The results must not drive decisions about the person or identify them when published. Disclosure for research also requires that seeking consent is impracticable. Use must stay within purposes a reasonable person would consider appropriate.",
+          "professionalLayer": "Section 13 requires consent unless the PDPA or another law permits processing without it. Consent is valid only after the organization notifies the purposes, and cannot be demanded beyond what is reasonable to provide a product or service. Consent can be deemed when a person voluntarily provides data, when processing is reasonably necessary for a contract, or by notification. Deemed consent by notification requires an assessment of adverse effects and a reasonable period to opt out, and cannot be used for direct marketing. People can withdraw consent at any time on reasonable notice. The First Schedule lists exceptions, including vital interests, publicly available data, and news. It also has a legitimate interests exception, which needs a documented assessment and balancing test, disclosure of reliance on it, and cannot be used for marketing messages. A business improvement exception covers some internal uses and sharing between related companies, but never for marketing messages. The Second Schedule adds a research exception for use and disclosure only. It applies when the research needs identifiable data and has a clear public benefit. The results must not drive decisions about the person or identify them when published. Disclosure for research also requires that seeking consent is impracticable. Use must stay within purposes a reasonable person would consider appropriate.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
@@ -84,7 +84,7 @@
             }
           ],
           "tooltipTerms": ["consent-withdrawal"],
-          "assessTrigger": "Does each use of personal data in Singapore rest on consent, deemed consent or a listed exception, with a documented assessment where you rely on legitimate interests?",
+          "assessTrigger": "Does each use of personal data in Singapore rest on consent, deemed consent, or a listed exception, with a documented assessment where you rely on legitimate interests?",
           "gapRemediation": {
             "smb": "Tell people your purposes when you collect their data, and make withdrawing consent simple.",
             "midMarket": "Document assessments before relying on deemed consent by notification or legitimate interests.",
@@ -109,9 +109,9 @@
           "id": "pdpa-sg-access",
           "articleRef": "Section 21",
           "surfaceLabel": "Your Right to See Your Data",
-          "plainSummary": "You can ask an organisation for your personal data and how it was used or shared in the past year. It must answer as soon as reasonably possible, or tell you within 30 days when it will.",
-          "personalImpact": "Banks, telcos and retailers in Singapore hold detailed records about you. You rarely know what they have or who saw it. This right lets you ask. You also learn who it was shared with over the past year.",
-          "professionalLayer": "Section 21 requires an organisation, on request, to provide the person's personal data and information about how it was used or disclosed in the past year. It must respond as soon as reasonably possible. If it cannot respond within 30 days, it must tell the person in writing within those 30 days when it will. It may charge a reasonable fee to recover the extra cost of providing access, after giving a written estimate. Some information is exempt, and access must be refused where it could cause harm or reveal other people's data, with exceptions for data the person provided. People must be told of a rejection, and a copy of the requested data must be kept for a period.",
+          "plainSummary": "You can ask an organization for your personal data and how it was used or shared in the past year. It must answer as soon as reasonably possible, or tell you within 30 days when it will.",
+          "personalImpact": "Banks, phone companies, and retailers in Singapore hold detailed records about you. You rarely know what they have or who saw it. This right lets you ask. You also learn who it was shared with over the past year.",
+          "professionalLayer": "Section 21 requires an organization, on request, to provide the person's personal data and information about how it was used or disclosed in the past year. It must respond as soon as reasonably possible. If it cannot respond within 30 days, it must tell the person in writing within those 30 days when it will. It may charge a reasonable fee to recover the extra cost of providing access, after giving a written estimate. Some information is exempt, and access must be refused where it could cause harm or reveal other people's data, with exceptions for data the person provided. People must be told of a rejection, and a copy of the requested data must be kept for a period.",
           "responseTimeline": "As soon as reasonably possible. If longer than 30 days, tell the person in writing within 30 days when you will respond.",
           "crossReferences": [],
           "sourceLinks": [
@@ -139,9 +139,9 @@
           "id": "pdpa-sg-correction",
           "articleRef": "Sections 22 and 25",
           "surfaceLabel": "Your Right to Correct Your Data",
-          "plainSummary": "You can ask an organisation to correct errors in your personal data, and it must pass corrections to recent recipients. There is no right to have data deleted on request.",
-          "personalImpact": "A wrong detail in a bank or insurance file can affect what you are offered. Left alone, it spreads to everyone who receives it. This right lets you have it fixed and passed on. Organisations must also stop keeping data they no longer need.",
-          "professionalLayer": "Section 22 requires an organisation to correct an error or omission as soon as practicable, unless it has reasonable grounds not to. It must send the corrected data to organisations it disclosed it to in the past year, unless they no longer need it. If it does not correct the data, it must note the requested correction. Opinions are not covered. If it needs more than 30 days, it must say so in writing within those 30 days. The PDPA has no right to erasure, and the regulator says organisations need not delete data on request, even after consent is withdrawn. Section 25 separately requires organisations to stop keeping personal data, or anonymise it, once it no longer serves a legal or business purpose.",
+          "plainSummary": "You can ask an organization to correct errors in your personal data, and it must pass corrections to recent recipients. There is no right to have data deleted on request.",
+          "personalImpact": "A wrong detail in a bank or insurance file can affect what you are offered. Left alone, it spreads to everyone who receives it. This right lets you have it fixed and passed on. Organizations must also stop keeping data they no longer need.",
+          "professionalLayer": "Section 22 requires an organization to correct an error or omission as soon as practicable, unless it has reasonable grounds not to. It must send the corrected data to organizations it disclosed it to in the past year, unless they no longer need it. If it does not correct the data, it must note the requested correction. Opinions are not covered. If it needs more than 30 days, it must say so in writing within those 30 days. The PDPA has no right to erasure, and the regulator says organizations need not delete data on request, even after consent is withdrawn. Section 25 separately requires organizations to stop keeping personal data, or anonymize it, once it no longer serves a legal or business purpose.",
           "responseTimeline": "As soon as practicable. If longer than 30 days, tell the person in writing within 30 days.",
           "crossReferences": [],
           "sourceLinks": [
@@ -156,7 +156,7 @@
           "assessTrigger": "Can you correct records, pass corrections to recent recipients, and stop keeping data once it has no purpose?",
           "gapRemediation": {
             "smb": "Fix errors promptly and keep a note when you decline.",
-            "midMarket": "Set retention periods so data is deleted or anonymised when its purpose ends.",
+            "midMarket": "Set retention periods so data is deleted or anonymized when its purpose ends.",
             "enterprise": "Log disclosures by date, so corrections reach everyone who received the data in the past year."
           },
           "comparisonFlags": []
@@ -170,10 +170,10 @@
           "id": "pdpa-sg-breach",
           "articleRef": "Part 6A",
           "surfaceLabel": "What Happens When Your Data Is Breached",
-          "plainSummary": "A breach must be reported to the regulator within 3 calendar days of deciding it is notifiable. Affected people must be told when the breach is likely to cause them significant harm.",
-          "personalImpact": "A breach can expose your NRIC number, bank details or medical history. Fraudsters move quickly with that information. Singapore's law sets a short deadline for telling the regulator, and requires notice to you when harm is likely. You get time to protect yourself.",
-          "professionalLayer": "A data breach is notifiable if it is likely to cause significant harm to the people affected, or affects 500 or more people. Significant harm is deemed in two cases. The first is a name or ID number combined with listed data, such as financial, insurance or medical details. The second is an account login breached together with its password or other access data. That second case counts on its own, without a name. Breaches within the organisation only are not notifiable. An organisation that suspects a breach must assess it reasonably and quickly, which the regulator expects within about 30 days. It must then notify the Commission as soon as practicable, and no later than 3 calendar days after deciding the breach is notifiable. Where significant harm is likely, it must also notify affected people at the same time or afterwards, unless remedial action or measures such as encryption make harm unlikely. Data intermediaries must tell the organisation without undue delay. People are not told if a law enforcement agency instructs it or the Commission directs it. The Commission can also waive notice to people on written request.",
-          "responseTimeline": "Assess within about 30 days. Commission: within 3 calendar days of deciding the breach is notifiable. Individuals: as soon as practicable where significant harm is likely.",
+          "plainSummary": "A breach must be reported to the regulator within three calendar days of deciding it is notifiable. Affected people must be told when the breach is likely to cause them significant harm.",
+          "personalImpact": "A breach can expose your NRIC number, bank details, or medical history. Fraudsters move quickly with that information. Singapore's law sets a short deadline for telling the regulator, and requires notice to you when harm is likely.",
+          "professionalLayer": "A data breach is notifiable if it is likely to cause significant harm to the people affected, or affects 500 or more people. Significant harm is deemed in two cases. The first is a name or ID number combined with listed data, such as financial, insurance, or medical details. The second is an account login breached together with its password or other access data. That second case counts on its own, without a name. Breaches within the organization only are not notifiable. An organization that suspects a breach must assess it reasonably and quickly, which the regulator expects within about 30 days. It must then notify the Commission as soon as practicable, and no later than three calendar days after deciding the breach is notifiable. Where significant harm is likely, it must also notify affected people at the same time or afterwards, unless remedial action or measures such as encryption make harm unlikely. Data intermediaries must tell the organization without undue delay. People are not told if a law enforcement agency instructs it or the Commission directs it. The Commission can also waive notice to people on written request.",
+          "responseTimeline": "Assess within about 30 days. Commission: within three calendar days of deciding the breach is notifiable. Individuals: as soon as practicable where significant harm is likely.",
           "crossReferences": [],
           "sourceLinks": [
             {
@@ -186,7 +186,7 @@
             }
           ],
           "tooltipTerms": [],
-          "assessTrigger": "Can you assess a suspected breach quickly and report it to the Commission within 3 calendar days of deciding it is notifiable?",
+          "assessTrigger": "Can you assess a suspected breach quickly and report it to the Commission within three calendar days of deciding it is notifiable?",
           "gapRemediation": {
             "smb": "Write a short breach plan with the 500-person and significant-harm tests.",
             "midMarket": "Map which of your data sets fall on the deemed significant-harm list.",
@@ -209,11 +209,11 @@
       "articles": [
         {
           "id": "pdpa-sg-transfers",
-          "articleRef": "Section 26 and Regulations 10-12",
-          "surfaceLabel": "Sending Your Data Outside Singapore",
-          "plainSummary": "Personal data can leave Singapore only if the recipient is bound to protect it to a comparable standard, for example by contract, corporate rules or a recognised certification.",
-          "personalImpact": "Singapore businesses often send data to providers in other countries. Protection there can be weaker. The PDPA requires comparable protection before the data goes. Your rights do not stop at the border.",
-          "professionalLayer": "Before transferring personal data outside Singapore, an organisation must ensure the recipient is bound by legally enforceable obligations giving at least comparable protection. These can come from law, a contract that names the countries, binding corporate rules for related companies, or another binding instrument. Recipients holding a specified certification also qualify. The APEC and Global Cross-Border Privacy Rules work for any recipient. The Privacy Recognition for Processors certifications work only for recipients acting as data intermediaries. Transfers are also allowed with the person's consent after a written summary of the destination's protection, or where reasonably necessary for a contract. Data in transit and data publicly available in Singapore are covered too. So are transfers needed for vital interests and similar listed purposes. The Commission can exempt specific transfers. There is no government list of approved countries and no data localisation requirement.",
+          "articleRef": "Section 26 and Regulations 10–12",
+          "surfaceLabel": "Sending Your Data outside Singapore",
+          "plainSummary": "Personal data can leave Singapore only if the recipient is bound to protect it to a comparable standard, for example by contract, corporate rules, or a recognized certification.",
+          "personalImpact": "Singapore businesses often send data to providers in other countries. Protection there can be weaker. The PDPA requires comparable protection before the data goes.",
+          "professionalLayer": "Before transferring personal data outside Singapore, an organization must ensure the recipient is bound by legally enforceable obligations giving at least comparable protection. These can come from law, a contract that names the countries, binding corporate rules for related companies, or another binding instrument. Recipients holding a specified certification also qualify. The APEC and Global Cross-Border Privacy Rules work for any recipient. The Privacy Recognition for Processors certifications work only for recipients acting as data intermediaries. Transfers are also allowed with the person's consent after a written summary of the destination's protection, or where reasonably necessary for a contract. Data in transit and data publicly available in Singapore are covered too. So are transfers needed for vital interests and similar listed purposes. The Commission can exempt specific transfers. There is no government list of approved countries and no data localization requirement.",
           "responseTimeline": null,
           "crossReferences": [],
           "sourceLinks": [
@@ -226,7 +226,7 @@
             "personal-data",
             "consent-withdrawal"
           ],
-          "assessTrigger": "Does each transfer out of Singapore rest on a contract, corporate rules, a recognised certification, or informed consent?",
+          "assessTrigger": "Does each transfer out of Singapore rest on a contract, corporate rules, a recognized certification, or informed consent?",
           "gapRemediation": {
             "smb": "Use contracts that bind overseas providers to comparable protection and name the countries involved.",
             "midMarket": "Check whether your providers hold APEC or Global CBPR certification, which simplifies transfers.",
@@ -238,7 +238,7 @@
               "jurisdictions": [
                 "gdpr"
               ],
-              "note": "Singapore has no adequacy list. It relies on enforceable obligations, contracts, corporate rules and certifications."
+              "note": "Singapore has no adequacy list. It relies on enforceable obligations, contracts, corporate rules, and certifications."
             }
           ]
         }

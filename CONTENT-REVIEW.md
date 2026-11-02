@@ -858,3 +858,4 @@ Mechanical pass only. The layout redesign (lists and callouts) is parked on loca
 - Held for Jared: the FADP name change to "Revised Federal Act on Data Protection" (it shows in
   map labels and the tab title), and the map-instructions color name.
 - Before/after per law: docs/style-pass/fixes/.
+- 2026-11-02 (Jared): Swiss law name is now "Revised Federal Act on Data Protection" (map label and heading checked). Unused string map.instructions reworded to "dark blue"; it does not appear on the site. Citation dates in fadp, nzpa, pipl and popia converted to day-month-year.

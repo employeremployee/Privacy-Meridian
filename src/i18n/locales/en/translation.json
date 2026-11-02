@@ -48,7 +48,7 @@
   },
   "map": {
     "skipLink": "Skip world map",
-    "instructions": "Tab to or hover over a highlighted country to see its privacy law. Countries in blue open full legal detail.",
+    "instructions": "Tab to or hover over a highlighted country to see its privacy law. Select a dark blue country for full details.",
     "viewCountryLabel": "{{country}}: {{name}}. View details.",
     "selectedCountryLabel": "{{country}}: {{name}}, selected. Activate to deselect.",
     "currentlyHighlighting": "Highlighting: {{name}}",

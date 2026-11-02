@@ -275,7 +275,7 @@
       "type": "standalone",
       "term": "Data Protection Officer / Encarregado",
       "definition": "A Data Protection Officer oversees an organization's privacy compliance. The officer can be an employee or an outside provider. Some organizations must appoint one by law. Brazil's LGPD calls this role the Encarregado.",
-      "jurisdiction": "GDPR: DPO (Articles 37-39). LGPD: Encarregado (Article 41). PIPL: equivalent role (Article 52).",
+      "jurisdiction": "GDPR: DPO (Articles 37–39). LGPD: Encarregado (Article 41). PIPL: equivalent role (Article 52).",
       "source": {
         "label": "IAPP Privacy Glossary",
         "url": "https://iapp.org/resources/glossary"

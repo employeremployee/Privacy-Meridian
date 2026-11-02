@@ -59,7 +59,7 @@
     "exploreTab": "Explore",
     "compareTab": "Compare",
     "viewLabel": "View",
-    "exploreHint": "Pick a country on the map to see its privacy law.",
+    "exploreHint": "Pick a dark blue country on the map to see its privacy law.",
     "compareTitle": "Compare: {{topic}}",
     "lawTitle": "{{name}}, {{region}}",
     "lawShown": "Showing {{name}} below the map.",

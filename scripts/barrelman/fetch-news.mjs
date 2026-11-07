@@ -70,9 +70,13 @@ const parser = new Parser({
 function loadCache() {
   try {
     const raw = JSON.parse(readFileSync(CACHE_PATH, 'utf8'))
-    return { resolve: raw.resolve || {}, translate: raw.translate || {} }
+    return {
+      resolve: raw.resolve || {},
+      translate: raw.translate || {},
+      translateUsage: raw.translateUsage || { day: '', chars: 0 },
+    }
   } catch {
-    return { resolve: {}, translate: {} }
+    return { resolve: {}, translate: {}, translateUsage: { day: '', chars: 0 } }
   }
 }
 
@@ -509,8 +513,19 @@ const DEEPL_KEY = process.env.DEEPL_API_KEY
 const DEEPL_HOST =
   DEEPL_KEY && DEEPL_KEY.endsWith(':fx') ? 'https://api-free.deepl.com' : 'https://api.deepl.com'
 
+// DeepL Free allows 500,000 characters a month. Before this cap, the feed used
+// about 13,000 a day on a median day but up to 29,000 on busy ones, and ran out
+// on 2026-10-24. 15,000 a day keeps a 31-day month at 465,000. The count lives
+// in the build cache and resets each UTC day.
+const DAILY_CHAR_BUDGET = 15000
+
 function tKey(lang, title) {
   return createHash('sha1').update(`${lang}|${title}`).digest('hex')
+}
+
+// Shows as a yellow warning on the GitHub Actions run page; plain text locally.
+function ciWarning(message) {
+  console.log(process.env.GITHUB_ACTIONS ? `::warning title=Barrelman translation::${message}` : `  warning: ${message}`)
 }
 
 // Translate non-English titles to English in place, storing the original as
@@ -533,6 +548,7 @@ async function translateTitles(items, cache) {
 
   if (!DEEPL_KEY) {
     console.log(`  DEEPL_API_KEY not set; ${fromCache} titles from cache, ${pending.length} left original.`)
+    if (process.env.GITHUB_ACTIONS) ciWarning('DEEPL_API_KEY is not set, so headlines were not translated.')
     return items
   }
   if (pending.length === 0) {
@@ -540,10 +556,28 @@ async function translateTitles(items, cache) {
     return items
   }
 
+  // Spend today's budget on the newest titles first. The rest keep their
+  // original language and may be translated on a later run or day.
+  const today = new Date().toISOString().slice(0, 10)
+  if (cache.translateUsage.day !== today) cache.translateUsage = { day: today, chars: 0 }
+  pending.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
+  const affordable = []
+  let planned = cache.translateUsage.chars
+  for (const it of pending) {
+    if (planned + it.title.length > DAILY_CHAR_BUDGET) break
+    planned += it.title.length
+    affordable.push(it)
+  }
+  const deferred = pending.length - affordable.length
+  if (deferred > 0) {
+    console.log(`  daily budget: ${deferred} titles left original (${cache.translateUsage.chars}/${DAILY_CHAR_BUDGET} chars used today)`)
+  }
+
   const BATCH = 40
   let translated = 0
-  for (let i = 0; i < pending.length; i += BATCH) {
-    const batch = pending.slice(i, i + BATCH)
+  let failures = 0
+  for (let i = 0; i < affordable.length; i += BATCH) {
+    const batch = affordable.slice(i, i + BATCH)
     try {
       const res = await fetch(`${DEEPL_HOST}/v2/translate`, {
         method: 'POST',
@@ -554,7 +588,15 @@ async function translateTitles(items, cache) {
         body: JSON.stringify({ text: batch.map((b) => b.title), target_lang: 'EN-US' }),
         signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
       })
+      if (res.status === 456) {
+        // Quota exceeded: every further batch would fail the same way.
+        failures += 1
+        ciWarning('DeepL quota exceeded (HTTP 456). Headlines stay in their original language until the DeepL month resets.')
+        break
+      }
       if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      // DeepL bills the characters sent, so count the batch once it is accepted.
+      cache.translateUsage.chars += batch.reduce((n, b) => n + b.title.length, 0)
       const data = await res.json()
       const out = data.translations || []
       batch.forEach((item, idx) => {
@@ -567,10 +609,13 @@ async function translateTitles(items, cache) {
         }
       })
     } catch (err) {
-      console.warn(`  translation batch failed: ${err.message}`)
+      failures += 1
+      ciWarning(`DeepL translation batch failed: ${err.message}`)
     }
   }
-  console.log(`  translated ${translated} new non-English titles (${fromCache} from cache)`)
+  console.log(
+    `  translated ${translated} new non-English titles (${fromCache} from cache, ${failures} failed batches, ${cache.translateUsage.chars}/${DAILY_CHAR_BUDGET} chars used today)`,
+  )
   return items
 }
 

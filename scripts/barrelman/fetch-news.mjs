@@ -18,7 +18,7 @@
 //
 // A build cache (.cache/barrelman.json) memoizes link resolutions and title
 // translations across runs. It is gitignored and persisted in CI via
-// actions/cache, so DeepL only ever translates a given title once.
+// actions/cache, so each title is only ever translated once.
 
 import { writeFileSync, mkdirSync, readFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
@@ -73,10 +73,10 @@ function loadCache() {
     return {
       resolve: raw.resolve || {},
       translate: raw.translate || {},
-      translateUsage: raw.translateUsage || { day: '', chars: 0 },
+      translateUsage: raw.translateUsage || { day: '', neurons: 0 },
     }
   } catch {
-    return { resolve: {}, translate: {}, translateUsage: { day: '', chars: 0 } }
+    return { resolve: {}, translate: {}, translateUsage: { day: '', neurons: 0 } }
   }
 }
 
@@ -506,18 +506,43 @@ async function verify(item) {
   }
 }
 
-// ---- translation (DeepL) ----------------------------------------------------
+// ---- translation (Cloudflare Workers AI) -------------------------------------
 
-const DEEPL_KEY = process.env.DEEPL_API_KEY
-// Free keys end in ':fx' and use a separate host.
-const DEEPL_HOST =
-  DEEPL_KEY && DEEPL_KEY.endsWith(':fx') ? 'https://api-free.deepl.com' : 'https://api.deepl.com'
+// Titles are translated by a Llama model on Cloudflare Workers AI, using the
+// account's free daily allowance (10,000 "neurons", reset at 00:00 UTC; past it,
+// requests fail and nothing is billed). DeepL was used until its free plan's
+// lifetime limit ran out on 2026-10-24.
+const CF_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID
+const CF_AI_TOKEN = process.env.CLOUDFLARE_AI_TOKEN
+const TRANSLATE_MODEL = '@cf/meta/llama-3.3-70b-instruct-fp8-fast'
+// Neurons per token for this model (Cloudflare pricing page, checked 2026-11-11:
+// 26,668 per million input tokens and 204,805 per million output tokens).
+const NEURONS_PER_INPUT_TOKEN = 26668 / 1e6
+const NEURONS_PER_OUTPUT_TOKEN = 204805 / 1e6
+// Stay well under the 10,000 free neurons a day, so the hard stop is never hit.
+const DAILY_NEURON_BUDGET = 8000
+const MAX_OUTPUT_TOKENS = 120
 
-// DeepL Free allows 500,000 characters a month. Before this cap, the feed used
-// about 13,000 a day on a median day but up to 29,000 on busy ones, and ran out
-// on 2026-10-24. 15,000 a day keeps a 31-day month at 465,000. The count lives
-// in the build cache and resets each UTC day.
-const DAILY_CHAR_BUDGET = 15000
+// Tested on 20 live headlines (2026-11-11): without the "do not add or drop"
+// and "keep names" rules, the model invented details ("scams") and swapped
+// agency names (Detran became "DMV").
+const TRANSLATE_PROMPT =
+  'You translate news headlines into English for a privacy news feed. Translate faithfully. ' +
+  'Keep every fact and the meaning of the original, and do not add, drop, explain or guess anything. ' +
+  'Keep the names of people, places, organizations, agencies, laws and products as written in the original, ' +
+  'and keep acronyms, numbers, versions and dates exactly. Use natural American English. ' +
+  'Reply with the translated headline only, with no quotes or notes.'
+const PROMPT_TOKENS_ESTIMATE = 110
+
+function neurons(inputTokens, outputTokens) {
+  return inputTokens * NEURONS_PER_INPUT_TOKEN + outputTokens * NEURONS_PER_OUTPUT_TOKEN
+}
+
+// Deliberately high (about one token per character) so the budget is never
+// under-counted, including for Chinese, Japanese and Korean titles.
+function estimateNeurons(title) {
+  return neurons(PROMPT_TOKENS_ESTIMATE + title.length, Math.min(title.length + 10, MAX_OUTPUT_TOKENS))
+}
 
 function tKey(lang, title) {
   return createHash('sha1').update(`${lang}|${title}`).digest('hex')
@@ -528,10 +553,56 @@ function ciWarning(message) {
   console.log(process.env.GITHUB_ACTIONS ? `::warning title=Barrelman translation::${message}` : `  warning: ${message}`)
 }
 
+// The model is asked for the headline only. Strip stray wrapping quotes and
+// anything after the first line, and reject empty or runaway replies.
+function cleanTranslation(text, original) {
+  const line = String(text || '').trim().split('\n')[0].trim()
+  const unquoted = line.replace(/^["“'‘](.*)["”'’]$/, '$1').trim()
+  if (!unquoted || unquoted.length > original.length * 3 + 40) return ''
+  return unquoted
+}
+
+class StopTranslating extends Error {}
+
+async function translateOne(title) {
+  const res = await fetch(
+    `https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/ai/run/${TRANSLATE_MODEL}`,
+    {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${CF_AI_TOKEN}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        messages: [
+          { role: 'system', content: TRANSLATE_PROMPT },
+          { role: 'user', content: title },
+        ],
+        max_tokens: MAX_OUTPUT_TOKENS,
+        temperature: 0,
+      }),
+      signal: AbortSignal.timeout(30000),
+    },
+  )
+  const data = await res.json().catch(() => ({}))
+  const message = data.errors?.[0]?.message || `HTTP ${res.status}`
+  if (res.status === 401 || res.status === 403 || /authentication/i.test(message)) {
+    throw new StopTranslating(`Cloudflare rejected the Workers AI token (${message}).`)
+  }
+  if (res.status === 429 || /neuron|allocation|quota/i.test(message)) {
+    throw new StopTranslating(`Workers AI daily free allowance reached (${message}). Translation resumes after 00:00 UTC.`)
+  }
+  if (!res.ok || data.success === false) throw new Error(message)
+  const usage = data.result?.usage
+  const spent =
+    usage && Number.isFinite(usage.prompt_tokens) && Number.isFinite(usage.completion_tokens)
+      ? neurons(usage.prompt_tokens, usage.completion_tokens)
+      : estimateNeurons(title)
+  return { text: data.result?.response, spent }
+}
+
 // Translate non-English titles to English in place, storing the original as
-// originalTitle. Cached translations are applied first (so a title is only ever
-// sent to DeepL once, even across runs); without a key, cached hits still apply
-// and the rest stay in their original language, labelled by lang on the card.
+// originalTitle. Cached translations are applied first, so a title is only
+// ever sent once, even across runs. Without credentials, cached hits still
+// apply and the rest stay in their original language, labelled by lang on the
+// card.
 async function translateTitles(items, cache) {
   const nonEn = items.filter((it) => it.lang && it.lang !== 'en')
   const pending = []
@@ -546,9 +617,11 @@ async function translateTitles(items, cache) {
   }
   const fromCache = nonEn.length - pending.length
 
-  if (!DEEPL_KEY) {
-    console.log(`  DEEPL_API_KEY not set; ${fromCache} titles from cache, ${pending.length} left original.`)
-    if (process.env.GITHUB_ACTIONS) ciWarning('DEEPL_API_KEY is not set, so headlines were not translated.')
+  if (!CF_ACCOUNT_ID || !CF_AI_TOKEN) {
+    console.log(`  Workers AI credentials not set; ${fromCache} titles from cache, ${pending.length} left original.`)
+    if (process.env.GITHUB_ACTIONS) {
+      ciWarning('CLOUDFLARE_ACCOUNT_ID or CLOUDFLARE_AI_TOKEN is not set, so headlines were not translated.')
+    }
     return items
   }
   if (pending.length === 0) {
@@ -559,62 +632,56 @@ async function translateTitles(items, cache) {
   // Spend today's budget on the newest titles first. The rest keep their
   // original language and may be translated on a later run or day.
   const today = new Date().toISOString().slice(0, 10)
-  if (cache.translateUsage.day !== today) cache.translateUsage = { day: today, chars: 0 }
+  if (cache.translateUsage.day !== today) cache.translateUsage = { day: today, neurons: 0 }
+  const usage = cache.translateUsage
+  usage.neurons = usage.neurons || 0
   pending.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
   const affordable = []
-  let planned = cache.translateUsage.chars
+  let planned = usage.neurons
   for (const it of pending) {
-    if (planned + it.title.length > DAILY_CHAR_BUDGET) break
-    planned += it.title.length
+    const est = estimateNeurons(it.title)
+    if (planned + est > DAILY_NEURON_BUDGET) break
+    planned += est
     affordable.push(it)
   }
   const deferred = pending.length - affordable.length
   if (deferred > 0) {
-    console.log(`  daily budget: ${deferred} titles left original (${cache.translateUsage.chars}/${DAILY_CHAR_BUDGET} chars used today)`)
+    console.log(`  daily budget: ${deferred} titles left original (${Math.round(usage.neurons)}/${DAILY_NEURON_BUDGET} neurons used today)`)
   }
 
-  const BATCH = 40
   let translated = 0
   let failures = 0
-  for (let i = 0; i < affordable.length; i += BATCH) {
-    const batch = affordable.slice(i, i + BATCH)
-    try {
-      const res = await fetch(`${DEEPL_HOST}/v2/translate`, {
-        method: 'POST',
-        headers: {
-          Authorization: `DeepL-Auth-Key ${DEEPL_KEY}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ text: batch.map((b) => b.title), target_lang: 'EN-US' }),
-        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
-      })
-      if (res.status === 456) {
-        // Quota exceeded: every further batch would fail the same way.
-        failures += 1
-        ciWarning('DeepL quota exceeded (HTTP 456). Headlines stay in their original language until the DeepL month resets.')
-        break
-      }
-      if (!res.ok) throw new Error(`HTTP ${res.status}`)
-      // DeepL bills the characters sent, so count the batch once it is accepted.
-      cache.translateUsage.chars += batch.reduce((n, b) => n + b.title.length, 0)
-      const data = await res.json()
-      const out = data.translations || []
-      batch.forEach((item, idx) => {
-        const tr = out[idx]?.text
-        if (tr && tr.trim() && tr.trim() !== item.title) {
-          cache.translate[tKey(item.lang, item.title)] = tr.trim()
-          item.originalTitle = item.title
-          item.title = tr.trim()
-          translated += 1
+  let stopped = false
+  const limit = pLimit(4)
+  await Promise.all(
+    affordable.map((item) =>
+      limit(async () => {
+        if (stopped) return
+        try {
+          const { text, spent } = await translateOne(item.title)
+          usage.neurons += spent
+          const tr = cleanTranslation(text, item.title)
+          if (tr && tr !== item.title) {
+            cache.translate[tKey(item.lang, item.title)] = tr
+            item.originalTitle = item.title
+            item.title = tr
+            translated += 1
+          }
+        } catch (err) {
+          failures += 1
+          if (err instanceof StopTranslating) {
+            if (!stopped) ciWarning(err.message)
+            stopped = true
+          } else if (failures <= 3) {
+            ciWarning(`Workers AI translation failed: ${err.message}`)
+          }
         }
-      })
-    } catch (err) {
-      failures += 1
-      ciWarning(`DeepL translation batch failed: ${err.message}`)
-    }
-  }
+      }),
+    ),
+  )
+  if (failures > 3 && !stopped) ciWarning(`${failures} headline translations failed this run.`)
   console.log(
-    `  translated ${translated} new non-English titles (${fromCache} from cache, ${failures} failed batches, ${cache.translateUsage.chars}/${DAILY_CHAR_BUDGET} chars used today)`,
+    `  translated ${translated} new non-English titles (${fromCache} from cache, ${failures} failed, ${Math.round(usage.neurons)}/${DAILY_NEURON_BUDGET} neurons used today)`,
   )
   return items
 }
@@ -775,7 +842,7 @@ async function main() {
   verified.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
   console.log(`  ${verified.length} items passed verification`)
 
-  // Translate non-English titles to English (cached; no-op without a DeepL key).
+  // Translate non-English titles to English (cached; no-op without Workers AI credentials).
   await translateTitles(verified, cache)
   const nonEnCount = verified.filter((it) => it.lang && it.lang !== 'en').length
   const pct = verified.length ? Math.round((nonEnCount / verified.length) * 100) : 0
